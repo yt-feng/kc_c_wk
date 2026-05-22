@@ -30,7 +30,7 @@ def _extract_json(text: str) -> dict[str, Any]:
         raise
 
 
-def _chat(messages: list[dict[str, str]], timeout: int = 120) -> str:
+def _chat(messages: list[dict[str, str]], timeout: int = 180) -> str:
     api_key = os.getenv("DEEPSEEK_API_KEY")
     if not api_key:
         raise RuntimeError("DEEPSEEK_API_KEY is not set")
@@ -56,27 +56,33 @@ def _chat(messages: list[dict[str, str]], timeout: int = 120) -> str:
 
 def _compact_item(item: RawItem) -> dict[str, str]:
     return {
-        "title": item.title[:220],
+        "title": item.title[:260],
         "url": item.url[:500],
         "source_name": item.source_name[:120],
         "published_at": item.published_at[:60],
-        "summary": item.summary[:350],
+        "summary": item.summary[:500],
         "section_hint": item.section_hint[:40],
-        "query": item.query[:160],
+        "query": item.query[:180],
     }
 
 
 def _build_prompt(items: list[RawItem], start_label: str, end_label: str) -> list[dict[str, str]]:
     rules = "；".join([f"{name}{count}条" for name, count in SECTION_COUNTS.items()])
     payload = [_compact_item(x) for x in items]
-    system = "你是加密货币周刊编辑。只根据给定英文来源编译中文周刊，不得编造事实。只能输出严格 JSON。"
+    system = "你是加密货币周刊的资深中文编译编辑。只基于给定英文候选来源写作，不得编造。只能输出严格 JSON。"
     user = f"""
-请从候选资讯中为《加密货币观察》选择并编译最近三天的内容，统计窗口为 {start_label} 至 {end_label} 北京时间。
-栏目数量：{rules}。政策风向必须至少包含一条美国相关资讯。
-排除中文网站、中文来源、无法确认日期或与加密货币无关的内容。尽量分散来源网站。
+请从候选资讯中为《加密货币观察》选择并全文编译最近三天的内容。统计窗口：{start_label} 至 {end_label} 北京时间。
+栏目数量：{rules}。政策风向必须至少包含一条美国相关资讯。排除中文网站、中文来源、无法确认日期或与加密货币无关的内容；尽量分散来源网站。
 
-输出 JSON 对象格式：
-{{"items":[{{"section":"政策风向","title_cn":"中文标题","source_title":"英文原题","event_date":"YYYY-MM-DD","summary_cn":"事实摘要，120-220字","analysis_cn":"影响分析，80-160字","source_name":"来源","url":"URL","published_at":"发布时间","fact_check":"说明为什么该条可由来源支持"}}],"notes":["..."]}}
+写作要求：
+1. 每篇文章要按“编译稿”写成完整中文文章，不要写成摘要、要点或“简析”。
+2. 普通条目正文为 3-5 个自然段；【专题研究】为 5-8 个自然段。每段应围绕事实、背景、影响和后续观察展开。
+3. 只能使用候选条目中可支持的信息。没有来源支持的数字、机构、人物观点、时间和结论不得写入。
+4. 标题用中文重写，正文保持客观、专业、可读。事实核验字段说明该条由哪些来源字段支持。
+5. 同一事件只选一条；同一网站不要过度集中。
+
+输出 JSON 对象，字段必须为：
+{{"items":[{{"section":"政策风向","title_cn":"中文标题","source_title":"英文原题","event_date":"YYYY-MM-DD","lead_cn":"导语，80-140字","body_paragraphs":["正文第一段","正文第二段","正文第三段"],"source_name":"来源","url":"URL","published_at":"发布时间","fact_check":"说明为什么该条可由来源支持"}}],"notes":["..."]}}
 
 候选 JSON：
 {json.dumps(payload, ensure_ascii=False, separators=(",", ":"))}
@@ -110,7 +116,7 @@ def _section_score(item: RawItem, section: str) -> int:
 
 
 def _fallback(items: list[RawItem]) -> dict[str, Any]:
-    selected: list[dict[str, str]] = []
+    selected: list[dict[str, Any]] = []
     used_urls: set[str] = set()
     for section in SECTION_ORDER:
         ranked = sorted(items, key=lambda x: _section_score(x, section), reverse=True)
@@ -123,13 +129,18 @@ def _fallback(items: list[RawItem]) -> dict[str, Any]:
             if _section_score(item, section) <= 0 and item.section_hint != section:
                 continue
             used_urls.add(item.url)
+            lead = item.summary or item.title
             selected.append({
                 "section": section,
                 "title_cn": item.title,
                 "source_title": item.title,
                 "event_date": (item.published_at or "")[:10] or "-",
-                "summary_cn": (item.summary or item.title)[:260],
-                "analysis_cn": "自动草稿：该条由新闻标题、摘要和发布时间筛选得到，需人工复核后发布。",
+                "lead_cn": lead[:180],
+                "body_paragraphs": [
+                    (item.summary or item.title)[:300],
+                    "自动草稿：该条由新闻标题、摘要、来源和发布时间筛选得到。由于未调用模型进行全文编译，正文仅保留来源摘要和复核提示。",
+                    "发布前应打开原始链接核对事件时间、主体、数字和监管表述，并根据原文补充完整背景、影响和后续观察。",
+                ],
                 "source_name": item.source_name,
                 "url": item.url,
                 "published_at": item.published_at,
@@ -138,9 +149,22 @@ def _fallback(items: list[RawItem]) -> dict[str, Any]:
     return {"items": selected, "notes": ["DeepSeek 未配置或调用失败，已生成 fallback 草稿。"]}
 
 
+def _paragraphs_from_row(row: dict[str, Any]) -> list[str]:
+    raw = row.get("body_paragraphs")
+    if isinstance(raw, list):
+        paragraphs = [str(x).strip() for x in raw if str(x).strip()]
+    else:
+        paragraphs = []
+    if not paragraphs:
+        summary = str(row.get("summary_cn") or row.get("lead_cn") or "").strip()
+        analysis = str(row.get("analysis_cn") or "").strip()
+        paragraphs = [x for x in [summary, analysis] if x]
+    return paragraphs or ["-"]
+
+
 def normalize_report(data: dict[str, Any]) -> dict[str, Any]:
     rows = data.get("items") or []
-    clean: list[dict[str, str]] = []
+    clean: list[dict[str, Any]] = []
     for row in rows:
         if not isinstance(row, dict):
             continue
@@ -152,8 +176,8 @@ def normalize_report(data: dict[str, Any]) -> dict[str, Any]:
             "title_cn": str(row.get("title_cn") or row.get("title") or "-").strip(),
             "source_title": str(row.get("source_title") or "-").strip(),
             "event_date": str(row.get("event_date") or "-").strip(),
-            "summary_cn": str(row.get("summary_cn") or "-").strip(),
-            "analysis_cn": str(row.get("analysis_cn") or "-").strip(),
+            "lead_cn": str(row.get("lead_cn") or row.get("summary_cn") or "-").strip(),
+            "body_paragraphs": _paragraphs_from_row(row),
             "source_name": str(row.get("source_name") or "-").strip(),
             "url": str(row.get("url") or "-").strip(),
             "published_at": str(row.get("published_at") or "-").strip(),
