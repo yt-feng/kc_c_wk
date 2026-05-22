@@ -3,7 +3,8 @@ from __future__ import annotations
 REPORT_TITLE = "加密货币观察"
 SECTION_ORDER = ("政策风向", "行业前沿", "市场动态", "意见领袖", "专题研究")
 SECTION_COUNTS = {"政策风向": 3, "行业前沿": 2, "市场动态": 2, "意见领袖": 2, "专题研究": 1}
-US_TERMS = ("US", "U.S.", "United States", "SEC", "CFTC", "Treasury", "Federal Reserve", "Congress", "White House", "IRS", "FinCEN")
+TOTAL_ITEMS = sum(SECTION_COUNTS.values())
+US_TERMS = ("US", "U.S.", "United States", "America", "American", "SEC", "CFTC", "Treasury", "Federal Reserve", "Fed", "Congress", "White House", "IRS", "FinCEN")
 EXCLUDED_DOMAINS = ("8btc.com", "panewslab.com", "blockbeats.info", "odaily.news", "chaincatcher.com", "jinse.cn", "qq.com", "sina.com.cn", "163.com", "sohu.com", "baidu.com")
 USER_AGENT = "Mozilla/5.0 CryptoObserverBot"
 
