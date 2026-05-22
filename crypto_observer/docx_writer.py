@@ -1,26 +1,135 @@
 from __future__ import annotations
 
-from datetime import datetime
 from pathlib import Path
 from typing import Any
 
 from docx import Document
-from docx.enum.text import WD_ALIGN_PARAGRAPH
-from docx.shared import Pt
+from docx.enum.section import WD_SECTION_START
+from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_LINE_SPACING
+from docx.oxml.ns import qn
+from docx.shared import Cm, Pt
 
 from .config import REPORT_TITLE, SECTION_ORDER
 
+FONT_BODY = "宋体"
+FONT_HEADING = "黑体"
+FONT_LATIN = "Times New Roman"
 
-def _set_font(run, size: int = 11, bold: bool = False) -> None:
-    run.font.name = "Microsoft YaHei"
+
+def _set_run_font(run, east_asia: str = FONT_BODY, size: float = 12, bold: bool = False, italic: bool = False) -> None:
+    run.font.name = FONT_LATIN
+    run._element.rPr.rFonts.set(qn("w:eastAsia"), east_asia)
     run.font.size = Pt(size)
     run.bold = bold
+    run.italic = italic
 
 
-def _add_para(doc: Document, text: str, size: int = 11, bold: bool = False) -> None:
+def _format_paragraph(paragraph, *, first_line: bool = False, align: int | None = None, before: float = 0, after: float = 6) -> None:
+    fmt = paragraph.paragraph_format
+    fmt.space_before = Pt(before)
+    fmt.space_after = Pt(after)
+    fmt.line_spacing_rule = WD_LINE_SPACING.ONE_POINT_FIVE
+    if first_line:
+        fmt.first_line_indent = Pt(24)
+    if align is not None:
+        paragraph.alignment = align
+
+
+def _add_text(doc: Document, text: str, *, font: str = FONT_BODY, size: float = 12, bold: bool = False, first_line: bool = False, align: int | None = None, before: float = 0, after: float = 6) -> None:
     p = doc.add_paragraph()
-    run = p.add_run(text)
-    _set_font(run, size=size, bold=bold)
+    _format_paragraph(p, first_line=first_line, align=align, before=before, after=after)
+    r = p.add_run(text)
+    _set_run_font(r, east_asia=font, size=size, bold=bold)
+
+
+def _setup_document(doc: Document) -> None:
+    section = doc.sections[0]
+    section.top_margin = Cm(2.54)
+    section.bottom_margin = Cm(2.54)
+    section.left_margin = Cm(3.18)
+    section.right_margin = Cm(3.18)
+    styles = doc.styles
+    styles["Normal"].font.name = FONT_LATIN
+    styles["Normal"]._element.rPr.rFonts.set(qn("w:eastAsia"), FONT_BODY)
+    styles["Normal"].font.size = Pt(12)
+
+
+def _items_by_section(items: list[dict[str, Any]], section: str) -> list[dict[str, Any]]:
+    return [row for row in items if row.get("section") == section]
+
+
+def _body_paragraphs(row: dict[str, Any]) -> list[str]:
+    paragraphs = row.get("body_paragraphs")
+    if isinstance(paragraphs, list):
+        cleaned = [str(x).strip() for x in paragraphs if str(x).strip()]
+    else:
+        cleaned = []
+    if not cleaned:
+        for key in ("lead_cn", "summary_cn", "analysis_cn"):
+            value = str(row.get(key) or "").strip()
+            if value and value != "-":
+                cleaned.append(value)
+    return cleaned or ["-"]
+
+
+def _write_toc(doc: Document, items: list[dict[str, Any]]) -> None:
+    title = doc.add_paragraph()
+    _format_paragraph(title, align=WD_ALIGN_PARAGRAPH.CENTER, before=0, after=18)
+    r = title.add_run("目  录")
+    _set_run_font(r, east_asia=FONT_HEADING, size=16, bold=True)
+
+    for section in SECTION_ORDER:
+        p = doc.add_paragraph()
+        _format_paragraph(p, before=8, after=4)
+        r = p.add_run(f"【{section}】")
+        _set_run_font(r, east_asia=FONT_HEADING, size=12, bold=True)
+        rows = _items_by_section(items, section)
+        if not rows:
+            p = doc.add_paragraph()
+            _format_paragraph(p, after=2)
+            r = p.add_run("· 暂无满足自动筛选条件的资讯")
+            _set_run_font(r, east_asia=FONT_BODY, size=11)
+            continue
+        for row in rows:
+            p = doc.add_paragraph()
+            _format_paragraph(p, after=2)
+            r = p.add_run(f"· {row.get('title_cn', '-')}")
+            _set_run_font(r, east_asia=FONT_BODY, size=11)
+
+
+def _write_section_heading(doc: Document, section: str) -> None:
+    p = doc.add_paragraph()
+    _format_paragraph(p, before=0, after=12)
+    r = p.add_run(f"【{section}】")
+    _set_run_font(r, east_asia=FONT_HEADING, size=16, bold=True)
+
+
+def _write_article(doc: Document, row: dict[str, Any]) -> None:
+    title = str(row.get("title_cn") or "-").strip()
+    p = doc.add_paragraph()
+    _format_paragraph(p, before=4, after=8)
+    r = p.add_run(title)
+    _set_run_font(r, east_asia=FONT_HEADING, size=14, bold=True)
+
+    lead = str(row.get("lead_cn") or "").strip()
+    if lead and lead != "-":
+        _add_text(doc, lead, font=FONT_BODY, size=12, first_line=True, after=6)
+
+    for paragraph in _body_paragraphs(row):
+        if paragraph == lead:
+            continue
+        _add_text(doc, paragraph, font=FONT_BODY, size=12, first_line=True, after=6)
+
+    source_name = str(row.get("source_name") or "-").strip()
+    source_title = str(row.get("source_title") or "-").strip()
+    published = str(row.get("published_at") or row.get("event_date") or "-").strip()
+    url = str(row.get("url") or "-").strip()
+    source_line = f"（信息来源：{source_name}；发布时间：{published}）"
+    _add_text(doc, source_line, font=FONT_BODY, size=10.5, align=WD_ALIGN_PARAGRAPH.CENTER, after=2)
+    if source_title and source_title != "-":
+        _add_text(doc, f"原文标题：{source_title}", font=FONT_BODY, size=9, after=1)
+    if url and url != "-":
+        _add_text(doc, f"原文链接：{url}", font=FONT_BODY, size=9, after=10)
 
 
 def write_docx(report: dict[str, Any], output_path: str | Path, metadata: dict[str, Any] | None = None) -> Path:
@@ -30,75 +139,27 @@ def write_docx(report: dict[str, Any], output_path: str | Path, metadata: dict[s
     path.parent.mkdir(parents=True, exist_ok=True)
 
     doc = Document()
-    styles = doc.styles
-    styles["Normal"].font.name = "Microsoft YaHei"
-    styles["Normal"].font.size = Pt(11)
+    _setup_document(doc)
 
-    title = doc.add_paragraph()
-    title.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    run = title.add_run(f"《{REPORT_TITLE}》周刊")
-    _set_font(run, size=18, bold=True)
-
-    subtitle = doc.add_paragraph()
-    subtitle.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    generated_at = metadata.get("generated_at") or datetime.now().strftime("%Y-%m-%d %H:%M")
-    period = metadata.get("period") or "最近三天"
-    run = subtitle.add_run(f"统计区间：{period}；生成时间：{generated_at}")
-    _set_font(run, size=10)
-
-    doc.add_paragraph()
-    toc = doc.add_paragraph()
-    run = toc.add_run("目录")
-    _set_font(run, size=14, bold=True)
-    for section in SECTION_ORDER:
-        for row in items:
-            if row.get("section") == section:
-                p = doc.add_paragraph(style=None)
-                r = p.add_run(f"· {row.get('title_cn', '-')}")
-                _set_font(r, size=10)
-
+    _write_toc(doc, items)
     doc.add_page_break()
+
+    first_section = True
     for section in SECTION_ORDER:
-        heading = doc.add_paragraph()
-        r = heading.add_run(f"【{section}】")
-        _set_font(r, size=15, bold=True)
-        section_rows = [row for row in items if row.get("section") == section]
-        if not section_rows:
-            _add_para(doc, "暂无满足自动筛选条件的资讯。", size=11)
+        if not first_section:
+            doc.add_section(WD_SECTION_START.NEW_PAGE)
+        first_section = False
+        _write_section_heading(doc, section)
+        rows = _items_by_section(items, section)
+        if not rows:
+            _add_text(doc, "暂无满足自动筛选条件的资讯。", size=12, first_line=True)
             continue
-        for idx, row in enumerate(section_rows, start=1):
-            p = doc.add_paragraph()
-            r = p.add_run(str(row.get("title_cn") or "-"))
-            _set_font(r, size=13, bold=True)
-            _add_para(doc, str(row.get("summary_cn") or "-"), size=11)
-            analysis = str(row.get("analysis_cn") or "").strip()
-            if analysis:
-                _add_para(doc, "简析：" + analysis, size=11)
-            src = row.get("source_name") or "-"
-            date = row.get("published_at") or row.get("event_date") or "-"
-            url = row.get("url") or "-"
-            _add_para(doc, f"信息来源：{src}；发布时间：{date}\nURL：{url}", size=9)
-            fc = str(row.get("fact_check") or "").strip()
-            if fc:
-                _add_para(doc, "事实核验：" + fc, size=9)
-            if idx != len(section_rows):
+        for idx, row in enumerate(rows, start=1):
+            _write_article(doc, row)
+            if idx != len(rows):
                 doc.add_paragraph()
 
-    notes = report.get("notes") or []
-    fact = metadata.get("factcheck") or {}
-    doc.add_page_break()
-    h = doc.add_paragraph()
-    r = h.add_run("自动运行与核验摘要")
-    _set_font(r, size=14, bold=True)
-    _add_para(doc, f"原始候选数：{metadata.get('raw_count', '-')}", size=10)
-    _add_para(doc, f"入选条目数：{len(items)}", size=10)
-    _add_para(doc, f"Fact check OK：{fact.get('ok', '-')}", size=10)
-    for msg in fact.get("errors", [])[:20]:
-        _add_para(doc, "错误：" + str(msg), size=9)
-    for msg in fact.get("warnings", [])[:20]:
-        _add_para(doc, "提醒：" + str(msg), size=9)
-    for msg in notes[:20]:
-        _add_para(doc, "备注：" + str(msg), size=9)
-
+    doc.core_properties.title = f"{REPORT_TITLE}周刊"
+    doc.core_properties.subject = str(metadata.get("period") or "最近三天")
     doc.save(path)
     return path
