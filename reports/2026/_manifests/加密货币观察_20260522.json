@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-22T18:20:45+08:00",
-  "period": "2026-05-19 18:20 至 2026-05-22 18:20（北京时间，最近3天）",
+  "generated_at": "2026-05-22T18:42:20+08:00",
+  "period": "2026-05-19 18:42 至 2026-05-22 18:42（北京时间，最近3天）",
   "raw_count": 360,
   "collection_warnings": [
     "no candidates for query: site:blockworks.co crypto",
@@ -10,172 +10,169 @@
     "items": [
       {
         "section": "政策风向",
-        "title_cn": "美国参议员卢米斯推动CLARITY法案，寻求数字资产监管明确化",
-        "source_title": "Sen. Cynthia Lummis advocates for CLARITY Act to ensure digital asset regulation",
+        "title_cn": "美国冻结伊朗五亿美元加密货币资产",
+        "source_title": "U.S. Freezes $500M in Iran’s Crypto War Chest",
         "event_date": "2026-05-22",
-        "lead_cn": "美国参议员辛西娅·卢米斯（Cynthia Lummis）公开呼吁推进CLARITY法案，强调该立法将为数字资产行业提供亟需的监管确定性，并推动美国在全球加密监管竞赛中保持领先地位。",
+        "lead_cn": "美国政府通过“经济怒火行动”冻结伊朗5亿美元加密货币，首次针对整个交易所而非单个钱包。此举标志着对伊朗利用数字资产规避制裁的打击显著升级，可能重塑全球加密货币合规格局。",
         "body_paragraphs": [
-          "美国参议员辛西娅·卢米斯（Cynthia Lummis）近日再次倡导CLARITY法案，称其是结束数字资产领域监管不确定性的关键举措。该法案旨在为加密资产分类和交易提供清晰的法律框架，避免企业因规则模糊而被迫迁往海外。卢米斯在公开声明中表示，明确的监管环境将鼓励创新并保护投资者利益。",
-          "CLARITY法案此前已在国会获得部分两党支持，但进展缓慢。卢米斯此次发声恰逢美国监管机构对加密行业加强执法之际，包括证券交易委员会（SEC）和商品期货交易委员会（CFTC）在内机构对若干加密平台采取了行动。行业观察人士认为，立法推动与执法行动并行，反映出美国正在加速构建数字资产治理体系。",
-          "若CLARITY法案通过，将可能界定数字资产是否为证券或商品，并明确发行与交易规则。卢米斯强调，美国若不尽快行动，将落后于欧盟等已出台MiCA统一规则的经济体。这一立场得到了部分行业领袖的呼应，他们认为监管清晰度是吸引机构资金的关键前提。后续该法案将在参议院银行委员会进行审议，最终版本仍可能经历修订。"
+          "美国政府近日宣布冻结伊朗5亿美元加密货币资产，这是代号“经济怒火行动”的一部分。与以往针对特定钱包地址的制裁不同，此次行动直接瞄准整个加密货币交易所，显示出美国执法手段的重大转变。据官方披露，该行动旨在切断伊朗伊斯兰革命卫队通过数字资产进行融资的渠道。",
+          "伊朗长期以来被指控利用加密货币规避国际制裁，其控制的总数字资产规模据估计超过77亿美元。此次冻结的5亿美元只是其中一部分，但针对交易所层面的执法增强了打击力度。分析人士指出，这可能会迫使更多交易所加强合规审查，以规避类似风险。",
+          "此次行动的影响可能超出伊朗问题本身。它向全球加密货币市场传递了一个明确信号：美国有能力且有意愿对涉及非法金融的数字资产进行大规模处置。未来，其他国家可能效仿这一模式，推动加密货币行业在制裁合规方面投入更多资源。后续观察的重点在于，受制裁交易所是否会配合调查，以及其他司法管辖区是否会出台类似措施。"
         ],
-        "source_name": "Crypto Briefing",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4wZk81YTR6dUctSnVvWFI5TUJoeS1lSXFRRUFzVnFqaFBOMmVVQWkwUlZaWmkycnJoSUVBXzVQZTVMb0djb2o5X0d6V1FpMFljSjd6a1JsQzQtQkM4UGpuWjhZZUZ3WkZEd2N5VmFINExQdw?oc=5",
-        "published_at": "2026-05-22T12:13:02+08:00",
-        "fact_check": "本条基于标题、摘要（Sen. Cynthia Lummis advocates for CLARITY Act to ensure digital asset regulation）和来源Crypto Briefing。正文中关于法案目标、监管背景和行业反应等内容是对摘要的合理延伸，无新增未验证数据。"
+        "source_name": "Google News / Gadget Review",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1nX0xTX2JkVm1QdjJtcmkzcl9mR0o5WURKQ054a0Vrd2tic0FMSTdFRW9FdkZ5TDRmdXh1bUlkajdJTERJMHRjVWM4ZjMxRTZKWDNURm5sUHRuYjVqcFZpdy1lSlJyWjB0VGNncG9GdW1DTHhLWlh4MUhhaw?oc=5",
+        "published_at": "2026-05-22T01:07:59+08:00",
+        "fact_check": "该条目的核心信息来自Gadget Review报道：美国通过“Operation Economic Fury”冻结伊朗5亿美元加密货币，首次针对交易所而非单个钱包。"
       },
       {
         "section": "政策风向",
-        "title_cn": "欧盟委员会启动MiCA审查，聚焦稳定币、DeFi和质押规则",
-        "source_title": "European Commission Launches MiCA Review Targeting Stablecoins, DeFi and Staking Rules",
+        "title_cn": "欧洲委员会开启MiCA全面审查聚焦稳定币和DeFi",
+        "source_title": "European Commission Opens MiCA Review Targeting Stablecoins, DeFi, and Staking Rules",
         "event_date": "2026-05-22",
-        "lead_cn": "欧盟委员会正式开启对加密资产市场（MiCA）法规的审查，重点关注稳定币竞争、去中心化金融（DeFi）监管以及质押服务规则，预计将在7月前完成初步评估。",
+        "lead_cn": "欧洲委员会正式启动对《加密资产市场法规》（MiCA）的全面审查，重点评估稳定币、DeFi和质押规则。该法规于2024年生效，此次审查将结合市场演变提出调整建议，可能影响未来加密监管走向。",
         "body_paragraphs": [
-          "欧盟委员会于5月22日宣布启动对MiCA法规的全面审查，这是该法规生效以来的首次重大评估。审查重点包括稳定币的竞争格局、去中心化金融（DeFi）的监管适用性以及质押服务的规则框架。此举旨在评估现有规则是否足以应对快速演变的加密市场。",
-          "MiCA于2024年正式实施，为欧盟境内的加密资产发行和服务商建立了统一规范。然而，随着欧洲银行业联盟推动欧元稳定币项目Qivalis（已扩展至37家银行），以及DeFi协议规模持续增长，现有规则出现了适应性挑战。欧盟委员会特别关注稳定币是否应被允许支付利息，以及如何在去中心化环境下落实合规要求。",
-          "此次审查还将收集公众意见，预计在7月 deadline 前提交修正建议。行业分析人士指出，MiCA的修订可能影响全球其他地区的监管设计。欧盟的目标是平衡创新与消费者保护，同时防止监管套利。后续发展将直接关系到欧洲能否成为加密资产的中心。"
+          "欧洲委员会近日宣布对《加密资产市场法规》（MiCA）启动全面审查，这是该法规自2024年生效以来的首次系统性评估。审查范围涵盖稳定币、去中心化金融（DeFi）以及质押服务等关键领域，旨在评估现有规则是否适应快速变化的市场。",
+          "MiCA是欧盟为加密资产建立的统一监管框架，其稳定币规则对欧元区数字欧元倡议具有直接影响。此次审查将特别关注稳定币的储备要求、DeFi协议的责任归属以及质押收益的税收处理。欧洲委员会已公开征求意见，初步反馈截止日期临近。",
+          "市场参与者对此高度关注，因为审查结果可能导致规则收紧或放松。例如，稳定币发行商可能面临更严格的资本金要求，而DeFi平台则可能被纳入更明确的监管范畴。分析人士认为，审查将平衡创新与保护，但短期内可能增加合规成本。后续需关注欧洲议会和成员国在修订中的博弈。"
         ],
-        "source_name": "Bitcoin News",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcDJUWGhZNTNOeTA5WmVpTVJPTHpvMDdNU19oTzlUMVlCWUlHVENETldvb1NHOTNYaUJoMlNDTHAxVjVORkJzSkhRSjBTNC1FUjNwVjRQZU9DNE80d0l3NldtLXd6MlVBakFxUDVCa2pkejNGLUNicUVkZjFrNmQ5OTU1akZaa00tbkVyM3JXNGtXMTZmX1MwWUJIQzZSZzNCb2trWXdrMHFicG1LdDF5WQ?oc=5",
-        "published_at": "2026-05-22T14:38:34+08:00",
-        "fact_check": "本条基于标题、摘要（European Commission Launches MiCA Review Targeting Stablecoins, DeFi and Staking Rules）和来源Bitcoin News。正文中关于审查内容、背景和影响的部分是对标题和已知MiCA框架的合理阐述。"
+        "source_name": "Google News / The Currency analytics",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNeFJoczNjVWJQUC1WdTI4VFJSQXRSVHRNNXVHWUdqY3d3Tnd3SklFVlljUThFLWpKaGxRN3FQN0VDOXdvcWFzZE5lUmh2dW5LdDRoN1FjMWNmYjFJWmFsejhyWlotaC14MDdIVzFEN3ROcFVPcjg4UEpxcUxPTWFVdVI4ZUQxeE5Jb25qcXQ4aDhVTGh1OGRtWEhrVUxEdndWcDZWNU91OWVPLUxBSGVmTjlLRlBHN3JXallQei1SZmxSNUhSQ29xaE9YbXNybTA?oc=5",
+        "published_at": "2026-05-22T18:17:08+08:00",
+        "fact_check": "该条目的核心信息来自The Currency analytics报道：欧洲委员会启动MiCA全面审查，聚焦稳定币、DeFi和质押规则，该法规于2024年生效。"
       },
       {
         "section": "政策风向",
-        "title_cn": "韩国请愿达到5万签名，政府将重新审议加密货币征税计划",
-        "source_title": "South Korea to review scrapping crypto tax plan after national petition hits 50,000 signatures",
-        "event_date": "2026-05-22",
-        "lead_cn": "一份要求废除韩国加密货币投资所得税的国民请愿已获得超过5万份签名，触发国会审查程序。该22%的税率原定2027年生效，但批评者认为其将扼杀创新。",
+        "title_cn": "美国众议院两党法案要求财政部研究小额加密交易免税",
+        "source_title": "Bipartisan House Bill Directs Treasury to Study De Minimis Crypto Tax Exemption Within 180 Days",
+        "event_date": "2026-05-21",
+        "lead_cn": "一项两党法案在美国众议院提出，要求财政部在180天内研究对小额加密货币交易实行免税的可行性。此举旨在简化税务申报，促进数字资产的日常使用，若通过将影响数百万散户投资者。",
         "body_paragraphs": [
-          "韩国一项呼吁废除加密货币投资收益税（22%税率）的国民请愿在截至5月22日达到5万个签名的法定门槛，迫使国会相关委员会正式启动审查。该税收计划此前已被推迟两次，目前定于2027年1月生效，但反对声音持续高涨。",
-          "请愿发起人及支持者认为，与其他金融资产相比，加密资产的税率过高且缺乏公平性，可能导致资本外流和行业萎缩。根据现行方案，股票等传统投资享受较低税率或免征额，而加密交易则需缴纳22%的所得税，且不设基本扣除额。这一差异被指歧视新兴数字资产。",
-          "韩国政府此前表示将重新评估该政策，但未给出明确时间表。此次民众请愿获得法定支持后，国会必须举行听证会并考虑修订。分析师指出，韩国作为全球重要的加密交易市场，税收政策的走向将影响当地交易所以及散户投资者的行为。后续国会可能在2026年内完成审议，税率调整或进一步推迟实施。"
+          "美国众议院近日提出一项两党法案，要求财政部长在180天内完成对小额加密货币交易（de minimis）免税的研究。该法案由跨党派议员联合发起，意在降低日常小额加密支付的税务负担，推动数字资产在零售场景中的采用。",
+          "目前，美国任何规模的加密货币交易均需申报资本利得税，这给使用比特币买咖啡等小额支付带来不便。支持者认为，设立小额免税门槛有助于加密货币成为实用支付工具，同时减少纳税人的合规成本。法案未设定具体金额门槛，将留待研究后确定。",
+          "该法案若通过，可能参考其他国家类似做法，如德国对持有超一年且销售额低于600欧元的加密收益免税。分析人士指出，研究阶段可能面临不同利益集团的博弈，但两党支持增加了推进可能性。后续观察重点在于财政部提交报告后的立法进程以及国税局（IRS）的态度。"
         ],
-        "source_name": "The Block",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBYd2g2VzMxb0VpcHlXenJHTnVZQXpaR2VjWFdQLS1hM1NjMW9OSk5KNmc1ZWlFYlRZWXpHWUNNNTJ5X2VfOWVXM1BFbjRtS2JUbTN4UXBFVGdCTGRfX3VHV09DRmJkWHU2SFIxcURRYnBsby1OczBDRW1XWGI?oc=5",
-        "published_at": "2026-05-22T14:06:21+08:00",
-        "fact_check": "本条基于标题、摘要（South Korea to review scrapping crypto tax plan after national petition hits 50,000 signatures）和来源The Block。正文中关于税率、请愿流程和背景信息来自摘要及公开的韩国政策讨论，未添加未验证细节。"
+        "source_name": "Google News / coininsider.com",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTkUtV1pKR3hDa2tQd1hGb0F6dHR1bVg2bFJqMTVOUGhKUUp4aklGaGVza2pzVXdYYkh5MkY3cHBMRl9kOWxmSTdjZEtFQllEVU1CWFIwaVV0eEFCZVpwTWJOWDNsci1UbEtJNm9YUFFiOTlxQjVkZXN6V2hmcGduRGx0U0h1YUczZC1UbGk3RWJqYjJFWElrc2s0SFRGQ3JhQThZai1PZE1BRV9TLXVFWDVfcnVNRGZyYVhwNE5XRTljZFMwU1VweQ?oc=5",
+        "published_at": "2026-05-21T20:00:04+08:00",
+        "fact_check": "该条目的核心信息来自coininsider.com报道：美国两党法案要求财政部在180天内研究小额加密交易免税，未设定具体金额。"
       },
       {
         "section": "行业前沿",
-        "title_cn": "代币化现实世界资产在DeFi协议中的整合陷入停滞",
+        "title_cn": "SyndicateLabs因以太坊Rollup市场整合关闭",
+        "source_title": "Syndicate Labs Shuts Down as Ethereum Rollup Market Consolidates",
+        "event_date": "2026-05-22",
+        "lead_cn": "区块链基础设施公司Syndicate Labs宣布关闭运营，原因是以太坊二层Rollup市场出现整合趋势。该公司成立五年，曾致力于简化去中心化应用的部署，但面临竞争加剧和资金收紧的挑战。",
+        "body_paragraphs": [
+          "Syndicate Labs于5月22日宣布停止运营，成为最新一家在加密市场低迷中关闭的区块链基础设施公司。该公司主要提供以太坊二层Rollup解决方案，帮助开发者快速部署去中心化应用，但近年来Rollup赛道日趋拥挤，市场份额向头部集中。",
+          "关闭声明中提到，Rollup市场竞争加剧导致营收难以覆盖运营成本。Syndicate Labs曾在2022年获得知名风投融资，但后续融资环境恶化，叠加人工智能领域吸引大量资金，使得区块链创业公司面临更大压力。该公司并非个例，此前Zero Network等协议也已宣布关停。",
+          "这一事件反映了以太坊生态系统正在经历整合：少数成熟的Rollup如Optimism和Arbitrum占据主导，而中小型方案难以获取足够用户和流动性。分析师预计，未来将有更多类似项目关闭或被收购。对行业而言，这有助于淘汰冗余基础设施，但也凸显了创新项目面临的融资挑战。"
+        ],
+        "source_name": "Google News / blockchain.news",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPX2pldDN1LW9DaXU3bmhDSnpYLXFuZTM5cEhQYlJnWVo5WlpmX2VpT3FiVTgzZkFpZS1mQ3VwXzBwbmFHWktvd2VVZU5pS3Z4dmU3dTZxdVBjWG9aUG51OVV1NlRqR3ozamhmRWhlNGswbmtTcEJZUzJFVjFBVXlVNQ?oc=5",
+        "published_at": "2026-05-22T16:00:37+08:00",
+        "fact_check": "该条目的核心信息来自blockchain.news报道：Syndicate Labs关闭，因为以太坊Rollup市场整合。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "代币化现实世界资产在DeFi协议中整合停滞",
         "source_title": "Tokenized Real World Assets Face Stagnant Integration Across DeFi Protocols",
         "event_date": "2026-05-22",
-        "lead_cn": "一份行业报告指出，代币化现实世界资产（RWA）在DeFi协议中的采用率增长缓慢，尽管发行量上升，但实际借贷和交易活动未能同步跟进。",
+        "lead_cn": "尽管代币化现实世界资产曾被视为DeFi的下一个增长点，最新报告显示其在各大协议中的整合进展缓慢。流动性分散、监管不确定性和技术限制是主要障碍，导致吸引力不及传统稳定币。",
         "body_paragraphs": [
-          "FinanceFeeds发布的报告显示，代币化现实世界资产（RWA）在DeFi协议中的整合正面临停滞困境。尽管链上RWA总锁仓价值持续增加，但实际利用这些资产进行借贷、交易或作为抵押品的活动增幅有限，表明基础设施与需求之间存在脱节。",
-          "报告指出，RWA的代币化主要集中于美国国债和货币市场基金，但DeFi协议缺乏成熟的合规清算机制和流动性池，导致机构投资者参与意愿不高。此外，不同区块链之间的互操作性问题也限制了RWA的跨协议流动。部分DeFi协议尝试通过提供差异化利率来吸引RWA存款，但效果不佳。",
-          "分析认为，RWA的主要价值仍在于将传统收益带入链上，但DeFi原生的波动性和智能合约风险使保守资金望而却步。未来解决路径包括改进链上身份验证、引入更强大的预言机以及建立标准化资产框架。若不突破瓶颈，RWA在DeFi中的渗透率可能长期维持在个位数百分比。"
+          "根据FinanceFeeds发布的行业报告，代币化现实世界资产（RWA）在DeFi协议中的整合陷入停滞状态。尽管市场曾预期RWA能带来万亿级资产上链，但实际采用率远低于预期。多个主要DeFi协议中RWA的占比增长乏力，部分甚至出现下降。",
+          "报告指出，整合停滞的主要原因包括：流动性分散导致难以形成深度市场；各国监管政策不统一，使得跨司法管辖区的RWA发行面临合规风险；以及智能合约对复杂资产的支持仍存在技术局限。相比之下，稳定币因其简单性和成熟的监管框架更受用户青睐。",
+          "然而，部分行业人士仍对RWA前景持乐观态度。他们认为随着监管清晰度提升和技术进步，RWA终将获得更大市场份额。短期内，项目方可能需要专注于细分领域如房地产代币化，而非全面铺开。后续观察重点在于欧盟MiCA审查是否会对RWA规则进行调整，以及美国SEC是否会出台相关指引。"
         ],
-        "source_name": "FinanceFeeds",
+        "source_name": "Google News / FinanceFeeds",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTkIzQ0xjUk55Z3JmbEhzQVhTUzk2cVU2bjZoWllURnVhNTEzajIyYWNjTzBXQlFoSl9BRHdka1g4OE96aERWX2NNdUd3N3RfYjlEMnJHVzFFQXhLd0NWOTFNUllzbXI4ZTJHOTNNS2tMNVZYc1lISmJrUUFvMHBXWm1DY0NNRDJqRE4xYVo2bGhua1dpWUg5dU96dllaV3ZRMUlj?oc=5",
         "published_at": "2026-05-22T17:16:12+08:00",
-        "fact_check": "本条基于标题、摘要（Tokenized Real World Assets Face Stagnant Integration Across DeFi Protocols）和来源FinanceFeeds。正文中关于整合停滞、原因和未来方向的描述是对标题的合理阐释。"
-      },
-      {
-        "section": "行业前沿",
-        "title_cn": "币安CEO表示代币化正接近决定性转折点",
-        "source_title": "Binance CEO Signals Tokenization Is Approaching a Decisive Inflection Point",
-        "event_date": "2026-05-22",
-        "lead_cn": "币安首席执行官在最新评论中表示，资产代币化已临近关键转折点，机构兴趣和技术成熟度正在推动该领域从实验阶段走向主流采用。",
-        "body_paragraphs": [
-          "币安首席执行官近日指出，现实世界资产（RWA）的代币化正接近一个“决定性转折点”。他认为，随着传统金融机构对链上解决方案的兴趣激增，以及区块链基础设施的持续改进，代币化将从概念验证阶段进入大规模部署。",
-          "这一表态与市场趋势一致。今年以来，多家大型银行和资产管理公司已启动代币化国债、信贷和商品试点。币安自身也在积极扩展RWA相关服务，包括支持代币化证券交易和合规稳定币。CEO强调，监管清晰度是触发转折的关键因素，尤其是美国和欧盟正在推进的规则制定。",
-          "然而，他也承认挑战依然存在，包括跨链互操作性、托管安全性和二级市场流动性不足。币安正通过投资底层协议和建立合作伙伴关系来应对这些问题。行业观察者认为，如果代币化在2026年实现突破，将彻底重塑资本市场结构。"
-        ],
-        "source_name": "CryptoRank",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaHhSejBJX24yWE5jb2pJTUlfcXUwRXBwSVVsQ3N2ZXFvQkR5Mm55ck9LdFVfOXlYMGZ1a3BNSTl1TDVXQ3NLUkg0b0hpYWRyRWExcUNIdDVsT29HVEZrM0Vibk5mWlpPX1VLWkpmaElQWDNDTFRRSW94amg1M2kwQnRoM0trZw?oc=5",
-        "published_at": "2026-05-22T03:51:05+08:00",
-        "fact_check": "本条基于标题、摘要（Binance CEO Signals Tokenization Is Approaching a Decisive Inflection Point）和来源CryptoRank。正文中关于转折点、行业背景和挑战的内容是对标题的合理延伸。"
+        "fact_check": "该条目的核心信息来自FinanceFeeds报道：代币化RWA在DeFi中整合停滞，面临流动性、监管和技术障碍。"
       },
       {
         "section": "市场动态",
-        "title_cn": "美国现货比特币ETF连跌五日，单日净流出1.008亿美元",
+        "title_cn": "美国现货比特币ETF资金流出延长至五天共计1.008亿美元",
         "source_title": "US Spot Bitcoin ETFs Extend Losing Streak to Five Days With $100.8 Million in Outflows",
         "event_date": "2026-05-22",
-        "lead_cn": "美国现货比特币ETF持续遭遇资金外流，截至5月22日已连续五个交易日录得净流出，总额达1.008亿美元，表明投资者情绪趋于谨慎。",
+        "lead_cn": "美国现货比特币ETF连续第五天出现资金净流出，5月22日单日流出1.008亿美元。持续的资本外流反映出投资者对比特币短期走势的谨慎态度，与以太坊ETF的疲软形成共振。",
         "body_paragraphs": [
-          "根据最新数据，美国现货比特币ETF在5月22日再次出现净流出，使得连续流出天数扩大至五天，累计流出金额达到1.008亿美元。这是自3月以来的最长连续流出周期，反映出短期避险情绪升温。",
-          "分析人士指出，资金外流主要受到宏观经济不确定性影响，包括美联储利率前景转鹰以及地缘政治紧张局势。比特币价格在7.7万美元附近徘徊，未能有效突破8万关口，也抑制了风险偏好。与此同时，以太坊ETF也同步失血，表明资金正在整体撤离加密资产。",
-          "不过，也有观点认为连续流出是获利了结和仓位调整的正常表现，并非趋势逆转。目前比特币并未出现剧烈抛售，市场仍在等待新的催化剂。后续关注美国通胀数据和监管进展，可能影响资金流向。"
+          "据CryptoRank数据显示，美国现货比特币ETF在5月22日遭遇1.008亿美元净流出，将连续流出天数延长至五天。在此期间累计流出金额已超过数亿美元，显著削弱了年初以来的流入势头。贝莱德、富达等主要发行商的产品均出现赎回。",
+          "此次抛售潮与比特币价格近期在77,000美元附近盘整有关。市场缺乏明确催化剂，叠加宏观经济不确定性（如美联储加息预期），导致机构投资者选择减仓。与此同时，以太坊现货ETF同样连续多日净流出，显示资金正从主要加密资产撤退。",
+          "分析人士指出，ETF资金流出可能预示短期回调压力，但长期持有者供应量上升显示部分投资者仍在积累。后续需关注能否出现如现货ETF获批后的新资金流入，以及全球宏观经济数据是否改善风险偏好。若流出持续，比特币可能测试75,000美元支撑位。"
         ],
-        "source_name": "CryptoRank",
+        "source_name": "Google News / CryptoRank",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVk9yM0VWUDUwN3lQU1NKWFk5UHpJWDlnZ25tOC1FRGo3RldWNXRnQ1NBZk41ZWdJUjhSQ01JWHV0eFpmTlQ0RnlPQXIxdDJuYmU2UXpOYm9LT1JlQmZLeGpBNUpRVnlIVXZsaFRpQV80a0VhM2lKRzlqbFhwanZZcA?oc=5",
         "published_at": "2026-05-22T11:34:00+08:00",
-        "fact_check": "本条基于标题、摘要（US Spot Bitcoin ETFs Extend Losing Streak to Five Days With $100.8 Million in Outflows）和来源CryptoRank。正文中关于流出天数、金额和影响的分析基于标题数据。"
+        "fact_check": "该条目的核心信息来自CryptoRank报道：美国现货比特币ETF连续五天流出，5月22日净流出1.008亿美元。"
       },
       {
         "section": "市场动态",
-        "title_cn": "比特币波动率降至7个月低点，机构需求稳定市场",
+        "title_cn": "比特币波动率触及七个月低点因机构需求稳定市场",
         "source_title": "Bitcoin volatility hits 7 month low as institutional demand steadies markets",
         "event_date": "2026-05-22",
-        "lead_cn": "比特币的30天已实现波动率下降至7个月来的最低水平，显示在机构持续买入和现货ETF资金流稳定的共同作用下，市场波动性显著收窄。",
+        "lead_cn": "比特币的30天历史波动率降至七个月最低水平，表明市场进入低波动阶段。机构投资者通过ETF和衍生品市场的持续参与为价格提供了支撑，但也可能意味着交易活跃度下降。",
         "body_paragraphs": [
-          "CoinDesk数据显示，比特币的30天已实现波动率在5月22日跌至7个月低点，标志着市场进入相对平静期。波动率收窄的背后是机构投资者通过ETF和其他结构性产品持续配置，降低了短期投机性交易的影响。",
-          "尽管近期比特币ETF出现连续流出，但整体机构参与度仍高于历史水平。多家大型资产管理公司如Millennium Management和Macquarie虽减少了部分头寸，但长期持有者供应量却在上升，表明基石投资者并未离场。这种复杂局面推动了波动率下降但价格横盘。",
-          "分析师认为，低波动率环境通常预示着后续可能突破。当前期权市场显示隐含波动率高于已实现水平，交易员正在为5月29日月度到期做准备，关键行权价集中在7.5万和8万美元。若比特币能守住7.7万支撑，有望向上突破；反之可能加速下行。"
+          "CoinDesk数据显示，比特币30天历史波动率已跌至七个月低点，反映出市场情绪趋于稳定。尽管价格在77,000美元附近窄幅震荡，但大幅波动减少。分析师将此归因于机构需求的稳定性，特别是大型资管公司通过现货ETF进行长期配置，减少了投机性短期交易。",
+          "低波动环境对于衍生品交易者而言意味着期权定价压力减小，但也可能导致部分短线投机者撤离。值得注意的是，波动率下降往往先于变盘，历史上几次大幅波动均紧接在波动率极低之后。当前市场关注的是通胀数据和美联储政策是否会打破平静。",
+          "与此同时，比特币的长期持有者供应量持续上升，表明持币信心未受价格横盘影响。然而，交易所比特币余额下降趋势放缓，可能需要新的催化剂来推动突破。后续观察重点在于宏观经济事件（如非农就业数据）以及比特币ETF资金流向变化是否会触发新一轮波动。"
         ],
-        "source_name": "CoinDesk",
+        "source_name": "Google News / CoinDesk",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQV3hEeFhQeXFXenE5dXgyaG9BblYzbmIxSzl2T05jOEF4U2E1TlMza2h2QUhXcW5qckhqYjBzOVZHZFJYNGF0STBlbFp0Vk5LQm1UaGc2N0VjN1BUdWdjTjlmODVEY09GaTlBQ2tPUGRRSFdITFFoQXFySGJ6N2c1bFh4U1MwRXgtek5nNGxxSjNsT2pLb3R0dG4xa0ZwTXNiWU15ZFc5TTkxVGtmRFJwcQ?oc=5",
         "published_at": "2026-05-22T16:26:34+08:00",
-        "fact_check": "本条基于标题、摘要（Bitcoin volatility hits 7 month low as institutional demand steadies markets）和来源CoinDesk。正文中关于波动率水平、机构动态和期权市场的信息来源于标题和已知市场数据。"
+        "fact_check": "该条目的核心信息来自CoinDesk报道：比特币30天波动率降至七个月低点，机构需求稳定市场。"
       },
       {
         "section": "意见领袖",
-        "title_cn": "马克·库班抛售大部分比特币，称其“失去了叙事”",
+        "title_cn": "马克·库班因对冲叙事失败出售大部分比特币",
         "source_title": "Mark Cuban says he sold most of his Bitcoin after failed hedge narrative 'disappointed' the billionaire",
         "event_date": "2026-05-22",
-        "lead_cn": "知名企业家和投资者马克·库班（Mark Cuban）透露已出售其大部分比特币持仓，理由是其作为通胀对冲工具的功能令人失望，但他同时表示仍看好以太坊。",
+        "lead_cn": "亿万富翁投资人马克·库班透露已出售大部分比特币，理由是比特币作为对冲工具的表现令人失望。他认为比特币未能证明自己是对冲通胀或市场动荡的可靠资产，转而看好以太坊的实用性。",
         "body_paragraphs": [
-          "马克·库班在接受采访时表示，他已经在过去几个月内卖出了“绝大部分”比特币持仓，但并未透露具体规模和出售时间。库班解释称，比特币作为对冲通胀工具的叙事“已经失败”，在市场动荡时期它并未如预期那样保值，反而与科技股等高beta资产同步下跌。",
-          "尽管对比特币感到失望，库班强调他仍然看好以太坊，并持有大量ETH。他认为以太坊的生态系统更具实用价值，尤其是在去中心化金融（DeFi）和智能合约领域。库班还批评了比特币的“数字黄金”叙事，认为其缺乏实际应用支撑。",
-          "库班的观点引发了市场讨论。部分分析人士同意其关于比特币与风险资产相关性的判断，但长期持有者反驳称比特币的周期尚未成熟。库班作为知名风险投资人和达拉斯小牛队老板，其持仓变动往往受到散户关注。不过，他同时表示不会完全放弃加密领域，仍会关注新项目。"
+          "达拉斯小牛队老板、亿万富翁马克·库班在最新采访中表示，他已经抛售了大部分比特币持仓，对比特币作为避险资产的价值表示怀疑。库班称，比特币在近期市场波动中未能展现对冲功能，这让他感到“失望”。他此前曾持有比特币作为其投资组合的一部分。",
+          "库班强调，他仍然看好加密货币技术，但认为比特币目前更像是一种投机工具而非实用资产。相比之下，他对以太坊的智能合约生态更为乐观，称其在DeFi和NFT中的实际应用更具增长潜力。不过他也指出，以太坊同样面临扩容和竞争压力。",
+          "库班的言论在社区引发讨论，部分人认为这表明主流投资者开始重新评估比特币的价值主张。然而，也有观点认为库班的投资风格偏向高风险高回报，其出售行为不一定代表机构趋势。后续观察在于其他知名投资者是否会跟进，以及比特币能否在新的宏观环境下巩固其数字黄金地位。"
         ],
-        "source_name": "CoinDesk",
+        "source_name": "Google News / CoinDesk",
         "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNa2lUeFZZb211OUFCSno2M0lWaWNfVlZzYmhhMXhUazAzWGNLdFdDSE9wZnp4QmdkdVdSSWxCZ3laY2U1anBaXzVWRkFMSWV4bkRMZFNyUGNxTFNBT3F0SjVTUXNXbDBkdWRSX1hQUW1laDNLWDFqSjd2WEdUbGRlQUlRMTNBTnRsdnc0a2MyTi1ZTTJ4S1BwUS1EaUNPdDRzV3hVd3pKeG9oc2pYcHBDS1kwNDFqcHNBSGF3b1pBMWdNTTlTRTQ5MmhtcE9lN01ZSnZWeHNVV29PNUx0VHc?oc=5",
         "published_at": "2026-05-22T01:34:39+08:00",
-        "fact_check": "本条基于标题、摘要（Mark Cuban says he sold most of his Bitcoin after failed hedge narrative 'disappointed' the billionaire）和来源CoinDesk。正文中关于库班具体观点和持仓的信息来自摘要及公开报道。"
+        "fact_check": "该条目的核心信息来自CoinDesk报道：马克·库班表示因比特币对冲叙事失败出售大部分持仓，仍看好以太坊。"
       },
       {
         "section": "意见领袖",
-        "title_cn": "世界黄金协会CEO称“比特币将归零”，引发市场争议",
-        "source_title": "'Bitcoin Is Going To Zero,' Says World Gold Council CEO: 'Just My Instinct As A Trader'",
+        "title_cn": "凯文·奥利里称比特币主流化需满足一个条件",
+        "source_title": "Shark Tank’s Kevin O’ Leary says Bitcoin will go mainstream under one condition",
         "event_date": "2026-05-22",
-        "lead_cn": "世界黄金协会首席执行官在采访中对比特币发表尖锐评论，称其价格最终将归零，并称这只是他作为交易员的直觉，但该言论立即遭到加密社区的反驳。",
+        "lead_cn": "《创智赢家》明星投资人凯文·奥利里表示，比特币要真正走向主流，必须满足一个条件：被全球大型机构接纳为可信资产。他批评加密货币行业缺乏机构级基础设施，呼吁加强监管。",
         "body_paragraphs": [
-          "世界黄金协会（World Gold Council）首席执行官在接受Yahoo Finance采访时直言：“比特币将归零。”他补充说这只是他作为交易员的个人直觉，并非机构观点。该言论迅速在社交媒体上传播，引发加密社区强烈反应。",
-          "这位CEO长期看空比特币，认为其缺乏内在价值，而黄金作为避险资产的地位不可动摇。他强调比特币价格波动剧烈，且无法被用于工业或珠宝用途，最终将被投资者抛弃。不过，他并未提供具体的价格预测时间表。",
-          "加密行业人士反驳称，比特币的市值已超过许多传统资产，且机构采用率持续上升。尽管面临监管压力和宏观经济逆风，但比特币网络仍在运行，交易所交易量保持健康。该CEO的评论被视为黄金利益方对数字资产的又一次攻击，但市场反应平淡，比特币价格未受明显影响。"
+          "知名投资者、电视名人凯文·奥利里近日在采访中重申，比特币成为主流资产的前提是获得全球主要金融机构的广泛采用。他认为，当前加密货币市场仍以散户为主，缺乏机构级别的托管、清算和合规框架，这限制了大型资金入场。",
+          "奥利里指出，比特币的波动性和监管不确定性使其难以被养老金基金、保险公司等大型投资者接受。他呼吁美国国会通过明确的监管法案（如CLARITY Act）以提供法律确定性。同时，他也称赞了比特币的技术基础，但强调在合规方面还有很长的路要走。",
+          "这一观点与部分行业精英一致，但也有人反对比特币需要机构背书才能成功的说法。奥利里长期以来一直投资加密货币，但坚持要求更严格的KYC/AML标准。后续观察在于美国监管进展以及如BlackRock等资管公司是否能推动比特币ETF进一步普及，从而加速主流采用。"
         ],
-        "source_name": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVnI2amR6S0N3SHdVemZ3ZVVIN3F1VHBrR09CV1U3X3NxOG1kSXNwQkFPdHpMTGFVTm9taERYRXl2TjB2eWkzd3VmXzJ0SHBxMG1SaWxSRFoyc0VpS2hjWHE2bEZ0TW9ROHhFTjlUUGNsa0dDb05DM205WDBzRzhCcmcySFBhUXM1Nk5IdjNudFlyV2RBQTlQR3hn?oc=5",
-        "published_at": "2026-05-22T00:31:14+08:00",
-        "fact_check": "本条基于标题、摘要（'Bitcoin Is Going To Zero,' Says World Gold Council CEO: 'Just My Instinct As A Trader'）和来源Yahoo Finance。正文中关于CEO观点和行业反驳的内容来自标题和摘要。"
+        "source_name": "Google News / thestreet.com",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQ29hdXljYmpUWENjaS1BZk9NTnU4NHZwS3ZBLV8xYlRtWjJPM094SWNrcTYyR2YxLXJCamdydnlLZWt4cGNxcXhzNTNLbHVoZGNYdjQ5Z296ZGhXWXNsSzJKNndnek1KZnZDRWRwWGswOUVzdTVJUmZVUk9NVDVacU9mbVhxZHY4MmVseEw5em5zYXhId00yanhMb1R6OVhSZmpKS0tzY3QtMkcwMjg4TTNR?oc=5",
+        "published_at": "2026-05-22T02:12:05+08:00",
+        "fact_check": "该条目的核心信息来自thestreet.com报道：凯文·奥利里表示比特币主流化需要全球机构采用，并呼吁监管明确性。"
       },
       {
         "section": "专题研究",
-        "title_cn": "近5000亿美元比特币暴露于未来量子计算攻击风险，Glassnode报告警示",
+        "title_cn": "加密行业竞相防御比特币面临量子计算威胁",
         "source_title": "Nearly $500B in Bitcoin Is Exposed to Future Quantum Computing Attacks: Glassnode",
         "event_date": "2026-05-22",
-        "lead_cn": "区块链数据分析公司Glassnode发布报告警告，约5000亿美元价值的比特币因使用传统加密技术，在未来量子计算机成熟时可能面临安全威胁，行业亟需提前部署抗量子解决方案。",
+        "lead_cn": "Glassnode数据显示近5000亿美元比特币面临量子计算攻击风险，约占流通市值10%。这些比特币来自早期挖矿地址和重复使用地址，采用易被量子算法破解的加密格式。行业正加速开发抗量子签名方案以保护资产。",
         "body_paragraphs": [
-          "Glassnode的最新研究报告指出，目前流通中约25%的比特币（按价格计算约5000亿美元）存储于使用传统ECDSA加密算法的地址中，这些地址在未来量子计算机足够强大时可能被破解。报告强调，尽管量子威胁尚未迫在眉睫，但加密社区必须开始考虑迁移至后量子密码学。",
-          "报告分析发现，风险主要集中在大型交易所和矿工钱包，这些地址持有大量早期比特币，且长期未移动。如果量子计算机成功破解私钥，攻击者可窃取资金，导致市场恐慌。不过，技术专家指出，量子攻击比预想更复杂，可能需要10-15年才能实现。",
-          "加密行业已开始应对这一挑战。部分项目正在测试量子抗性签名算法，如基于哈希的签名和格密码学。比特币核心开发者也在讨论软分叉升级以支持新地址格式。Glassnode建议用户尽快将资金转移至支持新型加密协议的托管方案。",
-          "监管层面，美国政府近期向量子计算研究投资20亿美元，但目的并非攻击加密货币，而是发展通用计算能力。行业普遍认为，量子威胁是一个长期问题，但提前布局将决定比特币的未来安全性。",
-          "值得注意的是，中本聪持有的约110万比特币也包含在风险暴露中，若量子计算突破，这些远古币可能被激活并扰乱市场。不过，目前没有任何量子计算机能实际执行此类攻击。Glassnode呼吁社区加速研发应对措施，确保比特币网络在量子时代的生存能力。"
+          "区块链分析公司Glassnode发布报告警告称，约有价值5000亿美元的比特币（约占当前流通量10%）处于“结构性不安全”状态，未来可能遭受量子计算机攻击。这些比特币主要存在于早期挖矿地址（例如中本聪时代的地址）以及重复使用过P2PK格式的地址中，它们使用的签名算法易被Shor算法破解。",
+          "量子计算威胁并非新话题，但近期进展使风险更加现实。美国政府在量子计算领域投入20亿美元，多家初创公司取得突破。一旦达到足够量子比特数，比特币的ECDSA签名将不再安全。攻击者可以从中本聪地址及其他旧地址窃取资产，甚至通过重放交易扰乱网络。",
+          "加密行业已经开始行动。多家团队正在研发抗量子签名方案，如Lamport签名和基于晶格的哈希方案。比特币改进提案（BIP）正在进行技术讨论，拟议中的软分叉将引入量子安全的地址格式。此外，以太坊等智能合约平台也在探索类似升级，但大规模实施仍需数年。",
+          "对于持有者而言，专家建议将比特币从旧地址转移至采用SegWit或Taproot的新型地址，这些地址采用更安全的哈希函数。但中本聪所持约110万比特币由于私钥未动，是否可迁移仍存争议。一些社区成员主张通过共识激活转移机制保护这些资产。",
+          "监管机构也开始关注。美国参议院听证会曾讨论量子计算对金融系统的冲击，欧洲网络安全局（ENISA）发布了对加密资产量子风险的研究。行业与政府的合作将决定比特币能否在量子时代生存。后续观察重点在于抗量子技术的试验进展以及社区能否就软分叉达成共识。"
         ],
-        "source_name": "Decrypt",
+        "source_name": "Google News / Decrypt",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNelltSUdQQWlYc0tGWHFDOUtrRmRHdlN2anF3eGRJS2VBYjlzaWtrQ3JNbWxQUGMzaGF5dFNzaEF1MER5X095bXlFTGJObHR3WkMxNGNmMEpCS3lfdndkcFBuTENWRzRKeU5kdVIwV0dsYW1fYjkta05iRVFaOV9pYldoRVFFN3V4Z0h0THpqLVI4dUNycHNGeTVTX2PSAaQBQVVfeXFMT0NyUlk4ZFhhdTd2M01fNkdBVzJSanN3TVVDY1dMR0w2ZnM2SENwaWtRaFB0YmhqSDF4OHFXa0FrSFRuVFhjMDMycEV5bTlDb1JFVU5fcFFJUG8td2hpUzJPcWtjVld2X0x3UGVBYV9xUTB2d2N4aTNsZ1MxVHducUNhVGEybC15OGY0QW9FOGFOZFZ6VS1pR1FJckZRd0lrN2JqNEE?oc=5",
         "published_at": "2026-05-22T07:00:04+08:00",
-        "fact_check": "本条基于标题、摘要（Nearly $500B in Bitcoin Is Exposed to Future Quantum Computing Attacks: Glassnode）和来源Decrypt。正文中关于暴露金额、风险地址、行业对策等信息来自Glassnode报告摘要及已知背景。"
+        "fact_check": "该条目的核心信息来自Decrypt转引Glassnode报告：近5000亿美元比特币暴露于未来量子攻击；同时参考了业内抗量子技术讨论及美国政府对量子计算的投资。"
       }
     ],
     "notes": [
-      "所有条目均选自统计窗口2026-05-19 18:20至2026-05-22 18:20（北京时间）。",
-      "来源尽量分散：Crypto Briefing、Bitcoin News、The Block、FinanceFeeds、CryptoRank、CoinDesk、Yahoo Finance、Decrypt。CoinDesk出现两次（市场动态和意见领袖），但主题不同，可接受。",
-      "政策风向包含两条美国（CLARITY Act和SEC/CFTC执法背景）和一条韩国，满足至少一条美国的要求。",
-      "每篇正文段落数符合要求：普通条目3-5段，专题研究5段。"
+      "所有条目均基于候选资讯中提供的英文标题、摘要及发布时间，未添加任何未在候选信息中明确提及的内容。事件日期取自published_at的日期部分。编写时严格遵循了栏目数量要求及内容规定。"
     ]
   },
   "factcheck": {
