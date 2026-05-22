@@ -14,6 +14,8 @@ from .sources import RawItem
 LOGGER = logging.getLogger(__name__)
 DEFAULT_MODEL = "deepseek-v4-flash"
 DEFAULT_BASE_URL = "https://api.deepseek.com"
+TITLE_SPLIT_RE = re.compile(r"[，,；;：:—–-]+")
+COUNTRY_WORDS = ("美国", "韩国", "英国", "日本", "欧盟", "印度", "泰国", "新加坡", "香港", "澳大利亚", "加拿大", "巴西", "法国", "德国")
 
 
 def _extract_json(text: str) -> dict[str, Any]:
@@ -78,8 +80,9 @@ def _build_prompt(items: list[RawItem], start_label: str, end_label: str) -> lis
 1. 每篇文章要按“编译稿”写成完整中文文章，不要写成摘要、要点或“简析”。
 2. 普通条目正文为 3-5 个自然段；【专题研究】为 5-8 个自然段。每段应围绕事实、背景、影响和后续观察展开。
 3. 只能使用候选条目中可支持的信息。没有来源支持的数字、机构、人物观点、时间和结论不得写入。
-4. 标题用中文重写，正文保持客观、专业、可读。事实核验字段说明该条由哪些来源字段支持。
-5. 同一事件只选一条；同一网站不要过度集中。
+4. 标题必须是单句直接表述，不采用“两句式标题”。标题中不要使用逗号、冒号、分号、破折号来拆成前后两句。
+5. 标题写成“主体 + 动作 + 对象/结果”的一句话，例如“美国参议员卢米斯推动CLARITY法案明确数字资产监管”“韩国政府将重新审议加密货币征税计划”。
+6. 同一事件只选一条；同一网站不要过度集中。
 
 输出 JSON 对象，字段必须为：
 {{"items":[{{"section":"政策风向","title_cn":"中文标题","source_title":"英文原题","event_date":"YYYY-MM-DD","lead_cn":"导语，80-140字","body_paragraphs":["正文第一段","正文第二段","正文第三段"],"source_name":"来源","url":"URL","published_at":"发布时间","fact_check":"说明为什么该条可由来源支持"}}],"notes":["..."]}}
@@ -115,6 +118,37 @@ def _section_score(item: RawItem, section: str) -> int:
     return score
 
 
+def clean_title(title: str) -> str:
+    """Convert comma/colon two-part headlines into one direct sentence."""
+    value = re.sub(r"\s+", "", str(title or "")).strip(" ，,；;：:。.!！?？—–-")
+    if not value:
+        return "-"
+    value = re.sub(r"（[^）]{1,20}）", "", value)
+    value = re.sub(r"\([^)]{1,30}\)", "", value)
+    parts = [p for p in TITLE_SPLIT_RE.split(value) if p]
+    if len(parts) >= 2:
+        first, second = parts[0], "".join(parts[1:])
+        country = next((c for c in COUNTRY_WORDS if c in first), "")
+        if second.startswith("政府") and country:
+            value = country + second
+        elif second.startswith(("将", "拟", "计划", "重新", "继续", "开始", "考虑", "寻求")) and country and len(first) <= 18:
+            value = country + second
+        elif second.startswith("寻求"):
+            value = first + second.replace("寻求", "", 1)
+        elif second.startswith("旨在"):
+            value = first + second.replace("旨在", "", 1)
+        elif second.startswith("以"):
+            value = first + second.replace("以", "", 1)
+        else:
+            value = first + second
+    value = TITLE_SPLIT_RE.sub("", value)
+    value = value.replace("明确化", "明确")
+    value = value.replace("寻求数字资产监管明确", "明确数字资产监管")
+    value = value.replace("寻求监管明确", "明确监管")
+    value = value.strip(" ，,；;：:。.!！?？—–-")
+    return value or "-"
+
+
 def _fallback(items: list[RawItem]) -> dict[str, Any]:
     selected: list[dict[str, Any]] = []
     used_urls: set[str] = set()
@@ -132,7 +166,7 @@ def _fallback(items: list[RawItem]) -> dict[str, Any]:
             lead = item.summary or item.title
             selected.append({
                 "section": section,
-                "title_cn": item.title,
+                "title_cn": clean_title(item.title),
                 "source_title": item.title,
                 "event_date": (item.published_at or "")[:10] or "-",
                 "lead_cn": lead[:180],
@@ -171,9 +205,10 @@ def normalize_report(data: dict[str, Any]) -> dict[str, Any]:
         section = str(row.get("section", "")).strip()
         if section not in SECTION_ORDER:
             continue
+        raw_title = str(row.get("title_cn") or row.get("title") or "-").strip()
         clean.append({
             "section": section,
-            "title_cn": str(row.get("title_cn") or row.get("title") or "-").strip(),
+            "title_cn": clean_title(raw_title),
             "source_title": str(row.get("source_title") or "-").strip(),
             "event_date": str(row.get("event_date") or "-").strip(),
             "lead_cn": str(row.get("lead_cn") or row.get("summary_cn") or "-").strip(),
