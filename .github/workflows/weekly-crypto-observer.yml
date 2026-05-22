@@ -1,0 +1,91 @@
+name: Weekly Crypto Observer
+
+on:
+  schedule:
+    - cron: "0 6 * * 3"
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Lookback days; default is 3"
+        required: false
+        default: "3"
+      strict:
+        description: "1 to fail on fact-check errors, 0 to write draft"
+        required: false
+        default: "1"
+
+permissions:
+  contents: write
+
+jobs:
+  generate_report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      TZ: Asia/Shanghai
+      DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+      DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL || 'deepseek-v4-flash' }}
+      CRYPTO_OBSERVER_DAYS: ${{ github.event.inputs.days || '3' }}
+      CRYPTO_OBSERVER_STRICT: ${{ github.event.inputs.strict || '1' }}
+      CRYPTO_OBSERVER_OUTPUT_ROOT: reports
+      CRYPTO_OBSERVER_MAX_RAW_ITEMS: "360"
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Generate Crypto Observer report
+        run: python -m crypto_observer.main --days "$CRYPTO_OBSERVER_DAYS" --output-root "$CRYPTO_OBSERVER_OUTPUT_ROOT"
+      - name: Upload report artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: crypto-observer-report
+          path: |
+            reports/**/*.docx
+            reports/**/_manifests/*.json
+          if-no-files-found: warn
+      - name: Commit generated report
+        if: success()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! find reports -type f \( -name "*.docx" -o -path "*/_manifests/*.json" \) | grep -q .; then
+            echo "No report files generated."
+            exit 0
+          fi
+          tmp_dir="$(mktemp -d)"
+          mkdir -p "$tmp_dir/reports"
+          cp -a reports/. "$tmp_dir/reports/"
+          commit_msg="chore: add Crypto Observer report $(date +'%Y-%m-%d')"
+          for attempt in 1 2 3; do
+            echo "Commit attempt $attempt"
+            git fetch origin main
+            git reset --hard origin/main
+            mkdir -p reports
+            cp -a "$tmp_dir/reports/." reports/
+            git add reports
+            if git diff --cached --quiet; then
+              echo "No report changes to commit."
+              exit 0
+            fi
+            git commit -m "$commit_msg"
+            if git push origin HEAD:main; then
+              echo "Pushed generated report."
+              exit 0
+            fi
+            echo "Push rejected, retrying after refreshing origin/main."
+            sleep 5
+          done
+          echo "Failed to push generated report after retries."
+          exit 1
