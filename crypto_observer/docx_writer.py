@@ -122,10 +122,9 @@ def _write_article(doc: Document, row: dict[str, Any]) -> None:
 
     source_name = str(row.get("source_name") or "-").strip()
     source_title = str(row.get("source_title") or "-").strip()
-    published = str(row.get("published_at") or row.get("event_date") or "-").strip()
     url = str(row.get("url") or "-").strip()
-    source_line = f"（信息来源：{source_name}；发布时间：{published}）"
-    _add_text(doc, source_line, font=FONT_BODY, size=10.5, align=WD_ALIGN_PARAGRAPH.CENTER, after=2)
+    source_line = f"（信息来源：{source_name}）"
+    _add_text(doc, source_line, font=FONT_BODY, size=10.5, align=WD_ALIGN_PARAGRAPH.RIGHT, after=2)
     if source_title and source_title != "-":
         _add_text(doc, f"原文标题：{source_title}", font=FONT_BODY, size=9, after=1)
     if url and url != "-":
