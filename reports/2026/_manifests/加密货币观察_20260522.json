@@ -1,0 +1,162 @@
+{
+  "generated_at": "2026-05-22T17:42:04+08:00",
+  "period": "2026-05-19 17:42 至 2026-05-22 17:42（北京时间，最近3天）",
+  "raw_count": 360,
+  "collection_warnings": [
+    "no candidates for query: site:blockworks.co crypto",
+    "no candidates for query: site:bis.org crypto stablecoin"
+  ],
+  "report": {
+    "items": [
+      {
+        "section": "政策风向",
+        "title_cn": "参议员卢米斯推动CLARITY法案以确保数字资产监管",
+        "source_title": "Sen. Cynthia Lummis advocates for CLARITY Act to ensure digital asset regulation",
+        "event_date": "2026-05-22",
+        "summary_cn": "美国参议员Cynthia Lummis公开支持CLARITY法案，该法案旨在为数字资产提供明确的监管框架。她强调，缺乏清晰的法律指导会导致美国在数字资产创新领域落后于欧洲和中国。CLARITY法案试图界定加密资产是商品还是证券，并赋予CFTC更大监管权限。Lummis指出，清晰的规则将保护投资者并促进创新。",
+        "analysis_cn": "该法案若通过，将终结美国加密货币监管的长期不确定性，利好合规交易所和市场参与者，可能引发新一轮机构入场。但立法过程面临多方博弈，短期内法案前景仍存变数。",
+        "source_name": "Crypto Briefing",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4wZk81YTR6dUctSnVvWFI5TUJoeS1lSXFRRUFzVnFqaFBOMmVVQWkwUlZaWmkycnJoSUVBXzVQZTVMb0djb2o5X0d6V1FpMFljSjd6a1JsQzQtQkM4UGpuWjhZZUZ3WkZEd2N5VmFINExQdw?oc=5",
+        "published_at": "2026-05-22T12:13:02+08:00",
+        "fact_check": "来源文章标题和内容明确提及Lummis advocating for CLARITY Act及她对美国落后的警告。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "欧盟委员会启动MiCA审查，聚焦稳定币、DeFi和质押规则",
+        "source_title": "European Commission Launches MiCA Review Targeting Stablecoins, DeFi and Staking Rules",
+        "event_date": "2026-05-22",
+        "summary_cn": "欧盟委员会正式启动对《加密资产市场法》（MiCA）的审查，重点评估稳定币、去中心化金融（DeFi）和质押服务的现有规则。审查将征求公众意见，旨在调整监管以适应市场发展，尤其是应对欧元稳定币项目的兴起和DeFi风险。此举是欧盟在加密监管领域保持领先的努力之一。",
+        "analysis_cn": "MiCA审查可能收紧稳定币发行要求，限制DeFi杠杆，短期增加合规成本，但长期看有助于建立统一市场标准，巩固欧洲在全球加密监管的领先地位。",
+        "source_name": "Bitcoin News",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcDJUWGhZNTNOeTA5WmVpTVJPTHpvMDdNU19oTzlUMVlCWUlHVENETldvb1NHOTNYaUJoMlNDTHAxVjVORkJzSkhRSjBTNC1FUjNwVjRQZU9DNE80d0l3NldtLXd6MlVBakFxUDVCa2pkejNGLUNicUVkZjFrNmQ5OTU1akZaa00tbkVyM3JXNGtXMTZmX1MwWUJIQzZSZzNCb2trWXdrMHFicG1LdDF5WQ?oc=5",
+        "published_at": "2026-05-22T14:38:34+08:00",
+        "fact_check": "来源文章标题和摘要明确提到European Commission launching MiCA review targeting stablecoins, DeFi and staking rules。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "印度加密货币监管与虚拟数字资产政策最新动态",
+        "source_title": "Latest Updates On India Crypto Regulation And VDA Policy",
+        "event_date": "2026-05-22",
+        "summary_cn": "印度政府正考虑对虚拟数字资产（VDA）实施更严格的税收和披露规则，包括要求纳税人在所得税申报中披露加密交易记录。此外，印度央行（RBI）仍对加密货币持谨慎态度，但最高法院的一些判决促使监管框架加速制定。业界呼吁明晰法规以促进创新。",
+        "analysis_cn": "印度作为重要新兴市场，其监管走向将影响全球加密流动性格局。严格税收可能抑制本地交易，但明确的监管框架有助于吸引合规机构。",
+        "source_name": "Bitcoin World",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORXU1SjlOVTFlb3BrcWZMVTFmaS1Sd1VlcG12R2VvNWtsOFJEcWpYVUJIb05CSnEzQ1pXbFJ4VlRROU1YUnBIVXk2WTBVd1huSGZKdjEyVGxBUTJwZWFUQnFtSHZMYXdBazNWU09lWTBPdUhKTEhwbWxhWmtYeG1PZA?oc=5",
+        "published_at": "2026-05-22T15:20:27+08:00",
+        "fact_check": "来源文章汇总了印度近期监管动态，包括税收披露要求。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "Chainlink保障协议总价值超过1100亿美元",
+        "source_title": "Chainlink secures over $110B in total value across protocols",
+        "event_date": "2026-05-22",
+        "summary_cn": "Chainlink宣布其去中心化预言机网络目前保障了超过1100亿美元的总价值（TVS），涵盖DeFi、保险、游戏等多个领域。这一里程碑反映了市场对可靠链下数据源的需求持续增长，也巩固了Chainlink作为行业标准预言机提供商的地位。",
+        "analysis_cn": "TVS增长表明Chainlink的跨链互操作性和数据可靠性被大规模验证，将激励更多传统金融资产上链，推动RWA代币化进程。同时，竞争性预言机项目面临更大压力。",
+        "source_name": "Crypto Briefing",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE14eEI5MERkZUw0UC14Q3E4RnowM2x5RjA2ODNqUTVqanVaOUVkWlNTeFBHMTNvR1h4ZFVZWWx4allSUTNnTVRJcUxnNDNLczFuTkx1SFBKNEtQeWd4Tl9YcDdWYm5iZFd5akVSOEtfUQ?oc=5",
+        "published_at": "2026-05-22T00:36:44+08:00",
+        "fact_check": "来源报道直接引用Chainlink官方数据，TVS超过110B。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "美国智能合约跨越炒作期，机构交易量突破8500亿美元",
+        "source_title": "Smart Contracts in America Move Past Hype as Institutional Volume Crosses 850 Billion",
+        "event_date": "2026-05-22",
+        "summary_cn": "报告显示，美国智能合约平台上处理的机构级交易量已超过8500亿美元，标志着该技术从实验阶段进入主流应用。主要驱动力包括代币化国债、机构级DeFi产品以及企业区块链解决方案的普及。多家传统金融机构已开始部署智能合约。",
+        "analysis_cn": "机构交易量激增表明智能合约已获得传统金融认可，可能加速美国监管机构推出更友好的指导方针，进一步扩大市场。但需关注网络拥堵和安全风险。",
+        "source_name": "MEXC Exchange",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5GNkUwcU1aalhhTlR2THU2NElEMEcyeThqNnZIeFoyVGVRZERjdlFyMzVXbDJaelJFd3pRNVp4Tkh3OVpCTTEw?oc=5",
+        "published_at": "2026-05-22T15:09:31+08:00",
+        "fact_check": "来源文章标题和内容均提及机构交易量超8500亿美元。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "美国现货比特币ETF连续五天净流出，单日流出1.008亿美元",
+        "source_title": "US Spot Bitcoin ETFs Extend Losing Streak To Five Days With $100.8 Million In Outflows",
+        "event_date": "2026-05-22",
+        "summary_cn": "数据显示，美国现货比特币ETF已连续五个交易日出现资金外流，5月21日净流出1.008亿美元。投资者情绪受宏观不确定性（如美联储加息预期）和比特币价格窄幅震荡影响，转向避险资产。自本周初以来，累计流出已超20亿美元。",
+        "analysis_cn": "持续流出表明短期看空情绪占优，可能压制比特币价格。但历史上ETF流出后常伴随反弹，需关注是否有抄底资金入场。",
+        "source_name": "Bitcoin World",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE94aTZHaU5Banp3clBVZURlZmdrRXRWb0RIQWR3T0dybm8xV0xnYkNLRmVkWWVKclJ5YWhWUjZQVUtQajJfRE1zeTJkSlA?oc=5",
+        "published_at": "2026-05-22T10:55:11+08:00",
+        "fact_check": "来源文章明确报告了五天流出和具体金额。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "HYPE代币创历史新高突破60美元，华尔街对Hyperliquid需求激增",
+        "source_title": "HYPE token sets new record high above $60 amid rising Wall Street demand for Hyperliquid",
+        "event_date": "2026-05-21",
+        "summary_cn": "Hyperliquid生态代币HYPE价格突破60美元，创历史新高，周涨幅超47%。推动因素包括Hyperliquid相关ETF吸引大量机构资金，以及Bitwise等资管公司发布看涨报告。HYPE ETF自推出以来累计净流入超2500万美元。",
+        "analysis_cn": "HYPE逆势上涨显示市场对高吞吐量衍生品平台的追捧，可能吸引更多L1/L2项目效仿推出ETF产品。但价格波动剧烈，需注意追高风险。",
+        "source_name": "The Block",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVDM2b0Z2NllvUkZvUnRZa2w5VTh6SUYwZUt3dThUc1JsRnVwYlBWNUpGVE1CR21tQUJkcUV4LWRycUtES0NBUEtSbEVuNkcyMGFWU0hFZzEtT25oREV2OThvVVpnM2ZmeXJ1bWNBR0RLNlZLaGdBLUM5bjlqTHJGdUZLVnR0U0NxaXYzUEJMY3NiNEliTjU4SQ?oc=5",
+        "published_at": "2026-05-21T23:17:52+08:00",
+        "fact_check": "来源报道HYPE新高、ETF流入及机构需求。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "马克·库班称已抛售大部分比特币，对冲叙事失败“令人失望”",
+        "source_title": "Mark Cuban says he sold most of his Bitcoin after failed hedge narrative 'disappointed' the billionaire",
+        "event_date": "2026-05-22",
+        "summary_cn": "知名投资人马克·库班表示他已出售大部分比特币持仓，理由是其作为通胀对冲工具的叙事已被证伪。他指出比特币价格与科技股高度相关，未能实现“数字黄金”功能。不过库班仍看好以太坊，认为其更实用。",
+        "analysis_cn": "库班的抛售可能加剧短期市场恐慌，但他的观点也反映部分机构对比特币叙事重新评估。若更多大佬跟进，可能动摇比特币长期持有信心。",
+        "source_name": "CoinDesk",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNa2lUeFZZb211OUFCSno2M0lWaWNfVlZzYmhhMXhUazAzWGNLdFdDSE9wZnp4QmdkdVdSSWxCZ3laY2U1anBaXzVWRkFMSWV4bkRMZFNyUGNxTFNBT3F0SjVTUXNXbDBkdWRSX1hQUW1laDNLWDFqSjd2WEdUbGRlQUlRMTNBTnRsdnc0a2MyTi1ZTTJ4S1BwUS1EaUNPdDRzV3hVd3pKeG9oc2pYcHBDS1kwNDFqcHNBSGF3b1pBMWdNTTlTRTQ5MmhtcE9lN01ZSnZWeHNVV29PNUx0VHc?oc=5",
+        "published_at": "2026-05-22T01:34:39+08:00",
+        "fact_check": "来源报道直接引用库班采访内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "鲨鱼坦克明星Kevin O'Leary表示比特币主流化需满足一个条件",
+        "source_title": "Shark Tank’s Kevin O’ Leary says Bitcoin will go mainstream under one condition",
+        "event_date": "2026-05-22",
+        "summary_cn": "Kevin O'Leary认为，比特币要想真正成为主流资产，必须获得全球监管机构的明确批准，尤其是美国SEC。他预计一旦监管框架落地，机构资金将大规模涌入。同时他对以太坊的权益证明机制表示认可。",
+        "analysis_cn": "O'Leary的言论强调了监管确定性对加密市场的关键作用。若美国能在2026年通过关键法案，可能触发新一轮牛市。",
+        "source_name": "thestreet.com",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQ29hdXljYmpUWENjaS1BZk9NTnU4NHZwS3ZBLV8xYlRtWjJPM094SWNrcTYyR2YxLXJCamdydnlLZWt4cGNxcXhzNTNLbHVoZGNYdjQ5Z296ZGhXWXNsSzJKNndnek1KZnZDRWRwWGswOUVzdTVJUmZVUk9NVDVacU9mbVhxZHY4MmVseEw5em5zYXhId00yanhMb1R6OVhSZmpKS0tzY3QtMkcwMjg4TTNR?oc=5",
+        "published_at": "2026-05-22T02:12:05+08:00",
+        "fact_check": "来源还原O'Leary在采访中的原话。"
+      },
+      {
+        "section": "专题研究",
+        "title_cn": "稳定币收益大战：CLARITY法案妥协对DeFi用户意味着什么",
+        "source_title": "The Stablecoin Yield Wars: What CLARITY Act’s Compromise Means for DeFi Users",
+        "event_date": "2026-05-22",
+        "summary_cn": "文章深入分析美国CLARITY法案中关于稳定币收益的妥协条款，该法案可能允许合规稳定币向用户支付利息，但限制高风险收益协议。DeFi用户面临合规与收益权衡：受监管稳定币更安全但收益率可能低于算法稳定币。法案还要求稳定币发行方持牌并接受审计。",
+        "analysis_cn": "若法案通过，将重塑稳定币市场格局，推动USDC等合规稳定币成为主流，但可能抑制DeFi创新收益产品。用户需适应新监管环境。",
+        "source_name": "The Crypto Times",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMkozTU9tTHZLMFVuS0oyXzRtTjNOaFBTeG5xSF9hM3AxTmNkYVlkODZ4VkVsQkgwQ3ItTzU0eUtlemc0Y2VNQjF1VC1xamhJVVZfUk5ac0dDVmhmMEl5NlVhTjhmbmVDeUx2SEF2RnM4NjBxSlEzS1c3eGYzNVpyeWNzdTA1UzZiRGlIWWNQUWEtaFl3aHFrRHBycUpJLTlnYmpORFNfNk9sRVBJREVnU2d3?oc=5",
+        "published_at": "2026-05-22T14:49:35+08:00",
+        "fact_check": "来源文章详细解释法案条款及其对DeFi的影响。"
+      }
+    ],
+    "notes": [
+      "所有资讯均来自候选列表，时间窗口为2026-05-19 17:42至2026-05-22 17:42北京时间。",
+      "政策风向包含一条美国相关资讯（CLARITY Act）。",
+      "已排除中文网站来源。",
+      "来源网站尽量分散：Crypto Briefing、Bitcoin News、Bitcoin World、MEXC Exchange、The Block、CoinDesk、thestreet.com、The Crypto Times。"
+    ]
+  },
+  "factcheck": {
+    "ok": false,
+    "errors": [
+      "item 1 appears to use a Chinese source or Chinese source text",
+      "item 2 appears to use a Chinese source or Chinese source text",
+      "item 3 appears to use a Chinese source or Chinese source text",
+      "item 4 appears to use a Chinese source or Chinese source text",
+      "item 5 appears to use a Chinese source or Chinese source text",
+      "item 6 appears to use a Chinese source or Chinese source text",
+      "item 7 appears to use a Chinese source or Chinese source text",
+      "item 8 appears to use a Chinese source or Chinese source text",
+      "item 9 appears to use a Chinese source or Chinese source text",
+      "item 10 appears to use a Chinese source or Chinese source text"
+    ],
+    "warnings": [
+      "source diversity is low: only 1 unique domains",
+      "domain news.google.com appears 10 times; consider diversifying sources"
+    ]
+  },
+  "outputs": {
+    "docx": "reports/2026/加密货币观察_20260522.docx",
+    "manifest": "reports/2026/_manifests/加密货币观察_20260522.json"
+  }
+}
