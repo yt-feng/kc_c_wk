@@ -1,11 +1,11 @@
 from __future__ import annotations
 
 from collections import Counter
-from dataclasses import dataclass, asdict
-from datetime import datetime
+from dataclasses import asdict, dataclass
+from datetime import datetime, timedelta
 from urllib.parse import urlsplit
 
-from .config import SECTION_COUNTS, US_TERMS
+from .config import HK_TERMS, MAX_NEWS_AGE_DAYS, SECTION_COUNTS, US_TERMS
 from .sources import is_chinese_item, parse_datetime
 
 
@@ -23,9 +23,28 @@ def _host(url: str) -> str:
     return urlsplit(url or "").netloc.lower().replace("www.", "")
 
 
-def _contains_us(text: str) -> bool:
+def _contains_any(text: str, terms: tuple[str, ...]) -> bool:
     low = (text or "").lower()
-    return any(term.lower() in low for term in US_TERMS)
+    return any(term.lower() in low for term in terms)
+
+
+def _region(row: dict[str, object]) -> str:
+    text = " ".join(str(row.get(k, "")) for k in ("region", "title_cn", "source_title", "lead_cn", "source_name", "url"))
+    if _contains_any(text, US_TERMS):
+        return "美国"
+    if _contains_any(text, HK_TERMS):
+        return "香港"
+    if any(x in text.lower() for x in ("eu", "europe", "esma", "mica", "欧盟")):
+        return "欧盟"
+    return str(row.get("region") or "其他")
+
+
+def _has_bad_title_punct(title: str) -> bool:
+    return any(ch in title for ch in ("，", ",", "；", ";", "：", ":", "—", "–"))
+
+
+def _has_relative_time(text: str) -> bool:
+    return any(x in text for x in ("今年", "去年", "明年", "本周", "上周", "下周", "周五", "近日", "日前", "最近"))
 
 
 def check_report(report: dict[str, object], start: datetime, end: datetime) -> FactCheckResult:
@@ -43,30 +62,45 @@ def check_report(report: dict[str, object], start: datetime, end: datetime) -> F
             errors.append(f"{section} requires {expected} items, got {actual}")
 
     policy_rows = [row for row in items if isinstance(row, dict) and row.get("section") == "政策风向"]
-    if policy_rows and not any(_contains_us(" ".join(str(row.get(k, "")) for k in row.keys())) for row in policy_rows):
+    if policy_rows and not any(_contains_any(" ".join(str(v) for v in row.values()), US_TERMS) for row in policy_rows):
         errors.append("政策风向 requires at least one US-related item")
+    policy_regions = [_region(row) for row in policy_rows]
+    if len(policy_regions) >= 3 and len(set(policy_regions)) == 1:
+        warnings.append(f"政策风向 3 篇均来自同一地区：{policy_regions[0]}，建议加入美国或香港以外的正式监管动向")
+    if policy_rows and not any(r in ("美国", "香港") for r in policy_regions):
+        warnings.append("政策风向未覆盖美国或香港，建议优先补充美国、香港监管动向")
 
     hosts: list[str] = []
+    oldest_allowed = end - timedelta(days=MAX_NEWS_AGE_DAYS)
     for idx, row in enumerate(items, start=1):
         if not isinstance(row, dict):
             errors.append(f"item {idx} is not an object")
             continue
-        title = str(row.get("title_cn") or row.get("source_title") or "")
-        summary = str(row.get("summary_cn") or "")
+        title = str(row.get("title_cn") or "")
+        source_title = str(row.get("source_title") or "")
         url = str(row.get("url") or "")
         published_at = str(row.get("published_at") or "")
+        body = " ".join(str(x) for x in [row.get("lead_cn", ""), *(row.get("body_paragraphs") or [])])
+        points = row.get("key_points") or []
+
         if not (url.startswith("http://") or url.startswith("https://")):
             errors.append(f"item {idx} has invalid url: {url}")
         h = _host(url)
         if h:
             hosts.append(h)
-        if is_chinese_item(title, summary, url):
-            errors.append(f"item {idx} appears to use a Chinese source or Chinese source text")
+        if is_chinese_item(source_title, str(row.get("source_name") or ""), url):
+            errors.append(f"item {idx} appears to use a Chinese source")
         dt = parse_datetime(published_at)
-        if dt and not (start <= dt <= end):
-            errors.append(f"item {idx} published_at is outside lookback window: {published_at}")
+        if dt and not (oldest_allowed <= dt <= end):
+            errors.append(f"item {idx} published_at is outside {MAX_NEWS_AGE_DAYS}-day freshness window: {published_at}")
         if not dt:
             warnings.append(f"item {idx} published_at could not be parsed: {published_at}")
+        if _has_bad_title_punct(title):
+            warnings.append(f"item {idx} title may be two-part or use disallowed punctuation: {title}")
+        if _has_relative_time(body + title):
+            warnings.append(f"item {idx} contains relative time wording; replace with exact date")
+        if not isinstance(points, list) or not (1 <= len(points) <= 3):
+            warnings.append(f"item {idx} should include 1 to 3 key_points")
         if not str(row.get("fact_check") or "").strip():
             warnings.append(f"item {idx} has empty fact_check note")
 
