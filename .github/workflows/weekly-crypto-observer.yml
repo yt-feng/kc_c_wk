@@ -1,6 +1,13 @@
 name: Weekly Crypto Observer
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - "crypto_observer/**"
+      - "requirements.txt"
+      - ".github/workflows/weekly-crypto-observer.yml"
   schedule:
     - cron: "0 6 * * 3"
   workflow_dispatch:
@@ -26,7 +33,7 @@ jobs:
       DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
       DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL || 'deepseek-v4-flash' }}
       CRYPTO_OBSERVER_DAYS: ${{ github.event.inputs.days || '3' }}
-      CRYPTO_OBSERVER_STRICT: ${{ github.event.inputs.strict || '1' }}
+      CRYPTO_OBSERVER_STRICT: ${{ github.event.inputs.strict || '0' }}
       CRYPTO_OBSERVER_OUTPUT_ROOT: reports
       CRYPTO_OBSERVER_MAX_RAW_ITEMS: "360"
       PYTHONUNBUFFERED: "1"
@@ -43,7 +50,14 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Generate Crypto Observer report
-        run: python -m crypto_observer.main --days "$CRYPTO_OBSERVER_DAYS" --output-root "$CRYPTO_OBSERVER_OUTPUT_ROOT"
+        shell: bash
+        run: |
+          set -euo pipefail
+          STRICT_FLAG="--strict"
+          if [ "${CRYPTO_OBSERVER_STRICT}" = "0" ]; then
+            STRICT_FLAG="--no-strict"
+          fi
+          python -m crypto_observer.main --days "$CRYPTO_OBSERVER_DAYS" --output-root "$CRYPTO_OBSERVER_OUTPUT_ROOT" "$STRICT_FLAG"
       - name: Upload report artifact
         if: always()
         uses: actions/upload-artifact@v4
