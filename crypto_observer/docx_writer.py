@@ -16,12 +16,11 @@ FONT_HEADING = "黑体"
 FONT_LATIN = "Times New Roman"
 
 
-def _set_run_font(run, east_asia: str = FONT_BODY, size: float = 12, bold: bool = False, italic: bool = False) -> None:
+def _set_run_font(run, east_asia: str = FONT_BODY, size: float = 12, bold: bool = False) -> None:
     run.font.name = FONT_LATIN
     run._element.rPr.rFonts.set(qn("w:eastAsia"), east_asia)
     run.font.size = Pt(size)
     run.bold = bold
-    run.italic = italic
 
 
 def _format_paragraph(paragraph, *, first_line: bool = False, align: int | None = None, before: float = 0, after: float = 6) -> None:
@@ -72,6 +71,13 @@ def _body_paragraphs(row: dict[str, Any]) -> list[str]:
     return cleaned or ["-"]
 
 
+def _key_points(row: dict[str, Any]) -> list[str]:
+    raw = row.get("key_points")
+    if isinstance(raw, list):
+        return [str(x).strip() for x in raw if str(x).strip()][:3]
+    return []
+
+
 def _write_toc(doc: Document, items: list[dict[str, Any]]) -> None:
     title = doc.add_paragraph()
     _format_paragraph(title, align=WD_ALIGN_PARAGRAPH.CENTER, before=0, after=18)
@@ -85,16 +91,10 @@ def _write_toc(doc: Document, items: list[dict[str, Any]]) -> None:
         _set_run_font(r, east_asia=FONT_HEADING, size=12, bold=True)
         rows = _items_by_section(items, section)
         if not rows:
-            p = doc.add_paragraph()
-            _format_paragraph(p, after=2)
-            r = p.add_run("· 暂无满足自动筛选条件的资讯")
-            _set_run_font(r, east_asia=FONT_BODY, size=11)
+            _add_text(doc, "· 暂无满足自动筛选条件的资讯", size=11, after=2)
             continue
         for row in rows:
-            p = doc.add_paragraph()
-            _format_paragraph(p, after=2)
-            r = p.add_run(f"· {row.get('title_cn', '-')}")
-            _set_run_font(r, east_asia=FONT_BODY, size=11)
+            _add_text(doc, f"· {row.get('title_cn', '-')}", size=11, after=2)
 
 
 def _write_section_heading(doc: Document, section: str) -> None:
@@ -111,6 +111,12 @@ def _write_article(doc: Document, row: dict[str, Any]) -> None:
     r = p.add_run(title)
     _set_run_font(r, east_asia=FONT_HEADING, size=14, bold=True)
 
+    points = _key_points(row)
+    if points:
+        for point in points:
+            _add_text(doc, f"· {point}", font=FONT_BODY, size=11, first_line=False, after=2)
+        doc.add_paragraph()
+
     lead = str(row.get("lead_cn") or "").strip()
     if lead and lead != "-":
         _add_text(doc, lead, font=FONT_BODY, size=12, first_line=True, after=6)
@@ -123,8 +129,7 @@ def _write_article(doc: Document, row: dict[str, Any]) -> None:
     source_name = str(row.get("source_name") or "-").strip()
     source_title = str(row.get("source_title") or "-").strip()
     url = str(row.get("url") or "-").strip()
-    source_line = f"（信息来源：{source_name}）"
-    _add_text(doc, source_line, font=FONT_BODY, size=10.5, align=WD_ALIGN_PARAGRAPH.RIGHT, after=2)
+    _add_text(doc, f"（信息来源：{source_name}）", font=FONT_BODY, size=10.5, align=WD_ALIGN_PARAGRAPH.RIGHT, after=2)
     if source_title and source_title != "-":
         _add_text(doc, f"原文标题：{source_title}", font=FONT_BODY, size=9, after=1)
     if url and url != "-":
@@ -139,7 +144,6 @@ def write_docx(report: dict[str, Any], output_path: str | Path, metadata: dict[s
 
     doc = Document()
     _setup_document(doc)
-
     _write_toc(doc, items)
     doc.add_page_break()
 
