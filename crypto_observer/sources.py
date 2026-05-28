@@ -34,6 +34,7 @@ class RawItem:
     summary: str = ""
     section_hint: str = ""
     query: str = ""
+    article_text: str = ""
 
     def stable_key(self) -> str:
         raw = f"{norm_text(self.title)}|{norm_url(self.url)}"
@@ -101,7 +102,7 @@ def is_chinese_item(title: str, summary: str, url: str) -> bool:
 
 
 def request_text(url: str, timeout: int = 20) -> str:
-    r = requests.get(url, headers={"User-Agent": USER_AGENT, "Accept": "application/rss+xml,application/xml,text/html,application/json,*/*"}, timeout=timeout)
+    r = requests.get(url, headers={"User-Agent": USER_AGENT, "Accept": "application/rss+xml,application/xml,text/html,application/json,*/*"}, timeout=timeout, allow_redirects=True)
     r.raise_for_status()
     return r.text
 
@@ -127,7 +128,9 @@ def parse_rss(xml_text: str, query: str, start: datetime, end: datetime, source_
         link = norm_url(entry.findtext("link") or "")
         summary = strip_html(entry.findtext("description") or "")
         pub_date = entry.findtext("pubDate") or ""
-        publisher = strip_html(entry.findtext("source") or "")
+        source_el = entry.find("source")
+        publisher = strip_html(source_el.text if source_el is not None else "")
+        source_attr_url = norm_url(source_el.attrib.get("url", "")) if source_el is not None else ""
         published = ""
         if pub_date:
             try:
@@ -139,8 +142,8 @@ def parse_rss(xml_text: str, query: str, start: datetime, end: datetime, source_
             continue
         if is_chinese_item(title, summary, link):
             continue
-        name = f"{source_name} / {publisher}" if publisher else source_name
-        out.append(RawItem(title=title, url=link, source_name=name, source_url=source_url, published_at=published, summary=summary, section_hint=section_hint, query=query))
+        name = publisher or source_name
+        out.append(RawItem(title=title, url=link, source_name=name, source_url=source_attr_url or source_url, published_at=published, summary=summary, section_hint=section_hint, query=query))
     return out
 
 
@@ -186,8 +189,57 @@ def fetch_gdelt(query: str, start: datetime, end: datetime, section_hint: str) -
         dt = parse_datetime(article.get("seendate"))
         published = dt.isoformat() if dt else ""
         if title and link and in_window(published, start, end) and not is_chinese_item(title, domain, link):
-            out.append(RawItem(title, link, f"GDELT / {domain}", "https://www.gdeltproject.org/", published, domain, section_hint, query))
+            out.append(RawItem(title, link, domain, "https://www.gdeltproject.org/", published, domain, section_hint, query))
     return out
+
+
+def _best_article_candidates(html_text: str) -> list[str]:
+    soup = BeautifulSoup(html_text or "", "html.parser")
+    for tag in soup(["script", "style", "noscript", "svg", "footer", "header", "nav", "aside"]):
+        tag.decompose()
+    candidates = []
+    for selector in ("article", "main", "[role=main]", ".article", ".post", ".entry-content", ".story", ".content"):
+        for node in soup.select(selector):
+            text = norm_text(node.get_text(" "))
+            if len(text) > 300:
+                candidates.append(text)
+    body = norm_text(soup.get_text(" "))
+    if len(body) > 300:
+        candidates.append(body)
+    candidates.sort(key=len, reverse=True)
+    return candidates
+
+
+def fetch_article_text(url: str, timeout: int = 18) -> tuple[str, str]:
+    try:
+        r = requests.get(url, headers={"User-Agent": USER_AGENT, "Accept": "text/html,application/xhtml+xml,*/*"}, timeout=timeout, allow_redirects=True)
+        r.raise_for_status()
+        final_url = norm_url(r.url)
+        text = next(iter(_best_article_candidates(r.text)), "")
+        if "news.google.com" in host(url) and len(text) < 500:
+            soup = BeautifulSoup(r.text, "html.parser")
+            for a in soup.find_all("a", href=True):
+                href = urllib.parse.urljoin(final_url, a["href"])
+                if href.startswith("http") and "news.google.com" not in host(href):
+                    return fetch_article_text(href, timeout=timeout)
+        return text[:6000], final_url
+    except Exception as exc:
+        LOGGER.debug("article fetch failed for %s: %s", url, exc)
+        return "", url
+
+
+def enrich_articles(items: list[RawItem], limit: int = 80) -> list[RawItem]:
+    enriched: list[RawItem] = []
+    for idx, item in enumerate(items):
+        if idx < limit:
+            text, final_url = fetch_article_text(item.url)
+            if text and not is_chinese_item(item.title, text[:500], final_url):
+                item.article_text = text
+                item.url = final_url or item.url
+        enriched.append(item)
+        if idx < limit:
+            time.sleep(0.03)
+    return enriched
 
 
 def dedupe(items: Iterable[RawItem]) -> list[RawItem]:
@@ -222,4 +274,4 @@ def collect(days: int = 3, max_items: int = 360) -> tuple[list[RawItem], list[st
         time.sleep(0.05)
     final = dedupe(items)
     final.sort(key=lambda x: parse_datetime(x.published_at) or start, reverse=True)
-    return final[:max_items], errors[:80]
+    return enrich_articles(final[:max_items]), errors[:80]
