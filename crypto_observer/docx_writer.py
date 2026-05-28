@@ -12,16 +12,18 @@ from docx.oxml.ns import qn
 from docx.shared import Cm, Pt, RGBColor
 
 from .config import REPORT_TITLE, SECTION_ORDER
+from .text_utils import normalize_chinese_punctuation
 
 FONT_BODY = "仿宋"
 FONT_TOC_ITEM = "楷体"
 FONT_HEADING = "黑体"
 FONT_LATIN = "Times New Roman"
-
+HEADING_COLOR = "2F5496"
 
 STYLE_ARTICLE_TITLE = "文章一级标题"
 STYLE_BODY = "正文内容"
 STYLE_SOURCE = "信息来源"
+STYLE_REFERENCE = "原文信息"
 
 
 def _ensure_style(doc: Document, name: str):
@@ -82,59 +84,67 @@ def _setup_section(section) -> None:
     _set_doc_grid(section)
 
 
+def _set_single_grid_paragraph(fmt, *, first_line: bool = False, justify: bool = False) -> None:
+    fmt.left_indent = Pt(0)
+    fmt.right_indent = Pt(0)
+    fmt.first_line_indent = Pt(28) if first_line else Pt(0)
+    fmt.space_before = Pt(0)
+    fmt.space_after = Pt(0)
+    fmt.line_spacing_rule = WD_LINE_SPACING.SINGLE
+    fmt.line_spacing = 1
+
+
 def _setup_document(doc: Document) -> None:
     for section in doc.sections:
         _setup_section(section)
 
     normal = doc.styles["Normal"]
     _set_style_font(normal, FONT_BODY, 14)
-    normal.paragraph_format.first_line_indent = Pt(10)
-    normal.paragraph_format.space_before = None
-    normal.paragraph_format.space_after = None
-    normal.paragraph_format.line_spacing = None
+    _set_single_grid_paragraph(normal.paragraph_format, first_line=False)
 
     heading1 = doc.styles["Heading 1"]
-    _set_style_font(heading1, FONT_HEADING, 15, color="2F5496")
+    _set_style_font(heading1, FONT_HEADING, 15, color=HEADING_COLOR)
+    _set_single_grid_paragraph(heading1.paragraph_format, first_line=False)
     heading1.paragraph_format.space_before = Pt(3)
     heading1.paragraph_format.space_after = Pt(12)
-    heading1.paragraph_format.first_line_indent = Pt(0)
-    heading1.paragraph_format.line_spacing = None
 
     article_title = _ensure_style(doc, STYLE_ARTICLE_TITLE)
     _set_style_font(article_title, FONT_HEADING, 15)
+    _set_single_grid_paragraph(article_title.paragraph_format, first_line=False)
     article_title.paragraph_format.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    article_title.paragraph_format.space_before = None
-    article_title.paragraph_format.space_after = None
-    article_title.paragraph_format.line_spacing = None
 
     body = _ensure_style(doc, STYLE_BODY)
     body.base_style = normal
     _set_style_font(body, FONT_BODY, 14)
-    body.paragraph_format.first_line_indent = Pt(28.1)
-    body.paragraph_format.space_before = None
-    body.paragraph_format.space_after = None
-    body.paragraph_format.line_spacing = None
+    _set_single_grid_paragraph(body.paragraph_format, first_line=True)
+    body.paragraph_format.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
 
     source = _ensure_style(doc, STYLE_SOURCE)
     source.base_style = normal
     _set_style_font(source, FONT_BODY, 10.5)
+    _set_single_grid_paragraph(source.paragraph_format, first_line=False)
     source.paragraph_format.alignment = WD_ALIGN_PARAGRAPH.RIGHT
     source.paragraph_format.space_before = Pt(2.5)
     source.paragraph_format.space_after = Pt(5)
-    source.paragraph_format.first_line_indent = None
-    source.paragraph_format.line_spacing = None
+
+    reference = _ensure_style(doc, STYLE_REFERENCE)
+    reference.base_style = normal
+    _set_style_font(reference, FONT_BODY, 9)
+    _set_single_grid_paragraph(reference.paragraph_format, first_line=False)
+    reference.paragraph_format.alignment = WD_ALIGN_PARAGRAPH.LEFT
 
 
-def _clear_line_spacing(paragraph) -> None:
-    paragraph.paragraph_format.line_spacing = None
+def _apply_body_format(paragraph, *, first_line: bool = True, align: int = WD_ALIGN_PARAGRAPH.JUSTIFY) -> None:
+    paragraph.alignment = align
+    fmt = paragraph.paragraph_format
+    _set_single_grid_paragraph(fmt, first_line=first_line)
 
 
 def _add_paragraph(doc: Document, text: str, *, style: str | None = None, font: str = FONT_BODY, size: float = 14, bold: bool = False, align: int | None = None, color: str | None = None) -> None:
     p = doc.add_paragraph(style=style)
     if align is not None:
         p.alignment = align
-    _clear_line_spacing(p)
-    r = p.add_run(text)
+    r = p.add_run(normalize_chinese_punctuation(text))
     _set_run_font(r, east_asia=font, size=size, bold=bold, color=color)
 
 
@@ -145,12 +155,12 @@ def _items_by_section(items: list[dict[str, Any]], section: str) -> list[dict[st
 def _body_paragraphs(row: dict[str, Any]) -> list[str]:
     paragraphs = row.get("body_paragraphs")
     if isinstance(paragraphs, list):
-        cleaned = [str(x).strip() for x in paragraphs if str(x).strip()]
+        cleaned = [normalize_chinese_punctuation(str(x).strip()) for x in paragraphs if str(x).strip()]
     else:
         cleaned = []
     if not cleaned:
         for key in ("lead_cn", "summary_cn", "analysis_cn"):
-            value = str(row.get(key) or "").strip()
+            value = normalize_chinese_punctuation(str(row.get(key) or "").strip())
             if value and value != "-":
                 cleaned.append(value)
     return cleaned or ["-"]
@@ -159,7 +169,7 @@ def _body_paragraphs(row: dict[str, Any]) -> list[str]:
 def _key_points(row: dict[str, Any]) -> list[str]:
     raw = row.get("key_points")
     if isinstance(raw, list):
-        return [str(x).strip() for x in raw if str(x).strip()][:3]
+        return [normalize_chinese_punctuation(str(x).strip()) for x in raw if str(x).strip()][:3]
     return []
 
 
@@ -173,10 +183,10 @@ def _write_toc(doc: Document, items: list[dict[str, Any]]) -> None:
     for section in SECTION_ORDER:
         p = doc.add_paragraph()
         p.paragraph_format.first_line_indent = Pt(0)
-        p.paragraph_format.space_before = None
-        p.paragraph_format.space_after = None
+        p.paragraph_format.space_before = Pt(0)
+        p.paragraph_format.space_after = Pt(0)
         r = p.add_run(f"【{section}】")
-        _set_run_font(r, east_asia=FONT_HEADING, size=16, color="0066FF")
+        _set_run_font(r, east_asia=FONT_HEADING, size=16, color=HEADING_COLOR)
 
         rows = _items_by_section(items, section)
         if not rows:
@@ -190,51 +200,54 @@ def _write_toc_item(doc: Document, title: str) -> None:
     p = doc.add_paragraph(style="List Paragraph")
     p.paragraph_format.left_indent = Pt(0)
     p.paragraph_format.first_line_indent = Pt(0)
-    p.paragraph_format.space_before = None
-    p.paragraph_format.space_after = None
+    p.paragraph_format.space_before = Pt(0)
+    p.paragraph_format.space_after = Pt(0)
     p.paragraph_format.line_spacing_rule = WD_LINE_SPACING.ONE_POINT_FIVE
     p.paragraph_format.line_spacing = 1.5
-    r = p.add_run(f"· {title}")
+    r = p.add_run(f"· {normalize_chinese_punctuation(title)}")
     _set_run_font(r, east_asia=FONT_TOC_ITEM, size=14)
 
 
 def _write_section_heading(doc: Document, section: str) -> None:
-    _add_paragraph(doc, f"【{section}】", style="Heading 1", font=FONT_HEADING, size=15, color="2F5496")
+    _add_paragraph(doc, f"【{section}】", style="Heading 1", font=FONT_HEADING, size=15, color=HEADING_COLOR)
 
 
 def _write_article_title(doc: Document, title: str) -> None:
-    _add_paragraph(doc, title, style=STYLE_ARTICLE_TITLE, font=FONT_HEADING, size=15, align=WD_ALIGN_PARAGRAPH.CENTER)
+    p = doc.add_paragraph(style=STYLE_ARTICLE_TITLE)
+    _apply_body_format(p, first_line=False, align=WD_ALIGN_PARAGRAPH.CENTER)
+    r = p.add_run(normalize_chinese_punctuation(title))
+    _set_run_font(r, east_asia=FONT_HEADING, size=15)
 
 
 def _write_key_point(doc: Document, point: str) -> None:
     p = doc.add_paragraph()
-    p.paragraph_format.first_line_indent = Pt(0)
-    p.paragraph_format.left_indent = Pt(0)
-    p.paragraph_format.space_before = None
-    p.paragraph_format.space_after = None
-    _clear_line_spacing(p)
-    r = p.add_run(f"· {point}")
+    _apply_body_format(p, first_line=False, align=WD_ALIGN_PARAGRAPH.JUSTIFY)
+    r = p.add_run(f"· {normalize_chinese_punctuation(point)}")
     _set_run_font(r, east_asia=FONT_BODY, size=14)
 
 
 def _write_body(doc: Document, paragraph: str, *, bold: bool = False) -> None:
     p = doc.add_paragraph(style=STYLE_BODY)
-    p.paragraph_format.first_line_indent = Pt(28.1)
-    p.paragraph_format.space_before = None
-    p.paragraph_format.space_after = None
-    _clear_line_spacing(p)
-    r = p.add_run(paragraph)
+    _apply_body_format(p, first_line=True, align=WD_ALIGN_PARAGRAPH.JUSTIFY)
+    r = p.add_run(normalize_chinese_punctuation(paragraph))
     _set_run_font(r, east_asia=FONT_BODY, size=14, bold=bold)
 
 
 def _write_source(doc: Document, source_name: str) -> None:
     p = doc.add_paragraph(style=STYLE_SOURCE)
     p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
+    _set_single_grid_paragraph(p.paragraph_format, first_line=False)
     p.paragraph_format.space_before = Pt(2.5)
     p.paragraph_format.space_after = Pt(5)
-    _clear_line_spacing(p)
-    r = p.add_run(f"（信息来源：{source_name}）")
+    r = p.add_run(f"（信息来源：{normalize_chinese_punctuation(source_name)}）")
     _set_run_font(r, east_asia=FONT_BODY, size=10.5)
+
+
+def _write_reference(doc: Document, text: str) -> None:
+    p = doc.add_paragraph(style=STYLE_REFERENCE)
+    _apply_body_format(p, first_line=False, align=WD_ALIGN_PARAGRAPH.LEFT)
+    r = p.add_run(normalize_chinese_punctuation(text))
+    _set_run_font(r, east_asia=FONT_BODY, size=9)
 
 
 def _write_article(doc: Document, row: dict[str, Any]) -> None:
@@ -244,7 +257,7 @@ def _write_article(doc: Document, row: dict[str, Any]) -> None:
     for point in _key_points(row):
         _write_key_point(doc, point)
 
-    lead = str(row.get("lead_cn") or "").strip()
+    lead = normalize_chinese_punctuation(str(row.get("lead_cn") or "").strip())
     if lead and lead != "-":
         _write_body(doc, lead)
 
@@ -258,9 +271,9 @@ def _write_article(doc: Document, row: dict[str, Any]) -> None:
     url = str(row.get("url") or "-").strip()
     _write_source(doc, source_name)
     if source_title and source_title != "-":
-        _write_body(doc, f"原文标题：{source_title}")
+        _write_reference(doc, f"原文标题：{source_title}")
     if url and url != "-":
-        _write_body(doc, f"原文链接：{url}")
+        _write_reference(doc, f"原文链接：{url}")
 
 
 def write_docx(report: dict[str, Any], output_path: str | Path, metadata: dict[str, Any] | None = None) -> Path:
