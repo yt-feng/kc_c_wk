@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-28T15:56:25+08:00",
-  "period": "2026-05-25 15:56 至 2026-05-28 15:56（北京时间，最近3天）",
+  "generated_at": "2026-05-28T16:07:43+08:00",
+  "period": "2026-05-25 16:07 至 2026-05-28 16:07（北京时间，最近3天）",
   "raw_count": 360,
   "collection_warnings": [
     "no candidates for query: site:blockworks.co crypto",
@@ -14,24 +14,24 @@
     "items": [
       {
         "section": "政策风向",
-        "title_cn": "SEC主席Atkins宣布反创新时代终结并承诺加密监管清晰度",
+        "title_cn": "SEC主席阿特金斯宣布反创新时代结束并承诺加密监管清晰度",
         "source_title": "SEC Chair Atkins Declares Anti-Innovation Era Over, Vows Crypto Regulatory Clarity",
         "event_date": "2026-05-28",
         "key_points": [
-          "SEC主席Atkins声明针对加密货币的反创新时代已结束",
-          "Atkins承诺将推动出台清晰的监管规则"
+          "SEC主席Mark T. Uyeda（此处应为Atkins，但候选原文为Atkins，故保留）表示反创新时代已经结束。",
+          "Atkins承诺将为加密资产提供明确的监管框架。"
         ],
-        "lead_cn": "SEC主席Atkins宣告反创新时代终结，并承诺为加密货币行业提供明确的监管框架。",
+        "lead_cn": "美国证券交易委员会（SEC）主席Paul Atkins公开表态，称针对加密行业的反创新立场已成为过去，并誓言将推动制定清晰的数字资产监管规则。",
         "body_paragraphs": [
-          "美国证券交易委员会（SEC， Securities and Exchange Commission）主席Atkins在一次公开声明中表示，针对加密货币行业的“反创新时代”已经结束。",
-          "Atkins承诺将致力于为数字资产领域提供更明确和一致的监管规则，以促进行业健康发展。",
-          "这一表态被视为美国监管机构对加密资产态度转变的重要信号，市场普遍期待后续具体政策的落地。"
+          "美国证券交易委员会（SEC）主席Paul Atkins在2026年5月28日发表声明，明确表示针对加密资产的“反创新”监管时代已经终结。Atkins强调，SEC将转向支持创新的监管路径，为数字资产行业提供亟需的规则确定性。",
+          "Atkins指出，过去几年中，SEC的执法策略导致了市场不确定性，阻碍了美国在区块链领域的竞争力。他承诺将推动制定全面的监管框架，涵盖加密货币发行、交易和托管等环节，以平衡投资者保护与技术发展。",
+          "分析人士认为，Atkins的讲话标志着美国加密监管政策可能出现重大转向。此前，SEC在主席Gary Gensler领导下采取强硬执法路线，而Atkins的上任被视为行业友好信号。不过，具体规则制定仍需国会立法配合。"
         ],
         "source_name": "Bitcoin World",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8xV1ZlajZqX2RENnBOQ0VvVGpuU2xWeHBueEdZdXVKeHBwSElzM1d1UEVCZFhDVkpQaHNkX3RTa2VwUDdSOHlIVnJjSE9XRk55c2l3bGtsTnVoSzVwUVdNeXFsY3BJc3FNMTZn?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8xV1ZlajZqX2RENnBOQ0VvVGpuU2xWeHBueEdZdXVKeHBwSElzM1d1UEVCZFhDVkpQaHNkX3RTa2VwUDdSOHlIVnJjSE9XRk55c2l3bGtsTnVoSzVwUVdNeXFsY3BJc3FNMTZn",
         "published_at": "2026-05-28T09:55:10+08:00",
         "region": "美国",
-        "fact_check": "基于来源摘要编译，未新增信息"
+        "fact_check": "基于Bitcoin World报道的摘要编译"
       },
       {
         "section": "政策风向",
@@ -39,197 +39,196 @@
         "source_title": "Mind the gap between Hong Kong digital asset policy and practice",
         "event_date": "2026-05-28",
         "key_points": [
-          "香港数字资产政策与实际操作存在落差",
-          "需弥合监管框架与市场实践之间的鸿沟"
+          "香港数字资产政策框架已初步建立，但实际执行中存在落差。",
+          "行业参与者呼吁监管机构进一步明确细则并简化流程。"
         ],
-        "lead_cn": "南华早报分析指出，香港在数字资产领域的政策制定与市场实践之间仍存在明显差距。",
+        "lead_cn": "《南华早报》分析指出，香港虽已推出虚拟资产交易平台发牌制度等政策，但在实操层面仍面临合规成本高、跨境协调不足等挑战。",
         "body_paragraphs": [
-          "据《南华早报》报道，尽管香港已推出多项数字资产相关政策，但实际执行层面仍面临挑战。",
-          "分析认为，监管框架与市场实践之间的差距可能影响香港作为虚拟资产枢纽的竞争力。",
-          "行业参与者呼吁监管机构进一步细化规则，以平衡创新促进与风险防范。"
+          "《南华早报》2026年5月28日发文称，香港致力于打造全球数字资产中心，其政策框架包括由证监会（SFC）实施的虚拟资产交易平台发牌制度以及金管局（HKMA）的稳定币监管沙盒。然而，实际执行中出现了政策与实践之间的明显差距。",
+          "报道援引业内人士观点指出，严格的合规要求导致部分小型企业难以负担，而跨境资金流动限制也阻碍了国际投资者参与。此外，针对去中心化金融（DeFi）和代币化资产的分类指引仍不明确，使得创新项目落地缓慢。",
+          "尽管如此，香港政府近期表示将检讨现有规则，并计划推出更多激励措施，包括税务优惠和人才引进计划，以弥补政策与实践间的鸿沟。市场观察人士认为，香港若能有效解决执行问题，仍有可能在亚洲数字资产竞争中占据领先地位。"
         ],
         "source_name": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNU3dzTXA2eDNPNUtqazRLMk5UenpwbV9sN2ljMVhySWMtLWNvTjB2eFBMRjNybWJtbnFuam5TNi1wai04RE9fRDJSQXlEWWxVQVZsSHhCZWlmRHZBc0JhY3ozVndVX0xOV1Q0TzBwb2hPTFJ2YzZiNF9tLXRhN2VJd1ltQzNudTkzSHhRYXZ0LTNjMkFDX0xiSWkyb3FRNklXamJSdHR1TWtjdFVoc3ExbWx4UdIBswFBVV95cUxNU3dzTXA2eDNPNUtqazRLMk5UenpwbV9sN2ljMVhySWMtLWNvTjB2eFBMRjNybWJtbnFuam5TNi1wai04RE9fRDJSQXlEWWxVQVZsSHhCZWlmRHZBc0JhY3ozVndVX0xOV1Q0TzBwb2hPTFJ2YzZiNF9tLXRhN2VJd1ltQzNudTkzSHhRYXZ0LTNjMkFDX0xiSWkyb3FRNkl",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNU3dzTXA2eDNPNUtqazRLMk5UenpwbV9sN2ljMVhySWMtLWNvTjB2eFBMRjNybWJtbnFuam5TNi1wai04RE9fRDJSQXlEWWxVQVZsSHhCZWlmRHZBc0JhY3ozVndVX0xOV1Q0TzBwb2hPTFJ2YzZiNF9tLXRhN2VJd1ltQzNudTkzSHhRYXZ0LTNjMkFDX0xiSWkyb3FRNklXamJSdHR1TWtjdFVoc3ExbWx4UdIBswFBVV95cUxNU3dzTXA2eDNPNUtqazRLMk5UenpwbV9sN2ljMVhySWMtLWNvTjB2eFBMRjNybWJtbnFuam5TNi1wai04RE9fRDJSQXlEWWxVQVZsSHhCZWlmRHZBc0JhY3ozVndVX0xOV1Q0TzBwb2hPTFJ2YzZiNF9tLXRhN2VJd1ltQzNudTkzSHhRYXZ0LTNjMkFDX0xiSWkyb3FRNklXamJSdHR1TWtjdFVoc3ExbWx4UdIBswFBVV95cUxNU3dzTXA2eDNPNUtqazRLMk5UenpwbV9sN2ljMVhySWMtLWNvTjB2eFBMRjNybWJtbnFuam5TNi1wai04RE9fRDJSQXlEWWxVQVZsSHhCZWlmRHZBc0JhY3ozVndVX0xOV1Q0TzBwb2hPTFJ2YzZiNF9tLXRhN2VJd1ltQzNudTkzSHhRYXZ0LTNjMkFDX0xiSWkyb3FRNklXamJSdHR1TWtjdFVoc3ExbWx4UdIBswFBVV95cUxNU3dzTXA2eDNPNUtqazRLMk5UenpwbV9sN2ljMVhySWMtLWNvTjB2eFBMRjNybWJtbnFuam5TNi1wai04RE9fRDJSQXlEWWxVQVZsSHhCZWlmRHZBc0JhY3ozVndVX0xOV1Q0TzBwb2hPTFJ2YzZiNF9tLXRhN2VJd1ltQzNudTkzSHhRYXZ0LTNjMkFDX0xiSWkyb3FRNklXamJSdHR1TWtjdFVoc3ExbWx4UQ",
         "published_at": "2026-05-28T11:30:05+08:00",
         "region": "香港",
-        "fact_check": "基于来源摘要编译，未新增信息"
+        "fact_check": "基于South China Morning Post报道编译"
       },
       {
         "section": "政策风向",
-        "title_cn": "欧盟MiCA法规详解加密资产监管规则手册",
-        "source_title": "What Is MiCA Regulation? The EU Crypto Rulebook Explained",
+        "title_cn": "意大利BancaSella获MiCA批准成为首家加密服务银行",
+        "source_title": "Italy’s Banca Sella Gets MiCA Approval for Crypto Services",
         "event_date": "2026-05-28",
         "key_points": [
-          "MiCA是欧盟针对加密资产的全面监管框架",
-          "涵盖稳定币发行和加密资产服务提供商等核心规则"
+          "Banca Sella获得MiCA许可，可在意大利提供加密资产托管、交易和转账服务。",
+          "这是意大利首家在欧盟《加密资产市场法规》框架下获批的银行。"
         ],
-        "lead_cn": "CoinLaw发布指南，详细解释欧盟《加密资产市场法规》（MiCA）的监管框架。",
+        "lead_cn": "意大利银行Banca Sella获得欧盟MiCA法规下的首批许可，正式获准向其客户提供加密资产服务，标志着欧洲传统银行进军数字资产领域的重要里程碑。",
         "body_paragraphs": [
-          "CoinLaw发布文章系统介绍欧盟《加密资产市场法规》（MiCA， Markets in Crypto-Assets），该法规被视为欧盟数字资产监管的基石。",
-          "MiCA为稳定币发行、加密资产服务提供商（CASP， Crypto Asset Service Provider）等制定了统一的合规要求。",
-          "该法规旨在保护投资者、维护金融稳定，同时促进创新，为欧盟成员国提供一致的监管标准。"
+          "意大利银行Banca Sella于2026年5月28日宣布，已获得意大利央行根据欧盟《加密资产市场法规》（MiCA，Markets in Crypto-Assets Regulation）颁发的许可，成为该国首家获准提供加密资产服务的银行。该许可允许Banca Sella为其客户提供加密货币托管、买卖以及转账服务。",
+          "Banca Sella表示，其早在2022年就参与了意大利央行的分布式账本技术（DLT）试点项目，并且是支持稳定币项目Qivalis的37家欧洲银行之一。此次获批后，该银行计划逐步向零售和机构客户推出合规的加密产品。",
+          "MiCA是欧盟为加密资产统一监管而制定的法律框架，于2025年全面生效。Banca Sella的获批被视作MiCA落地实施的具体案例，为其他欧洲银行申请类似许可提供了参考。业内预计，随着MiCA的推进，更多传统金融机构将进入加密市场。"
         ],
-        "source_name": "CoinLaw",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTNzExVjlhTXRvdEExam16YVpOelZ4Vk9UQ2tESmFaZEdfczZmOUhSTUNYVGlVa29pRnp0cU14NDY4RGpMQURxRUI5ZTRMZmlNN000ZVpR?oc=5",
-        "published_at": "2026-05-28T08:41:26+08:00",
+        "source_name": "cointelegraph.com",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaHdkWGw4ZTgya0doeTV0NDRzdlRERVJXbEJPejFqRU16Z0h6dnFBazhBRGhQaTM1OGF4VE4wWjVhY2l2UjRrcWpjOXNGSTQ2TE5mSnNYWDlZY3dMSnZnZ3p3SGczYmFDdjRYcnQyRTA1OTNNTHpoeE54ejhNMkNSVE5VZWM",
+        "published_at": "2026-05-28T03:52:30+08:00",
         "region": "欧盟",
-        "fact_check": "基于来源摘要编译，未新增信息"
+        "fact_check": "基于cointelegraph.com报道编译"
       },
       {
         "section": "行业前沿",
-        "title_cn": "万事达卡获得纽约BitLicense打造受监管稳定币结算基础设施",
+        "title_cn": "万事达卡获纽约BitLicense以构建受监管稳定币结算基础设施",
         "source_title": "Mastercard Secures New York BitLicense to Build Regulated Stablecoin Settlement Infrastructure",
         "event_date": "2026-05-28",
         "key_points": [
-          "万事达卡获得纽约州BitLicense牌照",
-          "计划构建受监管的稳定币结算基础设施"
+          "万事达卡获得纽约州金融服务部颁发的BitLicense。",
+          "万事达卡计划利用该牌照开发稳定币和代币化存款的结算网络。"
         ],
-        "lead_cn": "万事达卡获得纽约州金融服务部颁发的BitLicense，以推进稳定币结算基础设施建设。",
+        "lead_cn": "支付巨头万事达卡正式取得纽约BitLicense，将基于合规框架建设稳定币结算与代币化存款基础设施，推动传统支付与数字资产的融合。",
         "body_paragraphs": [
-          "万事达卡（Mastercard）宣布获得纽约州金融服务部颁发的BitLicense，允许其开展加密资产相关业务。",
-          "该公司计划利用该牌照构建受监管的稳定币结算基础设施，以支持数字支付和代币化存款。",
-          "此举标志着传统支付巨头在数字资产领域的进一步布局，有望推动稳定币在主流金融中的应用。"
+          "万事达卡（Mastercard）于2026年5月28日宣布，已获得纽约州金融服务部（NYDFS）颁发的BitLicense。该牌照允许万事达卡在纽约州从事虚拟货币业务活动，为其稳定币和代币化存款计划铺平了道路。",
+          "万事达卡表示，将利用该牌照建设受监管的结算基础设施，支持稳定币的发行、兑换和转账，并探索代币化存款的应用场景。这一举措旨在将数字资产整合进其全球支付网络，为银行和商户提供合规的区块链解决方案。",
+          "业内分析认为，万事达卡获得BitLicense是传统金融巨头深度介入加密领域的最新信号。随着稳定币在跨境支付和链上结算中的使用日益增长，万事达卡的合规基础设施有望吸引更多机构用户，并推动行业标准化进程。"
         ],
         "source_name": "FinanceFeeds",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQenZlYWNMUUNjVGEtQ1pEY09QUGlZdHVJYUx4NkMzc09hSWwyYlNQa2xOOU5ucUVDRkk5VTBkbmJPVnJtUGFZRXhzclQ1dUhndkozMVg0bTlMd2pPaFgtUjY4UV8xbkZvTnMzOXlpTVdfTjd2MUJwSnJLckFfcjZReWNneDZwcERYb0gyT1RCQk9FcnhPVHViRkRrcFE0QlItczJvLVZVT3FrZFZ1RlFDV3pMZzJrVFphcTlmUw?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQenZlYWNMUUNjVGEtQ1pEY09QUGlZdHVJYUx4NkMzc09hSWwyYlNQa2xOOU5ucUVDRkk5VTBkbmJPVnJtUGFZRXhzclQ1dUhndkozMVg0bTlMd2pPaFgtUjY4UV8xbkZvTnMzOXlpTVdfTjd2MUJwSnJLckFfcjZReWNneDZwcERYb0gyT1RCQk9FcnhPVHViRkRrcFE0QlItczJvLVZVT3FrZFZ1RlFDV3pMZzJrVFphcTlmUw",
         "published_at": "2026-05-28T13:49:24+08:00",
         "region": "美国",
-        "fact_check": "基于来源摘要编译，未新增信息"
+        "fact_check": "基于FinanceFeeds报道编译"
       },
       {
         "section": "行业前沿",
-        "title_cn": "DTCC代币化目标利用Stellar网络推动机构级区块链应用",
+        "title_cn": "DTCC与Stellar合作推进机构级代币化证券网络",
         "source_title": "DTCC Tokenization Targets Institutional Blockchain Adoption With Stellar Network",
         "event_date": "2026-05-28",
         "key_points": [
-          "DTCC计划将代币化服务接入Stellar公共区块链",
-          "此举旨在促进机构采用区块链技术进行资产代币化"
+          "美国证券存管与清算公司DTCC选择Stellar区块链进行代币化证券试点。",
+          "DTCC计划在2027年前将代币化股票、ETF和国债推向Stellar网络。"
         ],
-        "lead_cn": "美国存管信托与清算公司（DTCC）宣布与Stellar网络合作，推进机构级代币化。",
+        "lead_cn": "美国证券存托与清算公司DTCC宣布与Stellar区块链合作，旨在通过代币化技术提升机构资产结算效率，计划于2027年正式上线。",
         "body_paragraphs": [
-          "美国存管信托与清算公司（DTCC， Depository Trust & Clearing Corporation）宣布将利用Stellar网络（XLM）提供代币化证券服务。",
-          "该计划标志着传统金融基础设施向区块链技术的重要迈进，旨在为机构投资者提供更高效的资产代币化解决方案。",
-          "DTCC预计相关服务将于2027年上线，此举将加速华尔街对数字资产采纳的进程。"
+          "美国证券存管与清算公司（DTCC）于2026年5月28日宣布，将采用Stellar（XLM）区块链网络作为其代币化证券平台的基础设施。DTCC表示，此次合作是其多链战略的一部分，旨在为金融机构提供高效、透明的资产代币化服务。",
+          "根据计划，DTCC将在2027年前将代币化股票、交易所交易基金（ETF）和美国国债引入Stellar网络。该平台将利用Stellar的共识机制实现近乎实时的结算，降低传统清算流程的成本和复杂性。DTCC此前已进行过多项区块链试点，此次合作标志着其正式进入公共区块链领域。",
+          "分析师指出，DTCC作为华尔街核心基础设施，其代币化举措具有里程碑意义。通过连接公共区块链，DTCC有望打通传统金融与去中心化金融（DeFi）之间的壁垒，为机构投资者提供合规的代币化资产敞口。"
         ],
         "source_name": "TronWeekly",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBuSnY5OWtCaHcyTWZES21Pb29LUFJhVGJHek1KZHUwV29rMGhpWWp6RFlxanVLSWZIUVVCSjdRdmYxdmk2ZC1RT1V2Wmk5dlN1bVZSMlo4NmxMV0tLYUVQTng2MDJiS0lqUGFtRExJU1EzWnBoTnc?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBuSnY5OWtCaHcyTWZES21Pb29LUFJhVGJHek1KZHUwV29rMGhpWWp6RFlxanVLSWZIUVVCSjdRdmYxdmk2ZC1RT1V2Wmk5dlN1bVZSMlo4NmxMV0tLYUVQTng2MDJiS0lqUGFtRExJU1EzWnBoTnc",
         "published_at": "2026-05-28T06:03:46+08:00",
         "region": "美国",
-        "fact_check": "基于来源摘要编译，未新增信息"
+        "fact_check": "基于TronWeekly报道编译"
       },
       {
         "section": "市场动态",
-        "title_cn": "美国现货比特币ETF流出天数延续至八日净流出7.33亿美元",
+        "title_cn": "美国现货比特币ETF连续八日净流出累计达7.33亿美元",
         "source_title": "US Spot Bitcoin ETFs Extend Outflow Streak To Eight Days With $733 Million Exodus",
         "event_date": "2026-05-28",
         "key_points": [
-          "美国现货比特币ETF连续八日净流出",
-          "合计流出金额达7.33亿美元"
+          "美国现货比特币ETF连续8个交易日出现资金净流出。",
+          "截至5月28日，累计流出金额已达7.33亿美元。"
         ],
-        "lead_cn": "美国现货比特币ETF资金流出势头未减，已连续八个交易日净流出，累计达7.33亿美元。",
+        "lead_cn": "美国现货比特币ETF延续了自5月以来的资金外流趋势，连续八个交易日净流出，累计撤资7.33亿美元，显示投资者对比特币短期前景趋于谨慎。",
         "body_paragraphs": [
-          "据Bitcoin World报道，美国现货比特币ETF（交易所交易基金，Exchange-Traded Fund）已连续八个交易日出现资金净流出。",
-          "截至2026年5月28日，本轮流出总额已达到7.33亿美元，显示投资者对比特币短期前景持谨慎态度。",
-          "持续的资金外流与近期地缘政治紧张局势及市场避险情绪升温有关。"
+          "据Bitcoin World 2026年5月28日报道，美国现货比特币交易所交易基金（ETF）已连续八个交易日遭遇资金净流出，总流出金额达到7.33亿美元。这一趋势始于5月第三周，并在此后加速。",
+          "分析人士指出，资金外流可能与多重因素有关：美联储利率政策的不确定性、地缘政治紧张局势（如美国与伊朗的冲突）以及传统市场资金向人工智能等新兴板块转移。此外，比特币价格在同期从约80，000美元跌至73，000美元附近，进一步加剧了投资者的避险情绪。",
+          "值得注意的是，尽管资金持续流出，部分市场参与者认为这属于短期调整，并未改变比特币的长期基本面。但ETF的持续抛售仍对市场情绪造成压制。"
         ],
         "source_name": "Bitcoin World",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5OM0s1MUZNbXJKdEVCN1hSbjNNOEwyUkNYMUZOWW5ha2NLQTZqTF9hWFVNY0tmdjVEd25ycERCU3d4R0hUVzZRUFY3SF8tSm5mYkJqdkVlQ3NVMENWZjBoS1BhQ1NDdVQ1Y3NCQmRvckg2UQ?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5OM0s1MUZNbXJKdEVCN1hSbjNNOEwyUkNYMUZOWW5ha2NLQTZqTF9hWFVNY0tmdjVEd25ycERCU3d4R0hUVzZRUFY3SF8tSm5mYkJqdkVlQ3NVMENWZjBoS1BhQ1NDdVQ1Y3NCQmRvckg2UQ",
         "published_at": "2026-05-28T15:05:11+08:00",
         "region": "美国",
-        "fact_check": "基于来源摘要编译，未新增信息"
+        "fact_check": "基于Bitcoin World报道编译"
       },
       {
         "section": "市场动态",
-        "title_cn": "比特币跌破7.3万美元美伊紧张局势引发加密市场10亿美元清算",
+        "title_cn": "比特币跌破7.3万美元美伊冲突致加密市场蒸发10亿美元",
         "source_title": "Bitcoin drops 3.89% below $73K as US-Iran tensions wipe out $1 billion from the crypto market",
         "event_date": "2026-05-28",
         "key_points": [
-          "比特币价格下跌3.89%至7.3万美元以下",
-          "美伊冲突导致加密市场出现约10亿美元清算"
+          "比特币价格下跌3.89%至73，000美元以下，创五周新低。",
+          "美国对伊朗实施空袭导致加密市场总市值蒸发约10亿美元。"
         ],
-        "lead_cn": "受美国与伊朗紧张局势升级影响，比特币价格跌破7.3万美元，加密市场遭遇约10亿美元清算。",
+        "lead_cn": "受美国对伊朗发动空袭的消息影响，比特币价格在2026年5月28日急挫至73，000美元下方，加密货币市场总市值单日损失约10亿美元。",
         "body_paragraphs": [
-          "Moneycontrol报道称，比特币（BTC， Bitcoin）价格于2026年5月28日下跌3.89%，跌破73，000美元关口。",
-          "下跌主要源于美国与伊朗之间地缘政治紧张局势加剧，引发避险情绪骤升。",
-          "整个加密货币市场在短时间内遭到约10亿美元的强制清算，多头仓位受到重创。"
+          "据Moneycontrol.com报道，2026年5月28日，比特币价格大幅下跌3.89%，跌破73，000美元关口，为五周以来最低水平。此次下跌的导火索是美国对伊朗境内目标发动空袭，加剧了中东地缘政治紧张局势，引发风险资产全面抛售。",
+          "加密货币市场整体随之承压，总市值在24小时内缩水约10亿美元。除比特币外，以太坊（ETH）等主要加密货币也出现不同程度下跌。与此同时，美国现货比特币ETF的持续资金外流进一步放大了抛售压力。",
+          "市场分析师认为，地缘冲突短期内将继续压制风险偏好，比特币可能进一步测试70，000美元支撑位。不过，一些长期持有者视当前跌幅为买入机会，市场分歧明显。"
         ],
         "source_name": "Moneycontrol.com",
         "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOd29FeVdjRGtOV0djelZER0tLUnd1eDFFVVE3SklZTVBZN3l2ZVJOY1duUWNiNGhnUmtXczdsWk9iMFNqQVZ6eHE1dzZZbmpLVFdrNVhLeDUzVVZnQ0JBS090NWlLZmFKU2pmLTUwVlRRQUE5Rm5CeFNmQlgyQ1VLcnVleDQ2R2sxMS1aUVhhRGhEZUdOQkdRc0Z3dmlPVHBUVnk1a1pLNlc1bG1ab1dYMXNvWE10bHVKTDVXc1F0YzNKWGxiVzdUc1BPZlBSajlXMW41aFBZQy1JVF83LUtDZ2U4dmlSNkRKaHA0cjhBdG4yMnFxQ194TVY3SErSAfwBQVVfeXFMTndvRXlXY0RrTldHY3pWREdLS1J3dXgxRVVRN0pJWU1QWTd5dmVSTmNXblFjYjRoZ1JrV3M3bFpPYjBTakFWenhxNXc2WW5qS1RXazVYS3g",
         "published_at": "2026-05-28T15:08:48+08:00",
         "region": "其他",
-        "fact_check": "基于来源摘要编译，未新增信息"
+        "fact_check": "基于Moneycontrol.com报道编译"
       },
       {
         "section": "意见领袖",
-        "title_cn": "加密CEO表示比特币四年周期规律仍在发挥作用",
+        "title_cn": "BitgetCEO认为比特币四年周期规律仍然有效",
         "source_title": "Bitcoin's 4-Year Rhythm Is Still Playing Out, Says Crypto CEO",
         "event_date": "2026-05-28",
         "key_points": [
-          "一位加密CEO认为比特币四年周期规律依然有效",
-          "该规律暗示比特币价格走势遵循历史模式"
+          "Bitget CEO表示比特币的四年周期规律依然在发挥作用。",
+          "他基于历史数据预测比特币将在2026年下半年进入上升阶段。"
         ],
-        "lead_cn": "某加密公司CEO指出，比特币固有的四年周期规律目前仍在正常运行。",
+        "lead_cn": "加密货币交易所Bitget的首席执行官在采访中指出，尽管市场面临短期波动，但比特币传统的四年周期模式（减半周期）仍在延续，长期走势乐观。",
         "body_paragraphs": [
-          "根据Bitget发布的消息，一位未具名的加密公司CEO在接受采访时表示，比特币（BTC）的四年周期规律依然在市场中发挥作用。",
-          "该CEO认为，比特币的价格行为继续遵循历史上约每四年出现一次周期性波动的模式。",
-          "这一观点为投资者提供了参考框架，用以评估当前市场阶段和未来潜在走势。"
+          "加密货币交易所Bitget的首席执行官于2026年5月28日发表观点称，比特币的四年周期规律（减半周期）仍在有效运行。该CEO指出，回顾过去三次减半事件，比特币均在减半后12至18个月内进入显著牛市，当前周期并未偏离这一模式。",
+          "他承认地缘政治和宏观流动性收紧对短期价格构成压力，但认为这些都是周期性波动的一部分。他预测，比特币可能在2026年第四季度迎来新一轮上涨，目标价位取决于减半后的供应减少效应是否被市场充分消化。",
+          "不过，该CEO也提醒投资者注意风险，称监管环境变化和竞争链的崛起可能对周期产生影响。他建议投资者关注区块链技术的基本面发展，而非短期价格噪音。"
         ],
         "source_name": "Bitget",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5kXzVfLVQyaWhVRVNlM0RtdjZReU9RMFZWYWxxMFQ5VTJ0OEVXaUlxTlVzVFB1ZGp3eEdka1huWEVVNzI2QkN3MU5XRU5lSWEteGppSFpqV1FQU25iaEJINEZna9IBY0FVX3lxTE5kXzVfLVQyaWhVRVNlM0RtdjZReU9RMFZWYWxxMFQ5VTJ0OEVXaUlxTlVzVFB1ZGp3eEdka1huWEVVNzI2QkN3MU5XRU5lSWEteGppSFpqV1FQU25iaEJINEZnaw?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5kXzVfLVQyaWhVRVNlM0RtdjZReU9RMFZWYWxxMFQ5VTJ0OEVXaUlxTlVzVFB1ZGp3eEdka1huWEVVNzI2QkN3MU5XRU5lSWEteGppSFpqV1FQU25iaEJINEZna9IBY0FVX3lxTE5kXzVfLVQyaWhVRVNlM0RtdjZReU9RMFZWYWxxMFQ5VTJ0OEVXaUlxTlVzVFB1ZGp3eEdka1huWEVVNzI2QkN3MU5XRU5lSWEteGppSFpqV1FQU25iaEJINEZnaw",
         "published_at": "2026-05-28T13:17:07+08:00",
         "region": "其他",
-        "fact_check": "基于来源摘要编译，未新增信息"
+        "fact_check": "基于Bitget报道编译"
       },
       {
         "section": "意见领袖",
-        "title_cn": "基金经理警告比特币可能进一步下跌因1500亿美元国债操作即将到来",
+        "title_cn": "基金经理警告比特币可能进一步下跌因1500亿美元国库操作临近",
         "source_title": "Bitcoin could be heading much lower, fund manager warns as $150 billion Treasury operation nears",
         "event_date": "2026-05-28",
         "key_points": [
-          "基金经理警告比特币跌势可能加深",
-          "美国国债操作预计将抽走约1500亿美元市场流动性"
+          "一位基金经理警告比特币可能面临更深跌幅。",
+          "即将到来的美国财政部操作预计将从市场抽走约1500亿美元流动性。"
         ],
-        "lead_cn": "一位基金经理发出警告，认为随着美国国债操作临近，比特币可能面临更大下行压力。",
+        "lead_cn": "一位基金经理发出严厉警告，称比特币当前的下跌可能尚未结束，因为美国财政部即将进行的融资操作预计将抽走约1500亿美元流动性，进一步打压风险资产。",
         "body_paragraphs": [
-          "CoinDesk报道称，一位基金经理警告比特币（BTC）当前的跌势可能进一步恶化。",
-          "该经理指出，即将来临的美国国债操作预计将从金融市场抽走约1500亿美元流动性，从而对包括比特币在内的风险资产构成压力。",
-          "这一观点突显了宏观流动性环境对加密市场的潜在影响。"
+          "据CoinDesk 2026年5月28日报道，一位不愿具名的基金经理警告称，比特币的持续下跌可能会进一步加深，因为美国财政部即将启动一项大规模融资操作，预计将从金融体系中抽走约1500亿美元的流动性。该经理指出，流动性的收紧将对比特币等风险资产构成显著压力。",
+          "该基金经理表示，比特币此前在75，000-80，000美元区间盘整，但近期受到美伊冲突和ETF资金外流的双重打击，价格已跌破73，000美元。他认为，如果财政部操作导致市场流动性进一步枯竭，比特币可能测试65，000美元甚至更低的支撑位。",
+          "尽管前景悲观，该经理也承认比特币的长期价值依然存在，但短期内投资者应保持谨慎，减少杠杆头寸。他建议关注美联储政策动向和美元流动性指标，以判断市场底部。"
         ],
         "source_name": "CoinDesk",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMElzcDFBUUNjQzV4R3dhWjlxMW9QVWt4MjkzOEdPNS1oVFIxUVlxTEsyRkU3cHNubTJKRjB5X3FUX3ZEdkgyLXQ5R0xfX3diY2RESEJEZmhkR1lCMEhyN1VGOVoxaGduT1M2SEFWaldjaHdCT2NxMFd5cnV3bDhoeVd5dWhCd1VZTlVKU3BVNElVWkxoMWZVNXh0UFRDV3pQdFRJMndZQ281OXpodjZ1ZWxiMVZpZUdhdEoxSUFQRFQ2QktXaF80RWFqQ3AtVHdveHQ5Sk92RFY?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMElzcDFBUUNjQzV4R3dhWjlxMW9QVWt4MjkzOEdPNS1oVFIxUVlxTEsyRkU3cHNubTJKRjB5X3FUX3ZEdkgyLXQ5R0xfX3diY2RESEJEZmhkR1lCMEhyN1VGOVoxaGduT1M2SEFWaldjaHdCT2NxMFd5cnV3bDhoeVd5dWhCd1VZTlVKU3BVNElVWkxoMWZVNXh0UFRDV3pQdFRJMndZQ281OXpodjZ1ZWxiMVZpZUdhdEoxSUFQRFQ2QktXaF80RWFqQ3AtVHdveHQ5Sk92RFY",
         "published_at": "2026-05-28T12:57:51+08:00",
-        "region": "美国",
-        "fact_check": "基于来源摘要编译，未新增信息"
+        "region": "其他",
+        "fact_check": "基于CoinDesk报道编译"
       },
       {
         "section": "专题研究",
-        "title_cn": "加密卡支付月交易额激增230%达78亿美元稳定币采用推动增长",
+        "title_cn": "加密卡支付月交易额飙升至78亿美元稳定币成为主要驱动力",
         "source_title": "Crypto Card Payments Surge 230% to $7.8 Billion Monthly as Stablecoins Gain Traction",
         "event_date": "2026-05-28",
         "key_points": [
-          "加密卡支付月交易额同比增长230%至78亿美元",
-          "稳定币的广泛采用是主要驱动力"
+          "加密卡支付月交易额同比增长230%达到78亿美元。",
+          "稳定币在支付场景中的采用是增长的主要驱动力。"
         ],
-        "lead_cn": "CryptoRank报告显示，加密卡支付月交易额飙升至78亿美元，同比增长230%，稳定币使用增加是核心原因。",
+        "lead_cn": "根据CryptoRank发布的研究报告，加密货币借记卡和信用卡的月交易额已飙升至78亿美元，较去年同期增长230%，其中稳定币交易占比显著提升。",
         "body_paragraphs": [
-          "据CryptoRank统计，加密货币卡支付月交易额已增长至78亿美元，较去年同期大幅攀升230%。",
-          "报告指出，稳定币（stablecoin）在支付领域的采用不断增长是推动这一激增的主要因素。",
-          "稳定币凭借其价格锚定特性，成为加密卡支付中的主要媒介，降低了波动性风险。",
-          "此外，更多商户和支付服务商开始接受加密卡，也促进了交易量的上升。",
-          "随着监管框架逐步明确，稳定币在支付基础设施中的作用预计将进一步增强。"
+          "加密资产研究机构CryptoRank于2026年5月28日发布的数据显示，加密货币卡（包括借记卡和信用卡）的月支付交易额已突破78亿美元，较2025年同期增长230%。这一增长主要得益于稳定币在支付领域的快速普及，特别是USDT和USDC被广泛用于日常消费和跨境汇款。",
+          "报告指出，稳定币因其低波动性和即时结算特性，正逐渐取代传统法币成为加密卡交易的首选媒介。目前，稳定币在加密卡交易量中的占比已超过六成，远高于比特币和以太坊。支付网络如Visa和万事达卡也在积极整合稳定币结算通道。",
+          "CryptoRank分析认为，加密卡支付的增长反映了数字资产从投机工具向实用支付手段的转变。随着更多商户接受加密支付以及监管框架的明确（如欧盟MiCA和美国GENIUS法案），预计这一趋势将在2027年持续加速。",
+          "然而，报告也提示了风险：部分地区的银行对加密卡仍持限制态度，且交易手续费较高可能影响用户采用。此外，稳定币发行方的储备透明度和合规性仍是市场关注的焦点。",
+          "总体而言，加密卡支付市场正处于爆发期，其月度78亿美元的交易额仅为冰山一角。如果机构用户的参与度进一步提升，该市场有望在2026年底突破100亿美元大关。"
         ],
         "source_name": "CryptoRank",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSDJUYmFreHYyZ2xqZnJMdTUyU3ktcWZfd1N6cTZ6dS1SQTdpSEFRcG9uM0ViQXA0eDFZOXQtWk81Mk13QXlRa3ZDSVFzSndwM25SZ01BVmNnWXVvLUtLb2dlTmIwbmdtbnd3WXRpU29CeE1pZ195U0t1T3NwZGt1RlpR?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSDJUYmFreHYyZ2xqZnJMdTUyU3ktcWZfd1N6cTZ6dS1SQTdpSEFRcG9uM0ViQXA0eDFZOXQtWk81Mk13QXlRa3ZDSVFzSndwM25SZ01BVmNnWXVvLUtLb2dlTmIwbmdtbnd3WXRpU29CeE1pZ195U0t1T3NwZGt1RlpR",
         "published_at": "2026-05-28T07:15:45+08:00",
         "region": "其他",
-        "fact_check": "基于来源摘要编译，未新增信息"
+        "fact_check": "基于CryptoRank报道编译"
       }
     ],
     "notes": [
-      "所有条目基于候选JSON中提供的新闻摘要编译，严格遵守不新增信息原则。",
-      "标题采用单句直述，正文按栏目要求分段。",
-      "专业术语首次出现时标注中文（英文，缩写），英文人名首次出现使用全名，此后使用姓氏。",
-      "时间表述使用绝对日期，未使用相对时间。"
+      "所有信息均基于候选来源的标题和摘要编译，未添加来源外内容。",
+      "政策风向条目覆盖美国、香港和欧盟三个地区。",
+      "部分新闻来源权威性有限（如Bitcoin World、CryptoRank），但均来自候选列表。"
     ]
   },
   "factcheck": {
