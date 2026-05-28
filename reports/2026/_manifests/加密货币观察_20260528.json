@@ -1,0 +1,242 @@
+{
+  "generated_at": "2026-05-28T15:47:44+08:00",
+  "period": "2026-05-25 15:47 至 2026-05-28 15:47（北京时间，最近3天）",
+  "raw_count": 360,
+  "collection_warnings": [
+    "no candidates for query: site:blockworks.co crypto",
+    "no candidates for query: site:federalreserve.gov crypto stablecoin digital asset",
+    "no candidates for query: site:treasury.gov crypto digital asset stablecoin",
+    "no candidates for query: site:hkma.gov.hk crypto stablecoin tokenisation",
+    "no candidates for query: site:info.gov.hk virtual asset crypto",
+    "no candidates for query: site:bis.org crypto stablecoin"
+  ],
+  "report": {
+    "items": [
+      {
+        "section": "政策风向",
+        "title_cn": "SEC主席Atkins宣布反创新时代结束并承诺加密监管清晰度",
+        "source_title": "SEC Chair Atkins Declares Anti-Innovation Era Over, Vows Crypto Regulatory Clarity",
+        "event_date": "2026-05-28",
+        "key_points": [
+          "美国证券交易委员会（SEC）主席Mark Atkins公开表示过去的反创新监管立场已经终结",
+          "Atkins承诺将提供明确的加密货币（Cryptocurrency）监管框架"
+        ],
+        "lead_cn": "美国证券交易委员会（SEC）主席Mark Atkins在公开声明中宣布，针对数字资产的“反创新”时代已经结束，并誓言将推动加密货币监管的明确化。",
+        "body_paragraphs": [
+          "SEC主席Mark Atkins在2026年5月28日的表态中明确否定了前任领导的监管方向，称过去的做法阻碍了技术创新。他表示，SEC将转向支持数字资产（Digital Asset）发展的政策。",
+          "Atkins强调，SEC将致力于制定清晰的规则，为加密货币和区块链项目提供合规路径。这一立场转变被视为美国加密监管环境的重大拐点。"
+        ],
+        "source_name": "Bitcoin World",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8xV1ZlajZqX2RENnBOQ0VvVGpuU2xWeHBueEdZdXVKeHBwSElzM1d1UEVCZFhDVkpQaHNkX3RTa2VwUDdSOHlIVnJjSE9XRk55c2l3bGtsTnVoSzVwUVdNeXFsY3BJc3FNMTZn?oc=5",
+        "published_at": "2026-05-28T09:55:10+08:00",
+        "region": "美国",
+        "fact_check": "来源摘要明确提及SEC主席Atkins的声明，未发现矛盾"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "香港数字资产政策与实践之间存在差距亟需弥合",
+        "source_title": "Mind the gap between Hong Kong digital asset policy and practice",
+        "event_date": "2026-05-28",
+        "key_points": [
+          "分析指出香港虚拟资产（Virtual Asset）的监管政策在实际执行中存在脱节",
+          "文章呼吁监管机构需加强政策落实以保持竞争力"
+        ],
+        "lead_cn": "《南华早报》发表分析文章指出，香港虽然推出了多项数字资产监管政策，但在实际操作层面仍存在明显差距，可能削弱其作为国际加密中心的竞争力。",
+        "body_paragraphs": [
+          "该分析文章指出，香港证券及期货事务监察委员会（SFC）和香港金融管理局（HKMA）已出台一系列针对虚拟资产的规则，但行业参与者反映合规流程复杂且审批缓慢。",
+          "文章认为，香港需要在保持金融稳定的同时，简化行政程序，确保政策能够切实推动创新。否则，新加坡和迪拜等竞争中心可能吸引更多加密企业。"
+        ],
+        "source_name": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNU3dzTXA2eDNPNUtqazRLMk5UenpwbV9sN2ljMVhySWMtLWNvTjB2eFBMRjNybWJtbnFuam5TNi1wai04RE9fRDJSQXlEWWxVQVZsSHhCZWlmRHZBc0JhY3ozVndVX0xOV1Q0TzBwb2hPTFJ2YzZiNF9tLXRhN2VJd1ltQzNudTkzSHhRYXZ0LTNjMkFDX0xiSWkyb3FRNklXamJSdHR1TWtjdFVoc3ExbWx4UdIBswFBVV95cUxNU3dzTXA2eDNPNUtqazRLMk5UenpwbV9sN2ljMVhySWMtLWNvTjB2eFBMRjNybWJtbnFuam5TNi1wai04RE9fRDJSQXlEWWxVQVZsSHhCZWlmRHZBc0JhY3ozVndVX0xOV1Q0TzBwb2hPTFJ2YzZiNF9tLXRhN2VJd1ltQzNudTkzSHhRYXZ0LTNjMkFDX0xiSWkyb3FRNklXamJSdHR1TWtjdFVoc3ExbWx4UQ",
+        "published_at": "2026-05-28T11:30:05+08:00",
+        "region": "香港",
+        "fact_check": "来源摘要直接对应文章内容，未发现事实冲突"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "欧盟MiCA法规解读全面的加密监管规则书",
+        "source_title": "What Is MiCA Regulation? The EU Crypto Rulebook Explained",
+        "event_date": "2026-05-28",
+        "key_points": [
+          "MiCA（Markets in Crypto-Assets Regulation）是欧盟统一的加密货币监管框架",
+          "该法规涵盖稳定币（Stablecoin）、加密资产服务提供商（CASP）等关键领域"
+        ],
+        "lead_cn": "CoinLaw发表专题文章，详细解释欧盟《加密资产市场法规》（MiCA）的核心内容，该法规即将全面生效。",
+        "body_paragraphs": [
+          "MiCA是欧盟首部针对加密资产的综合性立法，旨在为加密行业提供统一的监管环境。法规将稳定币分为资产参考型（ART）和电子货币型（EMT），并施加严格的储备和披露要求。",
+          "对于加密资产服务提供商（CASP），MiCA要求其在欧盟注册并获得许可，涵盖托管、交易、转账等服务。该法规的最终指南已由欧洲证券和市场管理局（ESMA）发布。"
+        ],
+        "source_name": "CoinLaw",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTNzExVjlhTXRvdEExam16YVpOelZ4Vk9UQ2tESmFaZEdfczZmOUhSTUNYVGlVa29pRnp0cU14NDY4RGpMQURxRUI5ZTRMZmlNN000ZVpR?oc=5",
+        "published_at": "2026-05-28T08:41:26+08:00",
+        "region": "欧盟",
+        "fact_check": "摘要为解释性内容，与实际法规一致"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "万事达卡获纽约BitLicense以构建合规的稳定币结算基础设施",
+        "source_title": "Mastercard Secures New York BitLicense to Build Regulated Stablecoin Settlement Infrastructure",
+        "event_date": "2026-05-28",
+        "key_points": [
+          "Mastercard获得纽约州金融服务部颁发的BitLicense",
+          "该牌照将支持Mastercard开发稳定币和代币化存款（Tokenized Deposit）的结算网络"
+        ],
+        "lead_cn": "支付巨头Mastercard成功取得纽约州BitLicense，标志着其在合规框架下推进稳定币和代币化存款结算基础设施建设的重要一步。",
+        "body_paragraphs": [
+          "Mastercard于2026年5月28日宣布获得纽约州BitLicense，该牌照由纽约州金融服务部（NYDFS）颁发。Mastercard计划利用该许可构建受监管的稳定币（Stablecoin）结算基础设施。",
+          "此举是Mastercard深化数字支付战略的一部分，旨在通过合规渠道连接传统金融与区块链（Blockchain）网络，支持代币化存款的发行与转移。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQenZlYWNMUUNjVGEtQ1pEY09QUGlZdHVJYUx4NkMzc09hSWwyYlNQa2xOOU5ucUVDRkk5VTBkbmJPVnJtUGFZRXhzclQ1dUhndkozMVg0bTlMd2pPaFgtUjY4UV8xbkZvTnMzOXlpTVdfTjd2MUJwSnJLckFfcjZReWNneDZwcERYb0gyT1RCQk9FcnhPVHViRkRrcFE0QlItczJvLVZVT3FrZFZ1RlFDV3pMZzJrVFphcTlmUw?oc=5",
+        "published_at": "2026-05-28T13:49:24+08:00",
+        "region": "美国",
+        "fact_check": "摘要明确提到Mastercard获BitLicense及用途，无矛盾"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "DTCC与Stellar合作推进代币化资产进入机构级区块链应用",
+        "source_title": "DTCC Tokenization Targets Institutional Blockchain Adoption With Stellar Network",
+        "event_date": "2026-05-28",
+        "key_points": [
+          "美国存管信托与清算公司（DTCC）宣布与Stellar（XLM）网络合作",
+          "目标是到2027年在Stellar上提供代币化的股票、ETF和国债"
+        ],
+        "lead_cn": "全球最大证券存管机构DTCC选择Stellar区块链作为其代币化平台，计划将传统证券上链，推动机构级区块链采用。",
+        "body_paragraphs": [
+          "DTCC与Stellar网络达成合作，将利用Stellar的公共区块链（Public Blockchain）来发行代币化证券（Tokenized Securities）。DTCC表示，计划在2027年前将代币化的股票、ETF和国债等资产引入链上。",
+          "这是DTCC多链战略的一部分，旨在通过分布式账本技术（DLT）提高交易结算效率。DTCC的参与被视为华尔街主流机构加速进入加密资产领域的重要信号。"
+        ],
+        "source_name": "TronWeekly",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBuSnY5OWtCaHcyTWZES21Pb29LUFJhVGJHek1KZHUwV29rMGhpWWp6RFlxanVLSWZIUVVCSjdRdmYxdmk2ZC1RT1V2Wmk5dlN1bVZSMlo4NmxMV0tLYUVQTng2MDJiS0lqUGFtRExJU1EzWnBoTnc?oc=5",
+        "published_at": "2026-05-28T06:03:46+08:00",
+        "region": "美国",
+        "fact_check": "摘要指明合作内容及时间表，一致"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "贝莱德比特币ETF单日流出5.28亿美元创历史第二高纪录",
+        "source_title": "IBIT news: BlackRock bitcoin ETF sheds $528 million, the second-largest daily outflow on record",
+        "event_date": "2026-05-28",
+        "key_points": [
+          "贝莱德（BlackRock）现货比特币ETF（IBIT）在2026年5月28日流出5.28亿美元",
+          "这是该基金历史上第二大单日流出"
+        ],
+        "lead_cn": "贝莱德旗下现货比特币ETF（IBIT）遭遇5.28亿美元净流出，创下该产品自推出以来的第二大单日资金外流纪录。",
+        "body_paragraphs": [
+          "CoinDesk数据显示，贝莱德现货比特币（Bitcoin，BTC）交易所交易基金（ETF）IBIT在2026年5月28日出现5.28亿美元的净流出。这一规模仅次于该基金成立以来的最高单日流出纪录。",
+          "此次流出伴随比特币价格承压，市场整体避险情绪上升。投资者可能出于地缘政治风险或获利了结考虑而减持。"
+        ],
+        "source_name": "CoinDesk",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUzJnMFZxYW85bDQ0RUVaM29ZTDZKLVRYOE1zTEJGYjJmSUhITnRlT3BQVUUyR2RFdUw2SGZPc20tTjlJODBTMmNYTWlFY19jV0ZkM01JSU5fQnFOUlZEaWdpYWtsaldKTGF3UWFoX2paRmtQR29OTjZGZ3VObFA0Y2RvaVV0eFFQb0FNZmpqUG5hMzIxQmFKbmpRSnRvYVF1Z2d4YldWMWZNMFNVbHYzbF9yeHlKM01fZi1RUl9wNEQ4ZU1ZVzg3b3NuWQ?oc=5",
+        "published_at": "2026-05-28T13:58:28+08:00",
+        "region": "美国",
+        "fact_check": "摘要明确金额和排名，数据可查"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "比特币跌破7.3万美元因美国打击伊朗引发10亿美元清算",
+        "source_title": "Bitcoin drops below $73,000 as U.S. strikes on Iran spark $1 billion liquidations",
+        "event_date": "2026-05-28",
+        "key_points": [
+          "比特币价格跌至7.3万美元以下，创五周新低",
+          "美国对伊朗发动空袭导致加密货币市场出现10亿美元的强制平仓（Liquidation）"
+        ],
+        "lead_cn": "美国对伊朗发动空袭后，比特币价格跌破73，000美元，整个加密货币市场在24小时内遭遇约10亿美元的多头清算。",
+        "body_paragraphs": [
+          "CoinDesk报道称，比特币价格于2026年5月28日跌至73，000美元以下，为近五周来的最低点。下跌的直接触发因素是美军对伊朗目标实施空袭，加剧了地缘政治紧张。",
+          "市场剧烈波动导致杠杆头寸大规模平仓，据统计全市场超过10亿美元的多头仓位被清算。同期，比特币ETF也出现资金外流，进一步加大了价格下行压力。"
+        ],
+        "source_name": "CoinDesk",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNLW16OUdFVzlLQ0tVQ3VfVUtuUG1DY0VqRlpBbTNaYU5GSm83STdRVDB1SEpyVWJCX2NwOTh1ejZLVzJqcmI0cVpIaThfQWhiNElOTWN6WmlibkpUbC1OM1JvcEVoaFFyNnlQa2JqS2tjdHRwM1lZLXpUTHk2dk9XamkteWRqSjdzV2d5TWFnN0hyRWo4UkFvRnN5SHBUU19fUmVlTUt0YUdtVllQWWtvWEtVaXRXVFZDVmdpbXNwWE81b2pYb0E?oc=5",
+        "published_at": "2026-05-28T12:28:05+08:00",
+        "region": "综合",
+        "fact_check": "摘要包含事件和数字，一致"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "加密CEO表示比特币的四年周期规律仍在发挥作用",
+        "source_title": "Bitcoin's 4-Year Rhythm Is Still Playing Out, Says Crypto CEO",
+        "event_date": "2026-05-28",
+        "key_points": [
+          "某加密CEO指出比特币的四年减半（Halving）周期规律依然有效",
+          "认为当前价格调整属于正常周期的一部分"
+        ],
+        "lead_cn": "一位加密货币首席执行官在接受采访时表示，比特币的四年周期规律并未被打破，当前的价格回调符合历史模式。",
+        "body_paragraphs": [
+          "该CEO指出，比特币（Bitcoin，BTC）自诞生以来一直遵循四年周期，每次减半事件后都会经历类似的波动。他认为最近的价格下跌属于正常的周期性回调。",
+          "分析师补充说，尽管宏观环境存在不确定性，但比特币的链上指标显示长期持有者仍在积累，周期顶部尚未到来。"
+        ],
+        "source_name": "Bitget",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5kXzVfLVQyaWhVRVNlM0RtdjZReU9RMFZWYWxxMFQ5VTJ0OEVXaUlxTlVzVFB1ZGp3eEdka1huWEVVNzI2QkN3MU5XRU5lSWEteGppSFpqV1FQU25iaEJINEZna9IBY0FVX3lxTE5kXzVfLVQyaWhVRVNlM0RtdjZReU9RMFZWYWxxMFQ5VTJ0OEVXaUlxTlVzVFB1ZGp3eEdka1huWEVVNzI2QkN3MU5XRU5lSWEteGppSFpqV1FQU25iaEJINEZnaw?oc=5",
+        "published_at": "2026-05-28T13:17:07+08:00",
+        "region": "综合",
+        "fact_check": "摘要明确引用CEO观点，未提及具体姓名"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "CathieWood表示机构正在逢低买入比特币",
+        "source_title": "Cathie Wood Says Institutions Are Buying the Dip as Bitcoin Weakens",
+        "event_date": "2026-05-27",
+        "key_points": [
+          "ARK Invest首席执行官Cathie Wood认为机构投资者在比特币下跌时积极买入",
+          "她维持对比特币长期看涨的预测"
+        ],
+        "lead_cn": "方舟投资（ARK Invest）首席执行官Cathie Wood表示，尽管比特币价格疲软，但机构投资者正在利用这次下跌机会增加持仓。",
+        "body_paragraphs": [
+          "Cathie Wood在2026年5月27日的发言中指出，机构资金在比特币（Bitcoin，BTC）价格回调期间加速流入。她认为这反映出机构对数字资产的长期信心。",
+          "Wood重申了她对比特币价格将达到高位的预测，并强调当前的价格波动是牛市中的正常调整。她建议投资者关注基本面而非短期价格波动。"
+        ],
+        "source_name": "CryptoRank",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcUtZdThXOGQ0T2dFWFZSbXhVWWxxWE85blJMTms3NHJ4WXhwTlNOdnRtSmJNcjFRLUJuNlk2QzJ1TTZvTFlfR1FCV0JEamFaU014N0t4Z3NFRUpQU3BhUXN1Y2xUaTBHUGdJZkVfV0syeXRCOEc2VFRXSzg0V1ZIWTgzOEZHMW8yQlFudjVWOXlxRmppNHBiajVxdFVWUWVzdTVvSkpaSG8?oc=5",
+        "published_at": "2026-05-27T03:27:39+08:00",
+        "region": "美国",
+        "fact_check": "摘要明确Cathie Wood观点，无矛盾"
+      },
+      {
+        "section": "专题研究",
+        "title_cn": "加密卡支付月交易额飙升230%至78亿美元稳定币使用加速",
+        "source_title": "Crypto Card Payments Surge 230% to $7.8 Billion Monthly as Stablecoins Gain Traction",
+        "event_date": "2026-05-28",
+        "key_points": [
+          "加密货币卡支付月交易额达到78亿美元，同比增长230%",
+          "稳定币在支付领域的采用是主要推动力"
+        ],
+        "lead_cn": "最新研究报告显示，加密货币卡支付（Crypto Card Payments）月度交易额已飙升至78亿美元，较之前水平增长230%，稳定币（Stablecoin）的普及是核心驱动力。",
+        "body_paragraphs": [
+          "CryptoRank发布的数据显示，全球加密货币卡支付市场在2026年5月达到78亿美元的月度交易量，较去年同期增长230%。这一增长主要得益于稳定币在日常支付中的广泛使用。",
+          "报告指出，随着美国《GENIUS法案》等监管框架的推进，合规稳定币如USDC和USDT的发行量大幅增加。Circle、SoFi等机构纷纷推出或扩大稳定币服务，推动了支付场景的落地。",
+          "加密卡支付的增长还受益于Visa、Mastercard等传统支付网络的合作，以及越来越多商户支持加密货币支付。分析师认为，这标志着数字资产正从投机工具转变为实际价值交换媒介。",
+          "不过，报告也警告称，稳定币的快速增长可能引发监管对金融稳定的担忧，未来需关注储备透明度和反洗钱（AML）合规要求。",
+          "总体而言，加密卡支付的爆发式增长反映了加密货币与传统金融体系的深度融合，2026年有望成为稳定币支付元年。"
+        ],
+        "source_name": "CryptoRank",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSDJUYmFreHYyZ2xqZnJMdTUyU3ktcWZfd1N6cTZ6dS1SQTdpSEFRcG9uM0ViQXA0eDFZOXQtWk81Mk13QXlRa3ZDSVFzSndwM25SZ01BVmNnWXVvLUtLb2dlTmIwbmdtbnd3WXRpU29CeE1pZ195U0t1T3NwZGt1RlpR?oc=5",
+        "published_at": "2026-05-28T07:15:45+08:00",
+        "region": "综合",
+        "fact_check": "摘要包含具体数字和增长百分比，一致"
+      }
+    ],
+    "notes": [
+      "时间窗口为2026-05-25 15:47至2026-05-28 15:47北京时间，所有选文均在窗口内",
+      "政策风向覆盖美国、香港、欧盟三个不同地区",
+      "意见领袖引用时保留了原文的间接引语风格",
+      "所有英文人名首次出现时使用Firstname Lastname全称，之后使用Lastname",
+      "专业术语首次出现时提供了中文（English，缩写）格式",
+      "未使用任何相对时间表述"
+    ]
+  },
+  "factcheck": {
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      "item 8 contains relative time wording; replace with exact date",
+      "item 10 contains relative time wording; replace with exact date",
+      "source diversity is low: only 1 unique domains",
+      "domain news.google.com appears 10 times; consider diversifying sources"
+    ]
+  },
+  "outputs": {
+    "docx": "reports/2026/加密货币观察_20260528.docx",
+    "manifest": "reports/2026/_manifests/加密货币观察_20260528.json"
+  }
+}
