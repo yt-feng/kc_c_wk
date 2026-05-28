@@ -33,7 +33,7 @@ def _extract_json(text: str) -> dict[str, Any]:
         raise
 
 
-def _chat(messages: list[dict[str, str]], timeout: int = 180) -> str:
+def _chat(messages: list[dict[str, str]], timeout: int = 240) -> str:
     api_key = os.getenv("DEEPSEEK_API_KEY")
     if not api_key:
         raise RuntimeError("DEEPSEEK_API_KEY is not set")
@@ -51,29 +51,63 @@ def _chat(messages: list[dict[str, str]], timeout: int = 180) -> str:
 
 
 def _compact_item(item: RawItem) -> dict[str, str]:
+    article_text = getattr(item, "article_text", "") or ""
     return {
         "title": item.title[:260],
         "url": item.url[:500],
         "source_name": item.source_name[:120],
         "published_at": item.published_at[:60],
-        "summary": item.summary[:500],
+        "summary": item.summary[:700],
+        "article_excerpt": article_text[:1200],
         "section_hint": item.section_hint[:40],
         "query": item.query[:180],
     }
 
 
-def _build_prompt(items: list[RawItem], start_label: str, end_label: str) -> list[dict[str, str]]:
+def _build_selection_prompt(items: list[RawItem], start_label: str, end_label: str) -> list[dict[str, str]]:
     rules = "；".join([f"{name}{count}条" for name, count in SECTION_COUNTS.items()])
-    payload = [_compact_item(x) for x in items]
-    system = "你是加密货币周刊的资深中文编译编辑。只基于给定英文来源写作，不得编造。只输出严格 JSON。"
+    payload = [_compact_item(x) for x in items[:120]]
+    system = "你是加密货币周刊的资深选题编辑。只基于给定英文来源选题，不得编造。只输出严格 JSON。"
     user = f"""
-请为《加密货币观察》选择并全文编译内容。统计窗口：{start_label} 至 {end_label} 北京时间；新闻发布时间不得早于当前时间一周前。
-栏目数量：{rules}。政策风向优先美国、香港的正式监管动向，3篇不要全是同一地区。
-写作要求：使用流畅、自然、专业且基调一致的中文；每篇写1至3个关键点；专业术语首次出现写“中文（English，缩写）”；除特朗普等极高知名度人物外，英文人名不翻译，首次写Firstname Lastname，此后写Lastname；不要使用“今年”“本周五”“近日”等相对时间；标题要专业、有信息量、单句直述，不用逗号、冒号、分号、破折号拆成两句；全文使用全角中文标点，引号必须使用中文全角引号“”和‘’，不得使用半角引号；意见领袖栏目可写“XXX认为”“XXX指出”。
-正文要求：普通条目3至5段，专题研究5至8段。只能使用候选来源可支持的信息，不得新增来源外的数字、机构、人物观点、时间和结论。
-输出 JSON：{{"items":[{{"section":"政策风向","title_cn":"中文标题","source_title":"英文原题","event_date":"YYYY-MM-DD","key_points":["关键点一","关键点二"],"lead_cn":"导语","body_paragraphs":["正文第一段","正文第二段"],"source_name":"来源","url":"URL","published_at":"发布时间","region":"美国/香港/欧盟/其他","fact_check":"核验说明"}}],"notes":["..."]}}
+请为《加密货币观察》从候选中选出本期文章。统计窗口：{start_label} 至 {end_label} 北京时间；新闻发布时间不得早于当前时间一周前。
+栏目数量：{rules}。政策风向优先美国、香港的正式监管动向，3篇不要全是同一地区；排除中文网站和中文来源；尽量分散来源网站。
+这里只做选题，不要全文写作。输出每篇的基础字段即可。标题必须单句直述，使用全角中文标点和中文全角引号。
+输出 JSON：{{"items":[{{"section":"政策风向","title_cn":"中文标题","source_title":"英文原题","event_date":"YYYY-MM-DD","source_name":"来源","url":"URL","published_at":"发布时间","region":"美国/香港/欧盟/其他","fact_check":"为什么可选"}}],"notes":["..."]}}
 候选 JSON：
 {json.dumps(payload, ensure_ascii=False, separators=(",", ":"))}
+""".strip()
+    return [{"role": "system", "content": system}, {"role": "user", "content": user}]
+
+
+def _build_expand_prompt(row: dict[str, Any], raw: RawItem | None) -> list[dict[str, str]]:
+    section = str(row.get("section") or "")
+    if section == "专题研究":
+        length_rule = "正文必须写成8至12个自然段，总长度不少于1400个中文字符。"
+    else:
+        length_rule = "正文必须写成5至7个自然段，总长度不少于900个中文字符。"
+    source_payload = {
+        "selected_item": row,
+        "source_title": getattr(raw, "title", "") or row.get("source_title"),
+        "source_name": getattr(raw, "source_name", "") or row.get("source_name"),
+        "url": getattr(raw, "url", "") or row.get("url"),
+        "published_at": getattr(raw, "published_at", "") or row.get("published_at"),
+        "summary": getattr(raw, "summary", ""),
+        "article_text": (getattr(raw, "article_text", "") or getattr(raw, "summary", "") or "")[:8000],
+    }
+    system = "你是加密货币周刊的资深中文编译编辑。只基于给定英文原文进行完整编译，不得编造。只输出严格 JSON。"
+    user = f"""
+请把下面入选文章编译成完整中文稿，而不是摘要、简讯或精炼版。{length_rule}
+写作要求：
+1. 保留原文主要事实链条、背景、原因、影响、市场或监管含义和后续观察，不能只写三段概括。
+2. 每篇开头给1至3个关键点，每个约30至50字。
+3. 专业术语首次出现写“中文（English，缩写）”；英文人名不翻译，首次写Firstname Lastname，此后写Lastname。
+4. 不使用“今年”“本周五”“近日”等相对时间，必须改成具体日期。
+5. 标题单句直述，不用逗号、冒号、分号、破折号拆成两句。
+6. 全文使用全角中文标点，引号必须使用“”和‘’，不得使用半角引号。
+7. 只能使用给定来源可支持的信息。来源没有的信息不要补写。
+输出 JSON：{{"section":"{section}","title_cn":"中文标题","source_title":"英文原题","event_date":"YYYY-MM-DD","key_points":["关键点一"],"lead_cn":"导语","body_paragraphs":["正文第一段","正文第二段"],"source_name":"来源","url":"URL","published_at":"发布时间","region":"地区","fact_check":"核验说明"}}
+来源材料 JSON：
+{json.dumps(source_payload, ensure_ascii=False, separators=(",", ":"))}
 """.strip()
     return [{"role": "system", "content": system}, {"role": "user", "content": user}]
 
@@ -155,15 +189,16 @@ def _fallback(items: list[RawItem]) -> dict[str, Any]:
             if item.url in used_urls or (_section_score(item, section) <= 0 and item.section_hint != section):
                 continue
             used_urls.add(item.url)
-            lead = normalize_punctuation(item.summary or item.title)
+            source_text = normalize_punctuation((getattr(item, "article_text", "") or item.summary or item.title)[:2400])
+            paragraphs = [source_text[i : i + 360] for i in range(0, min(len(source_text), 1800), 360)] or [source_text]
             selected.append({
                 "section": section,
                 "title_cn": clean_title(item.title),
                 "source_title": item.title,
                 "event_date": (item.published_at or "")[:10] or "-",
-                "key_points": ["该条由新闻标题、摘要和发布时间筛选得到，发布前需人工复核。"],
-                "lead_cn": lead[:180],
-                "body_paragraphs": [lead[:300], "自动草稿：该条由新闻标题、摘要、来源和发布时间筛选得到。", "发布前应打开原始链接核对事件时间、主体、数字和监管表述。"],
+                "key_points": ["该条由原文正文、新闻标题和发布时间筛选得到，发布前需人工复核。"],
+                "lead_cn": paragraphs[0][:220],
+                "body_paragraphs": paragraphs,
                 "source_name": item.source_name,
                 "url": item.url,
                 "published_at": item.published_at,
@@ -192,7 +227,7 @@ def _key_points_from_row(row: dict[str, Any]) -> list[str]:
 
 
 def normalize_report(data: dict[str, Any]) -> dict[str, Any]:
-    rows = data.get("items") or []
+    rows = data.get("items") if isinstance(data.get("items"), list) else [data]
     clean: list[dict[str, Any]] = []
     for row in rows:
         if not isinstance(row, dict):
@@ -214,7 +249,39 @@ def normalize_report(data: dict[str, Any]) -> dict[str, Any]:
             "region": str(row.get("region") or "其他").strip(),
             "fact_check": normalize_punctuation(str(row.get("fact_check") or "-").strip()),
         })
-    return {"items": clean, "notes": [str(x) for x in data.get("notes", []) if x]}
+    return {"items": clean, "notes": [str(x) for x in data.get("notes", []) if x] if isinstance(data, dict) else []}
+
+
+def _find_raw(row: dict[str, Any], items: list[RawItem]) -> RawItem | None:
+    url = str(row.get("url") or "").strip()
+    title = str(row.get("source_title") or row.get("title_cn") or "").lower()
+    for item in items:
+        if url and item.url == url:
+            return item
+    for item in items:
+        if title and (title in item.title.lower() or item.title.lower() in title):
+            return item
+    return None
+
+
+def _expand_selected_report(selected: dict[str, Any], items: list[RawItem]) -> dict[str, Any]:
+    expanded: list[dict[str, Any]] = []
+    notes = list(selected.get("notes", [])) if isinstance(selected.get("notes"), list) else []
+    for row in selected.get("items", []):
+        if not isinstance(row, dict):
+            continue
+        raw = _find_raw(row, items)
+        try:
+            data = _extract_json(_chat(_build_expand_prompt(row, raw), timeout=240))
+            one = normalize_report(data)["items"]
+            expanded.append(one[0] if one else normalize_report({"items": [row]})["items"][0])
+        except Exception as exc:
+            LOGGER.warning("DeepSeek item expansion failed, keeping selected draft: %s", exc)
+            normalized = normalize_report({"items": [row]})["items"]
+            if normalized:
+                expanded.append(normalized[0])
+            notes.append(f"item expansion failed: {row.get('title_cn')}")
+    return {"items": expanded, "notes": notes}
 
 
 def compile_report(items: list[RawItem], start_label: str, end_label: str) -> dict[str, Any]:
@@ -223,7 +290,8 @@ def compile_report(items: list[RawItem], start_label: str, end_label: str) -> di
     if not os.getenv("DEEPSEEK_API_KEY"):
         return normalize_report(_fallback(items))
     try:
-        return normalize_report(_extract_json(_chat(_build_prompt(items, start_label, end_label))))
+        selected = normalize_report(_extract_json(_chat(_build_selection_prompt(items, start_label, end_label), timeout=240)))
+        return _expand_selected_report(selected, items)
     except Exception as exc:
         LOGGER.warning("DeepSeek compile failed, using fallback: %s", exc)
         return normalize_report(_fallback(items))
