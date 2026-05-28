@@ -10,13 +10,13 @@ import requests
 
 from .config import HK_TERMS, SECTION_COUNTS, SECTION_ORDER, US_TERMS
 from .sources import RawItem
+from .text_utils import normalize_chinese_punctuation
 
 LOGGER = logging.getLogger(__name__)
 DEFAULT_MODEL = "deepseek-v4-flash"
 DEFAULT_BASE_URL = "https://api.deepseek.com"
 TITLE_SPLIT_RE = re.compile(r"[，,；;：:—–-]+")
 COUNTRY_WORDS = ("美国", "韩国", "英国", "日本", "欧盟", "印度", "泰国", "新加坡", "香港", "澳大利亚", "加拿大", "巴西", "法国", "德国")
-PUNCT_MAP = str.maketrans({",": "，", ";": "；", ":": "：", "?": "？", "!": "！"})
 
 
 def _extract_json(text: str) -> dict[str, Any]:
@@ -69,7 +69,7 @@ def _build_prompt(items: list[RawItem], start_label: str, end_label: str) -> lis
     user = f"""
 请为《加密货币观察》选择并全文编译内容。统计窗口：{start_label} 至 {end_label} 北京时间；新闻发布时间不得早于当前时间一周前。
 栏目数量：{rules}。政策风向优先美国、香港的正式监管动向，3篇不要全是同一地区。
-写作要求：使用流畅、自然、专业且基调一致的中文；每篇写1至3个关键点；专业术语首次出现写“中文（English，缩写）”；除特朗普等极高知名度人物外，英文人名不翻译，首次写Firstname Lastname，此后写Lastname；不要使用“今年”“本周五”“近日”等相对时间；标题要专业、有信息量、单句直述，不用逗号、冒号、分号、破折号拆成两句；全文使用全角中文标点；意见领袖栏目可写“XXX认为”“XXX指出”。
+写作要求：使用流畅、自然、专业且基调一致的中文；每篇写1至3个关键点；专业术语首次出现写“中文（English，缩写）”；除特朗普等极高知名度人物外，英文人名不翻译，首次写Firstname Lastname，此后写Lastname；不要使用“今年”“本周五”“近日”等相对时间；标题要专业、有信息量、单句直述，不用逗号、冒号、分号、破折号拆成两句；全文使用全角中文标点，引号必须使用中文全角引号“”和‘’，不得使用半角引号；意见领袖栏目可写“XXX认为”“XXX指出”。
 正文要求：普通条目3至5段，专题研究5至8段。只能使用候选来源可支持的信息，不得新增来源外的数字、机构、人物观点、时间和结论。
 输出 JSON：{{"items":[{{"section":"政策风向","title_cn":"中文标题","source_title":"英文原题","event_date":"YYYY-MM-DD","key_points":["关键点一","关键点二"],"lead_cn":"导语","body_paragraphs":["正文第一段","正文第二段"],"source_name":"来源","url":"URL","published_at":"发布时间","region":"美国/香港/欧盟/其他","fact_check":"核验说明"}}],"notes":["..."]}}
 候选 JSON：
@@ -102,7 +102,7 @@ def _section_score(item: RawItem, section: str) -> int:
 
 
 def normalize_punctuation(text: str) -> str:
-    return re.sub(r"\s+", " ", str(text or "").translate(PUNCT_MAP)).strip()
+    return normalize_chinese_punctuation(text)
 
 
 def clean_title(title: str) -> str:
@@ -129,7 +129,7 @@ def clean_title(title: str) -> str:
             value = first + second
     value = TITLE_SPLIT_RE.sub("", value)
     value = value.replace("明确化", "明确").replace("寻求数字资产监管明确", "明确数字资产监管").replace("寻求监管明确", "明确监管")
-    return value.strip(" ，,；;：:。.!！?？—–-") or "-"
+    return normalize_chinese_punctuation(value.strip(" ，,；;：:。.!！?？—–-")) or "-"
 
 
 def _infer_region(item: RawItem) -> str:
