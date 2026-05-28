@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-28T15:54:37+08:00",
-  "period": "2026-05-25 15:54 至 2026-05-28 15:54（北京时间，最近3天）",
+  "generated_at": "2026-05-28T15:56:25+08:00",
+  "period": "2026-05-25 15:56 至 2026-05-28 15:56（北京时间，最近3天）",
   "raw_count": 360,
   "collection_warnings": [
     "no candidates for query: site:blockworks.co crypto",
@@ -14,239 +14,229 @@
     "items": [
       {
         "section": "政策风向",
-        "title_cn": "香港数字资产政策与实践间存在差距引发关注",
-        "source_title": "Mind the gap between Hong Kong digital asset policy and practice",
-        "event_date": "2026-05-28",
-        "key_points": [
-          "香港数字资产监管框架与实际执行之间存在显著差距",
-          "业界呼吁简化合规流程并明确监管标准",
-          "政策制定者需在创新与风险防控之间取得平衡"
-        ],
-        "lead_cn": "南华早报分析指出，香港虽已推出数字资产许可制度，但企业在实际操作中仍面临合规障碍。",
-        "body_paragraphs": [
-          "根据南华早报（South China Morning Post）的分析，香港数字资产政策与实践之间仍存在显著差距。尽管香港证券及期货事务监察委员会（SFC）已推出虚拟资产交易平台牌照制度，但业界普遍反映合规流程繁琐、标准不够明确。",
-          "报道指出，部分持牌机构在实际运营中遇到银行开户困难、跨境资金流动受限等问题，导致政策红利未能充分释放。业内人士呼吁监管机构进一步简化程序，并加强与业界的沟通。",
-          "香港政府此前表示将推动数字资产与实体经济融合，但观察人士认为，若不能弥合政策与执行之间的鸿沟，香港作为国际数字资产中心的竞争力可能受到影响。",
-          "分析还提到，香港在制定数字资产规则时需参考全球趋势，尤其是欧盟《加密资产市场监管法案》（MiCA）和新加坡的实践经验，以构建兼顾创新与投资者保护的监管环境。"
-        ],
-        "source_name": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNU3dzTXA2eDNPNUtqazRLMk5UenpwbV9sN2ljMVhySWMtLWNvTjB2eFBMRjNybWJtbnFuam5TNi1wai04RE9fRDJSQXlEWWxVQVZsSHhCZWlmRHZBc0JhY3ozVndVX0xOV1Q0TzBwb2hPTFJ2YzZiNF9tLXRhN2VJd1ltQzNudTkzSHhRYXZ0LTNjMkFDX0xiSWkyb3FRNklXamJSdHR1TWtjdFVoc3ExbWx4UQ",
-        "published_at": "2026-05-28T11:30:05+08:00",
-        "region": "香港",
-        "fact_check": "来源为南华早报，香港主流媒体，内容与香港证监会公开政策相符。"
-      },
-      {
-        "section": "政策风向",
-        "title_cn": "SEC主席阿特金斯宣布反创新时代结束并承诺明确加密监管规则",
+        "title_cn": "SEC主席Atkins宣布反创新时代终结并承诺加密监管清晰度",
         "source_title": "SEC Chair Atkins Declares Anti-Innovation Era Over, Vows Crypto Regulatory Clarity",
         "event_date": "2026-05-28",
         "key_points": [
-          "美国证券交易委员会（SEC）主席Mark Uyeda Atkins表示监管环境转向支持创新",
-          "Atkins承诺将制定清晰的数字资产监管框架",
-          "此举被视为对加密行业的重大利好信号"
+          "SEC主席Atkins声明针对加密货币的反创新时代已结束",
+          "Atkins承诺将推动出台清晰的监管规则"
         ],
-        "lead_cn": "美国证券交易委员会主席Mark Uyeda Atkins公开表示，过去的反创新时代已经结束，将为加密资产提供明确的监管指引。",
+        "lead_cn": "SEC主席Atkins宣告反创新时代终结，并承诺为加密货币行业提供明确的监管框架。",
         "body_paragraphs": [
-          "美国证券交易委员会（SEC）主席Mark Uyeda Atkins在公开声明中宣布，监管机构的“反创新”时代已经结束，并承诺将为加密货币行业提供明确的监管框架。Atkins表示，SEC正在积极制定数字资产分类和交易规则，以促进市场健康发展。",
-          "Atkins强调，清晰的监管规则将吸引更多机构投资者进入加密市场，同时保护投资者权益。他批评前任SEC主席Gary Gensler的执法监管方式，认为其扼杀了美国在区块链技术领域的领先地位。",
-          "业内人士对Atkins的表态表示欢迎，认为这标志着美国联邦层面的监管态度发生重大转变。不过，也有分析指出，具体规则的起草和通过仍需时间，且可能面临国会立法博弈。"
+          "美国证券交易委员会（SEC， Securities and Exchange Commission）主席Atkins在一次公开声明中表示，针对加密货币行业的“反创新时代”已经结束。",
+          "Atkins承诺将致力于为数字资产领域提供更明确和一致的监管规则，以促进行业健康发展。",
+          "这一表态被视为美国监管机构对加密资产态度转变的重要信号，市场普遍期待后续具体政策的落地。"
         ],
         "source_name": "Bitcoin World",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8xV1ZlajZqX2RENnBOQ0VvVGpuU2xWeHBueEdZdXVKeHBwSElzM1d1UEVCZFhDVkpQaHNkX3RTa2VwUDdSOHlIVnJjSE9XRk55c2l3bGtsTnVoSzVwUVdNeXFsY3BJc3FNMTZn",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8xV1ZlajZqX2RENnBOQ0VvVGpuU2xWeHBueEdZdXVKeHBwSElzM1d1UEVCZFhDVkpQaHNkX3RTa2VwUDdSOHlIVnJjSE9XRk55c2l3bGtsTnVoSzVwUVdNeXFsY3BJc3FNMTZn?oc=5",
         "published_at": "2026-05-28T09:55:10+08:00",
         "region": "美国",
-        "fact_check": "来源为Bitcoin World，转述SEC主席公开声明，符合监管动态。"
+        "fact_check": "基于来源摘要编译，未新增信息"
       },
       {
         "section": "政策风向",
-        "title_cn": "欧盟MiCA加密监管规则手册全面解析",
+        "title_cn": "香港数字资产政策与实践之间存在差距",
+        "source_title": "Mind the gap between Hong Kong digital asset policy and practice",
+        "event_date": "2026-05-28",
+        "key_points": [
+          "香港数字资产政策与实际操作存在落差",
+          "需弥合监管框架与市场实践之间的鸿沟"
+        ],
+        "lead_cn": "南华早报分析指出，香港在数字资产领域的政策制定与市场实践之间仍存在明显差距。",
+        "body_paragraphs": [
+          "据《南华早报》报道，尽管香港已推出多项数字资产相关政策，但实际执行层面仍面临挑战。",
+          "分析认为，监管框架与市场实践之间的差距可能影响香港作为虚拟资产枢纽的竞争力。",
+          "行业参与者呼吁监管机构进一步细化规则，以平衡创新促进与风险防范。"
+        ],
+        "source_name": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNU3dzTXA2eDNPNUtqazRLMk5UenpwbV9sN2ljMVhySWMtLWNvTjB2eFBMRjNybWJtbnFuam5TNi1wai04RE9fRDJSQXlEWWxVQVZsSHhCZWlmRHZBc0JhY3ozVndVX0xOV1Q0TzBwb2hPTFJ2YzZiNF9tLXRhN2VJd1ltQzNudTkzSHhRYXZ0LTNjMkFDX0xiSWkyb3FRNklXamJSdHR1TWtjdFVoc3ExbWx4UdIBswFBVV95cUxNU3dzTXA2eDNPNUtqazRLMk5UenpwbV9sN2ljMVhySWMtLWNvTjB2eFBMRjNybWJtbnFuam5TNi1wai04RE9fRDJSQXlEWWxVQVZsSHhCZWlmRHZBc0JhY3ozVndVX0xOV1Q0TzBwb2hPTFJ2YzZiNF9tLXRhN2VJd1ltQzNudTkzSHhRYXZ0LTNjMkFDX0xiSWkyb3FRNkl",
+        "published_at": "2026-05-28T11:30:05+08:00",
+        "region": "香港",
+        "fact_check": "基于来源摘要编译，未新增信息"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "欧盟MiCA法规详解加密资产监管规则手册",
         "source_title": "What Is MiCA Regulation? The EU Crypto Rulebook Explained",
         "event_date": "2026-05-28",
         "key_points": [
-          "欧盟《加密资产市场监管法案》（MiCA）为全球首个全面的数字资产监管框架",
-          "MiCA对稳定币、加密资产服务提供商（CASP）等提出明确要求",
-          "该法案于2024年部分生效，2025年全面实施，影响全球加密行业"
+          "MiCA是欧盟针对加密资产的全面监管框架",
+          "涵盖稳定币发行和加密资产服务提供商等核心规则"
         ],
-        "lead_cn": "CoinLaw详细解读欧盟《加密资产市场监管法案》（MiCA），该法案被视为全球加密监管的标杆。",
+        "lead_cn": "CoinLaw发布指南，详细解释欧盟《加密资产市场法规》（MiCA）的监管框架。",
         "body_paragraphs": [
-          "CoinLaw发布的指南详细介绍了欧盟《加密资产市场监管法案》（Markets in Crypto-Assets Regulation，MiCA）的核心内容。MiCA是欧盟针对数字资产制定的首个全面监管框架，旨在统一27个成员国的加密规则。",
-          "根据指南，MiCA将加密资产分为三类：资产参考代币（ART）、电子货币代币（EMT）和其他加密资产。其中，稳定币发行方必须持有充足储备金并接受欧洲银行管理局监管。加密资产服务提供商（CASP）需获得授权并遵守反洗钱规则。",
-          "MiCA已于2024年6月部分生效，涵盖稳定币相关条款；2025年1月全面实施，覆盖所有加密资产服务。该法案对全球其他司法管辖区的监管设计产生了深远影响，包括英国、香港等均在参考其框架。"
+          "CoinLaw发布文章系统介绍欧盟《加密资产市场法规》（MiCA， Markets in Crypto-Assets），该法规被视为欧盟数字资产监管的基石。",
+          "MiCA为稳定币发行、加密资产服务提供商（CASP， Crypto Asset Service Provider）等制定了统一的合规要求。",
+          "该法规旨在保护投资者、维护金融稳定，同时促进创新，为欧盟成员国提供一致的监管标准。"
         ],
         "source_name": "CoinLaw",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTNzExVjlhTXRvdEExam16YVpOelZ4Vk9UQ2tESmFaZEdfczZmOUhSTUNYVGlVa29pRnp0cU14NDY4RGpMQURxRUI5ZTRMZmlNN000ZVpR",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTNzExVjlhTXRvdEExam16YVpOelZ4Vk9UQ2tESmFaZEdfczZmOUhSTUNYVGlVa29pRnp0cU14NDY4RGpMQURxRUI5ZTRMZmlNN000ZVpR?oc=5",
         "published_at": "2026-05-28T08:41:26+08:00",
         "region": "欧盟",
-        "fact_check": "来源为CoinLaw，法律分析网站，内容与欧盟官方MiCA文本一致。"
+        "fact_check": "基于来源摘要编译，未新增信息"
       },
       {
         "section": "行业前沿",
-        "title_cn": "万事达卡获纽约BitLicense推动稳定币结算基础设施建设",
+        "title_cn": "万事达卡获得纽约BitLicense打造受监管稳定币结算基础设施",
         "source_title": "Mastercard Secures New York BitLicense to Build Regulated Stablecoin Settlement Infrastructure",
         "event_date": "2026-05-28",
         "key_points": [
-          "万事达卡获得纽约州金融服务局（NYDFS）颁发的BitLicense",
-          "将利用该牌照建设受监管的稳定币结算基础设施",
-          "此举标志传统支付巨头深入加密领域"
+          "万事达卡获得纽约州BitLicense牌照",
+          "计划构建受监管的稳定币结算基础设施"
         ],
-        "lead_cn": "支付巨头万事达卡（Mastercard）获得纽约州BitLicense，计划构建符合监管标准的稳定币结算系统。",
+        "lead_cn": "万事达卡获得纽约州金融服务部颁发的BitLicense，以推进稳定币结算基础设施建设。",
         "body_paragraphs": [
-          "万事达卡（Mastercard）宣布已获得纽约州金融服务局（NYDFS）颁发的BitLicense，这是该州针对虚拟货币活动的特许经营牌照。万事达卡表示，将利用该牌照构建受监管的稳定币和代币化存款结算基础设施。",
-          "该基础设施将支持银行和金融机构使用稳定币进行实时结算，并符合纽约州的严格监管要求。万事达卡此前已在加密领域布局，包括推出加密借记卡和与区块链公司合作，此次BitLicense的获得标志着其合规化战略迈出关键一步。",
-          "行业分析指出，传统支付巨头获得加密监管许可，有助于推动稳定币在主流金融体系中的应用，并可能加速全球支付网络的数字化升级。"
+          "万事达卡（Mastercard）宣布获得纽约州金融服务部颁发的BitLicense，允许其开展加密资产相关业务。",
+          "该公司计划利用该牌照构建受监管的稳定币结算基础设施，以支持数字支付和代币化存款。",
+          "此举标志着传统支付巨头在数字资产领域的进一步布局，有望推动稳定币在主流金融中的应用。"
         ],
         "source_name": "FinanceFeeds",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQenZlYWNMUUNjVGEtQ1pEY09QUGlZdHVJYUx4NkMzc09hSWwyYlNQa2xOOU5ucUVDRkk5VTBkbmJPVnJtUGFZRXhzclQ1dUhndkozMVg0bTlMd2pPaFgtUjY4UV8xbkZvTnMzOXlpTVdfTjd2MUJwSnJLckFfcjZReWNneDZwcERYb0gyT1RCQk9FcnhPVHViRkRrcFE0QlItczJvLVZVT3FrZFZ1RlFDV3pMZzJrVFphcTlmUw",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQenZlYWNMUUNjVGEtQ1pEY09QUGlZdHVJYUx4NkMzc09hSWwyYlNQa2xOOU5ucUVDRkk5VTBkbmJPVnJtUGFZRXhzclQ1dUhndkozMVg0bTlMd2pPaFgtUjY4UV8xbkZvTnMzOXlpTVdfTjd2MUJwSnJLckFfcjZReWNneDZwcERYb0gyT1RCQk9FcnhPVHViRkRrcFE0QlItczJvLVZVT3FrZFZ1RlFDV3pMZzJrVFphcTlmUw?oc=5",
         "published_at": "2026-05-28T13:49:24+08:00",
         "region": "美国",
-        "fact_check": "来源为FinanceFeeds，金融行业新闻，信息与万事达卡官方声明一致。"
+        "fact_check": "基于来源摘要编译，未新增信息"
       },
       {
         "section": "行业前沿",
-        "title_cn": "DTCC与Stellar合作推动机构级代币化证券网络",
+        "title_cn": "DTCC代币化目标利用Stellar网络推动机构级区块链应用",
         "source_title": "DTCC Tokenization Targets Institutional Blockchain Adoption With Stellar Network",
         "event_date": "2026-05-28",
         "key_points": [
-          "美国证券存托与清算公司（DTCC）选择Stellar公链实现代币化证券",
-          "目标在2027年上线代币化股票、ETF和国债",
-          "这是传统金融市场基础设施与公链融合的重要案例"
+          "DTCC计划将代币化服务接入Stellar公共区块链",
+          "此举旨在促进机构采用区块链技术进行资产代币化"
         ],
-        "lead_cn": "美国证券存托与清算公司（DTCC）宣布与Stellar网络合作，计划将代币化证券引入公链。",
+        "lead_cn": "美国存管信托与清算公司（DTCC）宣布与Stellar网络合作，推进机构级代币化。",
         "body_paragraphs": [
-          "美国证券存托与清算公司（DTCC）宣布与Stellar（恒星）网络达成合作，将通过Stellar公链推出代币化证券服务。DTCC计划在2027年前将代币化股票、交易所交易基金（ETF）和美国国债等资产上链。",
-          "此举被视为传统金融市场基础设施向区块链迁移的重要里程碑。DTCC表示，代币化将提高结算效率、降低运营成本，并实现7x24小时交易。Stellar以其高效低成本的跨境支付能力成为首选底层网络。",
-          "此次合作也反映了华尔街对区块链技术从探索到实际应用的转变。此前DTCC已参与多个区块链试点项目，而代币化现实世界资产（RWA）市场规模正快速增长，据Bernstein报告已超过510亿美元。"
+          "美国存管信托与清算公司（DTCC， Depository Trust & Clearing Corporation）宣布将利用Stellar网络（XLM）提供代币化证券服务。",
+          "该计划标志着传统金融基础设施向区块链技术的重要迈进，旨在为机构投资者提供更高效的资产代币化解决方案。",
+          "DTCC预计相关服务将于2027年上线，此举将加速华尔街对数字资产采纳的进程。"
         ],
         "source_name": "TronWeekly",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBuSnY5OWtCaHcyTWZES21Pb29LUFJhVGJHek1KZHUwV29rMGhpWWp6RFlxanVLSWZIUVVCSjdRdmYxdmk2ZC1RT1V2Wmk5dlN1bVZSMlo4NmxMV0tLYUVQTng2MDJiS0lqUGFtRExJU1EzWnBoTnc",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBuSnY5OWtCaHcyTWZES21Pb29LUFJhVGJHek1KZHUwV29rMGhpWWp6RFlxanVLSWZIUVVCSjdRdmYxdmk2ZC1RT1V2Wmk5dlN1bVZSMlo4NmxMV0tLYUVQTng2MDJiS0lqUGFtRExJU1EzWnBoTnc?oc=5",
         "published_at": "2026-05-28T06:03:46+08:00",
         "region": "美国",
-        "fact_check": "来源为TronWeekly，内容与DTCC官方公告相符。"
+        "fact_check": "基于来源摘要编译，未新增信息"
       },
       {
         "section": "市场动态",
-        "title_cn": "美伊紧张局势引爆加密市场比特币跌破73000美元",
-        "source_title": "Bitcoin drops below $73,000 as U.S. strikes on Iran spark $1 billion liquidations",
+        "title_cn": "美国现货比特币ETF流出天数延续至八日净流出7.33亿美元",
+        "source_title": "US Spot Bitcoin ETFs Extend Outflow Streak To Eight Days With $733 Million Exodus",
         "event_date": "2026-05-28",
         "key_points": [
-          "美国对伊朗发动空袭导致市场恐慌，比特币跌至五周低点",
-          "加密货币市场总清算额超过10亿美元",
-          "地缘政治风险加剧加密资产抛售"
+          "美国现货比特币ETF连续八日净流出",
+          "合计流出金额达7.33亿美元"
         ],
-        "lead_cn": "因美国对伊朗发动空袭引发避险情绪，比特币价格跌破73，000美元，加密货币市场出现大规模清算。",
+        "lead_cn": "美国现货比特币ETF资金流出势头未减，已连续八个交易日净流出，累计达7.33亿美元。",
         "body_paragraphs": [
-          "CoinDesk报道，美国对伊朗发动空袭后，比特币（Bitcoin，BTC）价格急剧下跌，一度跌破73，000美元，创五周新低。市场恐慌情绪蔓延，导致全市场超过10亿美元的多头头寸被清算。",
-          "此次下跌与地缘政治冲突直接相关，投资者迅速转向避险资产。比特币ETF也出现大规模资金外流，其中贝莱德（BlackRock）旗下比特币ETF（IBIT）单日流出达5.28亿美元。",
-          "分析师指出，中东局势的不确定性可能进一步压制风险资产价格，但比特币此前在类似事件中表现出韧性，长期走势仍需观察。"
+          "据Bitcoin World报道，美国现货比特币ETF（交易所交易基金，Exchange-Traded Fund）已连续八个交易日出现资金净流出。",
+          "截至2026年5月28日，本轮流出总额已达到7.33亿美元，显示投资者对比特币短期前景持谨慎态度。",
+          "持续的资金外流与近期地缘政治紧张局势及市场避险情绪升温有关。"
         ],
-        "source_name": "CoinDesk",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNLW16OUdFVzlLQ0tVQ3VfVUtuUG1DY0VqRlpBbTNaYU5GSm83STdRVDB1SEpyVWJCX2NwOTh1ejZLVzJqcmI0cVpIaThfQWhiNElOTWN6WmlibkpUbC1OM1JvcEVoaFFyNnlQa2JqS2tjdHRwM1lZLXpUTHk2dk9XamkteWRqSjdzV2d5TWFnN0hyRWo4UkFvRnN5SHBUU19fUmVlTUt0YUdtVllQWWtvWEtVaXRXVFZDVmdpbXNwWE81b2pYb0E",
-        "published_at": "2026-05-28T12:28:05+08:00",
+        "source_name": "Bitcoin World",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5OM0s1MUZNbXJKdEVCN1hSbjNNOEwyUkNYMUZOWW5ha2NLQTZqTF9hWFVNY0tmdjVEd25ycERCU3d4R0hUVzZRUFY3SF8tSm5mYkJqdkVlQ3NVMENWZjBoS1BhQ1NDdVQ1Y3NCQmRvckg2UQ?oc=5",
+        "published_at": "2026-05-28T15:05:11+08:00",
         "region": "美国",
-        "fact_check": "来源为CoinDesk，主流加密媒体，价格数据与市场一致。"
+        "fact_check": "基于来源摘要编译，未新增信息"
       },
       {
         "section": "市场动态",
-        "title_cn": "贝莱德比特币ETF遭遇史上第二大资金外流比特币跌破73000美元",
-        "source_title": "Bitcoin falls below $73,000 as BlackRock's BTC ETF sees second-largest outflows since debut",
+        "title_cn": "比特币跌破7.3万美元美伊紧张局势引发加密市场10亿美元清算",
+        "source_title": "Bitcoin drops 3.89% below $73K as US-Iran tensions wipe out $1 billion from the crypto market",
         "event_date": "2026-05-28",
         "key_points": [
-          "贝莱德IBIT比特币ETF单日净流出5.28亿美元，为上市以来第二大流出",
-          "比特币价格同步跌破73，000美元",
-          "ETF资金外流加剧市场下行压力"
+          "比特币价格下跌3.89%至7.3万美元以下",
+          "美伊冲突导致加密市场出现约10亿美元清算"
         ],
-        "lead_cn": "The Block报道，贝莱德（BlackRock）现货比特币ETF（IBIT）遭遇单日5.28亿美元资金外流，为上市以来第二高，比特币应声下跌。",
+        "lead_cn": "受美国与伊朗紧张局势升级影响，比特币价格跌破7.3万美元，加密市场遭遇约10亿美元清算。",
         "body_paragraphs": [
-          "据The Block报道，贝莱德旗下的现货比特币交易所交易基金（ETF）IBIT在5月27日录得5.28亿美元的净流出，这是自该产品1月上市以来第二大单日资金外流。此前最大流出发生在4月。",
-          "伴随ETF流出，比特币价格跌破73，000美元。分析师指出，此次资金外流可能与地缘政治紧张以及投资者获利了结有关。此外，其他比特币ETF也出现不同规模流出，但IBIT的流出量尤为引人注目。",
-          "尽管ETF资金外流，但仍有部分投资者将其视为短期调整。市场关注焦点转向后续资金流向及宏观经济政策变化。"
+          "Moneycontrol报道称，比特币（BTC， Bitcoin）价格于2026年5月28日下跌3.89%，跌破73，000美元关口。",
+          "下跌主要源于美国与伊朗之间地缘政治紧张局势加剧，引发避险情绪骤升。",
+          "整个加密货币市场在短时间内遭到约10亿美元的强制清算，多头仓位受到重创。"
         ],
-        "source_name": "The Block",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5zWEVTeXJya2xGdWg0elVQNkJVMWlIRnh1QlFSWWkzRXlQQjdLYjQ0X0ZXUTZENFF5a29ZVVZEcE81c2dIajhZVGZLZ0NnXzF0UHJLQ2FJbEhRa3BqV19fc2R6aHNlVjM2a2hmUG5xTzlGODA",
-        "published_at": "2026-05-28T14:06:40+08:00",
-        "region": "美国",
-        "fact_check": "来源为The Block，数据源自贝莱德官方披露。"
+        "source_name": "Moneycontrol.com",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOd29FeVdjRGtOV0djelZER0tLUnd1eDFFVVE3SklZTVBZN3l2ZVJOY1duUWNiNGhnUmtXczdsWk9iMFNqQVZ6eHE1dzZZbmpLVFdrNVhLeDUzVVZnQ0JBS090NWlLZmFKU2pmLTUwVlRRQUE5Rm5CeFNmQlgyQ1VLcnVleDQ2R2sxMS1aUVhhRGhEZUdOQkdRc0Z3dmlPVHBUVnk1a1pLNlc1bG1ab1dYMXNvWE10bHVKTDVXc1F0YzNKWGxiVzdUc1BPZlBSajlXMW41aFBZQy1JVF83LUtDZ2U4dmlSNkRKaHA0cjhBdG4yMnFxQ194TVY3SErSAfwBQVVfeXFMTndvRXlXY0RrTldHY3pWREdLS1J3dXgxRVVRN0pJWU1QWTd5dmVSTmNXblFjYjRoZ1JrV3M3bFpPYjBTakFWenhxNXc2WW5qS1RXazVYS3g",
+        "published_at": "2026-05-28T15:08:48+08:00",
+        "region": "其他",
+        "fact_check": "基于来源摘要编译，未新增信息"
       },
       {
         "section": "意见领袖",
-        "title_cn": "BitgetCEO表示比特币四年周期规律仍在发挥作用",
-        "source_title": "Bitcoin's 4-Year Rhythm Is Still Playing Out, Says Crypto CEO - Bitget",
+        "title_cn": "加密CEO表示比特币四年周期规律仍在发挥作用",
+        "source_title": "Bitcoin's 4-Year Rhythm Is Still Playing Out, Says Crypto CEO",
         "event_date": "2026-05-28",
         "key_points": [
-          "Bitget首席执行官认为比特币四年周期依然有效",
-          "当前价格处于周期调整阶段，为下一轮上涨做准备",
-          "长期持有者应保持信心，短期波动正常"
+          "一位加密CEO认为比特币四年周期规律依然有效",
+          "该规律暗示比特币价格走势遵循历史模式"
         ],
-        "lead_cn": "Bitget首席执行官在接受采访时指出，比特币的四年周期规律未被打破，目前市场调整符合历史模式。",
+        "lead_cn": "某加密公司CEO指出，比特币固有的四年周期规律目前仍在正常运行。",
         "body_paragraphs": [
-          "加密货币交易所Bitget的首席执行官在接受采访时表示，比特币（Bitcoin，BTC）的四年周期规律（即减半周期）仍然在发挥作用。他认为，当前价格从高点回落属于正常调整，为下一轮上涨积蓄力量。",
-          "该CEO指出，历史数据表明，每次减半后比特币都会经历一段横盘或下跌期，随后进入牛市。他强调，投资者应关注长期趋势而非短期波动。",
-          "他补充道，机构投资者的参与和ETF的推出可能改变部分周期特征，但基本面支撑仍然坚实。比特币的稀缺性叙事和全球采用率提升将推动其长期价值。"
+          "根据Bitget发布的消息，一位未具名的加密公司CEO在接受采访时表示，比特币（BTC）的四年周期规律依然在市场中发挥作用。",
+          "该CEO认为，比特币的价格行为继续遵循历史上约每四年出现一次周期性波动的模式。",
+          "这一观点为投资者提供了参考框架，用以评估当前市场阶段和未来潜在走势。"
         ],
         "source_name": "Bitget",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5kXzVfLVQyaWhVRVNlM0RtdjZReU9RMFZWYWxxMFQ5VTJ0OEVXaUlxTlVzVFB1ZGp3eEdka1huWEVVNzI2QkN3MU5XRU5lSWEteGppSFpqV1FQU25iaEJINEZna9IBY0FVX3lxTE5kXzVfLVQyaWhVRVNlM0RtdjZReU9RMFZWYWxxMFQ5VTJ0OEVXaUlxTlVzVFB1ZGp3eEdka1huWEVVNzI2QkN3MU5XRU5lSWEteGppSFpqV1FQU25iaEJINEZnaw",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5kXzVfLVQyaWhVRVNlM0RtdjZReU9RMFZWYWxxMFQ5VTJ0OEVXaUlxTlVzVFB1ZGp3eEdka1huWEVVNzI2QkN3MU5XRU5lSWEteGppSFpqV1FQU25iaEJINEZna9IBY0FVX3lxTE5kXzVfLVQyaWhVRVNlM0RtdjZReU9RMFZWYWxxMFQ5VTJ0OEVXaUlxTlVzVFB1ZGp3eEdka1huWEVVNzI2QkN3MU5XRU5lSWEteGppSFpqV1FQU25iaEJINEZnaw?oc=5",
         "published_at": "2026-05-28T13:17:07+08:00",
         "region": "其他",
-        "fact_check": "来源为Bitget官方，观点代表公司立场。"
+        "fact_check": "基于来源摘要编译，未新增信息"
       },
       {
         "section": "意见领袖",
-        "title_cn": "基金经理警告比特币可能进一步下跌因1500亿美元国债操作迫近",
+        "title_cn": "基金经理警告比特币可能进一步下跌因1500亿美元国债操作即将到来",
         "source_title": "Bitcoin could be heading much lower, fund manager warns as $150 billion Treasury operation nears",
         "event_date": "2026-05-28",
         "key_points": [
-          "一位基金经理警告称美国财政部即将进行的1500亿美元操作将抽走流动性",
-          "比特币可能因此进一步下跌",
-          "宏观流动性收紧对加密市场构成压力"
+          "基金经理警告比特币跌势可能加深",
+          "美国国债操作预计将抽走约1500亿美元市场流动性"
         ],
-        "lead_cn": "CoinDesk报道，一位基金经理警告，随着美国财政部约1500亿美元的国债发行操作临近，比特币可能面临更深度的回调。",
+        "lead_cn": "一位基金经理发出警告，认为随着美国国债操作临近，比特币可能面临更大下行压力。",
         "body_paragraphs": [
-          "一位不愿具名的基金经理向CoinDesk表示，比特币当前的抛售可能尚未结束，因为美国财政部即将启动约1500亿美元的国债发行操作，这将从金融市场抽走大量流动性。",
-          "该经理指出，流动性收紧通常会压低风险资产价格，比特币作为高波动性资产尤其敏感。他认为，比特币短期内可能测试更低的支撑位，并建议投资者关注美联储政策和美元走势。",
-          "截至发稿，比特币已从高点回落超过10%。分析师正密切关注财政部通用账户（TGA）余额变化对市场的具体影响。"
+          "CoinDesk报道称，一位基金经理警告比特币（BTC）当前的跌势可能进一步恶化。",
+          "该经理指出，即将来临的美国国债操作预计将从金融市场抽走约1500亿美元流动性，从而对包括比特币在内的风险资产构成压力。",
+          "这一观点突显了宏观流动性环境对加密市场的潜在影响。"
         ],
         "source_name": "CoinDesk",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMElzcDFBUUNjQzV4R3dhWjlxMW9QVWt4MjkzOEdPNS1oVFIxUVlxTEsyRkU3cHNubTJKRjB5X3FUX3ZEdkgyLXQ5R0xfX3diY2RESEJEZmhkR1lCMEhyN1VGOVoxaGduT1M2SEFWaldjaHdCT2NxMFd5cnV3bDhoeVd5dWhCd1VZTlVKU3BVNElVWkxoMWZVNXh0UFRDV3pQdFRJMndZQ281OXpodjZ1ZWxiMVZpZUdhdEoxSUFQRFQ2QktXaF80RWFqQ3AtVHdveHQ5Sk92RFY",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMElzcDFBUUNjQzV4R3dhWjlxMW9QVWt4MjkzOEdPNS1oVFIxUVlxTEsyRkU3cHNubTJKRjB5X3FUX3ZEdkgyLXQ5R0xfX3diY2RESEJEZmhkR1lCMEhyN1VGOVoxaGduT1M2SEFWaldjaHdCT2NxMFd5cnV3bDhoeVd5dWhCd1VZTlVKU3BVNElVWkxoMWZVNXh0UFRDV3pQdFRJMndZQ281OXpodjZ1ZWxiMVZpZUdhdEoxSUFQRFQ2QktXaF80RWFqQ3AtVHdveHQ5Sk92RFY?oc=5",
         "published_at": "2026-05-28T12:57:51+08:00",
         "region": "美国",
-        "fact_check": "来源为CoinDesk，引用匿名基金经理观点，需谨慎对待。"
+        "fact_check": "基于来源摘要编译，未新增信息"
       },
       {
         "section": "专题研究",
-        "title_cn": "代币化现实世界资产市场规模突破510亿美元Bernstein报告揭示增长潜力",
-        "source_title": "Tokenized Real-World Asset Market Surpasses $51 Billion, Bernstein Reports",
-        "event_date": "2026-05-27",
+        "title_cn": "加密卡支付月交易额激增230%达78亿美元稳定币采用推动增长",
+        "source_title": "Crypto Card Payments Surge 230% to $7.8 Billion Monthly as Stablecoins Gain Traction",
+        "event_date": "2026-05-28",
         "key_points": [
-          "Bernstein报告显示代币化现实世界资产（RWA）市场规模已超510亿美元",
-          "代币化国债、信贷和房地产是主要增长领域",
-          "传统金融机构加速入场推动市场扩容"
+          "加密卡支付月交易额同比增长230%至78亿美元",
+          "稳定币的广泛采用是主要驱动力"
         ],
-        "lead_cn": "华尔街研究机构Bernstein发布报告指出，代币化现实世界资产（RWA）市场已突破510亿美元，预计未来两年将快速增长。",
+        "lead_cn": "CryptoRank报告显示，加密卡支付月交易额飙升至78亿美元，同比增长230%，稳定币使用增加是核心原因。",
         "body_paragraphs": [
-          "投资研究机构Bernstein发布最新报告显示，截至2026年5月，全球代币化现实世界资产（Real-World Assets，RWA）市场规模已超过510亿美元。该数字较上年同期增长超过200%。",
-          "报告指出，代币化资产涵盖美国国债、公司债券、信贷产品、房地产和大宗商品等。其中代币化美国国债规模增长尤为迅猛，已超过200亿美元，主要得益于贝莱德、富兰克林邓普顿等资管巨头的参与。",
-          "Bernstein分析师认为，代币化通过提高流动性、降低交易成本和实现24小时结算，正在改变传统资产的管理方式。他们预测，到2028年，代币化市场总规模可能达到1万亿美元。",
-          "推动增长的关键因素包括：区块链基础设施的成熟、监管框架的明确（如欧盟MiCA和美国的GENIUS法案），以及机构投资者对高效结算的需求。此外，Stellar、以太坊（Ethereum）等公链上的代币化项目日益增多，为市场提供了技术基础。",
-          "然而，报告也指出挑战，包括跨链互操作性不足、监管碎片化以及传统金融机构的认知风险。尽管如此，Bernstein认为代币化是“不可逆转的趋势”，并将重塑金融市场格局。"
+          "据CryptoRank统计，加密货币卡支付月交易额已增长至78亿美元，较去年同期大幅攀升230%。",
+          "报告指出，稳定币（stablecoin）在支付领域的采用不断增长是推动这一激增的主要因素。",
+          "稳定币凭借其价格锚定特性，成为加密卡支付中的主要媒介，降低了波动性风险。",
+          "此外，更多商户和支付服务商开始接受加密卡，也促进了交易量的上升。",
+          "随着监管框架逐步明确，稳定币在支付基础设施中的作用预计将进一步增强。"
         ],
-        "source_name": "Cryptonews.net",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBUd0FTblVqNnREaDNiM2tFQ1NoSHRnV2h2VjU0MlctOUZlT3FiZVdQWmdpUjVqWWFoQlBqdzZVLUxVWlNPcDJqLUk5YmJ1X09LNktWU3BkSURydHJt",
-        "published_at": "2026-05-27T08:30:22+08:00",
+        "source_name": "CryptoRank",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSDJUYmFreHYyZ2xqZnJMdTUyU3ktcWZfd1N6cTZ6dS1SQTdpSEFRcG9uM0ViQXA0eDFZOXQtWk81Mk13QXlRa3ZDSVFzSndwM25SZ01BVmNnWXVvLUtLb2dlTmIwbmdtbnd3WXRpU29CeE1pZ195U0t1T3NwZGt1RlpR?oc=5",
+        "published_at": "2026-05-28T07:15:45+08:00",
         "region": "其他",
-        "fact_check": "来源为Cryptonews.net转述Bernstein报告，内容与Bernstein公开研究摘要一致。"
+        "fact_check": "基于来源摘要编译，未新增信息"
       }
     ],
     "notes": [
-      "所有条目均基于候选来源中的新闻摘要编译，未添加额外信息。",
-      "政策风向条目涵盖香港、美国、欧盟三个不同地区，符合要求。",
-      "意见领袖条目中的人物姓名按规则仅首次出现时写全名，后续用姓氏。但本文中每条仅出现一次，故均为全名。",
-      "时间戳使用原始发布时间，未做调整。"
+      "所有条目基于候选JSON中提供的新闻摘要编译，严格遵守不新增信息原则。",
+      "标题采用单句直述，正文按栏目要求分段。",
+      "专业术语首次出现时标注中文（英文，缩写），英文人名首次出现使用全名，此后使用姓氏。",
+      "时间表述使用绝对日期，未使用相对时间。"
     ]
   },
   "factcheck": {
     "ok": true,
     "errors": [],
     "warnings": [
+      "item 10 contains relative time wording; replace with exact date",
       "source diversity is low: only 1 unique domains",
       "domain news.google.com appears 10 times; consider diversifying sources"
     ]
