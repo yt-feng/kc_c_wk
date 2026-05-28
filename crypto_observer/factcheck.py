@@ -48,6 +48,14 @@ def _has_relative_time(text: str) -> bool:
     return any(x in text for x in ("今年", "去年", "明年", "本周", "上周", "下周", "周五", "近日", "日前", "最近"))
 
 
+def _min_body_chars(section: str) -> int:
+    return 1200 if section == "专题研究" else 750
+
+
+def _min_body_paragraphs(section: str) -> int:
+    return 8 if section == "专题研究" else 5
+
+
 def check_report(report: dict[str, object], start: datetime, end: datetime) -> FactCheckResult:
     items = report.get("items") or []
     if not isinstance(items, list):
@@ -77,11 +85,15 @@ def check_report(report: dict[str, object], start: datetime, end: datetime) -> F
         if not isinstance(row, dict):
             errors.append(f"item {idx} is not an object")
             continue
+        section = str(row.get("section") or "")
         title = str(row.get("title_cn") or "")
         source_title = str(row.get("source_title") or "")
         url = str(row.get("url") or "")
         published_at = str(row.get("published_at") or "")
-        body = " ".join(str(x) for x in [row.get("lead_cn", ""), *(row.get("body_paragraphs") or [])])
+        paragraphs = row.get("body_paragraphs") or []
+        if not isinstance(paragraphs, list):
+            paragraphs = []
+        body = " ".join(str(x) for x in [row.get("lead_cn", ""), *paragraphs])
         points = row.get("key_points") or []
         all_cn_text = " ".join([title, body, " ".join(str(x) for x in points)])
 
@@ -103,6 +115,10 @@ def check_report(report: dict[str, object], start: datetime, end: datetime) -> F
             warnings.append(f"item {idx} contains relative time wording; replace with exact date")
         if has_half_width_quotes(all_cn_text):
             errors.append(f"item {idx} contains half-width quotation marks; use Chinese full-width quotes")
+        if len(paragraphs) < _min_body_paragraphs(section):
+            errors.append(f"item {idx} body is too short: {len(paragraphs)} paragraphs, expected at least {_min_body_paragraphs(section)}")
+        if len(body) < _min_body_chars(section):
+            errors.append(f"item {idx} body is too short: {len(body)} chars, expected at least {_min_body_chars(section)}")
         if not isinstance(points, list) or not (1 <= len(points) <= 3):
             warnings.append(f"item {idx} should include 1 to 3 key_points")
         if not str(row.get("fact_check") or "").strip():
