@@ -7,6 +7,7 @@ from urllib.parse import urlsplit
 
 from .config import HK_TERMS, MAX_NEWS_AGE_DAYS, SECTION_COUNTS, US_TERMS
 from .sources import is_chinese_item, parse_datetime
+from .text_utils import has_half_width_quotes
 
 
 @dataclass
@@ -82,6 +83,7 @@ def check_report(report: dict[str, object], start: datetime, end: datetime) -> F
         published_at = str(row.get("published_at") or "")
         body = " ".join(str(x) for x in [row.get("lead_cn", ""), *(row.get("body_paragraphs") or [])])
         points = row.get("key_points") or []
+        all_cn_text = " ".join([title, body, " ".join(str(x) for x in points)])
 
         if not (url.startswith("http://") or url.startswith("https://")):
             errors.append(f"item {idx} has invalid url: {url}")
@@ -99,6 +101,8 @@ def check_report(report: dict[str, object], start: datetime, end: datetime) -> F
             warnings.append(f"item {idx} title may be two-part or use disallowed punctuation: {title}")
         if _has_relative_time(body + title):
             warnings.append(f"item {idx} contains relative time wording; replace with exact date")
+        if has_half_width_quotes(all_cn_text):
+            errors.append(f"item {idx} contains half-width quotation marks; use Chinese full-width quotes")
         if not isinstance(points, list) or not (1 <= len(points) <= 3):
             warnings.append(f"item {idx} should include 1 to 3 key_points")
         if not str(row.get("fact_check") or "").strip():
