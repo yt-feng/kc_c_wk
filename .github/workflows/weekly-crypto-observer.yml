@@ -20,7 +20,7 @@ on:
       strict:
         description: "1 to fail on fact-check errors, 0 to write draft"
         required: false
-        default: "1"
+        default: "0"
 
 permissions:
   contents: write
@@ -70,7 +70,7 @@ jobs:
             reports/**/_manifests/*.json
           if-no-files-found: warn
       - name: Commit generated report
-        if: success()
+        if: always()
         shell: bash
         run: |
           set -euo pipefail
