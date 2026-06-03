@@ -17,6 +17,7 @@ DEFAULT_MODEL = "deepseek-v4-flash"
 DEFAULT_BASE_URL = "https://api.deepseek.com"
 TITLE_SPLIT_RE = re.compile(r"[，,；;：:—–-]+")
 COUNTRY_WORDS = ("美国", "韩国", "英国", "日本", "欧盟", "印度", "泰国", "新加坡", "香港", "澳大利亚", "加拿大", "巴西", "法国", "德国")
+FRONTIER_TERMS = ("defi", "layer", "ethereum", "protocol", "blockchain", "upgrade", "launch", "tokenization", "interoperability", "restaking", "rollup", "staking", "wallet", "security", "infrastructure")
 
 
 def _extract_json(text: str) -> dict[str, Any]:
@@ -70,7 +71,7 @@ def _build_selection_prompt(items: list[RawItem], start_label: str, end_label: s
     system = "你是加密货币周刊的资深选题编辑。只基于给定英文来源选题，不得编造。只输出严格 JSON。"
     user = f"""
 请为《加密货币观察》从候选中选出本期文章。统计窗口：{start_label} 至 {end_label} 北京时间；新闻发布时间不得早于当前时间一周前。
-栏目数量：{rules}。政策风向优先美国、香港的正式监管动向，3篇不要全是同一地区；排除中文网站和中文来源；尽量分散来源网站。
+栏目数量：{rules}。政策风向优先美国、香港的正式监管动向，3篇不要全是同一地区；【行业前沿】与【市场动态】采用同一选题标准，均优先选择区块链协议、DeFi、Layer 2、以太坊、基础设施、互操作、代币化、安全、钱包、质押、升级和产品发布等技术或生态进展，不优先选择ETF、价格、融资、交易所、并购、资金流等纯市场事件；排除中文网站和中文来源；尽量分散来源网站。
 这里只做选题，不要全文写作。输出每篇的基础字段即可。标题必须单句直述，使用全角中文标点和中文全角引号。
 输出 JSON：{{"items":[{{"section":"政策风向","title_cn":"中文标题","source_title":"英文原题","event_date":"YYYY-MM-DD","source_name":"来源","url":"URL","published_at":"发布时间","region":"美国/香港/欧盟/其他","fact_check":"为什么可选"}}],"notes":["..."]}}
 候选 JSON：
@@ -122,12 +123,14 @@ def _section_score(item: RawItem, section: str) -> int:
     score = 5 if item.section_hint == section else 0
     section_terms = {
         "政策风向": ("regulation", "sec", "cftc", "treasury", "policy", "law", "enforcement", "mica", "stablecoin", "sfc", "hkma", "guidance", "framework", "rule", "approved", "final"),
-        "行业前沿": ("defi", "layer", "ethereum", "protocol", "blockchain", "upgrade", "launch", "tokenization"),
-        "市场动态": ("etf", "market", "funding", "raises", "exchange", "bitcoin", "price", "inflow", "acquisition"),
+        "行业前沿": FRONTIER_TERMS,
+        "市场动态": FRONTIER_TERMS,
         "意见领袖": ("says", "opinion", "interview", "ceo", "founder", "analyst", "investor", "predicts"),
         "专题研究": ("report", "research", "outlook", "analysis", "on-chain", "weekly"),
     }
     score += sum(1 for term in section_terms.get(section, ()) if term in text)
+    if section in ("行业前沿", "市场动态") and any(term in text for term in ("etf", "price", "funding", "raises", "acquisition", "ipo", "exchange", "inflow", "outflow")):
+        score -= 2
     if section == "政策风向" and (_has_any(text, US_TERMS) or _has_any(text, HK_TERMS)):
         score += 4
     if section == "政策风向" and any(t in text for t in ("proposal", "proposed", "petition")):
