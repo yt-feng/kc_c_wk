@@ -9,7 +9,7 @@ on:
       - "requirements.txt"
       - ".github/workflows/weekly-crypto-observer.yml"
   schedule:
-    - cron: "0 6 * * 3"
+    - cron: "17 5 * * 3"
   workflow_dispatch:
     inputs:
       days:
