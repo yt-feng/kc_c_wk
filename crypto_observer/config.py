@@ -32,6 +32,11 @@ TRACKED_SITES = {
     "Glassnode": "site:glassnode.com bitcoin market report",
 }
 
+FRONTIER_QUERIES = (
+    "blockchain protocol upgrade DeFi Layer 2 Ethereum",
+    "crypto infrastructure launch interoperability tokenization",
+)
+
 SECTION_QUERIES = {
     "政策风向": (
         "US crypto regulation SEC CFTC Treasury stablecoin final rule guidance",
@@ -39,8 +44,8 @@ SECTION_QUERIES = {
         "crypto regulation adopted enacted final guidance digital asset",
         "MiCA crypto regulation stablecoin CASP final guidance",
     ),
-    "行业前沿": ("blockchain protocol upgrade DeFi Layer 2 Ethereum", "crypto infrastructure launch interoperability tokenization"),
-    "市场动态": ("bitcoin ETF crypto market funding exchange", "crypto market inflows acquisition IPO"),
+    "行业前沿": FRONTIER_QUERIES,
+    "市场动态": FRONTIER_QUERIES,
     "意见领袖": ("crypto opinion CEO investor analyst says bitcoin", "cryptocurrency interview founder economist bitcoin"),
     "专题研究": ("crypto research report bitcoin market stablecoin", "digital assets report blockchain research"),
 }
