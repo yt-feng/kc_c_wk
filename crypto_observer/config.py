@@ -1,10 +1,13 @@
 from __future__ import annotations
 
 REPORT_TITLE = "加密货币观察"
-SECTION_ORDER = ("政策风向", "行业前沿", "市场动态", "意见领袖", "专题研究")
-SECTION_COUNTS = {"政策风向": 3, "行业前沿": 2, "市场动态": 2, "意见领袖": 2, "专题研究": 1}
+MAIN_SECTION_ORDER = ("政策风向", "行业前沿", "市场动态", "意见领袖")
+SECTION_ORDER = MAIN_SECTION_ORDER
+SECTION_COUNTS = {"政策风向": 3, "行业前沿": 2, "市场动态": 2, "意见领袖": 2}
 TOTAL_ITEMS = sum(SECTION_COUNTS.values())
 MAX_NEWS_AGE_DAYS = 7
+RESEARCH_LOOKBACK_DAYS = 62
+RESEARCH_REPORT_TITLE = "专题研究"
 US_TERMS = ("US", "U.S.", "United States", "America", "American", "SEC", "CFTC", "Treasury", "Federal Reserve", "Fed", "Congress", "White House", "IRS", "FinCEN")
 HK_TERMS = ("Hong Kong", "HK", "SFC", "Hong Kong SFC", "HKMA", "HKSAR", "香港")
 ESTABLISHED_POLICY_TERMS = ("approved", "adopted", "enacted", "signed", "final", "effective", "issued", "guidance", "rule", "law", "licence", "license", "framework", "circular", "statement")
@@ -32,6 +35,19 @@ TRACKED_SITES = {
     "Glassnode": "site:glassnode.com bitcoin market report",
 }
 
+RESEARCH_ORGANIZATION_SITES = {
+    "PwC": "pwc.com",
+    "KPMG": "kpmg.com",
+    "BCG": "bcg.com",
+    "PitchBook": "pitchbook.com",
+    "McKinsey": "mckinsey.com",
+    "BIS": "bis.org",
+    "Deloitte": "deloitte.com",
+    "EY": "ey.com",
+    "Citi": "citigroup.com",
+    "JPMorgan": "jpmorgan.com",
+}
+
 FRONTIER_QUERIES = (
     "blockchain protocol upgrade DeFi Layer 2 Ethereum",
     "crypto infrastructure launch interoperability tokenization",
@@ -47,5 +63,4 @@ SECTION_QUERIES = {
     "行业前沿": FRONTIER_QUERIES,
     "市场动态": FRONTIER_QUERIES,
     "意见领袖": ("crypto opinion CEO investor analyst says bitcoin", "cryptocurrency interview founder economist bitcoin"),
-    "专题研究": ("crypto research report bitcoin market stablecoin", "digital assets report blockchain research"),
 }
