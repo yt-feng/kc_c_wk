@@ -7,6 +7,7 @@ on:
     paths:
       - "crypto_observer/**"
       - "requirements.txt"
+      - "ARCHITECTURE.md"
       - ".github/workflows/weekly-crypto-observer.yml"
   schedule:
     - cron: "17 5 * * 3"
@@ -27,7 +28,7 @@ permissions:
 jobs:
   generate_report:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 120
     env:
       TZ: Asia/Shanghai
       DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
@@ -65,6 +66,7 @@ jobs:
           name: crypto-observer-report
           path: |
             reports/**/*.docx
+            reports/**/*.pdf
             reports/**/_manifests/*.json
           if-no-files-found: warn
       - name: Commit generated report
@@ -74,14 +76,14 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if ! find reports -type f \( -name "*.docx" -o -path "*/_manifests/*.json" \) | grep -q .; then
+          if ! find reports -type f \( -name "*.docx" -o -name "*.pdf" -o -path "*/_manifests/*.json" \) | grep -q .; then
             echo "No report files generated."
             exit 0
           fi
           tmp_dir="$(mktemp -d)"
           mkdir -p "$tmp_dir/reports"
           cp -a reports/. "$tmp_dir/reports/"
-          commit_msg="chore: add Crypto Observer report $(date +'%Y-%m-%d')"
+          commit_msg="chore: add Crypto Observer reports $(date +'%Y-%m-%d')"
           for attempt in 1 2 3; do
             echo "Commit attempt $attempt"
             git fetch origin main
@@ -95,11 +97,11 @@ jobs:
             fi
             git commit -m "$commit_msg"
             if git push origin HEAD:main; then
-              echo "Pushed generated report."
+              echo "Pushed generated reports."
               exit 0
             fi
             echo "Push rejected, retrying after refreshing origin/main."
             sleep 5
           done
-          echo "Failed to push generated report after retries."
+          echo "Failed to push generated reports after retries."
           exit 1
