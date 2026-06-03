@@ -35,9 +35,10 @@ class RawItem:
     section_hint: str = ""
     query: str = ""
     article_text: str = ""
+    google_wrapper_url: str = ""
 
     def stable_key(self) -> str:
-        raw = f"{norm_text(self.title)}|{norm_url(self.url)}"
+        raw = f"{title_key(self.title)}|{norm_url(self.url)}"
         return hashlib.sha1(raw.encode("utf-8")).hexdigest()
 
     def as_dict(self) -> dict[str, str]:
@@ -61,6 +62,12 @@ def norm_url(value: str) -> str:
     parsed = urllib.parse.urlsplit(value.strip())
     query = [(k, v) for k, v in urllib.parse.parse_qsl(parsed.query, keep_blank_values=True) if not k.lower().startswith("utm_")]
     return urllib.parse.urlunsplit((parsed.scheme, parsed.netloc.lower(), parsed.path, urllib.parse.urlencode(query), ""))
+
+
+def title_key(value: str) -> str:
+    text = norm_text(value).lower()
+    text = re.sub(r"\s+-\s+[^-]{2,60}$", "", text)
+    return re.sub(r"[^a-z0-9]+", "", text)[:180]
 
 
 def strip_html(value: str | None) -> str:
@@ -88,7 +95,11 @@ def in_window(date_value: str | None, start: datetime, end: datetime) -> bool:
 
 
 def host(url: str) -> str:
-    return urllib.parse.urlsplit(url).netloc.lower().replace("www.", "")
+    return urllib.parse.urlsplit(url or "").netloc.lower().replace("www.", "")
+
+
+def is_google_news_url(url: str) -> bool:
+    return host(url).endswith("news.google.com")
 
 
 def is_chinese_item(title: str, summary: str, url: str) -> bool:
@@ -143,7 +154,10 @@ def parse_rss(xml_text: str, query: str, start: datetime, end: datetime, source_
         if is_chinese_item(title, summary, link):
             continue
         name = publisher or source_name
-        out.append(RawItem(title=title, url=link, source_name=name, source_url=source_attr_url or source_url, published_at=published, summary=summary, section_hint=section_hint, query=query))
+        item = RawItem(title=title, url=link, source_name=name, source_url=source_attr_url or source_url, published_at=published, summary=summary, section_hint=section_hint, query=query)
+        if is_google_news_url(link):
+            item.google_wrapper_url = link
+        out.append(item)
     return out
 
 
@@ -210,48 +224,96 @@ def _best_article_candidates(html_text: str) -> list[str]:
     return candidates
 
 
+def _extract_direct_urls_from_html(html_text: str) -> list[str]:
+    decoded = html.unescape(html_text or "")
+    found = re.findall(r"https?://[^\s\"'<>\\]+", decoded)
+    out: list[str] = []
+    blocked_hosts = ("google.", "gstatic.", "googleusercontent.", "schema.org", "w3.org")
+    for raw in found:
+        url = norm_url(urllib.parse.unquote(raw).rstrip("),.;"))
+        h = host(url)
+        if not h or any(b in h for b in blocked_hosts):
+            continue
+        if url not in out:
+            out.append(url)
+    return out
+
+
 def fetch_article_text(url: str, timeout: int = 18) -> tuple[str, str]:
     try:
         r = requests.get(url, headers={"User-Agent": USER_AGENT, "Accept": "text/html,application/xhtml+xml,*/*"}, timeout=timeout, allow_redirects=True)
         r.raise_for_status()
         final_url = norm_url(r.url)
         text = next(iter(_best_article_candidates(r.text)), "")
-        if "news.google.com" in host(url) and len(text) < 500:
-            soup = BeautifulSoup(r.text, "html.parser")
-            for a in soup.find_all("a", href=True):
-                href = urllib.parse.urljoin(final_url, a["href"])
-                if href.startswith("http") and "news.google.com" not in host(href):
-                    return fetch_article_text(href, timeout=timeout)
+        if is_google_news_url(url):
+            for candidate in _extract_direct_urls_from_html(r.text):
+                if not is_google_news_url(candidate):
+                    return fetch_article_text(candidate, timeout=timeout)
         return text[:6000], final_url
     except Exception as exc:
         LOGGER.debug("article fetch failed for %s: %s", url, exc)
         return "", url
 
 
-def enrich_articles(items: list[RawItem], limit: int = 80) -> list[RawItem]:
+def _prefer_item(current: RawItem, candidate: RawItem) -> RawItem:
+    current_google = is_google_news_url(current.url)
+    candidate_google = is_google_news_url(candidate.url)
+    if current_google and not candidate_google:
+        candidate.google_wrapper_url = current.google_wrapper_url or current.url
+        if not candidate.summary and current.summary:
+            candidate.summary = current.summary
+        return candidate
+    if not current_google and candidate_google:
+        current.google_wrapper_url = current.google_wrapper_url or candidate.url
+        return current
+    if len(candidate.summary or "") > len(current.summary or ""):
+        current.summary = candidate.summary
+    if not current.article_text and candidate.article_text:
+        current.article_text = candidate.article_text
+    return current
+
+
+def dedupe(items: Iterable[RawItem]) -> list[RawItem]:
+    by_url: dict[str, RawItem] = {}
+    by_title: dict[str, RawItem] = {}
+    for item in items:
+        key = item.stable_key()
+        tkey = title_key(item.title)
+        if tkey and tkey in by_title:
+            merged = _prefer_item(by_title[tkey], item)
+            by_title[tkey] = merged
+            by_url[merged.stable_key()] = merged
+            continue
+        if key in by_url:
+            by_url[key] = _prefer_item(by_url[key], item)
+            continue
+        by_url[key] = item
+        if tkey:
+            by_title[tkey] = item
+    seen: set[int] = set()
+    out: list[RawItem] = []
+    for item in by_url.values():
+        if id(item) not in seen:
+            seen.add(id(item))
+            out.append(item)
+    return out
+
+
+def enrich_articles(items: list[RawItem], limit: int = 100) -> list[RawItem]:
     enriched: list[RawItem] = []
     for idx, item in enumerate(items):
         if idx < limit:
             text, final_url = fetch_article_text(item.url)
-            if text and not is_chinese_item(item.title, text[:500], final_url):
+            if final_url and not is_google_news_url(final_url):
+                if is_google_news_url(item.url):
+                    item.google_wrapper_url = item.google_wrapper_url or item.url
+                item.url = final_url
+            if text and not is_chinese_item(item.title, text[:500], item.url):
                 item.article_text = text
-                item.url = final_url or item.url
         enriched.append(item)
         if idx < limit:
             time.sleep(0.03)
     return enriched
-
-
-def dedupe(items: Iterable[RawItem]) -> list[RawItem]:
-    seen: set[str] = set()
-    out: list[RawItem] = []
-    for item in items:
-        key = item.stable_key()
-        if key in seen:
-            continue
-        seen.add(key)
-        out.append(item)
-    return out
 
 
 def collect(days: int = 3, max_items: int = 360) -> tuple[list[RawItem], list[str]]:
@@ -274,4 +336,10 @@ def collect(days: int = 3, max_items: int = 360) -> tuple[list[RawItem], list[st
         time.sleep(0.05)
     final = dedupe(items)
     final.sort(key=lambda x: parse_datetime(x.published_at) or start, reverse=True)
-    return enrich_articles(final[:max_items]), errors[:80]
+    enriched = enrich_articles(final[:max_items])
+    direct = [item for item in enriched if not is_google_news_url(item.url)]
+    google_left = [item for item in enriched if is_google_news_url(item.url)]
+    if len(direct) >= 40:
+        return direct[:max_items], errors[:80]
+    errors.append(f"only {len(direct)} direct source URLs found; keeping {len(google_left)} Google News wrappers as fallback")
+    return (direct + google_left)[:max_items], errors[:80]
