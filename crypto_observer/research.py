@@ -14,14 +14,14 @@ from typing import Any
 from zoneinfo import ZoneInfo
 
 import requests
+from bs4 import BeautifulSoup
 from docx import Document
 from docx.enum.section import WD_SECTION_START
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from pypdf import PdfReader
 
-from .config import RESEARCH_LOOKBACK_DAYS, RESEARCH_ORGANIZATION_SITES, RESEARCH_REPORT_TITLE, USER_AGENT
+from .config import RESEARCH_LOOKBACK_DAYS, RESEARCH_ORGANIZATION_SITES, RESEARCH_REPORT_TITLE, RESEARCH_SOURCE_URLS, USER_AGENT
 from .docx_writer import (
-    _apply_body_format,
     _set_run_font,
     _setup_document,
     _setup_section,
@@ -29,7 +29,6 @@ from .docx_writer import (
     _write_key_point,
     _write_reference,
     _write_source,
-    FONT_BODY,
     FONT_HEADING,
     HEADING_COLOR,
 )
@@ -39,6 +38,8 @@ LOGGER = logging.getLogger(__name__)
 BEIJING_TZ = ZoneInfo("Asia/Shanghai")
 DEFAULT_MODEL = "deepseek-v4-flash"
 DEFAULT_BASE_URL = "https://api.deepseek.com"
+REPORT_TERMS = ("crypto", "digital asset", "digital assets", "tokenization", "tokenisation", "stablecoin", "blockchain", "defi", "web3", "rwa", "bitcoin", "ethereum")
+BLOCKED_URL_PARTS = ("/zh", "/zh-cn", "/cn/", "?lang=zh", "language=zh")
 
 
 @dataclass
@@ -88,6 +89,20 @@ def _safe_filename(value: str) -> str:
     return (name or "research_report")[:120]
 
 
+def _host(url: str) -> str:
+    return urllib.parse.urlsplit(url or "").netloc.lower().replace("www.", "")
+
+
+def _is_english_url(url: str) -> bool:
+    low = url.lower()
+    return not any(part in low for part in BLOCKED_URL_PARTS)
+
+
+def _looks_relevant(text: str) -> bool:
+    low = text.lower()
+    return any(term in low for term in REPORT_TERMS)
+
+
 def _bing_rss_url(query: str) -> str:
     return "https://www.bing.com/search?" + urllib.parse.urlencode({"q": query, "format": "rss", "setlang": "en", "mkt": "en-US"})
 
@@ -106,11 +121,43 @@ def _parse_rss_date(value: str) -> datetime | None:
         return None
 
 
+def _add_candidate(out: list[ResearchCandidate], seen: set[str], *, title: str, url: str, source_name: str, published_at: str = "", snippet: str = "") -> None:
+    url = _norm_text(url)
+    title = _norm_text(title) or url.rsplit("/", 1)[-1]
+    if not url.startswith("http") or url in seen or not _is_english_url(url):
+        return
+    if re.search(r"[\u4e00-\u9fff]", title + snippet + url):
+        return
+    if not _looks_relevant(title + " " + snippet + " " + url):
+        return
+    seen.add(url)
+    out.append(ResearchCandidate(title=title, url=url, source_name=source_name, published_at=published_at, snippet=snippet))
+
+
+def _extract_pdf_links_from_page(name: str, page_url: str, seen: set[str]) -> list[ResearchCandidate]:
+    candidates: list[ResearchCandidate] = []
+    try:
+        response = requests.get(page_url, headers={"User-Agent": USER_AGENT, "Accept": "text/html,*/*"}, timeout=25, allow_redirects=True)
+        response.raise_for_status()
+    except Exception as exc:
+        LOGGER.debug("research source page fetch failed for %s: %s", page_url, exc)
+        return candidates
+    soup = BeautifulSoup(response.text, "html.parser")
+    page_text = _norm_text(soup.get_text(" "))[:1500]
+    for a in soup.find_all("a", href=True):
+        href = urllib.parse.urljoin(response.url, a.get("href") or "")
+        anchor = _norm_text(a.get_text(" "))
+        href_low = href.lower()
+        if ".pdf" in href_low or "download" in href_low or "report" in href_low:
+            _add_candidate(candidates, seen, title=anchor or name, url=href, source_name=name, snippet=page_text)
+    return candidates
+
+
 def search_research_pdfs(lookback_days: int = RESEARCH_LOOKBACK_DAYS) -> list[ResearchCandidate]:
     start = datetime.now(BEIJING_TZ) - timedelta(days=lookback_days)
     candidates: list[ResearchCandidate] = []
     seen: set[str] = set()
-    topics = '(crypto OR "digital assets" OR tokenization OR stablecoin OR blockchain OR DeFi OR Web3) filetype:pdf'
+    topics = '(crypto OR "digital assets" OR tokenization OR tokenisation OR stablecoin OR blockchain OR DeFi OR Web3 OR RWA) (report OR research OR outlook) filetype:pdf'
     for org, domain in RESEARCH_ORGANIZATION_SITES.items():
         query = f"site:{domain} {topics}"
         try:
@@ -126,25 +173,50 @@ def search_research_pdfs(lookback_days: int = RESEARCH_LOOKBACK_DAYS) -> list[Re
             dt = _parse_rss_date(item.findtext("pubDate") or "")
             if dt and dt < start:
                 continue
-            if not title or not url or url in seen:
+            if ".pdf" not in url.lower() and "pdf" not in snippet.lower() and "report" not in (title + snippet).lower():
                 continue
-            if ".pdf" not in url.lower() and "pdf" not in snippet.lower():
-                continue
-            if re.search(r"[\u4e00-\u9fff]", title + snippet):
-                continue
-            seen.add(url)
-            candidates.append(ResearchCandidate(title=title, url=url, source_name=org, published_at=dt.isoformat() if dt else "", snippet=snippet))
-    return candidates[:40]
+            _add_candidate(candidates, seen, title=title, url=url, source_name=org, published_at=dt.isoformat() if dt else "", snippet=snippet)
+    for name, url in RESEARCH_SOURCE_URLS.items():
+        candidates.extend(_extract_pdf_links_from_page(name, url, seen))
+    return candidates[:100]
+
+
+def _resolve_pdf_url(url: str) -> str | None:
+    if not url.startswith("http"):
+        return None
+    if ".pdf" in url.lower():
+        return url
+    try:
+        response = requests.get(url, headers={"User-Agent": USER_AGENT, "Accept": "text/html,*/*"}, timeout=25, allow_redirects=True)
+        response.raise_for_status()
+    except Exception:
+        return None
+    content_type = response.headers.get("content-type", "").lower()
+    if "application/pdf" in content_type or response.content[:2048].find(b"%PDF") >= 0:
+        return response.url
+    soup = BeautifulSoup(response.text, "html.parser")
+    best: str | None = None
+    for a in soup.find_all("a", href=True):
+        href = urllib.parse.urljoin(response.url, a.get("href") or "")
+        text = _norm_text(a.get_text(" "))
+        if ".pdf" in href.lower() and _looks_relevant(href + " " + text):
+            best = href
+            break
+    return best
 
 
 def _download_pdf(candidate: ResearchCandidate, output_dir: Path) -> Path | None:
     output_dir.mkdir(parents=True, exist_ok=True)
     try:
-        response = requests.get(candidate.url, headers={"User-Agent": USER_AGENT, "Accept": "application/pdf,*/*"}, timeout=45, allow_redirects=True)
+        pdf_url = _resolve_pdf_url(candidate.url)
+        if not pdf_url:
+            return None
+        response = requests.get(pdf_url, headers={"User-Agent": USER_AGENT, "Accept": "application/pdf,*/*"}, timeout=60, allow_redirects=True)
         response.raise_for_status()
         content = response.content
         if not content.startswith(b"%PDF") and b"%PDF" not in content[:2048]:
             return None
+        candidate.url = response.url
         digest = hashlib.sha1(candidate.url.encode("utf-8")).hexdigest()[:8]
         name = f"{_safe_filename(candidate.source_name)}_{_safe_filename(candidate.title)}_{digest}.pdf"
         path = output_dir / name
@@ -158,7 +230,7 @@ def _download_pdf(candidate: ResearchCandidate, output_dir: Path) -> Path | None
 def _extract_pdf_text(path: Path, max_chars: int = 50000) -> str:
     reader = PdfReader(str(path))
     parts: list[str] = []
-    for page in reader.pages[:80]:
+    for page in reader.pages[:90]:
         try:
             text = page.extract_text() or ""
         except Exception:
@@ -170,25 +242,40 @@ def _extract_pdf_text(path: Path, max_chars: int = 50000) -> str:
     return _norm_text("\n".join(parts))[:max_chars]
 
 
+def _score_candidate(candidate: ResearchCandidate, text: str) -> int:
+    combined = f"{candidate.title} {candidate.snippet} {candidate.url} {text[:3000]}".lower()
+    score = sum(5 for term in REPORT_TERMS if term in combined)
+    if candidate.source_name in RESEARCH_SOURCE_URLS or candidate.source_name in RESEARCH_ORGANIZATION_SITES:
+        score += 5
+    if "report" in combined or "research" in combined:
+        score += 4
+    if "2026" in combined:
+        score += 3
+    if len(text) > 12000:
+        score += 5
+    return score
+
+
 def _choose_pdf(output_dir: Path) -> tuple[ResearchCandidate | None, Path | None, str]:
     candidates = search_research_pdfs()
-    best: tuple[ResearchCandidate, Path, str] | None = None
+    scored: list[tuple[int, ResearchCandidate, Path, str]] = []
     for candidate in candidates:
         pdf_path = _download_pdf(candidate, output_dir)
         if not pdf_path:
             continue
         text = _extract_pdf_text(pdf_path)
         low = text.lower()
-        if len(text) < 4000 or not any(term in low for term in ("crypto", "digital asset", "tokenization", "stablecoin", "blockchain", "defi", "web3")):
+        if len(text) < 4000 or not any(term in low for term in REPORT_TERMS):
             try:
                 pdf_path.unlink(missing_ok=True)
             except Exception:
                 pass
             continue
-        best = (candidate, pdf_path, text)
-        break
-    if best:
-        return best
+        scored.append((_score_candidate(candidate, text), candidate, pdf_path, text))
+    if scored:
+        scored.sort(key=lambda x: x[0], reverse=True)
+        _, candidate, pdf_path, text = scored[0]
+        return candidate, pdf_path, text
     return None, None, ""
 
 
