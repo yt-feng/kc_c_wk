@@ -1,13 +1,31 @@
 from __future__ import annotations
 
+import hashlib
+import re
 from collections import Counter
 from dataclasses import asdict, dataclass
 from datetime import datetime, timedelta
 from urllib.parse import urlsplit
 
 from .config import HK_TERMS, MAX_NEWS_AGE_DAYS, SECTION_COUNTS, US_TERMS
-from .sources import is_chinese_item, is_final_url_allowed, parse_datetime
+from .sources import is_chinese_item, is_final_url_allowed, parse_datetime, title_key
 from .text_utils import has_half_width_quotes
+
+BAD_BODY_TERMS = (
+    "permission is hereby granted",
+    "the software is provided",
+    "mit license",
+    "copyright (c) 2010-2026 google llc",
+    "license • angular",
+    "license - angular",
+    "angular.dev/license",
+    "@font-face",
+    "font-family",
+    "fonts.gstatic.com",
+    "fonts.googleapis.com",
+    "stylesheet",
+)
+DISCOVERY_SOURCE_NAMES = {"Bing News", "Google News", "GDELT"}
 
 
 @dataclass
@@ -56,6 +74,11 @@ def _min_body_paragraphs(section: str) -> int:
     return 4 if section == "意见领袖" else 5
 
 
+def _body_fingerprint(text: str) -> str:
+    compact = re.sub(r"\W+", "", (text or "").lower())[:1800]
+    return hashlib.sha1(compact.encode("utf-8")).hexdigest() if compact else ""
+
+
 def check_report(report: dict[str, object], start: datetime, end: datetime) -> FactCheckResult:
     items = report.get("items") or []
     if not isinstance(items, list):
@@ -80,6 +103,9 @@ def check_report(report: dict[str, object], start: datetime, end: datetime) -> F
         warnings.append("政策风向未覆盖美国或香港，建议优先补充美国、香港监管动向")
 
     hosts: list[str] = []
+    seen_urls: set[str] = set()
+    seen_titles: set[str] = set()
+    seen_bodies: set[str] = set()
     oldest_allowed = end - timedelta(days=MAX_NEWS_AGE_DAYS)
     for idx, row in enumerate(items, start=1):
         if not isinstance(row, dict):
@@ -88,6 +114,7 @@ def check_report(report: dict[str, object], start: datetime, end: datetime) -> F
         section = str(row.get("section") or "")
         title = str(row.get("title_cn") or "")
         source_title = str(row.get("source_title") or "")
+        source_name = str(row.get("source_name") or "")
         url = str(row.get("url") or "")
         published_at = str(row.get("published_at") or "")
         paragraphs = row.get("body_paragraphs") or []
@@ -96,7 +123,27 @@ def check_report(report: dict[str, object], start: datetime, end: datetime) -> F
         body = " ".join(str(x) for x in [row.get("lead_cn", ""), *paragraphs])
         points = row.get("key_points") or []
         all_cn_text = " ".join([title, body, " ".join(str(x) for x in points)])
+        low = " ".join([title, source_title, source_name, url, body]).lower()
 
+        url_key = url.strip().lower()
+        if url_key in seen_urls:
+            errors.append(f"item {idx} duplicates URL already used: {url}")
+        seen_urls.add(url_key)
+        title_fp = title_key(source_title or title)
+        if title_fp and title_fp in seen_titles:
+            errors.append(f"item {idx} duplicates title already used: {source_title or title}")
+        if title_fp:
+            seen_titles.add(title_fp)
+        body_fp = _body_fingerprint(body)
+        if body_fp and body_fp in seen_bodies:
+            errors.append(f"item {idx} duplicates body text already used")
+        if body_fp:
+            seen_bodies.add(body_fp)
+
+        if source_name in DISCOVERY_SOURCE_NAMES:
+            errors.append(f"item {idx} uses discovery source instead of publisher: {source_name}")
+        if any(term in low for term in BAD_BODY_TERMS):
+            errors.append(f"item {idx} appears to use license/CSS/non-news content")
         if not (url.startswith("http://") or url.startswith("https://")):
             errors.append(f"item {idx} has invalid url: {url}")
         if not is_final_url_allowed(url):
@@ -104,7 +151,7 @@ def check_report(report: dict[str, object], start: datetime, end: datetime) -> F
         h = _host(url)
         if h:
             hosts.append(h)
-        if is_chinese_item(source_title, str(row.get("source_name") or ""), url):
+        if is_chinese_item(source_title, source_name, url):
             errors.append(f"item {idx} appears to use a Chinese source")
         dt = parse_datetime(published_at)
         if dt and not (oldest_allowed <= dt <= end):
