@@ -44,30 +44,10 @@ MIN_RESEARCH_PARAGRAPHS = 24
 MIN_RESEARCH_CHARS = 12000
 TARGET_RESEARCH_PARAGRAPHS = 34
 MONTHS = {
-    "january": 1,
-    "february": 2,
-    "march": 3,
-    "april": 4,
-    "may": 5,
-    "june": 6,
-    "july": 7,
-    "august": 8,
-    "september": 9,
-    "october": 10,
-    "november": 11,
-    "december": 12,
-    "jan": 1,
-    "feb": 2,
-    "mar": 3,
-    "apr": 4,
-    "jun": 6,
-    "jul": 7,
-    "aug": 8,
-    "sep": 9,
-    "sept": 9,
-    "oct": 10,
-    "nov": 11,
-    "dec": 12,
+    "january": 1, "february": 2, "march": 3, "april": 4, "may": 5, "june": 6,
+    "july": 7, "august": 8, "september": 9, "october": 10, "november": 11, "december": 12,
+    "jan": 1, "feb": 2, "mar": 3, "apr": 4, "jun": 6, "jul": 7, "aug": 8,
+    "sep": 9, "sept": 9, "oct": 10, "nov": 11, "dec": 12,
 }
 
 
@@ -118,10 +98,6 @@ def _safe_filename(value: str) -> str:
     return (name or "research_report")[:120]
 
 
-def _host(url: str) -> str:
-    return urllib.parse.urlsplit(url or "").netloc.lower().replace("www.", "")
-
-
 def _is_english_url(url: str) -> bool:
     low = url.lower()
     return not any(part in low for part in BLOCKED_URL_PARTS)
@@ -163,35 +139,54 @@ def _parse_iso_datetime(value: str) -> datetime | None:
         return None
 
 
+def _parse_pdf_metadata_date(value: object) -> datetime | None:
+    raw = str(value or "")
+    if not raw:
+        return None
+    match = re.search(r"D:(\d{4})(\d{2})(\d{2})", raw)
+    if match:
+        try:
+            return datetime(int(match.group(1)), int(match.group(2)), int(match.group(3)), tzinfo=BEIJING_TZ)
+        except ValueError:
+            return None
+    return _parse_iso_datetime(raw)
+
+
+def _date_in_window(dt: datetime | None, run_date: datetime, lookback_days: int = RESEARCH_LOOKBACK_DAYS) -> bool:
+    if not dt:
+        return False
+    start = run_date - timedelta(days=lookback_days)
+    return start <= dt <= run_date
+
+
 def _month_start(year: int, month: int) -> datetime:
     return datetime(year, month, 1, tzinfo=BEIJING_TZ)
 
 
-def _has_recent_date_evidence(candidate: ResearchCandidate, text: str, run_date: datetime, lookback_days: int = RESEARCH_LOOKBACK_DAYS) -> bool:
-    start = run_date - timedelta(days=lookback_days)
-    dt = _parse_iso_datetime(candidate.published_at)
-    if dt and start <= dt <= run_date:
-        return True
-    combined = f"{candidate.title} {candidate.snippet} {candidate.url} {text[:8000]}".lower()
+def _recent_date_evidence(candidate: ResearchCandidate, text: str, pdf_dates: list[datetime], run_date: datetime) -> list[str]:
+    evidence: list[str] = []
+    if _date_in_window(_parse_iso_datetime(candidate.published_at), run_date):
+        evidence.append(f"search_published_at={candidate.published_at}")
+    for dt in pdf_dates:
+        if _date_in_window(dt, run_date):
+            evidence.append(f"pdf_metadata_date={dt.date().isoformat()}")
+    combined = f"{candidate.title} {candidate.snippet} {candidate.url} {text[:12000]}".lower()
+    start = run_date - timedelta(days=RESEARCH_LOOKBACK_DAYS)
     for match in re.finditer(r"\b(20\d{2})[-/](0?[1-9]|1[0-2])[-/](0?[1-9]|[12]\d|3[01])\b", combined):
         try:
             dt = datetime(int(match.group(1)), int(match.group(2)), int(match.group(3)), tzinfo=BEIJING_TZ)
-            if start <= dt <= run_date:
-                return True
         except ValueError:
-            pass
+            continue
+        if start <= dt <= run_date:
+            evidence.append(f"explicit_date={dt.date().isoformat()}")
     for match in re.finditer(r"\b(january|february|march|april|may|june|july|august|september|october|november|december|jan|feb|mar|apr|jun|jul|aug|sep|sept|oct|nov|dec)\s+(?:\d{1,2},\s*)?(20\d{2})\b", combined):
         month = MONTHS.get(match.group(1))
         year = int(match.group(2))
         if month:
             dt = _month_start(year, month)
             if start.replace(day=1) <= dt <= run_date:
-                return True
-    for match in re.finditer(r"\b(20\d{2})/(0?[1-9]|1[0-2])\b", combined):
-        dt = _month_start(int(match.group(1)), int(match.group(2)))
-        if start.replace(day=1) <= dt <= run_date:
-            return True
-    return False
+                evidence.append(f"explicit_month={year}-{month:02d}")
+    return evidence[:8]
 
 
 def _add_candidate(out: list[ResearchCandidate], seen: set[str], *, title: str, url: str, source_name: str, published_at: str = "", snippet: str = "") -> None:
@@ -216,12 +211,12 @@ def _extract_pdf_links_from_page(name: str, page_url: str, seen: set[str]) -> li
         LOGGER.debug("research source page fetch failed for %s: %s", page_url, exc)
         return candidates
     soup = BeautifulSoup(response.text, "html.parser")
-    page_text = _norm_text(soup.get_text(" "))[:1800]
+    page_text = _norm_text(soup.get_text(" "))[:2200]
     for a in soup.find_all("a", href=True):
         href = urllib.parse.urljoin(response.url, a.get("href") or "")
         anchor = _norm_text(a.get_text(" "))
         href_low = href.lower()
-        if ".pdf" in href_low or "download" in href_low or "report" in href_low:
+        if ".pdf" in href_low or "download" in href_low or "report" in href_low or "whitepaper" in href_low:
             _add_candidate(candidates, seen, title=anchor or name, url=href, source_name=name, snippet=page_text)
     return candidates
 
@@ -230,7 +225,8 @@ def search_research_pdfs(lookback_days: int = RESEARCH_LOOKBACK_DAYS) -> list[Re
     start = datetime.now(BEIJING_TZ) - timedelta(days=lookback_days)
     candidates: list[ResearchCandidate] = []
     seen: set[str] = set()
-    topics = '(crypto OR "digital assets" OR tokenization OR tokenisation OR stablecoin OR blockchain OR DeFi OR Web3 OR RWA) (report OR research OR outlook) filetype:pdf'
+    after = start.strftime("%Y-%m-%d")
+    topics = f'(crypto OR "digital assets" OR tokenization OR tokenisation OR stablecoin OR blockchain OR DeFi OR Web3 OR RWA) (report OR research OR outlook OR whitepaper) filetype:pdf after:{after}'
     for org, domain in RESEARCH_ORGANIZATION_SITES.items():
         query = f"site:{domain} {topics}"
         try:
@@ -251,7 +247,7 @@ def search_research_pdfs(lookback_days: int = RESEARCH_LOOKBACK_DAYS) -> list[Re
             _add_candidate(candidates, seen, title=title, url=url, source_name=org, published_at=dt.isoformat() if dt else "", snippet=snippet)
     for name, url in RESEARCH_SOURCE_URLS.items():
         candidates.extend(_extract_pdf_links_from_page(name, url, seen))
-    return candidates[:140]
+    return candidates[:160]
 
 
 def _resolve_pdf_url(url: str) -> str | None:
@@ -298,10 +294,19 @@ def _download_pdf(candidate: ResearchCandidate, output_dir: Path) -> Path | None
         return None
 
 
-def _extract_pdf_text(path: Path, max_chars: int = 65000) -> str:
+def _read_pdf(path: Path, max_chars: int = 75000) -> tuple[str, list[datetime]]:
     reader = PdfReader(str(path))
+    metadata_dates: list[datetime] = []
+    try:
+        meta = reader.metadata or {}
+        for key in ("/CreationDate", "/ModDate"):
+            dt = _parse_pdf_metadata_date(meta.get(key))
+            if dt:
+                metadata_dates.append(dt)
+    except Exception:
+        pass
     parts: list[str] = []
-    for page in reader.pages[:120]:
+    for page in reader.pages[:140]:
         try:
             text = page.extract_text() or ""
         except Exception:
@@ -310,53 +315,57 @@ def _extract_pdf_text(path: Path, max_chars: int = 65000) -> str:
             parts.append(text)
         if sum(len(x) for x in parts) >= max_chars:
             break
-    return _norm_text("\n".join(parts))[:max_chars]
+    return _norm_text("\n".join(parts))[:max_chars], metadata_dates
 
 
-def _score_candidate(candidate: ResearchCandidate, text: str, run_date: datetime) -> int:
+def _score_candidate(candidate: ResearchCandidate, text: str, evidence: list[str]) -> int:
     combined = f"{candidate.title} {candidate.snippet} {candidate.url} {text[:5000]}".lower()
     score = sum(5 for term in REPORT_TERMS if term in combined)
-    if candidate.source_name in RESEARCH_SOURCE_URLS or candidate.source_name in RESEARCH_ORGANIZATION_SITES:
-        score += 5
-    if "report" in combined or "research" in combined or "outlook" in combined:
-        score += 6
-    if str(run_date.year) in combined:
-        score += 3
-    if len(text) > 18000:
+    if "report" in combined or "research" in combined or "outlook" in combined or "whitepaper" in combined:
         score += 8
-    if _has_recent_date_evidence(candidate, text, run_date):
-        score += 20
+    if len(text) > 25000:
+        score += 10
+    score += len(evidence) * 12
+    preferred = ("pwc", "kpmg", "bcg", "mckinsey", "bis", "deloitte", "ey", "pitchbook", "citi", "jpmorgan", "coinbase", "chainalysis", "galaxy", "coinshares")
+    if any(x in candidate.source_name.lower() for x in preferred):
+        score += 6
     return score
 
 
-def _choose_pdf(output_dir: Path, run_date: datetime) -> tuple[ResearchCandidate | None, Path | None, str]:
+def _choose_pdf(output_dir: Path, run_date: datetime) -> tuple[ResearchCandidate | None, Path | None, str, list[str]]:
     candidates = search_research_pdfs()
-    scored: list[tuple[int, ResearchCandidate, Path, str]] = []
+    scored: list[tuple[int, ResearchCandidate, Path, str, list[str]]] = []
     rejected: list[str] = []
     for candidate in candidates:
         pdf_path = _download_pdf(candidate, output_dir)
         if not pdf_path:
             continue
-        text = _extract_pdf_text(pdf_path)
+        text, pdf_dates = _read_pdf(pdf_path)
         low = text.lower()
-        valid = len(text) >= 7000 and any(term in low for term in REPORT_TERMS) and _has_recent_date_evidence(candidate, text, run_date)
+        evidence = _recent_date_evidence(candidate, text, pdf_dates, run_date)
+        valid = len(text) >= 9000 and any(term in low for term in REPORT_TERMS) and bool(evidence)
         if not valid:
-            rejected.append(f"{candidate.source_name}: {candidate.title[:80]}")
+            rejected.append(f"{candidate.source_name}: {candidate.title[:90]}")
             try:
                 pdf_path.unlink(missing_ok=True)
             except Exception:
                 pass
             continue
-        scored.append((_score_candidate(candidate, text, run_date), candidate, pdf_path, text))
+        scored.append((_score_candidate(candidate, text, evidence), candidate, pdf_path, text, evidence))
     if scored:
         scored.sort(key=lambda x: x[0], reverse=True)
-        _, candidate, pdf_path, text = scored[0]
-        return candidate, pdf_path, text
-    LOGGER.warning("No recent research PDF accepted; rejected candidates: %s", "; ".join(rejected[:10]))
-    return None, None, ""
+        _, candidate, pdf_path, text, evidence = scored[0]
+        for _, _, path, _, _ in scored[1:]:
+            try:
+                path.unlink(missing_ok=True)
+            except Exception:
+                pass
+        return candidate, pdf_path, text, evidence
+    LOGGER.warning("No recent research PDF accepted; rejected candidates: %s", "; ".join(rejected[:20]))
+    return None, None, "", []
 
 
-def _split_text(text: str, chunk_chars: int = 9000, max_chunks: int = 5) -> list[str]:
+def _split_text(text: str, chunk_chars: int = 8500, max_chunks: int = 6) -> list[str]:
     cleaned = _norm_text(text)
     chunks: list[str] = []
     start = 0
@@ -373,16 +382,17 @@ def _split_text(text: str, chunk_chars: int = 9000, max_chunks: int = 5) -> list
 
 def _compile_key_points(candidate: ResearchCandidate, extracted_text: str) -> tuple[str, list[str]]:
     prompt = f"""
-请基于以下英文研究报告开头内容，生成中文标题和3条关键点。只能使用原文信息，不得补写。
-输出 JSON：{{"title_cn":"中文标题","key_points":["关键点一","关键点二","关键点三"]}}
+请基于以下英文研究报告开头内容，生成中文标题和3至6条关键点。只能使用原文信息，不得补写。
+标题格式参考“普华永道：2026年全球加密货币监管现状与趋势”，即“机构：报告核心主题”。
+输出 JSON：{{"title_cn":"中文标题","key_points":["关键点一"]}}
 英文报告元数据：{json.dumps(asdict(candidate), ensure_ascii=False)}
 英文报告节选：
-{extracted_text[:12000]}
+{extracted_text[:14000]}
 """.strip()
     data = _extract_json(_chat([{"role": "system", "content": "你是专业研究报告中文编译编辑。只输出严格 JSON。"}, {"role": "user", "content": prompt}], timeout=240))
-    title = normalize_chinese_punctuation(str(data.get("title_cn") or candidate.title))
-    points = [normalize_chinese_punctuation(str(x)) for x in data.get("key_points", []) if str(x).strip()][:3]
-    return title, points or ["本专题研究基于英文原文报告逐段编译，发布前应对照原文核验数据和结论。"]
+    title = normalize_chinese_punctuation(str(data.get("title_cn") or f"{candidate.source_name}：{candidate.title}"))
+    points = [normalize_chinese_punctuation(str(x)) for x in data.get("key_points", []) if str(x).strip()][:6]
+    return title, points or ["本专题研究基于近两个月英文 PDF 原文逐段编译，发布前应对照原文核验数据和结论。"]
 
 
 def _translate_chunk(candidate: ResearchCandidate, chunk: str, idx: int, total: int) -> list[str]:
@@ -391,8 +401,9 @@ def _translate_chunk(candidate: ResearchCandidate, chunk: str, idx: int, total: 
 1. 只翻译本部分英文原文已经出现的信息，不得添加外部背景、判断或结论。
 2. 输出6至9个自然段，每段220至360个中文字符。
 3. 保留原文事实链条、主要发现、数据逻辑、限定语和结论；不要压缩成摘要。
-4. 专业术语首次出现写“中文（English，缩写）”；英文机构名保留英文。
-5. 使用全角中文标点和中文全角引号，不使用半角引号。
+4. 可按原文逻辑加入“一、二、三”式小标题，但小标题也必须来自原文结构。
+5. 专业术语首次出现写“中文（English，缩写）”；英文机构名保留英文。
+6. 使用全角中文标点和中文全角引号，不使用半角引号。
 输出 JSON：{{"paragraphs":["段落一","段落二"]}}
 英文报告元数据：{json.dumps(asdict(candidate), ensure_ascii=False)}
 英文原文：
@@ -402,36 +413,38 @@ def _translate_chunk(candidate: ResearchCandidate, chunk: str, idx: int, total: 
     return [normalize_chinese_punctuation(str(x)) for x in data.get("paragraphs", []) if str(x).strip()]
 
 
-def _compile_research(candidate: ResearchCandidate, pdf_path: Path, extracted_text: str) -> dict[str, Any]:
+def _compile_research(candidate: ResearchCandidate, pdf_path: Path, extracted_text: str, evidence: list[str]) -> dict[str, Any]:
     if not os.getenv("DEEPSEEK_API_KEY"):
-        chunks = [normalize_chinese_punctuation(extracted_text[i : i + 550]) for i in range(0, min(len(extracted_text), 15000), 550)]
+        chunks = [normalize_chinese_punctuation(extracted_text[i : i + 520]) for i in range(0, min(len(extracted_text), 18000), 520)]
         return {
-            "title_cn": normalize_chinese_punctuation(candidate.title),
+            "title_cn": normalize_chinese_punctuation(f"{candidate.source_name}：{candidate.title}"),
             "source_title": candidate.title,
             "source_name": candidate.source_name,
             "source_url": candidate.url,
             "pdf_path": str(pdf_path),
-            "key_points": ["该专题研究由英文 PDF 原文自动提取并生成草稿，发布前需人工复核。"],
+            "recent_date_evidence": evidence,
+            "key_points": ["该专题研究由近两个月英文 PDF 原文自动提取并生成草稿，发布前需人工复核。"],
             "body_paragraphs": chunks[:TARGET_RESEARCH_PARAGRAPHS],
             "fact_check": "fallback 草稿，保留英文 PDF 原文。",
         }
     title_cn, key_points = _compile_key_points(candidate, extracted_text)
     paragraphs: list[str] = []
-    chunks = _split_text(extracted_text, chunk_chars=9000, max_chunks=5)
+    chunks = _split_text(extracted_text, chunk_chars=8500, max_chunks=6)
     for idx, chunk in enumerate(chunks, start=1):
         paragraphs.extend(_translate_chunk(candidate, chunk, idx, len(chunks)))
         if len(paragraphs) >= TARGET_RESEARCH_PARAGRAPHS:
             break
-    paragraphs = paragraphs[:40]
+    paragraphs = paragraphs[:42]
     return {
         "title_cn": title_cn,
         "source_title": candidate.title,
         "source_name": candidate.source_name,
         "source_url": candidate.url,
         "pdf_path": str(pdf_path),
+        "recent_date_evidence": evidence,
         "key_points": key_points,
         "body_paragraphs": paragraphs,
-        "fact_check": "基于近两个月英文 PDF 原文分块逐段编译，未加入原文以外信息。",
+        "fact_check": "基于一篇近两个月英文 PDF 原文分块逐段编译，未拼接其他报告，未加入原文以外信息。",
     }
 
 
@@ -453,7 +466,7 @@ def write_research_docx(research: dict[str, Any], output_path: str | Path) -> Pa
     r = p.add_run(normalize_chinese_punctuation(str(research.get("title_cn") or "-")))
     _set_run_font(r, east_asia=FONT_HEADING, size=15)
 
-    for point in research.get("key_points", [])[:3]:
+    for point in research.get("key_points", [])[:6]:
         _write_key_point(doc, str(point))
 
     doc.add_section(WD_SECTION_START.NEW_PAGE)
@@ -485,15 +498,17 @@ def check_research(research: dict[str, Any]) -> dict[str, Any]:
         errors.append("未在仓库输出目录保存英文原文 PDF")
     if not research.get("source_url"):
         errors.append("缺少英文原文 PDF 链接")
+    if not research.get("recent_date_evidence"):
+        errors.append("缺少近两个月内的报告日期证据")
     return {"ok": not errors, "errors": errors, "warnings": warnings}
 
 
 def generate_research(output_root: Path, run_date: datetime) -> dict[str, Any]:
     source_dir = output_root / "research_sources" / run_date.strftime("%Y%m%d")
-    candidate, pdf_path, text = _choose_pdf(source_dir, run_date)
+    candidate, pdf_path, text, evidence = _choose_pdf(source_dir, run_date)
     if not candidate or not pdf_path:
         raise RuntimeError("No suitable recent English PDF research report found within the required two-month window")
-    research = _compile_research(candidate, pdf_path, text)
+    research = _compile_research(candidate, pdf_path, text, evidence)
     output_file = output_root / f"专题研究_{run_date.strftime('%Y%m%d')}.docx"
     write_research_docx(research, output_file)
     fact = check_research(research)
