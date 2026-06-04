@@ -1,1 +1,1 @@
-manual run requested for standalone research after source expansion at 2026-06-04
+manual run requested after quality-gate rewrite at 2026-06-04
