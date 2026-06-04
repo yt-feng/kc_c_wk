@@ -5,7 +5,7 @@ import json
 import logging
 import os
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -26,9 +26,9 @@ def configure_logging(verbose: bool = False) -> None:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Generate the weekly Crypto Observer report and standalone research report.")
-    parser.add_argument("--days", type=int, default=int(os.getenv("CRYPTO_OBSERVER_DAYS", "3")), help="Lookback window in days.")
+    parser.add_argument("--days", type=int, default=int(os.getenv("CRYPTO_OBSERVER_DAYS", "7")), help="Lookback window in days.")
     parser.add_argument("--output-root", default=os.getenv("CRYPTO_OBSERVER_OUTPUT_ROOT", "reports"), help="Output folder.")
-    parser.add_argument("--max-raw-items", type=int, default=int(os.getenv("CRYPTO_OBSERVER_MAX_RAW_ITEMS", "360")), help="Maximum raw candidates to keep.")
+    parser.add_argument("--max-raw-items", type=int, default=int(os.getenv("CRYPTO_OBSERVER_MAX_RAW_ITEMS", "500")), help="Maximum raw candidates to keep.")
     parser.add_argument("--strict", dest="strict", action="store_true", help="Fail when fact-check has hard errors.")
     parser.add_argument("--no-strict", dest="strict", action="store_false", help="Write draft even when fact-check has hard errors.")
     parser.add_argument("--skip-research", action="store_true", help="Skip standalone research report generation.")
@@ -45,7 +45,7 @@ def main() -> None:
     args = parse_args()
     configure_logging(args.verbose)
     end = datetime.now(BEIJING_TZ).replace(microsecond=0)
-    start = end.replace(microsecond=0) - __import__("datetime").timedelta(days=args.days)
+    start = end - timedelta(days=args.days)
     period = f"{iso_label(start)} 至 {iso_label(end)}（北京时间，最近{args.days}天）"
 
     try:
