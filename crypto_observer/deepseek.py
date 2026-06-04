@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import hashlib
 import json
 import logging
 import os
@@ -9,7 +10,7 @@ from typing import Any
 import requests
 
 from .config import HK_TERMS, SECTION_COUNTS, SECTION_ORDER, US_TERMS
-from .sources import RawItem, is_final_url_allowed
+from .sources import RawItem, host, is_final_url_allowed, title_key
 from .text_utils import normalize_chinese_punctuation
 
 LOGGER = logging.getLogger(__name__)
@@ -17,7 +18,25 @@ DEFAULT_MODEL = "deepseek-v4-flash"
 DEFAULT_BASE_URL = "https://api.deepseek.com"
 TITLE_SPLIT_RE = re.compile(r"[，,；;：:—–-]+")
 COUNTRY_WORDS = ("美国", "韩国", "英国", "日本", "欧盟", "印度", "泰国", "新加坡", "香港", "澳大利亚", "加拿大", "巴西", "法国", "德国")
-FRONTIER_TERMS = ("defi", "layer", "ethereum", "protocol", "blockchain", "upgrade", "launch", "tokenization", "interoperability", "restaking", "rollup", "staking", "wallet", "security", "infrastructure")
+FRONTIER_TERMS = ("defi", "layer", "layer 2", "l2", "ethereum", "protocol", "blockchain", "upgrade", "mainnet", "testnet", "tokenization", "tokenisation", "interoperability", "restaking", "rollup", "staking", "wallet", "security", "infrastructure", "verkle", "glamsterdam", "pectra", "fusaka", "smart contract")
+POLICY_TERMS = ("regulation", "regulatory", "sec", "cftc", "treasury", "federal reserve", "fed", "congress", "senate", "house", "white house", "irs", "fincen", "sfc", "hkma", "bank of england", "fca", "eu", "european", "esma", "mica", "law", "rule", "guidance", "framework", "enforcement", "license", "licence", "stablecoin bill", "digital asset bill")
+OPINION_TERMS = ("said", "says", "told", "argued", "warned", "expects", "believes", "according to", "interview", "opinion", "analyst", "ceo", "founder", "cio", "investor", "economist", "chair", "president")
+BAD_TEXT_TERMS = (
+    "permission is hereby granted",
+    "the software is provided",
+    "mit license",
+    "copyright (c) 2010-2026 google llc",
+    "license • angular",
+    "license - angular",
+    "angular.dev/license",
+    "@font-face",
+    "font-family",
+    "fonts.gstatic.com",
+    "fonts.googleapis.com",
+    "stylesheet",
+    "skip to main content menu",
+)
+PRICE_ONLY_TERMS = ("price outlook", "price prediction", "reach $", "target price", "can reach", "forecast 2026", "2026-2030")
 
 
 def _extract_json(text: str) -> dict[str, Any]:
@@ -51,99 +70,108 @@ def _chat(messages: list[dict[str, str]], timeout: int = 240) -> str:
     return response.json()["choices"][0]["message"]["content"]
 
 
-def _compact_item(item: RawItem) -> dict[str, str]:
-    article_text = getattr(item, "article_text", "") or ""
-    return {
-        "title": item.title[:260],
-        "url": item.url[:500],
-        "source_name": item.source_name[:120],
-        "published_at": item.published_at[:60],
-        "summary": item.summary[:700],
-        "article_excerpt": article_text[:1600],
-        "section_hint": item.section_hint[:40],
-        "query": item.query[:180],
-    }
-
-
-def _candidate_items(items: list[RawItem]) -> list[RawItem]:
-    return [x for x in items if is_final_url_allowed(x.url) and len(getattr(x, "article_text", "") or "") >= 900]
-
-
-def _build_selection_prompt(items: list[RawItem], start_label: str, end_label: str) -> list[dict[str, str]]:
-    rules = "；".join([f"{name}{count}条" for name, count in SECTION_COUNTS.items()])
-    payload = [_compact_item(x) for x in _candidate_items(items)[:120]]
-    system = "你是加密货币周刊的选题编辑。只能根据候选英文原文选题，不得补充外部信息。只输出严格 JSON。"
-    user = f"""
-请为《加密货币观察》从候选中选出本期文章。统计窗口：{start_label} 至 {end_label} 北京时间；新闻发布时间不得早于当前时间一周前。
-栏目数量：{rules}。
-硬性规则：
-1. 只能选择候选 JSON 中给出的文章，url 必须原样复制候选中的 url。
-2. 只选择 article_excerpt 明确支持的新闻，不要根据标题猜测。
-3. 政策风向优先美国、香港的正式监管动向，3篇不要全是同一地区。
-4. 【行业前沿】与【市场动态】采用同一选题标准，优先技术、协议、基础设施、DeFi、Layer 2、代币化、安全、钱包、质押、升级和产品发布，不优先选择 ETF、价格、融资、交易所、并购、资金流等纯市场事件。
-5. 排除中文网站和中文来源；尽量分散来源网站。
-这里只做选题，不要写正文。标题必须忠实概括原文，不得夸大。
-输出 JSON：{{"items":[{{"section":"政策风向","title_cn":"中文标题","source_title":"英文原题","event_date":"YYYY-MM-DD","source_name":"来源","url":"URL","published_at":"发布时间","region":"美国/香港/欧盟/其他","fact_check":"说明候选正文中哪些信息支持该选题"}}],"notes":["..."]}}
-候选 JSON：
-{json.dumps(payload, ensure_ascii=False, separators=(",", ":"))}
-""".strip()
-    return [{"role": "system", "content": system}, {"role": "user", "content": user}]
-
-
-def _build_translate_prompt(row: dict[str, Any], raw: RawItem) -> list[dict[str, str]]:
-    section = str(row.get("section") or "")
-    article_text = (getattr(raw, "article_text", "") or "")[:9000]
-    para_rule = "6至10个自然段" if section != "意见领袖" else "5至8个自然段"
-    payload = {
-        "section": section,
-        "source_title": raw.title,
-        "source_name": raw.source_name,
-        "url": raw.url,
-        "published_at": raw.published_at,
-        "summary": raw.summary,
-        "article_text": article_text,
-    }
-    system = "你是专业新闻翻译编辑。任务是把英文原文忠实翻译成中文，不得添加原文没有的内容。只输出严格 JSON。"
-    user = f"""
-请将下面英文新闻原文直接翻译编译成中文稿。不是评论，不是分析，不是补写背景。
-硬性要求：
-1. 只能翻译 article_text 和 summary 中已经出现的信息；不得新增未出现的机构、数字、日期、观点、预测、市场反应、监管后续安排或因果判断。
-2. 如果原文没有说“公开信”“联合指南”“价格上涨”“计划邀请作证”等内容，绝对不要写。
-3. 保留原文事实顺序和限定语，宁可少写，也不要扩写。
-4. 正文写成{para_rule}，每段只表达原文中的事实或原文明确观点。
-5. 关键点 1至3条，也必须来自原文。
-6. 专业术语首次出现写“中文（English，缩写）”；英文人名不翻译，首次写 Firstname Lastname，此后写 Lastname。
-7. 使用全角中文标点和中文全角引号，不使用半角引号。URL 必须原样输出。
-8. fact_check 写明“逐段翻译自原文”，并说明没有加入来源外内容。
-输出 JSON：{{"section":"{section}","title_cn":"中文标题","source_title":"英文原题","event_date":"YYYY-MM-DD","key_points":["关键点一"],"lead_cn":"导语","body_paragraphs":["正文第一段","正文第二段"],"source_name":"来源","url":"URL","published_at":"发布时间","region":"地区","fact_check":"核验说明"}}
-来源材料 JSON：
-{json.dumps(payload, ensure_ascii=False, separators=(",", ":"))}
-""".strip()
-    return [{"role": "system", "content": system}, {"role": "user", "content": user}]
-
-
 def _has_any(text: str, terms: tuple[str, ...]) -> bool:
     low = text.lower()
-    return any(t.lower() in low for t in terms)
+    return any(term in low for term in terms)
+
+
+def _body(item: RawItem) -> str:
+    return f"{item.title} {item.summary} {item.query} {getattr(item, 'article_text', '')}"
+
+
+def _text_fp(item: RawItem) -> str:
+    text = re.sub(r"\W+", "", (getattr(item, "article_text", "") or "").lower())[:2200]
+    return hashlib.sha1(text.encode("utf-8")).hexdigest() if text else ""
+
+
+def _safe_candidate(item: RawItem) -> bool:
+    text = _body(item).lower()
+    article_text = getattr(item, "article_text", "") or ""
+    if not is_final_url_allowed(item.url):
+        return False
+    if len(article_text) < 900:
+        return False
+    if _has_any(text, BAD_TEXT_TERMS):
+        return False
+    if host(item.url) in {"angular.dev", "fonts.googleapis.com", "fonts.gstatic.com"}:
+        return False
+    if "compound" in text and "angular" in text:
+        return False
+    return True
+
+
+def _section_match(item: RawItem, section: str) -> bool:
+    text = _body(item).lower()
+    if not _safe_candidate(item):
+        return False
+    if section == "政策风向":
+        if _has_any(text, PRICE_ONLY_TERMS):
+            return False
+        return _has_any(text, POLICY_TERMS) and any(x in text for x in ("regulator", "regulation", "regulatory", "law", "rule", "guidance", "framework", "court", "sec", "cftc", "treasury", "sfc", "hkma", "mica", "bank of england", "fca", "congress"))
+    if section in ("行业前沿", "市场动态"):
+        hit_count = sum(1 for term in FRONTIER_TERMS if term in text)
+        strong_upgrade = any(x in text for x in ("glamsterdam", "pectra", "fusaka", "upgrade", "mainnet", "testnet", "rollup", "verkle"))
+        return hit_count >= 2 or strong_upgrade
+    if section == "意见领袖":
+        if _has_any(text, PRICE_ONLY_TERMS) and not _has_any(text, OPINION_TERMS):
+            return False
+        return _has_any(text, OPINION_TERMS)
+    return False
 
 
 def _section_score(item: RawItem, section: str) -> int:
-    text = f"{item.title} {item.summary} {item.query} {item.article_text[:1200]}".lower()
-    score = 5 if item.section_hint == section else 0
-    section_terms = {
-        "政策风向": ("regulation", "sec", "cftc", "treasury", "policy", "law", "enforcement", "mica", "stablecoin", "sfc", "hkma", "guidance", "framework", "rule", "approved", "final"),
-        "行业前沿": FRONTIER_TERMS,
-        "市场动态": FRONTIER_TERMS,
-        "意见领袖": ("says", "opinion", "interview", "ceo", "founder", "analyst", "investor", "predicts"),
-    }
-    score += sum(1 for term in section_terms.get(section, ()) if term in text)
-    if section in ("行业前沿", "市场动态") and any(term in text for term in ("etf", "price", "funding", "raises", "acquisition", "ipo", "exchange", "inflow", "outflow")):
-        score -= 2
-    if section == "政策风向" and (_has_any(text, US_TERMS) or _has_any(text, HK_TERMS)):
-        score += 4
-    if section == "政策风向" and any(t in text for t in ("proposal", "proposed", "petition")):
-        score -= 2
+    text = _body(item).lower()
+    score = 10 if item.section_hint == section else 0
+    if section == "政策风向":
+        score += sum(2 for term in POLICY_TERMS if term in text)
+        if _has_any(text, US_TERMS) or _has_any(text, HK_TERMS):
+            score += 8
+        if any(x in text for x in ("approved", "issued", "final", "effective", "signed", "enacted")):
+            score += 5
+        if any(x in text for x in ("proposal", "proposed", "petition")):
+            score -= 4
+    elif section in ("行业前沿", "市场动态"):
+        score += sum(2 for term in FRONTIER_TERMS if term in text)
+        if any(x in text for x in ("glamsterdam", "pectra", "fusaka", "verkle", "upgrade")):
+            score += 8
+        if _has_any(text, PRICE_ONLY_TERMS):
+            score -= 5
+    elif section == "意见领袖":
+        score += sum(2 for term in OPINION_TERMS if term in text)
+        if any(x in text for x in ("interview", "said", "told", "argued", "warned")):
+            score += 6
     return score
+
+
+def _select_items_by_section(items: list[RawItem]) -> tuple[list[RawItem], list[str]]:
+    selected: list[RawItem] = []
+    notes: list[str] = []
+    used_urls: set[str] = set()
+    used_titles: set[str] = set()
+    used_texts: set[str] = set()
+    safe_items = [x for x in items if _safe_candidate(x)]
+    for section in SECTION_ORDER:
+        candidates = [x for x in safe_items if _section_match(x, section)]
+        candidates.sort(key=lambda x: _section_score(x, section), reverse=True)
+        count = 0
+        for item in candidates:
+            url_key = item.url.strip().lower()
+            title = title_key(item.title)
+            fp = _text_fp(item)
+            if url_key in used_urls or title in used_titles or (fp and fp in used_texts):
+                continue
+            selected.append(item)
+            used_urls.add(url_key)
+            if title:
+                used_titles.add(title)
+            if fp:
+                used_texts.add(fp)
+            count += 1
+            if count >= SECTION_COUNTS[section]:
+                break
+        if count < SECTION_COUNTS[section]:
+            notes.append(f"{section} only selected {count}/{SECTION_COUNTS[section]} verified non-duplicate articles")
+    return selected, notes
 
 
 def normalize_punctuation(text: str) -> str:
@@ -178,46 +206,22 @@ def clean_title(title: str) -> str:
 
 
 def _infer_region(item: RawItem) -> str:
-    text = f"{item.title} {item.summary} {item.query} {item.source_name} {item.article_text[:500]}"
+    text = _body(item)
     if _has_any(text, US_TERMS):
         return "美国"
     if _has_any(text, HK_TERMS):
         return "香港"
     low = text.lower()
-    if "mica" in low or "esma" in low or "europe" in low:
+    if "mica" in low or "esma" in low or "europe" in low or "eu " in low:
         return "欧盟"
     return "其他"
 
 
-def _fallback(items: list[RawItem]) -> dict[str, Any]:
-    selected: list[dict[str, Any]] = []
-    used_urls: set[str] = set()
-    safe_items = _candidate_items(items)
-    for section in SECTION_ORDER:
-        ranked = sorted(safe_items, key=lambda x: _section_score(x, section), reverse=True)
-        for item in ranked:
-            if len([x for x in selected if x["section"] == section]) >= SECTION_COUNTS[section]:
-                break
-            if item.url in used_urls or (_section_score(item, section) <= 0 and item.section_hint != section):
-                continue
-            used_urls.add(item.url)
-            source_text = normalize_punctuation((getattr(item, "article_text", "") or item.summary or item.title)[:3000])
-            paragraphs = [source_text[i : i + 360] for i in range(0, min(len(source_text), 2160), 360)] or [source_text]
-            selected.append({
-                "section": section,
-                "title_cn": clean_title(item.title),
-                "source_title": item.title,
-                "event_date": (item.published_at or "")[:10] or "-",
-                "key_points": ["该条为原文正文自动切分草稿，发布前需人工逐段核对。"],
-                "lead_cn": paragraphs[0][:220],
-                "body_paragraphs": paragraphs,
-                "source_name": item.source_name,
-                "url": item.url,
-                "published_at": item.published_at,
-                "region": _infer_region(item),
-                "fact_check": "fallback 草稿，仅使用已抓取原文正文。",
-            })
-    return {"items": selected, "notes": ["DeepSeek 未配置或调用失败，已生成逐段原文草稿。"]}
+def _key_points_from_row(row: dict[str, Any]) -> list[str]:
+    raw = row.get("key_points")
+    if isinstance(raw, list):
+        return [normalize_punctuation(str(x).strip()) for x in raw if str(x).strip()][:3]
+    return []
 
 
 def _paragraphs_from_row(row: dict[str, Any]) -> list[str]:
@@ -231,13 +235,6 @@ def _paragraphs_from_row(row: dict[str, Any]) -> list[str]:
     return paragraphs or ["-"]
 
 
-def _key_points_from_row(row: dict[str, Any]) -> list[str]:
-    raw = row.get("key_points")
-    if isinstance(raw, list):
-        return [normalize_punctuation(str(x).strip()) for x in raw if str(x).strip()][:3]
-    return []
-
-
 def normalize_report(data: dict[str, Any]) -> dict[str, Any]:
     rows = data.get("items") if isinstance(data.get("items"), list) else [data]
     clean: list[dict[str, Any]] = []
@@ -247,7 +244,6 @@ def normalize_report(data: dict[str, Any]) -> dict[str, Any]:
         section = str(row.get("section", "")).strip()
         if section not in SECTION_ORDER:
             continue
-        url = str(row.get("url") or "-").strip()
         clean.append({
             "section": section,
             "title_cn": clean_title(str(row.get("title_cn") or row.get("title") or "-")),
@@ -257,7 +253,7 @@ def normalize_report(data: dict[str, Any]) -> dict[str, Any]:
             "lead_cn": normalize_punctuation(str(row.get("lead_cn") or row.get("summary_cn") or "-").strip()),
             "body_paragraphs": _paragraphs_from_row(row),
             "source_name": str(row.get("source_name") or "-").strip(),
-            "url": url,
+            "url": str(row.get("url") or "-").strip(),
             "published_at": str(row.get("published_at") or "-").strip(),
             "region": str(row.get("region") or "其他").strip(),
             "fact_check": normalize_punctuation(str(row.get("fact_check") or "-").strip()),
@@ -265,56 +261,85 @@ def normalize_report(data: dict[str, Any]) -> dict[str, Any]:
     return {"items": clean, "notes": [str(x) for x in data.get("notes", []) if x] if isinstance(data, dict) else []}
 
 
-def _find_raw(row: dict[str, Any], items: list[RawItem]) -> RawItem | None:
-    url = str(row.get("url") or "").strip()
-    title = str(row.get("source_title") or row.get("title_cn") or "").lower()
-    for item in items:
-        if url and item.url == url and is_final_url_allowed(item.url) and item.article_text:
-            return item
-    for item in items:
-        if title and is_final_url_allowed(item.url) and item.article_text and (title in item.title.lower() or item.title.lower() in title):
-            return item
-    return None
+def _build_translate_prompt(raw: RawItem, section: str) -> list[dict[str, str]]:
+    article_text = (getattr(raw, "article_text", "") or "")[:9000]
+    para_rule = "6至10个自然段" if section != "意见领袖" else "5至8个自然段"
+    payload = {
+        "section": section,
+        "source_title": raw.title,
+        "source_name": raw.source_name,
+        "url": raw.url,
+        "published_at": raw.published_at,
+        "summary": raw.summary,
+        "article_text": article_text,
+    }
+    system = "你是专业新闻翻译编辑。任务是把英文原文忠实翻译成中文，不得添加原文没有的内容。只输出严格 JSON。"
+    user = f"""
+请将下面英文新闻原文直接翻译编译成中文稿。不是评论，不是分析，不是补写背景。
+硬性要求：
+1. 只能翻译 article_text 和 summary 中已经出现的信息；不得新增未出现的机构、数字、日期、观点、预测、市场反应、监管后续安排或因果判断。
+2. 保留原文事实顺序和限定语，宁可少写，也不要扩写。
+3. 正文写成{para_rule}，每段只表达原文中的事实或原文明确观点。
+4. 关键点 1至3条，也必须来自原文。
+5. 专业术语首次出现写“中文（English，缩写）”；英文人名不翻译，首次写 Firstname Lastname，此后写 Lastname。
+6. 使用全角中文标点和中文全角引号，不使用半角引号。URL 必须原样输出。
+7. fact_check 写明“逐段翻译自原文”，并说明没有加入来源外内容。
+输出 JSON：{{"section":"{section}","title_cn":"中文标题","source_title":"英文原题","event_date":"YYYY-MM-DD","key_points":["关键点一"],"lead_cn":"导语","body_paragraphs":["正文第一段","正文第二段"],"source_name":"来源","url":"URL","published_at":"发布时间","region":"地区","fact_check":"核验说明"}}
+来源材料 JSON：
+{json.dumps(payload, ensure_ascii=False, separators=(",", ":"))}
+""".strip()
+    return [{"role": "system", "content": system}, {"role": "user", "content": user}]
 
 
-def _expand_selected_report(selected: dict[str, Any], items: list[RawItem]) -> dict[str, Any]:
-    expanded: list[dict[str, Any]] = []
-    notes = list(selected.get("notes", [])) if isinstance(selected.get("notes"), list) else []
-    for row in selected.get("items", []):
-        if not isinstance(row, dict):
-            continue
-        raw = _find_raw(row, items)
-        if raw is None:
-            notes.append(f"skipped item without verified source text: {row.get('title_cn')}")
-            continue
-        try:
-            data = _extract_json(_chat(_build_translate_prompt(row, raw), timeout=240))
-            one = normalize_report(data)["items"]
-            if one:
-                item = one[0]
-                item["url"] = raw.url
-                item["source_title"] = raw.title
-                item["source_name"] = raw.source_name
-                item["published_at"] = raw.published_at
-                expanded.append(item)
-        except Exception as exc:
-            LOGGER.warning("DeepSeek item translation failed, using source-text fallback: %s", exc)
-            normalized = normalize_report({"items": [_fallback([raw])["items"][0]]})["items"]
-            if normalized:
-                expanded.append(normalized[0])
-            notes.append(f"item translation failed: {row.get('title_cn')}")
-    return {"items": expanded, "notes": notes}
+def _fallback_item(raw: RawItem, section: str) -> dict[str, Any]:
+    source_text = normalize_punctuation((getattr(raw, "article_text", "") or raw.summary or raw.title)[:3200])
+    paragraphs = [source_text[i : i + 420] for i in range(0, min(len(source_text), 2520), 420)] or [source_text]
+    return {
+        "section": section,
+        "title_cn": clean_title(raw.title),
+        "source_title": raw.title,
+        "event_date": (raw.published_at or "")[:10] or "-",
+        "key_points": ["该条为原文正文自动切分草稿，发布前需人工逐段核对。"],
+        "lead_cn": paragraphs[0][:220],
+        "body_paragraphs": paragraphs,
+        "source_name": raw.source_name,
+        "url": raw.url,
+        "published_at": raw.published_at,
+        "region": _infer_region(raw),
+        "fact_check": "fallback 草稿，仅使用已抓取原文正文。",
+    }
+
+
+def _compile_one(raw: RawItem, section: str) -> dict[str, Any]:
+    if not os.getenv("DEEPSEEK_API_KEY"):
+        return _fallback_item(raw, section)
+    try:
+        data = _extract_json(_chat(_build_translate_prompt(raw, section), timeout=240))
+        rows = normalize_report(data)["items"]
+        item = rows[0] if rows else _fallback_item(raw, section)
+    except Exception as exc:
+        LOGGER.warning("DeepSeek translation failed, using source-text fallback: %s", exc)
+        item = _fallback_item(raw, section)
+    item["section"] = section
+    item["url"] = raw.url
+    item["source_title"] = raw.title
+    item["source_name"] = raw.source_name
+    item["published_at"] = raw.published_at
+    item["region"] = item.get("region") or _infer_region(raw)
+    return item
 
 
 def compile_report(items: list[RawItem], start_label: str, end_label: str) -> dict[str, Any]:
-    safe_items = _candidate_items(items)
-    if not safe_items:
-        return {"items": [], "notes": ["No verified source articles with reachable original URLs and body text."]}
-    if not os.getenv("DEEPSEEK_API_KEY"):
-        return normalize_report(_fallback(safe_items))
-    try:
-        selected = normalize_report(_extract_json(_chat(_build_selection_prompt(safe_items, start_label, end_label), timeout=240)))
-        return _expand_selected_report(selected, safe_items)
-    except Exception as exc:
-        LOGGER.warning("DeepSeek compile failed, using fallback: %s", exc)
-        return normalize_report(_fallback(safe_items))
+    selected, notes = _select_items_by_section(items)
+    if not selected:
+        return {"items": [], "notes": ["No verified non-duplicate source articles."]}
+    compiled: list[dict[str, Any]] = []
+    for raw in selected:
+        section = raw.section_hint if raw.section_hint in SECTION_ORDER and _section_match(raw, raw.section_hint) else ""
+        if not section:
+            section = next((s for s in SECTION_ORDER if _section_match(raw, s)), "")
+        if not section:
+            notes.append(f"skipped item without matching section: {raw.title}")
+            continue
+        compiled.append(_compile_one(raw, section))
+    return {"items": compiled, "notes": notes}
