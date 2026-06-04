@@ -34,13 +34,39 @@ BAD_FINAL_HOSTS = (
     "w3.org",
     "bing.com",
     "msn.com",
+    "angular.dev",
 )
-BAD_PATH_PARTS = ("analytics.js", "gtag/js", "collect?", "/rss/articles/", "fonts.googleapis", "fonts.gstatic", ".ttf")
-CSS_TEXT_MARKERS = ("@font-face", "font-family", "google sans", "fonts.gstatic.com", "stylesheet", "text/css")
+BAD_PATH_PARTS = (
+    "analytics.js",
+    "gtag/js",
+    "collect?",
+    "/rss/articles/",
+    "fonts.googleapis",
+    "fonts.gstatic",
+    ".ttf",
+    "/license",
+)
+NON_NEWS_TEXT_MARKERS = (
+    "@font-face",
+    "font-family",
+    "google sans",
+    "fonts.gstatic.com",
+    "fonts.googleapis.com",
+    "stylesheet",
+    "text/css",
+    "permission is hereby granted",
+    "the software is provided",
+    "mit license",
+    "copyright (c) 2010-2026 google llc",
+    "license • angular",
+    "license - angular",
+    "angular.dev/license",
+    "skip to main content menu",
+)
 DISCOVERY_SOURCES = {"Bing News", "Google News", "GDELT"}
 MIN_ARTICLE_TEXT_CHARS = 900
 CONTENT_TERMS = (
-    "crypto", "bitcoin", "ethereum", "stablecoin", "token", "tokenization", "tokenisation", "blockchain", "defi", "web3", "digital asset", "layer 2", "layer2", "wallet", "protocol", "regulation", "sec", "cftc", "sfc", "hkma", "mica", "bank of england", "fca", "rwa", "smart contract", "staking", "rollup", "chain", "exchange", "market", "ether"
+    "crypto", "bitcoin", "ethereum", "stablecoin", "token", "tokenization", "tokenisation", "blockchain", "defi", "web3", "digital asset", "layer 2", "layer2", "wallet", "protocol", "regulation", "sec", "cftc", "sfc", "hkma", "mica", "bank of england", "fca", "rwa", "smart contract", "staking", "rollup", "chain", "exchange", "market", "ether", "xrp", "solana", "treasury", "securities", "futures", "tokenized", "tokenised"
 )
 SPECIAL_SOURCE_NAMES = {
     "financefeeds.com": "FinanceFeeds",
@@ -60,6 +86,9 @@ SPECIAL_SOURCE_NAMES = {
     "sfc.hk": "Hong Kong SFC",
     "hkma.gov.hk": "Hong Kong HKMA",
     "bis.org": "BIS",
+    "bullish.com": "Bullish",
+    "cmegroup.com": "CME Group",
+    "backpack.exchange": "Backpack",
 }
 
 
@@ -139,24 +168,21 @@ def host(url: str) -> str:
 
 def source_name_from_url(url: str, html_text: str = "") -> str:
     soup = BeautifulSoup(html_text or "", "html.parser")
-    for selector in (
+    for selector, attr in (
         ('meta[property="og:site_name"]', "content"),
         ('meta[name="application-name"]', "content"),
         ('meta[name="twitter:site"]', "content"),
     ):
-        node = soup.select_one(selector[0])
-        if node and node.get(selector[1]):
-            value = norm_text(node.get(selector[1])).lstrip("@")
-            if value and "google" not in value.lower():
+        node = soup.select_one(selector)
+        if node and node.get(attr):
+            value = norm_text(node.get(attr)).lstrip("@")
+            if value and "google" not in value.lower() and value not in DISCOVERY_SOURCES:
                 return value
     h = host(url)
     if h in SPECIAL_SOURCE_NAMES:
         return SPECIAL_SOURCE_NAMES[h]
     parts = h.split(".")
-    if len(parts) >= 2:
-        core = parts[-2]
-    else:
-        core = h
+    core = parts[-2] if len(parts) >= 2 else h
     return core.replace("-", " ").title() or "Unknown Source"
 
 
@@ -195,11 +221,13 @@ def is_article_text_allowed(title: str, text: str, url: str) -> bool:
         return False
     if len(text or "") < MIN_ARTICLE_TEXT_CHARS:
         return False
-    if any(marker in low for marker in CSS_TEXT_MARKERS):
+    if any(marker in low for marker in NON_NEWS_TEXT_MARKERS):
         return False
     if low.count("https://") > 12 and len(text) < 3000:
         return False
     if not any(term in low for term in CONTENT_TERMS):
+        return False
+    if "compound" in low and "angular" in low:
         return False
     return True
 
@@ -303,7 +331,7 @@ def _best_article_candidates(html_text: str) -> list[str]:
     soup = BeautifulSoup(html_text or "", "html.parser")
     for tag in soup(["script", "style", "noscript", "svg", "footer", "header", "nav", "aside", "form"]):
         tag.decompose()
-    candidates = []
+    candidates: list[str] = []
     for selector in ("article", "main", "[role=main]", ".article", ".post", ".entry-content", ".story", ".content"):
         for node in soup.select(selector):
             text = norm_text(node.get_text(" "))
