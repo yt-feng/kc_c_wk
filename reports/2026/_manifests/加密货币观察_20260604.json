@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-04T15:54:36+08:00",
-  "period": "2026-06-01 15:54 至 2026-06-04 15:54（北京时间，最近3天）",
-  "raw_count": 120,
+  "generated_at": "2026-06-04T16:27:37+08:00",
+  "period": "2026-06-01 16:27 至 2026-06-04 16:27（北京时间，最近3天）",
+  "raw_count": 119,
   "collection_warnings": [
     "no candidates for query: Hong Kong virtual asset crypto SFC HKMA stablecoin regulation",
     "no candidates for query: site:blockworks.co crypto",
@@ -15,232 +15,53 @@
     "items": [
       {
         "section": "政策风向",
-        "title_cn": "Compound价格展望20262030DeFi治理代币能否达到100美元",
-        "source_title": "Compound (COMP) Price Outlook 2026-2030: Can DeFi Governance Token Reach $100? - Bitcoin World",
+        "title_cn": "Coinbase冻结与东南亚加密诈骗网络相关的300万美元",
+        "source_title": "Coinbase freezes $3M tied to Southeast Asia crypto fraud networks",
         "event_date": "2026-06-04",
         "key_points": [
-          "本软件按“原样”提供，不提供任何明示或暗示的担保。",
-          "在任何情况下，作者或版权持有者均不对任何索赔、损害或其他责任负责。",
-          "允许任何人免费获取本软件副本并进行处理，但需包含上述版权声明和许可声明。"
+          "加密货币交易所Coinbase表示，其冻结了超过300万美元的加密货币，这些资金与一项针对东南亚网络加密诈骗网络的全球行动有关。",
+          "此次行动是美国司法部诈骗中心打击部队领导的“瓦解周”的一部分，该行动汇集政府机构和私营企业，打击针对美国人的加密诈骗。",
+          "Meta、微软和Starlink也参与了此次行动，共同关闭了与诈骗网络相关的服务器和其他托管基础设施，并破坏了超过140万个社交媒体和电子邮件账户的犯罪活动。"
         ],
-        "lead_cn": "Compound (COMP) Price Outlook 2026-2030： Can DeFi Governance Token Reach $100？ Bitcoin World",
+        "lead_cn": "加密货币交易所Coinbase表示，其冻结了超过300万美元的加密货币，这些资金与一项针对东南亚网络加密诈骗网络的全球行动有关。",
         "body_paragraphs": [
-          "特此授予任何人免费获取本软件及相关文档文件（“软件”）副本的许可，可以在不受限制的情况下处理本软件，包括但不限于使用、复制、修改、合并、发布、分发、再许可和/或销售软件副本的权利，并允许向其提供本软件的人员这样做，但须满足以下条件：",
-          "上述版权声明和本许可声明应包含在本软件的所有副本或重要部分中。",
-          "本软件按“原样”提供，不提供任何明示或暗示的担保，包括但不限于适销性、特定用途适用性和非侵权性的担保。",
-          "在任何情况下，作者或版权持有者均不对因本软件或本软件的使用或其他交易而产生或与之相关的任何合同诉讼、侵权行为或其他行为中的任何索赔、损害或其他责任负责。"
+          "今年，世界各国当局一直在大力打击诈骗基础设施，联合行动涉及美国、阿联酋、中国、奥地利和阿尔巴尼亚。",
+          "加密货币交易所Coinbase表示，其冻结了超过300万美元的加密货币，这些资金与一项针对东南亚网络加密诈骗网络的全球行动有关。",
+          "此次行动是美国司法部诈骗中心打击部队领导的“瓦解周”的一部分，该行动汇集政府实体和私营企业，以打击针对美国人的加密诈骗。",
+          "Coinbase表示：“这次行动证明，任何单一公司或机构都无法单独阻止诈骗者。需要社交平台、金融机构、连接提供商和执法部门紧密合作，才能几乎在欺诈链的每个环节——在线账户、资金流和物理基础设施——同时打击这些网络。”",
+          "Meta、微软和Starlink也参与了此次行动，它们共同关闭了与诈骗网络相关的服务器和其他托管基础设施，并破坏了超过140万个社交媒体和电子邮件账户的犯罪活动，泰国皇家警察反网络诈骗中心据此进行了多次逮捕。",
+          "美国司法部表示，投资欺诈和“杀猪盘”是针对美国人的增长最快且在财务上最具破坏性的欺诈形式之一。",
+          "美国联邦调查局（FBI）本月早些时候报告称，2025年美国人在加密货币和人工智能相关诈骗中的损失超过110亿美元，其中投资诈骗造成的损失最为严重。",
+          "Coinbase补充说：“我们知道，在非法金融方面，加密货币有时会获得不公平的声誉。但现实恰恰相反。区块链技术为执法部门提供了传统金融系统通常无法提供的东西：每笔交易的透明、不可变和永久记录。”",
+          "联盟的其他成员包括FBI、美国特勤局以及英国、澳大利亚、加拿大、新西兰和泰国的执法合作伙伴。",
+          "Meta表示，其分享了所有参与方提供的“可操作见解”，这有助于“连接不同平台上分散信息之间的关联。这些科技公司的集体努力使得行动能够几乎在欺诈链的每个环节瞄准并打击犯罪分子。”"
         ],
-        "source_name": "Angular",
-        "url": "https://angular.dev/license",
-        "published_at": "2026-06-04T15:30:10+08:00",
-        "region": "全球",
-        "fact_check": "逐段翻译自原文，未加入来源外内容。原文标题与正文内容不一致（标题为加密代币预测，正文为软件许可协议），但严格按提供的 article_text 和 summary 翻译。"
-      },
-      {
-        "section": "政策风向",
-        "title_cn": "Compound价格展望20262030DeFi治理代币能否达到100美元",
-        "source_title": "Compound (COMP) Price Outlook 2026-2030: Can DeFi Governance Token Reach $100? - Bitcoin World",
-        "event_date": "2026-06-04",
-        "key_points": [
-          "Compound（COMP）价格展望2026-2030涉及DeFi治理代币能否达到100美元。",
-          "该内容来自Bitcoin World。",
-          "软件许可说明参见Angular开发网站。"
-        ],
-        "lead_cn": "Compound (COMP) 价格展望2026-2030：DeFi治理代币能否达到100美元？来源：Bitcoin World。",
-        "body_paragraphs": [
-          "License • Angular Skip to main content menu Copyright (c) 2010-2026 Google LLC. https://angular.dev/license",
-          "特此授予任何获得本软件及相关文档文件（“软件”）副本的人免费许可，允许无限制地处理软件，包括但不限于使用、复制、修改、合并、发布、分发、再许可和/或销售软件副本的权利，并允许向其提供软件的人员在满足以下条件的情况下这样做。",
-          "上述版权声明和本许可声明应包含在软件的所有副本或实质部分中。",
-          "软件按“原样”提供，不提供任何明示或暗示的保证，包括但不限于适销性、特定用途适用性和非侵权性的保证。在任何情况下，作者或版权持有人均不对因软件或使用或其他处理软件而引起的或与之相关的任何索赔、损害赔偿或其他责任负责，无论是合同行为、侵权行为还是其他行为。"
-        ],
-        "source_name": "Angular",
-        "url": "https://angular.dev/license",
-        "published_at": "2026-06-04T15:30:10+08:00",
-        "region": "未明确",
-        "fact_check": "逐段翻译自原文，未加入来源外内容。原文article_text为软件许可文本，与标题和摘要内容不直接相关。"
-      },
-      {
-        "section": "政策风向",
-        "title_cn": "Compound价格展望20262030DeFi治理代币能否达到100美元？BitcoinWorld",
-        "source_title": "Compound (COMP) Price Outlook 2026-2030: Can DeFi Governance Token Reach $100? - Bitcoin World",
-        "event_date": "2026-06-04",
-        "key_points": [
-          "文章标题为“Compound (COMP) Price Outlook 2026-2030： Can DeFi Governance Token Reach $100？”",
-          "文章来源为Bitcoin World。",
-          "正文为Angular软件许可证文本，包含版权声明和许可条件。"
-        ],
-        "lead_cn": "Compound (COMP) Price Outlook 2026-2030： Can DeFi Governance Token Reach $100？ Bitcoin World",
-        "body_paragraphs": [
-          "许可 • Angular 跳过主内容菜单 版权所有（c）2010-2026 Google LLC. https://angular.dev/license",
-          "特此授予任何获得本软件及关联文档文件（“软件”）副本的人免费许可，无限制地处理本软件，包括但不限于使用、复制、修改、合并、发布、分发、再许可和/或销售本软件副本的权利，并允许向其提供本软件的人员在遵守以下条件的情况下这样做：",
-          "上述版权声明和本许可声明应包含在本软件的所有副本或实质性部分中。",
-          "本软件按“原样”提供，不提供任何明示或暗示的担保，包括但不限于适销性、特定用途适用性和非侵权性的担保。在任何情况下，作者或版权持有人均不对任何索赔、损害或其他责任负责，无论此类责任是基于合同、侵权或其他原因，由本软件或本软件的使用或其他交易引起或与之相关。"
-        ],
-        "source_name": "Angular",
-        "url": "https://angular.dev/license",
-        "published_at": "2026-06-04T15:30:10+08:00",
-        "region": "Global",
-        "fact_check": "逐段翻译自原文，没有加入来源外内容。"
-      },
-      {
-        "section": "行业前沿",
-        "title_cn": "以太坊Glamsterdam升级瞄准Q3ETH目标价3500美元",
-        "source_title": "Ethereum Eyes $3,500 as Glamsterdam Upgrade Targets Q3",
-        "event_date": "2026-06-04",
-        "key_points": [
-          "Glamsterdam升级预计2026年Q2或Q3进行，将引入Verkle树实现无状态客户端，推动L2吞吐量超10万TPS。",
-          "截至2026年6月初，以太坊交易价约1970美元，较2025年8月历史高点4951美元下跌超60%。",
-          "2025年以太坊完成Pectra和Fusaka两次硬分叉，形成半年一次升级节奏。"
-        ],
-        "lead_cn": "以太坊正在推进2026年最激进的工程计划，Glamsterdam升级目标在Q2或Q3上线，届时将引入Verkle树并推动Layer 2可持续吞吐量超过10万TPS。与此同时，ETH价格在1970美元附近徘徊，分析师预计反弹区间为2200至3500美元。",
-        "body_paragraphs": [
-          "截至2026年6月初，以太坊交易价格约为1970美元，较2025年8月达到的历史高点4951美元下跌超过60%。然而，价格压缩背后是该网络历史上最激进的工程日程。以太坊基金会于2026年2月发布了年度协议优先级，将开发围绕三个支柱重组：扩容、用户体验改进和L1强化。",
-          "2025年5月7日，Pectra升级上线，将Prague执行层和Electra共识层合并为一次部署，包含11个以太坊改进提案（EIP）。EIP-7251将最大有效验证者余额从32 ETH提高到2048 ETH，整合了验证者集合并减少了点对点网络压力。EIP-7702引入了账户抽象原语，允许外部拥有账户在单次交易中委托给智能合约逻辑。2025年12月，Fusaka升级推出，进一步提升了数据可用性，增加了Rollup的blob吞吐量。",
-          "下一个里程碑是Glamsterdam升级，结合了Glam共识层和Amsterdam执行层的变更。核心计划功能包括完整的Verkle树实现，它将实现无状态客户端，大幅降低运行节点的硬件要求。Trent Bolar在分析中表示：“Glamsterdam预计是以太坊路线图中‘The Surge’部分完成前的最后一大步，将在保持完全去中心化的同时，推动Layer 2生态系统的可持续吞吐量达到10万TPS以上。”Glamsterdam预计于2026年Q2或Q3上线。",
-          "据CoinDCX数据，截至2026年6月1日，ETH交易价格约为1970美元。14日RSI为33.56，接近超卖区域。50日移动平均线位于2194美元，200日移动平均线位于2509美元，当前价格远低于这两个趋势指标。InvestingHaven预计2026年交易区间为1800至3500美元，平均预测约2700美元。Changelly模型估计2026年12月保守上限为2582美元。CoinDCX报道称，Coinpaper高级加密货币市场分析师Alex Thornton指出，约74%的以太坊供应目前处于盈利状态，30日实现价格估计接近1980美元。长期持有者供应量正在增加，这种模式与积累而非分配一致。",
-          "以太坊的升级历史遵循戏剧性递减、技术范围递增的模式。2022年9月的The Merge消除了工作量证明挖矿；2023年4月的Shapella解锁了质押提款；2024年3月的Dencun启动了原始danksharding；2025年5月的Pectra实现了验证者整合和账户抽象。2026年路线图延续了这一轨迹：Glamsterdam针对状态管理层本身，而计划于2026年底的Heze-Bogota分叉将开始对支撑共识的密码学原语进行量子安全加固。",
-          "以太坊受益于2026年3月美国SEC和CFTC的联合框架，该框架将16种数字资产归类为商品。ETH与比特币一同被纳入CFTC监管范围，消除了此前在2024年和2025年初压制该资产的剩余证券执法风险。2024年获批的现货ETH ETF现在在更清晰的司法边界下运营，这应能降低发行方和托管方的合规成本。"
-        ],
-        "source_name": "FinanceFeeds",
-        "url": "https://financefeeds.com/ethereum-eyes-3500-as-glamsterdam-upgrade/",
-        "published_at": "2026-06-04T06:36:00+08:00",
-        "region": "全球",
-        "fact_check": "逐段翻译自原文，未加入来源外内容。"
-      },
-      {
-        "section": "行业前沿",
-        "title_cn": "Compound价格展望20262030DeFi治理代币能否达到100美元",
-        "source_title": "Compound (COMP) Price Outlook 2026-2030: Can DeFi Governance Token Reach $100? - Bitcoin World",
-        "event_date": "2026-06-04",
-        "key_points": [
-          "Compound（COMP）价格展望2026-2030：DeFi治理代币能否达到100美元？"
-        ],
-        "lead_cn": "Compound（COMP）价格展望2026-2030：DeFi治理代币能否达到100美元？",
-        "body_paragraphs": [
-          "Compound（COMP）价格展望2026-2030：DeFi治理代币能否达到100美元？"
-        ],
-        "source_name": "Angular",
-        "url": "https://angular.dev/license",
-        "published_at": "2026-06-04T15:30:10+08:00",
-        "region": "全球",
-        "fact_check": "逐段翻译自原文，未加入来源外内容。"
-      },
-      {
-        "section": "市场动态",
-        "title_cn": "Compound价格展望20262030DeFi治理代币能否达到100美元",
-        "source_title": "Compound (COMP) Price Outlook 2026-2030: Can DeFi Governance Token Reach $100? - Bitcoin World",
-        "event_date": "2026-06-04",
-        "key_points": [
-          "文章对Compound（COMP）2026年至2030年的价格进行展望。",
-          "文章探讨该DeFi治理代币能否达到100美元。"
-        ],
-        "lead_cn": "本文对Compound（COMP）2026-2030年价格进行展望，并探讨该DeFi治理代币能否达到100美元。",
-        "body_paragraphs": [
-          "英文标题为“Compound (COMP) Price Outlook 2026-2030： Can DeFi Governance Token Reach $100？ - Bitcoin World”。",
-          "摘要内容为“Compound (COMP) Price Outlook 2026-2030： Can DeFi Governance Token Reach $100？ Bitcoin World”。"
-        ],
-        "source_name": "Angular",
-        "url": "https://angular.dev/license",
-        "published_at": "2026-06-04T15:30:10+08:00",
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/tech-fbi-crypto-scam-crackdown-southeast-asia",
+        "published_at": "2026-06-04T01:00:00+08:00",
         "region": "全球",
         "fact_check": "逐段翻译自原文，没有加入来源外内容。"
-      },
-      {
-        "section": "市场动态",
-        "title_cn": "Compound价格展望20262030DeFi治理代币能否达到100美元？BitcoinWorld",
-        "source_title": "Compound (COMP) Price Outlook 2026-2030: Can DeFi Governance Token Reach $100? - Bitcoin World",
-        "event_date": "2026-06-04",
-        "key_points": [
-          "Compound (COMP) Price Outlook 2026-2030： Can DeFi Governance Token Reach $100？ Bitcoin World"
-        ],
-        "lead_cn": "Compound (COMP) Price Outlook 2026-2030： Can DeFi Governance Token Reach $100？ Bitcoin World",
-        "body_paragraphs": [
-          "许可协议 • Angular 跳转到主要内容 菜单 版权所有 (c) 2010-2026 Google LLC. https://angular.dev/license",
-          "特此授予任何获得本软件及相关文档文件（“软件”）副本的人免费许可，允许无限制地处理本软件，包括但不限于使用、复制、修改、合并、发布、分发、再许可和/或销售本软件副本的权利，并允许获得本软件的人这样做，但须满足以下条件：上述版权声明和本许可声明应包含在本软件的所有副本或实质性部分中。",
-          "本软件按“原样”提供，不提供任何明示或默示的保证，包括但不限于适销性、特定用途适用性和非侵权性的保证。在任何情况下，作者或版权持有人均不对因本软件或本软件的使用或其他交易而引起的任何索赔、损害赔偿或其他责任负责，无论是在合同、侵权行为还是其他方面。"
-        ],
-        "source_name": "Angular",
-        "url": "https://angular.dev/license",
-        "published_at": "2026-06-04T15:30:10+08:00",
-        "region": "其他",
-        "fact_check": "逐段翻译自原文，没有加入来源外内容。但原文非新闻内容，仅为软件许可证文本，导致标题与正文不符。"
-      },
-      {
-        "section": "意见领袖",
-        "title_cn": "Angular软件许可证",
-        "source_title": "Compound (COMP) Price Outlook 2026-2030: Can DeFi Governance Token Reach $100? - Bitcoin World",
-        "event_date": "2026-06-04",
-        "key_points": [
-          "该软件及文档采用MIT许可证发布。",
-          "任何人可免费复制、修改、合并、出版、分发、再许可和/或销售该软件副本。",
-          "软件按“原样”提供，不附带任何明示或暗示的担保。"
-        ],
-        "lead_cn": "本文是Angular项目的MIT许可证文本，规定了软件的使用、复制和分发条件。",
-        "body_paragraphs": [
-          "版权所有（c）2010-2026 Google LLC。https://angular.dev/license",
-          "特此授予任何获得本软件副本及相关文档文件（以下简称“软件”）的人无限制处理该软件的权利，包括但不限于使用、复制、修改、合并、出版、分发、再许可和/或销售该软件副本的权利，并允许向其提供软件的人这样做，但须满足以下条件：",
-          "上述版权声明和本许可声明应包含在软件的所有副本或实质性部分中。",
-          "该软件按“原样”提供，不附带任何明示或暗示的担保，包括但不限于适销性、特定用途适用性和非侵权性的担保。在任何情况下，作者或版权持有人均不对因软件或软件的使用或其他交易而产生的任何索赔、损害赔偿或其他责任负责，无论是合同诉讼、侵权行为还是其他行为。"
-        ],
-        "source_name": "Angular",
-        "url": "https://angular.dev/license",
-        "published_at": "2026-06-04T15:30:10+08:00",
-        "region": "美国",
-        "fact_check": "逐段翻译自原文，没有加入来源外内容。原文为Angular软件许可证，未包含价格预测信息。"
-      },
-      {
-        "section": "意见领袖",
-        "title_cn": "Compound价格展望20262030DeFi治理代币能否达到100美元",
-        "source_title": "Compound (COMP) Price Outlook 2026-2030: Can DeFi Governance Token Reach $100? - Bitcoin World",
-        "event_date": "2026-06-04",
-        "key_points": [
-          "文章标题为“Compound (COMP) Price Outlook 2026-2030： Can DeFi Governance Token Reach $100？ - Bitcoin World”。",
-          "文章概要为“Compound (COMP) Price Outlook 2026-2030： Can DeFi Governance Token Reach $100？ Bitcoin World”。"
-        ],
-        "lead_cn": "Compound（COMP）价格展望2026-2030：DeFi治理代币能否达到100美元？Bitcoin World",
-        "body_paragraphs": [
-          "版权所有（c）2010-2026 Google LLC。https://angular.dev/license",
-          "特此免费授予任何获得本软件副本及相关文档文件（“软件”）的人无限制处理本软件的权利，包括但不限于使用、复制、修改、合并、发布、分发、再许可和/或出售本软件副本的权利，并允许向其提供本软件的人员这样做，但须满足以下条件：",
-          "上述版权声明和本许可声明应包含在本软件的所有副本或实质性部分中。",
-          "本软件按“原样”提供，不提供任何明示或默示的保证，包括但不限于对适销性、特定用途适用性和非侵权的保证。在任何情况下，作者或版权持有人均不对因本软件或本软件的使用或其他交易而产生的任何索赔、损害或其他责任负责，无论是合同行为、侵权行为还是其他行为。"
-        ],
-        "source_name": "Angular",
-        "url": "https://angular.dev/license",
-        "published_at": "2026-06-04T15:30:10+08:00",
-        "region": "其他",
-        "fact_check": "逐段翻译自原文，没有加入来源外内容"
       }
     ],
     "notes": [
-      "所有候选文章的article_excerpt均为Angular许可证文本，无实际新闻内容。本选题基于标题和摘要判断，并参照栏目规则筛选。",
-      "政策风向选择了美国CLARITY法案、SEC优先事项和香港监管法规，地区涵盖美国和香港。",
-      "行业前沿和市场动态优先选择了技术升级、基础设施和代币化相关新闻。",
-      "意见领袖选择了Peter Schiff和Anthony Pompliano两位知名人物的观点。"
+      "政策风向 only selected 1/3 verified non-duplicate articles",
+      "行业前沿 only selected 0/2 verified non-duplicate articles",
+      "市场动态 only selected 0/2 verified non-duplicate articles",
+      "意见领袖 only selected 0/2 verified non-duplicate articles"
     ]
   },
   "factcheck": {
     "ok": false,
     "errors": [
-      "政策风向 requires at least one US-related item",
-      "item 1 body is too short: 4 paragraphs, expected at least 5",
-      "item 1 body is too short: 370 chars, expected at least 650",
-      "item 2 body is too short: 4 paragraphs, expected at least 5",
-      "item 2 body is too short: 444 chars, expected at least 650",
-      "item 3 body is too short: 4 paragraphs, expected at least 5",
-      "item 3 body is too short: 445 chars, expected at least 650",
-      "item 5 body is too short: 1 paragraphs, expected at least 5",
-      "item 5 body is too short: 93 chars, expected at least 650",
-      "item 6 body is too short: 2 paragraphs, expected at least 5",
-      "item 6 body is too short: 260 chars, expected at least 650",
-      "item 7 body is too short: 3 paragraphs, expected at least 5",
-      "item 7 body is too short: 444 chars, expected at least 650",
-      "item 8 body is too short: 361 chars, expected at least 500",
-      "item 9 body is too short: 382 chars, expected at least 500"
+      "政策风向 requires 3 items, got 1",
+      "行业前沿 requires 2 items, got 0",
+      "市场动态 requires 2 items, got 0",
+      "意见领袖 requires 2 items, got 0",
+      "政策风向 requires at least one US-related item"
     ],
     "warnings": [
       "政策风向未覆盖美国或香港，建议优先补充美国、香港监管动向",
-      "source diversity is low: only 2 unique domains",
-      "domain angular.dev appears 8 times; consider diversifying sources"
+      "item 1 contains relative time wording; replace with exact date"
     ]
   },
   "outputs": {
