@@ -20,7 +20,7 @@ on:
       strict:
         description: "1 to fail on fact-check errors, 0 to write draft"
         required: false
-        default: "0"
+        default: "1"
 
 permissions:
   contents: write
@@ -34,7 +34,7 @@ jobs:
       DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
       DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL || 'deepseek-v4-flash' }}
       CRYPTO_OBSERVER_DAYS: ${{ github.event.inputs.days || '3' }}
-      CRYPTO_OBSERVER_STRICT: ${{ github.event.inputs.strict || '0' }}
+      CRYPTO_OBSERVER_STRICT: ${{ github.event.inputs.strict || '1' }}
       CRYPTO_OBSERVER_OUTPUT_ROOT: reports
       CRYPTO_OBSERVER_MAX_RAW_ITEMS: "360"
       PYTHONUNBUFFERED: "1"
@@ -70,7 +70,7 @@ jobs:
             reports/**/_manifests/*.json
           if-no-files-found: warn
       - name: Commit generated report
-        if: always()
+        if: success()
         shell: bash
         run: |
           set -euo pipefail
