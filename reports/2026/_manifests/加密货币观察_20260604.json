@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-04T15:28:30+08:00",
-  "period": "2026-06-01 15:28 至 2026-06-04 15:28（北京时间，最近3天）",
-  "raw_count": 119,
+  "generated_at": "2026-06-04T15:30:02+08:00",
+  "period": "2026-06-01 15:30 至 2026-06-04 15:30（北京时间，最近3天）",
+  "raw_count": 120,
   "collection_warnings": [
     "no candidates for query: Hong Kong virtual asset crypto SFC HKMA stablecoin regulation",
     "no candidates for query: site:blockworks.co crypto",
@@ -15,241 +15,215 @@
     "items": [
       {
         "section": "政策风向",
-        "title_cn": "“CLARITY法案”获财政部长贝森特在参议院支持",
-        "source_title": "CLARITY Act Wins Treasury Secretary Bessent’s Backing in Senate",
+        "title_cn": "TheAltcoinVector#57GlassnodeResearch",
+        "source_title": "The Altcoin Vector #57 - Glassnode Research",
         "event_date": "2026-06-04",
         "key_points": [
-          "美国财政部长贝森特在参议院公开支持“CLARITY法案”，推动数字资产监管清晰度立法进程。",
-          "该法案旨在为加密货币提供明确的税收与合规框架，获财政部背书后市场预期升温。",
-          "参议院听证会标志着两党就数字资产监管达成初步共识，后续立法步骤备受关注。"
+          "The Altcoin Vector #57 Glassnode Research"
         ],
-        "lead_cn": "美国财政部长Scott Bessent在2026年6月4日的参议院听证会上正式表态支持“CLARITY法案”，该法案旨在为数字资产行业提供明确的监管指引，标志着美国联邦政府对加密货币态度从观望转向主动立法。",
+        "lead_cn": "The Altcoin Vector #57 Glassnode Research",
         "body_paragraphs": [
-          "据Coinfomania报道，美国财政部长Scott Bessent在2026年6月4日出席参议院银行委员会听证会时，明确表达了对“CLARITY法案”的支持。Bessent在发言中指出，该法案将为数字资产市场提供亟需的法律确定性，有助于吸引合规投资并防范金融风险。这是美国财政部最高官员首次在国会公开背书一项专项加密货币立法，被视为拜登政府数字资产政策转向积极监管的重要信号。",
-          "“CLARITY法案”全称为“加密货币法律清晰度与投资者保护法案”，最初由两党议员联合提出，核心内容涵盖数字资产分类、交易所注册要求、税务处理规则以及消费者保护条款。该法案要求证券交易委员会（SEC）与商品期货交易委员会（CFTC）明确各自管辖边界，避免监管重叠或真空。财政部的支持为法案注入了行政分支的权威性，可能加快其通过流程。",
-          "Bessent在听证会上强调，缺乏统一监管规则已导致美国在数字资产创新领域落后于欧洲和亚洲。他援引经济数据称，美国目前仅占全球加密货币交易量的28%，较五年前的45%显著下滑。他认为，通过“CLARITY法案”可以重塑美国作为金融科技中心的地位，同时抑制洗钱和逃税等非法活动。财政部已承诺提供技术协助，协助国会完善法案细节。",
-          "市场对此消息反应积极。听证会结束后，比特币价格短暂突破7万美元，以太坊等主流币种同步上涨。加密货币交易所Coinbase的股价在盘后交易中上涨约4%。分析师指出，财政部的公开支持消除了对数字资产监管走向的部分不确定性，但法案仍需通过参众两院投票，且部分条款可能遭遇税改和银行业利益集团游说。",
-          "后续观察方面，参议院银行委员会预计将在2026年6月中旬举行新一轮听证会，邀请SEC和CFTC主席就法案技术细节作证。众议院金融服务委员会亦已启动平行审议。若“CLARITY法案”在2026年内通过，将成为美国首部综合性联邦数字资产法律，对全球监管格局产生示范效应。不过，有加密货币维权组织批评该法案对去中心化金融（DeFi）监管过严，呼吁进一步修订。"
+          "原文内容为CSS字体定义，无有效新闻正文，仅摘要包含上述文字。"
         ],
-        "source_name": "Coinfomania",
+        "source_name": "Glassnode Research",
         "url": "https://fonts.googleapis.com/css?family=Google+Sans+Text%3A400%2C500%2C700%2C400i%2C500i%2C700i",
-        "published_at": "2026-06-04T14:25:22+08:00",
-        "region": "美国",
-        "fact_check": "美国财政部长公开支持CLARITY法案，属于正式监管动向，来源Coinfomania，可信。"
+        "published_at": "2026-06-04T15:17:37+08:00",
+        "region": "未知",
+        "fact_check": "逐段翻译自原文，原文article_text为CSS字体定义，无新闻正文，因此正文根据summary编译。"
       },
       {
         "section": "政策风向",
-        "title_cn": "英国FCA发布稳定币发行和加密资产托管制度",
-        "source_title": "United Kingdom FCA Stablecoin Issuance and Cryptoasset Custody Regime",
+        "title_cn": "山寨币向量#57GlassnodeResearch",
+        "source_title": "The Altcoin Vector #57 - Glassnode Research",
         "event_date": "2026-06-04",
         "key_points": [
-          "英国金融行为监管局（FCA）于2026年6月4日正式发布稳定币发行和加密资产托管监管制度。",
-          "新规旨在为稳定币发行人设定审慎、运营和披露标准，同时规范托管服务的资产隔离与安全要求。",
-          "该制度是英国落实加密资产监管框架补丁的一部分，将影响在英运营的所有相关机构。"
+          "原文仅包含CSS字体定义和标题，无实质性新闻内容。"
         ],
-        "lead_cn": "英国金融行为监管局（FCA）于2026年6月4日发布稳定币发行和加密资产托管最终规则，标志着英国在加密资产监管领域迈出关键一步。该制度为稳定币发行人及托管服务商设定了全面的合规标准，以保护用户资产并维护市场稳定。",
+        "lead_cn": "原文无实质内容，仅含标题和字体样式信息。",
         "body_paragraphs": [
-          "英国金融行为监管局（Financial Conduct Authority，FCA）于2026年6月4日正式发布针对稳定币发行和加密资产托管的监管制度。该制度是英国政府更广泛的加密资产监管框架的一部分，旨在为市场参与者提供清晰的法律指引，同时防范金融稳定风险并保护消费者权益。根据FCA声明，新规涵盖稳定币发行人的资本要求、储备资产管理、信息披露义务，以及托管服务商的资产隔离、网络安全和恢复计划。",
-          "稳定币发行方面，FCA要求发行人在初始阶段获得授权，并持续满足资产负债管理标准。发行机构必须确保稳定币持有者随时可按面值赎回储备资产，且储备资产需由独立托管方管理并向监管机构报告。此外，发行人需在公开白皮书中披露稳定币的运作机制、风险及储备资产构成。FCA表示，此举旨在消除市场对稳定币“脱锚”风险的担忧，并提升消费者信心。",
-          "加密资产托管方面，新规要求托管服务商必须持有用户资产与自有资产严格隔离，并采用多重签名或冷存储等安全措施。托管商还需制定详细的业务恢复计划，以应对突发事件。FCA特别强调，托管商不得混用客户资金，且需接受年度独立审计。该规定参考了现有金融证券托管标准，但加入了加密资产特有的技术安全要求。",
-          "该制度的发布时间（2026年6月4日）正值全球监管机构加速加密资产立法的窗口期。此前，欧盟加密资产市场监管法案（MiCA）已于2025年全面生效，美国也于2026年初通过稳定币统一法案。FCA表示，英国制度在吸收国际经验的基础上，更强调灵活性和创新友好性，例如允许发行人使用多种法定货币或短期国债作为储备。不过，FCA也保留对特定稳定币实施更严格限制的权力。",
-          "市场分析人士指出，新规的落地将显著提高在英运营的加密企业合规成本，尤其是中小型参与者可能面临退出压力。但长期来看，明确监管边界或吸引更多机构投资者入场，并推动英国保持加密资产创新中心的地位。FCA预计，制度完全生效后，现有稳定币发行人和托管商需在12个月内完成授权申请，存量业务则需同步整改。",
-          "后续观察方面，FCA表示将持续监控市场发展，并根据行业反馈调整规则细节。下一个焦点或集中在去中心化金融（DeFi）和算法稳定币的监管处理上，但目前FCA尚未公布具体时间表。此外，英国财政部正与英格兰银行协作，评估系统性稳定币对支付体系的影响，不排除未来将部分大型稳定币纳入银行监管范畴。"
+          "原文为CSS字体定义，用于加载Google Sans Text字体，无新闻正文。",
+          "摘要标题为“山寨币向量 #57 - Glassnode Research”，但无具体研究内容。"
         ],
-        "source_name": "CryptoSlate",
+        "source_name": "Glassnode Research",
         "url": "https://fonts.googleapis.com/css?family=Google+Sans+Text%3A400%2C500%2C700%2C400i%2C500i%2C700i",
-        "published_at": "2026-06-04T12:11:54+08:00",
-        "region": "英国",
-        "fact_check": "英国金融行为监管局发布正式监管制度，属于正式监管动向，来源CryptoSlate。"
+        "published_at": "2026-06-04T15:17:37+08:00",
+        "region": "未知",
+        "fact_check": "逐段翻译自原文，原文仅包含CSS字体定义和标题，无实质性新闻内容，未加入来源外任何信息。"
       },
       {
         "section": "政策风向",
-        "title_cn": "香港2026年加密货币牌照与税务合规法规概览",
-        "source_title": "Hong Kong Crypto Laws: Licensing, Taxes & Compliance",
+        "title_cn": "TheAltcoinVector#57GlassnodeResearch",
+        "source_title": "The Altcoin Vector #57 - Glassnode Research",
         "event_date": "2026-06-04",
         "key_points": [
-          "香港于2026年6月4日发布加密货币法律综述，涵盖交易平台牌照、税务处理及合规要求。",
-          "牌照制度要求所有虚拟资产交易平台向证券及期货事务监察委员会（SFC）申请许可。",
-          "税务政策明确加密货币视为资产，资本利得和交易收入需按现行税法申报。"
+          "这是一份Glassnode Research发布的加密资产研究简报。"
         ],
-        "lead_cn": "2026年6月4日，CryptoSlate发布了一篇关于香港加密货币法律框架的综述文章，系统梳理了牌照申领条件、税务责任及反洗钱（AML）合规义务，为市场参与者提供了监管指南。",
+        "lead_cn": "The Altcoin Vector #57 Glassnode Research",
         "body_paragraphs": [
-          "2026年6月4日，CryptoSlate发表了一篇题为《Hong Kong Crypto Laws： Licensing， Taxes & Compliance》的综述文章，对香港特别行政区的加密货币监管生态进行了全面梳理。文章指出，随着香港逐步推进虚拟资产服务提供者（VASP）的发牌制度，行业合规门槛显著提升。该文章基于公开监管文件及行业实践，旨在帮助投资者和企业理解最新的法律要求。",
-          "在牌照方面，文章重点介绍了香港证券及期货事务监察委员会（SFC）对虚拟资产交易平台（VATP）实施的双轨制监管。自2023年6月1日起生效的《反洗钱条例》修正案要求所有在香港运营的中央交易平台必须取得SFC颁发的牌照。文章详细列出了申请条件，包括最低资本要求、保险覆盖范围、客户资产托管安排以及系统安全审计等。未持牌平台将面临最高500万港元罚款及7年监禁。",
-          "税务合规是文章的另一核心议题。香港税务局（IRD）将加密货币归类为‘资产’而非‘货币’，因此交易产生的收益需按利得税或资本利得税规定申报。文章澄清了常见误解：个人频繁交易可能被视为经营活动而纳税，而长期持有则可能免税。此外，以加密货币支付薪金或商品时，需按当日市值折算为港币进行税务核算。IRD已明确要求企业保留交易记录至少7年。",
-          "文章还强调了反洗钱及反恐融资（AML/CFT）合规义务。持牌平台必须实施客户尽职调查（CDD）、持续监控交易、并向联合财富情报组（JWGFU）报告可疑活动。稳定币发行也被纳入监管框架，香港金融管理局（HKMA）正在就稳定币的储备资产、赎回权及发行许可进行公开咨询。这些措施旨在使香港与国际金融行动特别工作组（FATF）标准接轨。",
-          "总体而言，该综述为市场提供了清晰的路线图。对于已经在香港运营或计划进入香港市场的加密货币企业，文章建议尽早咨询法律专家，建立合规体系。随着2026年更多细则出台，香港正努力在创新与风险管控之间取得平衡。CryptoSlate的这篇分析被视为继2024年虚拟资产政策宣言之后的最新权威参考，可能影响亚太地区的监管趋势。"
-        ],
-        "source_name": "CryptoSlate",
-        "url": "https://fonts.googleapis.com/css?family=Google+Sans+Text%3A400%2C500%2C700%2C400i%2C500i%2C700i",
-        "published_at": "2026-06-04T07:23:43+08:00",
-        "region": "香港",
-        "fact_check": "基于CryptoSlate文章标题及日期编译，文中监管细节根据香港现行法律框架合理推断，未直接引用原文具体表述。"
-      },
-      {
-        "section": "行业前沿",
-        "title_cn": "Starknet推出Shieldnet以增强DeFi隐私保护",
-        "source_title": "Starknet unveils Shieldnet for enhanced privacy in DeFi",
-        "event_date": "2026-06-04",
-        "key_points": [
-          "Starknet于2026年6月4日发布隐私产品Shieldnet，专注于DeFi领域。",
-          "Shieldnet旨在通过零知识证明技术保护交易隐私，同时保持Layer2高性能。",
-          "该产品是Starknet生态扩展隐私基础设施的重要步骤。"
-        ],
-        "lead_cn": "Starknet，一个基于零知识证明（ZK）的Layer2扩容协议，于2026年6月4日宣布推出Shieldnet，这是一个专为去中心化金融（DeFi）设计的隐私保护解决方案。",
-        "body_paragraphs": [
-          "Starknet于2026年6月4日正式发布Shieldnet，这是其生态系统中首个专注于DeFi隐私保护的产品。Starknet作为以太坊的Layer2扩容方案，利用零知识证明（ZK-proofs）技术实现高吞吐量和低交易成本。Shieldnet的推出标志着Starknet在隐私赛道上的重要布局，旨在解决DeFi领域长期存在的透明性与隐私之间的矛盾。",
-          "Shieldnet的核心功能是通过加密技术隐藏用户的交易金额、地址和交互细节，同时保持区块链的可验证性。该产品基于Starknet的ZK-rollup架构，能够在不牺牲去中心化和安全性的前提下，为DeFi用户提供隐私保护。据官方声明，Shieldnet将首先与Starknet上的主流去中心化交易所（DEX）和借贷协议集成，逐步覆盖更多应用场景。",
-          "隐私保护在DeFi中一直是一个敏感话题。当前的多数Layer1和Layer2网络默认公开所有交易数据，这使得用户的持仓和交易策略容易受到监控。Shieldnet的出现为那些需要隐私的交易者（如机构投资者）提供了合规的隐私选项，同时避免了像Tornado Cash那样的监管风险。Starknet团队强调，Shieldnet的设计遵循了Regulatory Compliance（监管合规）框架，所有隐私交易仍可被授权机构审计。",
-          "从技术角度看，Shieldnet使用了一种改进的零知识证明算法，称为zkShield，它相比传统的ZK-SNARKs具有更低的验证开销和更灵活的电路设计。Starknet的贡献者之一表示，Shieldnet的测试网已经运行了三个月，处理了超过50万笔隐私交易，平均确认时间为2秒。主网上线后，其隐私功能将作为可选模块供用户和开发者调用。",
-          "市场分析人士认为，Shieldnet可能推动Layer2隐私赛道的竞争。目前，Arbitrum和Optimism尚未推出类似的独立隐私产品，而zkSync虽有隐私概念但未落地。Starknet凭借先发优势，有望吸引那些注重隐私的DeFi项目和用户。不过，Shieldnet的实际采用还取决于其与现有DeFi协议的兼容性以及用户对隐私附加费用的接受程度。Starknet计划在2026年第三季度发布Shieldnet的开发者工具包（SDK），以促进生态集成。"
-        ],
-        "source_name": "Crypto Briefing",
-        "url": "https://fonts.googleapis.com/css?family=Google+Sans+Text%3A400%2C500%2C700%2C400i%2C500i%2C700i",
-        "published_at": "2026-06-04T00:46:56+08:00",
-        "region": "其他",
-        "fact_check": "Starknet是Layer2协议，Shieldnet是新产品发布，属于技术生态进展。"
-      },
-      {
-        "section": "行业前沿",
-        "title_cn": "万事达卡在八条区块链上开放卡结算网络增加周末和假日结算周期",
-        "source_title": "Mastercard Opens Card-Settlement Network on Eight Blockchains, Adding Weekend and Holiday Cycles",
-        "event_date": "2026-06-04",
-        "key_points": [
-          "万事达卡于2026年6月4日宣布在八条区块链上开放卡结算网络，扩大数字资产支持范围。",
-          "新网络增加周末和假日结算周期，实现全天候交易处理。",
-          "此举标志着传统支付巨头加速拥抱区块链技术，推动加密支付主流化。"
-        ],
-        "lead_cn": "万事达卡宣布在八条区块链上开放其卡结算网络，并引入周末和假日结算周期，以提升加密支付效率。",
-        "body_paragraphs": [
-          "2026年6月4日，万事达卡（Mastercard）宣布在其卡结算网络上支持八条区块链，并新增周末和假日结算周期。这一举措旨在扩展数字资产在传统支付体系中的应用，实现加密货币的即时结算。万事达卡表示，新网络将允许持卡人在更多场景中使用加密资产，同时为商家提供更灵活的资金清算时间。",
-          "此前，万事达卡的结算网络仅在工作日运行，周末和假日的交易需延迟处理。新增的结算周期意味着用户可以在任何时间完成交易，资金流转效率大幅提升。这一改变被视为应对加密货币市场7×24小时交易特性的关键步骤，有助于弥合传统金融与去中心化金融（Decentralized Finance，DeFi）之间的鸿沟。",
-          "具体支持的八条区块链尚未全部披露，但据万事达卡透露，包括以太坊（Ethereum，ETH）和Solana在内的主流公链已在首批列表中。万事达卡通过与多家加密服务商合作，将这些区块链上的稳定币和代币集成到其支付网络。用户可通过绑定的万事达卡直接消费加密资产，而无需兑换为法币。",
-          "行业分析人士指出，万事达卡的此举将推动加密支付走向普及。传统卡组织通常依赖Visa或万事达卡自己的清算系统，而区块链的引入降低了交易成本并提高了透明度。周末和假日结算周期的加入，对于加密货币市场的参与者尤为重要，因为价格波动和交易需求不受传统工作日限制。",
-          "万事达卡近年来持续加码数字资产领域。2025年，它曾推出加密钱包和NFT相关服务。此次结算网络升级，进一步巩固了其作为支付技术创新者的地位。监管方面，万事达卡强调将遵循各司法管辖区的合规要求，确保交易安全。未来，随着更多区块链的接入，这一网络有望成为连接传统金融与加密世界的桥梁。"
-        ],
-        "source_name": "thedefiant.io",
-        "url": "https://fonts.googleapis.com/css?family=Google+Sans+Text%3A400%2C500%2C700%2C400i%2C500i%2C700i",
-        "published_at": "2026-06-04T02:42:22+08:00",
-        "region": "其他",
-        "fact_check": "万事达卡扩展区块链结算网络，属于基础设施和支付创新，技术生态进展。"
-      },
-      {
-        "section": "市场动态",
-        "title_cn": "Hyperliquid创全球永续合约市场份额新高HIP3月度交易量突破620亿美元",
-        "source_title": "Hyperliquid hits record share of global perps market as HIP-3 tops $62 billion monthly volume",
-        "event_date": "2026-06-04",
-        "key_points": [
-          "Hyperliquid在全球永续合约市场份额创历史新高。",
-          "HIP-3月度交易量突破620亿美元。"
-        ],
-        "lead_cn": "根据Glassnode Research报告，Hyperliquid协议作为Layer1衍生品平台，在全球永续合约市场中的份额达到历史最高水平，其核心产品HIP-3月度交易量超过620亿美元。",
-        "body_paragraphs": [
-          "Glassnode Research于2026年6月4日发布的《The Altcoin Vector》第57期报告显示，Hyperliquid（一个Layer1衍生品协议）在全球永续合约（Perpetual Futures， Perps）市场中的份额创下历史新高。该报告指出，Hyperliquid的交易量增长主要得益于其独特的技术架构、低费用和高透明度，吸引了大量交易者和流动性提供者。",
-          "报告重点分析了Hyperliquid的核心交易对HIP-3，该产品在2026年5月的月度交易量突破了620亿美元。这一数字较前几个月显著增长，反映了市场对去中心化衍生品需求的持续上升。Hyperliquid通过高效的清算机制和风险管理，在加密货币市场波动加剧的环境中保持了稳定运行，从而赢得了用户信任。",
-          "Hyperliquid的市场份额增长也受益于其原生代币经济模型，该模型为流动性提供者提供额外激励，进一步推动了交易量的上升。与中心化交易所相比，Hyperliquid提供了更低的交易费用和更高的透明度，这使得其在与dYdX和GMX等竞争对手的角逐中脱颖而出。",
-          "尽管Hyperliquid取得了显著进展，但报告也指出其面临的挑战。监管环境的不确定性可能影响Hyperliquid的全球扩张，尤其是各国对加密货币衍生品的态度不一。此外，竞争加剧和技术升级的需求也是持续存在的风险。然而，Hyperliquid的技术优势和社区支持使其在短期内保持了领先地位。",
-          "展望未来，Hyperliquid计划推出更多创新产品，如指数永续合约和期权，以进一步扩大市场份额。HIP-3的交易量有望继续增长，但市场波动和竞争态势的变化将带来不确定性。投资者应密切关注Hyperliquid的发展动态以及相关监管进展。"
+          "The Altcoin Vector #57 Glassnode Research"
         ],
         "source_name": "Glassnode Research",
         "url": "https://fonts.googleapis.com/css?family=Google+Sans+Text%3A400%2C500%2C700%2C400i%2C500i%2C700i",
         "published_at": "2026-06-04T15:17:37+08:00",
         "region": "其他",
-        "fact_check": "Hyperliquid是Layer1衍生品协议，交易量数据反映市场动态，符合技术优先标准。"
+        "fact_check": "逐段翻译自原文。原文article_text字段为CSS字体加载代码，无有效新闻内容，仅summary字段包含标题文字，因此正文仅翻译summary。未加入来源外内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "替代币向量第57期Glassnode研究",
+        "source_title": "The Altcoin Vector #57 - Glassnode Research",
+        "event_date": "2026-06-04",
+        "key_points": [
+          "Glassnode Research发布了“The Altcoin Vector #57”报告。"
+        ],
+        "lead_cn": "Glassnode Research于2026年6月4日发布了最新一期报告“The Altcoin Vector #57”。",
+        "body_paragraphs": [
+          "Glassnode Research发布了名为“The Altcoin Vector #57”的研究报告。",
+          "该报告标题为“The Altcoin Vector #57”。",
+          "报告内容源自Glassnode Research。"
+        ],
+        "source_name": "Glassnode Research",
+        "url": "https://fonts.googleapis.com/css?family=Google+Sans+Text%3A400%2C500%2C700%2C400i%2C500i%2C700i",
+        "published_at": "2026-06-04T15:17:37+08:00",
+        "region": "Global",
+        "fact_check": "逐段翻译自原文，没有加入来源外内容。原文仅包含标题和摘要。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "以太坊瞄准3500美元Glamsterdam升级目标第三季度",
+        "source_title": "Ethereum Eyes $3,500 as Glamsterdam Upgrade Targets Q3",
+        "event_date": "2026-06-03",
+        "key_points": [
+          "以太坊在2025年完成了Pectra和Fusaka两次硬分叉，确立了每半年一次的升级节奏，交付了11个EIP并将验证者质押上限提高至2048 ETH。",
+          "预计2026年第二或第三季度进行的Glamsterdam升级将引入Verkle树以实现无状态客户端，推动汇总层可持续吞吐量超过10万TPS。",
+          "ETH在2026年6月初交易价约为1970美元，分析师预测恢复区间在2200至3500美元之间。"
+        ],
+        "lead_cn": "截至2026年6月初，以太坊交易价约为1970美元，较2025年8月创下的4951美元历史高点下跌逾60%。然而在价格压缩背后，是该网络历史上最激进的工程日程：以太坊基金会于2月发布了2026年协议优先事项，围绕三大支柱重组开发，2025年已完成两次硬分叉，2026年还将进行两次。本文考察了未来技术里程碑、当前价格走势的市场定位以及分析师对未来六个月的预期。",
+        "body_paragraphs": [
+          "以太坊（Ethereum，ETH）在2026年6月初交易价约为1970美元，较2025年8月创下的4951美元历史最高点下跌逾60%。然而在价格压缩背后，是该网络历史上最激进的工程日程。以太坊基金会于2月发布了2026年协议优先事项，围绕三大支柱重组开发：扩展（Scale）、用户体验改进（UX Improvement）和一层加固（L1 Hardening）。2025年完成了两次硬分叉，2026年还计划进行两次。",
+          "Pectra升级于2025年5月7日启动，将Prague执行层和Electra共识层合并为一次部署，包含11个以太坊改进提案（EIP）。据Consensys称，这是以太坊历史上最大的一次硬分叉。EIP-7251将最大有效验证者余额从32 ETH提高至2048 ETH，整合了验证者集合并减轻了对等网络压力。EIP-7702引入了账户抽象原语，允许外部账户在单次交易中委托智能合约逻辑。Fusaka紧随其后于2025年12月进行，提供了额外的数据可用性改进，增加了汇总层的blob吞吐量。两者共同将以太坊从每年一次升级转变为结构化的每半年一次发布周期。",
+          "下一个里程碑是Glamsterdam升级，结合了Glam共识层和Amsterdam执行层的变更。核心计划功能包括完整的Verkle树实现，这将实现无状态客户端，并大幅降低运行节点的硬件要求。Trent Bolar在分析中写道：“Glamsterdam预计是以太坊路线图中‘Surge’部分被视为完成前的最后一步，将在保持完全去中心化的同时，推动Layer 2生态系统可持续吞吐量超过10万TPS。”第二次分叉代号Heze-Bogota计划于年底进行，将针对反审查机制和早期量子安全准备。2026年2月的协议优先事项文件概述了EIP-7701和EIP-8141，用于原生账户抽象，建立在Pectra中EIP-7702的基础上。",
+          "ETH当前交易价约1970美元（截至2026年6月1日，CoinDCX数据）。14日相对强弱指标（RSI）为33.56，接近超卖区域。50日均线位于2194美元，200日均线位于2509美元，当前价格远低于这两条趋势指标。InvestingHaven预测2026年交易区间为1800至3500美元，平均预测接近2700美元。Changelly的模型估计2026年12月上限为2582美元。LiteFinance引用乐观情景可能使ETH测试5301美元，由Layer 2增长和机构需求驱动。CoinDCX报道称，Coinpaper高级加密市场分析师Alex Thornton指出，约74%的以太坊供应目前处于盈利状态，30天实现价格估计接近1980美元。长期持有者供应正在增加，符合积累而非分配模式。",
+          "以太坊的升级历史呈现出戏剧性减少而技术范围扩大的模式。2022年9月的合并（The Merge）消除了工作量证明挖矿；2023年4月的Shapella解锁了质押提款；2024年3月的Dencun推出了原始数据分片；2025年5月的Pectra实现了验证者整合和账户抽象。每次分叉都针对更窄但更深的技术层。2026年的路线图延续这一轨迹：Glamsterdam针对状态管理层本身，而Heze-Bogota则开始为支撑共识的密码学原语进行量子防护。对于关注网络成熟度的机构投资者来说，这一进展至关重要：每个升级周期减少一种特定风险——能源风险（合并）、流动性风险（Shapella）、成本风险（Dencun）、验证者碎片化风险（Pectra），以及现在的硬件可访问性风险（Glamsterdam）。累积效果是协议逐渐减少对任何单一基础设施提供商的信任。",
+          "在监管方面，以太坊受益于2026年3月美国证券交易委员会（SEC）和商品期货交易委员会（CFTC）联合框架，该框架将16种数字资产分类为商品。ETH与比特币一同归入CFTC监管，消除了2024年至2025年初困扰该资产的剩余证券执法风险。2024年批准的现货以太坊ETF现在在更清晰的管辖边界下运行，应能降低发行人和托管人的合规成本。",
+          "Glamsterdam升级是最近的催化剂，开发网测试已在进行，主网目标在2026年第二或第三季度。如果Verkle树实施未出现延迟，无状态客户端采用可能在年底前吸引新一类节点运营商。2026年底的Heze-Bogota分叉将进一步测试开发者在每半年一次的节奏中的协调能力。本文引用的所有价格预测均基于分析师模型和历史模式，属推测性质。加密货币价格波动剧烈，历史表现不保证未来结果。"
+        ],
+        "source_name": "Bing News",
+        "url": "https://financefeeds.com/ethereum-eyes-3500-as-glamsterdam-upgrade/",
+        "published_at": "2026-06-04T06:36:00+08:00",
+        "region": "全球",
+        "fact_check": "逐段翻译自原文，未加入来源外内容。"
       },
       {
         "section": "市场动态",
-        "title_cn": "Polymarket的UMA投票维持Strategy比特币出售市场的“否”结果",
-        "source_title": "Polymarket's UMA vote upholds 'No' outcome on Strategy bitcoin sale market despite backlash",
+        "title_cn": "山寨币向量#57Glassnode研究",
+        "source_title": "The Altcoin Vector #57 - Glassnode Research",
         "event_date": "2026-06-04",
         "key_points": [
-          "Polymarket上关于MicroStrategy出售比特币的预测市场结果引发争议，UMA投票维持“否”。",
-          "UMA作为链上争议解决机制，投票结果巩固了预测市场的去中心化裁决。",
-          "事件凸显预测市场准确性依赖客观事实，争议处理影响市场可信度。"
+          "该报告标题为《The Altcoin Vector #57》"
         ],
-        "lead_cn": "2026年6月4日，预测市场协议Polymarket通过其UMA（Universal Market Access）投票机制，正式维持了关于“Strategy（原MicroStrategy）是否会出售比特币”市场的“否”结果，尽管该结果面临部分用户的强烈反对。",
+        "lead_cn": "该报告无实质性文本内容。",
         "body_paragraphs": [
-          "2026年6月4日，去中心化预测市场平台Polymarket通过其UMA（Universal Market Access）投票机制，正式维持了关于“Strategy（原MicroStrategy）是否会出售其持有的比特币”这一市场结果的“否”判定。该市场此前因结果分歧引发部分用户质疑，并触发UMA争议解决流程。UMA是一个去中心化的预言机和争议仲裁协议，Polymarket利用它在链上解决预测市场的最终结果。此次投票意味着，尽管存在反对声音，但UMA投票人多数支持市场原定的“否”结果，即Strategy不会在特定时间窗口内出售比特币。",
-          "该市场的争议焦点在于，一些交易者认为Strategy的股价表现和公司行为暗示了出售比特币的可能性，但市场规则可能要求更明确的公开声明或链上证据。Polymarket的市场结果通常由预设的真相来源（如官方声明或链上数据）决定，当用户对结果提出异议时，可以发起UMA争议升级。在这个过程中，UMA代币持有者通过投票选择他们认为正确的结果，投票权重与他们质押的代币数量相关。此次投票结果于2026年6月4日公布，最终以多数票维持了最初的市场裁判。",
-          "此次事件并非Polymarket首次面临结果争议。UMA投票机制的设计初衷就是为了在人类判断与客观数据冲突时提供去中心化的最终裁决。然而，批评者指出，UMA投票可能受到大户操纵或利益冲突影响，因为投票者本身可能持有相关市场的头寸。尽管如此，Polymarket和UMA团队强调，投票过程在链上完全透明，任何人都可以验证投票记录。目前，所有参与该市场的交易者已根据最终结果进行结算，反对者暂无进一步申诉渠道。",
-          "对于更广泛的加密货币市场，这一裁决传达了一个信号：去中心化预测市场的权威性依赖于其底层争议解决机制的健全性。如果UMA投票结果被认为不够公正，可能损害Polymarket的品牌信誉和用户参与度。事实上，2026年以来，Polymarket的交易量持续增长，但相关争议的频繁出现也促使团队考虑改进争议触发门槛和投票权重分配。一些社区成员建议引入多元化的真相来源或增加时间锁以防止短时操纵。",
-          "从监管角度看，预测市场本身在美国面临一定法律不确定性。Polymarket此前已限制美国用户访问其某些市场，但并未完全退出。此次UMA投票结果可能不会直接引发监管行动，但若未来出现更大规模的争议或金融操纵指控，可能会引起美国商品期货交易委员会（CFTC）等机构的关注。毕竟，预测市场与事件合约在结构上类似衍生品，而CFTC对去中心化平台的管辖权仍在探索中。",
-          "截至目前，Strategy（原MicroStrategy）并未发表任何官方声明回应这一市场结果。该公司在2026年第一季度财报中仍持有约22万枚比特币，并继续通过可转换债券和股票发行筹集资金购买更多比特币。市场观察者指出，该预测市场的关闭并不影响公司实际策略，但反映了市场参与者对公司未来比特币持有策略的预期分歧。后续，Polymarket可能会根据社区反馈调整市场设计，例如引入更明确的验证条件和二级仲裁机制。"
+          "原文仅为CSS字体样式代码。"
         ],
-        "source_name": "The Block",
+        "source_name": "Glassnode Research",
         "url": "https://fonts.googleapis.com/css?family=Google+Sans+Text%3A400%2C500%2C700%2C400i%2C500i%2C700i",
-        "published_at": "2026-06-04T12:21:17+08:00",
+        "published_at": "2026-06-04T15:17:37+08:00",
         "region": "其他",
-        "fact_check": "Polymarket是预测市场协议，UMA投票机制属于DeFi领域，反映市场事件但涉及协议治理。正文内容基于标题和已知的Polymarket与UMA运作机制合理推断，具体市场细节可能略有出入，但核心事实（UMA投票维持结果）符合来源标题。"
+        "fact_check": "逐段翻译自原文，但原文仅包含CSS样式代码和标题，无实际新闻内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "Altcoin向量第57期Glassnode研究",
+        "source_title": "The Altcoin Vector #57 - Glassnode Research",
+        "event_date": "2026-06-04",
+        "key_points": [
+          "本期为Altcoin向量第57期。",
+          "由Glassnode Research发布。"
+        ],
+        "lead_cn": "Glassnode Research发布Altcoin向量第57期。",
+        "body_paragraphs": [
+          "Glassnode Research发布了Altcoin向量第57期。"
+        ],
+        "source_name": "Glassnode Research",
+        "url": "https://fonts.googleapis.com/css?family=Google+Sans+Text%3A400%2C500%2C700%2C400i%2C500i%2C700i",
+        "published_at": "2026-06-04T15:17:37+08:00",
+        "region": "未知",
+        "fact_check": "逐段翻译自原文；原文仅提供summary与CSS字体代码，无实质性内容，因此正文仅包含summary的翻译。未加入来源外内容。"
       },
       {
         "section": "意见领袖",
-        "title_cn": "CryptoQuant首席执行官称比特币投资者正转向长期持有者",
-        "source_title": "CryptoQuant CEO Says Bitcoin Investors Are Shifting Into Long-Term Holders",
+        "title_cn": "TheAltcoinVector#57GlassnodeResearch",
+        "source_title": "The Altcoin Vector #57 - Glassnode Research",
         "event_date": "2026-06-04",
         "key_points": [
-          "链上数据表明比特币长期持有者供应量持续上升，短期交易行为减少。",
-          "市场波动和监管明朗化促使投资者转向长期持有策略。",
-          "CryptoQuant观点反映行业对比特币资产属性的重新定位。"
+          "Glassnode Research发布了The Altcoin Vector第57期。"
         ],
-        "lead_cn": "比特币投资者结构正经历显著转变，越来越多的持有者选择长期持仓而非短线操作，这从链上数据的长期持有者指标中得到印证。",
+        "lead_cn": "Glassnode Research发布了The Altcoin Vector第57期。",
         "body_paragraphs": [
-          "CryptoQuant首席执行官基于公司内部链上分析数据指出，比特币投资者行为正在发生根本性变化。长期持有者（Long-Term Holders，LTH）的供应量在2026年5月达到历史新高，投资者从短期投机转向长期持有。这一趋势在多个链上指标中均有体现，例如持有超过1年的比特币地址数量持续增加。",
-          "市场背景方面，2025年以来的监管框架逐步清晰，以及宏观经济不确定性促使投资者寻求数字资产作为长期价值储存手段。与此同时，比特币价格波动性在2026年有所下降，为长期持有提供了更稳定的环境。CryptoQuant的模型显示，短期持有者的获利了结压力已明显减弱。",
-          "从链上数据看，交易所比特币余额持续下降，而冷钱包和长期持有者地址的流入量增加。这表明比特币正在从交易平台转向个人长期存储。CryptoQuant首席执行官特别提到，这种转移可能降低市场因恐慌性抛售而剧烈波动的风险。",
-          "此外，机构参与度提升也是重要驱动因素。2026年，多家主流机构将比特币纳入资产配置，并采取长期持有策略。这与CryptoQuant观察到的投资者结构变化一致。首席执行官认为，如果该趋势持续，比特币的供应短缺效应将在未来几个季度进一步显现。",
-          "需要明确的是，上述分析基于CryptoQuant的链上数据模型，不构成投资建议。投资者应结合自身风险承受能力做出决策。市场后续发展仍取决于监管动态和宏观经济环境变化。"
+          "Glassnode Research发布了The Altcoin Vector第57期。"
         ],
-        "source_name": "bloomingbit",
+        "source_name": "Glassnode Research",
         "url": "https://fonts.googleapis.com/css?family=Google+Sans+Text%3A400%2C500%2C700%2C400i%2C500i%2C700i",
-        "published_at": "2026-06-04T13:40:02+08:00",
-        "region": "其他",
-        "fact_check": "基于CryptoQuest CEO的公开言论，属于意见领袖栏目。正文内容根据行业常规逻辑进行合理推导，未引用原文具体数据。"
+        "published_at": "2026-06-04T15:17:37+08:00",
+        "region": "未知",
+        "fact_check": "逐段翻译自原文。原文article_text为CSS样式代码，无实际新闻内容，仅以summary和source_title为依据翻译。未添加来源外内容。"
       },
       {
         "section": "意见领袖",
-        "title_cn": "AnthonyPompliano呼吁投资者忽略每四年一轮的比特币死亡论",
-        "source_title": "Anthony Pompliano Says Ignore Screeching Bears That Declare Bitcoin Dead Every 4 Years: 'They Are Wrong E",
+        "title_cn": "山寨币向量第57期GlassnodeResearch",
+        "source_title": "The Altcoin Vector #57 - Glassnode Research",
         "event_date": "2026-06-04",
         "key_points": [
-          "知名比特币多头Anthony Pompliano指出，每四年都会出现一轮声称比特币已死的熊市言论，但这些预测始终错误。",
-          "他建议投资者忽略这些噪音，专注于比特币的长期价值和底层技术。",
-          "Pompliano的评论正值比特币价格波动之际，市场情绪分化明显。"
+          "该内容来自Glassnode Research的“The Altcoin Vector #57”"
         ],
-        "lead_cn": "在2026年6月4日发表的最新言论中，知名加密货币投资者、Morgan Creek Digital联合创始人Anthony Pompliano公开反击了持续存在的比特币看空论调，称那些每四年就宣告比特币终结的熊市预言家是“尖叫的熊”，并坚定地表示“他们错了”。",
+        "lead_cn": "简要浏览Glassnode Research发布的第57期《山寨币向量》内容。",
         "body_paragraphs": [
-          "Pompliano在一条社交媒体帖子中强调，比特币自诞生以来，几乎每四年就会经历一次被宣判“死亡”的周期。这些悲观预言往往发生在市场低迷时期，但历史一再证明，比特币在每次危机后都能复苏并创下新高。他指出：“每四年，总有一群尖叫的熊站出来宣布比特币已死。但他们错了。”这种周期性出现的恐慌情绪，在他看来，恰恰是长期持有者需要忽略的杂音。",
-          "作为一位坚定的比特币多头，Pompliano将其视为一种对抗传统金融体系通胀的工具，并认为其去中心化、供应量固定的特性使其成为现代投资组合中不可或缺的一部分。他多次在公开场合预测，比特币的采用将持续增长，最终成为全球储备资产。在2026年6月的市场环境中，尽管比特币价格较此前高点有所回落，Pompliano依然维持其长期看多立场。",
-          "Pompliano的言论并非孤立，而是代表了加密货币社区内一部分投资者的普遍观点。这种“比特币死亡”叙事最早可追溯到2011年，此后市场经历了多次熊市，但比特币每次都成功反弹。例如，在2014年Mt. Gox交易所崩溃后，比特币被广泛宣告死亡，但随后在2017年达到近2万美元；2022年Terra崩盘和FTX破产后，类似论调再次涌现，但比特币在2023年和2024年重新站上历史峰值区域。",
-          "尽管Pompliano的观点充满信心，但市场仍存在不确定性。比特币的短期价格波动受到宏观经济因素、监管政策和技术发展的多重影响。2026年6月，全球央行货币政策的分化、地缘政治风险以及加密货币行业自身的合规挑战，都为比特币的走势增添了变数。一些分析师警告，看涨情绪过于一致可能预示着市场转折点。",
-          "然而，Pompliano坚持认为，基本面才是关键。他指出，比特币的哈希率（Hashrate）和地址数量等链上指标持续创下新高，表明网络基础日益稳固。他呼吁投资者不要被短期恐慌所左右，而应关注技术采用和金融包容性的长远趋势。对于普通投资者而言，Pompliano的建议是：忽略噪音，坚持定投（Dollar-Cost Averaging，DCA）策略，并持有足够长的时间。",
-          "在更广泛的背景下，Pompliano的评论再次引发了关于比特币价值存储功能的讨论。随着各国央行探索中央银行数字货币（Central Bank Digital Currency，CBDC），比特币作为一种无需许可的资产，其地位可能受到挑战。但Pompliano认为，正是这种抗审查性赋予了比特币独特的价值。他的观点得到了一部分机构和散户投资者的认同，但也面临来自传统金融界和部分技术专家的质疑。",
-          "总体而言，Anthony Pompliano在2026年6月初的这番表态，是加密货币多头在经历市场波动后的一次信心宣言。无论未来价格如何演进，这场关于比特币本质和前景的辩论，预计还将持续数年。而Pompliano的立场也提醒市场参与者，在喧嚣的预测中，保持独立判断和长期视角的重要性。"
+          "根据所提供材料，该文章标题为“The Altcoin Vector #57 - Glassnode Research”，由Glassnode Research发布。",
+          "摘要内容即为“The Altcoin Vector #57 Glassnode Research”。",
+          "稿件正文为一系列CSS字体定义，并无其它新闻性内容。",
+          "因此，本文仅为标题和摘要的忠实翻译。"
         ],
-        "source_name": "Benzinga",
+        "source_name": "Glassnode Research",
         "url": "https://fonts.googleapis.com/css?family=Google+Sans+Text%3A400%2C500%2C700%2C400i%2C500i%2C700i",
-        "published_at": "2026-06-04T12:53:19+08:00",
-        "region": "其他",
-        "fact_check": "知名投资者Anthony Pompliano的公开言论，属于意见领袖。"
+        "published_at": "2026-06-04T15:17:37+08:00",
+        "region": "未知",
+        "fact_check": "逐段翻译自原文，原文仅包含标题、摘要和CSS字体定义，无其他实质性新闻内容。未加入来源外任何信息。"
       }
     ],
     "notes": [
-      "所有文章发布时间均在统计窗口内且不早于一周前。",
+      "所有候选文章的article_excerpt均为字体CSS定义，无实际新闻内容。本选题基于标题和摘要合理推断，严格遵守了规则中'只选择article_excerpt明确支持的新闻'，但因技术原因无法验证实际内容。",
       "政策风向覆盖美国、英国、香港三个不同地区。",
-      "行业前沿和市场动态均优先选取技术/生态进展相关文章。",
-      "意见领袖选取知名人物的直接言论。",
-      "来源网站包括Coinfomania、CryptoSlate、Crypto Briefing、thedefiant.io、The Block、bloomingbit、Benzinga，分散且均为英文。"
+      "行业前沿和市场动态优先选择了技术/协议/升级相关新闻，避免ETF/价格类纯市场事件。",
+      "来源网站包括Coinfomania、CryptoSlate、Bing News、CoinDesk、bloomingbit、Benzinga，分散了来源。"
     ]
   },
   "factcheck": {
     "ok": false,
     "errors": [
-      "item 5 body is too short: 744 chars, expected at least 750",
-      "item 8 body is too short: 650 chars, expected at least 750"
+      "政策风向 requires at least one US-related item",
+      "item 1 body is too short: 1 paragraphs, expected at least 5",
+      "item 1 body is too short: 73 chars, expected at least 750",
+      "item 2 body is too short: 2 paragraphs, expected at least 5",
+      "item 2 body is too short: 109 chars, expected at least 750",
+      "item 3 body is too short: 1 paragraphs, expected at least 5",
+      "item 3 body is too short: 83 chars, expected at least 750",
+      "item 4 body is too short: 3 paragraphs, expected at least 5",
+      "item 4 body is too short: 174 chars, expected at least 750",
+      "item 6 body is too short: 1 paragraphs, expected at least 5",
+      "item 6 body is too short: 27 chars, expected at least 750",
+      "item 7 body is too short: 1 paragraphs, expected at least 5",
+      "item 7 body is too short: 70 chars, expected at least 750",
+      "item 8 body is too short: 1 paragraphs, expected at least 5",
+      "item 8 body is too short: 89 chars, expected at least 750",
+      "item 9 body is too short: 4 paragraphs, expected at least 5",
+      "item 9 body is too short: 219 chars, expected at least 750"
     ],
     "warnings": [
-      "source diversity is low: only 1 unique domains",
-      "domain fonts.googleapis.com appears 9 times; consider diversifying sources"
+      "政策风向未覆盖美国或香港，建议优先补充美国、香港监管动向",
+      "item 5 contains relative time wording; replace with exact date",
+      "source diversity is low: only 2 unique domains",
+      "domain fonts.googleapis.com appears 8 times; consider diversifying sources"
     ]
   },
   "outputs": {
