@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 from urllib.parse import urlsplit
 
 from .config import HK_TERMS, MAX_NEWS_AGE_DAYS, SECTION_COUNTS, US_TERMS
-from .sources import is_chinese_item, parse_datetime
+from .sources import is_chinese_item, is_final_url_allowed, parse_datetime
 from .text_utils import has_half_width_quotes
 
 
@@ -49,11 +49,11 @@ def _has_relative_time(text: str) -> bool:
 
 
 def _min_body_chars(section: str) -> int:
-    return 1200 if section == "专题研究" else 750
+    return 500 if section == "意见领袖" else 650
 
 
 def _min_body_paragraphs(section: str) -> int:
-    return 8 if section == "专题研究" else 5
+    return 4 if section == "意见领袖" else 5
 
 
 def check_report(report: dict[str, object], start: datetime, end: datetime) -> FactCheckResult:
@@ -99,6 +99,8 @@ def check_report(report: dict[str, object], start: datetime, end: datetime) -> F
 
         if not (url.startswith("http://") or url.startswith("https://")):
             errors.append(f"item {idx} has invalid url: {url}")
+        if not is_final_url_allowed(url):
+            errors.append(f"item {idx} has blocked or non-publisher url: {url}")
         h = _host(url)
         if h:
             hosts.append(h)
