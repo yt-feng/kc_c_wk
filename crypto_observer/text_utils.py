@@ -3,6 +3,7 @@ from __future__ import annotations
 import re
 
 PUNCT_MAP = str.maketrans({",": "，", ";": "；", ":": "：", "?": "？", "!": "！"})
+URL_RE = re.compile(r"https?://[^\s）)】>]+")
 
 
 def normalize_fullwidth_quotes(text: str) -> str:
@@ -28,9 +29,25 @@ def normalize_fullwidth_quotes(text: str) -> str:
     return "".join(result)
 
 
+def _normalize_non_url_text(text: str) -> str:
+    return normalize_fullwidth_quotes(str(text or "").translate(PUNCT_MAP))
+
+
 def normalize_chinese_punctuation(text: str) -> str:
-    value = normalize_fullwidth_quotes(str(text or "").translate(PUNCT_MAP))
-    return re.sub(r"\s+", " ", value).strip()
+    """Normalize Chinese punctuation while preserving raw URL syntax.
+
+    URLs must keep ASCII ``https://`` and query-string punctuation; otherwise
+    Word output can turn links into invalid strings such as ``https：//``.
+    """
+    value = str(text or "")
+    parts: list[str] = []
+    last = 0
+    for match in URL_RE.finditer(value):
+        parts.append(_normalize_non_url_text(value[last : match.start()]))
+        parts.append(match.group(0))
+        last = match.end()
+    parts.append(_normalize_non_url_text(value[last:]))
+    return re.sub(r"\s+", " ", "".join(parts)).strip()
 
 
 def has_half_width_quotes(text: str) -> bool:
