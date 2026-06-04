@@ -22,6 +22,20 @@ from .config import EXCLUDED_DOMAINS, SECTION_ORDER, SECTION_QUERIES, TRACKED_SI
 LOGGER = logging.getLogger(__name__)
 BEIJING_TZ = ZoneInfo("Asia/Shanghai")
 CHINESE_RE = re.compile(r"[\u4e00-\u9fff]")
+BAD_FINAL_HOSTS = (
+    "news.google.com",
+    "google.com",
+    "google-analytics.com",
+    "googletagmanager.com",
+    "gstatic.com",
+    "googleusercontent.com",
+    "schema.org",
+    "w3.org",
+    "bing.com",
+    "msn.com",
+)
+BAD_PATH_PARTS = ("analytics.js", "gtag/js", "collect?", "/rss/articles/")
+MIN_ARTICLE_TEXT_CHARS = 900
 
 
 @dataclass
@@ -100,6 +114,21 @@ def host(url: str) -> str:
 
 def is_google_news_url(url: str) -> bool:
     return host(url).endswith("news.google.com")
+
+
+def is_final_url_allowed(url: str) -> bool:
+    parsed = urllib.parse.urlsplit(url or "")
+    h = parsed.netloc.lower().replace("www.", "")
+    full = (url or "").lower()
+    if parsed.scheme not in ("http", "https") or not h:
+        return False
+    if any(h == bad or h.endswith("." + bad) for bad in BAD_FINAL_HOSTS):
+        return False
+    if any(part in full for part in BAD_PATH_PARTS):
+        return False
+    if any(domain in h or domain in full for domain in EXCLUDED_DOMAINS):
+        return False
+    return True
 
 
 def is_chinese_item(title: str, summary: str, url: str) -> bool:
@@ -209,16 +238,16 @@ def fetch_gdelt(query: str, start: datetime, end: datetime, section_hint: str) -
 
 def _best_article_candidates(html_text: str) -> list[str]:
     soup = BeautifulSoup(html_text or "", "html.parser")
-    for tag in soup(["script", "style", "noscript", "svg", "footer", "header", "nav", "aside"]):
+    for tag in soup(["script", "style", "noscript", "svg", "footer", "header", "nav", "aside", "form"]):
         tag.decompose()
     candidates = []
     for selector in ("article", "main", "[role=main]", ".article", ".post", ".entry-content", ".story", ".content"):
         for node in soup.select(selector):
             text = norm_text(node.get_text(" "))
-            if len(text) > 300:
+            if len(text) > 500:
                 candidates.append(text)
     body = norm_text(soup.get_text(" "))
-    if len(body) > 300:
+    if len(body) > 500:
         candidates.append(body)
     candidates.sort(key=len, reverse=True)
     return candidates
@@ -228,11 +257,9 @@ def _extract_direct_urls_from_html(html_text: str) -> list[str]:
     decoded = html.unescape(html_text or "")
     found = re.findall(r"https?://[^\s\"'<>\\]+", decoded)
     out: list[str] = []
-    blocked_hosts = ("google.", "gstatic.", "googleusercontent.", "schema.org", "w3.org")
     for raw in found:
         url = norm_url(urllib.parse.unquote(raw).rstrip("),.;"))
-        h = host(url)
-        if not h or any(b in h for b in blocked_hosts):
+        if not is_final_url_allowed(url):
             continue
         if url not in out:
             out.append(url)
@@ -241,29 +268,36 @@ def _extract_direct_urls_from_html(html_text: str) -> list[str]:
 
 def fetch_article_text(url: str, timeout: int = 18) -> tuple[str, str]:
     try:
+        if not url.startswith("http"):
+            return "", url
         r = requests.get(url, headers={"User-Agent": USER_AGENT, "Accept": "text/html,application/xhtml+xml,*/*"}, timeout=timeout, allow_redirects=True)
         r.raise_for_status()
         final_url = norm_url(r.url)
-        text = next(iter(_best_article_candidates(r.text)), "")
         if is_google_news_url(url):
             for candidate in _extract_direct_urls_from_html(r.text):
-                if not is_google_news_url(candidate):
+                if is_final_url_allowed(candidate):
                     return fetch_article_text(candidate, timeout=timeout)
-        return text[:6000], final_url
+            return "", url
+        if not is_final_url_allowed(final_url):
+            return "", final_url
+        text = next(iter(_best_article_candidates(r.text)), "")
+        if len(text) < MIN_ARTICLE_TEXT_CHARS:
+            return "", final_url
+        return text[:9000], final_url
     except Exception as exc:
         LOGGER.debug("article fetch failed for %s: %s", url, exc)
         return "", url
 
 
 def _prefer_item(current: RawItem, candidate: RawItem) -> RawItem:
-    current_google = is_google_news_url(current.url)
-    candidate_google = is_google_news_url(candidate.url)
-    if current_google and not candidate_google:
+    current_good = is_final_url_allowed(current.url)
+    candidate_good = is_final_url_allowed(candidate.url)
+    if not current_good and candidate_good:
         candidate.google_wrapper_url = current.google_wrapper_url or current.url
         if not candidate.summary and current.summary:
             candidate.summary = current.summary
         return candidate
-    if not current_google and candidate_google:
+    if current_good and not candidate_good:
         current.google_wrapper_url = current.google_wrapper_url or candidate.url
         return current
     if len(candidate.summary or "") > len(current.summary or ""):
@@ -299,18 +333,19 @@ def dedupe(items: Iterable[RawItem]) -> list[RawItem]:
     return out
 
 
-def enrich_articles(items: list[RawItem], limit: int = 100) -> list[RawItem]:
+def enrich_articles(items: list[RawItem], limit: int = 120) -> list[RawItem]:
     enriched: list[RawItem] = []
     for idx, item in enumerate(items):
         if idx < limit:
             text, final_url = fetch_article_text(item.url)
-            if final_url and not is_google_news_url(final_url):
-                if is_google_news_url(item.url):
+            if final_url and is_final_url_allowed(final_url):
+                if item.url != final_url:
                     item.google_wrapper_url = item.google_wrapper_url or item.url
                 item.url = final_url
-            if text and not is_chinese_item(item.title, text[:500], item.url):
+            if text and is_final_url_allowed(item.url) and not is_chinese_item(item.title, text[:500], item.url):
                 item.article_text = text
-        enriched.append(item)
+        if is_final_url_allowed(item.url) and len(item.article_text or "") >= MIN_ARTICLE_TEXT_CHARS:
+            enriched.append(item)
         if idx < limit:
             time.sleep(0.03)
     return enriched
@@ -324,22 +359,19 @@ def collect(days: int = 3, max_items: int = 360) -> tuple[list[RawItem], list[st
     for section in SECTION_ORDER:
         for q in SECTION_QUERIES.get(section, ()):
             queries.append((section, q))
-    for name, site_query in TRACKED_SITES.items():
+    for _, site_query in TRACKED_SITES.items():
         queries.append(("", site_query))
     for section, query in queries:
         before = len(items)
-        items.extend(fetch_google(query, start, end, section))
         items.extend(fetch_bing(query, start, end, section))
         items.extend(fetch_gdelt(query, start, end, section))
+        items.extend(fetch_google(query, start, end, section))
         if len(items) == before:
             errors.append(f"no candidates for query: {query}")
         time.sleep(0.05)
     final = dedupe(items)
     final.sort(key=lambda x: parse_datetime(x.published_at) or start, reverse=True)
     enriched = enrich_articles(final[:max_items])
-    direct = [item for item in enriched if not is_google_news_url(item.url)]
-    google_left = [item for item in enriched if is_google_news_url(item.url)]
-    if len(direct) >= 40:
-        return direct[:max_items], errors[:80]
-    errors.append(f"only {len(direct)} direct source URLs found; keeping {len(google_left)} Google News wrappers as fallback")
-    return (direct + google_left)[:max_items], errors[:80]
+    if len(enriched) < 20:
+        errors.append(f"only {len(enriched)} verified source articles with reachable original URLs and body text")
+    return enriched[:max_items], errors[:80]
