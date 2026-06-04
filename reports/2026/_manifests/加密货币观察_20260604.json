@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-04T16:30:33+08:00",
-  "period": "2026-06-01 16:30 至 2026-06-04 16:30（北京时间，最近3天）",
-  "raw_count": 120,
+  "generated_at": "2026-06-04T17:39:10+08:00",
+  "period": "2026-06-01 17:39 至 2026-06-04 17:39（北京时间，最近3天）",
+  "raw_count": 2,
   "collection_warnings": [
     "no candidates for query: Hong Kong virtual asset crypto SFC HKMA stablecoin regulation",
     "no candidates for query: site:blockworks.co crypto",
@@ -9,88 +9,82 @@
     "no candidates for query: site:treasury.gov crypto digital asset stablecoin",
     "no candidates for query: site:sfc.hk crypto virtual asset",
     "no candidates for query: site:hkma.gov.hk crypto stablecoin tokenisation",
-    "no candidates for query: site:info.gov.hk virtual asset crypto"
+    "no candidates for query: site:info.gov.hk virtual asset crypto",
+    "only 2 verified source articles with reachable original URLs and body text"
   ],
   "report": {
     "items": [
       {
         "section": "行业前沿",
-        "title_cn": "以太坊目标价3500美元Glamsterdam升级瞄准Q3",
+        "title_cn": "以太坊Glamsterdam升级瞄准Q3推升Layer2吞吐量超10万TPS",
         "source_title": "Ethereum Eyes $3,500 as Glamsterdam Upgrade Targets Q3",
-        "event_date": "2026-06-04",
+        "event_date": "2026-06-03",
         "key_points": [
-          "以太坊在2025年完成了Pectra和Fusaka两次硬分叉，确立了每半年一次的升级节奏，共部署11个EIP，并将验证者质押上限提高至2048 ETH。",
-          "预计2026年Q2或Q3的Glamsterdam升级将引入Verkle树以实现无状态客户端，并将Layer 2的可持续吞吐量推至每秒10万笔以上。",
-          "截至2026年6月初，ETH交易价约1970美元，较2025年8月历史高点4951美元下跌超过60%，分析师预测复苏区间在2200至3500美元之间。"
+          "以太坊在2025年完成了Pectra和Fusaka两次硬分叉，确立了半年升级节奏。",
+          "Glamsterdam升级预计在2026年Q2或Q3，引入Verkle树实现无状态客户端，并推动Layer 2吞吐量超10万笔/秒。",
+          "ETH在2026年6月初交易价约1，970美元，较2025年8月历史高点4，951美元下跌超60%。"
         ],
-        "lead_cn": "以太坊的Glamsterdam升级目标为实现Layer 2每秒10万笔交易，同时ETH交易价接近1970美元，为2026年下半年奠定关键基础。",
+        "lead_cn": "以太坊的Glamsterdam升级目标在2026年Q2或Q3，旨在将Layer 2的可持续吞吐量提升至超10万TPS，而ETH当前交易价约1，970美元，为2025年8月历史高点的约40%。",
         "body_paragraphs": [
-          "以太坊基金会于2月发布了2026年协议优先事项，将开发工作重组为三大支柱：扩展、用户体验改进和L1抗量子安全加固。",
-          "Pectra升级于2025年5月7日启动，合并了Prague执行层和Electra共识层，共部署11个以太坊改进提案。据Consensys称，这是以太坊历史上最大的硬分叉。EIP-7251将验证者最大有效余额从32 ETH提高至2，048 ETH，整合了验证者集并减少了点对点网络压力。EIP-7702引入了账户抽象原语，允许外部拥有账户在单笔交易中委托智能合约逻辑。",
-          "Fusaka于2025年12月跟进，提供了额外的数据可用性改进，增加了Rollup的blob吞吐量。这两次分叉将以太坊从每年一次升级转变为结构化的半年发布周期。",
-          "下一个里程碑是Glamsterdam升级，它结合了Glam共识层和Amsterdam执行层的变更。根据Trent Bolar在Medium上的分析，核心计划功能包括完整的Verkle树实现，这将支持无状态客户端并大幅降低运行节点的硬件要求。Bolar写道：“Glamsterdam预计将是‘The Surge’阶段完成前的最后重大步骤，在保持完全去中心化的同时，将Layer 2生态系统的可持续吞吐量推至每秒10万笔以上。”",
-          "2026年的第二次分叉代号为Heze-Bogota，计划于年底进行。根据MEXC News报道，它将针对反审查机制和早期量子安全准备。2026年2月的协议优先事项文件概述了EIP-7701和EIP-8141等提案，用于原生账户抽象，建立在Pectra中EIP-7702的基础上。",
-          "与2024年3月启动EIP-4844和proto-danksharding以降低Layer 2成本的Dencun升级相比，Glamsterdam代表了一次质的飞跃。Dencun增加了临时blob存储，而Glamsterdam旨在通过Verkle证明使全节点对交易验证变为可选，这是一项以太坊管理状态方式的结构性变化。",
-          "根据CoinDCX数据，截至2026年6月1日，ETH交易价接近1970美元。14日RSI为33.56，接近超卖区域。50日移动平均线为2194美元，200日移动平均线为2509美元，当前价格远低于这两条趋势线。InvestingHaven公司表示，2026年交易区间预计在1800至3500美元之间，平均预测接近2700美元。Changelly模型预计2026年12月更保守的上限为2582美元。LiteFinance提到，在Layer 2增长和机构需求推动的乐观情景下，ETH可能测试5301美元。",
-          "CoinDCX报道称：“Coinpaper高级加密市场分析师Alex Thornton指出，大约74%的以太坊供应量目前处于盈利状态，30天已实现价格估计接近1980美元。”长期持有者供应量正在增加，这一模式与积累而非分配一致。",
-          "据MEXC称，2026年2月初，ETH多头头寸发生了19亿美元的清仓连锁反应，压缩了杠杆头寸。因此，当前价格可能低估了宏观条件稳定后出现的需求。",
-          "以太坊受益于2026年3月SEC和CFTC的联合框架，该框架将16种数字资产归类为商品。ETH与比特币一同归入CFTC监管，消除了2024至2025年初困扰该资产的剩余证券执法风险。2024年获批的现货ETH ETF现在在更清晰的管辖边界下运营，这应会降低发行人和托管人的合规成本。"
+          "以太坊在2025年完成了两次硬分叉：Pectra于5月7日上线，结合了Prague执行层和Electra共识层，共部署11个以太坊改进提案（EIP），其中EIP-7251将验证者最大有效余额从32 ETH提高至2，048 ETH，EIP-7702引入了账户抽象原语；Fusaka于12月上线，提供了额外的数据可用性改进，增加了rollup的blob吞吐量。",
+          "两次分叉使以太坊从每年一次升级转变为结构化的半年发布周期。",
+          "下一个里程碑是Glamsterdam升级，结合了Glam共识层和Amsterdam执行层变更，核心功能包括完整Verkle树实现，将支持无状态客户端并大幅降低运行节点的硬件要求。Trent Bolar在分析中指出：“Glamsterdam预计是‘以太坊路线图’中‘The Surge’部分完成前的最后重大步骤，将在保持完全去中心化的同时，推动Layer 2生态系统的可持续吞吐量超过10万TPS。”",
+          "2026年的第二次分叉代号Heze-Bogota，计划在年底进行，将针对抗审查机制和早期量子安全准备。",
+          "以太坊基金会于2月发布了2026年协议优先级，将开发组织为三个支柱：扩展、用户体验改进和L1强化以应对量子安全。",
+          "截至2026年6月初，以太坊交易价约1，970美元，较2025年8月的历史高点4，951美元下跌超过60%。14日相对强弱指数（RSI）为33.56，接近超卖区域。50日移动均线为2，194美元，200日移动均线为2，509美元，当前价格均低于这两条趋势线。",
+          "InvestingHaven预测2026年交易区间为1，800至3，500美元，平均预测接近2，700美元。Changelly模型估计2026年12月的更保守上限为2，582美元。LiteFinance提到，在Layer 2增长和机构需求推动的乐观情景下，ETH可能测试5，301美元。",
+          "CoinDCX报道称，Coinpaper高级加密货币市场分析师Alex Thornton指出，约74%的以太坊供应目前处于盈利状态，30天实现价格估计接近1，980美元。长期持有者供应量正在增加，这一模式与积累而非分配一致。",
+          "2026年3月，美国证券交易委员会（SEC）和商品期货交易委员会（CFTC）联合框架将16种数字资产分类为商品，以太坊被纳入CFTC监管范围，消除了剩余证券执法风险。"
         ],
         "source_name": "FinanceFeeds",
         "url": "https://financefeeds.com/ethereum-eyes-3500-as-glamsterdam-upgrade/",
         "published_at": "2026-06-04T06:36:00+08:00",
         "region": "全球",
-        "fact_check": "逐段翻译自原文，未加入任何来源外内容。"
+        "fact_check": "逐段翻译自原文，没有加入来源外内容。"
       },
       {
-        "section": "政策风向",
-        "title_cn": "Coinbase冻结与东南亚加密诈骗网络相关的300万美元",
-        "source_title": "Coinbase freezes $3M tied to Southeast Asia crypto fraud networks",
+        "section": "意见领袖",
+        "title_cn": "比特币价格逼近6万美元超6亿美元多头仓位被清算",
+        "source_title": "Over $600M in Bitcoin longs liquidated as BTC dips toward $60K",
         "event_date": "2026-06-04",
         "key_points": [
-          "Coinbase冻结了与东南亚加密货币诈骗网络相关的300万美元加密货币。",
-          "该行动是美国司法部诈骗中心打击部队领导的“打击周”的一部分，联合了Meta、微软和Starlink。",
-          "FBI报告称，2025年美国人在加密货币和AI相关诈骗中损失超过110亿美元。"
+          "比特币价格跌至约61，300美元后反弹至64，690美元，期间超过6亿美元多头仓位被清算。",
+          "部分交易员预期比特币将出现短期反弹至69，000-70，000美元，但周线图熊旗形态暗示可能进一步跌至50，000-52，000美元。",
+          "200周简单移动平均线（约61，800美元）是关键支撑，若反弹可能测试70，000美元目标。"
         ],
-        "lead_cn": "加密货币交易所Coinbase表示，作为针对东南亚加密货币诈骗网络的全球行动的一部分，已冻结超过300万美元的加密货币。",
+        "lead_cn": "比特币价格短暂跌至6万美元附近，导致超过6亿美元多头仓位被清算，市场对当前反弹是否为底部存在分歧。",
         "body_paragraphs": [
-          "今年，全球当局一直在大力打击诈骗基础设施，涉及美国、阿联酋、中国、奥地利和阿尔巴尼亚的联合行动。加密货币交易所Coinbase表示，作为针对东南亚网络加密货币诈骗网络的全球行动的一部分，已冻结超过300万美元的加密货币。",
-          "该行动是美国司法部诈骗中心打击部队领导的“打击周”的一部分，该部队汇集了政府实体和私营企业，以打击针对美国人的加密货币诈骗。",
-          "Coinbase表示：“这次行动证明，没有任何一家公司或机构可以单独阻止诈骗者。需要社交平台、金融机构、连接提供商和执法部门紧密合作，同时打击这些网络的几乎每个环节——在线账户、资金流动和物理基础设施。”",
-          "Meta、微软和Starlink也参与了此次行动，它们共同关闭了与诈骗网络相关的服务器和其他托管基础设施，并破坏了超过140万个社交媒体和电子邮件账户的犯罪活动，泰国皇家警察反网络诈骗中心逮捕了多人。",
-          "美国司法部表示，投资欺诈和杀猪盘是增长最快、对美国人造成最严重经济破坏的诈骗形式之一。本月早些时候，FBI报告称，2025年美国人在加密货币和AI相关诈骗中的损失超过110亿美元，其中投资诈骗造成的损失最大。",
-          "Coinbase补充道：“我们知道加密货币在非法金融方面有时会受到不公平的声誉。事实恰恰相反。区块链技术为执法部门提供了传统金融系统通常无法提供的东西：每笔交易的透明、不可篡改和永久记录。”",
-          "该联盟的其他成员包括FBI、美国特勤局以及英国、澳大利亚、加拿大、新西兰和泰国的执法合作伙伴。",
-          "Meta表示，它分享了所有参与方的“可操作洞察”，这有助于“整合不同平台上的零散信息。这些科技公司的集体努力使行动能够锁定并破坏诈骗者几乎每个环节的犯罪活动。”",
-          "今年，全球当局一直在大力打击诈骗基础设施。4月，美国诈骗中心打击部队及其执法合作伙伴针对诈骗中心，冻结了超过7.01亿美元与投资诈骗相关的加密货币。与此同时，迪拜警方牵头对诈骗团伙进行国际打击，逮捕了276人，并关闭了至少9个加密货币诈骗中心。在另一次涉及奥地利和阿尔巴尼亚当局、并得到欧洲刑警组织和欧洲司法组织支持的警方行动中，10人因与阿尔巴尼亚地拉那的三个诈骗中心有关而被捕。"
+          "比特币（BTC）价格短暂跌至60，000美元区域，引发超过6亿美元的多头仓位清算，引发市场质疑最新反弹究竟是真正的底部，还是杠杆出清后的“救济性反弹”。",
+          "BTC周四跌至约61，300美元，随后反弹5.52%至约64，690美元，此次反弹与以色列和黎巴嫩同意实施停火的消息重合。",
+          "根据数据来源CoinGlass，24小时内BTC仓位清算总额超过7.37亿美元，多头交易者承受了大部分损失，其中超过6.17亿美元的多头仓位被清除，显示看涨交易者在抛售前仓位极度激进。",
+          "BTC的急剧反弹使部分交易者认为底部已至。交易员RidaaXBT表示，BTC可能出现“救济性反弹”至69，000-70，000美元区间，暗示清算驱动的抛售可能已耗尽短期卖方力量。交易员ZordXBT也持类似观点，指出BTC的长下影线表明买家在低点附近积极介入。",
+          "另一方面，加密交易员Hitman42.eth警告，BTC多头可能庆祝过早，并指出比特币反弹最终可能诱多。",
+          "比特币周线图仍显示熊旗形态向下突破，保持进一步跌至50，000-52，000美元区域的风险。该形态出现在BTC未能突破旗形上轨线之后，成交量增加强化了下行动能。",
+          "然而，只要BTC交易于200周简单移动平均线（约61，800美元）之上，熊市情景便未确认。该水平在2015年、2018年和2020年等比特币熊市中曾作为重要的周期底部区域。若从200周均线强劲反弹，将削弱或可能取消熊旗形态的向下突破，使BTC价格有机会测试70，000美元作为下一上行目标。"
         ],
         "source_name": "Cointelegraph",
-        "url": "https://cointelegraph.com/news/tech-fbi-crypto-scam-crackdown-southeast-asia",
-        "published_at": "2026-06-04T01:00:00+08:00",
-        "region": "美国/东南亚",
-        "fact_check": "逐段翻译自原文，没有加入来源外内容"
+        "url": "https://cointelegraph.com/markets/over-600m-in-bitcoin-longs-liquidated-as-btc-dips-toward-60k",
+        "published_at": "2026-06-04T10:11:00+08:00",
+        "region": "全球",
+        "fact_check": "逐段翻译自原文，没有加入来源外内容。"
       }
     ],
     "notes": [
-      "政策风向 only selected 2/3 verified non-duplicate articles",
+      "政策风向 only selected 1/3 verified non-duplicate articles",
       "行业前沿 only selected 0/2 verified non-duplicate articles",
       "市场动态 only selected 0/2 verified non-duplicate articles",
-      "意见领袖 only selected 0/2 verified non-duplicate articles"
+      "意见领袖 only selected 1/2 verified non-duplicate articles"
     ]
   },
   "factcheck": {
     "ok": false,
     "errors": [
-      "政策风向 requires 3 items, got 1",
+      "政策风向 requires 3 items, got 0",
       "行业前沿 requires 2 items, got 1",
       "市场动态 requires 2 items, got 0",
-      "意见领袖 requires 2 items, got 0",
-      "政策风向 requires at least one US-related item"
+      "意见领袖 requires 2 items, got 1"
     ],
-    "warnings": [
-      "政策风向未覆盖美国或香港，建议优先补充美国、香港监管动向",
-      "item 2 contains relative time wording; replace with exact date"
-    ]
+    "warnings": []
   },
   "outputs": {
     "docx": "reports/2026/加密货币观察_20260604.docx",
