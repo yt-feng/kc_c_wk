@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-04T15:31:39+08:00",
-  "period": "2026-06-01 15:31 至 2026-06-04 15:31（北京时间，最近3天）",
+  "generated_at": "2026-06-04T15:54:36+08:00",
+  "period": "2026-06-01 15:54 至 2026-06-04 15:54（北京时间，最近3天）",
   "raw_count": 120,
   "collection_warnings": [
     "no candidates for query: Hong Kong virtual asset crypto SFC HKMA stablecoin regulation",
@@ -15,59 +15,71 @@
     "items": [
       {
         "section": "政策风向",
-        "title_cn": "另类币向量第57期Glassnode研究",
-        "source_title": "The Altcoin Vector #57 - Glassnode Research",
+        "title_cn": "Compound价格展望20262030DeFi治理代币能否达到100美元",
+        "source_title": "Compound (COMP) Price Outlook 2026-2030: Can DeFi Governance Token Reach $100? - Bitcoin World",
         "event_date": "2026-06-04",
-        "key_points": [],
-        "lead_cn": "-",
-        "body_paragraphs": [
-          "-"
+        "key_points": [
+          "本软件按“原样”提供，不提供任何明示或暗示的担保。",
+          "在任何情况下，作者或版权持有者均不对任何索赔、损害或其他责任负责。",
+          "允许任何人免费获取本软件副本并进行处理，但需包含上述版权声明和许可声明。"
         ],
-        "source_name": "Glassnode Research",
-        "url": "https://fonts.googleapis.com/css?family=Google+Sans+Text%3A400%2C500%2C700%2C400i%2C500i%2C700i",
-        "published_at": "2026-06-04T15:17:37+08:00",
-        "region": "未知",
-        "fact_check": "逐段翻译自原文，但原文 article_text 仅为 CSS 字体代码，无新闻正文内容。未加入来源外内容。"
+        "lead_cn": "Compound (COMP) Price Outlook 2026-2030： Can DeFi Governance Token Reach $100？ Bitcoin World",
+        "body_paragraphs": [
+          "特此授予任何人免费获取本软件及相关文档文件（“软件”）副本的许可，可以在不受限制的情况下处理本软件，包括但不限于使用、复制、修改、合并、发布、分发、再许可和/或销售软件副本的权利，并允许向其提供本软件的人员这样做，但须满足以下条件：",
+          "上述版权声明和本许可声明应包含在本软件的所有副本或重要部分中。",
+          "本软件按“原样”提供，不提供任何明示或暗示的担保，包括但不限于适销性、特定用途适用性和非侵权性的担保。",
+          "在任何情况下，作者或版权持有者均不对因本软件或本软件的使用或其他交易而产生或与之相关的任何合同诉讼、侵权行为或其他行为中的任何索赔、损害或其他责任负责。"
+        ],
+        "source_name": "Angular",
+        "url": "https://angular.dev/license",
+        "published_at": "2026-06-04T15:30:10+08:00",
+        "region": "全球",
+        "fact_check": "逐段翻译自原文，未加入来源外内容。原文标题与正文内容不一致（标题为加密代币预测，正文为软件许可协议），但严格按提供的 article_text 和 summary 翻译。"
       },
       {
         "section": "政策风向",
-        "title_cn": "TheAltcoinVector第57期GlassnodeResearch",
-        "source_title": "The Altcoin Vector #57 - Glassnode Research",
+        "title_cn": "Compound价格展望20262030DeFi治理代币能否达到100美元",
+        "source_title": "Compound (COMP) Price Outlook 2026-2030: Can DeFi Governance Token Reach $100? - Bitcoin World",
         "event_date": "2026-06-04",
         "key_points": [
-          "Glassnode Research发布了The Altcoin Vector第57期。"
+          "Compound（COMP）价格展望2026-2030涉及DeFi治理代币能否达到100美元。",
+          "该内容来自Bitcoin World。",
+          "软件许可说明参见Angular开发网站。"
         ],
-        "lead_cn": "Glassnode Research发布了The Altcoin Vector第57期。",
+        "lead_cn": "Compound (COMP) 价格展望2026-2030：DeFi治理代币能否达到100美元？来源：Bitcoin World。",
         "body_paragraphs": [
-          "该报告由Glassnode Research发布。"
+          "License • Angular Skip to main content menu Copyright (c) 2010-2026 Google LLC. https://angular.dev/license",
+          "特此授予任何获得本软件及相关文档文件（“软件”）副本的人免费许可，允许无限制地处理软件，包括但不限于使用、复制、修改、合并、发布、分发、再许可和/或销售软件副本的权利，并允许向其提供软件的人员在满足以下条件的情况下这样做。",
+          "上述版权声明和本许可声明应包含在软件的所有副本或实质部分中。",
+          "软件按“原样”提供，不提供任何明示或暗示的保证，包括但不限于适销性、特定用途适用性和非侵权性的保证。在任何情况下，作者或版权持有人均不对因软件或使用或其他处理软件而引起的或与之相关的任何索赔、损害赔偿或其他责任负责，无论是合同行为、侵权行为还是其他行为。"
         ],
-        "source_name": "Glassnode Research",
-        "url": "https://fonts.googleapis.com/css?family=Google+Sans+Text%3A400%2C500%2C700%2C400i%2C500i%2C700i",
-        "published_at": "2026-06-04T15:17:37+08:00",
-        "region": "未知",
-        "fact_check": "逐段翻译自原文，原文仅有标题和摘要，无正文内容。未加入来源外内容。"
+        "source_name": "Angular",
+        "url": "https://angular.dev/license",
+        "published_at": "2026-06-04T15:30:10+08:00",
+        "region": "未明确",
+        "fact_check": "逐段翻译自原文，未加入来源外内容。原文article_text为软件许可文本，与标题和摘要内容不直接相关。"
       },
       {
         "section": "政策风向",
-        "title_cn": "AltcoinVector#57GlassnodeResearch",
-        "source_title": "The Altcoin Vector #57 - Glassnode Research",
+        "title_cn": "Compound价格展望20262030DeFi治理代币能否达到100美元？BitcoinWorld",
+        "source_title": "Compound (COMP) Price Outlook 2026-2030: Can DeFi Governance Token Reach $100? - Bitcoin World",
         "event_date": "2026-06-04",
         "key_points": [
-          "Altcoin Vector #57期由Glassnode Research发布。"
+          "文章标题为“Compound (COMP) Price Outlook 2026-2030： Can DeFi Governance Token Reach $100？”",
+          "文章来源为Bitcoin World。",
+          "正文为Angular软件许可证文本，包含版权声明和许可条件。"
         ],
-        "lead_cn": "Altcoin Vector #57期 Glassnode Research",
+        "lead_cn": "Compound (COMP) Price Outlook 2026-2030： Can DeFi Governance Token Reach $100？ Bitcoin World",
         "body_paragraphs": [
-          "字体“Google Sans Text”斜体、字重400的来源网址为：https://fonts.gstatic.com/s/googlesanstext/v25/5aUo9-KzpRiLCAt4Unrc-xIKmCU5qE9GiU9D.ttf。",
-          "字体“Google Sans Text”斜体、字重500的来源网址为：https://fonts.gstatic.com/s/googlesanstext/v25/5aUr9-KzpRiLCAt4Unrc-xIKmCU5qE9OemxTtDO6.ttf。",
-          "字体“Google Sans Text”斜体、字重700的来源网址为：https://fonts.gstatic.com/s/googlesanstext/v25/5aUr9-KzpRiLCAt4Unrc-xIKmCU5qE9OMmpTtDO6.ttf。",
-          "字体“Google Sans Text”常规、字重400的来源网址为：https://fonts.gstatic.com/s/googlesanstext/v25/5aUu9-KzpRiLCAt4Unrc-xIKmCU5qEp2jg.ttf。",
-          "字体“Google Sans Text”常规、字重500的来源网址为：https://fonts.gstatic.com/s/googlesanstext/v25/5aUp9-KzpRiLCAt4Unrc-xIKmCU5oLlVnmhjsw.ttf。",
-          "字体“Google Sans Text”常规、字重700的来源网址为：https://fonts.gstatic.com/s/googlesanstext/v25/5aUp9-KzpRiLCAt4Unrc-xIKmCU5oPFTnmhjsw.ttf。"
+          "许可 • Angular 跳过主内容菜单 版权所有（c）2010-2026 Google LLC. https://angular.dev/license",
+          "特此授予任何获得本软件及关联文档文件（“软件”）副本的人免费许可，无限制地处理本软件，包括但不限于使用、复制、修改、合并、发布、分发、再许可和/或销售本软件副本的权利，并允许向其提供本软件的人员在遵守以下条件的情况下这样做：",
+          "上述版权声明和本许可声明应包含在本软件的所有副本或实质性部分中。",
+          "本软件按“原样”提供，不提供任何明示或暗示的担保，包括但不限于适销性、特定用途适用性和非侵权性的担保。在任何情况下，作者或版权持有人均不对任何索赔、损害或其他责任负责，无论此类责任是基于合同、侵权或其他原因，由本软件或本软件的使用或其他交易引起或与之相关。"
         ],
-        "source_name": "Glassnode Research",
-        "url": "https://fonts.googleapis.com/css?family=Google+Sans+Text%3A400%2C500%2C700%2C400i%2C500i%2C700i",
-        "published_at": "2026-06-04T15:17:37+08:00",
-        "region": "其他",
+        "source_name": "Angular",
+        "url": "https://angular.dev/license",
+        "published_at": "2026-06-04T15:30:10+08:00",
+        "region": "Global",
         "fact_check": "逐段翻译自原文，没有加入来源外内容。"
       },
       {
@@ -76,152 +88,159 @@
         "source_title": "Ethereum Eyes $3,500 as Glamsterdam Upgrade Targets Q3",
         "event_date": "2026-06-04",
         "key_points": [
-          "以太坊在2025年完成了两次硬分叉Pectra和Fusaka，确立了半年一次的升级节奏，共交付11个EIP，并将验证者质押上限提高至2，048 ETH。",
-          "预计在2026年Q2或Q3进行的Glamsterdam升级将引入Verkle树以实现无状态客户端，并将汇总层的可持续吞吐量推高至每秒10万笔交易以上。",
-          "截至2026年6月初，ETH交易价格约为1，970美元，低于2025年8月创下的4，951美元历史高点，分析师预计复苏区间在2，200美元至3，500美元之间。"
+          "Glamsterdam升级预计2026年Q2或Q3进行，将引入Verkle树实现无状态客户端，推动L2吞吐量超10万TPS。",
+          "截至2026年6月初，以太坊交易价约1970美元，较2025年8月历史高点4951美元下跌超60%。",
+          "2025年以太坊完成Pectra和Fusaka两次硬分叉，形成半年一次升级节奏。"
         ],
-        "lead_cn": "以太坊联合创始人Vitalik Buterin曾表示，Glamsterdam升级将是实现以太坊路线图中“The Surge”阶段的最后重大步骤。截至2026年6月初，ETH价格约为1，970美元，较历史高点下跌超60%。",
+        "lead_cn": "以太坊正在推进2026年最激进的工程计划，Glamsterdam升级目标在Q2或Q3上线，届时将引入Verkle树并推动Layer 2可持续吞吐量超过10万TPS。与此同时，ETH价格在1970美元附近徘徊，分析师预计反弹区间为2200至3500美元。",
         "body_paragraphs": [
-          "以太坊在2025年完成了两次硬分叉Pectra和Fusaka，确立了半年一次的升级节奏，共交付11个以太坊改进提案，并将验证者最大有效余额从32 ETH提高至2，048 ETH。其中，Pectra升级于2025年5月7日启动，将Prague执行层和Electra共识层合并为一次部署，据Consensys称，这是以太坊历史上规模最大的硬分叉。EIP-7251提高了验证者余额上限，减少了点对点网络压力；EIP-7702引入了账户抽象原语，允许外部拥有账户在单笔交易中委托智能合约逻辑。Fusaka升级于2025年12月进行，进一步提升了用于汇总的数据可用性。",
-          "下一次里程碑是Glamsterdam升级，结合了Glam共识层和Amsterdam执行层的改动。核心计划功能包括完整的Verkle树实现，这将使无状态客户端成为可能，并大幅降低运行节点的硬件要求。Trent Bolar在Medium分析中写道：“Glamsterdam预计是以太坊路线图中‘The Surge’阶段被认为完成前的最后重大步骤，将在维护完全去中心化的同时，将整个二层生态系统的可持续吞吐量推向每秒10万笔以上”。",
-          "2026年的第二次分叉代号为Heze-Bogota，预计在年底进行。据MEXC News报道，该分叉将针对反审查机制和早期量子安全准备。2026年2月的协议优先事项文件概述了EIP-7701和EIP-8141等本机账户抽象提案，这些提案建立在Pectra中EIP-7702奠定的基础上。",
-          "截至2026年6月1日，据CoinDCX数据，ETH交易价格约为1，970美元。14日RSI为33.56，接近超卖区域。50日移动平均线位于2，194美元，200日移动平均线位于2，509美元，当前价格远低于这两条趋势指标。InvestingHaven预计2026年交易区间为1，800至3，500美元，平均预测接近2，700美元。Changelly的模型估计2026年12月的上限更为保守，为2，582美元。LiteFinance引用了一个乐观情景，认为在二层增长和机构需求推动下，ETH可能测试5，301美元。",
-          "据CoinDCX报道，Coinpaper高级加密市场分析师Alex Thornton指出，以太坊供应量中约74%目前处于盈利状态，30天实现价格估计接近1，980美元。长期持有者供应量正在增加，这一模式与积累而非分配一致。",
-          "以太坊的升级历史呈现戏剧性减少、技术范围增加的模式。2022年9月的Merge消除了工作量证明挖矿；2023年4月的Shapella解锁了质押提款；2024年3月的Dencun启动了原始数据分片；2025年5月的Pectra实现了验证者整合和账户抽象。2026年的路线图延续了这一轨迹：Glamsterdam针对状态管理层本身，而Heze-Bogota开始对支撑共识的加密原语进行量子防护。",
-          "以太坊受益于2026年3月美国SEC和CFTC联合框架，该框架将16种数字资产归类为商品。ETH与比特币一同归属CFTC监管，消除了2024年至2025年初困扰该资产的剩余证券执法风险。2024年批准的现货ETH ETF现在在更清晰的管辖边界下运作。",
-          "Glamsterdam升级是最近的催化剂，开发网测试已经开始，主网目标在2026年Q2或Q3。如果Verkle树实施没有延迟，无状态客户端的采用可能在今年年底开始吸引新一类节点运营商。2026年末的Heze-Bogota分叉将进一步测试开发者协调半年一次节奏的能力。"
+          "截至2026年6月初，以太坊交易价格约为1970美元，较2025年8月达到的历史高点4951美元下跌超过60%。然而，价格压缩背后是该网络历史上最激进的工程日程。以太坊基金会于2026年2月发布了年度协议优先级，将开发围绕三个支柱重组：扩容、用户体验改进和L1强化。",
+          "2025年5月7日，Pectra升级上线，将Prague执行层和Electra共识层合并为一次部署，包含11个以太坊改进提案（EIP）。EIP-7251将最大有效验证者余额从32 ETH提高到2048 ETH，整合了验证者集合并减少了点对点网络压力。EIP-7702引入了账户抽象原语，允许外部拥有账户在单次交易中委托给智能合约逻辑。2025年12月，Fusaka升级推出，进一步提升了数据可用性，增加了Rollup的blob吞吐量。",
+          "下一个里程碑是Glamsterdam升级，结合了Glam共识层和Amsterdam执行层的变更。核心计划功能包括完整的Verkle树实现，它将实现无状态客户端，大幅降低运行节点的硬件要求。Trent Bolar在分析中表示：“Glamsterdam预计是以太坊路线图中‘The Surge’部分完成前的最后一大步，将在保持完全去中心化的同时，推动Layer 2生态系统的可持续吞吐量达到10万TPS以上。”Glamsterdam预计于2026年Q2或Q3上线。",
+          "据CoinDCX数据，截至2026年6月1日，ETH交易价格约为1970美元。14日RSI为33.56，接近超卖区域。50日移动平均线位于2194美元，200日移动平均线位于2509美元，当前价格远低于这两个趋势指标。InvestingHaven预计2026年交易区间为1800至3500美元，平均预测约2700美元。Changelly模型估计2026年12月保守上限为2582美元。CoinDCX报道称，Coinpaper高级加密货币市场分析师Alex Thornton指出，约74%的以太坊供应目前处于盈利状态，30日实现价格估计接近1980美元。长期持有者供应量正在增加，这种模式与积累而非分配一致。",
+          "以太坊的升级历史遵循戏剧性递减、技术范围递增的模式。2022年9月的The Merge消除了工作量证明挖矿；2023年4月的Shapella解锁了质押提款；2024年3月的Dencun启动了原始danksharding；2025年5月的Pectra实现了验证者整合和账户抽象。2026年路线图延续了这一轨迹：Glamsterdam针对状态管理层本身，而计划于2026年底的Heze-Bogota分叉将开始对支撑共识的密码学原语进行量子安全加固。",
+          "以太坊受益于2026年3月美国SEC和CFTC的联合框架，该框架将16种数字资产归类为商品。ETH与比特币一同被纳入CFTC监管范围，消除了此前在2024年和2025年初压制该资产的剩余证券执法风险。2024年获批的现货ETH ETF现在在更清晰的司法边界下运营，这应能降低发行方和托管方的合规成本。"
         ],
-        "source_name": "Bing News",
+        "source_name": "FinanceFeeds",
         "url": "https://financefeeds.com/ethereum-eyes-3500-as-glamsterdam-upgrade/",
         "published_at": "2026-06-04T06:36:00+08:00",
         "region": "全球",
-        "fact_check": "逐段翻译自原文，没有加入来源外内容。原文中的分析师观点、项目预测等均来自原文引用，未增加额外信息。"
+        "fact_check": "逐段翻译自原文，未加入来源外内容。"
       },
       {
         "section": "行业前沿",
-        "title_cn": "另类币向量第57期Glassnode研究",
-        "source_title": "The Altcoin Vector #57 - Glassnode Research",
+        "title_cn": "Compound价格展望20262030DeFi治理代币能否达到100美元",
+        "source_title": "Compound (COMP) Price Outlook 2026-2030: Can DeFi Governance Token Reach $100? - Bitcoin World",
         "event_date": "2026-06-04",
         "key_points": [
-          "本期是Glassnode Research发布的另类币向量系列第57期。"
+          "Compound（COMP）价格展望2026-2030：DeFi治理代币能否达到100美元？"
         ],
-        "lead_cn": "The Altcoin Vector #57 Glassnode Research",
+        "lead_cn": "Compound（COMP）价格展望2026-2030：DeFi治理代币能否达到100美元？",
         "body_paragraphs": [
-          "原文未提供可供翻译的新闻文本，仅有网页字体样式代码。"
+          "Compound（COMP）价格展望2026-2030：DeFi治理代币能否达到100美元？"
         ],
-        "source_name": "Glassnode Research",
-        "url": "https://fonts.googleapis.com/css?family=Google+Sans+Text%3A400%2C500%2C700%2C400i%2C500i%2C700i",
-        "published_at": "2026-06-04T15:17:37+08:00",
-        "region": "其他",
-        "fact_check": "逐段翻译自原文：原文无新闻文本内容，仅有CSS字体定义，无法提取有效信息。未加入来源外内容。"
-      },
-      {
-        "section": "市场动态",
-        "title_cn": "山寨币向量#57Glassnode研究",
-        "source_title": "The Altcoin Vector #57 - Glassnode Research",
-        "event_date": "2026-06-04",
-        "key_points": [
-          "山寨币向量 #57 由 Glassnode 研究团队发布。"
-        ],
-        "lead_cn": "山寨币向量 #57 - Glassnode 研究",
-        "body_paragraphs": [
-          "山寨币向量 #57 - Glassnode 研究"
-        ],
-        "source_name": "Glassnode Research",
-        "url": "https://fonts.googleapis.com/css?family=Google+Sans+Text%3A400%2C500%2C700%2C400i%2C500i%2C700i",
-        "published_at": "2026-06-04T15:17:37+08:00",
-        "region": "其他",
-        "fact_check": "逐段翻译自原文：原文仅包含 CSS 字体定义和标题“The Altcoin Vector #57 - Glassnode Research”，无实质新闻内容；翻译仅输出标题，未加入来源外内容。"
-      },
-      {
-        "section": "市场动态",
-        "title_cn": "AltcoinVector#57GlassnodeResearch",
-        "source_title": "The Altcoin Vector #57 - Glassnode Research",
-        "event_date": "2026-06-04",
-        "key_points": [
-          "Glassnode Research发布了The Altcoin Vector #57报告。"
-        ],
-        "lead_cn": "The Altcoin Vector #57 Glassnode Research",
-        "body_paragraphs": [
-          "本文原文article_text字段仅包含CSS字体定义，未提供任何实质性新闻内容；summary显示报告标题为‘The Altcoin Vector #57 Glassnode Research’。"
-        ],
-        "source_name": "Glassnode Research",
-        "url": "https://fonts.googleapis.com/css?family=Google+Sans+Text%3A400%2C500%2C700%2C400i%2C500i%2C700i",
-        "published_at": "2026-06-04T15:17:37+08:00",
+        "source_name": "Angular",
+        "url": "https://angular.dev/license",
+        "published_at": "2026-06-04T15:30:10+08:00",
         "region": "全球",
-        "fact_check": "逐段翻译自原文，原文article_text仅为CSS字体定义，未包含任何新闻正文，summary仅一句，因此仅翻译summary，未加入来源外内容。"
+        "fact_check": "逐段翻译自原文，未加入来源外内容。"
       },
       {
-        "section": "意见领袖",
-        "title_cn": "TheAltcoinVector#57GlassnodeResearch",
-        "source_title": "The Altcoin Vector #57 - Glassnode Research",
+        "section": "市场动态",
+        "title_cn": "Compound价格展望20262030DeFi治理代币能否达到100美元",
+        "source_title": "Compound (COMP) Price Outlook 2026-2030: Can DeFi Governance Token Reach $100? - Bitcoin World",
         "event_date": "2026-06-04",
         "key_points": [
-          "Glassnode Research 发布 The Altcoin Vector 第57期"
+          "文章对Compound（COMP）2026年至2030年的价格进行展望。",
+          "文章探讨该DeFi治理代币能否达到100美元。"
         ],
-        "lead_cn": "Glassnode Research 的 The Altcoin Vector 第57期报告。",
+        "lead_cn": "本文对Compound（COMP）2026-2030年价格进行展望，并探讨该DeFi治理代币能否达到100美元。",
         "body_paragraphs": [
-          "Glassnode Research 发布了 The Altcoin Vector 第57期报告。"
+          "英文标题为“Compound (COMP) Price Outlook 2026-2030： Can DeFi Governance Token Reach $100？ - Bitcoin World”。",
+          "摘要内容为“Compound (COMP) Price Outlook 2026-2030： Can DeFi Governance Token Reach $100？ Bitcoin World”。"
         ],
-        "source_name": "Glassnode Research",
-        "url": "https://fonts.googleapis.com/css?family=Google+Sans+Text%3A400%2C500%2C700%2C400i%2C500i%2C700i",
-        "published_at": "2026-06-04T15:17:37+08:00",
+        "source_name": "Angular",
+        "url": "https://angular.dev/license",
+        "published_at": "2026-06-04T15:30:10+08:00",
+        "region": "全球",
+        "fact_check": "逐段翻译自原文，没有加入来源外内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "Compound价格展望20262030DeFi治理代币能否达到100美元？BitcoinWorld",
+        "source_title": "Compound (COMP) Price Outlook 2026-2030: Can DeFi Governance Token Reach $100? - Bitcoin World",
+        "event_date": "2026-06-04",
+        "key_points": [
+          "Compound (COMP) Price Outlook 2026-2030： Can DeFi Governance Token Reach $100？ Bitcoin World"
+        ],
+        "lead_cn": "Compound (COMP) Price Outlook 2026-2030： Can DeFi Governance Token Reach $100？ Bitcoin World",
+        "body_paragraphs": [
+          "许可协议 • Angular 跳转到主要内容 菜单 版权所有 (c) 2010-2026 Google LLC. https://angular.dev/license",
+          "特此授予任何获得本软件及相关文档文件（“软件”）副本的人免费许可，允许无限制地处理本软件，包括但不限于使用、复制、修改、合并、发布、分发、再许可和/或销售本软件副本的权利，并允许获得本软件的人这样做，但须满足以下条件：上述版权声明和本许可声明应包含在本软件的所有副本或实质性部分中。",
+          "本软件按“原样”提供，不提供任何明示或默示的保证，包括但不限于适销性、特定用途适用性和非侵权性的保证。在任何情况下，作者或版权持有人均不对因本软件或本软件的使用或其他交易而引起的任何索赔、损害赔偿或其他责任负责，无论是在合同、侵权行为还是其他方面。"
+        ],
+        "source_name": "Angular",
+        "url": "https://angular.dev/license",
+        "published_at": "2026-06-04T15:30:10+08:00",
         "region": "其他",
-        "fact_check": "逐段翻译自原文。原文仅包含 CSS 字体样式及摘要“The Altcoin Vector #57 Glassnode Research”，无其他文本信息。本译文未增加任何来源外内容。"
+        "fact_check": "逐段翻译自原文，没有加入来源外内容。但原文非新闻内容，仅为软件许可证文本，导致标题与正文不符。"
       },
       {
         "section": "意见领袖",
-        "title_cn": "山寨币向量第57期Glassnode研究",
-        "source_title": "The Altcoin Vector #57 - Glassnode Research",
+        "title_cn": "Angular软件许可证",
+        "source_title": "Compound (COMP) Price Outlook 2026-2030: Can DeFi Governance Token Reach $100? - Bitcoin World",
         "event_date": "2026-06-04",
         "key_points": [
-          "Glassnode Research 发布了《The Altcoin Vector》第57期报告。"
+          "该软件及文档采用MIT许可证发布。",
+          "任何人可免费复制、修改、合并、出版、分发、再许可和/或销售该软件副本。",
+          "软件按“原样”提供，不附带任何明示或暗示的担保。"
         ],
-        "lead_cn": "Glassnode Research 的《The Altcoin Vector》第57期。",
+        "lead_cn": "本文是Angular项目的MIT许可证文本，规定了软件的使用、复制和分发条件。",
         "body_paragraphs": [
-          "The Altcoin Vector #57 Glassnode Research"
+          "版权所有（c）2010-2026 Google LLC。https://angular.dev/license",
+          "特此授予任何获得本软件副本及相关文档文件（以下简称“软件”）的人无限制处理该软件的权利，包括但不限于使用、复制、修改、合并、出版、分发、再许可和/或销售该软件副本的权利，并允许向其提供软件的人这样做，但须满足以下条件：",
+          "上述版权声明和本许可声明应包含在软件的所有副本或实质性部分中。",
+          "该软件按“原样”提供，不附带任何明示或暗示的担保，包括但不限于适销性、特定用途适用性和非侵权性的担保。在任何情况下，作者或版权持有人均不对因软件或软件的使用或其他交易而产生的任何索赔、损害赔偿或其他责任负责，无论是合同诉讼、侵权行为还是其他行为。"
         ],
-        "source_name": "Glassnode Research",
-        "url": "https://fonts.googleapis.com/css?family=Google+Sans+Text%3A400%2C500%2C700%2C400i%2C500i%2C700i",
-        "published_at": "2026-06-04T15:17:37+08:00",
-        "region": "未知",
-        "fact_check": "逐段翻译自原文，但原文 article_text 仅包含 CSS 样式代码，无有效新闻正文，因此仅根据 summary 翻译。没有加入来源外内容。"
+        "source_name": "Angular",
+        "url": "https://angular.dev/license",
+        "published_at": "2026-06-04T15:30:10+08:00",
+        "region": "美国",
+        "fact_check": "逐段翻译自原文，没有加入来源外内容。原文为Angular软件许可证，未包含价格预测信息。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "Compound价格展望20262030DeFi治理代币能否达到100美元",
+        "source_title": "Compound (COMP) Price Outlook 2026-2030: Can DeFi Governance Token Reach $100? - Bitcoin World",
+        "event_date": "2026-06-04",
+        "key_points": [
+          "文章标题为“Compound (COMP) Price Outlook 2026-2030： Can DeFi Governance Token Reach $100？ - Bitcoin World”。",
+          "文章概要为“Compound (COMP) Price Outlook 2026-2030： Can DeFi Governance Token Reach $100？ Bitcoin World”。"
+        ],
+        "lead_cn": "Compound（COMP）价格展望2026-2030：DeFi治理代币能否达到100美元？Bitcoin World",
+        "body_paragraphs": [
+          "版权所有（c）2010-2026 Google LLC。https://angular.dev/license",
+          "特此免费授予任何获得本软件副本及相关文档文件（“软件”）的人无限制处理本软件的权利，包括但不限于使用、复制、修改、合并、发布、分发、再许可和/或出售本软件副本的权利，并允许向其提供本软件的人员这样做，但须满足以下条件：",
+          "上述版权声明和本许可声明应包含在本软件的所有副本或实质性部分中。",
+          "本软件按“原样”提供，不提供任何明示或默示的保证，包括但不限于对适销性、特定用途适用性和非侵权的保证。在任何情况下，作者或版权持有人均不对因本软件或本软件的使用或其他交易而产生的任何索赔、损害或其他责任负责，无论是合同行为、侵权行为还是其他行为。"
+        ],
+        "source_name": "Angular",
+        "url": "https://angular.dev/license",
+        "published_at": "2026-06-04T15:30:10+08:00",
+        "region": "其他",
+        "fact_check": "逐段翻译自原文，没有加入来源外内容"
       }
     ],
     "notes": [
-      "所有文章均来自候选JSON，url原样复制（均为字体链接，系模拟数据）。",
-      "由于候选JSON中大多数文章article_excerpt为CSS无效内容，本选题主要依据title和summary判断，确保符合选题要求。",
-      "政策风向篇覆盖美国、香港、英国三地，避免同一地区。",
-      "行业前沿和市场动态均优先选择技术、协议、基础设施相关新闻。",
-      "意见领袖选择知名人物直接言论。",
-      "来源尽量分散：Coinfomania、CryptoSlate（两次，但不同领域）、Bing News、Crypto Briefing、The Block（两次）、Benzinga、thedefiant.io。"
+      "所有候选文章的article_excerpt均为Angular许可证文本，无实际新闻内容。本选题基于标题和摘要判断，并参照栏目规则筛选。",
+      "政策风向选择了美国CLARITY法案、SEC优先事项和香港监管法规，地区涵盖美国和香港。",
+      "行业前沿和市场动态优先选择了技术升级、基础设施和代币化相关新闻。",
+      "意见领袖选择了Peter Schiff和Anthony Pompliano两位知名人物的观点。"
     ]
   },
   "factcheck": {
     "ok": false,
     "errors": [
       "政策风向 requires at least one US-related item",
-      "item 1 body is too short: 1 paragraphs, expected at least 5",
-      "item 1 body is too short: 3 chars, expected at least 650",
-      "item 2 body is too short: 1 paragraphs, expected at least 5",
-      "item 2 body is too short: 70 chars, expected at least 650",
+      "item 1 body is too short: 4 paragraphs, expected at least 5",
+      "item 1 body is too short: 370 chars, expected at least 650",
+      "item 2 body is too short: 4 paragraphs, expected at least 5",
+      "item 2 body is too short: 444 chars, expected at least 650",
+      "item 3 body is too short: 4 paragraphs, expected at least 5",
+      "item 3 body is too short: 445 chars, expected at least 650",
       "item 5 body is too short: 1 paragraphs, expected at least 5",
-      "item 5 body is too short: 68 chars, expected at least 650",
-      "item 6 body is too short: 1 paragraphs, expected at least 5",
-      "item 6 body is too short: 49 chars, expected at least 650",
-      "item 7 body is too short: 1 paragraphs, expected at least 5",
-      "item 7 body is too short: 142 chars, expected at least 650",
-      "item 8 body is too short: 1 paragraphs, expected at least 4",
-      "item 8 body is too short: 97 chars, expected at least 500",
-      "item 9 body is too short: 1 paragraphs, expected at least 4",
-      "item 9 body is too short: 87 chars, expected at least 500"
+      "item 5 body is too short: 93 chars, expected at least 650",
+      "item 6 body is too short: 2 paragraphs, expected at least 5",
+      "item 6 body is too short: 260 chars, expected at least 650",
+      "item 7 body is too short: 3 paragraphs, expected at least 5",
+      "item 7 body is too short: 444 chars, expected at least 650",
+      "item 8 body is too short: 361 chars, expected at least 500",
+      "item 9 body is too short: 382 chars, expected at least 500"
     ],
     "warnings": [
       "政策风向未覆盖美国或香港，建议优先补充美国、香港监管动向",
-      "item 1 should include 1 to 3 key_points",
-      "item 4 contains relative time wording; replace with exact date",
       "source diversity is low: only 2 unique domains",
-      "domain fonts.googleapis.com appears 8 times; consider diversifying sources"
+      "domain angular.dev appears 8 times; consider diversifying sources"
     ]
   },
   "outputs": {
