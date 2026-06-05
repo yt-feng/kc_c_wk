@@ -29,11 +29,16 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--days", type=int, default=int(os.getenv("CRYPTO_OBSERVER_DAYS", "7")), help="Lookback window in days.")
     parser.add_argument("--output-root", default=os.getenv("CRYPTO_OBSERVER_OUTPUT_ROOT", "reports"), help="Output folder.")
     parser.add_argument("--max-raw-items", type=int, default=int(os.getenv("CRYPTO_OBSERVER_MAX_RAW_ITEMS", "500")), help="Maximum raw candidates to keep.")
-    parser.add_argument("--strict", dest="strict", action="store_true", help="Fail when fact-check has hard errors.")
-    parser.add_argument("--no-strict", dest="strict", action="store_false", help="Write draft even when fact-check has hard errors.")
+    parser.add_argument("--strict", dest="strict", action="store_true", help="Fail when main weekly fact-check has hard errors.")
+    parser.add_argument("--no-strict", dest="strict", action="store_false", help="Write weekly draft even when main fact-check has hard errors.")
+    parser.add_argument("--research-strict", dest="research_strict", action="store_true", help="Fail the workflow if standalone research generation fails.")
+    parser.add_argument("--research-no-strict", dest="research_strict", action="store_false", help="Keep the weekly report even if no suitable recent research PDF is found.")
     parser.add_argument("--skip-research", action="store_true", help="Skip standalone research report generation.")
     parser.add_argument("--verbose", action="store_true", help="Enable debug logging.")
-    parser.set_defaults(strict=(os.getenv("CRYPTO_OBSERVER_STRICT", "1") != "0"))
+    parser.set_defaults(
+        strict=(os.getenv("CRYPTO_OBSERVER_STRICT", "1") != "0"),
+        research_strict=(os.getenv("CRYPTO_OBSERVER_RESEARCH_STRICT", "0") == "1"),
+    )
     return parser.parse_args()
 
 
@@ -80,6 +85,7 @@ def main() -> None:
         LOGGER.info("Wrote %s", manifest_file)
 
         research_result = None
+        research_error = None
         if not args.skip_research:
             try:
                 research_result = generate_research(output_root, end)
@@ -89,16 +95,22 @@ def main() -> None:
                 LOGGER.info("Wrote %s", research_result["outputs"]["docx"])
                 LOGGER.info("Wrote %s", research_result["outputs"]["pdf"])
             except Exception as exc:
+                research_error = str(exc)
                 LOGGER.exception("Failed to generate standalone research report: %s", exc)
-                if args.strict:
+                marker = output_root / "_manifests" / f"专题研究_{end.strftime('%Y%m%d')}_FAILED.json"
+                marker.parent.mkdir(parents=True, exist_ok=True)
+                marker.write_text(json.dumps({"generated_at": end.isoformat(), "ok": False, "error": research_error}, ensure_ascii=False, indent=2), encoding="utf-8")
+                if args.research_strict:
                     sys.exit(1)
 
         hard_errors = list(fact.errors)
-        if research_result and not research_result.get("factcheck", {}).get("ok", False):
+        if research_result and args.research_strict and not research_result.get("factcheck", {}).get("ok", False):
             hard_errors.extend(research_result.get("factcheck", {}).get("errors", []))
         if args.strict and hard_errors:
             LOGGER.error("Fact check failed in strict mode: %s", "; ".join(hard_errors))
             sys.exit(1)
+        if research_error and not args.research_strict:
+            LOGGER.warning("Weekly report succeeded, but standalone research was skipped because no suitable recent PDF passed validation: %s", research_error)
     except Exception as exc:
         LOGGER.exception("Failed to generate report: %s", exc)
         sys.exit(1)
