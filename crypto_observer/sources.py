@@ -23,72 +23,19 @@ LOGGER = logging.getLogger(__name__)
 BEIJING_TZ = ZoneInfo("Asia/Shanghai")
 CHINESE_RE = re.compile(r"[\u4e00-\u9fff]")
 BAD_FINAL_HOSTS = (
-    "news.google.com",
-    "google.com",
-    "google-analytics.com",
-    "googletagmanager.com",
-    "googleapis.com",
-    "gstatic.com",
-    "googleusercontent.com",
-    "schema.org",
-    "w3.org",
-    "bing.com",
-    "msn.com",
-    "angular.dev",
+    "news.google.com", "google.com", "google-analytics.com", "googletagmanager.com", "googleapis.com", "gstatic.com", "googleusercontent.com", "schema.org", "w3.org", "bing.com", "msn.com", "angular.dev",
 )
-BAD_PATH_PARTS = (
-    "analytics.js",
-    "gtag/js",
-    "collect?",
-    "/rss/articles/",
-    "fonts.googleapis",
-    "fonts.gstatic",
-    ".ttf",
-    "/license",
-)
+BAD_PATH_PARTS = ("analytics.js", "gtag/js", "collect?", "/rss/articles/", "fonts.googleapis", "fonts.gstatic", ".ttf", "/license")
 NON_NEWS_TEXT_MARKERS = (
-    "@font-face",
-    "font-family",
-    "google sans",
-    "fonts.gstatic.com",
-    "fonts.googleapis.com",
-    "stylesheet",
-    "text/css",
-    "permission is hereby granted",
-    "the software is provided",
-    "mit license",
-    "copyright (c) 2010-2026 google llc",
-    "license • angular",
-    "license - angular",
-    "angular.dev/license",
-    "skip to main content menu",
+    "@font-face", "font-family", "google sans", "fonts.gstatic.com", "fonts.googleapis.com", "stylesheet", "text/css", "permission is hereby granted", "the software is provided", "mit license", "copyright (c) 2010-2026 google llc", "license • angular", "license - angular", "angular.dev/license", "skip to main content menu", "enable javascript", "accept cookies to continue",
 )
 DISCOVERY_SOURCES = {"Bing News", "Google News", "GDELT"}
-MIN_ARTICLE_TEXT_CHARS = 900
+MIN_ARTICLE_TEXT_CHARS = 700
 CONTENT_TERMS = (
-    "crypto", "bitcoin", "ethereum", "stablecoin", "token", "tokenization", "tokenisation", "blockchain", "defi", "web3", "digital asset", "layer 2", "layer2", "wallet", "protocol", "regulation", "sec", "cftc", "sfc", "hkma", "mica", "bank of england", "fca", "rwa", "smart contract", "staking", "rollup", "chain", "exchange", "market", "ether", "xrp", "solana", "treasury", "securities", "futures", "tokenized", "tokenised"
+    "crypto", "bitcoin", "ethereum", "stablecoin", "token", "tokenization", "tokenisation", "blockchain", "defi", "web3", "digital asset", "layer 2", "layer2", "wallet", "protocol", "regulation", "sec", "cftc", "sfc", "hkma", "mica", "bank of england", "fca", "rwa", "smart contract", "staking", "rollup", "chain", "exchange", "market", "ether", "xrp", "solana", "treasury", "securities", "futures", "tokenized", "tokenised", "prediction market", "casp",
 )
 SPECIAL_SOURCE_NAMES = {
-    "financefeeds.com": "FinanceFeeds",
-    "coindesk.com": "CoinDesk",
-    "cointelegraph.com": "Cointelegraph",
-    "theblock.co": "The Block",
-    "blockworks.co": "Blockworks",
-    "decrypt.co": "Decrypt",
-    "cryptoslate.com": "CryptoSlate",
-    "thedefiant.io": "The Defiant",
-    "glassnode.com": "Glassnode",
-    "messari.io": "Messari",
-    "sec.gov": "SEC",
-    "cftc.gov": "CFTC",
-    "treasury.gov": "US Treasury",
-    "federalreserve.gov": "Federal Reserve",
-    "sfc.hk": "Hong Kong SFC",
-    "hkma.gov.hk": "Hong Kong HKMA",
-    "bis.org": "BIS",
-    "bullish.com": "Bullish",
-    "cmegroup.com": "CME Group",
-    "backpack.exchange": "Backpack",
+    "financefeeds.com": "FinanceFeeds", "coindesk.com": "CoinDesk", "cointelegraph.com": "Cointelegraph", "theblock.co": "The Block", "blockworks.co": "Blockworks", "decrypt.co": "Decrypt", "cryptoslate.com": "CryptoSlate", "thedefiant.io": "The Defiant", "ledgerinsights.com": "Ledger Insights", "glassnode.com": "Glassnode", "messari.io": "Messari", "sec.gov": "SEC", "cftc.gov": "CFTC", "treasury.gov": "US Treasury", "federalreserve.gov": "Federal Reserve", "sfc.hk": "Hong Kong SFC", "hkma.gov.hk": "Hong Kong HKMA", "bis.org": "BIS", "esma.europa.eu": "ESMA", "fca.org.uk": "FCA", "bankofengland.co.uk": "Bank of England", "bullish.com": "Bullish", "cmegroup.com": "CME Group", "backpack.exchange": "Backpack",
 }
 
 
@@ -119,9 +66,7 @@ def window(days: int) -> tuple[datetime, datetime]:
 
 
 def norm_text(value: object) -> str:
-    if value is None:
-        return ""
-    return re.sub(r"\s+", " ", html.unescape(str(value))).strip()
+    return re.sub(r"\s+", " ", html.unescape(str(value or ""))).strip()
 
 
 def norm_url(value: str) -> str:
@@ -168,11 +113,7 @@ def host(url: str) -> str:
 
 def source_name_from_url(url: str, html_text: str = "") -> str:
     soup = BeautifulSoup(html_text or "", "html.parser")
-    for selector, attr in (
-        ('meta[property="og:site_name"]', "content"),
-        ('meta[name="application-name"]', "content"),
-        ('meta[name="twitter:site"]', "content"),
-    ):
+    for selector, attr in (('meta[property="og:site_name"]', "content"), ('meta[name="application-name"]', "content"), ('meta[name="twitter:site"]', "content")):
         node = soup.select_one(selector)
         if node and node.get(attr):
             value = norm_text(node.get(attr)).lstrip("@")
@@ -223,7 +164,7 @@ def is_article_text_allowed(title: str, text: str, url: str) -> bool:
         return False
     if any(marker in low for marker in NON_NEWS_TEXT_MARKERS):
         return False
-    if low.count("https://") > 12 and len(text) < 3000:
+    if low.count("https://") > 14 and len(text) < 3200:
         return False
     if not any(term in low for term in CONTENT_TERMS):
         return False
@@ -283,8 +224,7 @@ def parse_rss(xml_text: str, query: str, start: datetime, end: datetime, source_
 
 def fetch_google(query: str, start: datetime, end: datetime, section_hint: str) -> list[RawItem]:
     try:
-        text = request_text(google_news_url(query, (end - start).days or 1), 15)
-        return parse_rss(text, query, start, end, "Google News", "https://news.google.com/", section_hint)
+        return parse_rss(request_text(google_news_url(query, (end - start).days or 1), 15), query, start, end, "Google News", "https://news.google.com/", section_hint)
     except Exception as exc:
         LOGGER.debug("google news failed: %s", exc)
         return []
@@ -292,23 +232,14 @@ def fetch_google(query: str, start: datetime, end: datetime, section_hint: str) 
 
 def fetch_bing(query: str, start: datetime, end: datetime, section_hint: str) -> list[RawItem]:
     try:
-        text = request_text(bing_news_url(query), 15)
-        return parse_rss(text, query, start, end, "Bing News", "https://www.bing.com/news/search", section_hint)
+        return parse_rss(request_text(bing_news_url(query), 15), query, start, end, "Bing News", "https://www.bing.com/news/search", section_hint)
     except Exception as exc:
         LOGGER.debug("bing news failed: %s", exc)
         return []
 
 
 def fetch_gdelt(query: str, start: datetime, end: datetime, section_hint: str) -> list[RawItem]:
-    params = urllib.parse.urlencode({
-        "query": query,
-        "mode": "artlist",
-        "format": "json",
-        "maxrecords": "50",
-        "sort": "hybridrel",
-        "startdatetime": start.astimezone(timezone.utc).strftime("%Y%m%d%H%M%S"),
-        "enddatetime": end.astimezone(timezone.utc).strftime("%Y%m%d%H%M%S"),
-    })
+    params = urllib.parse.urlencode({"query": query, "mode": "artlist", "format": "json", "maxrecords": "80", "sort": "hybridrel", "startdatetime": start.astimezone(timezone.utc).strftime("%Y%m%d%H%M%S"), "enddatetime": end.astimezone(timezone.utc).strftime("%Y%m%d%H%M%S")})
     url = f"https://api.gdeltproject.org/api/v2/doc/doc?{params}"
     try:
         data = requests.get(url, headers={"User-Agent": USER_AGENT, "Accept": "application/json"}, timeout=15).json()
@@ -332,7 +263,7 @@ def _best_article_candidates(html_text: str) -> list[str]:
     for tag in soup(["script", "style", "noscript", "svg", "footer", "header", "nav", "aside", "form"]):
         tag.decompose()
     candidates: list[str] = []
-    for selector in ("article", "main", "[role=main]", ".article", ".post", ".entry-content", ".story", ".content"):
+    for selector in ("article", "main", "[role=main]", ".article", ".post", ".entry-content", ".story", ".content", ".article-content", ".post-content"):
         for node in soup.select(selector):
             text = norm_text(node.get_text(" "))
             if len(text) > 500:
@@ -350,9 +281,7 @@ def _extract_direct_urls_from_html(html_text: str) -> list[str]:
     out: list[str] = []
     for raw in found:
         url = norm_url(urllib.parse.unquote(raw).rstrip("),.;"))
-        if not is_final_url_allowed(url):
-            continue
-        if url not in out:
+        if is_final_url_allowed(url) and url not in out:
             out.append(url)
     return out
 
@@ -378,15 +307,14 @@ def fetch_article_text(url: str, timeout: int = 18) -> tuple[str, str, str]:
         publisher = source_name_from_url(final_url, r.text)
         if not is_article_text_allowed("", text, final_url):
             return "", final_url, publisher
-        return text[:9000], final_url, publisher
+        return text[:14000], final_url, publisher
     except Exception as exc:
         LOGGER.debug("article fetch failed for %s: %s", url, exc)
         return "", url, ""
 
 
 def _prefer_item(current: RawItem, candidate: RawItem) -> RawItem:
-    current_good = is_final_url_allowed(current.url)
-    candidate_good = is_final_url_allowed(candidate.url)
+    current_good, candidate_good = is_final_url_allowed(current.url), is_final_url_allowed(candidate.url)
     if not current_good and candidate_good:
         candidate.google_wrapper_url = current.google_wrapper_url or current.url
         if not candidate.summary and current.summary:
@@ -406,8 +334,7 @@ def dedupe(items: Iterable[RawItem]) -> list[RawItem]:
     by_url: dict[str, RawItem] = {}
     by_title: dict[str, RawItem] = {}
     for item in items:
-        key = item.stable_key()
-        tkey = title_key(item.title)
+        key, tkey = item.stable_key(), title_key(item.title)
         if tkey and tkey in by_title:
             merged = _prefer_item(by_title[tkey], item)
             by_title[tkey] = merged
@@ -423,12 +350,11 @@ def dedupe(items: Iterable[RawItem]) -> list[RawItem]:
     out: list[RawItem] = []
     for item in by_url.values():
         if id(item) not in seen:
-            seen.add(id(item))
-            out.append(item)
+            seen.add(id(item)); out.append(item)
     return out
 
 
-def enrich_articles(items: list[RawItem], limit: int = 120) -> list[RawItem]:
+def enrich_articles(items: list[RawItem], limit: int = 240) -> list[RawItem]:
     enriched: list[RawItem] = []
     for idx, item in enumerate(items):
         if idx < limit:
@@ -449,20 +375,18 @@ def enrich_articles(items: list[RawItem], limit: int = 120) -> list[RawItem]:
         if is_article_text_allowed(item.title, item.article_text or "", item.url):
             enriched.append(item)
         if idx < limit:
-            time.sleep(0.03)
+            time.sleep(0.02)
     return enriched
 
 
-def collect(days: int = 3, max_items: int = 360) -> tuple[list[RawItem], list[str]]:
+def collect(days: int = 7, max_items: int = 500) -> tuple[list[RawItem], list[str]]:
     start, end = window(days)
     items: list[RawItem] = []
     errors: list[str] = []
     queries: list[tuple[str, str]] = []
     for section in SECTION_ORDER:
-        for q in SECTION_QUERIES.get(section, ()):
-            queries.append((section, q))
-    for _, site_query in TRACKED_SITES.items():
-        queries.append(("", site_query))
+        for q in SECTION_QUERIES.get(section, ()): queries.append((section, q))
+    for _, site_query in TRACKED_SITES.items(): queries.append(("", site_query))
     for section, query in queries:
         before = len(items)
         items.extend(fetch_bing(query, start, end, section))
@@ -470,10 +394,10 @@ def collect(days: int = 3, max_items: int = 360) -> tuple[list[RawItem], list[st
         items.extend(fetch_google(query, start, end, section))
         if len(items) == before:
             errors.append(f"no candidates for query: {query}")
-        time.sleep(0.05)
+        time.sleep(0.04)
     final = dedupe(items)
     final.sort(key=lambda x: parse_datetime(x.published_at) or start, reverse=True)
-    enriched = enrich_articles(final[:max_items])
-    if len(enriched) < 20:
+    enriched = enrich_articles(final[:max_items], limit=min(max_items, 260))
+    if len(enriched) < 12:
         errors.append(f"only {len(enriched)} verified source articles with reachable original URLs and body text")
     return enriched[:max_items], errors[:80]
