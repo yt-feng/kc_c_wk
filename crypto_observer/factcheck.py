@@ -26,6 +26,20 @@ BAD_BODY_TERMS = (
     "stylesheet",
 )
 DISCOVERY_SOURCE_NAMES = {"Bing News", "Google News", "GDELT"}
+UNSUPPORTED_EDITORIAL_PHRASES = (
+    "未决问题",
+    "整体来看",
+    "这一立法动向反映出",
+    "从更广阔的市场视角看",
+    "未来数周",
+    "仍需后续观察",
+    "正成为不可忽视",
+    "这至少表明",
+    "可能引发管辖权重叠",
+    "将面临更严格的合规要求",
+)
+ATTRIBUTION_RISK_PHRASES = ("业内人士指出", "分析师认为", "分析师指出", "市场观察人士", "投资者认为")
+UNSUPPORTED_QUESTION_PHRASES = ("能否", "是否能够", "是否会", "会否", "是否可以")
 
 
 @dataclass
@@ -77,6 +91,18 @@ def _min_body_paragraphs(section: str) -> int:
 def _body_fingerprint(text: str) -> str:
     compact = re.sub(r"\W+", "", (text or "").lower())[:1800]
     return hashlib.sha1(compact.encode("utf-8")).hexdigest() if compact else ""
+
+
+def _has_unsupported_editorial_text(text: str) -> bool:
+    return any(phrase in text for phrase in UNSUPPORTED_EDITORIAL_PHRASES)
+
+
+def _has_attribution_risk(text: str) -> bool:
+    return any(phrase in text for phrase in ATTRIBUTION_RISK_PHRASES)
+
+
+def _has_question_risk(text: str) -> bool:
+    return any(phrase in text for phrase in UNSUPPORTED_QUESTION_PHRASES)
 
 
 def check_report(report: dict[str, object], start: datetime, end: datetime) -> FactCheckResult:
@@ -144,6 +170,12 @@ def check_report(report: dict[str, object], start: datetime, end: datetime) -> F
             errors.append(f"item {idx} uses discovery source instead of publisher: {source_name}")
         if any(term in low for term in BAD_BODY_TERMS):
             errors.append(f"item {idx} appears to use license/CSS/non-news content")
+        if _has_unsupported_editorial_text(all_cn_text):
+            errors.append(f"item {idx} contains unsupported editorial-summary phrasing; remove source-external commentary")
+        if _has_attribution_risk(all_cn_text):
+            errors.append(f"item {idx} contains risky generic attribution such as analyst/industry-insider claims")
+        if _has_question_risk(all_cn_text):
+            warnings.append(f"item {idx} contains question-style future/unknown wording; ensure the source explicitly raises it")
         if not (url.startswith("http://") or url.startswith("https://")):
             errors.append(f"item {idx} has invalid url: {url}")
         if not is_final_url_allowed(url):
