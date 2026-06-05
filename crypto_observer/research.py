@@ -47,9 +47,13 @@ TARGET_RESEARCH_PARAGRAPHS = 36
 MONTHS = {
     "january": 1, "february": 2, "march": 3, "april": 4, "may": 5, "june": 6,
     "july": 7, "august": 8, "september": 9, "october": 10, "november": 11, "december": 12,
-    "jan": 1, "feb": 2, "mar": 3, "apr": 4, "jun": 6, "jul": 7, "aug": 8,
+    "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6, "jul": 7, "aug": 8,
     "sep": 9, "sept": 9, "oct": 10, "nov": 11, "dec": 12,
 }
+PUBLICATION_CONTEXT_WORDS = (
+    "published", "publication", "released", "release date", "report date", "date of report", "updated", "last updated",
+    "as of", "prepared", "prepared on", "issued", "issue date", "research report", "monthly report", "quarterly report",
+)
 
 
 @dataclass
@@ -143,33 +147,105 @@ def _within(dt: datetime | None, run_date: datetime, lookback_days: int = RESEAR
     return bool(dt and run_date - timedelta(days=lookback_days) <= dt <= run_date)
 
 
-def _explicit_recent_date_evidence(candidate: ResearchCandidate, text: str, run_date: datetime) -> list[str]:
-    """Accept only explicit report/search dates, not PDF metadata dates.
+def _date_from_match(year: str, month: str, day: str | None = None) -> datetime | None:
+    try:
+        dd = int(day) if day else 1
+        return datetime(int(year), int(month), dd, tzinfo=BEIJING_TZ)
+    except Exception:
+        return None
 
-    PDF metadata often reflects download/build time and caused stale reports to pass.
-    """
-    evidence: list[str] = []
-    dt = _parse_iso_datetime(candidate.published_at)
-    if _within(dt, run_date):
-        evidence.append(f"search_published_at={candidate.published_at}")
-    combined = f"{candidate.title} {candidate.snippet} {candidate.url} {text[:18000]}".lower()
-    start = run_date - timedelta(days=RESEARCH_LOOKBACK_DAYS)
-    for match in re.finditer(r"\b(20\d{2})[-/](0?[1-9]|1[0-2])[-/](0?[1-9]|[12]\d|3[01])\b", combined):
-        try:
-            found = datetime(int(match.group(1)), int(match.group(2)), int(match.group(3)), tzinfo=BEIJING_TZ)
-        except ValueError:
-            continue
-        if start <= found <= run_date:
-            evidence.append(f"explicit_date={found.date().isoformat()}")
-    for match in re.finditer(r"\b(january|february|march|april|may|june|july|august|september|october|november|december|jan|feb|mar|apr|jun|jul|aug|sep|sept|oct|nov|dec)\s+(?:\d{1,2},\s*)?(20\d{2})\b", combined):
+
+def _find_explicit_dates(text: str, *, allow_month_only: bool = True) -> list[datetime]:
+    low = text.lower()
+    dates: list[datetime] = []
+    for match in re.finditer(r"\b(20\d{2})[-_/](0?[1-9]|1[0-2])[-_/](0?[1-9]|[12]\d|3[01])\b", low):
+        dt = _date_from_match(match.group(1), match.group(2), match.group(3))
+        if dt:
+            dates.append(dt)
+    for match in re.finditer(r"\b(0?[1-9]|[12]\d|3[01])[-_/](0?[1-9]|1[0-2])[-_/](20\d{2})\b", low):
+        dt = _date_from_match(match.group(3), match.group(2), match.group(1))
+        if dt:
+            dates.append(dt)
+    for match in re.finditer(r"\b(january|february|march|april|may|june|july|august|september|october|november|december|jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)\s+(\d{1,2},\s*)?(20\d{2})\b", low):
         month = MONTHS.get(match.group(1))
-        year = int(match.group(2))
-        if not month:
-            continue
-        found = datetime(year, month, 1, tzinfo=BEIJING_TZ)
-        if start.replace(day=1) <= found <= run_date:
-            evidence.append(f"explicit_month={year}-{month:02d}")
+        day = (match.group(2) or "").replace(",", "").strip() or None
+        if month:
+            dt = _date_from_match(match.group(3), str(month), day)
+            if dt:
+                dates.append(dt)
+    if allow_month_only:
+        for match in re.finditer(r"\b(january|february|march|april|may|june|july|august|september|october|november|december|jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)\s+(20\d{2})\b", low):
+            month = MONTHS.get(match.group(1))
+            if month:
+                dt = _date_from_match(match.group(2), str(month))
+                if dt:
+                    dates.append(dt)
+        for match in re.finditer(r"\b(20\d{2})[-_/](0?[1-9]|1[0-2])\b", low):
+            dt = _date_from_match(match.group(1), match.group(2))
+            if dt:
+                dates.append(dt)
+    out: list[datetime] = []
+    seen: set[str] = set()
+    for dt in dates:
+        key = dt.date().isoformat()
+        if key not in seen:
+            seen.add(key)
+            out.append(dt)
+    return out
+
+
+def _publication_date_evidence(candidate: ResearchCandidate, text: str, run_date: datetime) -> list[str]:
+    """Require an explicit publication/release date for the report itself.
+
+    Do not accept arbitrary dates inside the report body, because old reports often
+    mention current or future dates in charts and examples. Search-engine crawl
+    dates are treated as supporting evidence only, never sufficient by themselves.
+    """
+    start = run_date - timedelta(days=RESEARCH_LOOKBACK_DAYS)
+    evidence: list[str] = []
+    title_url_snippet = f"{candidate.title} {candidate.url} {candidate.snippet}"
+
+    for label, source in (("title_url_snippet", title_url_snippet),):
+        for dt in _find_explicit_dates(source, allow_month_only=True):
+            if start <= dt <= run_date:
+                evidence.append(f"{label}={dt.date().isoformat()}")
+
+    cover_text = text[:4500]
+    cover_low = cover_text.lower()
+    for dt in _find_explicit_dates(cover_text, allow_month_only=True):
+        date_token = dt.strftime("%Y-%m")
+        pos = cover_low.find(date_token)
+        if pos < 0:
+            date_token = dt.strftime("%Y/%m")
+            pos = cover_low.find(date_token)
+        if pos < 0:
+            for month_name, month_no in MONTHS.items():
+                if month_no == dt.month and str(dt.year) in cover_low:
+                    idx = cover_low.find(month_name)
+                    if idx >= 0:
+                        pos = idx
+                        break
+        window = cover_low[max(0, pos - 140) : pos + 180] if pos >= 0 else cover_low[:700]
+        has_context = any(word in window for word in PUBLICATION_CONTEXT_WORDS) or pos < 900
+        if has_context and start <= dt <= run_date:
+            evidence.append(f"cover_publication_date={dt.date().isoformat()}")
+
+    # Search result dates help score a candidate, but only after a real report date exists.
+    search_dt = _parse_iso_datetime(candidate.published_at)
+    if evidence and _within(search_dt, run_date):
+        evidence.append(f"search_seen_at={candidate.published_at}")
+
     return list(dict.fromkeys(evidence))[:8]
+
+
+def _stale_report_date_markers(candidate: ResearchCandidate, text: str, run_date: datetime) -> list[str]:
+    start = run_date - timedelta(days=RESEARCH_LOOKBACK_DAYS)
+    markers: list[str] = []
+    strict_source = f"{candidate.title} {candidate.url} {candidate.snippet} {text[:2500]}"
+    for dt in _find_explicit_dates(strict_source, allow_month_only=True):
+        if dt < start:
+            markers.append(dt.date().isoformat())
+    return sorted(set(markers))[:6]
 
 
 def _add_candidate(out: list[ResearchCandidate], seen: set[str], *, title: str, url: str, source_name: str, published_at: str = "", snippet: str = "") -> None:
@@ -295,7 +371,7 @@ def _score_candidate(candidate: ResearchCandidate, text: str, evidence: list[str
     score = sum(5 for term in REPORT_TERMS if term in combined)
     score += 12 if any(x in combined for x in ("report", "research", "outlook", "whitepaper", "state of")) else 0
     score += min(len(text) // 2500, 18)
-    score += len(evidence) * 12
+    score += len(evidence) * 20
     preferred = ("pwc", "kpmg", "bcg", "mckinsey", "bis", "deloitte", "ey", "pitchbook", "citi", "jpmorgan", "coinbase", "chainalysis", "galaxy", "coinshares", "crypto.com")
     if any(x in candidate.source_name.lower() for x in preferred):
         score += 8
@@ -311,10 +387,13 @@ def _choose_pdf(output_dir: Path, run_date: datetime) -> tuple[ResearchCandidate
             continue
         text = _read_pdf(pdf_path)
         low = text.lower()
-        evidence = _explicit_recent_date_evidence(candidate, text, run_date)
+        evidence = _publication_date_evidence(candidate, text, run_date)
+        stale_markers = _stale_report_date_markers(candidate, text, run_date)
         valid = len(text) >= MIN_SOURCE_CHARS and any(term in low for term in REPORT_TERMS) and bool(evidence)
+        if stale_markers and not evidence:
+            valid = False
         if not valid:
-            rejected.append(f"{candidate.source_name}: {candidate.title[:90]} text={len(text)} evidence={evidence}")
+            rejected.append(f"{candidate.source_name}: {candidate.title[:90]} text={len(text)} evidence={evidence} stale={stale_markers}")
             try:
                 pdf_path.unlink(missing_ok=True)
             except Exception:
@@ -460,8 +539,11 @@ def check_research(research: dict[str, Any]) -> dict[str, Any]:
         errors.append("未在仓库输出目录保存英文原文 PDF")
     if not research.get("source_url"):
         errors.append("缺少英文原文 PDF 链接")
-    if not research.get("recent_date_evidence"):
-        errors.append("缺少近两个月内的报告日期证据")
+    evidence = research.get("recent_date_evidence") or []
+    if not evidence:
+        errors.append("缺少近两个月内的报告发布日期证据")
+    elif not any(str(x).startswith(("title_url_snippet=", "cover_publication_date=")) for x in evidence):
+        errors.append("专题研究日期证据不是报告本身的发布日期")
     return {"ok": not errors, "errors": errors, "warnings": warnings}
 
 
@@ -469,7 +551,7 @@ def generate_research(output_root: Path, run_date: datetime) -> dict[str, Any]:
     source_dir = output_root / "research_sources" / run_date.strftime("%Y%m%d")
     candidate, pdf_path, text, evidence = _choose_pdf(source_dir, run_date)
     if not candidate or not pdf_path:
-        raise RuntimeError("No suitable recent long-form English PDF research report found within the required two-month window")
+        raise RuntimeError("No suitable recent long-form English PDF research report found within the required two-month publication window")
     research = _compile_research(candidate, pdf_path, text, evidence)
     output_file = output_root / f"专题研究_{run_date.strftime('%Y%m%d')}.docx"
     write_research_docx(research, output_file)
