@@ -1,0 +1,274 @@
+{
+  "generated_at": "2026-06-05T13:43:07+08:00",
+  "period": "2026-05-29 13:43 至 2026-06-05 13:43（北京时间，最近7天）",
+  "raw_count": 12,
+  "collection_warnings": [
+    "no candidates for query: cross chain oracle RWA infrastructure wallet staking rollup interoperability crypto",
+    "no candidates for query: crypto acquisition funding IPO futures CME stablecoin revenue tokenized securities",
+    "no candidates for query: crypto company raises acquires launches futures ETF tokenized fund stablecoin adoption",
+    "no candidates for query: site:blockworks.co (crypto OR bitcoin OR ethereum OR stablecoin OR tokenization OR digital assets)",
+    "no candidates for query: site:info.gov.hk (virtual asset OR crypto OR stablecoin OR tokenisation)",
+    "only 12 verified source articles with reachable original URLs and body text"
+  ],
+  "report": {
+    "items": [
+      {
+        "section": "政策风向",
+        "title_cn": "共和党议员拟将预测市场纳入国会股票禁令法案",
+        "source_title": "Republican Lawmaker Plans to Add Prediction Markets to Congressional Stock Ban Bill",
+        "event_date": "-",
+        "key_points": [
+          "众议院共和党议员Bryan Steil计划修订H.R. 7008法案，将Polymarket、Kalshi等预测市场纳入监管范围。",
+          "继参议院通过禁止议员投注决议后，众议院监督委员会亦对两家平台发起调查，联邦监管力度持续升级。",
+          "该法案自2月通过委员会后一直搁置，Steil希望今夏投票，但数字资产尚未被明确覆盖。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "共和党众议员Bryan Steil（威斯康星州共和党人）近日表示，计划在国会股票禁令法案中加入针对Polymarket、Kalshi等预测市场的条款。Steil在记者圆桌会上称，国会议员不应就选举或公共政策下注，相关内幕交易限制应同样适用于这些平台。这一表态标志着联邦层面打击预测市场的立法行动进一步扩大。",
+          "目前众议院审议中的H.R. 7008法案，旨在全面禁止议员、配偶及受抚养人购买公开交易股票，并要求在出售前至少七天公开发布“出售意向”通知。违规者将面临2000美元或投资价值10%（取较高者）的罚款，并没收全部已实现收益。该法案于今年2月提交至众议院，但最新版本并未明确覆盖数字资产。",
+          "Steil强调，预测市场可能损害市场诚信并威胁国家安全。他提到一名美军士兵被指控利用预测市场交易军事行动的事件，认为这凸显了监管的必要性。他在发言中表示：“在与同僚及公众的交流中，我不认为任何人认为国会议员应该对选举或公共政策进行交易。”",
+          "近期，联邦层面针对预测市场的监管行动密集展开。参议院于4月通过决议，禁止议员参与预测市场投注，成为首个针对政府官员此类行为的主要监管行动。众议院监督委员会主席James Comer（肯塔基州共和党人）上月也对Polymarket和Kalshi发起调查，称“预测市场内幕交易活动的增多表明国会行动可能必要”。",
+          "此外，据《华尔街日报》报道，白宫助手已于3月被指示不得在预测市场上下注。该指令发生在总统特朗普通过社交媒体宣布暂停中东冲突的次日，进一步凸显了行政部门对预测市场风险的警惕。",
+          "H.R. 7008法案自2月通过委员会后一直搁置在众议院议事日程中，尚未安排辩论和投票。Steil表示希望今年夏天能付诸表决，但具体时间未定。若该法案最终通过，将显著扩大对议员金融交易的监管范围，并填补预测市场这一新兴领域的空白。",
+          "目前尚不清楚法案将如何具体定义和监管预测市场。Polymarket和Kalshi等平台允许用户对事件结果进行投注，涉及加密货币交易。立法者需在打击内幕交易与保护金融创新之间寻求平衡。此外，数字资产未被明确覆盖，未来可能通过修正案补充相关条款。"
+        ],
+        "source_name": "Decrypt",
+        "url": "https://decrypt.co/370086/republican-lawmaker-add-prediction-markets-ongressional-stock-ban-bill",
+        "published_at": "2026-06-04T22:03:00+08:00",
+        "region": "美国",
+        "fact_check": "编译自Decrypt报道，所有信息均源自原文及摘要，未添加外部事实。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "Kalshi推出首个受监管美国比特币永续合约衍生品格局重塑",
+        "source_title": "Kalshi Shifts Derivatives Landscape by Launching First Regulated U.S. Bitcoin Perpetuals",
+        "event_date": "2026-06-04",
+        "key_points": [
+          "预测市场平台Kalshi推出美国首个受CFTC监管的比特币永续期货（BTCPERP），填补国内机构在永续合约市场的流动性缺口。",
+          "合约无到期日、24小时交易，采用每八小时重置的资金费率锚定现货价格，现金结算，挑战传统期货的展期机制。",
+          "Kalshi与Coinbase等巨头形成直接竞争，双方均获得CFTC许可但路径迥异：Kalshi自主建设国内清算池，Coinbase则接入Deribit离岸流动性。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "知名预测市场平台Kalshi正式向美国公众提供比特币永续期货（Bitcoin perpetual futures，BTCPERP）交易。这标志着金融史上首个在美国商品期货交易委员会（Commodity Futures Trading Commission，CFTC）直接监管下清算和挂牌的永续合约诞生。Kalshi首席执行官Tarek Mansour表示，这一部署是Kalshi从简单的二元事件合约向下一代全服务衍生品交易所演进的关键一步。",
+          "合规的国内永续市场解决了长期存在的流动性鸿沟——全球永续掉期市场几乎完全在离岸、无监管的框架下运行，累计交易量已突破90万亿美元。Kalshi将这一资产类别纳入美国法律框架，为国内企业和商业实体提供了受监管、资本高效的替代方案，消除了法律摩擦和离岸交易对手风险。CFTC清算与风险部门已发布员工指引，要求市场参与者在周末和夜间维持稳健的风险管理标准。",
+          "BTCPERP合约的核心机制旨在提供直接、无摩擦的比特币价格敞口，无需传统期货的展期操作。合约无到期日，全部以美元现金结算，追踪比特币现货价格，并利用每八小时重置的嵌入式资金费率机制，使衍生品价格持续锚定全球现货指数。为适应数字资产市场的不间断特性，交易所实行7×24小时连续交易。目前Kalshi使用美元法币作为交易池抵押品，但已规划在本财季晚些时候整合合规稳定币抵押选项，以进一步优化机构流动性通道。",
+          "Kalshi的永续合约上线立即在美国金融版图上点燃了激烈的市场份额争夺战。Tarek Mansour将此次发布视为概念上的飞跃：预测市场是“世界在想什么”的快照，而永续期货是投资者信念的连续“电影”。交易所正利用监管先发优势，提交次要申请，计划为另外十多种主要数字货币上线永续合约，并明确将自己定位为所有合规加密衍生品交易的国内默认流动性场所。",
+          "这一激进的扩张策略使Kalshi与Coinbase等主流加密巨头正面交锋。Coinbase同样获得了CFTC许可，计划通过让美国客户接入迪拜衍生品交易所Deribit的现有全球流动性池来扩大自身的永续产品。而Kalshi则选择了截然不同的运营路径：完全从零开始在单一国内清算框架下构建订单簿。随着传统经纪商和专业电子交易台准备在夏季整合这些受监管工具，美国数字资产生态系统正迎来新时代。",
+          "【意见领袖】Kalshi首席执行官Tarek Mansour将历史性上线描述为“深刻的观念飞跃”，认为永续合约捕捉的是投资者信念的连续变化，而非预测市场那样的静态快照。他强调，Kalshi的目标是成为所有合规加密衍生品交易的国内首选流动性场所，并已通过CFTC的监管批准获得了先发优势。",
+          "目前，永续合约交易的可用性及市场反应尚在初期阶段，但Kalshi的上线已迫使美国监管机构重新审视数字资产衍生品的合规框架。CFTC在批准过程中发布了周末和夜间风险管理的额外指引，显示出监管层对新型持续结算基础设施的审慎态度。未来，Kalshi与Coinbase的差异化路径将如何演变，以及国内永续市场能否吸收离岸天量交易量，仍需进一步观察。",
+          "业内人士指出，Kalshi的成功上线标志着美国加密衍生品监管从碎片化走向系统化。然而，CFTC是否会对其他类似产品采取统一标准，以及稳定币抵押的落地时间表，仍是市场关注的未决问题。接下来几个月，传统金融机构的接入步伐和监管后续动作，将决定这一新兴生态的最终走向。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/kalshi-shifts-derivatives-landscape-by-launching-first-regulated-u-s-bitcoin-perpetuals/",
+        "published_at": "2026-06-04T20:26:00+08:00",
+        "region": "美国",
+        "fact_check": "基于原文FinanceFeeds报道编译，未添加外部信息。事件日期、合约条款、监管动态等均出自原文。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "Zcash面临残酷六月交易者关注新低",
+        "source_title": "Zcash Faces a Brutal June as Traders Eye New Lows",
+        "event_date": "2026-06-04",
+        "key_points": [
+          "Zcash 在2026年6月初跌破620美元，日线出现看跌背离，交易者关注568美元支撑位是否守住。",
+          "Grayscale 于5月申请将其现有Zcash信托转换为首只现货隐私币ETF，若获批将大幅扩大机构准入。",
+          "美国SEC在2026年1月结束对Zcash的长期审查且未采取执法行动，清除了阻碍机构参与隐私币的关键监管不确定性。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Zcash 在2026年6月初跌破620美元，日线图形成强烈看跌背离，交易者正关注其能否守住关键支撑位。根据TradingView分析，ZEC在5月9日触及638美元时出现该形态，随后在后续交易时段暴跌152美元。如今背离再度出现，提示短期回调风险。Zcash目前交投于一个上升三角形形态内，阻力区间在680至700美元，但50日均线向下，200日均线自5月下旬开始上升，信号混杂。Cryptonomist指出，回撤至568美元虽痛苦但在结构上可接受，只有日线收盘价高于642美元才能否定看跌情景。",
+          "在技术面承压的同时，基本面迎来重大利好。Grayscale于2026年5月8日申请将其现有Zcash信托转换为现货交易所交易基金，这将是首只寻求美国上市的隐私币ETF。鉴于Grayscale此前成功将比特币和以太坊信托转换为ETF，该申请获批路径被认为可行。与此同时，Multicoin Capital披露自2026年2月以来持续增持ZEC，理由是隐私保护金融基础设施在数字资产市场中日益重要。此外，Robinhood已上线ZEC零售交易，并观察到隐私好奇用户的留存指标改善。Foundry Digital于4月推出机构级Zcash矿池，支持算力分散化。",
+          "监管层面的突破是这一轮机构兴趣激增的关键催化剂。美国SEC在2026年1月结束了对Zcash的长期审查，未采取任何执法行动，这一决定实质上消除了多年来阻碍机构交易台接触隐私币的监管阴影。Zcash的屏蔽供应市场份额在2026年初约为8%，目前已稳定在23%左右，表明隐私功能的使用呈现结构性增长而非投机性泡沫。然而，未来SEC主席可能转变对隐私币的态度，更广泛的CLARITY Act框架若通过将提供法定清晰度，但不会专门解决隐私增强技术问题。",
+          "Zcash并非在真空中运行。以太坊正在开发隐身地址功能，Cardano则构建隐私侧链Midnight。如果以太坊的隐身地址达到生产质量，对于已持有ETH的交易者而言，单独持有隐私代币的论据将被削弱。ZEC在5月6日曾暴涨40%至600美元，短暂超越Monero成为市值最大的隐私币。分析师预计，如果看涨势头和Z协议开发按计划推进，2026年价格区间可能在480至850美元之间。",
+          "当前Zcash的6月走势取决于两个关键变量：一是568美元支撑位能否在整个市场修正中守住；二是Grayscale的ETF申请进展。分析师预计，若资金持续流入，ZEC可能在6月底达到675美元，但跌破568美元则将打开跌向518美元的空间。需要强调的是，所有前瞻性预测均为推测性观点，不构成投资建议。Z协议升级时间线和SEC对Grayscale申请的反馈将是Q3的主要催化剂。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/zcash-faces-a-brutal-june-as-traders-eye-new-lows/",
+        "published_at": "2026-06-04T20:35:00+08:00",
+        "region": "Global",
+        "fact_check": "基于FinanceFeeds报道编译，原文作者为Damilola Esebame，内容仅使用原文和摘要中的信息，未添加外部事实。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "Visa与Brale联合测试SBC稳定币探索隐私保护型机构结算",
+        "source_title": "Visa and Brale Test SBC Stablecoin for Institutional Settlement",
+        "event_date": "2026-06-05",
+        "key_points": [
+          "Visa与Brale启动概念验证，在Canton Network上测试美元挂钩稳定币SBC用于机构结算。",
+          "测试重点评估隐私保护区块链能否支持可编程且不泄露商业敏感信息的支付流程。",
+          "该项目标志着稳定币从加密交易工具向受监管金融机构间结算资产的角色转变。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "支付巨头Visa与代币化平台Brale近日联合启动一项概念验证（proof-of-concept），测试基于Canton Network的稳定币SBC（一种由Brale发行的美元挂钩代币）用于机构结算。该合作旨在评估支持隐私功能的区块链基础设施能否在赋予金融机构对交易数据可见性更大控制权的同时，承载机构支付流量。这对于受监管实体之间的结算至关重要，因为传统系统往往在速度、成本和跨境效率上存在短板。",
+          "Visa计划将SBC作为机构结算用例的又一稳定币选项进行考察。基于Canton Network的原生支持，双方将测试该代币在需要可编程性、隐私控制和操作可靠性的支付流程中的表现。Visa加密业务主管Cuy Sheffield表示：“通过与Brale的合作，我们正在探索Canton Network上的SBC如何支持既需可编程性又需隐私控制的机构结算场景。这项合作有助于我们评估将这些能力引入生产环境所需的条件。”",
+          "机构结算与公开加密转账有着截然不同的要求。银行、支付公司、资产管理者及企业财资团队需要共享结算轨道，但同时必须限制对手方、交易金额、流动性变动及商业关系等信息的可见性。Canton Network正是围绕隐私保护区块链基础设施构建，这使得它在需要可编程性但不愿完全公开交易数据的机构场景中具备相关性。",
+          "Visa强调，本次测试并非零售支付实验，而是面向生产级机构结算，其核心要求是合规性、隐私性和可靠性，这些是任何大规模推广前必须验证的前提。自2021年首次启用稳定币结算以来，Visa持续扩展相关布局。该公司透露，截至今年4月，其稳定币结算试点的年化处理规模已达70亿美元，环比增长50%，覆盖包括Arc、Base、Canton、Polygon、Tempo、Avalanche、以太坊（Ethereum）、Solana和Stellar在内的9条区块链。",
+          "SBC的加入为Visa的稳定币战略增添了新的维度——将Brale的美元代币引入一个专为隐私敏感型金融活动设计的网络。通过概念验证，Visa希望判断稳定币能否支撑同时需要可编程支付和数据可见度限制的结算流程。该公司认为，稳定币有潜力成为全球支付领域可扩展的下一代结算层，而本次与Brale的合作正是将这一愿景置于受监管支付基础设施内进行检验的一步。",
+          "从市场格局看，当前美元挂钩稳定币总供应量已接近3000亿美元，其中USDT约占1880亿美元，USDC约760亿美元，流动性高度集中于少数发行方。像SBC这样的小型代币需要赢得机构用例、网络支持及可信的结算合作伙伴才能获得市场地位。Visa参与的概念验证虽不保证采用，但为SBC在机构结算讨论中提供了更明确的定位。",
+          "对Brale而言，这次合作使其代币嵌入支付基础设施，而非仅依靠交易所流动性或零售使用量竞争。对Canton Network来说，测试增添了又一个机构结算用例，有助于证明隐私保护区块链网络能够服务于受监管金融体系。放眼全局，这一项目预示着稳定币市场正进入更挑剔的筛选阶段——机构不会对所有美元挂钩代币一视同仁，流动性、发行方控制、网络兼容性、隐私特性及合规设计将决定哪些稳定币适合结算。",
+          "值得注意的是，尽管监管和发行方竞争仍存不确定性，支付公司仍在持续构建稳定币能力。Visa的做法表明，稳定币正被更多地视为一种结算技术，而非独立的加密产品，它可能嵌入支付流程、财资操作和机构转账网络背后发挥作用。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/visa-and-brale-test-sbc-stablecoin-for-institutional-settlement/",
+        "published_at": "2026-06-05T01:46:00+08:00",
+        "region": "美国",
+        "fact_check": "基于FinanceFeeds报道编译，内容未超出原文及摘要范围。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "Coinbase与Better联手推出加密资产抵押房贷计划全国推广",
+        "source_title": "Coinbase, Better Plan Nationwide Rollout for Crypto-Backed Mortgages",
+        "event_date": "2026-06-04",
+        "key_points": [
+          "Coinbase与Better Home & Finance完成了首笔由房利美（Fannie Mae）担保的比特币抵押房贷，借款人可用比特币或USDC作为抵押获得首付贷款。",
+          "该产品允许合格借款人利用加密资产作为抵押，无需出售即可获得传统房贷，预计2026年夏季向全国推广。",
+          "等待名单显示潜在贷款规模约2.5亿美元，76%的潜在借款人为Coinbase现有用户，加州、纽约和佛罗里达需求最高。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Coinbase与Better Home & Finance宣布完成了首笔由房利美（Fannie Mae，美国联邦国民抵押贷款协会）担保的加密资产抵押房贷。借款人Joe和Amy是来自密歇根州安娜堡的一对30余岁夫妇，他们通过抵押比特币（Bitcoin，BTC）购买首套房，无需出售数字资产或缴纳资本利得税。这笔贷款标志着加密资产首次进入主流房贷担保体系。",
+          "该产品的结构包含两笔同时交割的贷款：一笔是标准的房利美合规房贷，另一笔是加密资产抵押贷款用于支付首付。例如，购买50万美元房屋时，借款人可申请40万美元普通房贷，同时通过抵押约25万美元比特币获得10万美元首付贷款，抵押比率约为2.5：1；若抵押USDC（USD Coin），比率为1.25：1。两笔贷款执行相同利率和摊销期限，合并为单一月供。",
+          "贷款提供15年和30年固定利率选项，最高贷款额度遵循房利美地区性合规上限。抵押的加密资产在贷款期间存入Better于Coinbase平台的托管账户。这种安排使借款人保留加密资产的价格敞口，同时贷款机构获得首付贷款的抵押保障。",
+          "对借款人的吸引力在于可使用加密资产获取房贷而无需变现。Better表示，其预先批准的客户中有41%基于收入和信用评分符合条件，但缺乏足够现金支付传统首付。该产品为这部分人群提供了购房新路径，同时主房贷仍处于房利美熟悉的框架内。潜在需求旺盛，等待名单规模约2.5亿美元，超半数借款人计划6个月内购房。",
+          "从贷款机构角度看，该产品开辟了新客户群。等待名单中76%的借款人已是Coinbase用户，加州、纽约和佛罗里达是意向最高的三个州。对Coinbase而言，加密资产不再仅是交易或支付工具，而是作为抵押品嵌入主流房贷流程，托管、承销和还款条款均与传统信贷挂钩。",
+          "产品的政策背景是联邦住房金融局（Federal Housing Finance Agency，FHFA）于2025年6月指示房利美和房地美在房贷风险评估中考虑加密资产，无需将其转换为法币。这一政策调整为加密资产抵押房贷创造了空间，其他贷款机构也已允许借款人将加密资产纳入房贷资质审核。",
+          "风险层面，比特币的价格波动是核心问题。贷款存续期间若抵押物价值下跌，贷款机构需额外保护措施。USDC虽抵押比率更低，但面临稳定币结构、储备和市场信心等不同风险。监管方面，2025年7月五名美国参议员致信警告，认为未经转换的加密资产纳入承销可能对住房市场和金融系统构成风险。",
+          "支持者则认为，随着更多家庭财富转入数字资产，房贷规则应相应调整。首笔贷款的成功不一定使加密资产抵押房贷成为大众产品，但它提供了一个可操作的测试案例。下一步关键在于，当产品扩展至早期加密原生借款人以外的人群时，需求、抵押物控制和监管接受度能否持续支撑。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/coinbase-better-plan-nationwide-rollout-for-crypto-backed-mortgages/",
+        "published_at": "2026-06-04T21:10:00+08:00",
+        "region": "美国",
+        "fact_check": "基于FinanceFeeds报道编译，内容未独立核实。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "加密ETF流出延续比特币和以太坊基金6月3日净失4.496亿美元",
+        "source_title": "Crypto ETF Outflows Extend as Bitcoin and Ether Funds Lose $449.6 Million on June 3",
+        "event_date": "2026-06-03",
+        "key_points": [
+          "6月3日美国现货加密ETF净流出4.496亿美元，其中比特币ETF占3.966亿美元，以太坊ETF占5300万美元。",
+          "贝莱德iShares比特币信托（IBIT）单日流出3.423亿美元，占比特币ETF总流出的86%以上；富达FBTC流出5430万美元。",
+          "连续三个交易日（6月1-3日）比特币ETF累计流出约14亿美元，以太坊ETF累计流出约1.877亿美元，机构风险偏好显著减弱。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "美国现货加密交易所交易基金（ETF）在6月3日遭遇又一轮大规模赎回，比特币和以太坊产品合计净流出4.496亿美元。根据FinanceFeeds报道，这延续了6月初开始的赎回压力，显示机构投资者通过受监管的ETF产品继续减少现货加密敞口。比特币ETF贡献了大部分卖压，总净流出3.966亿美元。",
+          "在比特币ETF中，贝莱德（BlackRock）的iShares Bitcoin Trust（IBIT）以3.423亿美元的净流出领跑，富达（Fidelity）的FBTC则损失5430万美元。其他追踪比特币的基金，包括Bitwise的BITB、Ark Invest与21Shares的ARKB、Invesco的BTCO、Franklin Templeton的EZBC、Valkyrie的BRRR、VanEck的HODL、WisdomTree的BTCW、Morgan Stanley的MSBT、Grayscale的GBTC和BTC，当日均无净流量。IBIT和FBTC的流出集中度值得注意，因为这两只产品历来是最重要的机构现货比特币接入渠道之一。IBIT单日贡献了比特币ETF总赎回的86%以上，成为当日负流量的主要驱动因素。",
+          "6月3日的流出紧随月初两个大额负值交易日之后：现货比特币ETF在6月1日净流出4.838亿美元，6月2日净流出5.191亿美元。三个交易日比特币ETF累计流出约14亿美元。这一赎回速度明显逆转了此前ETF持续吸收机构需求并支持比特币价格上行的时期。ETF流动现在成为衡量受监管机构加密需求最直观的指标之一。当流入强劲时，ETF发行方和市场参与者可以吸收现货供给，强化看涨市场条件；当流出加速时，同样的结构可以迅速传递卖压，因为投资者可以通过标准经纪和投资组合管理渠道削减敞口。",
+          "最新数据还显示，赎回并非在所有发行方中普遍发生。6月3日比特币流出集中在两只最大的机构产品上，这可能表明大型配置者正在进行投资组合层面的再平衡，而非整个ETF综合体的统一撤退。尽管如此，三日累计流出表明机构对比特币的风险偏好于6月初出现实质性减弱。对于加密货币市场参与者而言，关键问题是月初的赎回代表短期头寸调整，还是更深层次机构去风险周期的开始。ETF流向的稳定将是需求回归的重要信号。",
+          "现货以太坊ETF在6月3日也持续承压，总净流出5300万美元。贝莱德的ETHA损失5160万美元，富达的FETH小幅流出140万美元。其他以太坊基金，包括ETHB、ETHW、TETH、ETHV、QETH、EZET、Grayscale的ETHE和ETH，当日均无净流量。虽然以太坊ETF流出绝对值小于比特币，但仍加剧了走弱格局。以太坊基金在6月1日流出4450万美元，6月2日流出9020万美元，三个交易日累计流出约1.877亿美元。对于一个流动性低于比特币、机构基础较小的市场而言，这一卖出规模仍然显著。",
+          "更广泛的影响在于，加密ETF正在传统投资组合中日益充当快速风险工具的角色。它们改善了机构对数字资产的接入，但也使得当价格势头恶化或宏观不确定性上升时，资金更容易离开市场。截至6月3日的数据显示，受监管的加密产品仍处于持续赎回压力之下。稳定化将是需求回归的重要信号，但在那之前，流出趋势仍需密切关注。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/crypto-etf-outflows-extend-as-bitcoin-and-ether-funds-lose-449-6-million-on-june-3/",
+        "published_at": "2026-06-05T02:03:00+08:00",
+        "region": "美国",
+        "fact_check": "基于FinanceFeeds报道"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "比特币因Strategy债务回购消息下跌21%TerraLuna式死亡螺旋会重演吗",
+        "source_title": "Bitcoin fell 21% after Strategy’s debt buyback news— Is a Terra Luna-style doom loop next?",
+        "event_date": "2026-06-04",
+        "key_points": [
+          "比特币（BTC）在10天内下跌21%，重新测试61，000美元水平，创4个月新低。",
+          "Strategy（MSTR）因债务回购暂停比特币购买，引发流动性担忧，但11%的净杠杆率（net leverage）较低，避免强制清算。",
+          "优先股（preferred stock）STRC价格跌破100美元，叠加现货ETF净卖出，比特币反弹至70，000美元以上可能性微乎其微。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "比特币（Bitcoin，BTC）价格在10天内遭遇21%的修正，重新测试61，000美元水平，这是4个月来首次。此次下跌与Strategy（MSTR US）公司决定回购部分公司债务、暂时停止比特币买入的消息几乎同步。交易员开始担忧Strategy可能被迫清算部分比特币持仓，从而引发更广泛的市场恐慌。",
+          "Strategy曾是最大的公开比特币买家，自3月以来累计以93.1亿美元购入126，016枚BTC。然而，5月15日公司宣布用近期股权融资筹集的13.8亿美元回购部分可转债（convertible debt），导致比特币购买暂停。这一决定恰逢其永续优先股STRC跌破100美元，市场情绪急转直下。",
+          "STRC优先股允许Strategy在价格达到100美元时发行新股，并向持有人支付可变股息，当前年化利率11.5%，以现金按月支付。如果交易者认为其不再值100美元，新买家会以更低价格介入，这相当于要求更高股息。因此，表面上看，这应属于非关键风险事件。",
+          "Strategy在2026年前5个月通过优先股发行筹集了75亿美元，对比特币价格形成强大支撑。但现在公司现金头寸已降至9亿美元，仅够支付6个月的股息。流动性状况明显恶化，但关键财务指标——11%的净杠杆率——反映了公司相对于资产的债务水平。即使比特币跌至30，000美元，其持仓覆盖也应被视为保守。",
+          "Strategy会被迫清算部分比特币吗？短期流动性确实恶化，但其可转债合约中并没有设定迫使清算的底线价格。此外，公司没有禁止以低于市场调整后净资产价值的价格出售MSTR股票。如果债务市场不可用，公司可以选择稀释现有MSTR股东。此举是否被视为弱势并进一步打压MSTR和STRC价格，与杠杆率无关，公司财务依然稳健。",
+          "X用户zeroxkyle（《Grand Line》通讯作者）认为，任何Strategy的比特币出售只会加速价格下跌，加剧流动性困境。他提及“死亡螺旋”（doom loop）机制：买家因持续担心大卖家进场而避免加仓。目前无法预测什么能缓解投资者紧张情绪，因为Strategy并未面临迫在眉睫的强制出售风险。",
+          "优先股股息可随意暂停，尽管会累积后期支付。但只要STRC继续低于100美元交易，且现货交易所交易基金（exchange-traded fund，ETF）保持净卖出，比特币反弹至70，000美元以上的概率就很低。市场焦点正转向60，000美元支撑位，该位置将决定多头命运。",
+          "总体而言，Strategy的财务结构提供了缓冲，但市场信心受创。比特币能否企稳，取决于Strategy能否恢复买入以及ETF资金流出是否逆转。短期内，投资者需警惕流动性压力和情绪扩散风险。"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/markets/bitcoin-fell-21-after-strategys-debt-buyback-news-is-a-terra-luna-style-doom-loop-next",
+        "published_at": "2026-06-04T22:22:00+08:00",
+        "region": "全球",
+        "fact_check": "本文基于Cointelegraph原文编译，仅使用摘要和原文中明确提及的信息，未添加外部事实。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "AtlasCapitalCEO比特币短期或暴跌70%长期目标50万美元",
+        "source_title": "'Dr. Doom'-backed Atlas Capital CEO says bitcoin could crash 70% before reaching $500,000",
+        "event_date": "2026-06-04",
+        "key_points": [
+          "Atlas Capital CEO Reza Bundy警告比特币可能在短期内暴跌70%，其预测基于经济学家“末日博士”Nouriel Roubini的数据分析。",
+          "尽管短期悲观，Bundy长期看好比特币，认为其有望涨至15万至50万美元。",
+          "Bundy指出比特币已沦为高风险资产，与科技股高度联动，未实现通胀对冲功能。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "投资咨询公司Atlas Capital首席执行官Reza Bundy近日在巴黎“Proof of Talk”大会上发出悲观警告，认为比特币（Bitcoin， BTC）未来六个月可能暴跌70%，与行业普遍乐观情绪形成鲜明对比。Bundy是与经济学家Nouriel Roubini（以准确预测2008年次贷危机而被称为“末日博士”）的长期批评者，也是业务合作伙伴。",
+          "Bundy的预测基于Roubini的宏观经济分析，他称比特币可能跌至2.6万至3万美元。若股市出现类似2008年一半的跌幅，比特币的损失将翻倍。截至发稿时，比特币交易价约为6.3万美元，年内已下跌近28%，而标普500指数和纳斯达克指数同期分别上涨约10%和19%。",
+          "Roubini长期以来对比特币持否定态度，将其描述为“伪资产类别”和纯粹的“投机资产”，缺乏基本面价值或实际用途。Bundy在短期内呼应了这一悲观预测，称比特币未能像多头声称的那样成为通胀对冲工具，如今只是一种与科技股高度联动的高波动风险资产。",
+          "Bundy的批评与亿万富翁投资者马克·库班（Mark Cuban）的评论相呼应，后者最近表示已卖出大部分比特币，因为它在地缘政治紧张和美元疲软时期未能起到对冲作用。不过，Bundy并非长期看空者，他仍然相信比特币的“价值储存”叙事，并给出了长期乐观预期。",
+          "Bundy的长期目标价区间为15万至50万美元，这与他的合作伙伴Roubini的观点相左。他的乐观源于比特币的原始承诺——作为一种替代货币，对抗全球政治和货币混乱。他认为，政府债务上升、央行任意印钞以及传统货币信任度下降，将驱动比特币长期增长。",
+          "Bundy描绘了四种经济路径下的比特币价格：1）“控制扩张”（概率40%）：稳定增长和通胀，比特币15万至25万美元；2）“财政主导”（25%）：政府印钞偿债导致高通胀，比特币25万至50万美元；3）“全球冲突”（20%）：重大安全冲击引发恐慌，但最终凸显比特币的避险价值；4）“通缩衰退”（15%）：信贷冻结使比特币疲软，直至央行注入流动性。",
+          "短期内，Bundy认为传统股市是如1929年般的泡沫，Atlas Capital的“techno-dollar”策略通过AI驱动模型在黄金、食品、房地产和防御技术之间切换敞口，而非押注单一贬值货币。该策略目前通过纳斯达克ETF“USAF”运作，自成立以来回报8.7%。Bundy计划本月晚些时候在公链上将其代币化。",
+          "当被问及为何长期看好比特币却不将其纳入基金时，Bundy表示他正在等待他所预测的短期市场崩盘过去。“我们相信会出现重大的股市修正，不希望卷入比特币的下跌。一旦修正发生，我们将做出是否纳入的最终决定。”"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/markets/2026/06/04/dr-doom-backed-atlas-capital-ceo-says-bitcoin-could-crash-70-before-reaching-usd500-000",
+        "published_at": "2026-06-04T19:15:00+08:00",
+        "region": "全球",
+        "fact_check": "编译基于原文及摘要，未添加额外信息。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "比特币多头命运系于6万美元支撑加密市值蒸发2万亿美元",
+        "source_title": "Bitcoin bulls' fate rests on $60K support as crypto erases $2T in market cap",
+        "event_date": "2026-06-04",
+        "key_points": [
+          "比特币再现2022年熊市“复制粘贴”行情，本周跌幅超13%为2026年最差。",
+          "6万美元成为多头最后防线，分析师警告若跌破将引发更大幅度回调。",
+          "加密总市值自去年10月已蒸发逾2万亿美元，空头仍牢牢掌控短期盘面。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "比特币（Bitcoin，BTC）在6月4日华尔街开盘后回落至64000美元以下，空头持续压制反弹尝试。本周跌幅已达13.5%，创下2026年以来最差周度表现。数据显示，BTC价格已跌至2月初以来的最低水平，在低位触及200周简单移动平均线（200-week simple moving average，200SMA）趋势线。",
+          "交易员Daan Crypto Trades在X平台总结称，当前走势是“去年10月以来更大下行趋势的延续”，此前在8万美元区域出现的看跌重新测试后价格继续下跌。他指出，市场焦点现在集中在6万美元及其能否维持支撑，同时强调“6.2万美元区域至关重要，且周线200均线也在附近”。",
+          "Cointelegraph分析师William Suberg指出，比特币价格行为正“令人难以置信地”复制2022年熊市模式。交易员Rekt Capital在同一日发文称，2022年6月13日比特币在熊市修正期间触及200周均线，而如今2026年熊市中几乎正好四年后再次触及同一均线，比特币周期令人惊叹。",
+          "从资产表现看，The Kobeissi Letter指出，自2025年10月以来，加密货币总市值已蒸发超过2万亿美元。TradingView数据显示，短期图表上卖家依然占据上风。评论员Exitpump告诉X平台关注者，每一次反弹都会在币安永续合约订单簿上遇到卖单墙，买单推动时上方总有更多供应压制价格，“目前空头仍处于控制地位”。",
+          "6万美元关口之所以关键，不仅因为其心理整数位，还因为周线200均线（200-week moving average，200周均线）目前位于约61626美元，与6万美元共同构成多重技术支撑。若该防线失守，可能预示着更深度的熊市延续。然而，部分分析师认为四年周期规律暗示比特币有望在触底后展开新一轮上升周期。",
+          "值得注意的是，与2022年相比，当前宏观环境存在诸多差异：全球利率走势、监管政策以及机构参与度均已发生显著变化。另一方面，比特币现货ETF此前的资金持续流出——连续13个交易日净流出44亿美元——加剧了市场压力。Cointelegraph报道强调，本文不构成投资建议，所有投资均存在风险，读者应自行研究。"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/markets/bitcoin-bulls-fate-rests-on-60k-support-as-sellers-remain-in-control",
+        "published_at": "2026-06-04T23:05:00+08:00",
+        "region": "全球",
+        "fact_check": "根据Cointelegraph编辑政策，本文仅供信息参考，不构成投资建议或推荐。"
+      }
+    ],
+    "notes": [
+      "政策风向三篇均为美国相关，已满足至少一篇美国的要求，但地区分散性不足；候选文章中缺乏其他地区的明确政策进展。",
+      "行业前沿选用了稳定币结算和加密抵押贷款两种创新场景。",
+      "市场动态侧重ETF资金流和上市公司财务事件。",
+      "意见领袖包括机构CEO和独立交易员的观点。",
+      "已剔除纯价格预测和技术分析文章，确保各栏目内容符合定义。"
+    ]
+  },
+  "factcheck": {
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      "item 1 contains relative time wording; replace with exact date",
+      "item 4 contains relative time wording; replace with exact date",
+      "item 8 contains relative time wording; replace with exact date",
+      "item 9 contains relative time wording; replace with exact date",
+      "domain financefeeds.com appears 5 times; consider diversifying sources"
+    ]
+  },
+  "outputs": {
+    "docx": "reports/2026/加密货币观察_20260605.docx",
+    "manifest": "reports/2026/_manifests/加密货币观察_20260605.json"
+  }
+}
