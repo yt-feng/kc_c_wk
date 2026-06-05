@@ -1,6 +1,6 @@
 # kc_c_wk 架构说明
 
-本仓库用于自动生成《加密货币观察》主刊和独立《专题研究》文档。
+本仓库用于自动生成《加密货币观察》主刊和独立《专题研究》文档。当前代码以用户提供的 2026 年第 1—10 期样刊为目标格式和编辑标准。
 
 ## 输出物
 
@@ -12,14 +12,34 @@
 - `_manifests/专题研究_YYYYMMDD.json`：专题研究选题、PDF 来源、翻译稿和 fact check 结果。
 - `research_sources/YYYYMMDD/`：专题研究英文原文 PDF。
 
-## 主刊栏目
+## 样刊目标
 
-主刊《加密货币观察》不再包含【专题研究】栏目，只保留：
+样刊的共同结构如下：
 
-- 【政策风向】3 条：优先美国、香港正式监管动向，且 3 条不应全部来自同一地区。
-- 【行业前沿】2 条：协议、DeFi、Layer 2、基础设施、互操作、代币化、安全、钱包、质押、升级和产品发布等技术或生态进展。
-- 【市场动态】2 条：与【行业前沿】采用同一选题标准，不优先选择 ETF、价格、融资、交易所、并购、资金流等纯市场事件。
-- 【意见领袖】2 条：体现人物或机构观点，可使用“XXX认为”“XXX指出”。
+1. 目录页按栏目列出文章标题：
+   - 【政策风向】3 篇
+   - 【行业前沿】2 篇
+   - 【市场动态】2 篇
+   - 【意见领袖】2 篇
+   - 【专题研究】1 篇（当前系统已按用户最新需求拆分为独立 Word，因此主刊不再写入专题研究正文）
+2. 每篇文章结构为：
+   - 中文标题
+   - 2—3 条关键点
+   - 6—10 段完整中文编译正文
+   - 右对齐信息来源行：`（信息来源：XXX）`
+   - 原文标题、原文链接
+3. 正文不是摘要，也不是模型扩写评论，而是基于原文事实链条的完整中文编译。典型正文应覆盖背景、机制、监管/市场含义、未决问题或后续程序。
+4. 标题应像样刊一样直接概括核心事实，例如“香港证监会试点经认可代币化投资产品二级市场交易”“Ripple、摩根大通与万事达卡完成首笔代币化美债跨境结算”。避免逗号式两段标题、价格预测软文标题和空泛标题。
+5. 信息来源必须是原始媒体或机构，不得出现 Bing News、Google News、GDELT 等发现渠道。
+
+## 主刊栏目编辑标准
+
+主刊《加密货币观察》保留四个常规栏目：
+
+- 【政策风向】3 条：监管、立法、法院、官方指南、牌照、正式征询或明确政策进展。优先美国、香港，但 3 篇不能全是同一地区，至少 1 篇与美国相关。
+- 【行业前沿】2 条：协议升级、代币化结算、DeFi、RWA、跨链、预言机、钱包、安全、验证者、支付基础设施等技术或产品进展。
+- 【市场动态】2 条：融资、并购、IPO、交易产品、机构采用、收入、稳定币供给、预测市场、交易所和市场基础设施等商业动态。不能用纯价格预测凑数。
+- 【意见领袖】2 条：必须体现人物或机构观点，正文应自然写出“XXX认为”“XXX指出”“XXX警告”“XXX表示”等观点归属。
 
 主刊新闻时效为最近 7 天，来源排除中文网站。
 
@@ -29,22 +49,31 @@
 
 要求：
 
-- 检索近 2 个月的英文 PDF 研究报告。
-- 优先来源包括 PwC、KPMG、BCG、PitchBook、McKinsey、BIS、Deloitte、EY、Citi、JPMorgan 等全球智库、投行、咨询公司和国际机构。
+- 只选择一篇近 2 个月内有明确日期证据的英文 PDF 研究报告。
+- 不得拼接多篇报告，也不得把短新闻或营销白皮书扩写成研究报告。
+- 优先来源包括 PwC、KPMG、BCG、PitchBook、McKinsey、BIS、Deloitte、EY、Citi、JPMorgan、Coinbase Institutional、Chainalysis、Galaxy、CoinShares 等全球智库、投行、咨询公司和研究机构。
 - 主题限定为 crypto、digital assets、tokenization、stablecoin、blockchain、DeFi、Web3 等。
-- 原文 PDF 保存到 `reports/YYYY/research_sources/YYYYMMDD/`。
-- 提取 PDF 文本后交给 DeepSeek 编译成中文专题研究稿。
-- 目标长度约 15—20 页，按现有 Word 样式排版，普通正文为仿宋 14pt、首行缩进 2 字符、两端对齐、单倍行距并对齐文档网格。
+- 英文原文 PDF 必须保存到 `reports/YYYY/research_sources/YYYYMMDD/`。
+- 提取 PDF 文本后分块交给 DeepSeek 编译成中文专题研究稿。
+- 目标长度约 15—20 页，至少 24 段、约 12000 个中文字符。
 
 ## 生成链路
 
 1. `crypto_observer/main.py` 负责主流程入口。
 2. `crypto_observer/sources.py` 负责主刊候选新闻采集、去重、原文链接解析和正文抓取。
-3. `crypto_observer/deepseek.py` 负责主刊选题和逐篇全文编译。
+3. `crypto_observer/deepseek.py` 负责按样刊标准进行主刊选题和逐篇编译。
 4. `crypto_observer/research.py` 负责专题研究 PDF 搜索、下载、文本提取和 DeepSeek 翻译编译。
 5. `crypto_observer/docx_writer.py` 负责主刊 Word 排版，也提供专题研究 Word 排版函数。
 6. `crypto_observer/factcheck.py` 负责主刊栏目数量、时效、来源、长度、标点和链接检查。
 7. `crypto_observer/text_utils.py` 负责中文标点、全角引号等文本清洗。
+
+## 质量门控
+
+- 每个 URL、标题指纹、正文指纹只能使用一次。
+- 阻断 CSS、字体、许可证、搜索包装页、价格预测软文、中文来源和非原始来源。
+- 信息来源若为 Bing News、Google News、GDELT，直接判错。
+- 主刊栏目数量不足、专题研究长度不足、专题研究 PDF 过旧或缺少 PDF 原文时，strict 模式直接失败。
+- 生成稿应宁缺毋滥，失败比提交垃圾稿更可接受。
 
 ## GitHub Actions
 
@@ -58,10 +87,10 @@
 
 - `DEEPSEEK_API_KEY`：必需，用于 DeepSeek 编译。
 - `DEEPSEEK_MODEL`：可选，默认 `deepseek-v4-flash`。
-- `CRYPTO_OBSERVER_DAYS`：主刊新闻回溯天数，默认 3。
+- `CRYPTO_OBSERVER_DAYS`：主刊新闻回溯天数，默认 7。
 - `CRYPTO_OBSERVER_STRICT`：`1` 表示 fact check 错误时失败，`0` 表示保留草稿。
 - `CRYPTO_OBSERVER_OUTPUT_ROOT`：默认 `reports`。
-- `CRYPTO_OBSERVER_MAX_RAW_ITEMS`：主刊最大候选数。
+- `CRYPTO_OBSERVER_MAX_RAW_ITEMS`：主刊最大候选数，默认 500。
 
 ## 维护注意事项
 
