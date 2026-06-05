@@ -43,7 +43,7 @@ BLOCKED_URL_PARTS = ("/zh", "/zh-cn", "/cn/", "?lang=zh", "language=zh")
 MIN_SOURCE_CHARS = 18000
 MIN_RESEARCH_PARAGRAPHS = 24
 MIN_RESEARCH_CHARS = 12000
-TARGET_RESEARCH_PARAGRAPHS = 36
+TARGET_RESEARCH_PARAGRAPHS = 42
 MONTHS = {
     "january": 1, "february": 2, "march": 3, "april": 4, "may": 5, "june": 6,
     "july": 7, "august": 8, "september": 9, "october": 10, "november": 11, "december": 12,
@@ -195,20 +195,32 @@ def _find_explicit_dates(text: str, *, allow_month_only: bool = True) -> list[da
 
 
 def _publication_date_evidence(candidate: ResearchCandidate, text: str, run_date: datetime) -> list[str]:
-    """Require an explicit publication/release date for the report itself.
-
-    Do not accept arbitrary dates inside the report body, because old reports often
-    mention current or future dates in charts and examples. Search-engine crawl
-    dates are treated as supporting evidence only, never sufficient by themselves.
-    """
+    """Require an explicit publication/release date for the report itself."""
     start = run_date - timedelta(days=RESEARCH_LOOKBACK_DAYS)
     evidence: list[str] = []
-    title_url_snippet = f"{candidate.title} {candidate.url} {candidate.snippet}"
+    identity_source = f"{candidate.title} {candidate.url}"
+    contextual_source = f"{candidate.title} {candidate.url} {candidate.snippet}"
 
-    for label, source in (("title_url_snippet", title_url_snippet),):
-        for dt in _find_explicit_dates(source, allow_month_only=True):
-            if start <= dt <= run_date:
-                evidence.append(f"{label}={dt.date().isoformat()}")
+    for dt in _find_explicit_dates(identity_source, allow_month_only=True):
+        if start <= dt <= run_date:
+            evidence.append(f"title_url_snippet={dt.date().isoformat()}")
+
+    for dt in _find_explicit_dates(contextual_source, allow_month_only=True):
+        if start <= dt <= run_date:
+            ctx_low = contextual_source.lower()
+            date_key = dt.strftime("%Y-%m")
+            pos = ctx_low.find(date_key)
+            if pos < 0:
+                pos = ctx_low.find(dt.strftime("%Y/%m"))
+            if pos < 0:
+                for month_name, month_no in MONTHS.items():
+                    if month_no == dt.month and str(dt.year) in ctx_low:
+                        pos = ctx_low.find(month_name)
+                        if pos >= 0:
+                            break
+            window = ctx_low[max(0, pos - 120) : pos + 160] if pos >= 0 else ctx_low[:600]
+            if any(word in window for word in PUBLICATION_CONTEXT_WORDS):
+                evidence.append(f"title_url_snippet={dt.date().isoformat()}")
 
     cover_text = text[:4500]
     cover_low = cover_text.lower()
@@ -226,11 +238,10 @@ def _publication_date_evidence(candidate: ResearchCandidate, text: str, run_date
                         pos = idx
                         break
         window = cover_low[max(0, pos - 140) : pos + 180] if pos >= 0 else cover_low[:700]
-        has_context = any(word in window for word in PUBLICATION_CONTEXT_WORDS) or pos < 900
+        has_context = any(word in window for word in PUBLICATION_CONTEXT_WORDS) or pos < 700
         if has_context and start <= dt <= run_date:
             evidence.append(f"cover_publication_date={dt.date().isoformat()}")
 
-    # Search result dates help score a candidate, but only after a real report date exists.
     search_dt = _parse_iso_datetime(candidate.published_at)
     if evidence and _within(search_dt, run_date):
         evidence.append(f"search_seen_at={candidate.published_at}")
@@ -238,10 +249,20 @@ def _publication_date_evidence(candidate: ResearchCandidate, text: str, run_date
     return list(dict.fromkeys(evidence))[:8]
 
 
+def _stale_identity_date_markers(candidate: ResearchCandidate, run_date: datetime) -> list[str]:
+    start = run_date - timedelta(days=RESEARCH_LOOKBACK_DAYS)
+    markers: list[str] = []
+    strict_source = f"{candidate.title} {candidate.url}"
+    for dt in _find_explicit_dates(strict_source, allow_month_only=True):
+        if dt < start:
+            markers.append(dt.date().isoformat())
+    return sorted(set(markers))[:6]
+
+
 def _stale_report_date_markers(candidate: ResearchCandidate, text: str, run_date: datetime) -> list[str]:
     start = run_date - timedelta(days=RESEARCH_LOOKBACK_DAYS)
     markers: list[str] = []
-    strict_source = f"{candidate.title} {candidate.url} {candidate.snippet} {text[:2500]}"
+    strict_source = f"{candidate.title} {candidate.url} {text[:2500]}"
     for dt in _find_explicit_dates(strict_source, allow_month_only=True):
         if dt < start:
             markers.append(dt.date().isoformat())
@@ -351,10 +372,10 @@ def _download_pdf(candidate: ResearchCandidate, output_dir: Path) -> Path | None
         return None
 
 
-def _read_pdf(path: Path, max_chars: int = 85000) -> str:
+def _read_pdf(path: Path, max_chars: int = 100000) -> str:
     reader = PdfReader(str(path))
     parts: list[str] = []
-    for page in reader.pages[:160]:
+    for page in reader.pages[:180]:
         try:
             text = page.extract_text() or ""
         except Exception:
@@ -382,6 +403,10 @@ def _choose_pdf(output_dir: Path, run_date: datetime) -> tuple[ResearchCandidate
     scored: list[tuple[int, ResearchCandidate, Path, str, list[str]]] = []
     rejected: list[str] = []
     for candidate in search_research_pdfs():
+        identity_stale = _stale_identity_date_markers(candidate, run_date)
+        if identity_stale:
+            rejected.append(f"{candidate.source_name}: {candidate.title[:90]} stale_identity={identity_stale}")
+            continue
         pdf_path = _download_pdf(candidate, output_dir)
         if not pdf_path:
             continue
@@ -413,7 +438,7 @@ def _choose_pdf(output_dir: Path, run_date: datetime) -> tuple[ResearchCandidate
     return candidate, pdf_path, text, evidence
 
 
-def _split_text(text: str, chunk_chars: int = 8500, max_chunks: int = 7) -> list[str]:
+def _split_text(text: str, chunk_chars: int = 7600, max_chunks: int = 10) -> list[str]:
     cleaned = _norm_text(text)
     chunks: list[str] = []
     start = 0
@@ -447,7 +472,7 @@ def _translate_chunk(candidate: ResearchCandidate, chunk: str, idx: int, total: 
     prompt = f"""
 请将以下英文研究报告第 {idx}/{total} 部分忠实编译翻译为中文。要求：
 1. 只翻译本部分英文原文已经出现的信息，不得添加外部背景、判断或结论。
-2. 输出6至9个自然段，每段220至360个中文字符。
+2. 输出8至12个自然段，每段260至420个中文字符。
 3. 保留原文事实链条、主要发现、数据逻辑、限定语和结论；不要压缩成摘要。
 4. 可按原文逻辑加入“一、二、三”式小标题，但小标题也必须来自原文结构。
 5. 专业术语首次出现写“中文（English，缩写）”；英文机构名保留英文。
@@ -457,13 +482,34 @@ def _translate_chunk(candidate: ResearchCandidate, chunk: str, idx: int, total: 
 英文原文：
 {chunk}
 """.strip()
-    data = _extract_json(_chat([{"role": "system", "content": "你是专业研究报告翻译编辑。只输出严格 JSON。"}, {"role": "user", "content": prompt}], timeout=320))
+    data = _extract_json(_chat([{"role": "system", "content": "你是专业研究报告翻译编辑。只输出严格 JSON。"}, {"role": "user", "content": prompt}], timeout=360))
+    return [normalize_chinese_punctuation(str(x)) for x in data.get("paragraphs", []) if str(x).strip()]
+
+
+def _extend_research(candidate: ResearchCandidate, extracted_text: str, existing_paragraphs: list[str]) -> list[str]:
+    excerpt_start = min(len(extracted_text), max(0, len(existing_paragraphs) * 1100))
+    excerpt = extracted_text[excerpt_start : excerpt_start + 12000] or extracted_text[-12000:]
+    existing_brief = " ".join(existing_paragraphs[-6:])[:1800]
+    prompt = f"""
+当前专题研究中文稿长度不足。请继续基于同一份英文报告原文补充中文编译段落。
+要求：
+1. 只能使用英文原文中的信息，不得添加外部内容。
+2. 不要重复已有中文段落的表达，应补充尚未展开的背景、数据逻辑、主要发现、限制条件和结论。
+3. 输出6至10个自然段，每段260至420个中文字符。
+4. 使用全角中文标点和中文全角引号。
+输出 JSON：{{"paragraphs":["补充段落一"]}}
+英文报告元数据：{json.dumps(asdict(candidate), ensure_ascii=False)}
+已有中文稿末尾摘要：{existing_brief}
+英文原文节选：
+{excerpt}
+""".strip()
+    data = _extract_json(_chat([{"role": "system", "content": "你是专业研究报告翻译编辑。只输出严格 JSON。"}, {"role": "user", "content": prompt}], timeout=360))
     return [normalize_chinese_punctuation(str(x)) for x in data.get("paragraphs", []) if str(x).strip()]
 
 
 def _compile_research(candidate: ResearchCandidate, pdf_path: Path, extracted_text: str, evidence: list[str]) -> dict[str, Any]:
     if not os.getenv("DEEPSEEK_API_KEY"):
-        chunks = [normalize_chinese_punctuation(extracted_text[i : i + 520]) for i in range(0, min(len(extracted_text), 20000), 520)]
+        chunks = [normalize_chinese_punctuation(extracted_text[i : i + 620]) for i in range(0, min(len(extracted_text), 28000), 620)]
         return {
             "title_cn": normalize_chinese_punctuation(f"{candidate.source_name}：{candidate.title}"),
             "source_title": candidate.title,
@@ -477,11 +523,15 @@ def _compile_research(candidate: ResearchCandidate, pdf_path: Path, extracted_te
         }
     title_cn, key_points = _compile_key_points(candidate, extracted_text)
     paragraphs: list[str] = []
-    chunks = _split_text(extracted_text, chunk_chars=8500, max_chunks=7)
+    chunks = _split_text(extracted_text, chunk_chars=7600, max_chunks=10)
     for idx, chunk in enumerate(chunks, start=1):
         paragraphs.extend(_translate_chunk(candidate, chunk, idx, len(chunks)))
         if len(paragraphs) >= TARGET_RESEARCH_PARAGRAPHS and len(" ".join(paragraphs)) >= MIN_RESEARCH_CHARS:
             break
+    attempts = 0
+    while len(" ".join(paragraphs)) < MIN_RESEARCH_CHARS and attempts < 2:
+        attempts += 1
+        paragraphs.extend(_extend_research(candidate, extracted_text, paragraphs))
     return {
         "title_cn": title_cn,
         "source_title": candidate.title,
@@ -490,7 +540,7 @@ def _compile_research(candidate: ResearchCandidate, pdf_path: Path, extracted_te
         "pdf_path": str(pdf_path),
         "recent_date_evidence": evidence,
         "key_points": key_points,
-        "body_paragraphs": paragraphs[:44],
+        "body_paragraphs": paragraphs[:60],
         "fact_check": "基于一篇近两个月英文 PDF 原文分块逐段编译，未拼接其他报告，未加入原文以外信息。",
     }
 
