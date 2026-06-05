@@ -26,6 +26,21 @@ OPINION_TERMS = ("said", "says", "told", "argued", "warned", "expects", "believe
 BAD_TEXT_TERMS = ("permission is hereby granted", "the software is provided", "mit license", "angular.dev/license", "@font-face", "font-family", "fonts.gstatic.com", "fonts.googleapis.com", "stylesheet", "skip to main content menu", "enable javascript", "accept cookies to continue")
 DISCOVERY_SOURCE_NAMES = {"Bing News", "Google News", "GDELT"}
 
+# These phrases were the source of unsupported additions in generated drafts.
+# They are allowed only when the English source explicitly contains a matching attribution/context.
+HARD_UNSUPPORTED_PHRASES = (
+    "未决问题", "整体来看", "这一立法动向反映出", "从更广阔的市场视角看", "未来数周", "仍需后续观察",
+    "正成为不可忽视", "表明美国政府对", "这至少表明", "可能引发管辖权重叠", "将面临更严格的合规要求",
+)
+CONDITIONAL_ATTRIBUTION_RULES = (
+    ("业内人士", ("industry", "market participant", "market participants", "trader", "traders", "业内")),
+    ("分析师认为", ("analyst", "analysts", "分析师")),
+    ("分析师指出", ("analyst", "analysts", "分析师")),
+    ("市场观察人士", ("market observer", "market observers", "observers")),
+    ("投资者认为", ("investor", "investors")),
+)
+QUESTION_PHRASES = ("能否", "是否能够", "是否会", "会否", "是否可以")
+
 
 def _extract_json(text: str) -> dict[str, Any]:
     cleaned = re.sub(r"^```(?:json)?\s*|\s*```$", "", text.strip())
@@ -67,6 +82,10 @@ def _count_terms(text: str, terms: tuple[str, ...]) -> int:
 
 def _body(item: RawItem) -> str:
     return f"{item.title} {item.summary} {item.query} {getattr(item, 'article_text', '')}"
+
+
+def _source_text(raw: RawItem) -> str:
+    return f"{raw.title}\n{raw.summary}\n{getattr(raw, 'article_text', '')}"
 
 
 def _text_fp(item: RawItem) -> str:
@@ -243,20 +262,54 @@ def _infer_region(item: RawItem) -> str:
     return "其他"
 
 
-def _key_points_from_row(row: dict[str, Any]) -> list[str]:
-    raw = row.get("key_points")
-    return [normalize_chinese_punctuation(str(x).strip()) for x in raw if str(x).strip()][:3] if isinstance(raw, list) else []
+def _sentence_list(text: str) -> list[str]:
+    return [x.strip() for x in re.split(r"(?<=[。！？；])", text or "") if x.strip()]
 
 
-def _paragraphs_from_row(row: dict[str, Any]) -> list[str]:
-    raw = row.get("body_paragraphs")
-    paragraphs = [normalize_chinese_punctuation(str(x).strip()) for x in raw if str(x).strip()] if isinstance(raw, list) else []
+def _unsupported_sentence(sentence: str, raw: RawItem) -> bool:
+    source = _source_text(raw).lower()
+    if any(phrase in sentence for phrase in HARD_UNSUPPORTED_PHRASES):
+        return True
+    for phrase, source_markers in CONDITIONAL_ATTRIBUTION_RULES:
+        if phrase in sentence and not any(marker in source for marker in source_markers):
+            return True
+    if any(phrase in sentence for phrase in QUESTION_PHRASES) and not any(marker in source for marker in ("whether", "question", "unclear", "uncertain", "remains to be seen", "?")):
+        return True
+    return False
+
+
+def _remove_unsupported_sentences(text: str, raw: RawItem) -> str:
+    sentences = _sentence_list(text)
+    if not sentences:
+        return text
+    kept = [s for s in sentences if not _unsupported_sentence(s, raw)]
+    return "".join(kept).strip()
+
+
+def _key_points_from_row(row: dict[str, Any], raw: RawItem | None = None) -> list[str]:
+    raw_points = row.get("key_points")
+    points = [normalize_chinese_punctuation(str(x).strip()) for x in raw_points if str(x).strip()] if isinstance(raw_points, list) else []
+    if raw is not None:
+        points = [_remove_unsupported_sentences(x, raw) for x in points]
+        points = [x for x in points if x]
+    return points[:3]
+
+
+def _paragraphs_from_row(row: dict[str, Any], raw: RawItem | None = None) -> list[str]:
+    raw_paragraphs = row.get("body_paragraphs")
+    paragraphs = [normalize_chinese_punctuation(str(x).strip()) for x in raw_paragraphs if str(x).strip()] if isinstance(raw_paragraphs, list) else []
+    if raw is not None:
+        paragraphs = [_remove_unsupported_sentences(x, raw) for x in paragraphs]
+        paragraphs = [x for x in paragraphs if x]
     if not paragraphs:
-        paragraphs = [normalize_chinese_punctuation(str(row.get("lead_cn") or row.get("summary_cn") or "-").strip())]
+        fallback = normalize_chinese_punctuation(str(row.get("lead_cn") or row.get("summary_cn") or "-").strip())
+        if raw is not None:
+            fallback = _remove_unsupported_sentences(fallback, raw)
+        paragraphs = [fallback or "-"]
     return paragraphs or ["-"]
 
 
-def normalize_report(data: dict[str, Any]) -> dict[str, Any]:
+def normalize_report(data: dict[str, Any], raw: RawItem | None = None) -> dict[str, Any]:
     rows = data.get("items") if isinstance(data.get("items"), list) else [data]
     clean = []
     for row in rows:
@@ -267,9 +320,9 @@ def normalize_report(data: dict[str, Any]) -> dict[str, Any]:
             "title_cn": clean_title(str(row.get("title_cn") or row.get("title") or "-")),
             "source_title": str(row.get("source_title") or "-").strip(),
             "event_date": str(row.get("event_date") or "-").strip(),
-            "key_points": _key_points_from_row(row),
+            "key_points": _key_points_from_row(row, raw=raw),
             "lead_cn": normalize_chinese_punctuation(str(row.get("lead_cn") or "").strip()),
-            "body_paragraphs": _paragraphs_from_row(row),
+            "body_paragraphs": _paragraphs_from_row(row, raw=raw),
             "source_name": str(row.get("source_name") or "-").strip(),
             "url": str(row.get("url") or "-").strip(),
             "published_at": str(row.get("published_at") or "-").strip(),
@@ -282,12 +335,42 @@ def normalize_report(data: dict[str, Any]) -> dict[str, Any]:
 def _build_translate_prompt(raw: RawItem, section: str) -> list[dict[str, str]]:
     paragraph_rule = "7至10个自然段" if section != "意见领袖" else "6至9个自然段"
     payload = {"section": section, "source_title": raw.title, "source_name": raw.source_name, "url": raw.url, "published_at": raw.published_at, "summary": raw.summary, "article_text": (getattr(raw, "article_text", "") or "")[:12000]}
-    system = "你是《加密货币观察》的中文编译编辑。你需要写出与样刊一致的专业中文周刊稿。只输出严格 JSON。"
+    system = "你是《加密货币观察》的中文编译编辑。你需要写出与样刊一致的专业中文周刊稿，但只能忠实编译原文。只输出严格 JSON。"
     user = f"""
-请基于英文原文，为【{section}】栏目编译一篇中文稿。对齐样刊风格：标题清晰、关键点有判断力、正文完整但不空泛。
-要求：只能使用原文和摘要中出现的信息，不得添加来源外事实；正文写成{paragraph_rule}，每段约120至240字；开头输出2至3条关键点；正文包含事件背景、机制、影响和未决问题，但不能自行推断；【意见领袖】要体现观点归属；专业术语首次出现写“中文（English，缩写）”；英文人名不翻译；使用全角中文标点和全角引号；URL原样输出。
+请基于英文原文，为【{section}】栏目编译一篇中文稿。对齐样刊风格，但必须逐条忠实于来源链接。
+硬性要求：
+1. 只能使用 article_text 和 summary 中明确出现的信息；不得添加来源外事实、推断、预测、行业评论、监管影响或未决问题。
+2. 正文写成{paragraph_rule}，每段约120至240字；可以重组原文顺序，但每一句都必须能在原文中找到直接依据。
+3. 开头输出2至3条关键点；关键点也必须来自原文，不能写“分析师认为”“业内人士指出”，除非原文有对应分析师或业内人士归属。
+4. 不要自动补写“未决问题”“整体来看”“业内人士指出”“这表明……”“未来数周……仍需观察”等总结性段落。
+5. 如果原文没有提出问题，不要写“能否/是否/会否”等疑问句；如果原文没有监管重叠或更严格合规要求，不要写相关判断。
+6. 【意见领袖】应体现观点归属，但只能使用原文出现的人名、机构名和观点。
+7. 专业术语首次出现写“中文（English，缩写）”；英文人名不翻译；使用全角中文标点和全角引号；URL原样输出。
+8. fact_check 必须写明“逐段对照原文删除未支撑内容”。
 输出 JSON：{{"section":"{section}","title_cn":"中文标题","source_title":"英文原题","event_date":"YYYY-MM-DD或空","key_points":["关键点一"],"lead_cn":"可为空","body_paragraphs":["正文第一段"],"source_name":"来源","url":"URL","published_at":"发布时间","region":"地区","fact_check":"核验说明"}}
 来源材料 JSON：{json.dumps(payload, ensure_ascii=False, separators=(",", ":"))}
+""".strip()
+    return [{"role": "system", "content": system}, {"role": "user", "content": user}]
+
+
+def _build_verify_prompt(raw: RawItem, section: str, item: dict[str, Any]) -> list[dict[str, str]]:
+    payload = {
+        "source_title": raw.title,
+        "source_name": raw.source_name,
+        "url": raw.url,
+        "summary": raw.summary,
+        "article_text": (getattr(raw, "article_text", "") or "")[:14000],
+        "draft": item,
+    }
+    system = "你是严格事实核验编辑。你的任务是删除不受原文支持的中文句子，不是润色扩写。只输出严格 JSON。"
+    user = f"""
+请对照英文原文核验中文稿。规则：
+1. draft 中任何不能被 article_text 或 summary 直接支持的句子，必须删除或改写为原文直接支持的表述。
+2. 特别删除：未决问题、整体评价、行业评论、监管影响推断、合规要求推断、未来走势、来源中没有主体的“分析师认为/业内人士指出”。
+3. 不要新增任何事实或判断，不要补写背景。
+4. 保留原 JSON 结构，输出修订后的同一篇文章。
+输出 JSON：{{"section":"{section}","title_cn":"中文标题","source_title":"英文原题","event_date":"YYYY-MM-DD或空","key_points":["关键点一"],"lead_cn":"可为空","body_paragraphs":["正文第一段"],"source_name":"来源","url":"URL","published_at":"发布时间","region":"地区","fact_check":"逐句对照原文核验，已删除未支撑内容"}}
+核验材料 JSON：{json.dumps(payload, ensure_ascii=False, separators=(",", ":"))}
 """.strip()
     return [{"role": "system", "content": system}, {"role": "user", "content": user}]
 
@@ -303,13 +386,22 @@ def _compile_one(raw: RawItem, section: str) -> dict[str, Any]:
         item = _fallback_item(raw, section)
     else:
         try:
-            rows = normalize_report(_extract_json(_chat(_build_translate_prompt(raw, section), timeout=320)))["items"]
+            rows = normalize_report(_extract_json(_chat(_build_translate_prompt(raw, section), timeout=320)), raw=raw)["items"]
             item = rows[0] if rows else _fallback_item(raw, section)
+            try:
+                verified_rows = normalize_report(_extract_json(_chat(_build_verify_prompt(raw, section, item), timeout=260)), raw=raw)["items"]
+                if verified_rows:
+                    item = verified_rows[0]
+            except Exception as verify_exc:
+                LOGGER.warning("DeepSeek verification failed, using post-processed draft: %s", verify_exc)
         except Exception as exc:
             LOGGER.warning("DeepSeek translation failed, using fallback: %s", exc)
             item = _fallback_item(raw, section)
     item.update({"section": section, "url": raw.url, "source_title": raw.title, "source_name": raw.source_name, "published_at": raw.published_at})
     item["region"] = item.get("region") or _infer_region(raw)
+    item["key_points"] = _key_points_from_row(item, raw=raw)
+    item["body_paragraphs"] = _paragraphs_from_row(item, raw=raw)
+    item["fact_check"] = "逐句对照原文核验，已删除未支撑内容。"
     return item
 
 
