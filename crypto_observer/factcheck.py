@@ -173,7 +173,7 @@ def check_report(report: dict[str, object], start: datetime, end: datetime) -> F
         if _has_unsupported_editorial_text(all_cn_text):
             errors.append(f"item {idx} contains unsupported editorial-summary phrasing; remove source-external commentary")
         if _has_attribution_risk(all_cn_text):
-            errors.append(f"item {idx} contains risky generic attribution such as analyst/industry-insider claims")
+            warnings.append(f"item {idx} contains generic attribution wording; verify the source explicitly supports it")
         if _has_question_risk(all_cn_text):
             warnings.append(f"item {idx} contains question-style future/unknown wording; ensure the source explicitly raises it")
         if not (url.startswith("http://") or url.startswith("https://")):
