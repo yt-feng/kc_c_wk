@@ -1,1 +1,1 @@
-manual run requested after sample-weekly alignment rewrite at 2026-06-05
+manual run requested because scheduled 2026-06-17 report did not appear; requested at 2026-06-17
