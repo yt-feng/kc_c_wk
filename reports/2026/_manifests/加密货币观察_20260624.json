@@ -1,0 +1,273 @@
+{
+  "generated_at": "2026-06-24T16:33:42+08:00",
+  "period": "2026-06-17 16:33 至 2026-06-24 16:33（北京时间，最近7天）",
+  "raw_count": 43,
+  "collection_warnings": [
+    "no candidates for query: Hong Kong SFC HKMA virtual asset stablecoin tokenised investment product regulation",
+    "no candidates for query: cross chain oracle RWA infrastructure wallet staking rollup interoperability crypto",
+    "no candidates for query: site:blockworks.co (crypto OR bitcoin OR ethereum OR stablecoin OR tokenization OR digital assets)"
+  ],
+  "report": {
+    "items": [
+      {
+        "section": "政策风向",
+        "title_cn": "OKX警告约60%欧盟加密用户仍在未授权平台交易",
+        "source_title": "OKX Warns 60% of EU Crypto Users Remain on Unlicensed Platforms",
+        "event_date": "2026-06-23",
+        "key_points": [
+          "OKX Europe CEO Erald Ghoos表示，约80%的加密货币交易所将无法在MiCA监管下存活，约60%的欧洲加密用户仍在未获MiCA授权的平台上交易。",
+          "欧盟成员国过渡期将于7月1日全部结束，届时未获授权平台必须停止向欧盟客户提供服务或面临执法行动。",
+          "截至2026年6月18日，已有超过200家加密资产服务商获得MiCA全面授权，OKX通过马耳他金融服务管理局（MFSA）获得授权。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "欧洲加密市场正面临一个严格的监管截止日期，可能导致大量交易所停止为整个欧盟的客户提供服务。OKX Europe首席执行官Erald Ghoos表示，约80%的加密货币交易所将无法在《加密资产市场法规》（Markets in Crypto-Assets regulation，MiCA）下存活，未获授权的公司必须在国家过渡期于7月1日到期后停止向欧盟客户提供服务。",
+          "MiCA创建了全球首批综合性加密资产框架之一，要求加密资产服务提供商（Crypto-Asset Service Provider，CASP）获得欧盟成员国内国家主管机构的授权。一旦获得许可，企业可以在整个欧洲经济区（European Economic Area，EEA）内通行服务。加密服务提供商规则于2024年12月30日生效，但欧盟成员国允许现有企业获得最长18个月的过渡期。如今，宽限期即将结束。",
+          "Ghoos指出，欧盟27个成员国中有20个已经结束了国家过渡期，7月1日将是剩余窗口关闭的欧盟整体时间节点。这一截止日期意义重大，因为仍有大量用户在监管范围之外进行交易。Ghoos称，约60%的欧洲加密用户仍在使用未获得MiCA授权的平台，其中许多平台“没有获得授权的路径”。",
+          "对于未获授权的平台，一旦7月1日截止日期到来，它们面临的选择范围很窄：可以停止服务欧盟客户、将用户迁移至授权实体、寻求与受监管基础设施提供商合作，或面临执法行动。对用户而言，最直接的担忧是资金访问、提现以及服务连续性，如果平台被突然封锁或被迫限制运营。",
+          "Ghoos表示：“过渡期条款基本已经用完。欧盟27个成员国中有20个已经过了国家过渡期截止日期。7月1日将完全关闭窗口。在ESMA注册的企业可以继续运营，未注册的则不能。问题在于，监管机构从那之后将如何处理未授权交易所。”",
+          "根据欧洲证券和市场管理局（European Securities and Markets Authority，ESMA）的临时登记册，截至2026年6月18日，已有超过200家加密资产服务商持有MiCA全面授权。授权企业必须遵守透明度、披露、治理、监管和消费者保护等方面的要求。稳定币发行方需遵守储备规则，交易平台必须履行客户资产和运营行为方面的义务。",
+          "OKX通过马耳他金融服务管理局（Malta Financial Services Authority，MFSA）获得了MiCA授权，此前自2021年11月起在马耳他持有虚拟资产服务提供商注册。该授权允许该交易所在EEA内通行服务，包括受监管的现货交易和稳定币支付。",
+          "Ghoos确定了仍在欧洲活跃的三类不合规交易所：没有欧洲实体足迹的离岸平台、依赖即将到期的过渡安排的平台，以及持有MiCA授权子公司但仍在欧洲应用商店提供未授权全球应用程序的全球运营商。最后一类可能尤其敏感，因为它会造成用户账户由哪个实体服务的混淆。",
+          "Ghoos表示：“MiCA旨在为在欧洲负责任地运营建立基线：资产隔离、储备证明、健全治理、运营韧性。门槛设定得很高，因为出错成本由普通人承担。很大一部分市场无法达标，这正是机制在起作用。”他补充道：“另一边出现的是规模更小但结构更健全的交易所。留下来的交易所之所以能够存在，是因为它们将授权视为建立严肃金融机构的基础，而不是一个需要追赶的截止日期。”"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/okx-warns-60-of-eu-crypto-users-remain-on-unlicensed-platforms/",
+        "published_at": "2026-06-23T16:05:00+08:00",
+        "region": "欧洲",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "美国众议院通过含CBDC禁令的住房法案等待特朗普签署",
+        "source_title": "US nears ban on CBDCs until 2030 as housing bill goes to Trump",
+        "event_date": "2026-06-24",
+        "key_points": [
+          "美国众议院以358-32票通过包含央行数字货币（CBDC）禁令的“21世纪道路至住房法案”，禁令将持续至2030年。",
+          "该法案此前一天已在参议院以85-5票通过，预计总统特朗普将于周三签署成为法律。",
+          "禁令禁止美联储直接或间接“发行或创建央行数字货币或任何与央行数字货币实质相似的数字资产”，有效期至2030年12月31日。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "美国众议院通过了一项重要住房法案，其中包含一项直至2030年禁止央行数字货币（CBDC）的条款。此举被视作长期推动该措施的共和党人的重大胜利。众议院于周二以358-32票通过了“21世纪道路至住房法案”（21st Century ROAD to Housing Act），该法案一天前已在参议院以85-5票通过，旨在主要解决住房可负担性问题。",
+          "该法案现已提交给美国总统唐纳德·特朗普（Donald Trump），他已表示支持该措施，预计将于周三签署成为法律。参议院银行委员会主席蒂姆·斯科特（Tim Scott）表示：“今天，国会为致力于实现美国梦的家庭赢得了一场重大胜利。我期待特朗普总统将其签署为法律。”",
+          "CBDC是由中央银行在账本上发行的法定货币的数字表示。该法案的签署将是共和党人多年尝试通过CBDC禁令的胜利，也是加密货币倡导者的胜利——他们认为CBDC是一种将原本为去中心化资产设计的技术重新用于中心化控制资产的尝试。",
+          "该住房法案包含的语言规定，美联储不得直接或间接“发行或创建央行数字货币或任何与央行数字货币实质相似的数字资产”，该条款将于2030年12月31日失效。该禁令自3月参议院通过其版本以来一直包含在法案中。此外，法案还为加密稳定币提供了例外，允许“开放的、无需许可的和私有的美元计价货币”。",
+          "CBDC禁令恢复了共和党众议员汤姆·埃默（Tom Emmer）的“反CBDC监视国家法案”中的语言。该法案于2025年6月提出，一个月后通过了众议院，但从未在参议院得到推进。随着该法案从立法议程中移除，国会现在可以在8月休会和11月中期选举前集中精力通过其他立法。",
+          "一项特别引人关注的法案是参议院的加密市场结构法案，被称为“清晰法案”（CLARITY Act），许多立法者一直在推动其进展。尽管立法者与加密及银行游说者进行了数月谈判，清晰法案仍受到阻力，今年通过的可能性有所下降。本月早些时候，银河数字（Galaxy Digital）将其今年年底前在参议院通过的概率下调至60%，原因是国会日程收紧。"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/us-nears-ban-on-cbdcs-until-2030-as-housing-bill-goes-to-trump",
+        "published_at": "2026-06-24T07:18:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "美国执法机构与天主教领袖联合反对CLARITY法案称其或助长非法活动",
+        "source_title": "Catholic leaders, US authorities challenge CLARITY Act over illicit activity",
+        "event_date": "2026-06-24",
+        "key_points": [
+          "四个执法组织致信白宫，警告CLARITY法案将制造监管缺口，削弱反洗钱与KYC要求，妨碍非法活动调查。",
+          "天主教反人口贩运联盟致信参议院领袖，指出法案第604条可能为人口贩运、有组织犯罪等提供“广泛豁免”。",
+          "法案支持者、参议员Cynthia Lummis反驳称，法案明确“编写代码不是资金转移”，旨在堵住漏洞而非庇护罪犯。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "一批执法组织与天主教反贩运联盟成为最新两股反对美国CLARITY法案的力量。该法案旨在为数字资产建立监管框架，但批评者认为它可能在非法活动监管方面制造漏洞。法案定于7月17日举行众议院听证会，此前已在参议院银行委员会以多数民主党反对票通过。",
+          "四个执法组织——全美地区检察官协会、全美助理联邦检察官协会、国际警察局长协会和全美警长协会——于6月23日致信白宫。信件收件人包括代理司法部长Todd Blanche和白宫数字资产顾问Patrick Witt。信中表示，法案第604条（即“区块链监管确定性法案”）将制造监管缺口，阻碍非法活动调查，并削弱比传统金融更宽松的“了解你的客户”（KYC）和反洗钱（AML）要求。",
+          "第604条涉及数字资产服务提供商的监管框架，旨在保护非托管开发者、开源贡献者、自我托管工具及部分DeFi基础设施不被自动归类为资金转移商。执法组织强调，他们不反对编写或发布软件代码的个人，也不反对负责任的技术创新，但担忧该豁免可能使那些促进数字资产流动的个人或实体逃避监管。",
+          "“监管确定性不应以牺牲问责、透明度、受害者保护或公共安全为代价，”四组织在信中写道。“我们的担忧在于广泛的豁免，这些豁免可能庇护那些便利数字资产转移的活动，为合法监管制造障碍，或削弱执法部门长期依赖的调查与执法权力。”",
+          "然而，区块链协会（Blockchain Association）首席政策官Lindsay Fraser认为这封信显示出对CLARITY法案的“根本性误解”。她表示：“第604条只做了一件事：防止非托管软件开发者在不托管资产或控制交易的情况下被错误归类为资金转移商。它不会庇护罪犯，不会限制制裁执行，也不会阻止对洗钱、欺诈或恐怖主义融资的起诉。”",
+          "与此同时，由美国天主教修女创立的“终结人口贩运联盟”（Alliance to End Human Trafficking）在6月23日向参议院共和党领袖John Thune和民主党领袖Chuck Schumer发送了类似信件。该组织从人权角度指出，第604条下的某些条款可能造成“广泛的豁免和监管模糊性”，使得“更难负责任地监控与贩运、有组织犯罪、儿童剥削、制裁规避及其他形式虐待相关的非法金融活动”。",
+          "“任何金融体系的检验标准，不仅在于它能否创造财富或创新，更在于它是否保障人类生命与尊严，”该组织在信中写道。",
+          "CLARITY法案的支持者、参议员Cynthia Lummis则持相反观点。她上周四表示：“监管模糊性不仅伤害建设者，也帮助罪犯……CLARITY法案封堵了不良行为者利用的漏洞。”她进一步补充：“CLARITY法案明确：编写代码不是资金转移。这一区分将对一代建设者至关重要。”"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/law-enforcement-and-catholic-groups-warn-clarity-act-facilitates-crypto-crime",
+        "published_at": "2026-06-24T07:14:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "THORChain在5月1070万美元黑客攻击后恢复交易",
+        "source_title": "THORChain Resumes Trading Following Recovery From Last Month’s $10.7 Million Hack",
+        "event_date": "2026-06-23",
+        "key_points": [
+          "THORChain 于6月23日恢复交易和网络运营，距5月15日1070万美元漏洞攻击已逾五周。",
+          "攻击者是一名节点运营商，在攻击前仅两天加入网络，利用GG20阈值签名方案漏洞。",
+          "恢复过程中未增发RUNE代币，而是依靠协议自有流动性，避免了代币稀释。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "据THORChain声明，跨链协议平台THORChain于6月23日恢复交易和网络运营，距5月15日1070万美元漏洞攻击已逾五周。此次重启标志着该项目历史上最长的中断之一结束，此前经历了安全升级、金库迁移及旨在防止类似事件的广泛验证流程。",
+          "5月15日的攻击针对THORChain的一个Asgard金库，暴露了协议GG20阈值签名方案（Threshold Signature Scheme， TSS）的弱点。攻击者是一名节点运营商，在攻击前仅两天加入网络。攻击影响了至少九条区块链上的资产，包括比特币（Bitcoin）、以太坊（Ethereum）、BNB Chain、Base、Avalanche、狗狗币（Dogecoin）、莱特币（Litecoin）、比特币现金（Bitcoin Cash）和XRP。THORChain的自动偿付能力机制检测到异常活动后暂停了签名操作，防止了进一步损失。",
+          "与许多DeFi恢复过程不同，THORChain选择不增发RUNE代币来吸收损失，而是依靠协议自有流动性。这种方法保护了代币持有者免受稀释，同时在重新开放前帮助网络重建信心。THORChain在重启声明中确认，交易、互换、流动性提供者操作和签名功能均已恢复。",
+          "在宣布重启的帖子中，THORChain表示，在贡献者完成安全审查和网络升级后，交易、互换、流动性提供者操作和签名功能均已恢复。具体而言，公司表示：“签名、轮换、安全及交易资产、LP操作和互换均已正常运行。”",
+          "此次攻击最初使RUNE价格下跌12%至15%，抹去数千万美元市值。然而，恢复计划中避免增发代币的决定有助于限制对该资产的进一步压力。据TRM Labs数据，涉及该协议的攻击累计损失已接近2500万美元。",
+          "治理讨论目前聚焦于用替代安全架构替换GG20阈值签名系统。该事件也重新引发了关于节点运营商安全以及去中心化网络能否有效防御内部威胁的辩论。尽管重启成功，THORChain仍面临更广泛挑战：该协议于2025年因偿付能力问题暂停了ThorFi借贷业务，而监管机构和合规公司多次强调其在促进与重大加密货币黑客攻击相关的跨链转移中的作用。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/thorchain-resumes-trading-after-10-7-million-hack/",
+        "published_at": "2026-06-23T18:46:00+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "6月23日比特币和以太坊ETF净流出近2亿美元",
+        "source_title": "Bitcoin and Ether ETFs Record Nearly $200 Million in Outflows on June 23",
+        "event_date": "2026-06-23",
+        "key_points": [
+          "6月23日美国现货加密货币ETF（交易所交易基金）合计净流出近2亿美元，比特币和以太坊产品均遭遇赎回。",
+          "现货比特币ETF净流出1.138亿美元，贝莱德的IBIT贡献了1.82亿美元赎回，但富达FBTC、ARK 21Shares ARKB等产品有流入。",
+          "以太坊ETF净流出8240万美元，贝莱德ETHA损失8610万美元，富达FETH流入1570万美元部分抵消压力。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "美国现货加密货币交易所交易基金（ETF）在6月23日录得近2亿美元的合计净流出。根据基金级流量数据，比特币和以太坊产品均面临赎回，尽管部分竞争性基金仍有资金流入。贝莱德（BlackRock）旗下基金成为流出主力，而其他发行商的产品则吸引了资金。",
+          "现货比特币ETF当日净流出1.138亿美元。贝莱德的iShares Bitcoin Trust（IBIT）流出1.82亿美元，但其他产品实现了净流入：富达（Fidelity）的FBTC流入2300万美元，ARK 21Shares的ARKB流入3100万美元，VanEck的HODL流入530万美元，MSBT流入890万美元。Bitwise的BITB、Invesco的BTCO、Franklin Templeton的EZBC、Valkyrie的BRRR、WisdomTree的BTCW、Grayscale的GBTC和Grayscale的BTC当日无净流量。",
+          "以太坊ETF同样走弱，当日净流出8240万美元。贝莱德的iShares Ethereum Trust（ETHA）赎回最多，损失8610万美元；ETHB流出170万美元；Grayscale的ETH流出1030万美元。富达的FETH部分抵消了压力，流入1570万美元。Bitwise的ETHW、21Shares的TETH、VanEck的ETHV、Invesco的QETH、Franklin Templeton的EZET和Grayscale的ETHE流量为零。",
+          "比特币ETF的赎回呈现集中特征。当日净流出完全由IBIT驱动，多只其他基金继续吸引资金。这一模式表明投资者并非统一退出比特币敞口，而是在发行商之间轮动，或通过最大、流动性最强的产品减少风险敞口。此前6月22日现货比特币ETF已流出6830万美元，两个交易日合计赎回1.821亿美元，指向机构需求在加密货币价格波动后有所软化。",
+          "ETF流量的市场影响依然重要，因为现货比特币ETF已成为衡量机构和顾问需求的最清晰渠道之一。持续的流入通常支持长期资本正在积累比特币的观点，而流出可能加剧对风险削减、获利了结或配置者信心减弱的担忧。",
+          "以太坊ETF也连续第二个交易日面临压力。6月23日的流出之前，6月22日已出现6610万美元赎回。两个交易日总流出达1.485亿美元，主要来自贝莱德的ETHA。以太坊数据值得关注，因为该资产继续与比特币、Solana及其他加密投资叙事争夺机构注意力。与比特币ETF相比，以太坊基金历来需求更加不稳定，部分原因是投资者仍在质押、网络收入、代币化、二层活动和监管待遇等方面争论以太坊的投资价值。",
+          "Solana ETF在6月23日无净流量，表明当日的压力集中在两个最大的现货加密货币ETF类别。对投资者而言，数据表明加密货币ETF需求仍具选择性，而非广泛的风险偏好。现货加密货币ETF通过传统经纪和咨询渠道使数字资产更易获取，但也通过每日创建和赎回数据使机构情绪更加透明。6月23日的数据显示，即使市场条件减弱或投资者重新平衡风险，加密货币ETF需求也可能迅速逆转。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/bitcoin-and-ether-etfs-record-nearly-200-million-in-outflows-on-june-23/",
+        "published_at": "2026-06-24T09:18:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "Fomo融资7500万美元大型风投仍看好消费级加密Strategy筹资但加仓趋缓以太坊研究实验室ETHLabs成立",
+        "source_title": "Morning Minute: Fomo's $75M Raise Shows Big VCs Are Still Betting on Consumer Crypto",
+        "event_date": "2026-06-23",
+        "key_points": [
+          "消费级加密交易应用Fomo完成7500万美元B轮融资，估值5.5亿美元，由Index Ventures领投，Union Square Ventures等参投。",
+          "Strategy（原MicroStrategy）上周发行股票融资3.355亿美元，但仅购入520枚BTC（约3500万美元），其余约3亿美元转为现金储备。",
+          "BitMine、SharpLink和Joe Lubin联合资助成立独立非营利研发实验室ETHLabs，专注以太坊面向机构的研究。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "今日（2026年6月23日）加密市场主要币种普遍下跌，与股市同步走低。比特币（Bitcoin，BTC）下跌3%至约62，300美元；以太坊（Ethereum，ETH）下跌6%至约1，660美元；Solana（SOL）下跌7%至约69.10美元；Hyperliquid（HYPE）下跌7%至约63美元。原油下跌3%至73.80美元，黄金下跌1.5%至4，140美元。美股期货同样大幅下挫，道琼斯指数期货下跌0.5%，纳斯达克指数期货下跌2.75%。美国参议院通过了一项包含四年联邦储备委员会央行数字货币禁令的住房法案，反对政府发行数字美元的加密倡导者视为利好。",
+          "消费级加密交易应用Fomo宣布完成7500万美元B轮融资，估值达到5.5亿美元。本轮融资由Index Ventures领投，Union Square Ventures、现有投资者Benchmark，以及天使投资者——Zynga的Mark Pincus、Discord首席执行官Humam Sakhnini和Eventbrite的Kevin Hartz参投。Fomo由三位前dYdX员工Paul Erlanger、Se Yong Park和Prashan Dharmasena于2025年创立，旨在让链上交易体验接近普通消费应用：非托管、约30秒入门、包含排行榜和跟单交易等社交功能，支持比Coinbase更多的资产，跨多条链无需管理钱包、跨链桥或Gas费。",
+          "自2025年5月上线以来，Fomo已积累超过62.5万用户，交易量突破40亿美元，日均新增约3500名用户，而整个团队仅有17人。本轮融资使Fomo总融资额达到约9400万美元。Index合伙人Julia Andre表示，公司看到了消费级区块链交易领域的真实市场转变，并认为Fomo团队能够抓住这一机遇，她直言：“我们投资Fomo不是因为它是加密业务。”Fomo联合创始人Paul Erlanger则坦承他们试图解决的问题：“链上交易简直不可能（实现）。”他的目标是让Fomo不被视为一个加密应用，这与Coinbase和Robinhood的路径一致。",
+          "值得注意的是投资方的背景。Index Ventures因投资Figma和Scale AI而闻名，Union Square Ventures极少涉足加密领域。在严峻的熊市中，知名非加密风投领投加密初创公司九位数融资，传达出强烈的信念：下一波用户将通过简洁的消费应用而非笨重的交易所入场。时机也吻合：随着比特币在64，000美元附近企稳，零售搜索和交易量开始回升。Fomo的野心不止于代币：6月已添加永续合约，并希望成为股票、衍生品和预测市场链上化的前端，这使其与Coinbase的“万能应用”（everything app）和Robinhood产生直接竞争。联合创始人Se表示，计划利用新资金进行收购并扩充工程团队。",
+          "与此同时，Strategy（原MicroStrategy）上周通过发行MSTR股票融资3.355亿美元，但仅用其中约3500万美元购买了520枚比特币，均价67，068美元，使其总持仓增至847，363枚比特币。其余约3亿美元转为现金储备，使Strategy的美元储备增加约3亿美元至14亿美元，这笔资金用于支持优先股的信用质量以及股息和债务偿付。一些人称此举为对STRC（优先股）的“损害控制”。Saylor的优先股（用于融资购买比特币的工具）上周跌至83美元的历史低点，随后略有回升，这轮抛售拖累了比特币并影响了市场情绪。",
+          "通过发行普通股筹集资金并囤积现金而非购买更多比特币，Strategy传递出信号：当前加固资产负债表比增持币种更为重要。Strategy首席执行官（Michael Saylor）本人购买了价值100万美元的STRC，并表示将持有至恢复面值，这被视为对市场质疑（该模式能否在长期熊市中持续）的公开信心展示。原文指出Saylor及其团队显然将保护STRC和比特币，这可能意味着“牺牲”MSTR（周一MSTR下跌3%，而IBIT上涨2.5%）。市场对Saylor“爆仓”的担忧可能被夸大，但MSTR股东短期内或将承受更多痛苦。",
+          "以太坊生态方面，两家最大的以太坊（ETH）企业持有者BitMine和SharpLink联合以太坊创始人Joe Lubin，共同资助了新的独立非营利研发实验室ETHLabs。该实验室由五名来自以太坊基金会（Ethereum Foundation）的研究人员组成，目标是让以太坊成为全球经济的结算层。初期工作聚焦于机构需求：更快的结算、原生发行、跨链移动、更多主网容量，以及夯实ETH货币属性的基础研究。除三位主要资助方外，社区支持者包括Uniswap的Hayden Adams、Base的Jesse Pollak，以及研究员Justin Drake、Danny Ryan和Tim Beiko。",
+          "BitMine和SharpLink是最大的两家以太坊企业持有者，这些持有最多ETH的实体如今正出资支持旨在提升ETH价值的研究。Tom Lee（原文为Tom Lee，但未明确身份）将此框架描述为机构和AI代理推动采用，生态系统需要更多人才和研究支持。ETHLabs明确瞄准价值捕获和DeFi的实际应用，这正是ETH持有者长期批评以太坊基金会因“可信中立”而投入不足的领域。为避免资金被视为影响，ETHLabs通过独立的资助管理员（grants administrator）路由每一笔捐款，在研究者和付费金库之间设置缓冲。这发生在以太坊基金会人才流失以及关于以太坊发展方向和ETH资产价值捕获方式的争论日益激烈的背景之下。ETHLabs被定位为基金会的补充而非分裂，被描述为“理想主义与实用主义”的两半。其逻辑简单：让拥有最多ETH的机构与能够增长ETH的研究人员结盟，并由独立管理员保持各方诚信。"
+        ],
+        "source_name": "Decrypt",
+        "url": "https://decrypt.co/371851/morning-minute-fomos-75m-raise-shows-big-vcs-are-still-betting-on-consumer-crypto",
+        "published_at": "2026-06-23T13:44:00+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "实时行情比特币跌至62000美元策略公司创52周新低稳定币流动性缩水",
+        "source_title": "Live updates: Saylor's Strategy sinks to new 52-week low as bitcoin drops to $62,000",
+        "event_date": "2026-06-23",
+        "key_points": [
+          "比特币跌至62，000美元，24小时内清算约7.06亿美元杠杆头寸",
+          "策略公司（MSTR）触及52周新低103.52美元，年同比跌幅达72%",
+          "USDT与USDC总市值自5月初以来缩减逾70亿美元，降至约2，600亿美元，创3月以来最低，暗示资本离开加密生态"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "比特币（BTC）于6月23日跌至约62，000美元，24小时跌幅3.3%，以太坊（ETH）下跌6%至约1，659美元。CoinDesk数据显示，全球AI股暴跌10%波及数字资产，XRP、Solana和Hyperliquid均下跌6%至7%。损失集中在杠杆多头头寸，约7.06亿美元头寸被清算。美股方面，纳斯达克指数收跌2.2%，AI概念股领跌，美光（MU）下跌13.2%，英伟达、博通、AMD和英特尔跌幅在3%至7%之间。",
+          "比特币持仓公司策略（Strategy， MSTR）周二下跌5.3%，盘中触及52周新低103.52美元，年同比跌幅达72%。比特币回落至62，000美元是主要拖累因素。",
+          "稳定币流动性指标也发出警示信号。Tether的USDT与Circle的USDC合计市值自5月初以来下降超过70亿美元，目前约2，600亿美元，为3月以来最低水平。交易员通常将稳定币供应量视为链上流动性和购买力的代理指标。新资金进入加密市场时通常先转换为稳定币，再部署至比特币等数字资产。Wincent交易公司总监Paul Howard表示，流动性正在外流，尤其是从韩国市场流出，投资者转为法币购买AI股和科技公司股票。",
+          "Wintermute公司指出，比特币59，000美元价格水平已成为交易员的关键阈值。该公司称，加密资产正跟随更广泛的风险资产走低，主要加密货币之间的相关性正在上升，同时市场流动性因夏季到来而枯竭。比特币现货ETF缺乏新资金流入，使数字资产市场更容易受到宏观头条和股市潜在疲软的影响。交易员正在关注几个可能驱动市场方向的因素，包括中东和平协议进展、周四美国个人消费支出（PCE）通胀报告以及本月底第二季度期权合约到期。",
+          "Charles Schwab数字资产研究总监Jim Ferraioli表示，比特币再次在200周简单移动平均线附近找到支撑，该水平历史上曾与熊市底部重合。他还指出，比特币目前交易价格接近高效矿工的生产成本，他估计在6万美元出头的区间。生产成本常被市场参与者关注，因为持续低于该水平会施压矿工运营并降低网络活动。网络数据也提供线索：比特币挖矿难度已从去年高点下降约20%，回到2月初水平。下一次难度调整定于6月27日，当前预估将增加，Ferraioli称历史上在急跌后难度增加有助于确认市场底部，因为这可能表明矿工在临时关停后重新上线设备。",
+          "比特币与标普500的恐惧指数均大幅飙升。比特币30日隐含波动率指数（BVIV）跃升近10%至46.5%，根据Volmex数据，该指数通常与比特币现货价格反向变动，反映期权保护需求增加。同时，标普500的VIX指数飙升16.5%至20.0，为近期最高水平。全球股市承压，纳斯达克期货早盘下跌约3%，韩国Kospi指数今日早些时候一度暴跌10%。传统与加密市场波动率的同步上升凸显了广泛的避险情绪。",
+          "韩国Kospi指数隔夜暴跌10%，内存芯片类股SK海力士和三星均跌逾10%。纳斯达克100期货在美股开盘前一小时下跌2.6%，标普500期货下跌1.2%。内存芯片股美光（MU）在周一创历史新高后下跌逾7%。比特币在过去24小时内下跌3.6%至62，300美元，以太坊下跌6.2%至1，650美元。加密资产与科技板块表现出负相关：当科技股上涨时加密资产不跟随，但当科技股暴跌时加密资产却紧密联动。",
+          "其他消息方面，Digital Currency Group旗下Fortitude Mining同意与HeartSciences（HSCS）合并，通过SPAC交易上市，预计今年下半年完成，股票将在纳斯达克以代码“TUDE”交易。Fortitude自2019年开始挖矿ZEC，目前年产量已扩大至15.7万枚ZEC。HSCS周二早盘上涨95%；ZEC在过去24小时下跌9%。另外，比特币持仓公司Nakamoto（NAKA）宣布其医疗诊所业务已于上周全部结束，公司完成向比特币运营公司的全面转型，专注于媒体与信息服务、资产管理及金融服务、咨询与顾问服务。NAKA股价从2025年6月的高点680美元（经拆股调整）跌至目前不足4美元。"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/markets/2026/06/23/live-updates-an-altcoin-season-signal-flashed-but-bitcoin-s-slide-is-what-set-it-off",
+        "published_at": "2026-06-23T22:00:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "以太坊遭人诟病的质押“税”或已过时",
+        "source_title": "Ethereum’s much-hated staking 'tax' may already be obsolete",
+        "event_date": "2026-06-23",
+        "key_points": [
+          "以太坊的“资金危机”引发了一场关于是否对质押奖励征税的激烈辩论。",
+          "Kleros联合创始人Clément Lesaege提议通过协议机制将最多10%的验证者奖励重定向至生态系统资金，引发广泛批评。",
+          "五位前以太坊基金会研究员发起的新型非营利研发实验室EthLabs获得了BitMine、Sharplink和ConsenSys创始人Joseph Lubin的支持，被视为一种“可信中立”的替代方案。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "以太坊最新的“资金危机”引发了一场激烈辩论：网络是否应该通过对质押奖励征税来为开发者提供资金，还是依靠富有的ETH持有者来资助其生态系统。争议核心是Kleros联合创始人Clément Lesaege提出的“验证者重定向收入”（Validator Redirected Revenue）提案。该提案建议通过协议级机制，将最多10%的验证者奖励重定向至生态系统资金。Lesaege认为，这可能对于解决以太坊的“协调失灵”并减轻共享生态系统工作资金不足的问题十分必要。这项提议遭到了强烈反对，批评者警告称，这种机制可能产生类似卡特尔集团的激励，并为验证者主导的财富再分配树立危险先例。",
+          "这场争议源于前以太坊基金会贡献者Trenton Van Epps的警告。他表示，随着旧有支持计划枯竭以及基金会支出减少，以太坊核心开发生态系统可能在3至9个月内面临“缓慢燃烧的资金危机”。他估计，维护超过10个客户端、研究和协调团队每年大约需要3000万美元，而原有的客户端激励计划和其他支持机制已不足以支付这笔费用。不过，BitMine的Tom Lee驳斥了这一警告，称以太坊用于协议开发的资金“绝不可能”枯竭。以太坊基金会自己的国库政策显示，其拥有多年运营缓冲资金，并计划在五年内将年度支出从占国库总资产的15%逐渐降至5%的基准线。",
+          "尽管基金会可能不会真的缺钱，但预算正在收紧。Lesaege的提案要求验证者表明他们愿意重定向多少质押奖励（比例在0%至10%之间）。如果多数验证者支持某个非零比例，该重定向将对所有验证者强制执行。据他估计，即使以5%至10%的比例重定向，每年也能产生约50000至70000 ETH（按当前价格约合8250万至1.155亿美元）用于生态系统工作。然而，批评者立即指出机制中的权力动态问题，警告这可能会固化大型验证者，模糊运营者与治理参与者之间的界限，并让持币权重多数在生态系统资金决策中获得新的杠杆。",
+          "质押服务提供商对此反应不一。Figment的一位发言人告诉Cointelegraph，该提案会压缩利润率，从而“倾向于将验证者群体整合为服务于机构客户的更大、更集成化的运营商”，而这将以“牺牲运营者多样性和潜在更少的净新增ETH质押者为代价”。Twinstake机构质押首席执行官兼联合创始人Andrew Gibb表示，不同投资者群体的反应会有所不同：长期ETH持有者可能看重更完善生态系统的前景，而短期资本（如散户参与者、多资产流动性基金和关注回报的配置者）接受度可能较低。他预测，该提案将“收窄可寻址质押市场的边际”，最价格敏感的群体很可能“减少或退出头寸”。",
+          "Bitwise高级研究助理Max Shannon指出，以太坊质押参与率迄今对较低回报的敏感度有限——质押年化收益率（APR）已从2023年6月的约4.6%降至目前的约2.7%，而质押供应量和质押率却大约翻了一番。但额外的奖励压缩将使得“相对于回报而言，罚没风险和退出队列流动性风险更为显著”。他补充说，更低的共识层净收益率可能促使验证者更依赖最大可提取价值（MEV）来弥补损失的APR，这可能会削弱抗审查能力。在Shannon看来，资金缺口本身并不大——假设年缺口约3000万美元，而年度质押奖励约19亿美元，那么仅用1.6%的质押奖励就能填补缺口。这使得Lesaege的提案虽然政治上敏感，但经济规模上看似温和。",
+          "在辩论白热化之际，一个“可信中立”的解决方案浮出水面：EthLabs。这个由五位前以太坊基金会研究员于周一发布的新型非营利以太坊研发实验室，得到了生态系统最大的支持者——包括BitMine、Sharplink和ConsenSys创始人Joseph Lubin——的资助。与在协议层征税不同，EthLabs使像BitMine和Sharplink这样的大型ETH支持机构能够直接资助开发。它并不取代以太坊基金会，而是对其进行补充。以太坊联合创始人Joe Lubin在X平台上表示，以太坊基金会仍有“大量顶级人才”专注于协议的“密码朋克核心组件”，但其他许多以太坊研发团队将探索其他维度。",
+          "Andrew Gibb认为，为生态系统开发提供资金的责任在于基金会和协议国库。在“对协议级别的验证者经济做出改变之前”，还有替代机制可以探索，例如质押收益或优先费。但EthLabs的出现已将辩论的焦点从“以太坊应如何征税”转向了“是否还需要征税”。"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/features/ethereums-funding-scare-why-a-hated-staking-tax-may-already-be-obsolete",
+        "published_at": "2026-06-24T00:34:00+08:00",
+        "region": "global",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "特朗普量子行政令获赞但专家警告比特币尚未做好准备",
+        "source_title": "Trump's Quantum Push Wins Praise, But Experts Warn Bitcoin Isn't Ready",
+        "event_date": "-",
+        "key_points": [
+          "美国总统特朗普签署行政令，将联邦政府迁移至后量子密码的最后期限从2035年提前至2031年。",
+          "量子产业领袖表示行政令可能加强美国在量子领域的领导地位，但部分专家认为时间表仍不够紧迫。",
+          "研究人员警告后量子密码迁移是多年过程，而能够破解当前加密的量子计算机可能在迁移完成前出现。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "美国总统唐纳德·特朗普（Donald Trump）于周一签署行政令，将联邦政府采用后量子密码（post-quantum cryptography）的最后期限从2035年提前至2031年。此举正值各国政府、技术公司及加密货币开发者加紧为未来量子威胁做准备之际。SandboxAQ工程副总裁兼首席科学家Stefan Leichenauer博士对Decrypt表示：“预测密码学相关量子计算机（cryptographically relevant quantum computer）的确切日期很困难，因为仍有许多未知因素，但3到10年的区间是可信的。”他警告称，密码学相关量子计算机的后果极为严重，我们必须为最激进的预测做好准备。",
+          "Leichenauer同时指出，各组织在后量子密码迁移方面可能已经落后于计划。他说：“我们在后量子迁移方面进展迅速，但考虑到许多系统的漫长过渡期，我们很可能已经落后于原定计划。后量子迁移是一个多年过程，而密码学相关量子计算机很可能在我们完成迁移之前出现。”他称行政令应起到“警钟”作用，并将量子安全列为紧迫优先事项。",
+          "量子安全公司Project Eleven的首席执行官Alex Pruden认为，白宫修订时间表是早该进行的。“关于量子计算进展的传言已有很多，其他国家也已更新其时间表，最近的是法国，”Pruden告诉Decrypt，“因此当这项命令出台时，我的反应是：很好，终于到时候了。”Pruden表示，2028年的目标虽然雄心勃勃，但不再是不可能。Project Eleven估计，到2033年出现密码学相关量子计算机的概率为50%，到2030年为10%。他说：“如果两年前你问我这个问题，我会说概率是0%。现在我认为有实质性的可能性。”",
+          "Holland & Knight合伙人兼量子产业联盟（Quantum Industry Coalition）执行董事Paul Stimers表示，这些行政令反映出日益增长的共识：密码学相关量子计算机的时间表正在缩短。Stimers对Decrypt说：“量子产业路线图开始收敛于2028-2030年这一时间段。”但他告诫，公开估计可能无法反映美国或国外的机密量子计算项目。他还指出一个更紧迫的担忧：对手正在收集加密数据，以期未来解密能力。“因为对手已经在窃取加密数据并保存，直到他们能用密码学相关量子计算机解密，威胁是即时的，解决它的时机就是现在。”他说，“迁移到后量子加密和敏捷网络安全需要时间。网络安全行政令在紧迫性与现实性之间取得了平衡。”",
+          "Stimers称，联盟成员对行政令反响积极，因为其重点不仅在于研究，还包括制造、商业化、部署和行业参与。他将政府后量子网络安全路线图描述为雄心勃勃但可行。并非所有人都认为行政令意味着政府正在超前解决问题。一些社交媒体上的批评者认为，对后量子密码的紧迫感早就该有，因为敏感数据已被收集并存储，预期未来量子计算机可能最终解密。量子物理学家Anastasia Marchenkova表示，政府关于“量子主导地位”（quantum dominance）的表述有助于提高认识和吸引投资，但也可能对行业能多快交付实际结果产生不切实际的期望。",
+          "Marchenkova对Decrypt说：“将‘量子’纳入国家对话确实有帮助——预算、兴趣、新人才管道——这推动我们从研究走向商业化，并建立真正的‘铲子和镐头’业务。但准备是无聊且不吸引人的：敏捷性、迁移、实际部署防御，而不是炒作破解加密或构建量子计算机的进攻。”她补充道：“如果截止日期被推迟——某些情况下确实会——那么空中楼阁的鼓吹者就会更大声。而且现在有了公开的量子公司，这些公告确实会显著影响市场，尽管我们不确定长期效果是什么。”尽管有这些担忧，Marchenkova表示行政令本身没有严重错误。“缺少的是‘如何做’，”她说，“我们现在有几种标准化的后量子算法，但真正困惑的是在哪里使用哪种，哪种最好。行政令说‘迁移’，而不是‘如何选择’。”",
+          "BTQ Technologies总裁兼创新主管Christopher Tam表示，考虑到行业进展速度和量子计算的潜在风险，政府2031年让联邦机构迁移高价值资产至后量子密码的最后期限仍然太慢。Tam对Decrypt说：“我会让它更紧迫。”他指出谷歌等公司已设定2029年的后量子迁移目标。“联邦政府比行业落后两年似乎有些奇怪。”Tam还质疑行政令范围过窄，认为其主要聚焦联邦系统，而将金融部门及更广泛工业基础的大部分排除在直接覆盖范围之外。同时他表示，政府在单独的但相关的行政令中同时推进量子计算和网络安全举措，这一点值得肯定。"
+        ],
+        "source_name": "Decrypt",
+        "url": "https://decrypt.co/371916/trump-quantum-praise-experts-warn-bitcoin-not-ready",
+        "published_at": "2026-06-23T22:34:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      }
+    ],
+    "notes": [
+      "DeepSeek selection unavailable; used deterministic scoring fallback."
+    ]
+  },
+  "factcheck": {
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      "政策风向 3 篇均来自同一地区：美国，建议加入美国或香港以外的正式监管动向",
+      "item 2 contains relative time wording; replace with exact date",
+      "item 3 contains question-style future/unknown wording; ensure the source explicitly raises it",
+      "item 3 contains relative time wording; replace with exact date",
+      "item 4 contains question-style future/unknown wording; ensure the source explicitly raises it",
+      "item 6 contains question-style future/unknown wording; ensure the source explicitly raises it",
+      "item 6 contains relative time wording; replace with exact date",
+      "item 7 contains relative time wording; replace with exact date",
+      "item 9 contains relative time wording; replace with exact date"
+    ]
+  },
+  "outputs": {
+    "docx": "reports/2026/加密货币观察_20260624.docx",
+    "manifest": "reports/2026/_manifests/加密货币观察_20260624.json"
+  }
+}
