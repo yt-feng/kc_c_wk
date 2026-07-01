@@ -25,6 +25,7 @@ MARKET_TERMS = ("raises", "funding", "fund", "venture", "ipo", "files", "acquisi
 OPINION_TERMS = ("said", "says", "told", "argued", "warned", "expects", "believes", "according to", "interview", "opinion", "analyst", "ceo", "founder", "cio", "chair", "president", "governor", "economist", "investor", "executive")
 BAD_TEXT_TERMS = ("permission is hereby granted", "the software is provided", "mit license", "angular.dev/license", "@font-face", "font-family", "fonts.gstatic.com", "fonts.googleapis.com", "stylesheet", "skip to main content menu", "enable javascript", "accept cookies to continue")
 DISCOVERY_SOURCE_NAMES = {"Bing News", "Google News", "GDELT"}
+BODY_REPAIR_ATTEMPTS = 2
 
 # These phrases were the source of unsupported additions in generated drafts.
 # They are allowed only when the English source explicitly contains a matching attribution/context.
@@ -136,8 +137,11 @@ def _section_score(item: RawItem, section: str) -> int:
         score += 6
     if section == "意见领袖" and any(x in text for x in ("interview", "said", "told", "warned", "argued")):
         score += 6
-    if len(getattr(item, "article_text", "") or "") > 2500:
-        score += 2
+    article_len = len(getattr(item, "article_text", "") or "")
+    if article_len > 1800:
+        score += 5
+    if article_len > 3200:
+        score += 5
     return score
 
 
@@ -158,7 +162,8 @@ def _candidate_payload(items: list[RawItem]) -> tuple[list[dict[str, Any]], dict
             "source_name": item.source_name[:120],
             "published_at": item.published_at[:80],
             "summary": item.summary[:850],
-            "article_excerpt": (getattr(item, "article_text", "") or "")[:1800],
+            "article_char_count": len(getattr(item, "article_text", "") or ""),
+            "article_excerpt": (getattr(item, "article_text", "") or "")[:2400],
             "section_hint": item.section_hint,
             "possible_sections": possible,
             "domain": host(item.url),
@@ -176,6 +181,7 @@ def _build_selection_prompt(candidates: list[dict[str, Any]], start_label: str, 
 【行业前沿】选协议升级、代币化结算、DeFi、RWA、跨链、预言机、钱包、安全、验证者、支付基础设施等技术/产品进展。
 【市场动态】选融资、并购、IPO、交易产品、机构采用、收入、稳定币供给、预测市场、交易所和市场基础设施等商业动态，避免纯价格预测。
 【意见领袖】必须体现人物或机构观点，能写出“XXX认为/指出/表示/警告”。
+优先选择 article_char_count 不低于 1600、事实密度足以编译成完整中文正文的原文；短原文只有在信息价值明显更高时才可选择。
 不要选重复主题、CSS/许可证/字体页、价格预测软文、中文来源、搜索引擎包装页。最终只可使用候选 id。
 输出 JSON：{{"items":[{{"id":"A000","section":"政策风向","editor_reason":"原因"}}],"notes":["..."]}}
 候选 JSON：{json.dumps(candidates[:180], ensure_ascii=False, separators=(",", ":"))}
@@ -264,6 +270,43 @@ def _infer_region(item: RawItem) -> str:
 
 def _sentence_list(text: str) -> list[str]:
     return [x.strip() for x in re.split(r"(?<=[。！？；])", text or "") if x.strip()]
+
+
+def _min_body_chars(section: str) -> int:
+    return 500 if section == "意见领袖" else 650
+
+
+def _min_body_paragraphs(section: str) -> int:
+    return 4 if section == "意见领袖" else 5
+
+
+def _body_text(item: dict[str, Any]) -> str:
+    paragraphs = item.get("body_paragraphs") if isinstance(item.get("body_paragraphs"), list) else []
+    return " ".join(str(x) for x in [item.get("lead_cn", ""), *paragraphs])
+
+
+def _needs_body_repair(item: dict[str, Any], section: str) -> bool:
+    paragraphs = item.get("body_paragraphs") if isinstance(item.get("body_paragraphs"), list) else []
+    return len(paragraphs) < _min_body_paragraphs(section) or len(_body_text(item)) < _min_body_chars(section)
+
+
+def _rebalance_paragraphs(paragraphs: list[str], section: str) -> list[str]:
+    target = _min_body_paragraphs(section)
+    if len(paragraphs) >= target:
+        return paragraphs
+    sentences: list[str] = []
+    for paragraph in paragraphs:
+        parts = _sentence_list(paragraph)
+        sentences.extend(parts or [paragraph])
+    if len(sentences) < target:
+        return paragraphs
+    chunk_count = min(max(target, len(paragraphs)), len(sentences))
+    chunks: list[str] = []
+    for idx in range(chunk_count):
+        start = round(idx * len(sentences) / chunk_count)
+        end = round((idx + 1) * len(sentences) / chunk_count)
+        chunks.append("".join(sentences[start:end]).strip())
+    return [x for x in chunks if x]
 
 
 def _unsupported_sentence(sentence: str, raw: RawItem) -> bool:
@@ -367,10 +410,39 @@ def _build_verify_prompt(raw: RawItem, section: str, item: dict[str, Any]) -> li
 请对照英文原文核验中文稿。规则：
 1. draft 中任何不能被 article_text 或 summary 直接支持的句子，必须删除或改写为原文直接支持的表述。
 2. 特别删除：未决问题、整体评价、行业评论、监管影响推断、合规要求推断、未来走势、来源中没有主体的“分析师认为/业内人士指出”。
-3. 不要新增任何事实或判断，不要补写背景。
-4. 保留原 JSON 结构，输出修订后的同一篇文章。
+3. 删除后如果正文不足，请从 article_text 中补入 draft 遗漏的事实细节；补入内容仍必须能在原文找到直接依据。
+4. body_paragraphs 不得少于 {_min_body_paragraphs(section)} 段；lead_cn 加 body_paragraphs 合计不得少于 {_min_body_chars(section)} 个中文字符。
+5. 不要新增任何来源外事实或判断，不要补写背景。
+6. 保留原 JSON 结构，输出修订后的同一篇文章。
 输出 JSON：{{"section":"{section}","title_cn":"中文标题","source_title":"英文原题","event_date":"YYYY-MM-DD或空","key_points":["关键点一"],"lead_cn":"可为空","body_paragraphs":["正文第一段"],"source_name":"来源","url":"URL","published_at":"发布时间","region":"地区","fact_check":"逐句对照原文核验，已删除未支撑内容"}}
 核验材料 JSON：{json.dumps(payload, ensure_ascii=False, separators=(",", ":"))}
+""".strip()
+    return [{"role": "system", "content": system}, {"role": "user", "content": user}]
+
+
+def _build_body_repair_prompt(raw: RawItem, section: str, item: dict[str, Any]) -> list[dict[str, str]]:
+    payload = {
+        "source_title": raw.title,
+        "source_name": raw.source_name,
+        "url": raw.url,
+        "summary": raw.summary,
+        "article_text": (getattr(raw, "article_text", "") or "")[:14000],
+        "draft": item,
+        "current_body_paragraphs": len(item.get("body_paragraphs") or []),
+        "current_body_chars": len(_body_text(item)),
+        "required_body_paragraphs": _min_body_paragraphs(section),
+        "required_body_chars": _min_body_chars(section),
+    }
+    system = "你是《加密货币观察》的中文编译编辑。你只根据英文原文补足过短中文稿，只输出严格 JSON。"
+    user = f"""
+这篇【{section}】中文稿未达到长度校验。请只使用 article_text 和 summary 中明确出现的信息，把 draft 重写成完整编译稿。
+要求：
+1. body_paragraphs 至少 {_min_body_paragraphs(section)} 段，建议 6 至 8 段；lead_cn 加 body_paragraphs 合计至少 {_min_body_chars(section)} 个中文字符。
+2. 每段补充原文中的具体主体、动作、时间、数据、背景或引述；不得加入原文外评论、趋势判断、监管影响推断或未决问题。
+3. 保持中文专业、自然，使用全角中文标点；英文人名不翻译；URL 原样输出。
+4. 不要为了凑长度重复同一句话，不要写空泛总结。
+输出 JSON：{{"section":"{section}","title_cn":"中文标题","source_title":"英文原题","event_date":"YYYY-MM-DD或空","key_points":["关键点一"],"lead_cn":"可为空","body_paragraphs":["正文第一段"],"source_name":"来源","url":"URL","published_at":"发布时间","region":"地区","fact_check":"已按原文补足正文并逐段核验"}}
+材料 JSON：{json.dumps(payload, ensure_ascii=False, separators=(",", ":"))}
 """.strip()
     return [{"role": "system", "content": system}, {"role": "user", "content": user}]
 
@@ -394,13 +466,26 @@ def _compile_one(raw: RawItem, section: str) -> dict[str, Any]:
                     item = verified_rows[0]
             except Exception as verify_exc:
                 LOGGER.warning("DeepSeek verification failed, using post-processed draft: %s", verify_exc)
+            for _ in range(BODY_REPAIR_ATTEMPTS):
+                if not _needs_body_repair(item, section):
+                    break
+                try:
+                    repaired_rows = normalize_report(_extract_json(_chat(_build_body_repair_prompt(raw, section, item), timeout=320)), raw=raw)["items"]
+                    if repaired_rows:
+                        item = repaired_rows[0]
+                    verified_rows = normalize_report(_extract_json(_chat(_build_verify_prompt(raw, section, item), timeout=260)), raw=raw)["items"]
+                    if verified_rows:
+                        item = verified_rows[0]
+                except Exception as repair_exc:
+                    LOGGER.warning("DeepSeek body repair failed, keeping current draft: %s", repair_exc)
+                    break
         except Exception as exc:
             LOGGER.warning("DeepSeek translation failed, using fallback: %s", exc)
             item = _fallback_item(raw, section)
     item.update({"section": section, "url": raw.url, "source_title": raw.title, "source_name": raw.source_name, "published_at": raw.published_at})
     item["region"] = item.get("region") or _infer_region(raw)
     item["key_points"] = _key_points_from_row(item, raw=raw)
-    item["body_paragraphs"] = _paragraphs_from_row(item, raw=raw)
+    item["body_paragraphs"] = _rebalance_paragraphs(_paragraphs_from_row(item, raw=raw), section)
     item["fact_check"] = "逐句对照原文核验，已删除未支撑内容。"
     return item
 
