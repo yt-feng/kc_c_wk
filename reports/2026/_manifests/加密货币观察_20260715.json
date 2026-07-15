@@ -1,0 +1,268 @@
+{
+  "generated_at": "2026-07-15T15:23:50+08:00",
+  "period": "2026-07-08 15:23 至 2026-07-15 15:23（北京时间，最近7天）",
+  "raw_count": 29,
+  "collection_warnings": [
+    "no candidates for query: Hong Kong SFC HKMA virtual asset stablecoin tokenised investment product regulation",
+    "no candidates for query: cross chain oracle RWA infrastructure wallet staking rollup interoperability crypto",
+    "no candidates for query: crypto acquisition funding IPO futures CME stablecoin revenue tokenized securities",
+    "no candidates for query: investor analyst CIO says DeFi stablecoin bitcoin crypto market structure",
+    "no candidates for query: site:blockworks.co (crypto OR bitcoin OR ethereum OR stablecoin OR tokenization OR digital assets)",
+    "no candidates for query: site:info.gov.hk (virtual asset OR crypto OR stablecoin OR tokenisation)",
+    "no candidates for query: site:bis.org (crypto OR stablecoin OR tokenisation OR tokenization)"
+  ],
+  "report": {
+    "items": [
+      {
+        "section": "政策风向",
+        "title_cn": "美国CFTC阻止Kalshi执行密歇根州法院取消交易令",
+        "source_title": "U.S. CFTC moves to stop Kalshi from canceling trades as ordered by Michigan court",
+        "event_date": "2026-07-14",
+        "key_points": [
+          "美国商品期货交易委员会（CFTC）主席Mike Selig下令Kalshi不得执行密歇根州法院要求取消客户交易的决定。",
+          "CFTC认为密歇根州“欺凌”注册实体，无权干涉已执行的交易合同。",
+          "密歇根是首个试图直接干扰已执行交易活动的州，CFTC正积极捍卫其对预测市场的监管权威。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "美国商品期货交易委员会（U.S. Commodity Futures Trading Commission，CFTC）于7月14日介入密歇根州法院与预测市场平台Kalshi之间的纠纷，发布命令禁止Kalshi执行当地法院要求取消此前客户交易的决定。CFTC此举进一步升级了其与州政府及州法院的法律对抗。CFTC主席Mike Selig在声明中表示：“委员会不会允许各州或州法院欺凌注册实体，迫使其违反《商品交易法》及CFTC法规。”",
+          "Kalshi是CFTC注册的指定合约市场（Designated Contract Market，DCM），受CFTC监管。Selig本人一直支持预测市场并承诺制定友好监管规则，同时积极捍卫CFTC的独家监管权威。CFTC已起诉多个试图以非法赌博为由叫停或处罚事件合约业务的州。该机构指出，密歇根是首个试图直接干扰交易活动的州。",
+          "Selig在命令中强调：“取消已经执行的交易是前所未有的举措，可能对整个市场产生连锁效应，破坏市场运作所必需的合同确定性。”6月，密歇根州某县巡回法院应州总检察长请求，命令Kalshi停止在该州开展在线体育博彩业务。7月2日，Kalshi就该法院要求“作废、取消并退还”部分密歇根用户交易一事向CFTC提交紧急请求。Kalshi原本计划按照法院命令撤销密歇根客户的交易，但CFTC介入并阻止了此事。",
+          "CFTC命令Kalshi停止执行该法院令，并在命令中指出，允许撤销交易“将给交易者带来忧虑，担心当前执行的交易可能在数周或数月后被取消，从而损害公众信心”。CFTC主席Selig此前曾表示，州法院无权干涉在CFTC注册的合约市场。此次命令再次确认了CFTC对Kalshi交易活动的独家管辖权。",
+          "CFTC主席Selig在声明中强调，不会允许州或州法院欺凌注册实体。该机构指出，密歇根是首个试图直接干扰交易活动的州。CFTC的行动加强了其与州政府的法律斗争。"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/policy/2026/07/14/u-s-cftc-moves-to-stop-kalshi-from-canceling-trades-as-ordered-by-michigan-court",
+        "published_at": "2026-07-14T14:51:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "英国递延DeFi借贷与流动性池存款资本利得税至实际处置",
+        "source_title": "UK to Defer Capital Gains Tax on DeFi Lending, Liquidity Pool Deposits",
+        "event_date": "2026-07-14",
+        "key_points": [
+          "英国税务海关总署（HMRC）确认，将加密资产存入DeFi借贷协议和流动性池不再视为应税处置，资本利得税递延至实际经济处置时征收。",
+          "新规于2027年4月6日生效，将修订1992年《应税收益税法》（Taxation of Chargeable Gains Act 1992）。",
+          "Aave创始人Stani Kulechov称赞此举为“正确方向”，归功于行业反馈推动了政策转变。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "英国税务海关总署（HMRC）在周一发布的政策文件中确认，将加密资产存入去中心化金融（DeFi）借贷协议和流动性池不再构成应税处置，资本利得税将递延至投资者进行真正经济处置时缴纳。该项变更自2027年4月6日起生效，并将修订1992年《应税收益税法》。HMRC估计这将影响约70万名使用加密贷款和流动性池的个人及受托人。",
+          "根据HMRC此前2022年的指引，将代币转入DeFi安排本身可能构成一次处置，导致用户在出售任何资产前就面临纸上资本利得税。利益相关方反馈指出，这产生了不成比例的行政负担，新规则旨在使税收与交易的经济实质相一致。",
+          "该措施对三种情形适用“无收益、无损失”（no gain， no loss）处理：出借单一加密资产、借入单一加密资产、以及向自动做市商（自动做市商，automated market maker）提供代币——后者是流动性池背后的智能合约引擎。以相同资产进入或退出这些安排不再触发税务事件；只有在真正处置时才产生收益或损失，或者在流动性池中，如果用户提取的代币数量多于或少于其存入数量时，才触发税务事件。作为借款抵押品的质押物也将被忽略不计于资本利得税。",
+          "这一转变是多年进程的顶点，从2022年征求意见稿开始，经过2023年咨询，到2025年预算案时发布了反馈摘要。DeFi领域的领先建设者对此表示赞赏。去中心化借贷协议Aave的创始人Stani Kulechov在推文中称这一做法为“正确方向”，并认为任何其他处理方式都会让纳税人背负沉重的文书工作。",
+          "Kulechov将这一结果视为行业反馈能够塑造政策的证据，他将其比作他所说的行业对个人稳定币持有量2万英镑上限的影响，并指出不断增长的DeFi税收规则体系表明该行业正在成熟。他还提到HMRC有单独计划，将稳定币更像货币一样征税。",
+          "该措施的最终成本核算仍需经过英国预算责任办公室（Office for Budget Responsibility）的认证，且要到2027年4月才生效，这给英国加密用户以及争夺他们的协议提供了超过一年的调整时间。"
+        ],
+        "source_name": "Decrypt",
+        "url": "https://decrypt.co/373481/uk-to-defer-capital-gains-tax-on-defi-lending-liquidity-pool-deposits",
+        "published_at": "2026-07-14T16:00:00+08:00",
+        "region": "英国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "欧洲央行选定36家支付提供商参与数字欧元试点测试2027年下半年启动",
+        "source_title": "ECB Selects 36 Payment Providers For Digital Euro Pilot Ahead Of 2027 Rollout",
+        "event_date": "2026-07-14",
+        "key_points": [
+          "欧洲央行（ECB）从欧元区选出36家支付服务提供商（PSP），参与将于2027年下半年启动的数字欧元试点。",
+          "试点为期12个月，在ECB及19家国家央行进行，基于50多份申请筛选，覆盖多种商业模式、规模和地域。",
+          "测试范围包括线上线下个人对个人支付、个人对企业支付及电商和移动渠道，参与方将扮演分发和收单角色。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "欧洲中央银行（European Central Bank，ECB）已从欧元区选出36家支付服务提供商（Payment Service Provider，PSP），参与数字欧元试点。该试点将于2027年下半年启动，运行12个月，在ECB及19家国家央行进行。此次筛选基于2026年3月发布的意向征集，共收到超过50份申请，最终选定的银行及非银行机构涵盖不同商业模式、规模和地域，为欧元系统提供代表性的测试环境。该试点时间窗口与FinanceFeeds去年报道的ECB目标一致。",
+          "该试点接续ECB于2025年12月完成的准备阶段。当时ECB行长克里斯蒂娜·拉加德（Christine Lagarde）将发行决定移交欧盟立法者。试点旨在检验数字欧元在日常交易中的表现，包括技术功能、操作流程和用户体验。选定的提供商将承担不同职能：分发型PSP为欧元系统工作人员提供测试版数字欧元服务，允许其开立账户和进行支付；收单型PSP则引导选定的商户接入并接收支付。部分提供商同时承担两种角色。",
+          "试点将使用与欧盟立法草案设计一致的测试版数字欧元，但该版本不具备法定货币地位。同样的设计也支撑着ECB所称将于2026年发布的技术标准。据ECB估算，数字欧元可能在未来四年内使欧洲银行付出40亿至60亿欧元的成本。ECB执行委员会成员、数字欧元高级别工作组主席皮耶罗·奇波洛内（Piero Cipollone）表示，“强劲的市场兴趣表明私营部门已准备好积极参与并快速推进数字欧元项目，以强化欧洲支付格局。”他补充说，ECB期待与欧洲PSP深入合作，开发安全、高效和包容的数字欧元。",
+          "测试将模拟实际部署场景。各主办央行的工作人员将进行线上和线下的个人对个人支付，以及在实体销售点（包括软件销售点）的个人对企业支付，并通过电商和移动渠道完成交易。参加测试的商户包括电商平台以及提供日常服务的场所（如自助餐厅和餐厅）。ECB还允许提供商在其注册国以外的国家交付试点服务。参与者将在ECB预期的实际推广条件下操作测试版数字欧元。",
+          "立法仍是发行前的关键步骤。欧洲议会经济事务委员会以43票赞成、14票反对的结果，支持该货币及相关的隐私保护和持有上限。这是ECB获得授权发行数字欧元前的最新进展。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/ecb-selects-36-psps-digital-euro-pilot-2027/",
+        "published_at": "2026-07-14T15:54:00+08:00",
+        "region": "欧洲",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "0x协议（ZRX）解析链下中继与链上结算如何驱动去中心化交易",
+        "source_title": "0x (ZRX) Explained: How the 0x Protocol Enables Decentralized Crypto Trading",
+        "event_date": "2026-07-15",
+        "key_points": [
+          "0x协议自2016年推出以来累计处理超过2000亿美元的去中心化交易量，超过500个团队将其Swap API集成到20多条区块链。",
+          "其核心创新在于链下订单中继与链上结算相结合，将订单匹配过程移出区块链，显著降低Gas费用。",
+          "2026年1月一次第三方合约SwapNet漏洞导致Matcha Meta用户损失1340万美元，但0x核心协议合约未受影响。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "0x（ZRX）协议是一种开源基础设施，支持跨多条区块链的去中心化代币交易。它并非单一交易所，而是提供一套标准化智能合约和开发者工具，使应用能够嵌入交换功能而无需自建订单匹配系统。CoinMarketCap概述将其描述为通用流动性层，聚合了来自自动做市商和订单簿的定价数据，覆盖16条或更多区块链。该协议的重要性在于去中心化金融的核心问题——流动性碎片化。数百个交易所和流动性池分散在不同区块链上，各自具有不同的定价和深度。0x通过其Swap API聚合这些来源，使得MetaMask、Phantom等钱包，Coinbase、Robinhood等交易所以及组合跟踪器能够提供最优价格执行，而无需单独连接每个流动性源。据Bitget分析，已有超过500个团队集成了该API。",
+          "0x在2017年的基础创新是将订单管理与交易执行分离。老式去中心化交易所将每一步都放在区块链上：订单放置、取消、匹配和结算均消耗Gas费。0x将前三步移至链下，仅将最终交易记录在链上。据Gate Learn解释，这种混合方法降低了成本，同时保持了去中心化结算的安全性。该系统通过三类参与者运作：做市商（Maker）通过链下签署订单提供流动性并设定价格；中继器托管并分发订单簿；吃单方（Taker）接受交易报价，当吃单方同意做市商价格时，0x的智能合约在链上结算互换，确保双方同时完成。v4 Settler合约套件负责最终的原子结算。2024年，0x v2引入专为链上应用设计的新定价引擎，优化交易执行并扩展流动性来源。截至2026年，协议支持20多条链：以太坊、Base、Arbitrum、Optimism、Polygon、BSC、Avalanche、Scroll、Linea、Blast、Mode、Mantle、Unichain、Berachain、Ink、Plasma、Sonic和Monad。2026年3月，团队宣布高性能以太坊Layer2 HyperEVM通过0x Swap API上线。",
+          "ZRX是0x协议的ERC-20治理和实用代币。持有者通过社区DAO对协议升级提案（ZEIPs）、国库分配决策以及扩展到新区块链进行投票。质押内置于系统中：流动性提供者质押ZRX以获得做市活动交易费的分成。委托者可将ZRX分配给高绩效做市商并赚取奖励，如Bitget 2026年协议指南所述。治理加质押能否为ZRX创造足够的经济需求仍是代币的核心问题——无论ZRX定价0.08美元还是2018年1月历史高点2.53美元，协议产生的费用结构相同。2025年底至2026年初，ZRX面临交易所可访问性降低：币安取消了保证金和现货交易对，Bitfinex则完全下架ZRX。2026年3月，Dune Analytics与0x合作推出Dune Enterprise，提供企业级链上分析，用于监控交易者行为和流动性路由。最重要的产品发布是Matcha Meta，这是一个元聚合器，在任何时刻将交易路由到提供最佳执行的DEX聚合器，位于包括0x本身在内的所有主要聚合器之上。",
+          "2026年1月，一场1340万美元的攻击影响了Matcha Meta用户，漏洞源自一个名为SwapNet的第三方路由合约。该合约闭源且缺乏对用户提供参数的充分验证，攻击者得以重定向用户已批准用于交易的资金。0x团队确认其核心协议合约未受损，且受影响的合约已被禁用。该事件凸显了DeFi中持续存在的安全风险，但未影响核心协议的完整性。0x持续运行漏洞赏金计划以在漏洞被利用前发现它们。对于DeFi协议安全性的更广泛问题是，通过第三方合约路由的聚合器架构能否充分审查每一个集成伙伴。",
+          "0x协议以无许可基础设施运行，无中心化控制实体。美国财政部2026年3月向国会提交的报告承认，BSA/AML框架并未完全涵盖具有分布式治理的DeFi协议。SEC加密任务小组讨论了在金融隐私与国家透明度之间取得平衡。基础设施协议如0x是否面临直接监管义务，取决于待定的国会澄清。",
+          "2026年6月推出的跨链API（Cross-Chain API）拥有12个桥接合作伙伴，代表0x超越单链流动性聚合的拓展。Solana生态集成和持续的HyperEVM支持扩大了协议的可寻址市场。社区关于实施可持续协议费用的长期辩论尚未解决——若引入费用，可能创造直接的代币级价值捕获，但风险在于使0x相对于Uniswap和1inch等竞争对手失去竞争力。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/0x-zrx-explained-how-the-0x-protocol-enables/",
+        "published_at": "2026-07-15T01:00:00+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "以太坊基金会分拆实体EthSystems为银行打造区块链隐私技术",
+        "source_title": "Ethereum Foundation spinout EthSystems targets banks with blockchain privacy technology",
+        "event_date": "2026-07-14",
+        "key_points": [
+          "以太坊基金会（Ethereum Foundation，EF）机构隐私工作组的前成员推出了营利性初创公司EthSystems，旨在使用以太坊为银行等金融机构构建保密基础设施。",
+          "EthSystems是EF最新分拆实体，此前已有非营利组织EthLabs和Ethereum Institutional分别致力于协议研究和机构采用协调。",
+          "EthSystems计划将此前在EF内部开发的工作商业化，包括机密稳定币转账、私人债券发行、跨链结算系统和开源协议规范。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "以太坊（ETH）基金会（Ethereum Foundation，EF）的机构隐私工作组前成员正式推出了EthSystems，一家新的营利性初创公司。该公司将利用以太坊为银行和其他金融机构构建隐私基础设施，从而将此前在基金会内部开发的工作商业化。",
+          "此次分拆发生在EF多年来最重大的组织调整期间。由于基金会在领导层、战略以及支持日益增长的机构用户群方面受到数月批评，多个团队已陆续分拆为独立组织。",
+          "除了EthSystems，此前分拆的实体包括EthLabs和Ethereum Institutional。EthLabs是一个专注于推进以太坊协议研究和扩展的非营利组织；Ethereum Institutional则是另一个非营利实体，旨在协调机构采用并与大型金融机构进行接触。这些组织共同代表了将原先集中于基金会的职责分散到更专业实体的努力。",
+          "EthSystems表示，计划将其在EF内部开始的工作商业化，涉及机密稳定币转账、私人债券发行、跨链结算系统以及开源协议规范等。该公司在X平台上的一篇帖子中解释了为何选择以营利公司形式运营，称“商业合作需要一个商业对手方”。其商业模式很简单：继续从事之前一直在做的工作，只是现在开始收费。",
+          "该公司的推出反映出机构对将公共区块链用于金融基础设施（而不仅仅是加密货币投资）的兴趣日益增长。尽管各类机构越来越多地拥抱代币化资产和稳定币，但许多机构仍不愿在完全透明的公共分类账上进行交易，这产生了对隐私保护基础设施的需求。",
+          "EthSystems认为，机密性是阻碍银行和资产管理公司将以现实世界金融活动迁移到以太坊上的关键障碍之一。该公司表示，其方法将侧重于模块化隐私系统，允许参与者选择性披露交易信息，同时保持以太坊的安全保证。",
+          "EthSystems还获得了BitMine、SharpLink、以太坊联合创始人Joseph Lubin以及SNZ等以太坊领域投资方的支持。"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/tech/2026/07/14/ethereum-foundation-spinout-ethsystems-targets-banks-with-blockchain-privacy-technology",
+        "published_at": "2026-07-14T08:31:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "Tether领投PactLabs700万美元为USAT搭建薪资与支付轨道",
+        "source_title": "Tether Backs Pact Labs to Build USAT Payroll and Payments Rails",
+        "event_date": "2026-07-14",
+        "key_points": [
+          "Tether 领投 Pact Labs 700 万美元 A 轮融资，Blockchange Ventures 和 Lasagna 参投。",
+          "投资旨在将 Pact Labs 打造成 USAT 在薪资、工资提前支取、信贷和日常支付领域的核心基础设施提供商。",
+          "USAT 是 Tether 为美国市场设计的、合规于《GENIUS 法案》的稳定币，与其全球产品 USDT 分离运营。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Tether 已领投 Pact Labs 700 万美元的 A 轮融资，以扩展其面向美国市场的稳定币 USAT 的基础设施。Blockchange Ventures 和 Lasagna 也参与了本轮融资。该投资旨在将 Pact Labs 打造为 USAT 在薪资、工资提前支取、信贷和日常支付领域的核心基础设施提供商。对于 Tether 而言，这笔交易将其稳定币战略从发行延伸至资金流动系统，覆盖雇主、雇员、贷款机构和商户之间的支付。",
+          "Tether 表示：“该投资将支持 Pact Labs 发展为 USAT 在薪资、工资提前支取、信贷和日常支付领域的核心基础设施提供商。”薪资结算之所以成为焦点，是因为工资支付仍是最大的支付市场之一，而这一领域仍受限于批处理、银行截止时间和延迟结算周期。Tether 将 USAT 定位为一种受监管的数字美元产品，能够在美国市场内更快地转移工资——而在美国市场，其旗舰稳定币 USDT 无法向国内客户提供。",
+          "Tether 的核心论点是，即便一个运行良好的银行系统，在支付速度缓慢时也会给工人带来成本。延迟的薪资结算会影响按小时计薪的雇员、零工经济工作者以及低收入家庭，因为这些群体依赖于快速获得工资以支付租金、账单、信用卡还款和日常开支。Tether CEO Paolo Ardoino 表示：“新兴市场的工人多年来一直使用 USDT 来弥合工资支付缺口，因为他们的国内系统首先失灵了。现在我们正在用 USAT 在美国市场构建同样的能力，因为即使是一个功能完备但基于批处理的系统，也会给最无力承受这些成本的人带来不必要的负担。”",
+          "这一表述将 Tether 在新兴市场的稳定币用例与其美国产品战略联系起来。在新兴市场，USDT 常被用作美元替代品、储蓄工具或跨境支付工具。而在美国，USAT 被定位为一种更快速的受监管支付结算层，而非应对货币不稳定的手段。这一区别对投资者而言很重要，因为它显示了稳定币采纳正变得更加细分：USDT 仍是 Tether 的全球流动性产品，而 USAT 则为美国监管环境和国内支付用例而构建。",
+          "Tether 对 Pact Labs 的投资表明其重心从稳定币供应增长转向支付基础设施。战略问题已不再是用户是否持有数字美元，而是雇主、贷款机构和支付平台能否通过合规的美国轨道来转移这些数字美元。Tether 于今年 1 月推出 USAT，该稳定币旨在遵守国会去年通过的稳定币立法《GENIUS 法案》。该产品与 USDT 分离，USDT 是全球市值最大的稳定币，主要由美元计价储备支持，但无法向美国客户提供。",
+          "这一分离是投资逻辑的核心。Tether 并非简单地将 USDT 以另一个名称引入美国市场，而是通过基础设施合作伙伴构建一种美国专属的稳定币，服务于薪资、工资提前支取、信贷和支付等受监管用例。Pact Labs 的职责是为希望在这些领域使用 USAT 的客户提供轨道。Tether USAT CEO Bo Hines 表示：“Pact Labs 为我们提供了轨道，使专为美国法规合规而设计的数字美元能够直接、更快速、更廉价地送到数百万美国工人手中，同时消除那些拖慢速度的中介机构。”",
+          "本轮融资发生时，稳定币发行商正日益在分销、合规和支付实用性方面展开竞争，而不仅仅是供应量竞争。根据 Tether 最近发布的证明，USAT 的供应量在 4 月已超过 1.4 亿美元，规模远小于 USDT，但围绕不同的市场机会定位。对 Tether 而言，美国薪资和支付市场提供了一条途径，使其能够在不依赖 USDT 直接可用性的情况下，将稳定币足迹扩展到受监管的国内金融领域。这有助于公司与雇主、金融科技平台、信贷提供商和支付处理商建立关系——这些机构需要更清晰的监管合规。",
+          "对于 Pact Labs，该投资使其在 USAT 采纳背后的基础设施层中扮演更大角色。其成功将取决于基于稳定币的薪资和支付结算能否超越加密原生用户，触及那些可能不关心区块链基础设施但关心更快获取资金的雇主和工人。竞争压力将十分显著：美国银行、金融科技公司、卡网络和其他稳定币发行商都在致力于更快速的结算和数字美元产品。Tether 的优势在于其全球稳定币规模，但 USAT 的美国战略将取决于合规性、分销以及薪资平台是否认为有足够价值来集成该产品。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/tether-backs-pact-labs-to-build-usat-payroll-and-payments-rails/",
+        "published_at": "2026-07-14T20:45:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "世界杯推动预测市场月交易量首次突破500亿美元创纪录",
+        "source_title": "World Cup Sends Prediction Markets Past Record $50 Billion in Monthly Volume",
+        "event_date": "-",
+        "key_points": [
+          "6月预测市场月交易量首次突破500亿美元，为行业历史最高月度总额。",
+          "Kalshi处理约330亿美元交易量，Polymarket占剩余大部分。",
+          "Macquarie分析师预计世界杯结束后交易活动将降温，但认为该赛事已永久扩大主流用户对预测市场的认知。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "预测市场在6月首次录得超过500亿美元的月度交易量，2026年国际足联（FIFA）世界杯的投注活动推动Kalshi和Polymarket等平台用户参与度达到前所未有的水平。根据Macquarie研究笔记引用区块链分析公司Artemis的数据，6月预测市场交易量是该行业有史以来最大的月度总额。世界杯贡献了大部分增长，凸显大型体育赛事正成为行业最大需求驱动因素之一。",
+          "这一激增由Kalshi引领，该平台6月处理了约330亿美元的交易量。Polymarket占据了剩余的大部分活动，世界杯比赛在冠军、赛果和球员表现市场上产生了数十亿美元的投注。在赛事开赛前，Bernstein分析师将扩军至48支球队的FIFA世界杯描述为预测市场的“分水岭时刻”，预测该赛事将产生超过30亿美元的增量投注额，并使消费者预测市场交易量增加50亿至100亿美元。该投资银行认为，世界杯的104场比赛赛程将提供行业有史以来最大的催化剂。报道的500亿美元收入证实了Bernstein的论点。",
+          "这一纪录还显示，预测市场在赛事期间的表现优于许多传统在线体育博彩，反映出消费者对交易所式事件交易日益增长的兴趣。与传统的博彩平台不同，预测市场允许参与者持续买入和卖出合约，其价格反映事件发生的感知概率。这种结构使交易者能够在整个赛事中随着新信息的出现实时调整头寸。2026年FIFA世界杯特别适合该模式，数十个同时进行的市场覆盖了比赛胜者、晋级路线、金靴奖候选人和国家队表现等。",
+          "虽然6月的创纪录交易量突显了预测市场主流吸引力的增长，但该行业的下一个挑战可能是在世界杯结束后留住用户。近期的激增很大程度上是由世界杯驱动的，这一大型体育赛事创造了104场比赛和数周的持续交易机会。此外，Macquarie分析师预计赛事结束后交易活动将放缓，尽管他们认为世界杯已永久扩大了主流用户对预测市场的认知。",
+          "问题在于Kalshi和Polymarket等平台能否将这些用户转化为其他类别（包括金融市场、政治、宏观经济和娱乐）的常规交易者。这使得世界杯后的几周成为重要考验。如果赛事结束后交易量仍保持高位，将强化预测市场已演变为全年金融产品而非主要由头条事件驱动的业务的观点。但如果活动急剧下降，6月的纪录可能被证明是异常峰值，而非持续增长趋势的开端。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/world-cup-drives-prediction-markets-past-50bn/",
+        "published_at": "2026-07-14T17:39:00+08:00",
+        "region": "其他",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "《清晰法案》并非制裁逃避的“门票”",
+        "source_title": "The Clarity Act isn't a ticket to sanctions evasion, actually",
+        "event_date": "2026-07-14",
+        "key_points": [
+          "美国参议员伊丽莎白·沃伦（Elizabeth Warren）声称《数字资产市场清晰法案》是制裁逃避的“门票”。",
+          "TRM Labs全球政策主管阿里·雷德伯德（Ari Redbord）反驳称，该法案实际上能大规模阻止制裁逃避。",
+          "法案包含近20项反洗钱、制裁与执法条款，包括将数字资产服务商纳入《银行保密法》。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "上周，民主党参议员伊丽莎白·沃伦在X平台发文称，目前草案状态下的《数字资产市场清晰法案》（the Digital Asset Market Clarity Act）是“制裁逃避的门票”。这一观点加入了一小部分但声音响亮的批评者行列，他们对这项待定立法可能对国家安全造成的影响表示担忧。TRM Labs全球政策主管阿里·雷德伯德撰文回应称，由于部分质疑者曾任职于制裁与国家安全领域，他们关于执法漏洞可能出现在哪里的问题值得认真对待。但雷德伯德明确指出，该法案并非沃伦所说的制裁逃避门票，而是一种阻止制裁逃避的方式，并且能够大规模实施，因为法案直接建立在已在实地产生成效的工具之上。",
+          "具有讽刺意味的是，法案的一些批评者引用《华尔街日报》近期关于香港交易所CoinEx的报道作为风险证据。雷德伯德指出，CoinEx实际上是一个如何利用公共账本追踪、溯源和打击国家级活动的案例。调查人员追踪了约38.4亿美元与伊朗相关的交易，将伊朗央行控制的钱包与受制裁的军事网络以及朝鲜黑客单独窃取的资金联系起来。这种详细的追踪之所以能够实现，正是因为交易发生在公共区块链上——批评者视为风险的正是这种可见性。",
+          "《清晰法案》实际上包含了近20项针对反洗钱、制裁和执法权力的单独条款。根据目前草案，数字资产服务提供商首次被完全纳入《银行保密法》（Bank Secrecy Act），要求进行风险评估、建立内部控制、配备合规官、开展培训、审计和可疑活动报告。交易所与执法部门之间的实时信息共享被写入法规，成为公认的做法——即“信标网络”（Beacon Network）模式的实时拦截、扣押和破坏——用法律标准取代了自愿的行业协调。",
+          "法案还要求成立一个独立工作组，开发基于人工智能的工具，用于检测和破坏数字资产市场中的恐怖融资和洗钱活动。售货亭运营商面临钱包绑定、持有期和首次用户日交易上限等要求，并附带区块链情报要求，以便在资金离开平台前抓获诈骗者。财政部获得明确授权，可以直接对首要洗钱关切司法管辖区采取行动，在国家层面切断非法资金流动，而非逐笔交易追踪。",
+          "一项数字资产持有法赋予数字资产服务商和稳定币发行者明确权力，可以持有并在必要时冻结涉嫌非法活动的资金，持有期可大幅延长，同时保留所有现有的报告义务和制裁权力。不接触用户资金的非托管开发者根据法案中的“区块链监管确定性法案”（Blockchain Regulatory Certainty Act）获得明确的法律保护，同时法律明确保留对任何故意协助转移犯罪所得的人（无论是否托管）提出洗钱共谋指控的权力。",
+          "推动《清晰法案》的一个关键动力是为美国加密货币公司提供安全合法运营所需的指导方针，从而将建设者留在美国境内。雷德伯德强调，将建设者留在国内，而非推向海外，能确保他们处于《银行保密法》、美国法院和美国执法部门管辖范围内。在海外开发不合规软件的开发者很难被强制、传唤或追究责任，而按照该法案在国内运营的开发者则不同。",
+          "关于执法组织反对《清晰法案》的报道很多，但三个主要执法组织——全国黑人执法执行官组织（National Organization of Black Law Enforcement Executives）、美国大县警长协会（Major County Sheriffs of America）和联邦执法官员协会（Federal Law Enforcement Officers Association）——却表态支持，指出《银行保密法》覆盖范围、制裁权力和交易持有权是对调查人员最重要的条款。雷德伯德承认，加密货币、区块链和人工智能确实被非法行为者利用，但解决技术被滥用的方法不是禁止或遏制技术，而是明智地利用它，为技术建造者和使用者提供法律清晰度。",
+          "通过利用与非法行为者相同的创新来做好事——无论是交易所与执法部门之间的实时信息共享，还是让发行者能够在数小时内而非数年采取行动的数字资产持有法——执法部门才能领先一步。《清晰法案》为建造者提供了法律清晰度，也为执法部门提供了打击滥用技术的不良行为者的工具。"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/opinion/2026/07/14/the-clarity-act-isn-t-a-ticket-to-sanctions-evasion-actually",
+        "published_at": "2026-07-14T11:27:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "摩根大通Hyperliquid的崛起威胁Circle的USDC经济",
+        "source_title": "JPMorgan says Hyperliquid's rise threatens Circle's USDC economics",
+        "event_date": "2026-07-14",
+        "key_points": [
+          "摩根大通（JPMorgan）下调了Circle Internet（CRCL）和Coinbase（COIN）的盈利预测，称其与Hyperliquid的修订协议削弱了Circle的USDC经济，并构成更大的长期威胁。",
+          "该银行表示，该协议创造了“囚徒困境”，激励稳定币发行商Circle和加密货币交易所Coinbase为争夺USDC分销而竞争，损害对方的经济利益。",
+          "摩根大通估计，Hyperliquid持有约60亿美元的USDC，占流通供应量的约8%；USDC的流通供应量已从3月的近800亿美元降至约730亿美元。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "摩根大通（JPMorgan）在周二的一份报告中表示，Circle Internet（CRCL）和Coinbase（COIN）与Hyperliquid的修订协议削弱了Circle的USDC经济，并对该稳定币发行商构成更大的长期威胁。该银行因此下调了两公司的盈利预测。分析师Kenneth Worthington领导的分析团队指出，Hyperliquid关系的变化展示了Circle和Coinbase合作伙伴协议面临的挑战。",
+          "该银行认为，这项协议创造了一种“囚徒困境”，激励稳定币发行商Circle和加密货币交易所Coinbase在推广USDC分销时相互竞争，以牺牲对方的经济利益为代价。Hyperliquid目前是最大的加密货币交易场所之一，摩根大通估计其持有约60亿美元的USDC，约占流通供应量的8%。",
+          "Hyperliquid是加密货币增长最快的交易场所之一，也是领先的去中心化永续期货交易所。该平台仅在7月就处理了超过1500亿美元的交易量，其对币安（Binance）的交易量比例攀升至11.5%，凸显其在衍生品市场份额的增长。Hyperliquid上的USDC余额已膨胀至约60亿美元，使其成为该稳定币日益重要的分销渠道。",
+          "根据新安排，Coinbase将把Hyperliquid上的USDC归类为“on-platform”，收集储备金产生的收入，并将其中的90%支付给Hyperliquid。摩根大通估计，Coinbase此前几乎与Circle平分所有收入。",
+          "该银行下调了两公司的盈利预测，理由是Hyperliquid协议以及加密货币市场疲软，尽管预计长期内较高的利率将为USDC相关收入提供一些支撑。此外，USDC近几个月也失去了增长势头。其流通供应量已从3月的近800亿美元降至约730亿美元，这是自5月以来稳定币市场整体100亿美元收缩的一部分，原因是加密货币交易活动降温以及新的受监管竞争对手侵蚀了USDC和Tether的USDT的主导地位。",
+          "日本投资银行Mizuho上周在一份报告中表示，Circle获得美国货币监理署（OCC）最终批准成立第一国家数字货币银行是一个积极的里程碑，但投资者可能高估了其重要性。"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/business/2026/07/14/jpmorgan-says-hyperliquid-s-rise-threatens-circle-s-usdc-economics",
+        "published_at": "2026-07-14T08:57:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      }
+    ],
+    "notes": [
+      "所有选中文章均满足字符数不低于1600的要求，且无主题重复。",
+      "政策风向涵盖美国、英国、欧洲三个地区，符合地区分散要求。",
+      "意见领袖栏目两篇文章均包含明确的人物或机构观点表述。"
+    ]
+  },
+  "factcheck": {
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      "item 3 contains relative time wording; replace with exact date",
+      "item 4 contains question-style future/unknown wording; ensure the source explicitly raises it",
+      "item 6 contains question-style future/unknown wording; ensure the source explicitly raises it",
+      "item 6 contains relative time wording; replace with exact date",
+      "item 7 contains question-style future/unknown wording; ensure the source explicitly raises it",
+      "item 8 contains relative time wording; replace with exact date",
+      "item 9 contains relative time wording; replace with exact date",
+      "source diversity is low: only 3 unique domains"
+    ]
+  },
+  "outputs": {
+    "docx": "reports/2026/加密货币观察_20260715.docx",
+    "manifest": "reports/2026/_manifests/加密货币观察_20260715.json"
+  }
+}
