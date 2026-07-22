@@ -1,0 +1,269 @@
+{
+  "generated_at": "2026-07-22T15:42:23+08:00",
+  "period": "2026-07-15 15:42 至 2026-07-22 15:42（北京时间，最近7天）",
+  "raw_count": 35,
+  "collection_warnings": [
+    "no candidates for query: Hong Kong SFC HKMA virtual asset stablecoin tokenised investment product regulation",
+    "no candidates for query: cross chain oracle RWA infrastructure wallet staking rollup interoperability crypto",
+    "no candidates for query: crypto acquisition funding IPO futures CME stablecoin revenue tokenized securities",
+    "no candidates for query: crypto company raises acquires launches futures ETF tokenized fund stablecoin adoption",
+    "no candidates for query: investor analyst CIO says DeFi stablecoin bitcoin crypto market structure",
+    "no candidates for query: site:blockworks.co (crypto OR bitcoin OR ethereum OR stablecoin OR tokenization OR digital assets)",
+    "no candidates for query: site:info.gov.hk (virtual asset OR crypto OR stablecoin OR tokenisation)"
+  ],
+  "report": {
+    "items": [
+      {
+        "section": "政策风向",
+        "title_cn": "加密货币游说组织TDC起诉伊利诺伊州要求阻止数字资产税",
+        "source_title": "Crypto lobby group TDC sues Illinois to block digital asset tax",
+        "event_date": "2026-07-21",
+        "key_points": [
+          "加密货币游说组织“数字商会（TDC）”已对伊利诺伊州提起诉讼，要求阻止该州的“数字资产税法”生效。",
+          "该税法上月仓促通过，对数字资产交易征收0.2%的税，适用于在伊利诺伊州运营且总收入超过10万美元的实体。",
+          "TDC诉称该税法违反了美国宪法和伊利诺伊州宪法，以及《互联网税收自由法案》等联邦法律。"
+        ],
+        "lead_cn": "一家加密货币游说组织已就伊利诺伊州上月在州预算中临时插入的税收条款对该州提起诉讼。",
+        "body_paragraphs": [
+          "一家加密货币游说组织已对伊利诺伊州提起诉讼，原因是该州上月在州预算中临时插入了一项税收条款。“数字商会”（The Digital Chamber，TDC）指控伊利诺伊州的“数字资产税法”（Digital Asset Tax Act）既违反了美国宪法和州宪法，也与联邦税法相抵触。",
+          "TDC于周二提起的诉讼请求联邦法官阻止伊利诺伊州政府执行该税收。诉讼称，该税法违反了伊利诺伊州宪法的统一性和正当程序条款、美国宪法的商业条款以及《互联网税收自由法案》（Internet Tax Freedom Act），因其专门针对数字资产交易。",
+          "“数字资产税法”上月在该州即将结束年度会议前仓促通过并获批。该税法对在伊利诺伊州注册或提供服务、总收入超过10万美元的所有实体征收0.2%的税，该税将于明年一月生效。",
+          "TDC的诉讼指出，《互联网税收自由法案》本身即规定“电子商务不得受到歧视性的州和地方税收”。诉状称，“该法不区分收益和损失、盈利和非盈利交易、已实现和未实现增值，也不区分改变所有权的转让和不改变所有权的转让。它仅区分传统金融基础设施和区块链基础设施。”",
+          "诉状进一步指出，联邦法律区分了资产所代表的内容与“记录这些资产所用的基础设施”，并补充说，没有任何其他法律体系基于记录所有权的技术来做出这种区分。",
+          "该诉讼代表TDC的成员提起，要求州法官裁定该加密货币税违反州和联邦宪法，同时阻止伊利诺伊州执行该法律，并判给TDC相关费用和成本。"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/policy/2026/07/21/crypto-lobby-group-tdc-sues-illinois-to-block-digital-asset-tax",
+        "published_at": "2026-07-21T16:08:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "英国议会启动调查银行是否不公平限制加密企业金融服务",
+        "source_title": "UK Parliament Launches Inquiry Into Banks Accused of Restricting Crypto Businesses",
+        "event_date": "2026-07-21",
+        "key_points": [
+          "英国跨党派议会团体“加密货币与数字资产全党派议会小组（Crypto and Digital Assets APPG）”于7月21日宣布启动一项议会调查，旨在查明银行是否不公平地限制加密货币企业的金融服务获取。",
+          "调查将收集来自加密企业、银行、支付服务商、监管机构和消费者团体的证据，重点关注账户关闭、开户拒绝、支付限制及保险等服务障碍。",
+          "多家英国主要银行（如汇丰、NatWest、桑坦德、全国建筑协会和Starling Bank）已对加密货币交易实施支付拦截或每日转账限额，援引欺诈预防和反洗钱担忧。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "英国跨党派议会团体“加密货币与数字资产全党派议会小组（Crypto and Digital Assets APPG）”于7月21日宣布启动一项议会调查，旨在查明银行是否不公平地限制加密货币企业的金融服务获取，进而阻碍该国数字资产行业的发展。该小组由工党议员Gurinder Singh Josan和前数字经济部长Didcot子爵Lord Vaizey共同担任主席。",
+          "调查公告指出，近期有报道称加密企业在开设或维持银行账户方面遇到困难，零售客户在购买数字资产时遭遇支付拦截和转账限额。这一行动正值英国刚刚完成期待已久的加密货币监管框架仅数周之后，引发外界关注：银行实践是否与政府将英国打造为全球数字资产创新中心的更广泛目标保持同步。",
+          "据该APPG介绍，调查将从加密企业、银行、支付服务商、监管机构和消费者团体收集证据，随后向议会和政府提出建议。审查范围涉及影响该行业的多个问题，包括账户关闭、拒绝对加密企业开户、对客户施加支付限制以及保险等相关金融服务的获取。",
+          "近年来，包括汇丰（HSBC）、NatWest、桑坦德（Santander）、全国建筑协会（Nationwide）和Starling Bank在内的多家英国主要银行已对加密货币交易实施了各种管控措施。这些措施从直接支付拦截到每日转账限额不等，各机构援引欺诈预防、消费者保护和反洗钱（anti-money-laundering）担忧作为理由。",
+          "APPG引用的研究显示，约40%从英国银行账户向加密货币交易所的转账被银行拦截或延迟。行业参与者认为，这种限制给在日益明确的监管预期下运营的合法企业带来了不确定性。尽管全党派议会小组不拥有立法权，但它们经常开展基于证据的调查，影响政府政策和议会辩论。",
+          "银行一直对其在加密货币交易方面的谨慎态度进行辩护，指出某些数字资产活动相关的欺诈、诈骗和金融犯罪水平较高。许多机构在收到监管机构关于零售投资者风险的警告后加强了管控。然而，加密企业认为，全面限制惩罚了受监管的企业以及高风险运营方。他们主张，改进后的监管应使银行能够区分合规企业与非法行为者，而非对整个行业设置障碍。",
+          "此次调查还反映了国际上关于所谓“去银行化”（debanking）的更广泛争论——新兴金融行业的企业声称，尽管遵守适用法律，它们仍被剥夺基本银行服务。英国政府多次表示有意将英国打造为数字资产和代币化金融的领先司法管辖区。实现这一目标不仅需要全面的监管框架，还需要持牌企业及其客户能够切实获得银行基础设施。",
+          "通过审视银行与加密行业之间的关系，议员们希望确定现有的风险管理实践是否在保护消费者和支持金融创新之间取得了适当平衡。调查结果可能影响英国加密市场持续成熟过程中监管机构、金融机构与数字资产行业之间的未来讨论。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/uk-parliament-launches-inquiry-into-banks-accused-of-restricting-crypto-businesses/",
+        "published_at": "2026-07-21T10:56:00+08:00",
+        "region": "英国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "俄罗斯议会通过加密货币市场法散户投资者年上限3800美元",
+        "source_title": "Russia’s parliament passes crypto market law with $3,800 annual cap for retail investors",
+        "event_date": "2026-07-21",
+        "key_points": [
+          "俄罗斯国家杜马通过该国首部全面的加密货币法律，大部分规则将于2026年9月1日生效。",
+          "散户投资者每年通过持牌中介购买加密货币的上限约为3800美元；合格投资者可无限制购买。",
+          "维持禁止使用加密货币在国内支付商品和服务，但允许外贸结算等例外情形。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "俄罗斯国家杜马通过了该国首部全面的加密货币法律，确立了对加密货币交易、托管机构及其他数字资产提供商的监管框架，大部分新规将于2026年9月1日生效。",
+          "根据俄罗斯官方通讯社塔斯社的报道，该法规定了哪些机构可以购买加密货币及其条件。只有列入专门注册名录的组织才能以加密货币交易所身份运营，但企业可以在2027年7月1日前继续无注册运营。",
+          "在新法之下，银行若有理由怀疑某个未经授权的实体正在运营加密货币交易所，必须拒绝转账。与此同时，该法规定，无论数字资产此前是否申报，其持有者都将获得司法保护。",
+          "散户投资者可通过持牌中介购买流动性最强的加密货币，但每人每年在每个中介的限额约为3800美元。合格投资者则可以在无任何限制的情况下购买任何加密货币。",
+          "俄罗斯央行曾在2025年12月提出这一框架草案，旨在将个人和机构的加密货币交易合法化并纳入监管。该法律的出台也紧随2026年4月欧盟对俄罗斯实施的最严厉制裁——该制裁专门针对加密货币，包括全面禁止俄罗斯境内的加密货币服务商和平台。",
+          "欧盟表示，“俄罗斯在国际交易中越来越依赖加密货币。”俄罗斯新数字资产法涵盖了加密货币挖矿活动、加密货币的发行与流通，以及经纪商、资产管理人、交易平台和清算机构提供的服务。",
+          "该法并未解除俄罗斯长期以来禁止在国内使用加密货币支付商品和服务的禁令，同时也禁止银行及其他机构宣传和推广加密货币支付。",
+          "然而，法律保留了若干例外情形，包括允许将数字资产用于俄罗斯居民与非居民之间的外贸合同结算、涉及已开采加密货币的交易、数字资产平台要求支付的款项，以及涉及证券或其他数字资产的结算。"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/policy/2026/07/21/russia-s-parliament-passes-crypto-market-law-rules-to-take-effect-sept-1",
+        "published_at": "2026-07-21T09:19:00+08:00",
+        "region": "俄罗斯",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "XRP账本代理支付两年内有望达到1亿笔",
+        "source_title": "XRP Ledger Agentic Payments Could Hit 100 Million Within 2 Years",
+        "event_date": "2026-07-22",
+        "key_points": [
+          "XRP Ledger上的代理交易（agentic transactions）已突破100万笔，RippleX工程主管Ayo Akinyele称两年内可能达到1亿笔。",
+          "代理支付（agentic payments）指AI代理（AI agents）代表用户发起的交易，不依赖银行账户或卡网络，可用于支付API、数据、算力等数字服务。",
+          "XRP Ledger因结算速度（3-5秒）和可预测费用适合代理支付，Ripple还参与了x402基金会以制定AI代理支付标准。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "XRP Ledger上的代理交易（agentic transactions）已突破100万笔，为RippleX及生态系统开发者提供了加密行业最受关注的支付用例之一。代理支付（agentic payments）指由AI代理（AI agents）代表用户发起的交易，而非逐笔手动批准。该模式为AI代理配备数字钱包，可自动支付API、数据、算力等数字服务，无需依赖银行账户或卡网络。随着开发者致力于构建AI代理自主完成任务系统，这一概念日益受到关注。",
+          "RippleX工程主管Ayo Akinyele表示，随着基础设施改善，这一里程碑可能快速扩展。Akinyele称：“我非常高兴看到XRP Ledger达到100万笔里程碑，但我认为我们将很快突破1000万笔……鉴于代理开发速度和基础设施持续改进，未来两年内甚至可能达到1亿笔。”",
+          "XRP Ledger的优势在于结算速度（3-5秒）、可预测费用以及面向支付的设计。AI代理可能需要执行大量小额交易，通常用于机器可读服务而非面向人类的购买。Akinyele指出：“主要目标是让AI代理在XRP Ledger上无缝支付API和数字服务，因为我们具备结算速度优势——3到5秒；交易成本可预测，且我们从一开始就专为支付而构建。”",
+          "Ripple还与x402基金会密切相关，该基金会专注于AI代理和应用的支付标准。Coinbase、Circle、AWS、Google、Mastercard、Stripe和Visa均为会员。x402标准最初由Coinbase开发，旨在让AI代理和应用自动支付API和在线服务。Akinyele表示：“与x402基金会的关系具有战略意义，因为我们可以塑造治理和技术细节，进而构建代理经济。”",
+          "目前XRP Ledger上的代理支付活动主要涉及API和数据，这与市场早期阶段一致——软件代理更可能先支付其他软件系统，而后才购买实物商品。下一个增长领域可能是商户入驻。Ripple支持的技术基础设施初创公司t54正致力于将用例从数字服务扩展到实际购买。t54联合创始人Chandler Fang称：“我们正在通过生态合作伙伴 onboarding 真实商户，使代理能够通过XRPL购买实物商品和服务，这是我们积极推动的下一个主要增长领域之一。”",
+          "对于交易所、钱包提供商和支付基础设施公司而言，市场含义是AI驱动的支付量可能成为一个新的交易类别，而非消费类加密支付的简单延伸。如果代理开始大规模支付服务，低费用、快速最终确认（fast finality）及开发者标准的网络可能捕获自动化的重复流量。100万笔交易里程碑显示了早期采用，但更大的考验是代理支付能否从技术活动转变为数字和实物市场中的持久支付需求。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/xrp-ledger-agentic-payments-could-hit-100-million-within-2-years/",
+        "published_at": "2026-07-22T01:00:00+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "STON.fi推出跨链交换连接TON与TRON及EVM稳定币生态",
+        "source_title": "STON.fi Launches Cross-Chain Swaps, Connecting TON to TRON and EVM Stablecoin Economy",
+        "event_date": "2026-07-21",
+        "key_points": [
+          "STON.fi 在 TON 上推出跨链交换功能，用户可直接在 TON、TRON、Ethereum、Base、BNB Chain、Polygon、Avalanche、Arbitrum 和 Robinhood Chain 之间转移稳定币，无需依赖中心化交易所或桥接。",
+          "跨链交换由 STON.fi 开发的执行层 Omniston 驱动，通过链接的哈希时间锁合约（HTLC）确保交易原子性，多数交换可在 15–40 秒内完成。",
+          "该连接使用户无需管理桥接、封装资产或路由决策，即可在 TON 原生资产、DeFi 协议和 Telegram 原生应用之间自由移动资本。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "STON.fi 是开放网络（TON）上领先的自动做市商（AMM）协议，于今日宣布在其应用中推出跨链交换功能。用户现在可以通过统一的自托管界面，在 TON、TRON、Ethereum、Base、BNB Chain、Polygon、Avalanche、Arbitrum 和 Robinhood Chain 之间直接转移稳定币。这一启动将 TON 与加密领域主要流动性和应用生态系统连接起来。",
+          "稳定币已成为加密市场最重要的板块之一，总市值超过 3000 亿美元，其中 TRON 和 Ethereum 是最大的两个稳定币网络。通过跨链交换，STON.fi 实现了 TON 与这些稳定币生态系统的双向连接：TON 用户可获取跨网络流动性，而 TRON 和 EVM 用户则能更直接地进入 TON 原生资产、钱包、DeFi 协议和 Telegram 原生应用。整个过程无需依赖中心化交易所、桥接或封装资产。",
+          "Omniston 是 STON.fi 开发的执行层，负责协调源链与目标链之间的整个交换流程。它不仅是路由或流动性聚合系统，更旨在确保跨链稳定币流动从定价到结算的整个过程可预测地完成。STON.fi Dev 首席执行官 Slavik Baranov 表示：“人们不会以区块链为单位思考——他们以想做什么来思考。我们的目标是让跨生态系统的移动感觉就像在一个网络内交换一样简单。Omniston 处理复杂性，让用户专注于结果而非基础设施。”",
+          "对用户而言，关键优势在于速度和可预测性。多数交换在 15–40 秒内完成，用户无需忍受跨链交易通常较长的等待时间。当交换确认后，Omniston 将订单与独立的流动性提供者（称为解析器）连接，这些提供者在目标链上提供资产。交易通过链接的哈希时间锁合约（HTLC）执行——这是两条链上的智能合约托管，使用相同的密码学条件——因此交换要么同时完成，要么完全不执行。",
+          "在确认前，用户会看到预计收到的资产和数量。如果交换无法完成，资金将被返还，而不会出现资金滞留、部分执行或结果不明确的情况。随着跨链交换上线，STON.fi 正从特定链的 DeFi 协议转向以用户意图为核心的产品。稳定币流动性、消费者应用和 DeFi 市场分布在多个网络中，用户需要更简便的方式来转移价值，同时保持自托管并免于管理每笔交易背后的基础设施。",
+          "对于 TON 和更广泛的加密市场，此次启动在主要流动性网络、应用生态系统和链上经济之间引入了更实用的访问层。用户可访问 STON.fi 的跨链交换界面：app.ston.fi/cross-chain。STON.fi 是一家跨链去中心化应用，支持 TON、TRON 和主流 EVM 兼容区块链之间的代币交换。其跨链能力由 Omniston 执行层提供支持，该层旨在实现多网络间可靠且可预测的交换。",
+          "STON.fi 最初是 TON 上领先的 AMM 协议和最广泛使用的 DeFi 应用之一，帮助用户交换资产、参与 DeFi 并跨区块链转移价值。该项目得到了 CoinFund、Delphi Ventures、The Open Platform、Karatage、TON Ventures 等领先投资者的支持，正在构建连接用户、流动性和应用的链上经济基础设施。"
+        ],
+        "source_name": "Decrypt",
+        "url": "https://decrypt.co/373921/ston-fi-launches-cross-chain-swaps-connecting-ton-to-tron-and-evm-stablecoin-economy",
+        "published_at": "2026-07-21T11:50:00+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "标普道琼斯与Pantera推出基本面数字资产指数ETH、BNB、SOL领衔",
+        "source_title": "S&P Dow Jones and Pantera Launch Fundamental-Based Digital Asset Index Led by ETH, BNB and SOL",
+        "event_date": "2026-07-20",
+        "key_points": [
+          "标普道琼斯指数公司与Pantera Capital联合推出S&P Pantera数字资产指数，旨在帮助机构投资者基于可量化的经济基本面分配加密资产，而非价格动量或市值。",
+          "该指数包含18种数字资产，采用规则驱动的方法筛选，依据协议收入、流动性和市场规模，当前前三大持仓为ETH、BNB和SOL。",
+          "比特币因不产生协议收入而被排除在指数之外，尽管其是全球市值最大的加密货币。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "标普道琼斯指数公司与Pantera Capital于2026年7月20日联合推出了S&P Pantera数字资产指数（S&P Pantera Digital Asset Index），这是一个新的基准指数，旨在帮助机构投资者基于可量化的经济基本面分配加密资产，而非依赖价格动量或市值。该指数包含18种数字资产，通过规则驱动的方法筛选，依次评估协议收入、流动性和市场规模。当前前三大持仓为以太币（Ether， ETH）、BNB和Solana（SOL），随后是TRON（TRX）和Hyperliquid（HYPE）。",
+          "与传统数字资产指数主要按市值排序不同，S&P Pantera数字资产指数首先从更广泛的S&P加密货币广泛数字资产指数（S&P Cryptocurrency Broad Digital Asset Index）中选取成分，再应用额外筛选条件。新资产必须市值超过5亿美元，并满足最低流动性要求。符合条件的协议然后根据区块链分析平台Artemis提供的前两个季度收入数据进行排名，资产被添加直至其合计占合格领域协议收入的99%。最终投资组合权重使用调整后市值确定，最大成分上限为35%，其他在定期再平衡时上限为20%。",
+          "该方法论显著改变了投资组合构成。尽管以太坊因其庞大的链上经济仍为最大配置之一，但指数排除了比特币——尽管后者按市值计是全球最大加密货币。据标普道琼斯称，比特币目前未满足基准的收入导向标准，因为其网络不像许多智能合约平台那样产生协议收入。",
+          "此次发布反映了机构数字资产投资的更广泛转变，投资组合经理越来越寻求超越简单市值加权敞口的基准。过去一年，交易所和金融机构推出了日益复杂的加密基准，涵盖去中心化金融、质押、代币化资产和多元化数字资产篮子等领域。投资者也在要求能更好反映区块链网络底层经济学的指数，而非仅仅投机性市场表现。通过强调协议收入和可量化的经济活动，S&P Pantera数字资产指数试图应用传统股权投资中更常见的估值原则。",
+          "该指数优先考虑能产生可持续费用和重复网络使用的区块链生态系统，而不是仅因代币价格上涨而奖励资产。未来，该指数可能成为机构投资产品、被动基金或跟踪创收区块链网络的结构化投资组合的基础。尽管其方法将随着数字资产行业的发展而演变，但标普道琼斯指数公司与Pantera Capital的合作标志着机构加密投资进入新阶段，基本面正变得与市值同等重要。",
+          "Pantera Capital是加密行业最古老的投资公司之一，与标普道琼斯指数公司合作贡献数字资产专业知识，而标普道琼斯提供指数治理、方法论和计算框架。据两家公司称，该基准旨在既作为机构投资组合的绩效衡量指标，也作为未来投资产品的潜在基础。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/sp-dow-jones-and-pantera-launch-fundamental-based-digital-asset-index-led-by-eth-bnb-and-sol/",
+        "published_at": "2026-07-22T08:00:00+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "Augustus完成1.8亿美元融资建设稳定币就绪的“全球美元银行”",
+        "source_title": "Augustus Raises $180 Million to Build a Stablecoin-Ready 'Global Dollar Bank'",
+        "event_date": "2026-07-21",
+        "key_points": [
+          "Augustus在由Tiger Global领投的B轮融资中筹集1.8亿美元，估值达到10亿美元。",
+          "公司正建设一家联邦特许的“全球美元银行”，将稳定币轨道直接嵌入银行系统，旨在成为主流机构的支付基础设施升级。",
+          "该融资发生在五月获得美国货币监理署（OCC）有条件国民银行执照之后，资金将用于在拉丁美洲、东南亚、中东和非洲扩张。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "稳定币基础设施初创公司Augustus于周二宣布完成1.8亿美元B轮融资，公司估值达10亿美元。本轮融资由Tiger Global领投，Hummingbird、QED以及Nubank、Ramp、Circle和Deel的创始人参与投资。此外，Circle联合创始人Sean Neville、前Coinbase首席技术官Balaji Srinivasan以及Rain的Farooq Malik等金融科技和加密货币领域知名人士也参与了本轮融资。Augustus表示，迄今为止累计融资金额已达2.1亿美元。",
+          "Augustus正在构建一个联邦特许的结算银行，其设计围绕稳定币和可编程货币。与发行自有稳定币不同，该公司正建设基础设施，使银行和金融科技公司能够在传统轨道和区块链网络上进行交易。其API优先平台支持经营账户和FBO账户，并通过SWIFT、ACH、SEPA以及稳定币进行结算，运行在一个名为Marble的专有核心银行系统上。该公司称，该系统通过在后台部署人工智能，实现了更快的结算速度和全天候可用性。",
+          "稳定币是这笔交易对金融市场具有重要性的核心原因。稳定币是旨在保持稳定价值的代币，通常与美元1：1挂钩，允许市场参与者无需直接获取美元即可进出交易。美元挂钩的稳定币已发展成为一个价值数十亿美元的结算层，延伸了美元的影响力，并对仍支撑跨境支付的缓慢、仅在工作日运行的代理行系统构成压力。通过将稳定币轨道直接嵌入特许银行，Augustus将新兴的加密基础设施定位为主流机构的“管道升级”，而非变通方案。",
+          "Augustus将目标瞄准代理银行业务——即资金在不同机构之间跨境流动的底层管道。其首席执行官兼联合创始人Ferdinand Dabitz表示：“我们创办Augustus时有一个简单的论点：美元是世界上最好的产品，但其分销从根本上存在缺陷。本轮融资使我们能够执行向国际金融科技公司和银行提供高质量美元访问的使命。是时候让世界美元化了。”",
+          "该融资发生在Augustus于五月获得美国货币监理署（OCC）有条件国民银行执照之后。公司表示，这使其成为自2010年以来第八家获得有条件批准的银行。该公司表示，加密货币交易所Kraken已在其客户之列。",
+          "Augustus还将此次努力部分定位为地缘政治赌注，指出中国的数字人民币和俄罗斯提议的BRICS Pay对西方货币主导地位构成挑战。公司计划利用这些资金在拉丁美洲、东南亚、中东和非洲进行扩张，这些地区的美元获取渠道仍然有限。"
+        ],
+        "source_name": "Decrypt",
+        "url": "https://decrypt.co/373996/augustus-raises-180-million-stablecoin-global-dollar-bank",
+        "published_at": "2026-07-21T19:14:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "速汇金CEO区块链在客户不知情时效果最佳",
+        "source_title": "MoneyGram's CEO says blockchain works best when customers don't know it's there",
+        "event_date": "2026-07-21",
+        "key_points": [
+          "MoneyGram CEO Anthony Soohoo表示，区块链技术的最佳应用场景是客户完全不需要感知它的存在。",
+          "该公司的区块链策略已从早期试验转向现代化全球支付基础设施，重点在于使跨境汇款更快、更便宜、更透明。",
+          "除保持Stellar为核心区块链合作伙伴外，MoneyGram还成为Solana和Tempo的验证者，并推出MGUSD稳定币用于自身支付生态。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "在CoinDesk的采访中，速汇金（MoneyGram）首席执行官Anthony Soohoo表示，该公司多年来一直在试验区块链技术，但最新的结论是：区块链在客户不需要思考它的时候效果最好。Soohoo说，速汇金的区块链策略已从早期实验演变为更广泛的公司全球支付基础设施现代化努力。这家服务约6000万活跃客户的汇款巨头认为，区块链与其说是面向消费者的功能，不如说是一种让跨境汇款更快、更便宜、更透明的方式。",
+          "Soohoo说：“你始终在寻找的是如何利用技术更高效、更有效地运营业务。用例是什么？我们的客户想要什么？我们如何为他们解决这个问题？”速汇金的客户主要是向海外亲友汇款的人，速度和成本是两大优先考虑。传统跨境支付可能需要数天才能结算，而且通常依赖银行营业时间和多个中介，流程繁琐且昂贵。而该公司认为，区块链可以通过实现全天候结算和降低运营成本来简化这一过程，节省的费用最终有望让利于客户。",
+          "为了现代化并更好地满足客户需求，速汇金与Stellar网络建立了合作，该网络在过去五年中支撑了公司许多区块链计划。但该公司也开始探索其他生态系统：Stellar仍是核心合作伙伴，同时速汇金已成为Solana和Tempo的验证者。对速汇金而言，直接的回报并非投机性的加密活动，而是取代传统金融基础设施。Soohoo认为，基于区块链的基础设施能够实现实时全天候结算，降低运营成本并改善客户体验。他说：“如果我们做对了，我们可以实现全部三个目标。”",
+          "即帮助客户节省时间、精力和金钱。即时结算还能让速汇金降低后端成本，该公司希望最终通过更低的价格将节省传递给客户。目前，速汇金的费用起价为1.89美元，并根据收款国家而异。Soohoo认为消费者不需要理解驱动这些改进的技术。他将区块链比作苹果iPhone内部的处理器：“我说不出我的iPhone里是什么处理器，我只知道它更快。”同样，他认为汇款客户关心的是钱是否快速可靠地到达，而不是它是通过区块链传输的。",
+          "这一理念也解释了公司最近推出的稳定币策略。速汇金的MGUSD并非为机构市场或加密货币交易者设计，而是主要用于公司自身的支付生态系统。Soohoo表示，拥有基础设施让速汇金能更好地控制成本和未来产品开发，包括钱包功能、奖励计划和其他金融服务。他说：“如果有人从速汇金向速汇金汇款，为什么不能用我们自己的代币？”他将稳定币描述为垂直整合更广泛努力的一部分。",
+          "Soohoo大约18个月前加入速汇金，此前在沃尔玛领导数字化转型。他说，自加入公司以来，他对区块链的看法已经扩大：“区块链和数字货币的机会实际上比我预想的更大。”不过，他警告说，许多金融机构过于关注宣布区块链计划，而不是解决客户问题。Soohoo说：“常见的误解是……他们迷失在产品中。这些是基础设施层面的对话，不是消费者层面的对话。”最终，速汇金的区块链野心不仅限于汇款。未来三到五年，Soohoo表示公司的目标是成为客户的“主要金融机构”——这些客户中有许多是无银行账户人群——并利用区块链作为技术之一，帮助实现金融服务准入的民主化。他说：“我们的目标是为速汇金客户实现金融民主化。”"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/tech/2026/07/17/moneygram-s-ceo-says-blockchain-works-best-when-customers-don-t-know-it-s-there",
+        "published_at": "2026-07-21T07:38:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "GalaxyDigital设500万美元基金力保比特币抵御量子计算威胁",
+        "source_title": "Galaxy sets up $5 million fund to help shield Bitcoin against quantum computing threats",
+        "event_date": "2026-07-21",
+        "key_points": [
+          "Galaxy Digital（GLXY）设立500万美元“比特币量子准备计划”（Galaxy Bitcoin Quantum Readiness Initiative），资助开发者构建防御量子计算威胁的方案。",
+          "资助聚焦于量子抵抗签名方案（quantum-resistant signature schemes）、钱包迁移工具（wallet migration tools）和安全审计（security audits），并希望其他公司贡献资金与研究以加速过渡。",
+          "CryptoQuant研究显示，若量子计算机具备破解比特币加密能力，约690万枚比特币（现值约4610亿美元）可能面临被盗风险；专家认为升级准备需数年，尽管威胁并非迫在眉睫。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "加密金融服务公司Galaxy Digital（GLXY）宣布设立500万美元基金，用于支持比特币开发者抵御量子计算未来潜在威胁。该公司表示，即日起接受“Galaxy比特币量子准备计划”（Galaxy Bitcoin Quantum Readiness Initiative）的申请，资助聚焦于量子抵抗签名方案（quantum-resistant signature schemes）、钱包迁移工具（wallet migration tools）和安全审计（security audits）。",
+          "Galaxy Digital希望其他公司也能贡献资金和研究，以加速向量子抵抗加密技术（quantum-resistant cryptography）的过渡。当前比特币通过加密技术保护钱包和交易，现有计算机在合理时间内无法破解。然而，量子计算虽然仍不成熟，尚无法攻击区块链，但技术进展已推动政府与行业加速采用量子抵抗标准，以防患于未然。",
+          "据CryptoQuant研究，若量子计算机未来具备破解比特币加密能力，大约690万枚比特币（按当前约66，800美元价格计算，价值约4610亿美元）可能变得易受盗窃。尽管研究人员一致认为威胁并非迫在眉睫，但许多人主张应从现在开始准备，因为就协议升级达成共识并部署可能需要数年时间。",
+          "将比特币迁移至后量子密码学（post-quantum cryptography）的提案预计将比之前的升级（如Taproot）复杂得多，需要开发者、钱包、交易所和用户之间的协调。美国总统唐纳德·特朗普（Donald Trump）近期签署两项行政命令，指示美国建造大规模量子计算机并保护联邦系统免受其威胁。",
+          "美国商务部（U.S. Commerce Department）签署意向书，向九家量子计算公司奖励超过20亿美元，这些公司正在制造能够破解比特币和以太坊（Ethereum）加密技术以及互联网运行所依赖加密技术的机器。尽管专家表示量子计算机目前尚无法破解比特币，但研究者警告称，准备升级可能需要多年时间，威胁不容忽视。"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/tech/2026/07/21/galaxy-sets-up-usd5-million-fund-to-help-shield-bitcoin-against-quantum-computing-threats",
+        "published_at": "2026-07-21T10:16:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      }
+    ],
+    "notes": [
+      "政策风向覆盖美国、英国、俄罗斯三个地区，满足至少一篇美国的要求。",
+      "行业前沿聚焦AI代理支付与跨链技术，均为近期技术进展。",
+      "市场动态选取指数发布与融资事件，避免价格预测。",
+      "意见领袖均为机构高管直接引述，突出人物观点。"
+    ]
+  },
+  "factcheck": {
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      "政策风向 3 篇均来自同一地区：美国，建议加入美国或香港以外的正式监管动向",
+      "item 1 contains relative time wording; replace with exact date",
+      "item 3 contains relative time wording; replace with exact date",
+      "item 4 contains question-style future/unknown wording; ensure the source explicitly raises it",
+      "item 8 contains relative time wording; replace with exact date",
+      "source diversity is low: only 3 unique domains"
+    ]
+  },
+  "outputs": {
+    "docx": "reports/2026/加密货币观察_20260722.docx",
+    "manifest": "reports/2026/_manifests/加密货币观察_20260722.json"
+  }
+}
