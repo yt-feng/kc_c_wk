@@ -1,0 +1,273 @@
+{
+  "generated_at": "2026-07-29T15:36:22+08:00",
+  "period": "2026-07-22 15:36 至 2026-07-29 15:36（北京时间，最近7天）",
+  "raw_count": 33,
+  "collection_warnings": [
+    "no candidates for query: Hong Kong SFC HKMA virtual asset stablecoin tokenised investment product regulation",
+    "no candidates for query: cross chain oracle RWA infrastructure wallet staking rollup interoperability crypto",
+    "no candidates for query: crypto company raises acquires launches futures ETF tokenized fund stablecoin adoption",
+    "no candidates for query: site:cftc.gov (crypto OR digital asset OR prediction market OR event contract)",
+    "no candidates for query: site:federalreserve.gov (crypto OR stablecoin OR digital asset OR tokenization)",
+    "no candidates for query: site:info.gov.hk (virtual asset OR crypto OR stablecoin OR tokenisation)",
+    "no candidates for query: site:bis.org (crypto OR stablecoin OR tokenisation OR tokenization)"
+  ],
+  "report": {
+    "items": [
+      {
+        "section": "政策风向",
+        "title_cn": "参议院推迟CLARITY法案休会前仅剩一周窗口期",
+        "source_title": "The Senate Just Punted the CLARITY Act — and the Calendar Is Running Out",
+        "event_date": "2026-07-28",
+        "key_points": [
+          "美国参议院本周未否决CLARITY法案，但将其排在其他事务之后，导致进一步延迟。多数党领袖John Thune的议程优先处理行政提名和俄罗斯制裁法案。",
+          "参议员Cynthia Lummis于7月22日发布合并草案，但民主党支持仍与更严格的政府伦理限制挂钩。草案禁止联邦官员及其配偶在任职期间因发行或赞助数字资产获得报酬。",
+          "参议院夏季工作期从8月10日开始，因此8月3日至7日是全周的最后一个立法周。Polymarket预测市场将该法案通过概率下调至32%。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "本周，美国参议院并未否决CLARITY法案，而是将其他事务排在了这项数字资产市场结构法案之前，再度造成延迟。多数党领袖John Thune公布的议程优先处理行政提名和一项俄罗斯制裁法案。星期二（7月28日）的议程包括对Walter Clayton担任国家情报总监的提名进行投票，随后是制裁立法的程序性行动，CLARITY法案并未列入其中。",
+          "就在几天前，业界预期仍有不同。原本可能于7月27日或28日启动“ proceed”动议，从而在8月3日当周打开程序性投票和全院审议的通道。但这些日期从未得到参议院领导层的确认，而可用的大会时间此后进一步收窄。Thune表示，议员们仍需“看看票数在哪里”，这表明问题已超出日程安排范畴——该法案必须获得足够支持以克服参议院60票的通过门槛，而当前的妥协语言尚未形成可靠的投票联盟。",
+          "参议员Cynthia Lummis于7月22日发布了CLARITY法案的更新草案，合并了参议院银行委员会和农业委员会的工作成果。银行委员会已于5月以15比9的投票结果推进了其提案部分，但民主党对最终通过的支持仍与更严格的政府伦理限制挂钩。合并草案禁止特定联邦官员及其配偶在任职期间因发行或赞助数字资产而获得报酬。赞助行为包括为项目提供资金、组织或推广代币发行，或允许官员的姓名或肖像被用于资产关联用途。数字资产中介机构也被禁止故意上架违反这些限制的代币。",
+          "上述条款旨在回应高级政府官员可能在影响联邦政策的同时从加密货币项目中获利的担忧。但民主党批评者认为，该条款仍存在执法和覆盖范围上的漏洞，包括对州检察长权力的限制，以及间接持股安排是否属于限制范围的不确定性。结果，合并草案解决了部分委员会分歧，却未锁定在参议院全院表决所需的票数。",
+          "对于经纪商、交易所和托管机构而言，CLARITY法案的重要性在于运营层面而非政治层面。该法案将赋予商品期货交易委员会（CFTC）对数字商品现货市场的独家监管权，并为数字商品交易所、经纪商和交易商建立联邦注册制度。证券交易委员会（SEC）将继续监管属于证券或投资合同的资产和交易。这一划分将有助于确定哪个监管机构负责监管交易平台、代币发行人必须提供哪些披露，以及托管、监控和客户保护义务的归属。",
+          "在没有法定界限的情况下，企业必须根据当前SEC、CFTC和各州的解释来构建产品，同时接受未来法律可能迫使另一次重新设计的现实。为一个监管机构设计的代币上架系统、托管安排或经纪商工作流程，可能不易转移到另一个监管机构。参议院的延迟并不意味着CLARITY法案被否决，但它削弱了“美国加密公司可以围绕SEC与CFTC既定的管辖框架来制定2027年计划”的假设。",
+          "参议院的夏季工作期从8月10日开始，持续到9月11日。这意味着8月3日至7日是议员们离开华盛顿之前的最后一个完整立法周。在此期间仍有可能进行初步的程序性行动，但没有固定的全院表决日期，也不能保证领导层会提交“ proceed”动议。如果法案下周未能推进，9月将成为下一个实际可行的机会。然而这一延期并非无限——国会将在选举季需求以及随后的跛脚鸭会期之前，仅有数周的工作时间，使得大会时间更难确保。",
+          "预测市场交易者已经降低了预期。随着伦理争议和国会日程收紧，Polymarket交易者将CLARITY法案通过概率下调至32%。对于加密货币公司而言，在国会谈判期间不能暂停规划。实际应对措施是维持两条监管轨道：继续开发适应现有框架的产品，同时推迟那些依赖CLARITY法案成为法律的高成本决策。交易所可在代币分类和上架系统上保持灵活性；经纪商可避免将所有2027年产品押注于单一的SEC或CFTC主导结构；托管机构可准备能在任一监管机构下运作的控制措施，直至国会确立最终的权限划分。",
+          "这种双轨做法成本高昂——它复制了法律和技术工作，延缓产品上市，并可能促使公司将部分资本和产品开发迁往美国以外。CLARITY法案仍然存在，参议院仍可能在休会前启动推进程序。但不再可靠的是“市场结构法案将在8月第一周进入全院表决”的假设。今年第二次，加密货币行业的监管规划日历比支撑它的法案走得更快。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/the-senate-just-punted-the-clarity-act-and-the-calendar-is-running-out/",
+        "published_at": "2026-07-28T21:46:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "俄罗斯公布数字存管新规为秋季加密框架铺路",
+        "source_title": "Russia outlines new digital depository rules ahead of fall crypto framework roll-out",
+        "event_date": "2026-07-28",
+        "key_points": [
+          "俄罗斯央行公布首批数字资产规则草案，建立受监管的“数字存管机构”，将现有证券市场监管体系延伸至数字资产。",
+          "草案对数字存管机构提出分级资本要求：结算存管机构需持有2.5亿卢布（约280万美元）流动性资本；控制加密地址或与外国托管人持有资产的机构需1亿卢布（约110万美元）；其他数字存管机构需5000万卢布（约57万美元）。",
+          "该规则依据7月21日国家杜马通过、7月24日联邦委员会批准的数字资产法制定，将于9月全面生效；草案尚未最终确定，已公开征求意见。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "在西方新制裁的背景下，俄罗斯央行（Bank of Russia）加快了数字资产规则的制定步伐，于7月28日发布了首批数字资产规则草案，作为该国引入加密货币监管框架的重要组成部分。该草案创建了“数字存管机构”（digital depositories）这一受监管实体，负责记录加密货币及其他数字资产的持有情况，并将俄罗斯证券市场现有的交易、托管、记账及信息披露规则延伸至数字资产领域，旨在建立有组织的加密货币市场。此外，央行还将要求数字资产交易平台公布成交量加权市场价，以确保价格透明。草案还要求数字资产平台持有高达280万美元的流动性资本，为即将于9月生效的全面监管框架做好准备。",
+          "草案对数字存管机构提出了明确的分级资本要求，根据其提供的服务类型及持有资产的性质，所需资本在5000万至2.5亿卢布之间浮动。具体而言，结算存管机构（settlement depositories）作为最高等级，需持有2.5亿卢布（约280万美元）的资本；控制加密地址或与外国托管人（foreign custodians）持有资产的机构需持有1亿卢布（约110万美元）；其他数字存管机构则需持有5000万卢布（约57万美元）。",
+          "计入这些资本要求的资产必须具有充分的流动性，且符合条件的金融资产必须满足央行设定的信用质量标准，以确保资金安全。这些要求同样适用于处理数字金融资产交易结算的电子平台运营商。此外，草案还规定，央行将负责维护数字存管机构、加密交易所运营商及数字金融资产发行公司的注册登记信息。",
+          "上述规则是在一项数字资产法案的框架下制定的，该法案由俄罗斯国家杜马于7月21日通过，并由联邦委员会于7月24日批准。该加密货币监管框架计划于今年9月全面生效。目前，草案尚未最终确定，已公开发布供公众评估和意见反馈。",
+          "就在央行发布草案及数字资产规则相关公告的4天前，欧盟（European Union）宣布了第21轮制裁方案，该方案针对14家加密公司，其中包括全球最大的稳定币网络之一A7，其规模高达1200亿美元。"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/policy/2026/07/28/russia-outlines-new-digital-depository-rules-ahead-of-fall-crypto-framework-roll-out",
+        "published_at": "2026-07-28T08:49:00+08:00",
+        "region": "俄罗斯",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "缅甸批准对强迫诈骗劳工判处死刑对加密诈骗判处终身监禁",
+        "source_title": "Myanmar Approves Death Penalty for Forced Scam Labor, Life for Crypto Fraud",
+        "event_date": "2026-07-28",
+        "key_points": [
+          "缅甸军方支持的议会通过《反网络诈骗法案》，允许对使用暴力或非法拘禁强迫他人从事网络诈骗者判处死刑。",
+          "经营网络诈骗中心或“数字货币诈骗（加密诈骗）”最高可判终身监禁。",
+          "联合国毒品和犯罪问题办公室（UNODC）估计，2025年东亚、东南亚及大洋洲诈骗损失达883亿至1141亿美元。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "缅甸军方支持的议会于周二通过了《反网络诈骗法案》，这是敏昂莱政府上任以来通过的首部法律。该法案允许对使用暴力或非法拘禁强迫他人参与网络诈骗者判处死刑。据5月份公布的草案，若此类虐待行为导致受害者死亡，“应判处死刑”。",
+          "草案规定，经营网络诈骗中心或实施“数字货币诈骗（即加密诈骗）”者最高可判终身监禁，而胁迫类犯罪可判处10年至终身监禁。下议院议员Aye Chan向法新社证实，死刑条款在最终批准版本中得以保留，且“法案的重要部分保持不变”。目前法案全文尚未公布。",
+          "该法案是敏昂莱政府通过的首部法律。敏昂莱于2021年发动政变，并于今年4月就任文职总统。根据宪法，议会两院中四分之一的席位（166席）保留给军方，其余席位中，联邦巩固与发展党（USDP）在分阶段选举中赢得339席，而昂山素季已被解散的政党无法参选。",
+          "美国财政部于2025年5月将克伦民族军（原克伦边防军）列为跨国犯罪组织，称该民兵组织在泰缅边境的领土“是多个网络诈骗集团的据点”，且该组织“从与缅甸军方的联系中获益”。克伦民族军否认参与诈骗活动。",
+          "联合国毒品和犯罪问题办公室（UNODC）估计，2025年东亚、东南亚及大洋洲的诈骗活动导致损失883亿至1141亿美元，诈骗窝点内发现了至少80个国家的公民。柬埔寨也已推进自己的法案，规定对诈骗窝点头目判处终身监禁。本月，美国检察官查获了2500万美元与经该区域转移的诈骗相关的加密货币。",
+          "联合国机构警告称，该地区警方仍无法追踪链上资金流向。缅甸于2022年恢复司法处决，绞死了四名活动人士，这是自1976年以来的首次此类处决。今年4月，敏昂莱在上任数天后将国内所有死刑减为无期徒刑。三个月后，其议会又立法增设了新的死刑条款。"
+        ],
+        "source_name": "Decrypt",
+        "url": "https://decrypt.co/374519/myanmar-approves-death-penalty-for-forced-scam-labor-life-for-crypto-fraud",
+        "published_at": "2026-07-28T12:29:00+08:00",
+        "region": "东南亚",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "ZcashIronwood升级激活封存17亿美元屏蔽池",
+        "source_title": "Zcash seals $1.7 billion shielded pool as Ironwood upgrade activates",
+        "event_date": "2026-07-28",
+        "key_points": [
+          "Ironwood升级封存了持有约366万ZEC（约17亿美元）的Orchard屏蔽池，新池从零开始。",
+          "Orchard证明电路存在四年未被发现的伪造漏洞，但CoinDesk Research报告显示无证据表明被利用。",
+          "闸门机制确保从Orchard取出的ZEC不超过可验证存款，假币无法流通。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Zcash于周二在区块3，428，143激活了Ironwood（NU6.3）升级，封存了持有大部分网络隐私资金的所谓“屏蔽池”，并开启了一个从零代币开始的迁移新池。Ironwood正式退役了此前名为Orchard的屏蔽池，该池持有约366万ZEC，按当前价格价值约17亿美元。追踪器显示Ironwood在激活时持有零ZEC。每枚代币都必须由其所有者自行迁移，而离开Orchard的唯一途径是一个闸门——池边界上的会计规则，将总取款上限设定为可验证的存款金额。",
+          "屏蔽池是Zcash的隐私侧，其中代币数量和参与者身份被隐藏。零知识证明提供证据，表明存入的金额在公开账本上得到反映。2026年5月29日，Shielded Labs研究员Taylor Hornby发现Orchard的证明电路存在一个漏洞，攻击者可凭空铸造ZEC且不留下链上痕迹。该漏洞自2022年5月Orchard上线以来一直存在。",
+          "但CoinDesk Research的一份报告显示没有证据表明该漏洞被利用。如果某人铸造了假ZEC，下一步显然是将其取出并出售，这将表现为资金离开该池。然而，在漏洞存在的四年间，Orchard的余额稳步增长，包括去年价格上涨期间——那时兑现利润最为有利。开发者几天内修补了漏洞，但补丁无法覆盖漏洞存在的四年。由于零知识证明不揭示除已验证事实外的任何信息，链上没有记录任何Orchard交易是否真实，没有人能证明从未创建过假币。",
+          "闸门正是针对这一问题的解决方案。即使池内交易不公开，进出屏蔽池的资金却是公开的，因此网络已经知道有多少ZEC进入了Orchard，并且不会释放超过该金额的代币。任何滞留在池内的假币都将被锁定。截至发稿时，据追踪器显示，已有1，500 ZEC迁移至新池。",
+          "Ironwood还引入了Orchard从未拥有的两项保护措施。每枚代币在链上留下的记录被设计为即使量子计算机最终破解当前加密技术，也能保持可恢复性——这是ZIP 2005规定的特性，并在第一个区块生效。此外，该池的证明电路（即检查每笔隐私交易是否有效的代码）正在进行正式验证，可产生数学证明，证明软件在所有可能情况下都行为正确，而不仅仅是测试人员想到的情况。其目标是排除导致Orchard漏洞的那类代码缺陷。",
+          "在升级前，ZEC交易价格约为463美元，当日下跌8%，周内下跌15%，但过去一年仍上涨约10倍。未来值得关注的关键指标是366万ZEC的实际迁移速度。迁移是自愿且由用户驱动的，在此之前，Zcash的大部分隐私供应量被困在一个无人能向其添加代币的池中。"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/tech/2026/07/28/zcash-seals-usd1-7-billion-shielded-pool-as-ironwood-upgrade-activates",
+        "published_at": "2026-07-28T08:35:00+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "Canton网络去中心化应用层上线获基金会超百万美元资助",
+        "source_title": "Canton’s Decentralized App Layer Launches, Backed by $1M+ Foundation Grant",
+        "event_date": "2026-07-28",
+        "key_points": [
+          "BitSafe发布开源框架Decentralization Manager，支持在Canton Network上构建去中心化金融应用。",
+          "该框架由Canton Foundation Development Fund提供超过100万美元（8，500，000 $CC）资助，并已通过Quantstamp独立审计。",
+          "CBTC作为首个非原生资产，已在Canton上完成超过1000万笔交易，节点运营商已获得Canton费用分成。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "2026年7月28日，BitSafe发布了面向Canton Network（坎顿网络）构建去中心化金融应用的基础设施。BitSafe当日开放了Decentralization Manager（去中心化管理器）的公开测试版，这是一个开源框架，允许应用和机构构建将控制权分散到多个独立运营商的弹性产品。该项目由Canton Foundation Development Fund（坎顿基金会发展基金）提供超过100万美元（8，500，000 $CC）资助。",
+          "Canton Network已成为机构将真实资本和运营上链的关键基础设施。满足机构应用标准需要审计追踪和分布式信任，但此前每个在Canton上构建的团队都必须从头构建门限托管、治理和审计基础设施。Decentralization Manager使这些组件可复用，让团队专注于构建应用而非基础设施。该框架已通过Quantstamp独立审计，标志着链上用例的重要扩展，使机构在分散运营以降低风险的同时，继续利用网络的原生隐私架构。",
+          "Decentralization Manager配备了代币发行和托管的预制框架，并支持更多产品：代币发行方面，发行人可以启动和治理Canton原生代币，范围从封装加密资产到稳定币和RWA（真实世界资产）；托管和多重签名钱包方面，团队可以在多方共享控制下持有和转移资产，消除对单一托管人的依赖。",
+          "代币化真实世界资产和证券方面，构建者可以将真实世界资产上链并在分布式控制下进行治理；DEX、借贷和结构化产品方面，机构可以利用Decentralization Manager启动机构级金融应用。CBTC是Canton上首个非原生资产，也是Decentralization Manager的首个实际用例，迄今已完成超过1000万笔交易，运行CBTC的节点运营商已从链上交易中赚取Canton费用分成。",
+          "Canton Foundation负责人Viv Diwakar表示：“机构区块链的未来取决于让复杂基础设施更容易构建和采用。通过开源Decentralization Manager，BitSafe为开发者提供了创建弹性、隐私保护应用的工具，在独立运营商之间分配信任，同时不牺牲机构所需的治理和控制。”他补充说，此类贡献将加强Canton生态系统，加速机构数字资产和代币化金融市场的发展。",
+          "Palladium Labs是首个宣布使用Decentralization Manager实现协议操作多方授权的构建者。其联合创始人兼CTO Akshay Sinha表示：“分布式信任和完全可审计性是Alpend等机构级信用基础设施的基本要求。Decentralization Manager使其成为整个Canton生态体系可构建的框架，采用它是我方做过的最轻松的决定之一。”",
+          "除Palladium外，CBTC Attestors Nethermind、DSRV和Finoa Consensus Services已实施Decentralization Manager。这些机构的参与表明Canton各方共同致力于采用优先考虑数据隐私、运营控制和弹性的去中心化技术。公开测试版现已通过Canton Foundation的GitHub开放，另有额外赠款申请正在进行中。",
+          "DSRV的CTO Joonkyo Kim表示：“CBTC Decentralized Party已展示了Canton的进展，Decentralization Manager公开测试版对整个生态系统是重大一步。我方团队的接入异常顺畅——合约部署基本上是一键完成。对于任何仍在单一验证器上运行的应用，这是我们见过的超越单点故障的最简单路径。”",
+          "Nethermind的CIO Mateusz Jędrzejewski指出：“作为保障CBTC的证明者之一，我方从早期阶段就在BitSafe的去中心化签名架构中运行，亲眼目睹了在生产环境中跨独立运营商分配信任所需的条件。接入Decentralization Manager非常直接，管理工具直观，遇到问题时BitSafe团队迅速解决并全程沟通。将真实资产带入Canton的机构日益期待这种模式：没有单点控制，同时具备风险团队所需的审计轨迹和运营弹性。将此类基础设施开放和可重复化，对生态系统是有意义的一步。”",
+          "Finoa Consensus Services的董事总经理Daniel Schrader表示：“BitSafe的Decentralization Manager将我们已在运行的基础设施转变为无单点故障的配置，这正是机构对Canton的期望。我们很高兴能扩展与BitSafe的合作，并期待随着新应用加入网络而共同建设更多内容。”"
+        ],
+        "source_name": "Decrypt",
+        "url": "https://decrypt.co/374525/cantons-decentralized-app-layer-launches-backed-by-1m-foundation-grant",
+        "published_at": "2026-07-28T12:07:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "摩根士丹利推出以太坊和索拉纳ETP扩大加密资产布局",
+        "source_title": "Morgan Stanley Expands Crypto Push With Ethereum and Solana ETPs",
+        "event_date": "2026-07-28",
+        "key_points": [
+          "摩根士丹利推出以太坊和索拉纳的交易所交易产品（ETP），代码分别为MSSE和MSOL。",
+          "两只基金将质押部分持仓，质押收益传递给投资者，费用率为0.14%。",
+          "此举是该华尔街机构今年一系列加密举措的最新一步，此前已推出比特币ETF、E*TRADE加密交易和代币化计划。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "摩根士丹利投资管理公司超越比特币，推出以太坊和索拉纳的交易所交易产品（ETP），这些产品将为投资者产生质押收益，这是该华尔街机构在数字资产领域的最新扩张。根据周二发布的公告，摩根士丹利以太坊信托（NYSE Arca： MSSE）和摩根士丹利索拉纳信托（NYSE Arca： MSOL）将分别跟踪以太坊（Ethereum）和索拉纳（Solana）的价格。",
+          "公司表示，每只基金将收取0.14%的费用率，并质押部分持仓，质押收益将传递给投资者。摩根士丹利投资管理公司全球ETF负责人Ally Wallace在声明中表示：“自2023年推出首批ETF以来，我们已构建起多元化的ETF和ETP产品组合，目前管理资产超过140亿美元。MSSE和MSOL的加入反映了我们产品套件的自然演进，旨在通过ETP载体提供简化的数字资产访问渠道。”",
+          "此次推出是在摩根士丹利今年4月推出其现货比特币信托之后。公司称，截至7月16日，该比特币信托已吸引超过3.81亿美元的管理资产，而公司的ETF和ETP平台已增长至22只产品、管理资产超过140亿美元。",
+          "此次发布是摩根士丹利今年一系列加密举措的最新一步，这些举措包括推出比特币ETF、通过E*TRADE提供加密交易以及代币化计划。同样在4月，摩根士丹利高管表示，公司正在探索代币化货币市场基金、通过子公司Parametric进行数字资产税务管理策略以及其他基于区块链的产品。摩根士丹利数字资产策略主管Amy Oldenburg此前对Decrypt表示：“我们不会止步于比特币，这实际上是长期旅程，还有很长的路要走。”",
+          "7月，摩根士丹利通过与Zero Hash的合作，为符合条件的E*TRADE客户推出了现货比特币、以太坊和索拉纳交易，使客户能够在股票及其他投资之外买卖和持有数字资产。"
+        ],
+        "source_name": "Decrypt",
+        "url": "https://decrypt.co/374592/morgan-stanley-crypto-ethereum-solana-etps",
+        "published_at": "2026-07-28T20:14:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "USDC交易量份额创历史新高但供应持续萎缩",
+        "source_title": "The Stablecoin Battle Between USDC And Tether Explained",
+        "event_date": "2026-07-28",
+        "key_points": [
+          "CoinGecko Q2报告显示，USDC交易量占加密货币总交易量的12.5%，创历史新高，此前的纪录是2023年第四季度的11%。",
+          "同期USDC流通供应量降至735亿美元，在主要稳定币中绝对降幅最大；Tether供应量约1844亿美元，占稳定币总供应约60%。",
+          "交易量和供应量衡量不同维度：交易量反映交易偏好，供应量反映资本闲置选择，两个指标并不矛盾。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "CoinGecko最新发布的2026年第二季度加密货币行业报告显示，Circle发行的稳定币USDC在当季占据了加密货币总交易量的12.5%，创下历史新高，超过了2023年第四季度11%的此前纪录。然而，同一时期USDC的流通供应量却出现主要稳定币中最大的绝对值下降，降至735亿美元。相比之下，Tether的USDT供应量基本稳定在约1844亿美元，其在全球稳定币市场的份额增至约60%。",
+          "这两个数据并不矛盾，它们衡量的是不同维度。交易量反映的是交易所、做市商和交易者偏好的交易媒介；流通供应量反映的是资本在交易间隙选择停留的位置，无论是用于生息、库存管理还是长期流动性。理解为何一个指标创纪录而另一个大幅下降，有助于看清稳定币市场正超越简单的市值排名而演变。",
+          "USDC交易量份额的增长并非偶然。过去一年，USDC在中心化交易所的覆盖面持续扩大，成为越来越多现货和衍生品市场的首选报价货币。多家交易所继续用USDC取代或减少对其他稳定币的支持，同时增加USDC交易对，为交易者提供了更多使用Circle代币进行交易的机会。此外，机构采用也发挥了作用，许多受监管的交易公司和做市商因其监管定位、储备透明度和与传统金融基础设施的整合而继续青睐USDC。",
+          "尽管交易活动达到创纪录水平，为什么流通供应量反而下降？答案在交易所之外。流通供应量在新USDC被铸造时增加，在投资者将代币赎回为美元时减少。赎回行为受多种因素影响，远不止交易活动。整个2026年，较高的利率环境持续塑造稳定币需求。管理大量现金余额的投资者越来越将持有稳定币的回报与货币市场基金、国债等收益工具进行比较。当链下收益具有吸引力时，一些机构投资者倾向于赎回稳定币，而非让资本闲置在区块链网络上。",
+          "换言之，USDC似乎已越来越成为一种高效的交易资产，即便部分长期持有者减少了余额。与此同时，Tether仍在许多投资者最为关注的指标——流通供应量——上保持主导地位。一个占据全球市场约60%份额的稳定币拥有强大的网络效应：流动性吸引流动性。最大的稳定币通常提供最深的交易订单簿、最广泛的交易所支持、最全面的DeFi集成以及跨境转账的最高接受度。这种规模使得竞争对手即使在某些细分领域（如机构交易活动）表现更优，也难以迅速缩小差距。",
+          "第二季度还伴随着另一个行业里程碑：6月份稳定币交易量达到创纪录水平，反映出支付、结算和机构用途（超越加密货币交易本身）的持续增长。稳定币正日益成为金融基础设施，而不仅仅是加密市场的数字现金。这一趋势有助于解释为何多个指标现在都变得重要：交易量衡量使用频率，流通供应量衡量生态内留存资本，二者未必同步变动。",
+          "2026年下半年可能将决定USDC创纪录的交易量份额能否转化为新的供应增长。如果交易所采用继续扩大，同时机构对受监管稳定币的需求增强，更高的交易活动最终可能支持流通供应回升，因为更多用户选择在交易间隙持有USDC余额。反之，如果利率仍处高位，投资者继续偏好闲置现金的高收益替代品，那么即使交易量持续创纪录，供应增长也可能保持低迷。而Tether则凭借供应主导地位进入下半年，在中心化交易所、DeFi和国际支付领域继续享有流动性优势。",
+          "CoinGecko最新报告的启示是：稳定币竞争已不能再仅以市值判断。USDC在第二季度赢得了行业最重要的衡量指标之一——加密货币交易实际发生的地方；Tether则在支撑流动性、库存管理和网络效应的指标——资本选择停留的地方——保持领先。这两种领导地位正变得越来越分化，它们在2026年余下时间的演变，可能比哪个稳定币拥有最大市值更为重要。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/the-stablecoin-battle-between-usdc-and-tether-explained/",
+        "published_at": "2026-07-28T09:47:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "MichaelSaylor比特币代码即宪法修改是对经济权利的侵犯",
+        "source_title": "Michael Saylor: Bitcoin Code Is a Constitution, Changes Are Attacks on 'Economic Rights'",
+        "event_date": "2026-07-28",
+        "key_points": [
+          "Michael Saylor在X上发布九条推文，将比特币共识规则称为“宪法”，任何修改代码的尝试都是对当前及未来所有参与者经济权利的侵犯。",
+          "Saylor将BIP-110、covenants（契约）和大区块提案一并归为“宪法罪行”，称它们虽工具不同，但本质都是派系重写规则并强加于所有人。",
+          "BIP-110的强制信号窗口将于8月9日左右（区块961，632）开启，目前矿工支持率仅2.64%，远未达到激活所需的55%门槛。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Strategy执行主席Michael Saylor周二在X上发布了一条九贴线程，将整个协议辩论重新框定为一场宪法危机。Saylor写道：“比特币已经赢了。现在它必须在胜利中幸存。它最严重的威胁不是门口的敌人，而是内部的腐败：那些编造借口、重写规则、夺取经济权利的派系，直到自由变成许可，法律变成战利品。”",
+          "Saylor将比特币的共识规则视为“宪法”，并称任何为某一派系意识形态偏好而重写规则的行为，都不是简单的软件更新，而是没收人们的经济权利。他写道：“比特币的共识规则就是其宪法。为了任何派系的便利而重写它们，就是在攻击今天每个参与者和未来每一代人的经济权利。”",
+          "Saylor特别攻击了一项名为BIP-110的比特币改进提案（Bitcoin Improvement Proposal，BIP）。该“精简数据临时软分叉”提案旨在限制像Ordinals铭文这类非金融数据进入比特币区块链约一年时间。上周，Saylor曾发布一篇110点论文反对该提案，题为“BIP 110是坏主意的110个理由”。从提案现状看，他的观点似乎占了上风。",
+          "此外，Saylor还将BIP-110与covenants（契约）和大区块提案归为一类。Covenants是一种智能合约式限制，允许用户预先编程未来如何花费比特币；大区块提案则要求增加每个区块的数据容量以处理更多交易。Saylor写道：“有些提案，如BIP-110，审查有效的付费交易。另一些增加契约机制。还有一些要求更大的区块。不同的工具，同样的宪法罪行：一个派系重写比特币规则，并将其议程、成本和风险强加给所有人。”",
+          "BIP-110的主要倡导者是其匿名作者Dathon Ohm，长期比特币开发者Luke Dashjr参与了最初草案的撰写。该提案主要由相对较小的“反垃圾信息”群体支持，他们来自Bitcoin Knots和节点运营商，认为比特币应专注于点对点支付，而非成为存储Ordinals、代币、图像等任意数据的永久层。他们的理由是：矿工为包含这些数据收取一次性费用，而每个全节点运营商却要承担长期存储、带宽和验证成本。",
+          "BIP-110的强制信号窗口——即运行提案软件的节点开始拒绝非合规区块的时间点——将于8月9日左右在区块961，632开启。根据BIP-110信号面板数据，矿工支持率仅为2.64%，远未达到激活所需的55%门槛。Saylor在总结中呼吁：“协议变更必须罕见、保守，且由必要性驱动，而非野心。捍卫比特币宪法。捍卫未来。”"
+        ],
+        "source_name": "Decrypt",
+        "url": "https://decrypt.co/374588/michael-saylor-bitcoin-constitution-bip-110",
+        "published_at": "2026-07-28T20:36:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "加密货币从低点回升Grayscale看多HYPE、Saylor警告内部风险",
+        "source_title": "Live updates: Crypto climbs off worst levels as stock selloff is contained to AI names",
+        "event_date": "2026-07-28",
+        "key_points": [
+          "Grayscale研究主管Zach Pandl表示，Hyperliquid（HYPE）可能仍被低估，基于预计2027年约10亿美元的盈利，当前估值（15-18倍前瞻市盈率）低于多数公开交易的金融科技同行。",
+          "Strategy执行主席Michael Saylor警告，比特币最大风险来自社区过于自由地更改核心共识规则，主张创新应在更高层实现，而非修改协议本身。",
+          "摩根士丹利推出跟踪以太坊和Solana的ETP，费用率0.14%为市场最低，并计划将部分持仓用于质押，收益转交投资者。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "比特币（BTC）在周二早盘跌至63，000美元以下后逐步回升，截至发稿报63，800美元，24小时跌幅收窄至1.1%。美股纳斯达克指数当日持平，但AI芯片板块大幅下挫：美光科技（MU）跌10%、闪迪（SNDK）跌12%、AMD（AMD）跌9%。韩国Kospi指数隔夜暴跌10.8%，三星和SK海力士领跌，后者股价较IPO价跌逾10%。",
+          "Grayscale Research在周二的一份报告中指出，去中心化永续期货交易所Hyperliquid的原生代币HYPE（HYPE）尽管年内已上涨115%，但其估值可能仍然偏低。研究主管Zach Pandl估计，受加密货币交易量回升及新稳定币合作推动，Hyperliquid在2027年有望产生约10亿美元盈利。基于预期每股收益，HYPE目前交易在15至18倍前瞻市盈率，低于许多公开交易的金融科技公司。Pandl同时警告，这一前景取决于收入持续增长和代币供应受控，风险包括网络活动减弱或代币解锁快于预期。",
+          "Strategy（原MicroStrategy）执行主席Michael Saylor在X平台上发布观点，认为比特币已赢得主流认可，最大风险来自社区内部。他警告称，若过于随意地更改比特币的核心共识规则，可能削弱网络的稀缺性、安全性和产权保护。Saylor将比特币规则比作宪法，指出支持更大区块、引入契约或实施交易审查的建议会增加复杂性、降低稀缺性或干扰手续费市场。他主张创新应在比特币之上的更高层实现，而非修改底层协议。",
+          "摩根士丹利（Morgan Stanley）周二宣布推出两只新ETP：摩根士丹利以太坊信托（MSSE）和摩根士丹利Solana信托（MSOL），均在纽约证券交易所Arca交易，分别跟踪CoinDesk以太坊和Solana基准价格。两只ETP费用率均为0.14%，为市场最低。此外，它们计划将部分持仓用于质押，质押收益将转交给投资者而非由机构留存。摩根士丹利此前推出的比特币ETP截至7月16日已吸引超3.81亿美元资产管理规模，其ETF和ETP产品线总管理资产超140亿美元。",
+          "Galaxy Digital（GLXY）周二宣布签署开发协议并收购得克萨斯州麦格雷戈500英亩土地，用于数据中心开发，一期预期达74兆瓦。CEO Mike Novogratz表示“计算需求是结构性转变，Galaxy正在为此建设”。受AI动量交易回调拖累，GLXY盘前下跌3%。此外，由前Celsius比特币矿场资产重组而成的Ionic Digital（IOND）周二在纳斯达克直接上市，参考价53美元。",
+          "PayPal CEO Enrique Lores在第二季度财报电话会议上表示，若发现比当前战略更能为股东创造价值的方式，会“仔细考虑”出售。对于Stripe此前报道的每股60.50美元收购报价，Lores不予置评。PayPal当季业绩超预期，股价收涨4.15%至58.40美元。Visa则宣布裁员约2，600人（占员工总数7%），CEO Ryan McInerney称此举旨在提升效率并重新投资于“最高潜力机会”。"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/markets/2026/07/28/bitcoin-recovers-from-asian-session-lows-nasdaq-futures-remain-under-pressure",
+        "published_at": "2026-07-28T15:15:00+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      }
+    ],
+    "notes": [
+      "政策风向覆盖美国、俄罗斯、缅甸三地，至少一篇美国。",
+      "行业前沿选取协议升级和基础设施上线；市场动态选取机构ETP产品和稳定币竞争格局；意见领袖选取代表人物及机构观点。",
+      "所有文章均从候选ID中选取，无杜撰。"
+    ]
+  },
+  "factcheck": {
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      "item 1 contains relative time wording; replace with exact date",
+      "item 2 contains relative time wording; replace with exact date",
+      "item 3 contains relative time wording; replace with exact date",
+      "item 4 contains relative time wording; replace with exact date",
+      "item 6 contains relative time wording; replace with exact date",
+      "item 7 contains question-style future/unknown wording; ensure the source explicitly raises it",
+      "item 8 contains relative time wording; replace with exact date",
+      "source diversity is low: only 3 unique domains"
+    ]
+  },
+  "outputs": {
+    "docx": "reports/2026/加密货币观察_20260729.docx",
+    "manifest": "reports/2026/_manifests/加密货币观察_20260729.json"
+  }
+}
