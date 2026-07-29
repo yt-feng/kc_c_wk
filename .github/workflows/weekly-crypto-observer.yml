@@ -10,7 +10,12 @@ on:
       - "ARCHITECTURE.md"
       - ".github/workflows/weekly-crypto-observer.yml"
   schedule:
-    - cron: "17 5 * * 3"
+    # GitHub may delay or drop scheduled events. Staggered Wednesday attempts
+    # improve the chance that one run finishes before 16:00 Beijing time.
+    - cron: "43 1 * * 3"  # 09:43 Asia/Shanghai
+    - cron: "53 3 * * 3"  # 11:53 Asia/Shanghai
+    - cron: "7 5 * * 3"    # 13:07 Asia/Shanghai
+    - cron: "23 6 * * 3"   # 14:23 Asia/Shanghai
   workflow_dispatch:
     inputs:
       days:
@@ -24,6 +29,11 @@ on:
 
 permissions:
   contents: write
+
+concurrency:
+  group: weekly-crypto-observer-main
+  cancel-in-progress: false
+  queue: max
 
 jobs:
   generate_report:
@@ -43,14 +53,46 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          ref: main
+      - name: Check whether today's report already exists
+        id: report_guard
+        shell: bash
+        run: |
+          set -euo pipefail
+          git pull --ff-only origin main
+          report_year="$(TZ=Asia/Shanghai date +'%Y')"
+          report_date="$(TZ=Asia/Shanghai date +'%Y%m%d')"
+          report_path="reports/${report_year}/加密货币观察_${report_date}.docx"
+          manifest_path="reports/${report_year}/_manifests/加密货币观察_${report_date}.json"
+          echo "report_year=${report_year}" >> "$GITHUB_OUTPUT"
+          echo "report_date=${report_date}" >> "$GITHUB_OUTPUT"
+          echo "report_path=${report_path}" >> "$GITHUB_OUTPUT"
+          echo "manifest_path=${manifest_path}" >> "$GITHUB_OUTPUT"
+          report_is_valid=false
+          if [ -s "$report_path" ] && \
+             [ -s "$manifest_path" ] && \
+             unzip -tqq "$report_path" && \
+             jq -e '.factcheck.ok == true' "$manifest_path" >/dev/null; then
+            report_is_valid=true
+          fi
+          if [ "$GITHUB_EVENT_NAME" = "schedule" ] && [ "$report_is_valid" = "true" ]; then
+            echo "should_generate=false" >> "$GITHUB_OUTPUT"
+            echo "Today's validated report and manifest already exist on main; skipping this retry."
+          else
+            echo "should_generate=true" >> "$GITHUB_OUTPUT"
+            echo "A report generation run is required."
+          fi
       - name: Set up Python
+        if: steps.report_guard.outputs.should_generate == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: "pip"
       - name: Install dependencies
+        if: steps.report_guard.outputs.should_generate == 'true'
         run: pip install -r requirements.txt
       - name: Generate Crypto Observer report
+        if: steps.report_guard.outputs.should_generate == 'true'
         shell: bash
         run: |
           set -euo pipefail
@@ -59,49 +101,95 @@ jobs:
             STRICT_FLAG="--no-strict"
           fi
           python -m crypto_observer.main --days "$CRYPTO_OBSERVER_DAYS" --output-root "$CRYPTO_OBSERVER_OUTPUT_ROOT" "$STRICT_FLAG"
-      - name: Upload report artifact
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: crypto-observer-report
-          path: |
-            reports/**/*.docx
-            reports/**/*.pdf
-            reports/**/_manifests/*.json
-          if-no-files-found: warn
       - name: Commit generated report
-        if: success()
+        if: ${{ success() && steps.report_guard.outputs.should_generate == 'true' }}
         shell: bash
+        env:
+          REPORT_YEAR: ${{ steps.report_guard.outputs.report_year }}
+          REPORT_DATE: ${{ steps.report_guard.outputs.report_date }}
+          REPORT_PATH: ${{ steps.report_guard.outputs.report_path }}
+          MANIFEST_PATH: ${{ steps.report_guard.outputs.manifest_path }}
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if ! find reports -type f \( -name "*.docx" -o -name "*.pdf" -o -path "*/_manifests/*.json" \) | grep -q .; then
-            echo "No report files generated."
-            exit 0
+          test -s "$REPORT_PATH"
+          unzip -tqq "$REPORT_PATH"
+          if [ "$CRYPTO_OBSERVER_STRICT" = "1" ]; then
+            jq -e '.factcheck.ok == true' "$MANIFEST_PATH" >/dev/null
+          else
+            jq -e '.factcheck.ok | type == "boolean"' "$MANIFEST_PATH" >/dev/null
           fi
+
+          generated_paths=("$REPORT_PATH" "$MANIFEST_PATH")
+          optional_paths=(
+            "reports/${REPORT_YEAR}/专题研究_${REPORT_DATE}.docx"
+            "reports/${REPORT_YEAR}/_manifests/专题研究_${REPORT_DATE}.json"
+            "reports/${REPORT_YEAR}/_manifests/专题研究_${REPORT_DATE}_FAILED.json"
+            "reports/${REPORT_YEAR}/research_sources/${REPORT_DATE}"
+          )
+          for path in "${optional_paths[@]}"; do
+            if [ -e "$path" ]; then
+              generated_paths+=("$path")
+            fi
+          done
+
           tmp_dir="$(mktemp -d)"
-          mkdir -p "$tmp_dir/reports"
-          cp -a reports/. "$tmp_dir/reports/"
+          tar -cf "$tmp_dir/generated-reports.tar" "${generated_paths[@]}"
           commit_msg="chore: add Crypto Observer reports $(date +'%Y-%m-%d')"
           for attempt in 1 2 3; do
             echo "Commit attempt $attempt"
             git fetch origin main
             git reset --hard origin/main
-            mkdir -p reports
-            cp -a "$tmp_dir/reports/." reports/
-            git add reports
+            tar -xf "$tmp_dir/generated-reports.tar"
+            git add -- "${generated_paths[@]}"
             if git diff --cached --quiet; then
-              echo "No report changes to commit."
-              exit 0
+              echo "Expected report already exists on refreshed main."
+              break
             fi
             git commit -m "$commit_msg"
             if git push origin HEAD:main; then
               echo "Pushed generated reports."
-              exit 0
+              break
             fi
             echo "Push rejected, retrying after refreshing origin/main."
+            if [ "$attempt" -eq 3 ]; then
+              echo "Failed to push generated reports after retries."
+              exit 1
+            fi
             sleep 5
           done
-          echo "Failed to push generated reports after retries."
-          exit 1
+      - name: Verify report was persisted on main
+        if: ${{ success() && steps.report_guard.outputs.should_generate == 'true' }}
+        shell: bash
+        env:
+          REPORT_PATH: ${{ steps.report_guard.outputs.report_path }}
+          MANIFEST_PATH: ${{ steps.report_guard.outputs.manifest_path }}
+          STRICT_MODE: ${{ env.CRYPTO_OBSERVER_STRICT }}
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          remote_docx="$(mktemp)"
+          git show "origin/main:${REPORT_PATH}" > "$remote_docx"
+          test -s "$remote_docx"
+          unzip -tqq "$remote_docx"
+          if [ "$STRICT_MODE" = "1" ]; then
+            git show "origin/main:${MANIFEST_PATH}" | jq -e '.factcheck.ok == true' >/dev/null
+          else
+            git show "origin/main:${MANIFEST_PATH}" | jq -e '.factcheck.ok | type == "boolean"' >/dev/null
+          fi
+          echo "Verified ${REPORT_PATH} and ${MANIFEST_PATH} on origin/main."
+      - name: Upload current run artifact
+        if: ${{ always() && steps.report_guard.outputs.should_generate == 'true' }}
+        continue-on-error: true
+        uses: actions/upload-artifact@v4
+        with:
+          name: crypto-observer-report-${{ steps.report_guard.outputs.report_date }}-${{ github.run_id }}
+          path: |
+            ${{ steps.report_guard.outputs.report_path }}
+            ${{ steps.report_guard.outputs.manifest_path }}
+            reports/${{ steps.report_guard.outputs.report_year }}/专题研究_${{ steps.report_guard.outputs.report_date }}.docx
+            reports/${{ steps.report_guard.outputs.report_year }}/_manifests/专题研究_${{ steps.report_guard.outputs.report_date }}.json
+            reports/${{ steps.report_guard.outputs.report_year }}/_manifests/专题研究_${{ steps.report_guard.outputs.report_date }}_FAILED.json
+            reports/${{ steps.report_guard.outputs.report_year }}/research_sources/${{ steps.report_guard.outputs.report_date }}/**/*.pdf
+          if-no-files-found: warn

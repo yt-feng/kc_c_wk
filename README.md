@@ -12,7 +12,7 @@
 - 【意见领袖】2 条
 - 【专题研究】1 篇
 
-所有候选必须来自最近 3 天内发生或发布的事件；输出前会检查来源发布时间和事件日期是否落在统计窗口内。
+所有候选必须来自最近 7 天内发生或发布的事件；输出前会检查来源发布时间和事件日期是否落在统计窗口内。
 
 ## 信息源原则
 
@@ -43,15 +43,9 @@ Word 报告包含目录、五个栏目正文、信息来源、发布时间和自
 
 ## 自动运行时间
 
-GitHub Actions 配置为：**北京时间每周三 14:00** 自动运行一次，预留 2 小时用于采集、LLM 编译、fact check 和提交，确保北京时间周三 16:00 前产出。
+GitHub Actions 采用每周三多次错峰触发，目标是在北京时间 16:00 前产出。当前尝试时间为北京时间 **09:43、11:53、13:07、14:23**；workflow 内对应 UTC 周三 01:43、03:53、05:07、06:23。
 
-GitHub Actions cron 使用 UTC，因此 workflow 中配置的是：
-
-```yaml
-- cron: "0 6 * * 3"
-```
-
-即 UTC 周三 06:00 = 北京时间周三 14:00。
+GitHub 的定时事件可能延迟或偶发丢失，因此不能只依赖一个 cron。每次定时运行会先同步 `main`，检查当天 DOCX 是否为有效 Word 文件、manifest 是否通过 fact check；第一趟成功生成并提交后，后续重试会直接跳过。workflow 还使用并发队列将这些尝试串行化，避免同一天的报告被并行重复生成。提交后会从远端 `main` 再次读取并验证当期文件；artifact 上传只包含当期产物，且不会阻断报告提交。
 
 ## Secret 配置
 
@@ -68,20 +62,20 @@ DEEPSEEK_MODEL=deepseek-v4-flash
 DEEPSEEK_BASE_URL=https://api.deepseek.com
 ```
 
-没有 `DEEPSEEK_API_KEY` 时，脚本会使用保守的标题/摘要 fallback 生成草稿；在默认严格模式下，如果栏目数量、美国政策条目或日期等硬性要求不满足，会拒绝写入 DOCX，只保留 manifest 供排查。
+没有 `DEEPSEEK_API_KEY` 时，脚本会使用保守的标题/摘要 fallback 生成草稿；在默认严格模式下，如果栏目数量、美国政策条目或日期等硬性要求不满足，workflow 不会把该期 DOCX 提交到 `main`，但会尝试把当期文件作为 Actions artifact 保留供排查。
 
 ## 手动运行
 
 ```bash
 pip install -r requirements.txt
 export DEEPSEEK_API_KEY="your_api_key"
-python -m crypto_observer.main --days 3 --output-root reports --strict
+python -m crypto_observer.main --days 7 --output-root reports --strict
 ```
 
 调试时可以关闭严格模式生成草稿：
 
 ```bash
-python -m crypto_observer.main --days 3 --output-root reports --no-strict --verbose
+python -m crypto_observer.main --days 7 --output-root reports --no-strict --verbose
 ```
 
 ## 输出前事实核验
@@ -90,7 +84,7 @@ python -m crypto_observer.main --days 3 --output-root reports --no-strict --verb
 
 - 五个栏目数量是否满足模板要求
 - 政策风向是否至少包含一条美国相关资讯
-- 来源发布时间与事件日期是否在最近 3 天窗口内
+- 来源发布时间与事件日期是否在最近 7 天窗口内
 - 是否来自中文网站、中文路径或中文标题/摘要
 - 来源域名是否足够分散，同一域名是否过度集中
 - URL 格式是否有效；可选开启 URL 可访问性检查
