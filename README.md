@@ -62,6 +62,8 @@ DEEPSEEK_MODEL=deepseek-v4-flash
 DEEPSEEK_BASE_URL=https://api.deepseek.com
 ```
 
+周刊 workflow 的最后一步会把当期 DOCX 送入 GateX 的私有会员审核队列。仓库 Actions 还需配置 Secret `GATEX_GENERATION_CALLBACK_SECRET`；可选 Variable `GATEX_CALLBACK_BASE`，未设置时使用 `https://gatex.fund`。上传失败会让本次 workflow 失败，避免报告只生成但未进入审核。
+
 没有 `DEEPSEEK_API_KEY` 时，脚本会使用保守的标题/摘要 fallback 生成草稿；在默认严格模式下，如果栏目数量、美国政策条目或日期等硬性要求不满足，workflow 不会把该期 DOCX 提交到 `main`，但会尝试把当期文件作为 Actions artifact 保留供排查。
 
 ## 手动运行

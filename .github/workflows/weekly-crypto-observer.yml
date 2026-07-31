@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - "crypto_observer/**"
+      - "scripts/gatex_content_uploader.py"
       - "requirements.txt"
       - "ARCHITECTURE.md"
       - ".github/workflows/weekly-crypto-observer.yml"
@@ -193,3 +194,20 @@ jobs:
             reports/${{ steps.report_guard.outputs.report_year }}/_manifests/专题研究_${{ steps.report_guard.outputs.report_date }}_FAILED.json
             reports/${{ steps.report_guard.outputs.report_year }}/research_sources/${{ steps.report_guard.outputs.report_date }}/**/*.pdf
           if-no-files-found: warn
+
+      - name: Import current weekly report into GateX private review
+        if: ${{ success() }}
+        shell: bash
+        env:
+          GATEX_CALLBACK_BASE: ${{ vars.GATEX_CALLBACK_BASE || 'https://gatex.fund' }}
+          GATEX_GENERATION_CALLBACK_SECRET: ${{ secrets.GATEX_GENERATION_CALLBACK_SECRET }}
+          REPORT_PATH: ${{ steps.report_guard.outputs.report_path }}
+          MANIFEST_PATH: ${{ steps.report_guard.outputs.manifest_path }}
+        run: |
+          set -euo pipefail
+          python3 scripts/gatex_content_uploader.py \
+            --source-module kc_c_wk \
+            --source-repo "$GITHUB_REPOSITORY" \
+            --report-type "Digital Assets" \
+            --docx "$REPORT_PATH" \
+            --manifest "$MANIFEST_PATH"
