@@ -1,0 +1,277 @@
+{
+  "generated_at": "2026-07-31T22:44:39+08:00",
+  "period": "2026-07-24 22:44 至 2026-07-31 22:44（北京时间，最近7天）",
+  "raw_count": 14,
+  "collection_warnings": [
+    "no candidates for query: Hong Kong SFC HKMA virtual asset stablecoin tokenised investment product regulation",
+    "no candidates for query: cross chain oracle RWA infrastructure wallet staking rollup interoperability crypto",
+    "no candidates for query: crypto company raises acquires launches futures ETF tokenized fund stablecoin adoption",
+    "no candidates for query: site:info.gov.hk (virtual asset OR crypto OR stablecoin OR tokenisation)"
+  ],
+  "report": {
+    "items": [
+      {
+        "section": "政策风向",
+        "title_cn": "Circle获纽约信托章程加密监管行动提速",
+        "source_title": "Circle secures New York trust charter as crypto regulatory push accelerates",
+        "event_date": "2026-07-31",
+        "key_points": [
+          "Circle Internet Group， Inc.（CRCL）于周五宣布，已从纽约州金融服务部（NYDFS）获得有限目的信托章程，允许其依据纽约银行法提供受托、托管和资产管理服务。",
+          "Circle联合创始人、董事长兼首席执行官Jeremy Allaire表示，获得纽约信托章程一直是Circle的长期目标，因为它能带来监管清晰度。",
+          "本月早些时候，Circle已获美国货币监理署（OCC）批准设立国家信托银行；在Circle之前，Coinbase、Moonpay、Bitgo和Paxos等公司也已获得NYDFS的有限目的信托章程。"
+        ],
+        "lead_cn": "稳定币USDC的发行机构Circle Internet Group， Inc.（CRCL）于本周五宣布，它已成功从纽约州金融服务部（NYDFS）获得一份限定用途信托章程（limited purpose trust charter）。该章程属于官方授予的州银行资质，允许获得者在纽约州银行法框架之下，合法开展委托保管、资金托管以及资产管理等金融服务。Circle公司联合创始人、董事长兼首席执行官杰里米·阿莱尔（Jeremy Allaire）表示，获得纽约州的信托章程一直是Circle长期追寻的目标，因为它能够带来监管方面的透明度和确定性。此外，在本月早些时候，该公司还获得了美国货币监理署（OCC）的批准，得以设立一家全国性的信托银行，从而进一步增强USDC储备金的安全性与监管透明度，同时为机构客户提供数字资产的托管和相关服务。消息公布后，Circle的股价在周五早盘交易中保持平稳，报64.24美元，而其发行的USDC稳定币，目前总市值已超过718亿美元。",
+        "body_paragraphs": [
+          "Circle Internet Group， Inc.（CRCL）是稳定币USDC的发行方，USDC目前为全球第二大稳定币。该公司于周五宣布，已从纽约州金融服务部（NYDFS）获得有限目的信托章程，该章程属于官方州银行授权，允许其依据纽约银行法提供受托、托管和资产管理服务。",
+          "Circle联合创始人、董事长兼首席执行官Jeremy Allaire表示，获得纽约信托章程一直是Circle的长期目标，因为它能带来监管清晰度。",
+          "周五早间，Circle的股价持平于64.24美元，其稳定币USDC的市值已超过718亿美元。",
+          "本月早些时候，Circle还获得了美国货币监理署（OCC）的批准，以设立国家信托银行。国家信托银行获授权向用户提供托管和受托服务，但不接受消费者存款，也不像传统商业银行那样发放贷款。",
+          "Circle表示，这家国家银行将“增强USDC储备的安全性和监管监督，同时使Circle能够为机构客户提供受托数字资产托管及相关服务”。",
+          "在Circle之前，已有多家加密公司从纽约州金融服务部获得有限目的信托章程，其中包括Coinbase、Moonpay、Bitgo和Paxos。",
+          "此外，Circle是近六年前首家获得纽约州金融服务部颁发的BitLicense的公司。"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/policy/2026/07/31/circle-secures-new-york-trust-charter-as-crypto-regulatory-push-accelerates",
+        "published_at": "2026-07-31T14:35:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "美国制裁伊朗关联比特币保险计划涉霍尔木兹海峡船舶",
+        "source_title": "U.S. sanctions Iran-linked bitcoin insurance scheme for Strait of Hormuz ships",
+        "event_date": "2026-07-31",
+        "key_points": [
+          "美国财政部制裁两家伊朗海事保险实体，指控其通过霍尔木兹海峡船舶保险计划向伊斯兰革命卫队输送资金。",
+          "涉事平台Hormuz Safe接受比特币和其他数字资产付款，被指为伊朗规避西方制裁的手段。",
+          "制裁禁止美国个人与这两家公司交易，并令使用加密支付的外国企业面临次级制裁风险。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "美国财政部宣布制裁两家伊朗海事保险实体，指控其运营一项与伊斯兰革命卫队（Islamic Revolutionary Guard Corps，IRGC）相关的敲诈计划。这两家公司分别为Persian Gulf Marine Insurance Company和HormuzSafe Marine Services Authority（即Hormuz Safe）。",
+          "财政部表示，该“保险”计划接受比特币（Bitcoin）和其他数字资产支付，强迫通过霍尔木兹海峡（Strait of Hormuz）的商船购买保单，而保单所承保的风险，例如船舶被扣押等，“绝大多数由伊朗自身造成”。财政部称，这种安排并非保险，而是敲诈。",
+          "美国财政部外国资产控制办公室（Office of Foreign Assets Control，OFAC）将上述两家公司列入制裁名单。财政部表示，这两家公司均根据一项针对伊朗石油和石化行业的行政命令受到制裁。",
+          "伊朗经济部开发了Hormuz Safe平台。财政部声明称，该平台“接受比特币和其他数字资产付款，作为该政权试图绕过西方制裁的一部分”。",
+          "制裁意味着美国个人不得与这两家公司进行交易，与它们交易的外国企业也可能受到次级制裁。财政部还表示，通过比特币付款与通过银行付款面临相同的风险。",
+          "CoinDesk曾于5月18日报道该计划的存在，消息来源为伊朗国家关联媒体Fars News的描述。该报道称，伊朗经济部提议通过以比特币结算的海运保险单来管理霍尔木兹海峡航运。当时平台网站仅显示一个着陆页，CoinDesk无法核实其是否已运营或是否有货主使用。",
+          "Fars当时声称该模式可带来超过100亿美元收入，但未说明如何得出这一数字。相关保单此前已获波斯湾海峡管理局（Persian Gulf Strait Authority）批准，该机构是5月受到美国财政部制裁的伊斯兰革命卫队背景机构。",
+          "美国财政部长 Scott Bessent 在声明中表示：“伊朗经济正在崩溃，通胀达到三位数，该政权急需现金。” 霍尔木兹海峡是全球最重要的能源咽喉要道之一，在美国对伊朗持续数周的空袭期间，通过该海峡的交通量已经减少，油价因此维持在较高水平。"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/policy/2026/07/31/u-s-sanctions-iran-linked-bitcoin-insurance-scheme-for-strait-of-hormuz-ships",
+        "published_at": "2026-07-31T12:58:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "加密货币亭诈骗令得州人损失5700万美元立法者考虑禁令",
+        "source_title": "Crypto Kiosk Scams Cost Texans $57M as Lawmakers Weigh a Ban",
+        "event_date": "-",
+        "key_points": [
+          "2025年，得克萨斯州在加密货币亭（crypto kiosk）诈骗中损失5680万美元，居全美之首；联邦调查局（FBI）共收到得州1179起相关投诉。",
+          "全国范围内，2025年此类机器相关报案损失上升58%至3.89亿美元，涉及13460起投诉。",
+          "印第安纳、田纳西和明尼苏达已彻底禁止比特币自动柜员机（Bitcoin ATM）；得州众议院委员会主席Cole Hefner暗示得州将采取比监管更进一步的手段。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "周四提交给得州立法委员会的联邦调查局（FBI）数据显示，得州人去年在加密货币亭（crypto kiosk）上损失了5680万美元，超过其他任何州。2025年，FBI在全国共记录13460起相关投诉，其中得州占1179起；当年全美这类机器报告的损失上升58%，达到3.89亿美元。",
+          "众议院国土安全、公共安全与退伍军人事务委员会（House Committee on Homeland Security， Public Safety and Veterans‘ Affairs）就外国金融影响接受了受邀证词，并很快将话题转向加密货币。在听证会上，众议员AJ Louderback表示：“在我的职业生涯中，从未见过比这更高效、更干净的偷钱方式。”",
+          "大西洋理事会（Atlantic Council）研究员Kelley Currie告诉委员会，国际刑警组织（Interpol）现在将诈骗视为可与毒品和人口贩卖相提并论的产业。Currie进一步表示，加油站内的这些加密货币亭“由中国洗钱者经营”。美国司法部（Justice Department）已就东南亚加密诈骗窝点起诉中国公民，并起诉转移诈骗所得的中国洗钱网络，但并未表示这些团伙普遍经营这些机器。",
+          "得州银行部（Texas Department of Banking）副专员Jesse Saucillo表示，一旦资金转移，追回几乎不可能。他说，资金通常会进入非托管钱包，随后“进入混币器”，再流向他处，导致“很难追回任何一笔”。他还补充说，AI生成的冒充警察和州政府机构的行为，令这类接触电话更具说服力。这些加密货币亭设在加油站和便利店，收取现金并将其转换为加密货币。据《得克萨斯论坛报》（The Texas Tribune）统计，得州各地约有4000台此类机器。诈骗者会说服受害者从银行账户取出现金，再将这些现金投入机器。",
+          "据美国退休人员协会（AARP）统计，自2023年以来，约有30个州出台了与加密货币亭相关的立法。南达科他州将每日交易上限定为1000美元、每月上限1万美元，并要求向欺诈受害者全额退款；威斯康星州和弗吉尼亚州也有类似上限。缅因州监管机构已从Bitcoin Depot获得190万美元和解金，用于赔偿受害者。",
+          "印第安纳州在3月率先彻底禁止比特币自动柜员机（Bitcoin ATM），成为首个这样做的州。该州法律允许总检察长起诉运营商以及提供场地的商店。州长签署法案时，该州约有近900台机器在运营。此后，田纳西州和明尼苏达州也相继跟进。",
+          "委员会主席、众议员Cole Hefner表示，得州将考虑采取“比仅仅监管它们更进一步”的做法，并暗示会有一项法案出台。他对同僚说：“我有一个相当不错的想法即将出台。它有点简单，但有点突然。”"
+        ],
+        "source_name": "Decrypt",
+        "url": "https://decrypt.co/374778/crypto-kiosk-scams-cost-texans-57m-as-lawmakers-weigh-a-ban",
+        "published_at": "2026-07-31T12:13:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "Coldcard漏洞致约3800万美元比特币被盗Coinkite怀疑AI发现缺陷",
+        "source_title": "$38M in Bitcoin Drained by Coldcard Key Flaw Its Maker Thinks AI Found",
+        "event_date": "2026-07-31",
+        "key_points": [
+          "Coinkite认为攻击者可能使用人工智能（AI）审查其开源固件旧版本，发现了一个导致Coldcard硬件钱包用户损失约3800万美元比特币的漏洞；该漏洞在周五早间被利用，约594 BTC被盗。",
+          "漏洞源于固件构建错误：随机性获取函数有两个签名相同的实现，预处理器只检查设置是否定义而未检查值，导致自2021年3月以来种子生成一直使用软件备用方案；所有当前型号均受影响，Mk3有效搜索空间仅约40位。",
+          "Coinkite已发布紧急热修复，但更新无法修复已生成的弱种子，用户需在修补后的硬件上生成新种子；Block称其产品不受影响，Trezor提醒弱种子在恢复后仍然脆弱。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Coinkite发布安全公告称，攻击者可能使用人工智能（AI，Artificial Intelligence）审查其开源固件的旧版本，从而发现了一个漏洞，导致Coldcard硬件钱包（hardware wallet）用户损失数千万美元比特币（Bitcoin，BTC）。据估算，漏洞在周五早间被利用，造成约594 BTC、合3800万美元的损失。该公司周四为Mk3发布了安全公告和一份技术分析。",
+          "资金在25分钟内从大约500个钱包中被抽走，其中562 BTC随后被整合到一个地址。Coinkite表示，它不得不假设“有人使用AI审查了我们固件的先前版本”以发现该漏洞。该公司还称，几周前曾用最好的可用模型之一检查自己的代码，但模型“没有发现这个bug或任何严重问题”。它写道，攻击者和防御者拥有相同的工具，但这一次“它没有帮助我们，只帮助了坏人”。",
+          "技术细节方面，Coldcard固件会调用一个函数来获取随机性，代码库中存在两个签名相同的实现：Coinkite编写的硬件生成器，以及继承自MicroPython的软件备用方案。预处理器保护只检查某个设置是否已定义，而不检查其值，因此构建过程在未报错的情况下使用了备用方案。自2021年3月迁移以来，种子生成一直依赖该备用方案。",
+          "Coinkite称所有当前型号都受到一定程度影响。它估计Mk3种子的有效搜索空间约为40位，而种子本应具有128位；Mk4、Q和Mk5上安全元件带来的额外熵将搜索空间提升至约72位，公司称这实质性地改善了状况，但未达到目标。Tapsigner、Opendime和Satscard使用不同代码，不受影响。",
+          "Coinkite已发布紧急热修复：Mk4和Mk5为5.6.0版本，Q为1.5.0Q。但更新无法修复在受影响固件上已生成的种子，用户需要在已修补的硬件上生成新种子。公司建议使用强BIP-39密码短语、至少99次掷骰子，或两者兼用。Mk3型号已停止支持，其用户被指引到单独的迁移路径。",
+          "在受影响的Coldcard上创建的种子即使被恢复到其他品牌设备后仍然较弱，竞争对手Trezor在告诉用户资金安全时指出了这一点。Block周五发布独立分析，称其产品均不受影响，其硬件负责人Max Guise敦促任何暴露在风险中的人尽快安全转移资金。"
+        ],
+        "source_name": "Decrypt",
+        "url": "https://decrypt.co/374766/38m-in-bitcoin-drained-by-coldcard-key-flaw-its-maker-thinks-ai-found",
+        "published_at": "2026-07-31T10:02:00+08:00",
+        "region": "未提及",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "RWA永续合约将超越代币化",
+        "source_title": "RWA perps will outpace tokenization",
+        "event_date": "2026-07-31",
+        "key_points": [
+          "Martin Lee（DWF Labs市场洞察主管）认为，代币化是加密货币向传统金融的首次重大出口，永续合约将是下一个。",
+          "RWA永续合约5月成交量达3470亿美元，较2025年初增长1472倍；7月去中心化交易所（DEX）日未平仓合约创45亿美元新高。",
+          "截至5月底，RWA永续合约成交量为1.32万亿美元，为2025年全年的13倍；链上永续合约份额从年初1.3%升至31%。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "代币化已获得拉里·芬克等人士的认可，成为各大金融机构的首要议题。贝莱德、富达、富兰克林邓普顿等多家机构已对其资产进行代币化。已有超过340亿美元资产完成代币化，这还不包括3000亿美元代币化美元。但作者认为，还有另一种扩展更快、影响更大的机制：真实世界资产（Real World Assets，RWA）的永续化。",
+          "RWA永续合约（RWA perps）5月成交量达到3470亿美元，较2025年初的2.3亿美元增长1472倍。仅去中心化交易所（DEX）的日未平仓合约在7月就创下45亿美元的新高。截至5月底，交易所促成的成交量达1.32万亿美元，是2025年全年成交量的13倍。",
+          "RWA永续合约的快速崛起，部分源于加密货币交易者寻求对大宗商品和AI股票等RWA的风险敞口。另一个因素是，永续合约在许多情况下是比传统金融（TradFi）替代品更好的产品，例如商品期货和股票期权。交易者在TradFi市场收盘后无法对事件做出反应，而永续合约则7×24小时运行。伊朗冲突在CME重新开盘前，就已反映在Hyperliquid的石油永续合约中。永续合约还提供一个持续运行、高效的简单界面，期货和期权带有到期日、复杂的希腊字母和界面，永续合约在保留投机上行潜力的同时消除了这些复杂性。",
+          "衍生品成交量总是超过其标的现货市场，这在股票、大宗商品和加密货币中都有体现，RWA也遵循同样趋势。2026年3月至5月，Hyperliquid上的股票永续合约成交量是代币化股票现货成交量的13至20倍。",
+          "有人可能会认为交易者数量更重要，而现货在大多数市场（除大宗商品外）通常占优。数据显示，代币化股票拥有更大的用户基础：180845个钱包，而股票永续合约只有24378个。但永续合约持有者每月约增长33%，现货为17%。即使在现货主导的领域，永续合约也在迅速缩小差距。",
+          "推动加速的最大因素是RWA永续合约能够快速试验。推出代币化资产比推出新的永续合约市场耗时更长、法律上更复杂。永续合约市场易于推出，为新型合成市场创造了机会，这些市场解锁了此前不存在的新机遇，是真正的从0到1时刻。",
+          "Pre-IPO市场是最明显的例子：散户首次接触最热门的私有公司，机构则获得更好的私有公司价格发现。当Cerebras于5月在纳斯达克上市时，Hyperliquid的Pre-IPO永续合约将其定价为354美元，与开盘价350美元的误差约1%，远比前一晚设定的185美元IPO价格准确。",
+          "RWA永续合约年初仅占链上永续合约成交量的1.3%，如今已占31%。显然，RWA正在吞噬永续合约，但我们更兴奋的是永续合约如何吞噬RWA。加密原生平台总是比大型受监管的现有机构更灵活。达到逃逸速度的链上产品会被上游采用。Robinhood已向欧洲客户提供RWA永续合约。一旦这形成势头，其他零售经纪商将开始效仿。永续合约成为大众交易所有资产类别（不仅是加密货币）的主要方式并非遥不可及。代币化是加密货币向传统金融的首次重大出口，永续合约将是下一个。",
+          "本文作者Martin Lee是DWF Labs的市场洞察主管，DWF Labs是数字资产领域最活跃的做市商和投资者之一。本文观点仅代表作者个人，不一定反映CoinDesk， Inc.或其所有者及关联方的观点。"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/opinion/2026/07/31/rwa-perps-will-outpace-tokenization",
+        "published_at": "2026-07-31T14:00:00+08:00",
+        "region": "其他",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "Coinbase季度财报疲软华尔街对复苏时点意见分歧",
+        "source_title": "Coinbase's weak quarter leaves Wall Street split on timing of a recovery",
+        "event_date": "2026-07-31",
+        "key_points": [
+          "分析师普遍将Coinbase第二季度财报不及预期归因于加密市场疲软，而非公司执行问题。",
+          "Coinbase全球加密交易量市占率创纪录达到10.3%，连续三个季度增长；多元化业务（预测市场、订阅、稳定币等）取得进展但规模仍不足以弥补交易收入下滑。",
+          "华尔街对加密交易活动何时复苏存在分歧：Barclays及Compass Point持谨慎态度，William Blair等则关注ETF资金流企稳等积极信号。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Coinbase（COIN）第二季度财报未改变华尔街的长期看法。多数分析师将收益不及预期归咎于近年最疲软的加密货币交易环境之一，而非公司自身问题。公司几乎所有主要财务指标均未达预期：报告营收12.2亿美元，调整后息税折旧摊销前利润（EBITDA）为2.08亿美元，加密货币价格下跌和交易量低迷拖累了交易收入及增长中的订阅业务。争论焦点在于接下来会发生什么。",
+          "第三季度指引也低于共识，促使多家机构下调盈利预测和目标价。盘前股价下跌6%。即便看涨分析师也承认季度疲软。Cantor Fitzgerald称之为“又一个疲软季度”，归因于加密货币价格低迷和现货交易量走弱；Oppenheimer表示未达预期源于市场整体疲软而非运营问题；Benchmark认为总体数字掩盖了Coinbase长期战略中实现零售交易费以外多元化的进展；William Blair则建议投资者将财报后的抛售视为买入机会，称Coinbase仍是任何最终加密货币市场复苏的最大受益者。",
+          "看涨机构最一致的共识是，即使行业收缩，Coinbase仍在扩大市场份额。公司称其全球加密货币交易量占比达到创纪录的10.3%，为连续第三个季度增长。Benchmark、Oppenheimer、Clear Street和Cantor均强调这一数据，表明市场压力时期交易活动正向大型受监管交易所集中。多家机构还提到衍生品业务：Coinbase报告交易量持平，而管理层称整体衍生品市场下降两位数。",
+          "分析师认为Coinbase在现货交易之外的拓展令人鼓舞，尽管这些新业务规模仍不足以抵消核心交易收入的疲软。公司正通过预测市场、衍生品、订阅、稳定币和Base区块链实现多元化。预测市场年化收入运行率超过1亿美元，Coinbase One付费订阅用户突破100万。其与Circle的USDC合作也按原有条款续约，消除了投资者的一个关键担忧。",
+          "然而，存在一个广泛共识：多元化业务尚未大到足以替代失去的交易收入。Clear Street指出新业务持续获得进展，但仍属于“期权性”而非有意义的盈利贡献。Barclays更为批评，称预测市场和零售衍生品“并未”提供上季度的提振作用；Compass Point则表示新兴业务“几乎没有影响”。",
+          "最尖锐的分歧在于未来几个季度投资者应作何预期。评级为Underweight的Barclays表示，7月交易收入和第三季度指引意味着共识预期仍然过高，除非交易活动反弹，否则盈利预测将大幅下滑。Compass Point则警告，围绕拟议中的CLARITY Act的希望可能被夸大，若加密市场监管法案在参议院停滞，Coinbase股价可能进一步走弱。",
+          "更乐观的机构则关注当前周期之外。William Blair认为，加密交易所交易基金（ETF）资金流企稳可能表明最糟糕的时期已经过去；Cantor表示投资者可能等待“绿芽”出现后再回归该股。Oppenheimer和Benchmark也强调Coinbase在稳定币、衍生品和代币化资产方面的敞口增长是长期增长动力。尽管普遍下调目标价，多数看涨分析师仍维持买入或跑赢评级。"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/markets/2026/07/31/coinbase-s-weak-quarter-leaves-wall-street-split-on-timing-of-a-recovery",
+        "published_at": "2026-07-31T14:20:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "比特币6万美元看跌期权领跑8月市场情绪转空",
+        "source_title": "Bitcoin $60,000 put leads the pack as mood swings bearish for August",
+        "event_date": "2026-07-31",
+        "key_points": [
+          "比特币6万美元看跌期权成为Deribit上最热门交易，名义未平仓合约达11.7亿美元。",
+          "此前最热门的7万美元和7.2万美元看涨期权在美联储会议后未实现预期，未平仓量分别降至9.43亿和8.88亿美元。",
+          "季节性数据显示，自2013年以来7月中位数回报8.61%，但正回报的7月后8月中位数回报为-7.51%，市场情绪转空。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "交易员正为8月加密货币回调做准备。在7月表现积极之后，8月情绪正转为看跌。随着7月结束，期权市场反映出持仓结构的重大转变。比特币（BTC）作为最大加密货币，上月末一度跌破6万美元，最近几日已回升至6.3万美元上方，当前报62，698.16美元。",
+          "比特币6万美元看跌期权（put option）——一种防范价格下跌的仓位——成为全球最大加密货币期权交易所Deribit上最受欢迎的交易。截至本文撰写时，该看跌期权的名义未平仓合约（notional open interest）达11.7亿美元。交易员买入看跌期权以对冲市场下跌风险。",
+          "值得注意的是，截至昨日，行权价7万美元和7.2万美元的看涨期权（call option）还是最受欢迎的，各自名义未平仓合约达25亿美元。这是美联储周三会议前大量买入看涨期权的结果。一些交易员押注美国央行利率决定后价格最高将升至7.2万美元。",
+          "然而，这一情景并未发生，可能催化了这些押注在周五08：00（UTC）到期时平仓，该到期结算了价值100亿美元的比特币和以太币（ETH）期权。目前，7万美元看涨期权的名义未平仓合约已降至9.43亿美元，7.2万美元看涨期权降至8.88亿美元。",
+          "虽然仍可观，但已远低于6万美元看跌期权的水平。Deribit的期权未平仓合约分布图显示，名义未平仓合约指活跃或未平仓合约的美元价值，一份合约代表一个BTC。该图显示，6万美元看跌期权以11.7亿美元领先，而此前的领导者排名下滑。",
+          "另一个有趣的数据点来自季节性规律。自2013年以来，7月的中位数回报率为8.61%。根据CoinDesk数据，本月价格已上涨8.9%。目前看来平淡无奇。不过，7月正回报之后通常8月为负回报，中位数回报率为-7.51%。",
+          "在此处，中位数很有用，因为它显示典型结果，不会被异常巨大的涨跌所扭曲。在比特币这类市场中，少数极端月份可能拉高或拉低均值，中位数往往能更清晰地反映最常见的情况。这意味着，随着8月临近，市场对比特币的情绪转空。请保持警惕！"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/daybook-us/2026/07/31/bitcoin-usd60-000-put-leads-the-pack-as-mood-swings-bearish-for-august",
+        "published_at": "2026-07-31T12:36:00+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "美财长援引中本聪名言呼吁通过《清晰法案》",
+        "source_title": "Treasury Secretary Invokes Bitcoin Creator Satoshi Nakamoto in Plea for Clarity Act",
+        "event_date": "2026-07-30",
+        "key_points": [
+          "美国财政部长Scott Bessent周四敦促参议院通过《清晰法案》，指责民主党出于政治原因拖延表决，并警告美国可能失去数字资产领导地位。",
+          "Bessent在社交平台X上发文，引用Satoshi Nakamoto名言作为结尾，同时为法案第二章、第三章及区块链监管确定性条款辩护。",
+          "《清晰法案》将建立美国数字资产联邦监管框架，将多数加密资产划归CFTC管辖；参议院共和党人五月加入的“道德条款”旨在限制总统Donald Trump的加密业务。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "美国财政部长Scott Bessent周四敦促参议院通过《清晰法案》（Clarity Act），指责民主党出于政治原因拖延表决，并警告称，在缺乏明确规则的情况下，美国将面临失去数字资产领导地位的风险。Bessent在社交平台X上发表长篇帖子说，众议院一年多前已通过该法案，参议院银行委员会和农业委员会工作人员此后花费了“数千小时”进行两党协商修订，共和党人现在已有一份可供表决的法案。",
+          "Bessent在帖子中写道：“令人失望——但不意外——的是，参议院民主党人在美国领导地位重大胜利的前夕选择了政治。”他还说：“请找出历史上的另一例，国会在可以选择的情况下，选择将一个行业赶出美国，而不是明智地监管它。美国例外主义曾经是两党的目标；如果《清晰法案》失败，我深表怀疑。”",
+          "针对法案缺乏消费者保护或非法金融保障的批评，Bessent予以反驳，称法案第二章和第三章将显著扩大数字资产中介机构的合规要求，使其更接近传统金融机构所适用的标准。他还为《清晰法案》中的《区块链监管确定性法案》（Blockchain Regulatory Certainty Act）条款辩护，该条款旨在保护去中心化软件开发者。Bessent表示，该条款编纂了财政部长期以来的政策，即这些开发者不受《银行保密法》（Bank Secrecy Act）注册要求的约束。他补充说，此前反对该措施的警察兄弟会（Fraternal Order of Police）现在表示支持。",
+          "财政部长还指责参议院民主党人担心参议员Elizabeth Warren及其自称的“反加密军队”的反弹。他认为，即将进行的投票将决定美国是继续保持全球数字资产领导者地位，还是通过监管不确定性将该行业推向海外。Bessent在帖子结尾写道：“美国将领先，或者美国不会。这并不比这更复杂。”他接着写道：“我相信Satoshi Nakamoto说得最好：‘如果你不相信我或者不明白，我没有时间试图说服你，抱歉。’”",
+          "《清晰法案》将建立美国数字资产市场的联邦框架，实际上使美国大多数加密货币活动合法化。该法案如果获得通过并签署成为法律，数字资产的监管权将划分给SEC和CFTC，大多数加密资产通常将归CFTC管辖。这一法案已成为加密行业在华盛顿的首要立法优先事项之一。",
+          "今年五月，参议院共和党人发布了更新版草案，加入了有争议的“道德条款”，禁止总统和其他联邦官员在任期内发行或赞助数字资产。该措辞旨在特别限制总统Donald Trump的商业活动。据最近的披露，仅2025年，他就从加密企业中赚取了超过12亿美元。",
+          "民主党人批评该提案，因为限制将在2029年到期，执法权完全由司法部掌握，且条款不适用于官员子女。该法案的路径仍不确定。参议院多数党领袖John Thune最近表示，由于道德条款的谈判仍未解决，他不指望法案能在八月休会前通过。大多数观察人士将八月休会视为今年通过任何立法的硬性截止日期，此后国会注意力将转向中期选举。"
+        ],
+        "source_name": "Decrypt",
+        "url": "https://decrypt.co/374758/treasury-secretary-bitcoin-satoshi-nakamoto-clarity-act",
+        "published_at": "2026-07-30T20:32:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "纽约起诉Kalshi称其“坦率地讲”就是赌博平台",
+        "source_title": "New York sues Kalshi, alleges it offers a gambling platform 'plain and simple'New York sues Kalshi, alleges it offers a gambling platform 'plain and simple'",
+        "event_date": "2026-07-31",
+        "key_points": [
+          "纽约州起诉预测市场平台Kalshi，指控其无牌运营体育与赛事投注业务，并寻求禁止其在州内运营及追偿。",
+          "州检察长Letitia James称Kalshi的事件合约属于非法赌博，涵盖体育、选举与文化领域，并指控平台允许18至20岁用户下注。",
+          "诉讼要求追缴Kalshi三倍收益，并对每项未经授权或试图提供的体育或移动体育投注处以10万美元罚款。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "纽约州对预测市场平台Kalshi提起诉讼，指控其在没有博彩牌照的情况下提供体育与赛事投注。该请愿书于周五提交至纽约最高法院，要求法官禁止该公司运营无牌赌博业务，并要求对客户投注、亏损及公司收益进行会计清算，同时寻求赔偿、损害赔偿及民事处罚。",
+          "根据州长Kathy Hochul与总检察长Letitia James发布的声明，州政府正在寻求相当于Kalshi该活动收益三倍的罚款，外加每项未经授权或试图提供的体育或移动体育投注10万美元的罚款。James在声明中表示：“纽约的赌博法律保护儿童免于未成年下注，并帮助对抗赌博成瘾。无论他们如何称呼自己，像Kalshi这样的预测市场平台就是赌博平台，坦率地讲，仅此而已。”",
+          "Kalshi在六月融资轮中目标估值达400亿美元，其与预测市场行业正面临全美各地的法律挑战。在明尼苏达州，Kalshi与其竞争对手Polymarket取得了一项临时胜利：明尼苏达联邦地区法院裁定该州禁止预测市场的法律很可能违反《商品交易法》（Commodity Exchange Act），并针对该法律向这两家公司及美国商品期货交易委员会（CFTC）授予了初步禁令。",
+          "Kalshi传播主管Elisabeth Diana在给CoinDesk的电子邮件中表示：“很遗憾看到本州领导层上演这种政治秀。州政府不能就这样关闭一家联邦许可的交易所。这也会伤害纽约人，他们会因此流向离岸平台。我们热爱纽约，热爱纽约人，纽约人也热爱我们的产品。”",
+          "James办公室将Kalshi的事件合约描述为赌博，并称该平台接受职业及大学体育、选举和文化领域的投注。诉讼还指控Kalshi允许18至20岁的用户下注，并列出涉及纽约大学球队的市场，而这两类行为在纽约州均被禁止持牌体育博彩公司所为。",
+          "据CNBC报道，世界杯帮助提振了Kalshi的用户数量，赛事期间新增300万用户，是该公司5月初所称200万用户的两倍多。根据总检察长的声明，这起诉讼是在纽约州博彩委员会于10月发出停止与终止令之后提起的。一名联邦法官于7月7日驳回了Kalshi阻止州监管机构的请求，并于7月27日驳回了上诉期间的禁令申请。"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/policy/2026/07/31/new-york-sues-kalshi-alleges-it-offers-a-gambling-platform-plain-and-simple",
+        "published_at": "2026-07-31T10:55:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      }
+    ],
+    "notes": [
+      "政策风向选择涵盖联邦（财政部制裁）与州级（纽约牌照、德州立法）行动，地区以美国为主，符合优先美国要求。",
+      "行业前沿结合安全事件与RWA衍生品进展，A011事件具体，A002有数据支撑，均非纯价格预测。",
+      "市场动态选取Coinbase财报与期权市场情绪，避免纯价格行情文章。",
+      "意见领袖均体现明确人物观点（财长、总检察长），满足‘XXX认为/指出’要求。",
+      "排除A003因与A005同涉伊朗制裁，主题重复；A012与A001同述Coinbase财报，不重复选；A010为工具页，A008为纯价格新闻，均不选。"
+    ]
+  },
+  "factcheck": {
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      "政策风向 3 篇均来自同一地区：美国，建议加入美国或香港以外的正式监管动向",
+      "item 1 contains relative time wording; replace with exact date",
+      "item 3 contains relative time wording; replace with exact date",
+      "item 4 contains relative time wording; replace with exact date",
+      "item 6 contains generic attribution wording; verify the source explicitly supports it",
+      "item 7 contains relative time wording; replace with exact date",
+      "item 8 contains relative time wording; replace with exact date",
+      "item 9 contains relative time wording; replace with exact date",
+      "source diversity is low: only 2 unique domains",
+      "domain coindesk.com appears 6 times; consider diversifying sources"
+    ]
+  },
+  "outputs": {
+    "docx": "reports/2026/加密货币观察_20260731.docx",
+    "manifest": "reports/2026/_manifests/加密货币观察_20260731.json"
+  }
+}
