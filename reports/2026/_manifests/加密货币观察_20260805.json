@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T12:48:01+08:00",
-  "period": "2026-07-29 12:48 至 2026-08-05 12:48（北京时间，最近7天）",
-  "raw_count": 27,
+  "generated_at": "2026-08-05T13:36:26+08:00",
+  "period": "2026-07-29 13:36 至 2026-08-05 13:36（北京时间，最近7天）",
+  "raw_count": 39,
   "collection_warnings": [
     "no candidates for query: Hong Kong SFC HKMA virtual asset stablecoin tokenised investment product regulation",
     "no candidates for query: MiCA ESMA CASP stablecoin crypto regulation guidance",
@@ -13,75 +13,73 @@
     "items": [
       {
         "section": "政策风向",
-        "title_cn": "ClarityAct因特朗普伦理问题搁置沃伦致信SEC要求调查其迷因币",
-        "source_title": "Clarity Act sits idle over Trump ethics question as Warren asks SEC to investigate him",
+        "title_cn": "英美联合金融监管会谈重申支持稳定币与代币化",
+        "source_title": "US, UK reaffirm support for stablecoins, tokenization in joint financial regulation talks",
         "event_date": "2026-08-04",
         "key_points": [
-          "美国民主党参议员伊丽莎白·沃伦与理查德·布卢门撒尔致函SEC，要求调查特朗普的$TRUMP迷因币，涉及近100万投资者约38亿美元损失，而特朗普从中赚取6.36亿美元。",
-          "SEC此前已认定迷因币通常不属于其监管范围，但参议员们认为该机构有责任调查与总统相关的潜在欺诈性敛财计划。",
-          "这封信正值《数字资产市场清晰法案》就政府官员加密资产伦理条款展开谈判，白宫尚未对强化版修订作出回应，参议院投票计划面临失败风险。"
+          "英美金融监管工作组第13次会议于7月8日在伦敦举行，议题涵盖稳定币监管、代币化及数字资产市场结构等。",
+          "8月4日联合声明显示，美方通报《GENIUS法案》实施进展，双方还讨论支付现代化与G20跨境支付路线图。",
+          "会议未出台新政策，但重申对负责任的数字资产创新的支持；7月14日跨大西洋未来市场工作组发布初步建议。"
         ],
         "lead_cn": "",
         "body_paragraphs": [
-          "美国民主党参议员伊丽莎白·沃伦（Elizabeth Warren）与理查德·布卢门撒尔（Richard Blumenthal）已致函美国证券交易委员会（U.S. Securities and Exchange Commission，SEC），要求调查总统唐纳德·特朗普（Donald Trump）的迷因币（memecoin）$TRUMP。两位参议员在信中敦促特朗普任命的SEC主席保罗·阿特金斯（Paul Atkins）调查估计近100万投资者合计约38亿美元的损失。沃伦与布卢门撒尔指出，总统的财务披露显示他从该代币赚取了6.36亿美元。",
-          "尽管SEC此前已将迷因币排除在其监管范围之外，但参议员们认为该机构有责任调查$TRUMP投资者遭受的数十亿美元损失。他们在周一发给阿特金斯的信中写道：“虽然所有加密货币交易都涉及风险，但如此明显的悬殊引发了对总统如何积累加密货币财富的质疑，包括可能通过欺诈性敛财计划，对市场诚信和稳定产生影响，更不用说近100万美国投资者的财务状况了。”",
-          "$TRUMP币在最高点时价值超过46美元，随后稳步下滑至当前价格1.47美元。该代币曾两次在公司宣布将举办晚宴时出现短暂飙升，晚宴包括在特朗普的海湖庄园举行，并由总统担任主讲人，但两次价格上行都是暂时性的。",
-          "这封信发出之际，希望完成《数字资产市场清晰法案》（Digital Asset Market Clarity Act，简称Clarity Act）的谈判代表正在等待白宫对最新修订版的回应。该修订涉及一个有争议的条款，即禁止高级政府官员直接参与加密项目。此前，SEC已裁定迷因币通常不属于其监管范围，在特朗普政府接管后的早期工作人员加密声明中，该机构宣布迷因币“几乎没有或根本没有用途或功能”，在法律上不构成证券。",
-          "政府官员（如特朗普总统）发行此类代币的能力，正是Clarity Act伦理条款谈判的核心。特朗普最近同意接受限制，但他同意的限制实际效果非常狭窄。民主党人拒绝这一做法，并表示除非该条款得到加强，否则他们将反对这项立法。因此，共和党参议员汤姆·蒂利斯（Thom Tillis）和民主党参议员鲁本·加列戈（Ruben Gallego）协商了一个更严厉的版本。重写版已于上周提交白宫，但数日后白宫尚未回应。白宫发言人未立即回应CoinDesk有关其当前立场的提问。",
-          "如果不能尽快达成新协议，说服多达10名民主党人支持该法案，参议院多数党领袖约翰·图恩（John Thune）本周开始Clarity Act参议院投票程序的计划可能会导致惨败。",
-          "沃伦是马萨诸塞州民主党参议员，也是参议院银行委员会中少数党的高级成员，但她一直未参与Clarity Act的谈判，并且始终反对该法案。如果民主党在今年的中期选举中获得预期的选举提振，其政党有微弱机会重回参议院多数席位。若如此，沃伦很可能执掌银行委员会，该委员会负责监督SEC，并参与大多数加密立法。"
-        ],
-        "source_name": "coindesk",
-        "url": "https://www.coindesk.com/policy/2026/08/04/clarity-act-sits-idle-over-trump-ethics-question-as-warren-asks-sec-to-investigate-him",
-        "published_at": "2026-08-04T10:21:00+08:00",
-        "region": "美国",
-        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
-      },
-      {
-        "section": "政策风向",
-        "title_cn": "尼日利亚为数字资产平台制定加密税收征管规则",
-        "source_title": "Nigeria sets crypto tax collection rules for digital asset platforms",
-        "event_date": "2026-08-04",
-        "key_points": [
-          "尼日利亚税务局（NRS）发布《虚拟资产税务指南》，要求加密平台和点对点（P2P）市场收集、报告和汇缴税款，部分预扣税额以原始代币支付。",
-          "平台须预扣1%的加密资产处置收益，质押、挖矿、空投和DeFi适用10%预扣税率，代币与法币转换征收1.5%印花税；稳定币销售免征1%预扣税。",
-          "新指南在总统博拉·蒂努布签署行政令设立虚拟资产委员会后发布；尼日利亚2025年税收法案已生效，将数字资产视为应税资产并要求服务商报告客户交易信息。"
-        ],
-        "lead_cn": "",
-        "body_paragraphs": [
-          "尼日利亚税务局（NRS）发布《虚拟资产税务指南》（Guidelines on Taxation of Virtual Assets），要求加密平台和点对点（P2P）市场收集、报告并汇缴税款，其中部分预扣税额需以数字代币形式支付。该指南表明，现有税收义务将适用于加密资产的处置和奖励，并指定了部分税款的代币缴纳方式。",
-          "指南规定，源泉扣缴的所得税和印花税“应以交易的原始代币汇缴给税务局”，相比之下，增值税则须以支付所用货币汇缴。同时，指南将交易所和P2P市场置于该国现有法律下代扣、报告和汇缴的核心位置。",
-          "就具体税率而言，平台必须预扣应税加密资产处置收益的1%，涉及证券型代币和适用的非同质化代币（NFT）；对于质押、挖矿、空投和去中心化金融（DeFi），预扣税率为10%；代币兑法币及法币兑代币的转换则适用1.5%印花税。",
-          "预扣金额属于预付款项，可在纳税人最终所得税负债中抵扣。在纳税人类型方面，个人按累进税率纳税，而小型企业以外的公司则适用30%税率。此外，稳定币销售不在1%预扣税范围内。",
-          "新指南在总统博拉·蒂努布（Bola Tinubu）签署行政令设立虚拟资产委员会之后发布。该委员会由中央银行担任主席，NRS与证券交易委员会（SEC）担任副主席。7月18日，总统府表示NRS将发布政策，以实施尼日利亚针对虚拟资产的税法。",
-          "尼日利亚更广泛的税收改革已于1月1日生效，依据是2025年《尼日利亚税法》和《尼日利亚税务管理法》。该立法将数字资产视为应税资产，并要求虚拟资产服务提供商报告交易细节，包括客户姓名、联系方式和税务识别号。",
-          "尼日利亚最早通过2023年《财政法案》明确对加密资产处置收益征税，当时采用10%的统一资本利得税。2025年框架取代了这一处理方式，而新指南具体规定了收益估值方式，以及税款如何预扣、汇缴和对账。"
+          "美国与英国在一次双边工作组会议中重申了对更紧密金融监管合作的承诺，这表明双方在数字资产监管政策上继续保持一致。第13次英美金融监管工作组（Financial Regulatory Working Group，FRWG）会议于7月8日在伦敦举行，两国官员在此次会谈中释放出持续协调的信号。美国当局正着手实施具有里程碑意义的稳定币立法。",
+          "会议期间，两国官员围绕稳定币监管、美国数字资产市场结构、代币化以及英国批发金融市场数字战略等议题展开讨论。根据8月4日发布的一份联合声明，美国官员向英国同行通报了《GENIUS法案》（GENIUS Act）的实施进展，以及数字资产市场结构方面的后续工作，该声明对会议成果进行了总结。",
+          "与会者还讨论了支付现代化和二十国集团（G20）跨境支付路线图，后者是一项旨在改善跨境支付的国际倡议。虽然此次会议没有出台新的政策措施，但它凸显了双方在数字资产行业关键领域协调监管的共同承诺。",
+          "声明的整体基调是对“负责任的”数字资产创新持广泛支持态度，同时强调金融稳定和国际监管合作。",
+          "7月14日，跨大西洋未来市场工作组——一个旨在加强金融创新和资本市场合作的英美联合倡议——发布了初步建议以及与稳定币相关的联合声明。两国政府表示，这些措施将为英美继续引领数字资产和资本市场奠定基础。",
+          "英国重新强调稳定币的背景是，一些行业观察人士认为该国正在输给美国。在美国，《GENIUS法案》为受监管的美元稳定币带来了加速动力。英格兰银行也软化了对稳定币监管的立场。据Cointelegraph在5月报道，该行正在考虑临时限制稳定币持有的替代方案，并审查其要求至少40%储备资产以非利息存款形式存放于央行的提议是否限制过度。",
+          "此外，英国金融行为监管局（Financial Conduct Authority，FCA）在今年的早些时候表示，跨境支付是稳定币最清晰的近期用例之一。这一表态突显了监管机构对这一技术潜力的日益认可。"
         ],
         "source_name": "Cointelegraph",
-        "url": "https://cointelegraph.com/news/nigeria-crypto-tax-rules-digital-asset-platforms",
-        "published_at": "2026-08-04T08:25:00+08:00",
-        "region": "尼日利亚",
+        "url": "https://cointelegraph.com/news/us-uk-deepen-crypto-regulatory-cooperation-genius-act-stablecoins",
+        "published_at": "2026-08-04T20:58:00+08:00",
+        "region": "英国、美国",
         "fact_check": "逐句对照原文核验，已删除未支撑内容。"
       },
       {
         "section": "政策风向",
-        "title_cn": "南非立法者提议跨境加密货币交易规则草案",
+        "title_cn": "印度扩展全球税收报告规则覆盖加密资产、央行数字货币与数字货币",
+        "source_title": "India Expands Global Tax Reporting Rules to Cover Crypto, CBDCs and Digital Money",
+        "event_date": "2026-08-04",
+        "key_points": [
+          "印度政府批准修订《1962年所得税规则》，将OECD的加密资产报告框架（CARF）纳入现有自动信息交换机制，要求报告实体收集并报告指定加密资产交易信息。",
+          "新框架覆盖比特币、以太坊、稳定币、代币化金融资产、分布式账本数字价值表示及央行数字货币（CBDC），显著扩大国际税收报告范围。",
+          "修订未设立新税种，但强化报告义务，与印度现行30%虚拟数字资产利得税和1%源头扣税制度互补；超过60个辖区已承诺实施CARF。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "印度已将其国际税收报告框架扩展至加密货币、央行数字货币（central bank digital currency，CBDC）及其他数字货币产品，以加强其与外国税务当局交换金融信息的能力，因为数字资产正变得越来越全球化。政府已批准对《1962年所得税规则》的修订，将经济合作与发展组织（Organisation for Economic Co-operation and Development，OECD）的加密资产报告框架（Crypto-Asset Reporting Framework，CARF）纳入印度现有的自动信息交换机制。根据修订，报告实体须收集、维护并报告涉及应报告用户的指定加密资产交易信息，使印度当局能够与参与辖区交换这些信息。",
+          "更新后的框架显著扩大了国际税收报告所覆盖的资产范围。除比特币和以太坊等加密货币外，规则还涵盖稳定币、代币化金融资产，以及使用分布式账本技术转移或存储的某些数字价值表示。该框架还视情况纳入央行数字货币的相关信息。此举使印度更接近越来越多的实施CARF的辖区，这些辖区是在G20和OECD将CARF背书为跨境加密税收透明度全球标准后开始落实的。",
+          "根据修订后的规则，报告加密资产服务提供商——包括某些交易所、经纪商和其他中介——必须开展尽职调查，以识别应报告用户并向印度税务当局提交规定信息。报告数据可能包括客户的身份信息、应报告加密交易的详情，以及报告期内所进行转移的价值。税务当局随后可根据现有国际协议与伙伴辖区交换信息，从而帮助识别在境外持有或交易数字资产的纳税人。",
+          "此次修订旨在解决国际税收报告中的一个长期缺口。金融机构多年来已根据共同申报准则（Common Reporting Standard，CRS）交换信息，但许多加密资产因交易可在没有传统银行中介的情况下发生而未被该框架覆盖。通过将报告要求扩展至数字资产，印度力求减少离岸逃税的机会，同时提高日益数字化的金融体系中的透明度。",
+          "在全球范围内，超过60个辖区已承诺实施该框架，其中许多计划在未来几年内开始交换加密相关税务信息。OECD开发CARF，正是出于对数字资产可能通过允许传统银行部门之外的跨境转移来削弱现有自动信息交换系统的担忧。",
+          "此次修订并未对加密货币设立新税种。相反，它们强化了报告和信息共享义务，与印度现行加密税收制度互为补充，该制度包括对虚拟数字资产收益征收30%的税，以及对许多交易按1%税率从源头扣除税款（tax deducted at source，TDS）。",
+          "对加密货币投资者而言，实际影响是随着参与国开始在扩展框架下交换信息，跨境数字资产活动将日益为税务当局所可见。随着世界各国政府寻求填补数字金融中的报告缺口，印度决定将加密资产、CBDC及其他数字货币产品纳入其国际税收报告规则，标志着数字资产正逐渐受到长期适用于传统金融账户的同等透明度标准的约束。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/india-expands-global-tax-reporting-rules-to-cover-crypto-cbdcs-and-digital-money/",
+        "published_at": "2026-08-04T08:18:00+08:00",
+        "region": "印度",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "南非立法者提出跨境加密货币交易草案规则",
         "source_title": "South African lawmakers propose draft rules on cross-border crypto transactions",
         "event_date": "2026-08-04",
         "key_points": [
-          "南非国家财政部与南非储备银行发布规则手册草案，拟监管加密货币跨境交易。",
-          "草案要求跨境发送加密货币须通过授权提供商，并报告给央行金融监视部门（FinSurv）。",
-          "草案不会使加密货币成为法定货币，也不区分数字资产；意见征询截止9月30日。"
+          "南非国家财政部与南非储备银行发布跨境加密货币交易规则草案，要求将加密资产转移至境外必须通过授权提供商进行。",
+          "草案要求将跨境加密交易上报央行金融监管部（FinSurv），以降低监管套利风险并增强对非法资金流动的打击能力。",
+          "两机构征求意见的截止日期为9月30日；草案不会使加密货币成为法定货币，也不区分不同数字资产。"
         ],
-        "lead_cn": "",
+        "lead_cn": "南非财政部和央行日前发布跨境加密货币交易规则草案，提议通过授权提供商将加密资产转移境外，并上报央行金融监管部。公众意见征询截止日为9月30日。",
         "body_paragraphs": [
-          "南非国家财政部（National Treasury）与南非储备银行（South African Reserve Bank，SARB）正着手对加密货币跨境交易进行监管。两机构于本周一发布了一份规则手册草案，提议将加密货币发送至境外必须通过授权提供商进行，并报告给中央银行的金融监视部门（Financial Surveillance Department，FinSurv）。",
-          "根据草案，跨境加密转账需要经由授权提供商，并将交易信息报送至金融监视部门。这一规定要求任何向境外发送加密货币的操作都必须通过授权提供商进行。金融监视部门将接收这些报告。",
-          "财政部和储备银行在联合声明中表示，拟议的监管措施旨在尽量减少受监管实体在开展跨境活动时的监管套利风险，并增强金融监视部门发现、威慑和瓦解非法金融流动的能力。这一联合声明由两机构共同发布。",
-          "草案还规定，该监管框架不会使加密货币成为法定货币，规则也不对不同数字资产加以区分。这意味着，监管规则不会对数字资产进行类别上的区分。",
-          "两机构已邀请相关利益方提供评论意见，截止日期为9月30日。有关方面可在9月30日前提交反馈。",
-          "拟议规则建立在国家财政部4月发布的先前规则草案基础上。该草案要求加密货币持有者在资产超过一定门槛时进行申报，并在执法官员要求时交出私钥。这些要求是4月草案中的内容。",
-          "南非推动加密货币监管，正值全球范围内迅速转向可执行的跨境监管框架。在各司法辖区，监管当局都被赋予保护消费者和维护金融体系安全的职责，同时往往还需要支持创新。这一趋势的结果是形成了全球性的政策拼图。"
+          "南非国家财政部（National Treasury）与南非储备银行（South African Reserve Bank，SARB）正在推进对跨境使用加密货币进行交易的监管。两机构于本周一，也就是8月4日，对外发布了一份规则草案，其中提出，将加密货币转移至境外必须通过授权提供商进行，并向中央银行下属的金融监管部（Financial Surveillance Department，FinSurv）报告。",
+          "这份草案规则书是由南非国家财政部与南非储备银行联合对外发布的。根据草案内容，发送加密资产至海外必须经由授权提供商完成，且相关交易须上报金融监管部。两机构在联合声明中表示，拟议的监管措施旨在将受监管实体在开展跨境业务时的监管套利风险降至最低，并增强金融监管部侦测、威慑并阻断非法资金流动的能力。",
+          "这一草案框架并不会赋予加密货币以法定货币的地位，也不会在规则中对不同类型的数字资产进行区别对待。两机构已邀请感兴趣的相关方就草案内容提出意见，提交意见的截止日期为9月30日。",
+          "拟议中的规则是在国家财政部今年4月发布的一份草案基础上制定的。这份4月草案要求加密资产持有者申报超过一定门槛的资产，并在执法官员提出要求时交出私钥。",
+          "南非之所以推动对加密货币进行监管，其背景是全球正迅速转向可执行、跨境的监管框架。在各个司法辖区，当局均被赋予保护消费者和保障金融体系的任务，往往同时还要支持创新。其结果是，全球范围内形成了政策拼凑的局面。"
         ],
         "source_name": "coindesk",
         "url": "https://www.coindesk.com/policy/2026/08/04/south-african-lawmakers-propose-draft-rules-on-cross-border-crypto-transactions",
@@ -91,169 +89,167 @@
       },
       {
         "section": "行业前沿",
-        "title_cn": "贝莱德携手摩根大通Kinexys将3110亿美元欧洲货币市场基金代币化",
-        "source_title": "BlackRock Tokenizes $311B of European Money Market Funds With JP Morgan's Kinexys",
-        "event_date": "-",
+        "title_cn": "XRP持有者现可凭FXRP抵押在以太坊借入RLUSD",
+        "source_title": "XRP holders can now borrow RLUSD on Ethereum through $280 million lending pool",
+        "event_date": "2026-08-04",
         "key_points": [
-          "贝莱德首次在欧洲推出链上基金，为合计持有3110亿美元的欧洲货币市场基金发行代币化份额类别，共12个新份额类别分布在6只基金中。",
-          "代币在以太坊上通过摩根大通Kinexys铸造，Kinexys负责铸造和销毁，官方股东名册由基金的转让代理人维护。",
-          "新份额类别面向专业及合格客户，在13个国家和地区提供，贝莱德数字现金主管称保留相同的资本保全、流动性和风险管理标准。"
+          "XRP持有者现可在以太坊上抵押封装XRP（FXRP）借入RLUSD稳定币，无需出售XRP，该借贷池规模为2.8亿美元，此前从未接受XRP相关资产。",
+          "该批准由管理RLUSD借贷池的Sentora完成，其在机构风险框架下审查了FXRP的市场行为、预言机设计、流动性和清算能力，并开设于Morpho Blue上的隔离市场。",
+          "Flare联合创始人兼CEO Hugo Philion表示，XRP是加密资产中规模最大的资产之一，也是DeFi中使用最少的资产之一；Flare正在构建Smart Accounts路径，以简化当前多步流程。"
         ],
-        "lead_cn": "",
+        "lead_cn": "XRP持有者现在可以在以太坊上以他们的代币作为抵押借入RLUSD，而无需出售，通过一个此前从未接受过XRP相关资产的2.8亿美元的借贷池。该批准由Sentora管理，并在Morpho Blue上开设了隔离市场。",
         "body_paragraphs": [
-          "贝莱德（BlackRock）已为合计持有3110亿美元的欧洲货币市场基金推出代币化份额类别，这是其首次在欧洲提供链上基金入口。这些份额类别通过摩根大通（J.P. Morgan）的区块链部门Kinexys，在以太坊（Ethereum）上铸造代币。此次共发布12个新份额类别，分布在贝莱德机构现金系列（BlackRock Institutional Cash Series）的6只基金中。",
-          "新份额类别涵盖欧元、英镑和美元策略，同时提供分配和累积两种形式。基础基金为公共债务恒定净资产值（constant net asset value）和低波动率净值（low volatility NAV）货币市场基金，属于欧洲UCITS制度监管的结构。每个代币代表基础基金中的一份份额，而官方股东名册继续由基金的转让代理人维护。",
-          "代币在以太坊上通过Kinexys铸造，该部门负责铸造和销毁，并充当链上活动与传统股份登记之间的中间层。智能合约可在获批准的投资者钱包之间转移持仓，贝莱德称这能实现全天候点对点可转让性和近实时可见性。",
-          "贝莱德全球现金分配主管兼国际现金管理业务负责人Beccy Milchem在提供给Decrypt的新闻稿中表示：“今天的推出代表了投资者获取和管理现金方式的重要演变，同时有助于现代化资本市场基础设施。”Kinexys全球市场发展主管Kara Kennedy则指出，代币化已从概念走向执行。",
-          "贝莱德还提到，预期该结构将打开企业资金管理、数字抵押品以及银行和财富分销渠道等使用案例。这些份额类别面向专业及合格客户销售，而非散户投资者，可在百慕大、爱沙尼亚、法国、德国、爱尔兰、立陶宛、卢森堡、马耳他、荷兰、新加坡、西班牙、瑞典和英国等13个国家和地区获得。",
-          "贝莱德数字现金主管Hannah Winter表示，代币化版本保留了与现有份额类别相同的资本保全、流动性和风险管理标准。此次发布的前一天，贝莱德发行了在Solana、Ethereum和Stripe的Tempo上记录所有权的代币化货币市场基金，Securitize担任转让代理人，旨在用于稳定币储备管理。",
-          "自2024年3月在以太坊上推出代币化基金BUIDL以来，贝莱德一直在朝这一方向推进，BUIDL最低投资额为500万美元，现已扩展到八个网络，管理资产超过26亿美元。贝莱德首席执行官Larry Fink和首席运营官Rob Goldstein将代币化称为“市场基础设施的下一个重大演变”。",
-          "不过，贝莱德并未说明预计将有多少现有资产上链。此次ICS份额类别的推出基于3110亿美元的现有资产。"
+          "XRP持有者现在可以在以太坊上借入RLUSD稳定币，而无需出售其持有的XRP。这一功能是通过一个规模达2.8亿美元的借贷池实现的，该池此前从未接受过任何与XRP相关的资产。Flare——一个让XRP在去中心化金融（DeFi）中使用的区块链——于周一告知CoinDesk，其封装版XRP（即FXRP）已被Sentora接受为抵押品，Sentora管理着Ripple的RLUSD稳定币借贷池。",
+          "这一批准在Morpho Blue上开设了一个FXRP/RLUSD隔离市场。该市场允许持有者借用其XRP敞口，而不是将其出售。借款人将封装XRP（称为FXRP）作为抵押品存入，即可借出RLUSD稳定币。该市场无需许可，并且没有白名单要求。Sentora在批准之前按照其机构风险框架审查了FXRP的市场行为、预言机设计、流动性和清算能力，并且该资产将与其他抵押品一样接受持续监控。",
+          "截至周二，整个流程尚需多个步骤：用户首先通过Flare的FAssets系统铸造FXRP，然后通过Stargate将FXRP桥接至以太坊，随后存入市场，最后按自己选择的贷款价值比借款。Flare表示正在构建Smart Accounts路径，让持有者可以直接从XRP Ledger（XRPL）钱包授权整个借款流程，同时也在开发直接铸造FXRP到以太坊的功能。",
+          "Flare联合创始人兼CEO Hugo Philion表示，XRP是加密资产中规模最大的资产之一，也是DeFi中使用最少的资产之一。他进一步指出，由机构风险团队在以太坊主网对其进行承保，其意义比又一个桥接上市更大。正是这种隔离结构使得批准成为可能，每个Morpho Blue市场都拥有独立的抵押资产、债务资产、预言机和清算阈值，因此FXRP市场内的故障不会波及其他部分。",
+          "然而，规模仍是公开问题。自从启动以来，已有约1.55亿FXRP被铸造，而Philion曾表示目标是在六个月内将50亿XRP引入Flare生态系统。新市场以Flare所称的“保守供应上限”启动，并可能随着使用量的增加而提高。",
+          "CoinDesk已联系Flare和Sentora，以获取供应上限、贷款价值比、清算阈值和预言机来源的信息，并将在得到任何回复后更新报道。"
         ],
-        "source_name": "Decrypt",
-        "url": "https://decrypt.co/374894/blackrock-tokenizes-311b-of-european-money-market-funds-with-jp-morgans-kinexys",
-        "published_at": "2026-08-04T12:40:00+08:00",
-        "region": "欧洲",
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/markets/2026/08/04/flare-s-wrapped-xrp-wins-approval-in-a-usd280-million-rlusd-lending-vault",
+        "published_at": "2026-08-05T00:13:00+08:00",
+        "region": "全球",
         "fact_check": "逐句对照原文核验，已删除未支撑内容。"
       },
       {
         "section": "行业前沿",
-        "title_cn": "BitGo将WBTC迁移至Chainlink跨链迁移总额逼近150亿美元",
-        "source_title": "BitGo’s WBTC move pushes LayerZero-to-Chainlink tally near $15 billion",
+        "title_cn": "富国银行拟向企业客户推出代币化存款",
+        "source_title": "Wells Fargo to Launch Tokenized Deposits for Corporate Clients",
         "event_date": "2026-08-04",
         "key_points": [
-          "BitGo将用Chainlink替换LayerZero，作为价值73亿美元WBTC的独家跨链提供商。",
-          "Kelp DAO桥接遭遇2.92亿美元漏洞利用后，多个项目已宣布从LayerZero迁移至Chainlink的CCIP。",
-          "已公布的迁移总额接近150亿美元，BitGo将保留对WBTC代币合约和转账设置的控制。"
+          "富国银行计划于今年晚些时候向部分企业客户推出代币化存款，初始阶段在其专有区块链上提供美元与英镑的全天候结算。",
+          "代币化存款仍为发行银行的负债，享有与传统存款相同的监管保护，与依赖外部储备的稳定币不同。",
+          "富国银行加入摩根大通和花旗的行列，提供基于代币化存款的机构服务，并正考虑连接共享网络。"
         ],
-        "lead_cn": "BitGo将WBTC迁移至Chainlink，使公开宣布的LayerZero至Chainlink迁移总额接近150亿美元。这是继Kelp桥漏洞利用后，多个项目迁移至CCIP浪潮的一部分。",
+        "lead_cn": "",
         "body_paragraphs": [
-          "加密基础设施公司BitGo（股票代码：BTGO）正准备用Chainlink（链环）替换LayerZero（零层），作为其包裹比特币（Wrapped Bitcoin，简称WBTC）的独家跨链服务提供商。这一迁移举措，使得公开宣布的从LayerZero迁移至Chainlink的资产总价值，提升至接近一百五十亿美元。",
-          "此次迁移是更广泛迁移浪潮的一个组成部分。该浪潮始于今年早些时候发生的Kelp DAO基于LayerZero的桥接漏洞，利用金额达到二点九二亿美元。这一事件导致外界对于LayerZero桥配置的审查更加严格。此后，包括曼特尔（Mantle）、凯尔普（Kelp）、伦巴第（Lombard）、索尔夫协议（Solv Protocol）、维尔斯（Virtuals）、雷（Re）以及克拉肯（Kraken）在内的多个项目，也都相继宣布迁移至Chainlink的CCIP。",
-          "WBTC是一种比特币的代币化表示形式，其设计目的在于追踪比特币的价值。与原生比特币不同，WBTC可以在其他区块链上的去中心化金融应用程序中使用，以便进行交易、借贷和抵押。根据CoinMarketCap网站提供的数据，WBTC目前的市值大约为七十四亿美元。",
-          "将WBTC的市值计入此前公告中已经覆盖的七十二点四亿美元之后，这些项目将跨链基础设施迁移至CCIP的总资金额，大约达到了一百四十六亿美元。这一数字是由多起已经正式宣布的迁移行动逐步累加而得出的。",
-          "BitGo明确表示，它将采用Chainlink的跨链代币标准来标准化WBTC的部署操作，并且对于未来发行的各类资产，将默认使用CCIP协议。这一结构设计使得BitGo能够继续保留对其代币合约的完全控制，同时还可以针对区块链之间的转账设置速率限制以及其他风险控制措施。",
-          "回顾历史，BitGo在二零二四年时就选择了LayerZero来推动WBTC在多个区块链上的扩展应用，最初阶段将其用于Avalanche和BNB Chain这两个网络上的部署。根据当时的配置要求，每一笔跨链转账都需要得到BitGo自己的验证器以及LayerZero或Polyhedra中一方的批准。",
-          "目前，Chainlink的官方目录中已经列出了在以太坊和Ronin网络上启用CCIP功能的WBTC流动池。不过，该公告并未进一步具体说明这次更广泛的迁移工作究竟将于何时全面完成。"
+          "富国银行（Wells Fargo）计划于今年晚些时候向部分企业与商业客户推出代币化存款（Tokenized Deposits），初始阶段将在其专有区块链上实现美元与英镑之间的全天候结算。该服务最初可用范围有限，随后在2027年扩展至更多客户、国家和货币。富国银行表示，系统最终将允许合格客户在一周7天、每天24小时（包括周末和公共假日）内移动、编程和结算资金。美元兑英镑通道的开启，也为该行提供了受控环境，以便在增加更复杂市场之前测试外汇结算、流动性管理和支付处理。",
+          "该银行打算将代币化存款整合到现有支付服务中，而不是要求客户采用独立流程。系统将根据速度或灵活性自动判断符合条件的支付应使用传统银行轨道还是代币化存款。客户继续通过常规银行渠道与富国银行互动，区块链基础设施在后台运行。这种设计使企业财务团队无需管理加密货币钱包或直接与区块链网络交互，即可使用相关功能。",
+          "代币化存款是记录在区块链上的传统商业银行存款的数字表示，仍是发行银行的负债，而非由其他地方持有的储备支持的私人发行数字资产。富国银行表示，其代币化余额将享有与其现有存款产品相同的监管保护和存款保险资格。相比之下，稳定币（Stablecoin）通常由非银行公司或专门实体发行，并依赖发行方的储备结构、赎回流程和监管状态。",
+          "这一区别对于要求资金留在受监管银行体系内的企业客户至关重要。代币化存款能够提供基于区块链的结算，而无需公司将银行余额兑换为外部稳定币，也不必承担独立发行方的风险。对富国银行而言，该产品还有助于留住可能因需要更快结算或可编程支付功能而转向稳定币的存款。银行从客户存款中赚取收入，并将其作为重要资金来源，因此有经济动力在传统账户中提供类似的数字能力。",
+          "未来版本可能通过智能合约（Smart Contract）支持条件支付，即当约定条件满足时自动执行付款，从而减少企业之间的人工审批、对账或确认。例如，一家企业可以安排在交付记录经核实或合同要求完成后释放付款。此类功能有望降低贸易融资、供应商付款及其他涉及多方的企业交易中的结算延迟。",
+          "富国银行也在考虑内部托管钱包及连接外部区块链网络。随着银行、支付公司和稳定币发行方构建各自独立的系统，企业客户最终可能需要结合使用，互操作性将日益重要。该银行表示，其平台可连接The Clearing House正在开发的共享代币化存款网络。一个共享网络能让多家银行在其客户之间转移代币化商业货币，而不是将活动局限于孤立专有系统。",
+          "不过，连接各银行的区块链需要共同的技术标准、合规控制和结算规则。如果每家银行的产品只能在自己的网络内流通，代币化存款的价值可能依然有限。富国银行加入摩根大通（JPMorgan）和花旗（Citi），成为提供基于代币化存款的机构服务的银行。随着稳定币在跨境支付、交易结算和企业资金转移中得到更广泛使用，大型银行正对此类产品进行投资。",
+          "富国银行自2019年起便开始研究区块链支付系统，当时公布了用于内部跨境转账的Wells Fargo Digital Cash。此后，该行通过与汇丰银行（HSBC）在共享区块链上结算外汇交易，积累了经验。今年3月，富国银行还提交了“WFUSD”商标申请，可能涉及代币化存款、稳定币或其他数字支付产品，但该行尚未公开确认该名称的具体用途。此次上线初期规模较小，不足以实质性改变富国银行的存款基础或支付收入，其意义在于能否跨货币和司法管辖区扩展服务；若系统超越内部或有限双边转账，代币化存款可能成为大型企业替代稳定币的直接银行选择。下一步将取决于客户采用、监管处理以及各银行能否让各自的区块链系统高效通信。"
         ],
-        "source_name": "coindesk",
-        "url": "https://www.coindesk.com/business/2026/08/04/bitgo-s-wbtc-move-pushes-layerzero-to-chainlink-tally-near-usd15-billion",
-        "published_at": "2026-08-04T07:00:00+08:00",
-        "region": "全球",
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/wells-fargo-to-launch-tokenized-deposits-for-corporate-clients/",
+        "published_at": "2026-08-04T19:06:00+08:00",
+        "region": "美国",
         "fact_check": "逐句对照原文核验，已删除未支撑内容。"
       },
       {
         "section": "市场动态",
-        "title_cn": "分析师称三星有望成为稳定币主导分销商",
-        "source_title": "Samsung is poised to become a dominant stablecoin distributor, analysts say",
+        "title_cn": "资产难有起色Hashdex将关闭比特币ETF",
+        "source_title": "Hashdex to Shut Down Bitcoin ETF After Struggling to Gain Assets",
         "event_date": "2026-08-04",
         "key_points": [
-          "三星在Galaxy Unpacked 2026活动上宣布，将通过Samsung Wallet为超过8亿部新智能手机默认提供稳定币功能，包括法币锚定的储蓄和支付账户。",
-          "加密投资银行和咨询公司Areta亚太区总监Joseph Goh表示，三星将因此成为USDC等稳定币的主导分销商，因为“分发是稀缺资产，而三星拥有大量分发渠道”。",
-          "三星三家关联公司5月同意以4.08亿美元收购Upbit运营商Dunamu 4%股份，三星SDS CEO称这是进入数字资产基础设施业务的战略投资。"
+          "巴西加密资产管理公司Hashdex将关闭并清算其美国现货比特币ETF，该基金管理资产仅约1470万美元。",
+          "该ETF将于8月17日收盘后停止交易并退市，股东预计在8月28日前后获得现金分配。",
+          "此次关闭发生在美国现货比特币ETF市场激烈竞争两年多之后。"
         ],
         "lead_cn": "",
         "body_paragraphs": [
-          "三星在Galaxy Unpacked 2026活动上概述了其Samsung Wallet扩展计划，称超过8亿部智能手机将默认提供稳定币（Stablecoin）功能，包括与法币挂钩的储蓄和支付账户。该公司未公布用户采用预期，也未透露已经使用其加密功能的用户数量。",
-          "加密投资银行和咨询公司Areta亚太区总监Joseph Goh通过聊天消息对CoinDesk表示，由于这一战略举措，三星将成为USDC等稳定币的主导分销商。他说，阻碍更广泛采用的最重要问题之一是触达潜在新用户，“分发是稀缺资产，而三星拥有大量分发渠道。”",
-          "Solstice首席执行官兼联合创始人Ben Nadareski认为，这对加密采用是积极发展，并同意Goh的观点，认为三星因此处于独特位置。“更宏观的画面是分销迎头赶上流动性，”他在Telegram对话中说，“多年来，加密货币在韩国等地有深度交易场所，但缺乏进入日常消费的路径。三星钱包则指向另一个方向：稳定币嵌入人们打开用于卡片和结账的中心。”",
-          "三星是韩国最大的公司，涉足加密行业已有数年。2019年，它通过Knox推出数字资产钱包，Knox是一种硬件隔离保险库，支持指纹或PIN访问。该钱包支持存储和管理比特币（Bitcoin）、以太坊（Ethereum）和波场（TRON）等加密货币，并支持将Ledger的Nano S和Nano X等外部硬件钱包直接连接到Galaxy设备。",
-          "三星产品经理Lee Dinham在活动上表示，三星将拥抱包括稳定币在内的新型数字价值。他说，Samsung Wallet在韩国已有近1900万用户，并在61个国家可用。“这将使三星成为首批在智能手机上提供原生稳定币的主要移动电话品牌之一，实现快速可靠的数字价值转移。”他还表示，通过这样做，Samsung Wallet将成为跨Galaxy设备和服务的互联金融生态系统的基础，将支付、奖励和数字资产整合为统一体验。",
-          "如果计划落实，超过8亿用户将无需单独的加密应用或交易所账户，即可使用Galaxy的稳定币功能和其他加密货币。目前，全球已有超过10亿部活跃的三星智能手机。",
-          "在基础设施方面，三星三家关联公司——三星证券、三星SDS和三星卡——5月同意以4.08亿美元收购Dunamu 4%股份，Dunamu运营着韩国最大加密货币交易所Upbit。三星SDS首席执行官Lee Jun-hee在上周第二季度财报电话会上表示，对Dunamu的持股是进入数字资产基础设施业务（包括稳定币和AI支付）的战略投资。Goh认为，钱包公告确保分发，SDS和Dunamu将确保其下的基础设施，“这是同一战略的另一半，从交易角度看是更说明问题的一半。”",
-          "韩国于4月公布了《数字资产基本法》草案，将为数字资产（包括交易、托管、监督和稳定币发行）奠定基础，但目前仍无该法案获批或新规则实施的截止日期。Goh表示，三星的目标是构建自己的基础设施，而不是依赖第三方。“他们的目标是（在韩国框架仍在讨论之际）同时布局美元和韩元稳定币。时机是刻意为之的。”",
-          "Animoca Brands投资业务首席执行官Robby Yung表示，这对加密货币及其采用都是好消息，数字资产的分销范围越广越好。但他不确定这是否让三星相对于加密原生平台更具优势，“总体而言，我认为这对该行业是极好的消息。”Animoca Brands执行主席Yat Siu则认为，三星此举是功能集而非构建超级应用的尝试。这种整合可能让三星在服务加密用户方面比苹果和谷歌更有优势，但应用程序和商家需要让稳定币在日常消费中具有实用性。"
-        ],
-        "source_name": "coindesk",
-        "url": "https://www.coindesk.com/business/2026/08/04/samsung-is-poised-to-become-a-dominant-stablecoin-distributor-analysts-say",
-        "published_at": "2026-08-04T11:14:00+08:00",
-        "region": "全球",
-        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
-      },
-      {
-        "section": "市场动态",
-        "title_cn": "意大利联合圣保罗银行二季度减持IBIT94%以太坊ETF持仓增至三倍",
-        "source_title": "Intesa Sanpaolo slashed IBIT stake by 94% in 2Q, tripled ether ETF holding as crypto prices slumped",
-        "event_date": "2026-08-04",
-        "key_points": [
-          "意大利联合圣保罗银行在二季度将其IBIT持股削减94%，并几乎清空看涨期权，同时新增覆盖50万股IBIT的看跌期权。",
-          "该行将贝莱德旗下iShares质押以太坊信托ETF（ETHB）持仓增至三倍，达349，600股，而比特币和以太坊当季分别下跌14%和25%。",
-          "该行新建SpaceX（SPCX）头寸成为最大披露持仓，同时减持了Coinbase、Circle、Robinhood及特斯拉等股票。"
-        ],
-        "lead_cn": "",
-        "body_paragraphs": [
-          "意大利银行巨头联合圣保罗银行（Intesa Sanpaolo，ISP）在第二季度大幅调整其加密货币持仓。该行将其持有的iShares比特币信托（iShares Bitcoin Trust，IBIT）ETF股份削减94%，由三个月前的646，809股降至40，723股，价值136万美元。同期，该行比特币（Bitcoin，BTC）ETF持仓总价值下降35%至6930万美元。",
-          "此外，该行还清除了99%的看涨期权（赋予持有者在预定价格买入ETF股份的权利，但无义务），并新增了覆盖50万股IBIT的看跌期权（相应赋予卖出权利）。这些调整发生在比特币价格当季下跌14%的背景下，此前两个季度比特币均录得超过20%的跌幅。",
-          "美国现货比特币ETF在截至6月的三个月内录得约48.9亿美元净流出，其中IBIT一只基金就流失29.5亿美元，数据来自SoSoValue。以太坊（Ethereum，ETH）ETF同样遭遇超过7.15亿美元净流出。",
-          "与减持比特币相反，该行增持了贝莱德（BlackRock）旗下的iShares质押以太坊信托ETF（iShares Staked Ethereum Trust ETF，ETHB），持股增至349，600股，季度末价值710万美元，上季度末为315万美元。以太坊价格当季下跌25%。",
-          "在加密相关股票中，该行将近乎翻倍增持BitGo Holdings（BTGO）至323，000股，同时将Coinbase Global（COIN）的持股减持32%，将Circle Internet（CRCL）减持10%，将Robinhood Markets（HOOD）减持43%。",
-          "最新文件还显示，该行新建了SpaceX（SPCX）566万股的头寸，价值9.6642亿美元，成为其最大披露持仓。SpaceX于6月12日上市，持有18，712枚比特币，价值11.8亿美元。该行还减持了特斯拉（Tesla，TSLA）92%。",
-          "联合圣保罗银行是意大利市值第二大银行，总部位于都灵。该行于2025年1月首次直接购买比特币，以约100万欧元（120万美元）购入11枚BTC，首席执行官Carlo Messina将其描述为一次实验。"
-        ],
-        "source_name": "coindesk",
-        "url": "https://www.coindesk.com/business/2026/08/04/intesa-sanpaolo-slashed-ibit-stake-by-94-in-2q-tripled-ether-etf-holding-as-crypto-prices-slumped",
-        "published_at": "2026-08-04T08:25:00+08:00",
-        "region": "意大利",
-        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
-      },
-      {
-        "section": "意见领袖",
-        "title_cn": "Ledger称Coldcard漏洞事件显示比特币钱包安全必须适应AI",
-        "source_title": "Ledger Says Coldcard Exploit Shows Bitcoin Wallet Security Must Adapt to AI",
-        "event_date": "-",
-        "key_points": [
-          "Ledger首席技术官Charles Guillemet表示，Coldcard漏洞事件暴露了某些硬件钱包在生成加密随机性方面的弱点，并提醒整个安全模型都取决于随机性。",
-          "Ledger称其自身设备未受影响，因为恢复短语来自认证安全元件中的硬件随机数生成器，不存在软件回退路径。",
-          "Guillemet指出，AI正以机器速度加速漏洞发现，开源不等于经过审查；防御必须同样来自安全设计、硬件和数学。"
-        ],
-        "lead_cn": "",
-        "body_paragraphs": [
-          "硬件钱包制造商Ledger表示，近期Coldcard漏洞事件应作为加密货币行业的警示。Ledger首席技术官Charles Guillemet告诉Decrypt，该事件暴露了某些硬件加密钱包在生成加密随机性方面的弱点，也显示了人工智能如何同时重塑网络攻击与数字防御。Guillemet说：“我们把这视为一个严肃的提醒：硬件钱包的整个安全模型在随机性上生死攸关。密码学很难，安全地实现它更难。本周的Coldcard事件以最昂贵的方式让这一点变得可见。”",
-          "事件起因于Coldcard制造商Coinkite上周披露的一个缺陷，该缺陷可追溯到2021年3月的一个固件版本。该漏洞使用软件回退而非设备硬件随机数生成器（hardware random number generator）来创建钱包恢复种子，使部分私钥可被猜测，攻击者由此窃取用户比特币。目前损失已约达1.3亿美元，其他盗窃案仍在调查中。周日，Coinkite发布了修补固件，并敦促受影响用户将资金转移到新生成的钱包。",
-          "Ledger表示自身硬件钱包未受影响，因为其恢复短语的生成方式不同。Guillemet说：“Ledger硬件钱包从内置在认证安全元件（Secure Element）中的真正硬件随机数生成器提取根秘密（24字秘密恢复短语，Secret Recovery Phrase），没有软件回退路径。该生成器为每个种子产生完整的256位熵。”",
-          "在Ledger看来，这一事件引发了关于硬件钱包安全性评估方式的更广泛问题。Guillemet直言：“开源和经过审查不是一回事。这个缺陷在公开代码中隐藏了五年多，直到据报道一名对手使用AI找到它，这提醒我们开放和经过审查是两回事。”",
-          "Guillemet表示，AI正在改变网络安全，它让攻击者得以“以机器速度”扫描代码、搜索配置错误并识别漏洞。“这意味着防御必须以同样的速度移动，”他说，“它必须来自安全设计、硬件和数学。”5月，一名安全研究人员使用Claude Opus 4.8发现了一个存在四年的漏洞，该漏洞本可能导致Zcash无限铸造，引发大规模投资者恐慌，使Zcash单日下跌超过40%。",
-          "据Guillemet介绍，Ledger在过去两年中一直将AI与人类安全工程师和密码学家结合，用于审查代码并在攻击者利用前识别漏洞。“我们也不只是依赖自己的说辞，”他说，“我们的Donjon研究实验室的存在，就是为了在其他人之前尝试破解我们的产品。”",
-          "为了降低未来风险，Guillemet建议用户评估任何硬件钱包时，应了解其随机性生成方式以及该过程是否经过独立认证。“随机性必须来自物理，而不是公式，”他说，“它必须由那些以破解这一说法为工作的人来认证，而不是仅由供应商断言。”"
+          "巴西加密资产管理公司Hashdex将关闭并清算其在美国上市的现货比特币交易所交易基金（Bitcoin ETF）。根据周一提交给美国证券交易委员会（U.S. Securities and Exchange Commission，SEC）的文件，Hashdex比特币ETF（NYSE Arca： DEFI）将在8月17日收盘后停止交易，随后被摘牌。该基金管理资产仅约1470万美元。",
+          "截至最后交易日仍持有该基金的股东，预计将在基金出售剩余比特币持仓后，于8月28日前后获得现金分配。文件中写道：“在最后交易日之后，基金将清算其剩余的比特币持仓。”该基金将不再追求其既定投资目标，除清盘、保全资产价值、支付负债并向股东分配剩余资产外，不会从事任何业务活动。Hashdex表示，在决定清算前，评估了资产管理规模、交易流动性、运营成本、投资者兴趣以及该基金在其更广泛产品线中的定位等因素。",
+          "该公司表示，其继续管理着面向美国投资者的投资产品，规模超过2亿美元。交易所交易基金（Exchange-Traded Fund，ETF）允许投资者通过购买在证券交易所交易的股票来获得对特定资产（此处为比特币）的敞口。由于ETF价格与比特币价格相关，最终支付金额可能不同于基金当前价值，因为资产出售期间价格可能发生变化。",
+          "此次关闭发生在美国现货比特币ETF市场激烈竞争两年多之后。此前，美国证券交易委员会于2024年1月里程碑式地批准了首批现货比特币ETF，Hashdex随后进入该市场。",
+          "2024年3月，该公司将其自2022年9月起以DEFI代码交易的比特币期货ETF转换为现货比特币ETF，该现货ETF持有约5500枚比特币。此后，该公司寻求扩大美国产品线，推出比特币与以太坊组合ETF，但美国证券交易委员会在2024年8月推迟了对该提案的决定。",
+          "此次关闭将结束这款最早一批比特币ETF之一的运营。该基金仅积累了约1470万美元的资产管理规模。"
         ],
         "source_name": "Decrypt",
-        "url": "https://decrypt.co/374914/ledger-coldcard-exploit-bitcoin-wallet-security-ai",
-        "published_at": "2026-08-04T22:17:00+08:00",
+        "url": "https://decrypt.co/374903/hashdex-shut-down-bitcoin-etf",
+        "published_at": "2026-08-04T17:43:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "ArkInvest在Coinbase大跌逾14%后买入800万美元同时增持Circle、减持Solmate",
+        "source_title": "Ark Invest Expands Coinbase Holdings After Stock Slides More Than 14%",
+        "event_date": "2026-08-04",
+        "key_points": [
+          "Ark Invest在8月4日买入54，776股Coinbase股票，价值约800万美元，此前Coinbase财报后股价下跌超过14%。",
+          "Ark同时买入23，070股Circle股票，价值约140万美元，并卖出5，700股Solmate Infrastructure股票。",
+          "JPMorgan称Coinbase季度反映艰难交易环境，Bernstein下调Circle目标价但维持跑赢大盘评级。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Ark Invest在8月4日买入了54，776股Coinbase股票，价值约800万美元，此前Coinbase公布第二季度业绩后股价大跌。这家由Cathie Wood领导的公司同时买入了Circle股票，并继续减持Solmate Infrastructure持仓。",
+          "Coinbase买入的具体分布为：Ark Innovation ETF买入38，761股，价值约570万美元；Ark Next Generation Internet ETF买入11，133股，价值160万美元；Ark Fintech Innovation ETF买入4，882股，价值约71.5万美元。周一Coinbase反弹0.2%，收于146.50美元，市值约272亿美元。",
+          "Ark常在股价下跌后加仓、上涨后减仓。其策略通常防止单一公司占基金比重超过10%，因此可能继续调整Coinbase持仓。截至8月4日，Coinbase是Ark Innovation ETF第六大持仓，占4.2%，价值约2.38亿美元，位列特斯拉、SpaceX、Tempus AI、CRISPR Therapeutics和Shopify之后。",
+          "Coinbase也是Ark Next Generation Internet ETF第11大持仓，以及Ark Fintech Innovation ETF第五大持仓，价值分别约5680万和3850万美元。Coinbase第二季度预测市场业务增长，交易市场份额创纪录，但这些表现未能阻止投资者抛售。",
+          "JPMorgan称该季度反映加密货币交易环境困难，新产品提供的近期盈利支持有限。Bernstein表示，Coinbase长期战略仍具吸引力，但投资者希望看到更强劲的执行力。市场反应表明，在交易环境疲软时，仅靠市场份额增长可能无法让股东满意。",
+          "Coinbase已扩展至衍生品、稳定币、机构服务和预测市场，但投资者仍在评估这些业务能多快贡献收入和利润。Ark的买入表明，该投资公司将财报后的下跌视为机会，而非长期前景改变的证据。目前持仓远低于10%上限，为未来加仓留下空间。",
+          "Ark还通过Ark Innovation和Ark Next Generation Internet ETF买入23，070股Circle股票，价值约140万美元。当日Circle下跌3.6%，收于60.35美元，年初至今跌幅达25%。Circle是Ark Innovation ETF第九大持仓，价值约2.105亿美元，同时在Ark Next Generation Internet ETF中排第十二，价值约5610万美元。",
+          "Circle近期获得纽约金融服务部颁发的有限用途信托章程，用于Circle Internet Trust Company，扩展了对其稳定币业务的监管框架。Bernstein将Circle目标价从190美元下调至140美元，维持跑赢大盘评级，认为投资者对Open USD联盟竞争的担忧终将缓解。",
+          "Ark增持Coinbase和Circle，增加了对受监管加密基础设施公司的敞口，而非直接持有代币。Coinbase提供交易、托管和机构服务，Circle从储备资产支持USDC稳定币中赚取收入。与此同时，Ark卖出5，700股Solmate Infrastructure股票，价值近25，000美元。",
+          "Solmate周一上涨10%，收于4.31美元，但较9月峰值仍下跌约99%。这家专注Solana的数字资产国库公司去年通过私募融资3亿美元，获Ark Invest和Solana Foundation支持。数字资产国库公司曾因筹资购买加密货币受到关注，但许多公司因股价下跌而难以按有利条件发行股票，投资者愿意支付的溢价也随之下降。Ark的对比交易表明，其偏好买入成熟的加密业务，同时继续减持股价近乎崩盘的小型数字资产国库公司。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/ark-invest-expands-coinbase-holdings-after-stock-slides-more-than-14/",
+        "published_at": "2026-08-04T17:07:00+08:00",
         "region": "其他",
         "fact_check": "逐句对照原文核验，已删除未支撑内容。"
       },
       {
         "section": "意见领袖",
-        "title_cn": "Bernstein德州电网暂停审批对比特币矿工影响不大",
-        "source_title": "Texas electric grid moratorium won’t have big impact on BTC miners: Bernstein",
-        "event_date": "2026-08-04",
+        "title_cn": "Ledger称Coldcard漏洞显示比特币钱包安全必须适应人工智能（AI）",
+        "source_title": "Ledger Says Coldcard Exploit Shows Bitcoin Wallet Security Must Adapt to AI",
+        "event_date": "-",
         "key_points": [
-          "Bernstein分析师周二表示，德克萨斯州州长Greg Abbott宣布的暂停数据中心审批不会对比特币矿工产生重大影响，因为多数矿工已签订已批准的电力容量合同。",
-          "分析师认为，这次审计将抑制投机性的数据中心管道，并使已获批的兆瓦（MW）电力更有价值。",
-          "分析师指出，Cipher Digital、Core Scientific和CleanSpark的当地运营可能最易受公众反对影响，而IREN和Riot Platforms已完全获批。"
+          "Ledger首席技术官Charles Guillemet表示，Coldcard漏洞提醒硬件钱包行业，其安全模式生死攸关于随机数生成，密码学实现安全更难。",
+          "Coldcard漏洞因使用软件回退而非硬件随机数生成器创建恢复种子，已导致约1.3亿美元损失，Coinkite已发布补丁并敦促用户转移资金。",
+          "Guillemet指出，AI正允许攻击者以机器速度识别漏洞，防御必须同样快速，随机性必须来自物理并经过独立认证。"
         ],
         "lead_cn": "",
         "body_paragraphs": [
-          "德克萨斯州州长Greg Abbott周一指示德克萨斯州公共事业委员会和德克萨斯州电力可靠性委员会（Electric Reliability Council of Texas，ERCOT）审计所有寻求接入该州电网的数据中心。该审计的持续时间未明确，且正值全州对数据中心建设速度的公众反弹日益加剧之际。据《德克萨斯论坛报》报道。",
-          "Bernstein分析师周二向客户表示，由于在德克萨斯州运营的大多数比特币（Bitcoin，BTC）矿工已签订已批准的电力容量合同，这些运营不太可能受到暂停令的影响。该研究团队由Gautam Chhugani领导。",
-          "他们在报告中称：“然而，我们认为，这次审计会抑制投机性的数据中心管道，并使具有开发历史的真实站点更有价值。”分析师还称：“比特币矿场在筹备期最长、自筹基础设施和本地社区管理方面处于有利位置。”",
-          "他们指出，Cipher Digital（CIFR）、Core Scientific（CORZ）和CleanSpark（CLSK）的当地运营可能最容易受到未来公众反对数据中心扩张的影响，尤其是在ERCOT批准将其管道资产转换为并网电力容量的过程中。",
-          "分析师写道：“我们认为，随着对新数据中心项目的政治反对日益增多，以及新增容量被暂停令/州指令抑制，已获批的兆瓦（MW）电力变得更加有价值。”他们特别强调了IREN（IREN）在德克萨斯州的运营已完全获得ERCOT电网批准，Riot Platforms（RIOT）的运营也是如此。",
-          "另据雅虎财经数据，CIFR股价在周二盘前交易中下跌超过7%，而该公司当日稍早公布的业绩显示，其第二季度每股摊薄亏损为0.65美元，较上年同期的0.12美元亏损有所扩大。"
+          "硬件钱包（hardware wallet）制造商Ledger表示，近期的Coldcard漏洞应成为加密货币行业的警示。Ledger首席技术官Charles Guillemet对Decrypt表示，该事件暴露了某些设备（此处指硬件加密货币钱包）在生成加密随机性方面的弱点，同时显示了人工智能（AI）如何重塑网络攻击与数字防御。Guillemet说：“我们把这当作一个严肃的提醒，硬件钱包的整个安全模式生死攸关于随机性。密码学很难，安全实现更难。本周的Coldcard事件以最昂贵的方式让这一点变得可见。”",
+          "上周，Coldcard制造商Coinkite披露了一个影响气隙隔离（air-gapped）Coldcard比特币硬件钱包的缺陷，该缺陷可追溯到2021年3月的固件构建。错误在于使用软件回退（software fallback）而非设备的硬件随机数生成器（hardware random number generator）创建钱包恢复种子，导致部分私钥可被猜测，使窃贼得以盗取用户比特币。迄今损失已约1.3亿美元，其他盗窃案仍在调查中。周日，Coinkite发布了修补固件，并敦促受影响的用户将资金转移到新生成的钱包。Coinkite未回应Decrypt的评论请求。",
+          "Ledger表示，自己的硬件钱包并未受到该漏洞影响，因为它们以不同方式生成恢复短语。Guillemet说：“Ledger硬件钱包从直接内置在认证安全元件（Secure Element）中的真实硬件随机数生成器提取根秘密（root secret，即24个单词的秘密恢复短语（Secret Recovery Phrase）），没有软件回退路径。该生成器为每个种子产生完整的256位熵。”对Ledger而言，这一事件引发了关于如何评估硬件钱包安全的更广泛问题。",
+          "Guillemet表示：“开源与被审查不是一回事。这个缺陷在公共代码中潜伏了五年多，直到据报道一个对手使用AI发现了它，这提醒我们，开放与被审查是两件不同的事。”他进一步指出，AI正在改变网络安全，允许攻击者以“机器速度”扫描代码、搜索配置错误并识别漏洞。“这意味着防御必须以同样的速度移动，”他说，“它需要来自安全设计、硬件和数学。”",
+          "5月，一位使用Claude Opus 4.8的安全研究员发现了一个存在四年的漏洞，该漏洞可能导致Zcash无限铸造，引发大规模投资者恐慌，并使Zcash在一天内下跌超过40%。Guillemet表示，Ledger在过去两年一直使用AI，配合人类安全工程师和密码学家审查代码，在攻击者利用漏洞之前识别漏洞。",
+          "“我们也不只依赖自己的话，”他解释，“我们的Donjon研究实验室的存在，就是为了在其他人之前尝试破坏我们的产品。”为降低未来风险，他表示，用户评估任何硬件钱包时，应了解其如何生成随机性，以及该过程是否经过独立认证。他说：“随机性必须来自物理，而不是公式。它必须由以打破这种说法为工作的人来认证，而不是由供应商单方面断言。”"
+        ],
+        "source_name": "Decrypt",
+        "url": "https://decrypt.co/374914/ledger-coldcard-exploit-bitcoin-wallet-security-ai",
+        "published_at": "2026-08-04T22:17:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "Bernstein德州电网暂停令不会对比特币矿工产生重大影响",
+        "source_title": "Texas electric grid moratorium won’t have big impact on BTC miners: Bernstein",
+        "event_date": "2026-08-04",
+        "key_points": [
+          "德州州长Greg Abbott周一指示德州公用事业委员会和ERCOT对所有寻求接入州电网的数据中心进行审计，暂停审批待审计，但未说明审计时长。",
+          "Bernstein分析师周二表示，多数在德州运营的比特币矿工已签订获批电力容量合同，预计不会受暂停令影响。",
+          "分析师认为审计将抑制投机性数据中心项目，使有开发历史的站点更有价值；IREN和Riot在德州的运营已完全获得ERCOT电网审批。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "美国德州州长Greg Abbott周一宣布，暂停审批与德州电力可靠性委员会（Electric Reliability Council of Texas，ERCOT）关联的数据中心项目，以待审计。该指令要求德州公用事业委员会和ERCOT对所有寻求接入州电网的数据中心进行审计，但未说明审计时长。据《德州论坛报》（The Texas Tribune）报道，此举正值公众对全州数据中心建设速度的反对声浪日益高涨。",
+          "Bernstein分析师周二告诉客户，由于在德州运营的多数比特币（Bitcoin，BTC）矿工已签订获批电力容量合同，这些运营预计不会受到暂停令的影响。暂停令针对的是数据中心项目的审批，不会影响矿工已获批的电力合同。",
+          "由Gautam Chhugani领导的研究团队在研报中写道：“然而，我们相信，这次审计将抑制投机性数据中心项目，让拥有开发历史的真实站点更有价值。”他们并称，比特币矿场具备最长孕育期、自我筹资基础设施和本地社区管理，处于有利位置。",
+          "分析师表示，Cipher Digital（CIFR）、Core Scientific（CORZ）和CleanSpark（CLSK）的本地运营可能最容易受到未来公众对数据中心扩张反对的影响，尤其是在ERCOT审批过程中将其管线资产转换为电网连接电力容量时。",
+          "他们补充称，随着政治反对声音增加，新容量又被暂停令和州指令所限制，已获批的兆瓦（MW）变得更加宝贵。他们特别提到IREN（IREN）在德州的运营已完全获得ERCOT电网审批，Riot Platforms（RIOT）的运营也同样完全获批。",
+          "CIFR股价周二盘前交易下跌超过7%，据雅虎财经数据。该矿工周二早些时候公布第二季度业绩，每股摊薄亏损0.65美元，较去年同期的每股摊薄亏损0.12美元有所扩大。"
         ],
         "source_name": "Cointelegraph",
         "url": "https://cointelegraph.com/news/texas-electric-grid-moratorim-btc-miners-bernstein",
         "published_at": "2026-08-04T13:37:00+08:00",
-        "region": "美国",
+        "region": "美国德州",
         "fact_check": "逐句对照原文核验，已删除未支撑内容。"
       }
     ],
     "notes": [
-      "政策风向覆盖美国、尼日利亚、南非，地区分散且包含至少一篇美国。",
-      "行业前沿聚焦代币化与跨链基础设施，均为技术/产品层面的实质进展。",
-      "市场动态选择机构采用与ETF持仓调整，避免纯价格预测。",
-      "意见领袖均呈现明确人物/机构观点，且主题与安全、政策影响相关。",
-      "所有候选原文发布日期均在统计窗口内，且字符数高于1600。"
+      "所有文章均选自候选列表，统计窗口内发布，未使用候选之外信息。",
+      "政策风向选取了美国、印度、南非三个地区，满足至少一篇美国且地区分散要求。",
+      "行业前沿两篇分别覆盖DeFi借贷和银行代币化结算，避免主题重复。",
+      "市场动态聚焦ETF产品和机构持股变化，未选纯价格预测内容。",
+      "意见领袖选取Ledger与Bernstein的明确机构观点，均可写出‘XXX指出/表示/认为’。"
     ]
   },
   "factcheck": {
@@ -262,12 +258,13 @@
     "warnings": [
       "item 1 contains relative time wording; replace with exact date",
       "item 3 contains relative time wording; replace with exact date",
+      "item 5 contains question-style future/unknown wording; ensure the source explicitly raises it",
       "item 5 contains relative time wording; replace with exact date",
       "item 6 contains relative time wording; replace with exact date",
+      "item 7 contains relative time wording; replace with exact date",
       "item 8 contains relative time wording; replace with exact date",
       "item 9 contains generic attribution wording; verify the source explicitly supports it",
-      "source diversity is low: only 3 unique domains",
-      "domain coindesk.com appears 5 times; consider diversifying sources"
+      "item 9 contains relative time wording; replace with exact date"
     ]
   },
   "outputs": {
