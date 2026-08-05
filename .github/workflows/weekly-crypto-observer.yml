@@ -205,9 +205,19 @@ jobs:
           MANIFEST_PATH: ${{ steps.report_guard.outputs.manifest_path }}
         run: |
           set -euo pipefail
-          python3 scripts/gatex_content_uploader.py \
+          if python3 scripts/gatex_content_uploader.py \
             --source-module kc_c_wk \
             --source-repo "$GITHUB_REPOSITORY" \
             --report-type "Digital Assets" \
             --docx "$REPORT_PATH" \
-            --manifest "$MANIFEST_PATH"
+            --manifest "$MANIFEST_PATH"; then
+            echo "GateX private review import completed."
+          else
+            status=$?
+            echo "::warning::GateX private review import failed with exit code ${status}; report generation and persistence already completed."
+            {
+              echo "### GateX private review import"
+              echo ""
+              echo "GateX import failed with exit code \`${status}\`. The generated report and manifest were already committed, verified on \`origin/main\`, and uploaded as workflow artifacts."
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
