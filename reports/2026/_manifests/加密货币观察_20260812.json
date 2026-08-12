@@ -1,0 +1,282 @@
+{
+  "generated_at": "2026-08-12T11:50:05+08:00",
+  "period": "2026-08-05 11:50 至 2026-08-12 11:50（北京时间，最近7天）",
+  "raw_count": 43,
+  "collection_warnings": [
+    "no candidates for query: cross chain oracle RWA infrastructure wallet staking rollup interoperability crypto",
+    "no candidates for query: crypto company raises acquires launches futures ETF tokenized fund stablecoin adoption",
+    "no candidates for query: site:blockworks.co (crypto OR bitcoin OR ethereum OR stablecoin OR tokenization OR digital assets)",
+    "no candidates for query: site:info.gov.hk (virtual asset OR crypto OR stablecoin OR tokenisation)",
+    "no candidates for query: site:bis.org (crypto OR stablecoin OR tokenisation OR tokenization)"
+  ],
+  "report": {
+    "items": [
+      {
+        "section": "政策风向",
+        "title_cn": "CFTC命令Kalshi在纽约继续提供预测市场此前纽约州提起诉讼",
+        "source_title": "CFTC orders Kalshi to continue offering prediction markets in New York after state lawsuit",
+        "event_date": "2026-08-11",
+        "key_points": [
+          "CFTC动用“紧急权力”命令Kalshi在纽约继续运营，事因纽约州总检察长Letitia James在7月底提起诉讼。",
+          "CFTC主席Mike Selig表示，国会并不打算让衍生品交易所在各州博彩法的拼凑下受到监管，纽约无权监管州际金融市场。",
+          "纽约州指控Kalshi未获博彩委员会牌照、绕过缴税义务而违反州赌博法，案件移交联邦法院后动议尚待裁决。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "美国商品期货交易委员会（U.S. Commodity Futures Trading Commission，CFTC）周二宣布，已命令预测市场（prediction markets）运营商Kalshi在纽约继续运营，此前纽约州提起诉讼寻求关闭该平台。CFTC表示，在Kalshi请求帮助后，其动用“紧急权力”要求Kalshi继续运营，事因纽约州总检察长Letitia James于7月底对该公司提起诉讼。",
+          "这一行动标志着联邦商品监管机构与州监管机构在预测市场问题上最新冲突。各州认为，预测市场——至少是体育相关市场——属于赌博平台，侵犯了州法规；而CFTC坚称，由于所有预测市场都提供受联邦监管的掉期（swaps），其拥有管辖权。",
+          "CFTC主席Mike Selig在周二声明中重申这一立场，称“国会并不打算让衍生品交易所在各州博彩法的拼凑下受到监管。”他还表示，“纽约打算让事件合约衍生品在其州博彩法的铁幕下萎缩，在法院有机会作出最终裁决之前。”",
+          "Selig补充道，这些交易所提供金融工具并跨州运营，“它们将一州居民的出价与另一州居民的报价匹配，并将交易提交给清算所（clearinghouse），清算所为全国各地的客户交易提供支持。”他强调，“纽约无权监管这些州际金融市场。”",
+          "CFTC此前曾因纽约对预测市场的立场起诉纽约。纽约于7月31日起诉Kalshi，此前联邦法官驳回了Kalshi阻止该州提起诉讼的请求。纽约指控Kalshi通过提供体育预测市场违反州赌博法。",
+          "纽约州新闻稿称，“Kalshi未获得纽约州博彩委员会（Gaming Commission）牌照，绕过了像持牌赌场和移动体育赌博平台那样缴税的义务。”并指出，“赌博监管的税收收入资助公立学校、弱势青年的体育项目以及问题赌博教育和治疗。”",
+          "Kalshi将案件移交联邦法院，纽约则要求移回，相关动议正在等待法官裁决。CFTC此前也曾在密歇根州介入，试图帮助Kalshi在法官判决该州胜诉后继续运营；但Kalshi执法主管Robert Denault在社交媒体上表示，公司已解除密歇根法院要求的交易。"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/policy/2026/08/11/cftc-orders-kalshi-to-continue-offering-prediction-markets-in-new-york-after-state-lawsuit",
+        "published_at": "2026-08-11T22:28:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "俄罗斯批准比特币、以太坊和USDT交易但不包括XRP",
+        "source_title": "Russia Approves Trading of Bitcoin, Ethereum and USDT—But No XRP",
+        "event_date": "2026-08-11",
+        "key_points": [
+          "俄罗斯央行8月11日发布指令草案，拟允许非合格投资者通过每个中介每年购买至多30万卢布的加密货币。",
+          "公开交易名单仅包含比特币、以太坊和Tether USDT，XRP未在名单中。",
+          "合格投资者不受购买限制，但所有投资者须先通过风险测试。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "俄罗斯央行首次提出允许普通投资者在公开市场交易加密货币的框架。8月11日，央行发布一份指令草案，允许非合格投资者通过经纪人、加密货币交易所或管理公司购买数字资产，但设有严格的年度上限。草案同时列出了可公开交易的代币清单，并要求所有投资者在参与交易前通过风险测试。央行表示，相关安排旨在保护非合格投资者免受加密货币汇率急剧且不可预测的波动影响。",
+          "央行在另一份通知中表示：“我们正在为非合格投资者设置加密货币购买限额。通过每个中介——经纪人、加密货币交易所或管理公司——他们每年可以购买这些资产，限额为30万卢布。”指令正文第2条也写明：“通过经纪人在日历年内收购的数字货币总价值最大金额为30万卢布。”这相当于非合格投资者通过任一中介渠道的年购买额均被限定在这一水平。",
+          "草案点名三种代币可用于公开交易：比特币（Bitcoin）、以太坊（Ethereum）和Tether的USDT（Tether USDT）。央行将这一短名单与本月签署的一项法律挂钩，通知称：“交易组织者有权允许在组织化交易平台上公开流通的数字货币清单：比特币、以太坊、Tether USDT。”根据新的联邦数字货币法，一种代币的市值、平均日交易量以及在外国平台上至少五年的定价历史，决定其是否符合资格。",
+          "央行在解释名单时表示：“为了保护非合格投资者免受加密货币汇率急剧且不可预测的波动影响，只有最具流动性的加密货币才会向他们开放。”根据前述法律，代币需要满足市值、平均日交易量及五年定价历史等条件。目前，比特币、以太坊和USDT构成了这一名单的全部内容。",
+          "XRP由支付公司Ripple的创始人于2012年创建，目前未被列入批准名单。该代币看似符合上述标准，但多年来经历了监管问题——源于一项已和解的SEC对Ripple的诉讼——导致该代币在多家交易所下架后又重新上架，这可能是一个因素。XRP因此暂未被纳入公开交易清单。",
+          "合格投资者没有这些限制。央行通知称：“合格投资者将能够在交易所和场外市场不受限制地收购所有加密货币。”不过，无论身份如何，所有投资者在交易前都必须通过测试并熟悉相关风险。通知称：“所有投资者，无论其身份如何，都需要通过测试并熟悉投资加密资产的风险。”这意味着，即使不受购买额度约束，合格投资者也需完成相同的风险确认程序。",
+          "此举是央行此前向富裕投资者开放加密货币的举措的延续，同时正值Tether的角色受到审查——该稳定币发行方已冻结了与受制裁俄罗斯交易所相关的数百万USDT。俄罗斯央行将接受评论至8月24日，指令在其正式发布10天后生效，由行长Elvira Nabiullina签署。"
+        ],
+        "source_name": "Decrypt",
+        "url": "https://decrypt.co/375345/russia-approves-trading-bitcoin-ethereum-usdt-no-xrp",
+        "published_at": "2026-08-11T18:26:00+08:00",
+        "region": "俄罗斯",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "英国议员致信银行CEO质询加密账户拒绝问题",
+        "source_title": "UK Lawmakers Write to Bank CEOs Over Crypto Account Refusals",
+        "event_date": "2026-08-11",
+        "key_points": [
+          "英国议会跨党派加密资产小组致信各大银行CEO，要求解释对加密公司的政策。",
+          "信中警告，无法获得银行服务可能是英国加密业务增长的最大障碍之一。",
+          "该小组已启动调查，书面意见截止8月31日；FCA制度将于2027年10月强制生效。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "英国议会跨党派加密资产小组（Crypto and Digital Assets All-Party Parliamentary Group，APPG）联合主席已致信英国各大银行首席执行官，要求他们说明如何对待加密与数字资产公司。这封信于周二由工党议员Gurinder Singh Josan与前数字经济部长Lord Vaizey of Didcot发出。",
+          "信中写道，该小组听到“反复出现的案例，加密和数字资产公司在英国银行开设账户困难”，同时有报道称几家银行限制了加密相关支付。联合主席表示：“获得银行服务可能是英国加密和数字资产企业增长的最大障碍之一，并可能破坏英国即将推出的加密制度的成功。”他们还指出，有限的银行准入可能影响企业决定是否在英国投资。",
+          "这封信向每家银行提出六个问题：其政策是什么；是否目前服务加密公司，若没有，原因是什么；对加密相关交易施加哪些限制；哪些因素驱动这一做法；即将出台的制度是否会改变它；以及政府或监管机构能提供什么帮助。",
+          "Josan和Vaizey表示，他们接受银行负有防止金融犯罪和保护消费者的法律义务，但指出许多公司认为，决策应更多反映一家公司的个体风险状况，而非其所属行业。",
+          "Vaizey告诉《金融时报》，这些困难相当于经营企业中的“不必要的摩擦”，并被列为任何人在英国创办公司所面临的障碍之一。包括汇丰银行（HSBC）、Nationwide、NatWest、Santander和Starling在内的英国银行近年来限制与加密相关的支付。",
+          "英国加密资产商业委员会（UK Cryptoasset Business Council）1月的研究发现，银行阻止或延迟了约40%的向加密货币交易所的转账尝试。据《金融时报》报道，银行指出加密相关诈骗增多，以及零售客户因价格波动可能损失大笔资金的风险。",
+          "该报道称，汇丰、NatWest、Monzo和Nationwide将每月向加密交易所的转账上限设在5000至10000英镑之间，而Starling和Chase UK则完全禁止。加密损失不受金融服务补偿计划（Financial Services Compensation Scheme）保护。",
+          "英国财政部已经承认这一问题，经济秘书Lucy Rigby在3月告诉议会，在新制度下，政府“不希望”受FCA监管的公司仅仅因为所属行业而面临银行的限制。",
+          "这封信是在APPG于7月21日启动的银行准入调查之后发出的，该调查正在接受书面证据，截止日期为8月31日，然后向政府报告。联合主席表示，这封信无意预判调查结果。FCA在6月最终确定了该行业规则，该制度将于2027年10月强制生效。",
+          "加密“去银行化”在其他市场也引发争议，美国公司指责一场他们称之为“Operation Chokepoint 2.0”的压力运动切断了他们的银行关系，Kraken从一家审计师那里赢得了2200万美元，称该审计师在此过程中抛弃了它。"
+        ],
+        "source_name": "Decrypt",
+        "url": "https://decrypt.co/375294/uk-lawmakers-write-to-bank-ceos-over-crypto-account-refusals",
+        "published_at": "2026-08-11T09:42:00+08:00",
+        "region": "英国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "巴西最大银行Itaú深化代币化布局携手OpenAssets参与ANBIMA试点",
+        "source_title": "Brazil's largest lender Itaú is stepping deeper into the tokenization",
+        "event_date": "2026-08-11",
+        "key_points": [
+          "Itaú Unibanco已与代币化基础设施公司OpenAssets合作，参与巴西金融与资本市场协会（ANBIMA）主导的代币化试点。",
+          "试点将测试固定收益证券和投资基金如何利用分布式账本技术发行、交易和结算，并研究银行和资产管理公司所需的规则与技术标准。",
+          "OpenAssets首席执行官Gabor Gurbacs表示，巴西是最具前瞻性的金融市场之一，是代币化从探索走向生产的自然之地。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "巴西最大银行Itaú正在进一步涉足代币化资产领域，加入该国越来越多金融巨头尝试将传统投资放在区块链轨道上的行列。Itaú Unibanco周二表示，已开始与数字资产基础设施提供商OpenAssets合作，参与由巴西金融与资本市场协会（ANBIMA，Brazilian Financial and Capital Markets Association）运行的代币化试点。",
+          "两家公司在新闻稿中表示，该项目将测试固定收益证券和投资基金如何利用分布式账本技术进行发行、交易和结算。工作还将研究银行和资产管理公司使用此类系统所需的规则和技术标准。Itaú的参与为这项努力增添了一些分量。这家总部位于圣保罗的银行是拉丁美洲最大的银行，根据S&P Global的数据，其总资产超过5620亿美元。",
+          "代币化已成为华尔街最青睐的区块链技术用例之一，银行和资产管理公司正在试验将债券、基金、私人信贷和股票放在数字账本上。花旗（Citi）估计，到2030年，随着金融资产转向基于区块链的系统，代币化证券可能发展成为一个5.5万亿美元的市场。",
+          "巴西已成为代币化的关键枢纽，相关举措已经远远超出了银行运行的试点范围。2025年7月，巴西信贷结构和证券化公司VERT Capital公布了在XDC Network上将多达10亿美元的债务和应收账款代币化的计划。巴西加密货币交易所Mercado Bitcoin也分享了在XRP Ledger上代币化2亿美元资产的计划，包括固定收益和股权工具。",
+          "最近，代币化触及了巴西经济中一个相当不同的角落：奶牛。巴拉那州的农民难以获得银行贷款，他们通过连接巴西B3交易所的基础设施将10头奶牛代币化，并将这些代币挂牌交易。",
+          "ANBIMA的这一举措并非Itaú首次涉足代币化。该银行是2023年被巴西中央银行选中参与Drex试点的机构之一，该试点测试了涉及代币化货币和资产的区块链交易。",
+          "OpenAssets首席执行官Gabor Gurbacs表示：“巴西一直是金融领域最具前瞻性的市场之一，是将代币化从探索推向生产的自然之地。”OpenAssets本身去年筹集了1000万美元，用于构建代币化基础设施。",
+          "该轮融资由专注于拉丁美洲的风投公司Valor Capital Group领投，参与投资者包括USDT稳定币发行方Tether以及Itaú Unibanco创始家族成员。",
+          "巴西已成为在受监管结构下将债券、信贷和其他金融资产上链的试验场。"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/business/2026/08/11/brazil-s-largest-lender-itau-is-stepping-deeper-into-the-tokenization",
+        "published_at": "2026-08-11T20:07:00+08:00",
+        "region": "巴西",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "MoneyGram将现金到加密货币Ramps引入Solana全球支付网络",
+        "source_title": "MoneyGram Brings Cash-to-Crypto Ramps to Solana’s Global Payments Network",
+        "event_date": "2026-08-11",
+        "key_points": [
+          "MoneyGram将现金到加密货币（cash-to-crypto）基础设施扩展至Solana，使网络上的钱包、交易所和开发者无需自建银行和零售连接即可接入其全球现金网络。",
+          "MoneyGram Ramps支持超过25个国家的现金存款，以及超过170个国家和地区的现金提取。",
+          "MoneyGram首席执行官Anthony Soohoo表示，将Ramps带到Solana是构建开放全球支付网络的又一步；公司于6月成为Solana网络验证者。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "MoneyGram正在将其现金到加密货币（cash-to-crypto）基础设施扩展至Solana，使该网络上的钱包、交易所和开发者能够接入支付公司的全球现金网络，而无需各自构建银行和零售连接。MoneyGram Ramps允许用户将现金转换为数字资产，或将加密货币持有转换为当地货币。现金存款在超过25个国家得到支持，取款则覆盖超过170个国家和地区。",
+          "该集成解决了区块链支付面临的一个实际障碍：在数字钱包与传统金融体系之间转移资金。加密应用可以在链上快速转移资产，但需要现金或当地货币的用户往往依赖单独的银行、交易所或支付服务来完成交易。MoneyGram实际上提供了这种“最后一英里”基础设施。基于Solana的钱包可以将用户连接到MoneyGram现有支付网络，而不是逐个国家建立自己的现金分发系统。",
+          "MoneyGram首席执行官Anthony Soohoo在声明中表示：“支付的未来建立在接入之上。将MoneyGram Ramps带到Solana是朝着构建真正开放的全球支付网络迈出的又一步。” Solana在稳定币（stablecoin）日益用于汇款、支付和跨境结算而非仅用于加密货币交易之际，获得了数字资产生态系统与实体支付基础设施之间更广泛的连接。对于开发者而言，更便捷的现金出入金可以使区块链应用对尚未持有加密货币的客户更有用。",
+          "例如，通过Solana钱包接收稳定币的用户，可以经MoneyGram网络将资产转换为当地货币，而无需首先将其转入中心化交易所。这在银行接入受限、国际转账昂贵或现金仍是日常商业重要部分的市场尤其重要。MoneyGram拥有大约6000万活跃客户，为区块链应用提供了既有的面向用户的网络，这难以由个别加密公司复制。",
+          "Solana还受益于与成熟支付公司的更深联系。MoneyGram于6月成为该网络的验证者，帮助处理和保障交易。Ramps的推出将这种关系从网络参与扩展到面向消费者的支付基础设施。稳定币网络的价值日益取决于代币到达钱包后用户能做什么。MoneyGram与Solana的集成增加了一个大型实体现金兑出网络，可能使稳定币转账在收款人仍需要当地货币的市场中更加实用。",
+          "Solana的推出建立在多年将MoneyGram传统转账业务与区块链基础设施连接的工作之上，而非用单一加密系统取代现有网络。2022年，MoneyGram与Stellar Development Foundation推出了一项服务，允许客户通过其零售网络在现金与Circle的USDC稳定币之间转换。这为兼容的加密钱包提供了数字美元的进出点。6月，公司宣布推出自有美元稳定币MGUSD。该代币由Stripe旗下稳定币基础设施公司Bridge发行，在Stellar网络上运行。MoneyGram还被列为Stripe主导的稳定币倡议Open USD的合作伙伴，该倡议采用财团模式，在参与公司之间分享收入。",
+          "这些项目表明MoneyGram并非仅依赖一条区块链。Stellar对其稳定币战略仍然重要，Solana现在获得了其Ramps基础设施的准入权。支持多个网络可能让公司服务获得最多采用的任何钱包和支付应用，而不是让其支付网络依赖单一链的成功。稳定币竞争正日益超越代币发行。金融科技公司、银行和支付提供商正在开发锚定美元的产品，但如果这些代币用于日常支付，分发和赎回仍然至关重要。",
+          "一种跨境移动成本低廉的稳定币，对于无法轻松将其转换为可使用的当地货币的收款人来说，效用仍然有限。MoneyGram现有现金网络提供了区块链原生公司往往缺乏的资产：与许多司法管辖区实体支付地点的既有连接。这为公司在数字资产中创造了不同角色。除了仅作为汇款提供商竞争外，MoneyGram还可以提供连接钱包、区块链、稳定币与仍部分以现金运营客户的基础设施。",
+          "Solana集成现在将由实际交易需求检验。钱包采用率、支持的数字资产数量以及现金与加密货币之间的转换成本将决定Ramps能否成为一个有意义的支付渠道。如果使用量增长，该模式可能使实体现金网络成为稳定币基础设施的重要部分，而不是区块链支付简单替代的东西。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/moneygram-brings-cash-to-crypto-ramps-to-solanas-global-payments-network/",
+        "published_at": "2026-08-11T16:55:00+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "纳斯达克收购LeveLMarkets推进代币化与全天候交易",
+        "source_title": "Nasdaq to Acquire LeveL Markets in Push Into Tokenized, Always-On Trading",
+        "event_date": "2026-08-12",
+        "key_points": [
+          "纳斯达克已达成协议收购LeveL Markets，后者是美国按交易量计第三大另类交易系统（ATS），每日处理数亿股交易，服务超过2500家客户。",
+          "收购后LeveL将并入纳斯达克新成立的Digital Liquidity Networks部门，该部门由Roland Chai领导。",
+          "财务条款未披露，交易尚待监管批准。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "纳斯达克（Nasdaq）已达成协议，收购LeveL Markets。LeveL Markets是美国按交易量计第三大另类交易系统（ATS），每日处理数亿股交易，服务超过2500家买方和卖方客户。该平台每日在超过7000个代码上执行交易，并与300多家机构买方公司合作。其2025年平均日交易量增长56%，这为纳斯达克提供了一个现成的机构执行网络，而非从零开始构建。",
+          "纳斯达克于2021年首次投资LeveL Markets。收购后，该场所将继续作为受美国金融业监管局（FINRA）监管的另类交易系统，现有管理团队保持不变。财务条款未披露，交易尚待监管批准。LeveL将成为纳斯达克新成立的数字流动性网络（Digital Liquidity Networks）部门的一部分，该部门由Roland Chai领导，他自今年早些时候起负责公司的数字资产战略。该部门整合了流动性平台、代币化能力和数字资产技术。",
+          "此次收购延续了纳斯达克将传统证券市场与基于区块链的基础设施连接起来的一系列举措。纳斯达克于2025年9月提议允许代币化证券与其传统股票一起在其交易所交易。1月更新的文件概述了一种结构，符合条件的股票和交易所交易产品可以代币化形式交易，由存托信托公司（DTC）负责代币化和基于区块链的结算，试点项目为期三年。3月，公司通过与加密货币交易所Kraken和代币化公司Backed的合作扩展了这项工作。这些公司正在开发旨在将传统股票与区块链网络连接起来的基础设施。",
+          "LeveL为该战略增加了机构流动性组成部分。代币化证券要想与成熟的股票市场竞争，仍需要深度订单簿、执行系统以及与专业交易公司的连接。将现有的另类交易系统纳入集团，可能使纳斯达克将区块链结算技术与已经处理大量传统证券的场所结合起来。纳斯达克将代币化视为一个市场基础设施机会，而不仅仅是加密产品。收购一个机构交易网络为其提供了流动性和客户关系，如果代币化股票和延长交易时间进入美国主流市场，这些关系可能变得有价值。",
+          "纳斯达克并非唯一为更长交易时间做准备的市场。芝加哥期权交易所（Cboe）和伦敦证券交易所正在推进延长交易计划，而纽约证券交易所正在开发一个独立平台，旨在支持24/7交易和代币化证券的链上结算。这一动向反映了投资者行为的变化。加密货币市场持续运行，而散户和国际投资者越来越期望在传统交易时段之外获得美国证券。",
+          "美国证券交易委员会（SEC）也已开始研究更长交易时间的运营和监管后果。该机构已定于9月17日举行圆桌会议，聚焦向美国股市24小时交易的过渡。将股票转向连续交易不仅仅需要让交易所通宵营业。清算、结算、市场监控、流动性提供和公司行动系统都必须在更长的时间窗口内运行。代币化可能有助于自动化部分基础设施，尽管监管机构仍需要确定基于区块链的结算如何适应现有证券规则。",
+          "与常规股票市场相比，代币化股票板块规模仍然较小，但其价值在过去一年中迅速扩大。根据市场数据，分布式价值已从2025年8月的约3.81亿美元增长逾六倍，至近23亿美元。这一增长正在吸引已经掌控服务机构投资者所需的交易、数据和清算关系的交易所运营商。他们的参与可能使代币化股票从加密原生平台转向受监管的市场基础设施。",
+          "纳斯达克的优势在于它可以将区块链技术与经纪商、资产管理公司和交易公司的现有关系连接起来。LeveL为该模式增加了另一个机构参与者网络。此次收购并不意味着代币化股票将立即成为美国股票交易的主要部分。但纳斯达克正在这些市场达到规模之前组装技术和流动性基础设施。如果代币化证券和全天候交易继续增长，LeveL可能作为纳斯达克传统执行业务与其新兴数字市场基础设施之间的桥梁而变得更有价值。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/nasdaq-to-acquire-level-markets-in-push-into-tokenized-always-on-trading/",
+        "published_at": "2026-08-12T01:00:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "eToro第二季度加密交易亏损总利润仍超预期",
+        "source_title": "EToro reports second quarter crypto loss even as total profit beats estimates",
+        "event_date": "2026-08-11",
+        "key_points": [
+          "eToro第二季度加密交易亏损720万美元，去年同期盈利3770万美元；加密资产收入同比下降约29%至13.5亿美元。",
+          "尽管调整后每股收益0.68美元高于预期的0.61美元，股价仍一度下跌约11%，随后进一步跌逾12%至29.80美元。",
+          "公司将以最高2.31亿美元收购美国券商TradeZero，预计2027年上半年完成，TradeZero近12个月收入约8000万美元。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "eToro（ETOR）是一家总部位于以色列特拉维夫的交易平台。根据其周二发布的2026年第二季度财报，该平台加密交易业务录得720万美元亏损，去年同期为盈利3770万美元。加密资产收入从19.1亿美元降至13.5亿美元，降幅约为29%。",
+          "财报显示，加密资产的收入成本为13.5亿美元，因此产生720万美元的亏损，而去年同期为收益3770万美元。eToro表示，公司正在开发链上永续合约，加密货币购买力功能“即将推出”。此外，该公司还在推进链上产品，并完成了多项加密相关交易。",
+          "平台上的加密活动已经明显降温：公司报告称，7月的加密交易量为140万笔，同比下降73%；平均每笔加密交易规模下降50%，至182美元。不过，整体净贡献同比上升9%，至2.29亿美元，主要由股票交易推动；资金账户数量增加18%，达到428万个。",
+          "财报显示，调整后稀释每股收益为0.68美元，高于分析师预期的0.61美元。尽管业绩超预期，eToro股价在公布后一度下跌约11%，随后数小时进一步下跌逾12%，报约29.80美元。同期，公司宣布推进链上产品、完成多项加密相关交易，并同意收购美国券商TradeZero。",
+          "eToro还宣布将以最高2.31亿美元的现金和股票收购美国券商TradeZero，预计交易将在2027年上半年完成，并需获得监管批准。TradeZero为用户提供免佣金的美国股票和期权交易，以及做空工具。",
+          "两家公司均未披露任何关于TradeZero的加密、区块链或代币化计划，因此目前这主要是一次美国经纪业务和分销的布局。",
+          "eToro表示，TradeZero在截至6月的12个月内创造了约8000万美元的收入。这是该公司今年签署的第三笔收购交易。"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/business/2026/08/11/digital-broker-etoro-reports-q2-crypto-revenue-dropped-120-compared-to-2025",
+        "published_at": "2026-08-11T18:12:00+08:00",
+        "region": "以色列",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "StrategyCEO公司今年将恢复比特币增持",
+        "source_title": "Strategy CEO says company will resume Bitcoin accumulation this year",
+        "event_date": "2026-08-11",
+        "key_points": [
+          "Strategy首席执行官Phong Le表示，公司计划在今年晚些时候恢复比特币增持。",
+          "今年以来，Strategy已买入约175，000枚比特币，卖出约7，000枚，净买入约为卖出量的25倍。",
+          "Strategy已从全球第二大机构比特币持有者跃升为最大持有者，并计划继续增持。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Strategy首席执行官Phong Le周一在接受FOX Business采访时表示，公司计划在今年晚些时候恢复比特币（BTC）增持。在此之前，Strategy因业务优先级的调整而出售了部分比特币持仓，这一举动引起了市场审视。",
+          "Le称，自今年年初以来，Strategy已购入约175，000枚比特币，同时卖出约7，000枚，使其成为重要的净买家。他说，买入量约为卖出量的“25倍”。他还补充道，Strategy已从全球第二大机构比特币持有者跃升为最大持有者。",
+          "“我们将在今年剩余时间内重新开始买入更多比特币。”Le在采访中说道。Strategy目前累计持有超过840，000枚比特币，但自5月以来已四次出售比特币，最近一次出售共计1，690枚。",
+          "该公司将近期出售所得用于支持优先股股息、股票回购和美元储备。尽管出售规模相对于其总持仓量较小，但Strategy因偏离其长期坚持的“永不卖出”比特币策略而面临审视。",
+          "这一转变凸显了Strategy作为一家上市公司所面临的各种相互冲突的需求，包括对普通股和优先股股东的义务，以及其比特币增持策略。与此同时，企业比特币储备模型正面临压力，因为较弱的市场条件挑战了推动其快速扩张的经济学。",
+          "根据BitcoinTreasuries.NET的数据，上市公司持有超过126万枚比特币，落后于交易所交易基金和其他基金，后者持有超过160万枚比特币。据Novaque Research称，从历史上看，该模型受益于一个融资周期。",
+          "这一周期中，比特币储备公司在交易时相对其比特币持仓价值有溢价，因此可以通过股权或债务筹集资金，并用所得购买更多比特币。然而，当公司交易价格低于其比特币持仓的净资产价值时，这个周期更难维持，因为筹集新资本对股东的稀释作用越来越大。"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/strategy-ceo-resume-bitcoin-accumulation-this-year",
+        "published_at": "2026-08-11T19:03:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "朝鲜如今依赖犯罪网络洗白被盗加密货币RUSI",
+        "source_title": "North Korea Now Leans on Crime Networks to Launder Stolen Crypto: RUSI",
+        "event_date": "-",
+        "key_points": [
+          "英国智库RUSI论文称，朝鲜在2024年1月至2025年9月间至少窃取28亿美元虚拟资产，并日益通过诈骗集团和有组织犯罪使用的洗钱网络转移资金。",
+          "论文作者Allison Owen和Noémi També关注资金变现环节，指出被盗币在转换前常发生所有权变更，第三方有时以折扣价直接买断。",
+          "资金提现依赖主要在菲律宾、印尼和中国招募的钱骡，参与者每次出售约7000美元稳定币以规避银行审查。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "英国国防与安全智库皇家联合军种研究所（Royal United Services Institute，RUSI）本月发布研究论文指出，朝鲜正越来越多地将被盗加密货币推入诈骗集团和有组织犯罪所使用的洗钱网络，从而模糊调查人员追踪的线索。论文称，朝鲜在2024年1月至2025年9月间至少窃取28亿美元虚拟资产，这些资金被假定用于支持其武器计划。",
+          "两位作者关注的是这些资金转换为现金的节点，而非其在去中心化服务中已有充分记录的流转路径。论文称，被盗货币在转换前经常发生所有权变更，第三方有时会以折扣价直接买断这些被盗币。一名调查人员告诉作者，当资金与“杀猪盘”式投资骗局的收益混合，或出现在与柬埔寨Huione Group等实体相关的地址时，便可推断出这种交接发生；美国司法部已于6月查封该集团的基础设施。",
+          "为研究提供数据的Elliptic认为，这种交接往往发生在比特币区块链上。在2025年2月Bybit遭遇黑客攻击后，ZeroShadow的事件响应人员发现，朝鲜依赖由洗钱者、场外交易柜台和点对点（peer-to-peer）交易者组成的网络，这些交易者通常是中国人，全天候运作。制造此次盗窃的朝鲜组织TraderTraitor利用中国有组织犯罪集团转移资金并交还现金。",
+          "论文向合规团队指出的问题在于，一旦朝鲜的收益进入犯罪生态系统，扩散融资的标记便难以与普通洗钱行为区分。变现过程中，负责提现的账户通常属于他人，钱骡主要在菲律宾、印度尼西亚和中国招募，这些地方的凭证价格低廉，可以批量购买并大规模开设账户。受访者表示，钱骡在得知自己实际为谁工作后，通常不愿继续参与。",
+          "资金转换以小笔进行，参与者每次在点对点市场上出售约7000美元的稳定币，低于触发银行审查的门槛；ZeroShadow则发现更大金额被拆分为3万美元的块，以便冻结“不会造成过大影响”。交易所层面还能观察到其他行为信号，例如使用Astrill VPN登录，以及洗钱者现在为解冻一笔被扣押交易而提交的50至70张支持工单。",
+          "法币很少通过简单的银行转账到达，场外交易经纪人的收益通常存入朝鲜控制的账户，使用中国银行发行的银联（UnionPay）卡。论文列出了多边制裁监测小组去年确认的19家中国银行，称这些银行被朝鲜及其代理人使用。就Bybit失窃的约15亿美元而言，95%流经去中心化服务，该小组报告称，到2025年9月，这笔资金已全部转换为法币或硬通货。",
+          "作者呼吁监管机构就交易所之间的代理关系发布指引，制定标准化的开户问卷，建立安全的情报共享渠道，并在支付消息中加入虚拟资产服务提供商（VASP）标识符，以便收款银行识别。对受害者而言，后果在Bybit的账目中清晰可见：该交易所周一宣布已起诉朝鲜并赢得冻结涉案资产的法院命令，目前已追回4840万美元，并另行冻结3050万美元，合计约占被盗金额的5%。"
+        ],
+        "source_name": "Decrypt",
+        "url": "https://decrypt.co/375305/north-korea-now-leans-on-crime-networks-to-launder-stolen-crypto-rusi",
+        "published_at": "2026-08-11T13:02:00+08:00",
+        "region": "英国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      }
+    ],
+    "notes": [
+      "所有选文均来自候选列表，未使用候选之外信息。",
+      "A013与A029涉及同一俄罗斯政策事件，选取信息更完整的A013。",
+      "A039与A035为同一英国议员事件，选取篇幅更长、细节更充分的A039。",
+      "所选文章均满足字符数要求，且避免价格预测软文和重复主题。"
+    ]
+  },
+  "factcheck": {
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      "政策风向 3 篇均来自同一地区：美国，建议加入美国或香港以外的正式监管动向",
+      "item 3 contains question-style future/unknown wording; ensure the source explicitly raises it",
+      "item 4 contains relative time wording; replace with exact date",
+      "item 5 contains question-style future/unknown wording; ensure the source explicitly raises it",
+      "item 6 contains relative time wording; replace with exact date",
+      "item 7 contains relative time wording; replace with exact date",
+      "item 8 contains relative time wording; replace with exact date",
+      "item 9 contains relative time wording; replace with exact date"
+    ]
+  },
+  "outputs": {
+    "docx": "reports/2026/加密货币观察_20260812.docx",
+    "manifest": "reports/2026/_manifests/加密货币观察_20260812.json"
+  }
+}
