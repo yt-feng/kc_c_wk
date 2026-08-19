@@ -1,0 +1,270 @@
+{
+  "generated_at": "2026-08-19T10:43:17+08:00",
+  "period": "2026-08-12 10:43 至 2026-08-19 10:43（北京时间，最近7天）",
+  "raw_count": 26,
+  "collection_warnings": [
+    "no candidates for query: cross chain oracle RWA infrastructure wallet staking rollup interoperability crypto",
+    "no candidates for query: crypto company raises acquires launches futures ETF tokenized fund stablecoin adoption",
+    "no candidates for query: site:blockworks.co (crypto OR bitcoin OR ethereum OR stablecoin OR tokenization OR digital assets)",
+    "no candidates for query: site:info.gov.hk (virtual asset OR crypto OR stablecoin OR tokenisation)"
+  ],
+  "report": {
+    "items": [
+      {
+        "section": "政策风向",
+        "title_cn": "SEC在CLARITY法案缺席之际提出新的加密货币规则",
+        "source_title": "SEC proposes new crypto rules in absence of CLARITY Act",
+        "event_date": "2026-08-18",
+        "key_points": [
+          "美国证券交易委员会（SEC）在国会未能通过市场结构法案并进入休会后，提出新规则，拟为涉及加密资产的特定投资合同建立“清晰且适合目的”的框架。",
+          "拟议规则为加密公司提供安全港，使代币不被视为“投资合同”，并允许在四年内发行至多500万美元、12个月内至多7500万美元的代币。",
+          "SEC主席Paul Atkins表示，立法仍是制定“面向未来”规则不可或缺的部分，并承诺继续支持国会将CLARITY法案送交特朗普总统签署。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "美国证券交易委员会（US Securities and Exchange Commission，SEC）在国会议员未能通过市场结构法案并进入为期一个月休会后，提出了可能影响加密货币行业的新规则。在周二的一份通知中，SEC表示，拟议规则旨在为“涉及加密资产的特定投资合同”建立“清晰且适合目的”的框架。据该监管机构称，这一“量身定制的证券发行制度”将允许实体筹集资本，同时保留投资者保护。",
+          "然而，该机构的规则并未包含针对基于加密资产的股票的“创新豁免”，而这一豁免此前预计也会宣布。值得注意的是，拟议规则是在参议院未能推进《数字资产市场清晰度法案》（Digital Asset Market Clarity Act，CLARITY）几天后提出的，该法案预计将明确联邦机构在监督和监管加密货币方面的角色。",
+          "SEC主席Paul Atkins在公告中表示：“立法仍然是制定‘面向未来’规则的必经之路，这些规则要足够持久，以保护我们今天所做的工作不被未来的流氓监管者推翻。”他说：“SEC已经并将继续支持国会将CLARITY法案送到特朗普总统的办公桌上。”",
+          "根据拟议规则，加密公司将获得一系列豁免，包括允许在四年内发行至多500万美元的代币，以及在12个月内发行至多7500万美元的代币。此外，还设有一项安全港条款，使加密货币免于被归类为“投资合同”。代币发行人需要提供财务报表，并须遵守持续的报告要求。",
+          "公众将在《联邦公报》公布后60天内对提案发表评论。SEC此次在缺乏国会立法的情况下提出规则，时间上早于CFTC原定于周四就加密货币、人工智能和预测市场举行的会议。CFTC表示，计划讨论“监管行动可以在哪些领域补充未来的国会立法”。",
+          "Atkins原定于周二在怀俄明区块链研讨会上发表演讲，但在SEC公告之际取消。白宫加密货币顾问Patrick Witt在该活动上表示，如果国会无法在CLARITY法案上取得进展，美国监管机构将“放开”对加密货币的监管。",
+          "关于CLARITY法案在新一届国会宣誓就职前的通过机会，参议院多数党领袖John Thune在8月州工作期开始前提交了一项终结辩论的动议，以便在9月中旬议员返回时审议该加密法案。8月休会后，参议员在11月大选前仅有14天会期。如果Thune和共和党议员在此之前无法获得全院投票，参议院在2027年新国会议员宣誓就职前还有22天会期。"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/us-sec-crypto-rules-clarity-act",
+        "published_at": "2026-08-18T22:24:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "韩国追查预测市场用户封禁Polymarket并启动刑事调查",
+        "source_title": "South Korea Hunts Down Prediction Market Users",
+        "event_date": "2026-08-18",
+        "key_points": [
+          "韩国广播、媒体和通信标准委员会于2026年8月18日命令国内互联网服务提供商封锁Polymarket，并将其归类为韩国法律下的非法赌博场所。",
+          "江原道警察厅6月5日启动韩国首例针对Polymarket用户的刑事调查，起因是6月3日地方选举相关合约交易量超过5200万美元。",
+          "韩国加入新加坡、法国等30多个限制Polymarket访问的司法管辖区；首尔法律专家警告可能对个人投注者采取进一步执法行动。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "韩国广播、媒体和通信标准委员会（Broadcasting， Media and Communications Standards Commission）于2026年8月18日投票决定，命令国内互联网服务提供商封锁对Polymarket的访问，并将该加密货币预测市场归类为韩国法律下的非法赌博场所。这一纠正行动结束了自5月开始的监管审查，并叠加在该国首起针对韩国平台用户的刑事调查之上。",
+          "委员会于2026年5月21日正式开启审查，此前发现韩国交易者使用Polygon上的USDC对Polymarket的二元事件合约进行了大量投注。7月6日，监管机构允许Polymarket提交书面辩护，但该窗口结束时，委员会未获得满意的解决方案。8月18日的命令要求互联网服务提供商限制连接Polymarket的域名。",
+          "委员会将封锁形容为“不可避免”，并指出Polymarket持续接受韩国交易者，而国内法律不允许将事件结果投注视为非法博彩以外的任何事物。据News1报道，根据韩国刑法第246条（Article 246 of the Criminal Act），在唯一获授权的Sports Toto之外赌博属于可起诉罪行，Sports Toto单注上限定为10万韩元（约71美元），违规者最高可被罚款1000万韩元（约7050美元）。",
+          "6月5日，江原道警察厅应国家警察厅的要求，对国内Polymarket用户启动了韩国首次调查。触发因素是6月3日举行的地方选举，相关选举合约吸引了超过5200万美元的交易量。交易活动高度集中于首尔市长竞选，以及一项关于总统李在明是否会在2026年卸任的合约。",
+          "调查人员正根据刑法第246条审查用户，该条款涵盖赌博和惯常赌博罪。韩国赌博法具有域外效力，这意味着公民即使在国外投注也可能被起诉。首尔法律专家警告，媒体监管机构已正式将平台归类为非法赌博，针对个人投注者的进一步执法行动很可能发生。",
+          "韩国加入了限制Polymarket访问的30多个司法管辖区，包括新加坡、法国、德国、意大利、波兰、葡萄牙、匈牙利、巴西、澳大利亚和印度尼西亚，据Crypto Briefing和CoinDesk的报道。每一次新的国家层面封锁，都会削减平台可及的用户基础。",
+          "禁令发布之际，Polymarket正寻求在新一轮10亿美元融资中获得200亿美元估值。其月度交易量在2026年3月首次突破100亿美元，达到105.7亿美元，较2月增长33%。江原道警方调查仍在进行中，Polymarket尚未公开评论委员会裁决。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/south-korea-hunts-down-prediction-market-users/",
+        "published_at": "2026-08-18T18:25:00+08:00",
+        "region": "韩国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "奥地利FMA对Bitpanda开出MiCA首例公开罚单",
+        "source_title": "Bitpanda Hit With Europe's First Published MiCA Penalty in Austria",
+        "event_date": "-",
+        "key_points": [
+          "奥地利金融市场管理局（FMA）对加密交易所Bitpanda处以7万欧元（约8.2万美元）罚款，为欧盟《加密资产市场法规》（MiCA）下首例公开披露的执法处罚。",
+          "违规内容包括未提前20个工作日提交白皮书、在白皮书发布前传播营销通讯，以及遗漏必要免责声明和联系方式，均属程序与披露问题。",
+          "该处罚公布之际，MiCA对加密资产服务提供商的过渡期正逐步收尾；布鲁塞尔预计将在2027年复审该框架，以加强对外国稳定币发行方的监督。"
+        ],
+        "lead_cn": "奥地利金融监管机构FMA对加密交易平台Bitpanda处以7万欧元罚款，这是欧盟《加密资产市场法规》（MiCA）下首例公开披露的执法处罚。",
+        "body_paragraphs": [
+          "奥地利金融市场管理局（Financial Market Authority，FMA）对加密交易所Bitpanda处以7万欧元（约合8.2万美元）罚款，这是欧盟《加密资产市场法规》（Markets in Crypto-Assets Regulation，MiCA）下首例公开披露的执法处罚。FMA表示，处罚源于Bitpanda多次违反这一覆盖数字资产的全面监管框架。此次处罚的对象是总部位于维也纳的加密交易平台。",
+          "FMA称，这家总部位于维也纳的公司未按规定在发布加密资产白皮书前至少20个工作日，将白皮书提交给监管机构，而这一时限要求是MiCA规则明确规定的。FMA还发现，Bitpanda在发布相关白皮书之前就传播了营销通讯，这种先后顺序为MiCA所禁止。",
+          "在另一条营销消息中，该公司遗漏了强制性免责声明，该声明应注明相关材料未经任何监管机构审查或批准、发行方对其内容负全部责任；同时，该消息中还缺少了要求提供的电话号码和电子邮件地址。FMA认定，这些行为均构成对MiCA信息披露要求的违反。",
+          "该案件通过奥地利金融市场监管法下的加速程序结案，FMA表示，这项处罚裁决具有法律最终性。这些违规属于程序性和披露性问题，而非对欺诈或投资者损失的指控。但此案值得注意，因为它是一个早期信号，显示出欧洲当局打算如何监督这一新制度。",
+          "MiCA的设计目标是在全部27个成员国中建立一套统一规则，其既定宗旨是保护投资者和维护加密市场的完整性。处罚公布之际，行业正处于应对MiCA逐步落地的过程之中。该框架于2024年底对加密资产服务提供商全面生效，并设置了过渡期，允许现有企业在获取授权期间继续运营。",
+          "这一宽限期正在整个欧盟范围逐步收尾，令那些尚未完全合规的企业承压。布鲁塞尔还预计将在2027年重新审议MiCA，拟议中的修订将强化对外国稳定币发行方的监督。Bitpanda是欧洲规模较大的加密平台之一，持有MiCA许可证，并已在欧洲大陆积极扩张。",
+          "这笔罚款金额相对适度，这表明FMA将这些疏漏视为合规失败，而非严重不当行为。"
+        ],
+        "source_name": "Decrypt",
+        "url": "https://decrypt.co/375841/bitpanda-europe-first-mica-penalty",
+        "published_at": "2026-08-18T10:31:00+08:00",
+        "region": "奥地利",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "怀俄明稳定币委员会迁移至ChainlinkCCIP以增强运营安全",
+        "source_title": "/ C O R R E C T I O N -- Wyoming Stable Token Commission /",
+        "event_date": "2026-08-18",
+        "key_points": [
+          "怀俄明州已全面从LayerZero迁移至Chainlink的跨链互操作协议（CCIP），作为其独家跨链基础设施，并签订多年合同。",
+          "经详尽安全审查，委员会认定CCIP是唯一能同时满足其严格安全与可靠性要求的解决方案。",
+          "FRNT目前已在Arbitrum、Avalanche、Base、Ethereum、Hedera、Optimism、Polygon和Solana八个公共区块链上可用。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "怀俄明稳定币委员会（Wyoming Stable Token Commission）作为Frontier Stable Token（FRNT）的发行方，宣布怀俄明州已完全从LayerZero迁移至Chainlink的跨链互操作协议（Cross-Chain Interoperability Protocol，CCIP），并将其作为独家跨链基础设施，双方签订多年合同。FRNT是美国首个主权稳定币，代表怀俄明州关键的公共部门金融基础设施。",
+          "鉴于其有义务为Frontier Stable Token维持最高水平的安全、治理与运营完整性，委员会在确定Chainlink CCIP是唯一能够满足其严格标准的解决方案后，做出了升级至CCIP的关键决定。该决定经过详尽安全审查，并得到Chainlink Labs全面运营安全与风险披露政策的支持。FRNT目前部署在Arbitrum、Avalanche、Base、Ethereum、Hedera、Optimism、Polygon和Solana八个公共区块链上，遵循委员会每季度的区块链选择流程。",
+          "委员会执行董事Anthony Apollo表示，委员会主动进行了安全审查，发现LayerZero在披露实践和运营安全方面存在担忧。在审查之后，委员会决定采用Chainlink CCIP，因为它是唯一在所有方面都满足其严格安全和可靠性要求的跨链基础设施。",
+          "Chainlink CCIP已成为跨区块链网络安全转移数字资产的领先基础设施。CCIP采用深度防御的安全方法，包括SOC 2 Type 2等机构认证、高度审计的代码库、强大的监控系统、内置风险控制，以及每个交易至少由16个独立节点运营商进行冗余验证的去中心化架构。",
+          "CCIP还建立在同一个去中心化预言机网络基础设施之上，该网络已支持超过33万亿美元的交易价值，保障了绝大多数去中心化金融（Decentralized Finance，DeFi），并被全球最大的金融机构和市场基础设施采用。",
+          "Apollo进一步表示，怀俄明州正在用Frontier Stable Token构建公共部门金融基础设施，这承担着保护依赖它的人民、企业和机构的责任。通过采用Chainlink CCIP，他们现在拥有高度安全的跨链基础设施，符合公民应得的标准。并补充说怀俄明州一直以数字资产创新领先，期待扩大Chainlink在州数字资产未来中的作用。",
+          "Chainlink联合创始人Sergey Nazarov表示，他对怀俄明州将Frontier Stable Token升级至Chainlink CCIP作为独家跨链基础设施感到兴奋。怀俄明州一直是数字资产政策和公共部门区块链应用的领导者，其选择CCIP表明政府和严肃机构需要安全、可靠、且能树立标准的基础设施来大规模跨链移动数字资产。",
+          "通过迁移至Chainlink CCIP，怀俄明州为其他州、政府实体、金融机构、支付公司、资产管理公司和稳定币发行方提供了蓝图，以在跨区块链部署受监管数字资产的同时满足严格的机构运营安全标准。怀俄明州稳定币委员会是怀俄明州政府内的主权实体，于2023年3月根据《怀俄明稳定币法案》成立，并于2026年1月通过发行FRNT完成了设计、开发和部署美国首个由公共实体发行的法币支持、全额储备稳定币的使命。",
+          "FRNT由美元和短期美国国债支持，这些储备产生的收入有助于多样化州财政收入，并支持怀俄明州学校基金项目。Chainlink是行业标准的预言机平台，将资本市场引入链上，并是支持大多数去中心化金融的市场领导者，其标准已被全球许多大型金融服务机构和领先Web3协议采用。"
+        ],
+        "source_name": "PRNewswire",
+        "url": "https://www.prnewswire.com/news-releases/wyoming-stable-token-commission-migrates-to-chainlink-ccip-for-enhanced-operational-security-302854502.html",
+        "published_at": "2026-08-19T10:00:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "丰田钱包直售代币化债券散户无需经纪账户",
+        "source_title": "Toyota Lets Retail Investors Buy Tokenized Bonds Without Brokerage Accounts",
+        "event_date": "2026-08-19",
+        "key_points": [
+          "丰田金融通过“丰田钱包”直接向散户发售一年期代币化债券，发行上限10亿日元，年利率1.72%，最低申购10万日元，无需开立证券账户。",
+          "本次发行采用自销结构，为丰田集团首个公开发行证券型代币债券，所有权记录使用BOOSTRY的ibet for Fin区块链基础设施。",
+          "与2025年3月首只代币化债券（年利率0.83%、经证券公司分销）相比，新债券在分销模式上做出改变，客户可从丰田支付生态直接进入投资产品。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "丰田金融正通过其应用“丰田钱包”向零售投资者直接发售最新一期代币化债券，测试大型消费品牌能否在不把证券公司放在自身与客户之间的情况下销售受监管投资。这款名为“丰田金融第二期证券型代币债券”（也称“TOYOTA钱包Tsumugu债券”）的申请于周二开放。",
+          "该债券为一年期品种，最大发行额为10亿日元（约680万美元），年利率为1.72%。投资者可以最低10万日元申购，无需开立证券账户，只需安装丰田钱包并使用丰田金融的专用申请页面。申请窗口开放至9月2日，若申购额超过发行上限，将通过抽签分配。债券计划于2026年10月27日发行，2027年10月27日到期。",
+          "虽然这些条款与常规公司债券相似，但分销模式不同：丰田金融自行销售该证券，而不是依靠证券公司管理投资者关系，因此该发行成为丰田集团首个采用自销结构的公开发行证券型代币债券。此外，由于丰田金融为本次发行搭建了单独的支付结构，投资者无需持有TS CUBIC信用卡即可参与。",
+          "所有权记录将通过BOOSTRY的“ibet for Fin”区块链基础设施管理。该技术使丰田金融可以将证券的发行与行政管理数字化，同时让底层投资仍被识别为公司债务。投资者并不是在购买加密货币，而是在向丰田金融出借资金，获取固定利息，并期望到期时由发行人履行义务返还本金。",
+          "代币化的主要区别在于所有权记录和投资者管理的处理方式，它可以减少对传统证券基础设施的依赖，同时让发行人对与债券持有人的沟通有更直接的控制。丰田还将该投资与自身消费生态连接起来：符合条件的投资者可以获得丰田钱包余额，并有可能赢得抽奖式福利，包括富士赛道门票，以及涉及雷克萨斯、GR车型和精选经典丰田车型的驾驶体验。购买丰田或雷克萨斯汽车的债券持有人在特定条件下还可能得到额外的丰田钱包奖励。",
+          "对投资者来说，更重要的实验并不是把债券放在区块链上，而是丰田金融从客户旅程中移除了传统经纪账户，直接通过它已掌控的应用分发投资。这意味着，客户可以从丰田现有的支付生态系统进入投资产品，而不必建立单独的证券关系。",
+          "丰田金融此前于2025年3月发行过一只10亿日元证券型代币债券，同样面向个人投资者，门槛为10万日元、期限一年，但由证券公司负责分销。那只债券的年利率为0.83%，新发行的利率为1.72%；它使用的是Progmat的数字资产基础设施，而不是BOOSTRY的ibet for Fin。区块链提供商的改变对投资者而言不如分销方式的改变重要，因为许多代币化证券仍要求买家使用传统经纪账户，即便后台使用区块链，客户体验也基本不变。",
+          "与丰田金融的传统融资活动相比，本次10亿日元的发行规模较小，而且债券带有转让限制，投资者不应假设代币化会创造出与上市股票或加密代币相连的连续二级市场流动性。在此案例中，区块链被更积极地用于改变分销和记录保存，而不是二级交易。这一模式如果被证明成功，可能带来更广泛的影响：消费公司已拥有庞大的数字受众，代币化证券或可帮助它们建立从客户到投资者的更直接路径，同时让受监管的金融基础设施在后台运行。丰田金融的第二只代币化债券由此检验了一个现实世界资产代币化的实际问题：投资者关心的是区块链本身，还是仅仅看重更容易获得熟悉的金融产品。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/toyota-lets-retail-investors-buy-tokenized-bonds-without-brokerage-accounts/",
+        "published_at": "2026-08-19T01:00:00+08:00",
+        "region": "日本",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "Cypherpunk推出Zcash矿场控制网络约18%算力",
+        "source_title": "Cypherpunk launches Zcash mining fleet controlling 18% of network hashrate",
+        "event_date": "2026-08-18",
+        "key_points": [
+          "Cypherpunk Technologies收购Winklevoss Capital旗下矿场，推出其所称的全球最大Zcash挖矿业务。",
+          "该矿场算力约4.2 GSol/s，约占Zcash网络当前算力的18%，交易价值3333万美元。",
+          "Cypherpunk现有ZEC持仓323，394枚，约占流通供应量1.9%，目标持有5%；ZEC过去12个月上涨超1300%。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Cypherpunk Technologies正在扩大其在Zcash生态系统中的足迹。在收购Winklevoss Capital旗下矿场后，该公司推出了其所称的全球最大Zcash挖矿业务，这标志着机构对隐私保护网络的兴趣日益浓厚。",
+          "该公司周二表示，通过一笔价值3333万美元的股权交易收购了该矿场。该挖矿业务已在美国各地设施上线，产出约4.2 GSol/s，相当于Zcash网络当前算力的约18%。若公司数据准确，该交易使一家上市公司持有Zcash挖矿产能的显著份额。",
+          "此次扩张使Cypherpunk在现有Zcash持仓基础上增添了挖矿业务。其当前持有323，394 ZEC，约占该加密货币流通供应量的1.9%。公司已设定目标，最终持有ZEC供应量的5%。",
+          "Cypherpunk表示，在当前市场条件下，Zcash挖矿相比比特币挖矿或AI数据中心工作负载具有更具吸引力的经济性。然而，这些经济性在很大程度上取决于ZEC价格、网络算力、挖矿难度和运营成本等因素。",
+          "此次推进发生在ZEC价格于2025年下半年大幅上涨之后，当时对隐私保护加密货币的重新兴趣推动该资产走高。这轮涨势让Zcash和其他隐私保护技术获得了更多关注，此前它们经历了多年相对平淡的市场兴趣。",
+          "尽管出现回调，Zcash（ZEC）过去12个月仍上涨超过1300%。",
+          "Zcash网络于7月28日完成Ironwood升级，引入新的屏蔽交易协议（shielded transaction protocol），以取代Orchard池并改善网络安全架构。",
+          "此次升级之前发现了一个影响Orchard的缺陷，该缺陷在特定条件下可能允许攻击者在屏蔽池内制造伪造ZEC而不被立即发现。虽然没有证据表明该漏洞已被利用，但未检测到的ZEC创建可能对加密货币供应的完整性构成风险，并凸显了隐私保护交易相关的安全挑战。"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/cypherpunk-zcash-mining-winklevoss-capital-zec",
+        "published_at": "2026-08-18T20:32:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "花旗构建比特币托管服务市场迈向24/7交易",
+        "source_title": "Citi Builds Bitcoin Custody as Markets Move Toward 24/7 Trading",
+        "event_date": "2026-08-18",
+        "key_points": [
+          "花旗计划于2026年晚些时候推出数字资产托管服务，从比特币开始，置于新平台Custody+。",
+          "Custody+将数字资产托管与实时资产服务、即时结算、流动性工具和人工智能驱动市场情报相结合，并纳入代币化存款基础设施。",
+          "花旗正参与多个代币化存款项目，包括与洲际交易所（ICE）合作、加入Swift试点以及参与The Clearing House网络，后者目标2027年上半年启动。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "花旗（Citi）计划于2026年晚些时候推出数字资产托管（digital asset custody）服务，从比特币开始，使机构客户能够在同一个更广泛的托管框架下接触传统证券和加密货币。此前，这家华尔街银行已披露今年推出原生加密托管的计划。最新公告为该扩张提供了更清晰的结构，将服务置于Custody+之内，这是花旗投资者服务（Citi Investor Services）为走向连续交易和更快结算的市场开发的新平台。比特币将是托管服务上线时支持的第一种数字资产。花旗未提供具体上线日期，也未说明后续可能增加哪些加密货币。",
+          "对机构客户而言，吸引力更多在于与一家成熟的全球托管人整合传统与数字资产，而不是获得另一种持有比特币的方式。进入加密货币的资产管理公司和其他金融机构，往往需要适应现有合规、报告和运营系统的托管安排，而不是依赖单独的加密原生服务商。花旗表示，该服务正基于其通用数字资产架构构建，使其能够将加密托管与正在开发的其他代币化和结算产品连接起来。",
+          "Custody+围绕日益在传统结算时间之外运作的市场设计。该平台将数字资产托管与实时资产服务、即时结算能力、流动性工具和人工智能（AI）驱动的市场情报相结合。花旗还将其代币化存款（tokenized deposits）基础设施纳入该平台。花旗已允许代币化存款在选定市场全天候近即时移动，使机构客户在传统支付窗口之外转移受监管银行资金有了另一种方式。",
+          "如果金融市场继续走向24/7交易，将这些能力与托管放在一起可能变得越来越重要。如果现金流动、抵押品转移和结算仍限于银行工作时间，更快的交易创造的价值有限。花旗实际上正在建设旨在连接这些功能的基础设施。加密托管处理数字资产，代币化存款提供基于银行的结算工具，实时服务减少交易与交易后处理之间的运营差距。",
+          "花旗在2026年全年加速了数字资产工作。1月，该行表示正与洲际交易所（Intercontinental Exchange，ICE）合作，在ICE清算所支持代币化存款，将基于区块链的银行资金与机构市场基础设施连接起来。7月，花旗加入了一项涉及代币化存款用于24/7跨境支付的Swift试点。该项目探索银行能否不完全依赖传统支付时间表在跨境移动代币化商业银行资金。",
+          "花旗还参与通过The Clearing House计划推出的代币化存款网络，该项目目标在2027年上半年启动。这些举措共同显示，花旗专注于受监管形式的数字金融，而非围绕投机性代币发行构建产品。比特币托管让该银行接触一种成熟的加密货币，而代币化存款则使支付和结算活动保持在银行体系内。这种组合对希望使用基于区块链的基础设施但又不愿用私人发行的稳定币取代银行存款的机构可能尤其重要。",
+          "花旗的进入为这个历来严重依赖专业数字资产公司的市场增加了又一家大型传统托管机构。大型银行可能对已经使用其证券托管、现金管理和结算的机构具有优势。在同一运营框架内提供数字资产可以减少客户需要管理的对手方数量，并使加密资产更容易纳入既有的风险和报告流程。",
+          "然而，加密原生托管机构仍提供专业技术和更广泛的代币支持，而大型银行往往谨慎扩张，从有限范围的资产开始。花旗决定从比特币开始反映了这种方法。因此，竞争考验将在于花旗以多快速度超越其初始发布，以及客户是否将Custody+用作集成平台，而不只是另一种比特币托管选项。",
+          "如果机构市场继续走向代币化证券和全天候结算，仅靠托管本身不会决定哪些服务商获得市场份额。能够在单一受监管系统内连接资产、现金、抵押品和结算的银行可能拥有更强优势，花旗正围绕这一模式构建Custody+。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/citi-builds-bitcoin-custody-as-markets-move-toward-24-7-trading/",
+        "published_at": "2026-08-18T18:32:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "加密货币并购区块链行业趋势",
+        "source_title": "Crypto Mergers and Acquisitions: Trends in the Blockchain Industry",
+        "event_date": "2026-08-18",
+        "key_points": [
+          "PitchBook数据显示，2025年加密货币并购交易达86亿美元，涉及267笔交易，约为2024年21.7亿美元的四倍。",
+          "Coinbase以29亿美元现金加股票完成对Deribit的收购，据PitchBook和Architect Partners，这是有记录以来最大的已完成加密收购。",
+          "传统金融公司正越来越多地收购加密公司，以更快进入数字资产市场，而不是自建基础设施。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "2025年，加密货币并购（Crypto Mergers and Acquisitions，M&A）活动创下历史新高。PitchBook数据显示，全年完成267笔交易，总额约86亿美元，较2024年的21.7亿美元增长近四倍。Architect Partners采用更广泛的公开披露交易统计口径，报告总交易额达370亿美元，超出分析师约300亿美元的预期，同比增长七倍；交易数量同比上升74%至356笔，其中39笔交易规模超过1亿美元。",
+          "推动交易激增的因素包括监管环境的改善。美国“GENIUS法案”（GENIUS Act）为稳定币（stablecoin）发行人制定了监督标准，帮助收购方评估目标公司的合规状况；欧洲《加密资产市场法规》（Markets in Crypto-Assets Regulation，MiCA）在27个欧盟成员国统一了加密资产服务商规则，降低了跨境交易的法律不确定性。公司普遍采取“买比建”（buy-versus-build）策略，以更快进入或扩展加密业务，传统金融公司也在越来越多地通过收购加密公司进入数字资产市场，而不是从零自建基础设施。",
+          "2025年有三笔交易在规模与战略意义上尤为突出。Coinbase以29亿美元完成对Deribit的收购——该平台是比特币（Bitcoin）和以太币（Ether）期权交易的主要场所——对价包括7亿美元现金及约1100万股A类普通股；据PitchBook和Architect Partners，这是有记录以来最大的已完成加密货币收购。Kraken以15亿美元收购期货平台NinjaTrader，增强其在受监管期货领域的存在。Ripple以12.5亿美元收购年清算量超3万亿美元的主经纪商Hidden Road。Stripe收购了Bridge和Privy以支持链上全球支付，Robinhood收购了Bitstamp和WonderFi以扩大合规交易环境。",
+          "Coinbase首席执行官Brian Armstrong后来对Bloomberg Television表示，公司“一直在寻找”额外的并购机会。加密并购咨询公司Areta联合创始人Karl-Martin Ahrend在接受DL News采访时表示，传统金融机构买家对稳定币和支付基础设施的兴趣最为浓厚。",
+          "监管驱动贯穿2025年。“GENIUS法案”为稳定币发行人设立了许可与储备要求，MiCA则统一了欧盟各成员国规则，减少了跨境交易阻力。SEC解决了对多家主要平台的重大执法行动。2025年，加密公司通过美国上市筹集34亿美元，包括Circle、Bullish、Figure和Gemini；据《金融时报》，全球至少有11次加密企业IPO，筹资约146亿美元。Kraken和托管商BitGo已提交2026年潜在上市申请。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/crypto-mergers-and-acquisitions-trends/",
+        "published_at": "2026-08-18T21:13:00+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "Kraken旗下Krak推出美国多资产借记卡Payward扩大金融服务布局",
+        "source_title": "Kraken’s Krak debuts US debit card as Payward broadens financial services push",
+        "event_date": "2026-08-18",
+        "key_points": [
+          "Kraken支付应用Krak在美国推出多资产借记卡，客户可使用加密货币和法币消费，并赚取最高2%的美元或比特币（BTC）现金回馈。",
+          "该卡由Lead Bank在Visa网络上发行，支持超过600种货币和资产，消费时以美元结算，单笔购买可从多个余额中扣款。",
+          "Payward联合CEO Arjun Sethi在Wyoming区块链研讨会上表示，公司正扩展至更多资产类别，并需要构建与摩根大通等传统金融机构“不太不同”的产品和服务。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Kraken旗下的支付应用Krak在美国推出多资产借记卡，允许客户使用加密货币和法币消费，同时赚取最高2%的美元或比特币（BTC）现金回馈。根据周二发布的公告，该卡支持超过600种货币和资产，持卡人的资产在销售点会被转换为美元。单笔购买可以从多个余额中扣款，用户可自行设定资产消费顺序。",
+          "此卡由Lead Bank在Visa网络上发行，并由Stripe Issuing提供技术支持，符合条件的美国客户可申请实体卡或虚拟卡。公司表示，现金回馈率取决于用户在Krak、Kraken及Kraken Pro上持有的平均资产。Krak将这张卡定位为信用型奖励计划的替代方案。",
+          "Krak委托Morning Consult对2，001名美国成年人进行的调查显示，42%的信用卡持卡人担心每月还清账单余额的问题，而60%的受访者表示，如果借记卡能提供奖励且无需负债，他们会转而使用借记卡。Kraken表示，自2025年12月在英国和欧洲经济区推出以来，其消费者支付应用已发行超过13.5万张多资产卡。",
+          "Payward正着眼于扩展其金融产品线。Kraken母公司联合CEO Arjun Sethi周二在Wyoming区块链研讨会上讨论了更广泛的战略，包括扩展至更多资产类别和金融服务。Sethi表示：“随着你开始扩展到多个资产类别，你通常会更不容易受到特定市场的影响。”他补充道，Payward已提供银行服务，并将代币化描述为公司扩大金融产品“很大一部分”的努力。",
+          "Sethi还将公司的雄心与传统大型金融机构进行比较，称公司需要构建“与摩根大通或金融机构不太不同”的产品和服务。他的言论发表之际，大型加密货币交易所正将业务拓展至现货加密货币交易之外，Coinbase等机构已扩展至股票、衍生品、预测市场、代币化资产和IPO前产品。",
+          "另外，Kraken周二还面向欧洲经济区（EEA）客户推出了超过7，000只美国上市股票的交易服务。"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/krakens-krak-launches-us-debit-card-as-payward-broadens-financial-services-push",
+        "published_at": "2026-08-18T18:39:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      }
+    ],
+    "notes": [
+      "政策风向覆盖美国、韩国、奥地利三地，满足至少一篇美国且地区分散；行业前沿聚焦跨链与RWA；市场动态选择矿业并购与银行托管；意见领袖均包含可引用的直接观点。"
+    ]
+  },
+  "factcheck": {
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      "政策风向 3 篇均来自同一地区：美国，建议加入美国或香港以外的正式监管动向",
+      "item 2 contains question-style future/unknown wording; ensure the source explicitly raises it",
+      "item 5 contains question-style future/unknown wording; ensure the source explicitly raises it",
+      "item 7 contains question-style future/unknown wording; ensure the source explicitly raises it",
+      "item 7 contains relative time wording; replace with exact date"
+    ]
+  },
+  "outputs": {
+    "docx": "reports/2026/加密货币观察_20260819.docx",
+    "manifest": "reports/2026/_manifests/加密货币观察_20260819.json"
+  }
+}
