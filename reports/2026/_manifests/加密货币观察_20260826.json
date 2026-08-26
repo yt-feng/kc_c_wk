@@ -1,0 +1,288 @@
+{
+  "generated_at": "2026-08-26T10:51:30+08:00",
+  "period": "2026-08-19 10:51 至 2026-08-26 10:51（北京时间，最近7天）",
+  "raw_count": 40,
+  "collection_warnings": [
+    "no candidates for query: Hong Kong SFC HKMA virtual asset stablecoin tokenised investment product regulation",
+    "no candidates for query: Bank of England FCA tokenisation stablecoin consultation digital securities",
+    "no candidates for query: cross chain oracle RWA infrastructure wallet staking rollup interoperability crypto",
+    "no candidates for query: crypto acquisition funding IPO futures CME stablecoin revenue tokenized securities",
+    "no candidates for query: site:blockworks.co (crypto OR bitcoin OR ethereum OR stablecoin OR tokenization OR digital assets)",
+    "no candidates for query: site:info.gov.hk (virtual asset OR crypto OR stablecoin OR tokenisation)",
+    "no candidates for query: site:bis.org (crypto OR stablecoin OR tokenisation OR tokenization)",
+    "no candidates for query: site:esma.europa.eu (crypto OR MiCA OR CASP OR stablecoin)"
+  ],
+  "report": {
+    "items": [
+      {
+        "section": "政策风向",
+        "title_cn": "美国“OperationEconomicOutcast”制裁行动直接瞄准伊朗加密行业",
+        "source_title": "US Sanctions Target Iran’s Crypto Sector Directly in “Operation Economic Outcast”",
+        "event_date": "-",
+        "key_points": [
+          "美国财政部首次将伊朗加密货币行业列为“Operation Economic Outcast”行动的制裁目标，加密货币成为伊朗五个受制裁经济部门之一。",
+          "OFAC在近60项指定中指认一家阿联酋经纪商，称其转移超过1亿美元与伊朗石油销售有关的加密货币，并指认一名数字资产盗窃网络操作员。",
+          "Chainalysis数据显示，伊朗加密生态系统2025年规模超77.8亿美元，与IRGC相关的钱包收到超30亿美元。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "美国财政部已将伊朗加密货币行业列为直接制裁目标，这是其首次将数字资产纳入此类行动。周一启动的“Operation Economic Outcast”行动将加密货币与黄金、技术、航空和航运并列，使伊朗五个经济部门面临外国资产控制办公室（Office of Foreign Assets Control，OFAC）的制裁权力。OFAC现在可以制裁任何在该行业运营的外国人，无论其所在位置。",
+          "具体而言，OFAC指认了一家位于阿联酋的经纪商，称其转移了超过1亿美元与伊朗石油销售有关的加密货币；另有一名据称窃取数字资产的网络操作员也遭到指定。这些行动属于总计近60项指定的一部分，标志着过去一年针对伊朗交易所和钱包的零散行动，转变为一项可以随时拉黑该行业的常设权力。",
+          "行业判定是基于第13902号行政命令。财政部表示，该判定为OFAC提供了常设依据，可制裁任何在伊朗数字资产业运营的人，而无需每次重新立案。其声明的理由是：“伊朗政权越来越多地转向加密货币作为制裁逃避的工具，支持与伊斯兰革命卫队（IRGC）和伊朗政权内部人士有关的交易。”该判定不会自动拉黑所有伊朗加密公司或冻结所有涉伊活动，而是扩大执法口径，为OFAC设立了未来可依循的制裁类别。",
+          "财政部指认了阿联酋的乌克兰国民Ivan Obukhov，他作为影子船队经纪人，自2023年以来处理了超过1亿美元的加密货币支付，以促进伊斯兰革命卫队圣城旅（IRGC-Qods Force）的石油销售。另一名网络操作员Arman Kahzadian因数字资产盗窃被指定，包括控制了一个持有逾3万美元比特币的钱包。上述1亿美元对应Obukhov的石油支付网络。",
+          "伊朗链上经济规模是华盛顿升级为行业级工具的背景。区块链分析公司Chainalysis的数据显示，伊朗加密生态系统2025年规模超过77.8亿美元，增长快于前一年，并围绕军事冲突和国内动荡出现活动高峰。与IRGC相关的钱包在2025年收到超过30亿美元，高于2024年的20亿美元，占第四季度伊朗加密地址接收总价值的约一半。",
+          "Chainalysis强调这些是下限数字，仅涵盖已与制裁清单关联的地址，实际足迹可能更大。稳定币（主要是Tether的USDT）在Tron链上承担了大部分交易，而非比特币，因为美元锚定代币在绕开银行系统的同时保持价值。这也使该行业容易受到打击：中心化稳定币发行者可冻结受制裁地址的代币，使其成为执法节点。Chainalysis在2026年加密犯罪报告中指出，伊朗利用这些渠道资助地区代理人，包括真主党、哈马斯和胡塞武装。",
+          "周一的行业判定是一年多升级的顶点。1月，OFAC制裁了Zedcex和Zedxion，这是伊朗特定制裁下首批加密交易所；6月，OFAC拉黑了Nobitex，财政部称其在2025年处理了伊朗超过一半的加密流入。4月，Tether冻结了约3.44亿美元与伊朗相关的USDT；7月，OFAC制裁伊朗央行四个加密钱包后，Tether再冻结约1.31亿美元，使央行关联钱包累计冻结约4.75亿美元。",
+          "本月早些时候，在“Economic Fury”行动中，OFAC制裁了Shelbit和Aban Tether，财政部称超过6.76亿美元从Shelbit关联钱包流向币安（Binance）。Aban Tether是伊朗交易所，与USDT发行者Tether无关。财政部今年早些时候表示，美国从伊朗的加密没收已接近5亿美元。周一的行动并未增加新的Tether冻结，而是改变了法律架构。",
+          "Bessent在新闻发布会上表示，他预计一家大型金融机构将于本周末前受到制裁，这将显示财政部打算如何使用其扩大的权力。他警告“没有人高于制裁”，拒绝设定合规期限，并补充“我们没有无限的耐心”。对于加密行业来说，伊朗风险正从逐个钱包的具体问题，转向更广泛的常设风险类别。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/us-iran-crypto-sanctions-op-economic-outcast/",
+        "published_at": "2026-08-25T13:46:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "印度拟试点批发CBDC结算的代币化债券报道",
+        "source_title": "India plans first tokenized bonds using wholesale CBDC: Report",
+        "event_date": "-",
+        "key_points": [
+          "印度计划于9月开展首批代币化企业债券试点，使用央行数字货币（CBDC）进行区块链结算。",
+          "国有电力基础设施金融公司REC Limited将发行金额低于50亿印度卢比（约5700万美元）的债券，试点初期仅限特定投资者参与。",
+          "投资者需开立银行提供的批发CBDC钱包和证券存管机构开发的DEMAT 2.0电子证券钱包，印度央行和市场监管机构共同推进此事。"
+        ],
+        "lead_cn": "印度计划于9月推出首批代币化企业债券，作为使用央行数字货币（CBDC）进行区块链交易结算的试点项目的一部分。该消息由路透社报道，援引了三位直接知情的消息人士。",
+        "body_paragraphs": [
+          "据路透社报道，印度计划于今年9月推出其首批代币化企业债券，这是一项试点项目的一部分，该项目将使用央行数字货币（CBDC）对基于区块链的交易进行结算。路透社在周一援引三位直接知情的消息人士报道了这一计划，这些消息人士对相关计划有着第一手的了解。",
+          "国有电力基础设施金融公司REC Limited将负责发行这些代币化债券，其发行金额预计低于50亿印度卢比（约合5700万美元）。该试点项目最初将仅向特定投资者群体开放，并可能在9月于孟买举行的年度金融科技活动上正式公布。",
+          "路透社引用其中一位消息人士的话称，印度央行数字货币将用于购买这批代币化债券。参与该试点的投资者需要开立两个数字账户，其中包括一个由银行提供的批发CBDC钱包，以及一个新的电子证券钱包。这两个账户是投资者参与所必需的。",
+          "这个新的电子证券钱包名为“DEMAT 2.0”，由印度证券存管机构开发。该钱包将使用分布式账本技术记录债券持有量。它是投资者需要开立的两个数字账户之一。",
+          "据路透社报道，印度储备银行（RBI）和印度证券交易委员会（SEBI）正在共同推进该计划。RBI是印度的中央银行，SEBI是印度的证券市场监管机构。",
+          "这批代币化债券设有三个月的初始锁定期，各交易所预计将在12月前为代币化债券建立二级市场。",
+          "Cointelegraph联系了RBI、SEBI和REC，就上述计划寻求评论，但截至发稿时尚未收到任何回复。该报道由Helen Partz撰写，并由Robert Lakin编辑。"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/india-tokenized-bonds-digital-rupee",
+        "published_at": "2026-08-25T13:09:00+08:00",
+        "region": "印度",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "泰国公布比特币和以太坊ETF草案规则推进本地上市框架",
+        "source_title": "Thailand moves closer to Bitcoin, Ether ETFs with draft rules",
+        "event_date": "2026-08-25",
+        "key_points": [
+          "泰国SEC就本地比特币和以太坊ETF的草案规则以及外国数字资产托管人资格标准启动咨询。",
+          "初始阶段资产管理公司可设立追踪比特币或以太坊的被动ETF；拟议规则规定比特币和以太坊ETF将仅在泰国证券交易所交易。",
+          "修订后的方案要求加密ETF优先使用在岸托管人，公众意见征询截止至9月20日。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "泰国证券交易委员会（Securities and Exchange Commission，SEC）已将本地上市的现货比特币和以太坊交易所交易基金（exchange-traded funds，ETF）框架从提议原则推进至草案法规，同时修订了其对外国数字资产（digital asset，DA）托管人的处理方式。该监管机构周一表示，正就两份咨询文件征求反馈，其中一份为泰国加密ETF的草案规则，另一份则提出关于外国数字资产托管人资格的原则，这些托管人由投资数字资产的共同基金和私人基金聘请。",
+          "根据草案规则，初始阶段资产管理公司可设立被动型ETF，追踪比特币（Bitcoin，BTC）或以太坊（Ether，ETH），这两种是仅有的合格加密资产。每个ETF将只追踪一种加密资产，且拟议中的比特币和以太坊ETF将只在泰国证券交易所（Stock Exchange of Thailand，SET）挂牌交易。",
+          "在每一会计年度内，每只ETF须对其追踪的单一资产保持至少占净资产价值80%的平均净敞口。这份草案规则是四月对框架更广泛原则进行咨询后的后续文件，泰国SEC称，大多数受访者支持该框架，但就托管安排提供了反馈。",
+          "这些反馈促使监管机构修订了原本的提议方案。该框架是泰国成为面向机构的全球数字资产中心目标的一部分。拟议规则将允许共同基金和私人基金投资泰国本土的加密ETF，以及它们已被允许投资的外国加密ETF，但须遵守现有投资限额。",
+          "不过，在初始阶段，监管机构不允许推出与外国加密ETF挂钩的替代产品，包括追踪这些ETF的存托凭证。修订后的托管方案在初始阶段仍将保留在岸数字资产托管人作为主要服务提供方。",
+          "泰国SEC表示：“根据修订后的方案，加密ETF将继续主要被要求使用在岸数字资产托管人，而SEC在必要且适当的情况下，可依据当时情况允许使用合格的外国数字资产托管人。”在另一份托管人提案中，为投资数字资产的共同基金和私人基金提供服务的外国机构，须受到具有法律权力的监管机构监督。",
+          "这些外国机构还须遵守泰国SEC认为充分的监管和投资者资产保护标准。泰国SEC将接受公众对这两份咨询文件的意见，截止日期为9月20日。"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/thailand-bitcoin-ether-etfs-draft-rules",
+        "published_at": "2026-08-25T11:20:00+08:00",
+        "region": "泰国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "CosmosLabs敦促EVM链停机升级共享漏洞抽干三条链",
+        "source_title": "Cosmos Labs Urges EVM Chains To Halt As Shared Bug Drains Three Networks",
+        "event_date": "2026-08-25",
+        "key_points": [
+          "Cosmos Labs周二建议所有运行低于v0.6.2或v0.7.2版Cosmos EVM模块的公链立即停机并升级；该建议在补丁上线六天后发布，且未附安全公告。",
+          "共享漏洞导致MANTRA、TAC和KiiChain三条链于8月20日至22日遭攻击，KiiChain报告损失1.48亿KII，约合970万美元。",
+          "KiiChain指责Cosmos Labs披露不当，称三个上游缺陷中两个仍未修复；TAC仍停机，MANTRA已恢复。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Cosmos Labs于周二建议，任何运行低于v0.6.2或v0.7.2版本Cosmos EVM（以太坊虚拟机，Ethereum Virtual Machine，EVM）模块的公链“立即停止区块链并升级，以纳入这些版本中的补丁”。该帖子于纽约时间上午11时19分发布，并请未分享安全联系方式的团队写信至security@cosmoslabs.io“以接收关键更新”。",
+          "这些网络共享同一开源代码库，受影响数量未知。该建议在补丁上线六天后发布，而当时补丁未附带安全公告。运行该模块的MANTRA、TAC和KiiChain三条链在8月20日至22日遭攻击，其中两条仍冻结。Cosmos Labs尚未为该漏洞发布安全公告。",
+          "KiiChain唯一公布了损失数字。其8月24日报告称，攻击者8月22日盗走1.48亿KII，“针对不同目标重复18次相同手法”，按CoinGecko数据以当日21：00 UTC的0.0653美元计算约970万美元。网络在区块9，355，723停止，周二下午仍为该链尖。约8070万KII被冻结在攻击者地址，重启时转移至恢复钱包；6760万桥接至BNB Smart Chain，其中6460万卖出获161万BUSD；300万发往KuCoin，追回待确认。",
+          "报告称“漏洞在Cosmos代码中，而非KiiChain代码中”。三个上游缺陷需同时出现：质押预编译写回余额时下溢，另有两个KiiChain称未披露的缺陷。攻击者预计算合约地址，将其转为归属账户，再部署合约；合约继承归属状态，委托比可花费多一个wei，使镜像EVM余额下溢至约2^256。总供应量未放大，每次抽走以受害者余额为上限。任何启用归属账户的Cosmos EVM链均有相同暴露，“这就是MANTRA和TAC在同一周被同类攻击入侵的原因”。",
+          "KiiChain指责Cosmos Labs的披露方式造成被攻击窗口，称其8月19日在公共仓库发布一个缺陷修复，但“在运行该代码的链被私下告知并获得修补时间之前公开安全修复，等于把漏洞交到任何阅读提交的人手中”。Cosmos Labs“未向下游链提供提前通知，未将该版本标记为安全关键，直到周五8月21日才告知发生公开版本发布”。停机建议“直到周六8月22日才发布，当时三条链均已受损”。报告称：“补丁需要数天来审查、构建、测试并部署到验证者集合。停机只需数分钟。”",
+          "v0.6.2和v0.7.2的发布说明提到将测试部署移出模块账户的拉取请求，变更日志称：“合约创建会增加发送者的nonce，SetAccount会同时持久化nonce和余额，EVM提交路径可能不会写入模块账户的余额。”两个版本均称含“重要安全修复”并“破坏状态”，但无CVE或公告引用。KiiChain称上游修复不完整：“三个缺陷中有两个仍未修复，只有下溢已公开修补。任何仅应用官方上游修复且启用归属账户的Cosmos EVM链，仍暴露于另外两个缺陷。”",
+          "Cosmos Labs已两次通过X评论此事，未回应KiiChain的描述；其称事件报告将在“情况解决”后发布。TAC于8月22日23：58 UTC在区块24，671，475停机，截至周二仍停。该网络称攻击者“利用了Cosmos EVM预编译层的一个漏洞，并抽走了一个账户”，转移了2，985，651，403 TAC，约占流通供应量62%。团队称“没有创建代币，总供应量不变”，正与SEAL 911及交易所合作。TAC原定次日发布事后剖析和重启计划，但截至周二下午两者均未出现。",
+          "MANTRA是三条链中唯一恢复的。它最先于8月20日晚停机，状态页面显示区块17，449，398，并称区块生产于8月22日约05：30 UTC在v8.4.0二进制上恢复。MANTRA于8月24日将事件标记为解决，称攻击“影响了两个MANTRA管理的钱包”，“没有迹象表明用户、交易所或合作伙伴资金受影响”，未披露金额，也未发布承诺的事后剖析。仍在运行的模块链包括XRPL EVM侧链，其节点仓库锁定v0.6.1，低于Cosmos Labs下限，周二下午正常出块。Cosmos Labs的README将MANTRA、TAC与Ondo、Mezo、XRP侧链和Stable同列为模块用户。",
+          "KII在链停止后暴跌83%，周二下午报0.0595美元，日跌1.7%，周跌21%，市值1930万美元。TAC于8月23日触及0.000305美元，较8月22日抛售前低88%，周二涨43%，其去中心化金融（Decentralized Finance，DeFi）锁定总价值从763，256美元降至589，584美元。MANTRA报0.0042美元，周跌11.6%，链上锁定总价值（Total Value Locked，TVL）为537，154美元，与停机前大致持平。DefiLlama不追踪KiiChain。ATOM未受影响，因Cosmos Hub不运行EVM模块，报1.54美元，周涨8.8%。",
+          "这是共享Cosmos EVM代码库今年第二次被利用。1月，攻击者通过ICS20预编译从Saga的EVM网络盗走约700万美元，依据ASA-2026-002公告。该公告称代码于2024年7月在上游引入，15条链运行，6条未启用，一条链在其余链应用缓解前被利用，永久修复于3月在v0.6.0中发布。KiiChain称已在隔离本地网络重现三个当前修复中的两个，并暂时阻止归属账户创建，修复将在重启二进制中发布。KiiChain和TAC均未给出恢复上线日期。"
+        ],
+        "source_name": "The Defiant",
+        "url": "https://thedefiant.io/news/blockchains/cosmos-labs-urges-evm-chains-halt-shared-bug-drains-three-networks",
+        "published_at": "2026-08-25T23:28:00+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "WorldLibertyFinancial在CantonNetwork原生发行USD1稳定币",
+        "source_title": "World Liberty Financial launches USD1 natively on Canton Network",
+        "event_date": "2026-08-25",
+        "key_points": [
+          "World Liberty Financial 已在 Canton Network 上原生发行 USD1 稳定币，供机构结算代币化现实世界资产交易。",
+          "USD1 市值约 40.5 亿美元，为第六大稳定币，由 BitGo Bank & Trust 发行。",
+          "Canton 每月处理超 9 万亿美元代币化资产，本次集成紧随 Digital Asset 与美国前议长 Paul Ryan 相关项目的扩展计划。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "World Liberty Financial 是一个由特朗普家族支持的加密货币企业，这家企业于二零二四年正式推出。如今，这家公司已经决定在 Canton Network 这一区块链网络上以原生发行的方式推出其稳定币 USD1。这一举措使得机构客户能够使用 USD1 这一稳定币来对涉及代币化现实世界资产的各类交易进行结算。",
+          "根据该公司于本周二对外公布的一份公告，稳定币 USD1 能够充当交易环节中的现金腿，其适用场景包括衍生品抵押、机构借贷、资产发行以及赎回等。这一原生发行机制允许 USD1 与代币化资产在同一笔交易中实现同步结算，并且在此基础上，还可以利用 Canton 网络所提供的隐私保护与权限管理控制功能。",
+          "与此同时，根据行业数据显示，USD1 的市值已经超过了四十亿美元，这一数字使得它成功跻身第六大稳定币的行列之中。另据 DeFiLlama 提供的数据，USD1 的市值大约为四十点五亿美元，同样也让它保持在第六大稳定币的位次上面。而在发行方面，据 World Liberty Financial 透露，USD1 是由 BitGo Bank & Trust 发行的，这家机构不仅管理着 USD1 的储备资产，还负责处理铸造和赎回等业务流程。",
+          "USD1 于二零二五年三月首次亮相，其储备资产包括短期美国国债、政府货币市场基金和美元存款，这些储备构成了 USD1 的支持基础。World Liberty Financial 本身则是一个由特朗普家族支持的加密货币项目，该项目是在二零二四年的时候正式推出的。",
+          "此外，Canton 是一个专门面向机构金融这一特定领域而设计的区块链，它在属性上具备公共性和无需许可的特点。根据该网络官方所给出的信息，每个月经由它处理并发行的代币化资产总额超过九万亿美元，同时每天都有超过三千五百亿美元的链上美国国债在网络上流动。",
+          "本次集成是继上周另一项 Canton 扩展之后的最新进展。就在上周，Digital Asset 与美国前众议院议长 Paul Ryan 所领导的 American Idea Foundation 共同对外宣布了一项计划，该计划打算从二零二七年开始在三个美国州试点运行一个基于 Canton 的系统，这套系统将会被用来分发由州政府管理的各项福利。"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/world-liberty-financial-launches-usd1-natively-on-canton-network",
+        "published_at": "2026-08-25T21:36:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "Multipli公募指南已承诺金额与重要意义",
+        "source_title": "Multipli Public Sale Guide: How Much Has Been Committed and Why It Matters",
+        "event_date": "2026-08-26",
+        "key_points": [
+          "Multipli于2026年8月17日启动$MULT社区销售，目标募资2250万美元，设置两档完全稀释估值（FDV）定价。",
+          "奖励持有者（含tORB和Keyring ORB参与者）可享受1亿美元FDV的优惠价，并保证获得最低5000 USDC的配额。",
+          "Multipli累计融资2150万美元，包括由Pantera Capital领投的2000万美元轮次，并管理超过4亿美元的RWA资产。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Multipli于2026年8月17日启动$MULT社区销售，该RWA收益协议设定的公开募资目标为2250万美元，采用分层定价结构。协议累计融资2150万美元，其中包括由Pantera Capital领投、Spartan Group、Sequoia Capital和Elevation Capital参投的2000万美元轮次，以及通过Base Ecosystem Fund获得的Coinbase Ventures战略投资和来自Brine Fi的资金重新分配。该协议目前管理超过4亿美元的RWA资产。",
+          "Coinbase Ventures于2026年6月通过Base Ecosystem Fund加入股东名单。该投资发生在由Pantera Capital领投的2000万美元轮次之后，Spartan Group、Sequoia Capital和Elevation Capital也参与了该轮。Multipli将此次社区销售描述为其首次面向零售参与者的直接代币发行。本指南涵盖销售结构、定价层级和归属条款，并考察承诺水平对第四季度RWA更广泛采用的信号意义。",
+          "此次销售遵循官方博客概述的三阶段时间表。预开放窗口于2026年8月7日至8月14日运行。活跃承诺阶段于8月17日开启，并于2026年8月27日关闭。根据延长的时间表，结算和完成流程将持续至2026年8月27日。参与者通过claim.multipli.fi连接钱包访问销售页面，付款仅接受USDC或USDT稳定币。",
+          "销售采用两个独立的完全稀释估值定价层级。标准访问参与者按2.5亿美元FDV基准价购买。生态系统奖励持有者则享有1亿美元FDV的优惠价。三类奖励持有者有资格获得1亿美元FDV优惠层级：tORB持有者以优惠价获得最高5000 USDC的配额；Keyring ORB和平台奖励持有者获得最低5000 USDC的保证配额。CryptoRank数据显示，公开销售目标为2250万美元总募资额。",
+          "协议在开放窗口期间未披露实时承诺总额。最终数字可能在结算阶段于9月1日结束后浮出水面。选择归属路径的参与者无需预付成本即可获得代币。归属结构包括一年悬崖期，之后每月$MULT分配持续三年。选择归属选项的平台奖励持有者还会在TGE当日获得空投。Keyring ORB持有者也面临类似选择，可购买或归属其全部配额。",
+          "Multipli在第一季奖励计划中分发了3.592亿个ORB。ORB到$MULT代币的转换比率尚未公开宣布。该比率将决定通过有机方式获得奖励的参与者的实际代币价格。该协议博客将社区描述为“在多个熊市中坚守阵地”。1亿美元与2.5亿美元FDV层级之间的差距，使符合条件的奖励持有者获得较标准估值60%的折扣。",
+          "Multipli作为稳定币和代币化现实世界资产的收益基础设施协议运行。用户存入USDC、USDT或包装比特币，并获得产生收益的xTokens。协议将存款路由至机构策略提供商，包括Nomura和Fasanara Capital。根据Whale Market数据，稳定币历史收益率在10%至15% APY之间。比特币存款通过delta中性机构策略产生最高8% APY。该协议还提供rwaUSD，一种用于以抵押资产借款的信用背书稳定币。",
+          "Multipli的首席技术官Bhavesh Praveen曾表示，“区块链改变了这种成本结构”，“通过智能合约，代码成为结算层”。这些引言应归属于原始采访或来源，而非Coinbase Ventures公告。该协议目前在Ethereum、Base、INK和Monad上管理超过4亿美元的RWA资产。安全基础设施包括来自SLOWMIST、ChainRisk和Shieldify Security的10项外部审计。RWA.xyz追踪数据显示，代币化RWA行业显著增长，2026年7月总市值达335亿美元。",
+          "伦敦Lloyd's的保险承保覆盖平台上符合条件的抵押品不利情景。该机构保险层在DeFi收益协议的这一发展阶段并不常见。$MULT社区销售仅接受来自经过验证钱包持有者的稳定币支付。Multipli尚未公开披露此次发行的任何SEC注册或豁免备案。代币化RWA行业在拟议的《Clarity Act》下仍受不断演变的分类标准约束。参与者应在投入资金前就司法辖区资格进行独立尽职调查。",
+          "承诺阶段于2026年8月27日关闭，根据延长的时间表，结算也在8月27日完成。Multipli的目标是到2026年底实现10亿美元TVL和5亿美元活跃借款。TGE日期尚未确认，但归属结构表明即将启动。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/multipli-public-sale-guide/",
+        "published_at": "2026-08-26T00:59:00+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "GrayscaleZcash基金今日在NYSEArca开始交易ZEC当日下跌",
+        "source_title": "Grayscale’s Zcash Fund Started Trading on NYSE Arca Today – and ZEC Is Down on the Day",
+        "event_date": "2026-08-26",
+        "key_points": [
+          "Grayscale的Zcash基金周二开始在NYSE Arca交易，代码为ZCSH，但ZEC当日下跌3.5%至约780美元。",
+          "ZEC在8月21日约600美元基础上，于8月21日至24日期间升至850美元以上，ETF转换成为主导催化剂；上市后未现第二波上涨。",
+          "ZCSH收取每年2.5%的赞助费，以ZEC支付，招股书显示每份份额代表的ZEC将逐步减少。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Grayscale的Zcash基金周二开始在NYSE Arca交易，代码为ZCSH，完成了ZEC交易者数日来所定价的转换。截至周二晚间，Zcash报约780美元，24小时下跌3.5%，即便这项期待已久的上市已经生效。Grayscale确认交易于周二开始。这与上周的情形截然不同。",
+          "ZEC在8月21日从约600美元升至8月21日至24日期间的850美元以上，交易型开放式指数基金（ETF）转换成为主导的近端催化剂。周二上市到来，但并未出现第二波上涨。FinanceFeeds曾于8月20日报道Grayscale的第四次修订文件，并于8月22日报道ZEC突破800美元。周二完成了这一序列：文件、上涨、上市，随后未能延续。",
+          "根据其Form 8-A注册文件，该产品于8月24日从“Grayscale Zcash Trust (ZEC)”更名为“The Zcash ETF”。其股份获批在NYSE Arca以ZCSH代码上市。这并非新创设的ZEC资金池。该信托的前身可追溯至2017年10月，此前在场外交易。转换新增了持续申购赎回机制，旨在使股价更接近基金所持ZEC的价值。",
+          "转换前，该基金资产超过2.6亿美元，文件显示其持有约391，000至393，000枚ZEC。Jane Street Capital和Virtu Americas被列为授权参与者。Coinbase Custody Trust Company担任托管人，BNY Mellon担任转让代理和管理人。",
+          "周二更有意思的数字不是ZCSH的代码或开盘价，而是ZEC约780美元的价位。CoinGecko数据显示，该代币24小时下跌3.5%，最新市值约131.8亿美元。ZEC七日涨幅仍接近58%，即便周二催化剂未能引发又一次突破，上市前的大部分涨幅仍得以保持。这看起来像经典的催化剂耗尽形态。",
+          "ETF转换在上市日前早已可见：Grayscale多次提交修订文件，披露拟议的NYSE Arca上市，公布授权参与者，并最终补齐费用。等到ZCSH真正开盘交易时，投资者已有数个交易日可依据预期转换买入ZEC。因此，上市是确认了论点，而非引入新论点。",
+          "该结构还伴随一项异常显眼的成本。ZCSH收取相当于其资产净值（NAV）费用基数每年2.5%的赞助费。该费用每日累计，以ZEC形式支付给Grayscale。招股说明书明确说明，随着代币被转让以支付赞助费及其他适用费用，每份份额所代表的ZEC数量将逐步减少。这一区别在转换后更为重要。",
+          "ZCSH为投资者提供了券商账户通道、通过Coinbase进行的托管，以及申购赎回机制——该机制应能减少过去影响场外信托的大幅溢价和折价。但这一包装并未消除持有成本。投资者实际上是用自我托管和操作复杂性，换来对基金资产净值（NAV）每年2.5%的索取权。",
+          "就ZEC本身而言，周二的反应表明，市场此前已为这一可及性故事付出了代价。ETF如今已成为现实。问题已从ZCSH是否会上市，转向通过ZCSH的新增需求能否取代那部分在NYSE Arca首个交易日开始前将ZEC从约600美元推高至850美元以上的投机性需求。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/grayscales-zcash-fund-started-trading-on-nyse-arca-today-and-zec-is-down-on-the-day/",
+        "published_at": "2026-08-26T00:59:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "报告Strategy的660亿美元比特币机器依赖资本市场而非比特币价格",
+        "source_title": "Strategy’s $66B Bitcoin machine hinges on capital markets, not BTC price: Report",
+        "event_date": "2026-08-25",
+        "key_points": [
+          "Regime Intelligence报告称，Strategy的最大风险可能是失去资本市场准入，而非比特币崩盘；该公司需承担约17.6亿美元的年度义务。",
+          "压力测试显示，比特币需下跌约96%才会使Strategy的持仓无法覆盖可转换票据，但无论币价如何，公司都需支付年度优先股股息和利息。",
+          "Strategy今年已四次出售比特币；CEO Phong Le表示公司积累的比特币约为已售出量的25倍，并计划恢复购买。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Regime Intelligence在最新分析报告中称，Strategy（MSTR）的比特币储备所面临的最大风险可能不是加密货币市场崩盘，而是长期失去进入资本市场的机会。报告指出，与普遍看法相反，Strategy最脆弱之处并非比特币驱动的价格下跌或流动性事件，而是其对资本市场准入的持续依赖。",
+          "Strategy持有的840，447枚比特币的背后，是约220亿美元的债务和优先股索赔。与传统的比特币抵押保证金贷款不同，Strategy的债务没有与比特币挂钩的追加保证金通知，因此不会因比特币价格下跌而被强制清算。",
+          "Regime Intelligence的压力测试显示，比特币需要下跌约96%，Strategy的比特币持仓和储备才不足以覆盖其可转换票据。然而，风险随之转移到资产负债表的另一端：无论比特币价格如何，Strategy都必须继续为每年约17.6亿美元的优先股股息和利息提供资金。",
+          "报告作者Sherif Saad向Cointelegraph表示：“在我看来，MSTR的主要挑战是维持飞轮运转，以覆盖年度债务和优先股费用。”他认为，投资者应关注Strategy的优先股价格和现金储备，目前现金储备约为其年化费用的2.6倍。",
+          "Saad进一步指出，如果融资条件恶化，Strategy的比特币积累策略可能逆转，迫使公司更大程度依赖储备及出售比特币来履行义务。“在比特币长期下跌期间，如果MSTR的股价和市值与资产净值比（mNAV）同时下跌，问题会更加严重，”他表示，届时筹集资金将“逐渐变得更加困难或昂贵”。",
+          "随着比特币近期回升，Strategy的比特币持仓价值已达到667亿美元，高于公司633.6亿美元的成本基础。今年，Strategy已四次出售比特币，最近一次卖出1，690 BTC；这些出售所得被用于支付优先股股息、回购股票以及增加美元储备。",
+          "尽管执行董事长Michael Saylor多年来一直宣扬“永不卖出”的策略，Strategy仍在今年选择出售部分比特币，这令一些比特币爱好者感到意外。不过，Strategy首席执行官Phong Le提醒投资者，公司今年积累的比特币数量约为已售出数量的“25倍”；他本月初对CNBC表示，公司计划在今年晚些时候恢复购买比特币。"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/strategy-financing-risk-not-bitcoin-sales",
+        "published_at": "2026-08-25T17:47:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "前X产品主管称交易按钮即将推出",
+        "source_title": "Ex-X Product Chief Says Trade Buttons Coming",
+        "event_date": "2026-08-25",
+        "key_points": [
+          "前X产品主管Nikita Bier于8月5日卸任后表示，X帖子内嵌的加密货币图表将推出交易按钮，但他未给出时间表。",
+          "这一说法缺乏X官方背书；Cashtags的发布、路线图等公开记录完全来自Bier个人账号。",
+          "Bier曾在2月称X将允许直接从时间线交易股票和加密币，但九小时后更正称X不处理交易执行或充当经纪商。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Nikita Bier曾在X负责产品13个月，至8月5日卸任，现担任公司顾问。他在周二的回复中表示，X帖子内嵌的加密图表将推出交易按钮，但没有给出时间线。该说法并无企业背书，X关于Cashtags的公开记录——包括发布、路线图、适用范围及唯一的成交量数据——完全来自Bier个人账号。@X或@XMoney没有任何相关帖子，帮助中心没有对应页面，X Money产品站也没有提及加密或交易。",
+          "Bier在周二03：15 UTC回复一名用户，该用户开玩笑说“不再影子封禁CT”后牛市可能开始。Bier回复：“我确实建立了Cashtags，让人们可以将Solana和以太坊图表直接添加到帖子中——交易按钮即将推出。你甚至可以粘贴新铸造代币的合约地址。在我加入之前，X没有一项针对加密交易者的功能。”该帖已获得超过22.5万次浏览。",
+          "Bier此前也说过类似的话，之后又收窄范围。2月14日，他还在担任产品主管时写道，X“将在几周内推出多项功能，包括Smart Cashtags，使您能够直接从时间线交易股票和加密币。”九小时后他更正：“这是错误的。X不处理交易执行或充当经纪商，只是构建金融数据工具和链接。”",
+          "将一个订单交给外部经纪商的按钮与上述更正一致，而在X内部完成交易的按钮则不一致，公司内没有人明确说正在构建哪一种。Bier于8月5日宣布离职，称将“降级为自然状态：发帖者”，并继续担任顾问。他指定三名负责人接管产品领域——设计负责人Benji Taylor、核心产品工程负责人@singhai、移动工程负责人Jonah Katz——但没有单一继任者。他们都没有公开谈论过加密交易。他的个人简介现在写着“ex-head of product @x”。",
+          "四月份实际推出的是一个深层链接。Bier于4月14日在美国和加拿大iPhone上推出Cashtags：用户发帖或搜索股票代码或合约地址，X会给出匹配的股票或代币；点击后无需离开应用即可看到价格图表和相关帖子。The Defiant报道了这一上线，以及Bier三天后发布的10亿美元成交量估算，这是一个自报数字，未披露计算方法。",
+          "加拿大经纪商Wealthsimple在另一端，其机制描述直白。该公司在发布当天发布：“在@X上点击任何股票代码，都会将加拿大投资者直接引导至Wealthsimple进行交易。”一周后它告诉用户：“所有交易都在Wealthsimple平台上进行，X不共享任何客户数据。”",
+          "X未发布任何关于Cashtags覆盖哪些网络的信息，其他相关方说法不一。Bier周二帖子称支持“Solana和以太坊”。@solana账号4月19日称“@x首次推出Cashtags，使用由@saydialect、@helius、@JupiterExchange和@birdeye_data驱动的Solana代币”，并在四月生态综述中重复了仅Solana的表述。上线时The Defiant报道称支持Solana和Base上的合约地址。在四个指定数据提供商中，Birdeye除Solana外还覆盖以太坊和其他多个EVM链。",
+          "X Money于7月27日开始向美国Premium和Premium+订阅用户推出。其产品页面列出最高6.00%年收益率、3%返现、Visa卡、通过现金清扫计划提供最高1000万美元的FDIC保障，以及由Cross River提供的银行服务。页面上完全没有出现crypto、bitcoin、trade、trading、stock、brokerage和cashtag等词语。这与X在预测市场的动作形成鲜明对比：2025年6月X将Polymarket指定为官方预测市场合作伙伴时，公告由@X账号直接发出，Cashtags从未获得过这样的待遇。",
+          "Bier在周二帖子的结尾发表了市场观点：“牛市正在开始，因为财政部宣布回购债券并让美元贬值。”据CoinGecko数据，随后24小时加密货币总市值下跌3.2%，至2.68万亿美元。截至16：01 UTC，比特币报79，503美元，上涨0.3%；以太币下跌0.3%，报2，483美元；Solana上涨1.8%，报98.44美元。"
+        ],
+        "source_name": "The Defiant",
+        "url": "https://thedefiant.io/news/tradfi-and-fintech/ex-x-product-chief-says-trade-buttons-coming",
+        "published_at": "2026-08-25T17:09:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      }
+    ],
+    "notes": [
+      "已排除重复报道：A029与A026同主题，A023与A036同主题，A012与A028同主题，仅选其一。",
+      "已排除纯价格预测文章：A005、A009、A022、A035，避免非新闻内容。",
+      "已排除非加密财经内容：A010、A032，以及低信息量技术文档A000。",
+      "政策风向覆盖美国、印度、泰国，满足至少一篇美国且地区分散；行业前沿覆盖安全与稳定币基础设施；意见领袖均能写出具体人物观点。"
+    ]
+  },
+  "factcheck": {
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      "item 1 contains relative time wording; replace with exact date",
+      "item 2 contains relative time wording; replace with exact date",
+      "item 4 contains relative time wording; replace with exact date",
+      "item 5 contains relative time wording; replace with exact date",
+      "item 7 contains question-style future/unknown wording; ensure the source explicitly raises it",
+      "item 7 contains relative time wording; replace with exact date",
+      "item 8 contains relative time wording; replace with exact date",
+      "source diversity is low: only 3 unique domains"
+    ]
+  },
+  "outputs": {
+    "docx": "reports/2026/加密货币观察_20260826.docx",
+    "manifest": "reports/2026/_manifests/加密货币观察_20260826.json"
+  }
+}
