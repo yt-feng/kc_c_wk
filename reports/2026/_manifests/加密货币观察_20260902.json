@@ -1,0 +1,281 @@
+{
+  "generated_at": "2026-09-02T14:24:39+08:00",
+  "period": "2026-08-26 14:24 至 2026-09-02 14:24（北京时间，最近7天）",
+  "raw_count": 63,
+  "collection_warnings": [
+    "no candidates for query: Hong Kong SFC HKMA virtual asset stablecoin tokenised investment product regulation",
+    "no candidates for query: cross chain oracle RWA infrastructure wallet staking rollup interoperability crypto",
+    "no candidates for query: crypto acquisition funding IPO futures CME stablecoin revenue tokenized securities",
+    "no candidates for query: crypto company raises acquires launches futures ETF tokenized fund stablecoin adoption",
+    "no candidates for query: investor analyst CIO says DeFi stablecoin bitcoin crypto market structure",
+    "no candidates for query: site:blockworks.co (crypto OR bitcoin OR ethereum OR stablecoin OR tokenization OR digital assets)",
+    "no candidates for query: site:info.gov.hk (virtual asset OR crypto OR stablecoin OR tokenisation)",
+    "no candidates for query: site:esma.europa.eu (crypto OR MiCA OR CASP OR stablecoin)"
+  ],
+  "report": {
+    "items": [
+      {
+        "section": "政策风向",
+        "title_cn": "SEC拟更新1970年代过户代理规则以适应区块链时代",
+        "source_title": "SEC seeks to update its 1970s-era transfer agent rules for the blockchain age",
+        "event_date": "2026-09-01",
+        "key_points": [
+          "SEC提议更新其过户代理规则，以跟上区块链和代币化等新技术；相关规则自1970年代末提出以来未经重大更新。",
+          "根据一份情况说明书，规则变更将“在技术进步的背景下”对某些术语进行现代化，并更新涉及使用电子系统的规则。",
+          "SEC称，与代币化证券、分布式账本技术和智能合约互动的过户代理须管理区块链数据完整性等风险，采用AI或自动化技术者须确保适当控制和监督。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "美国证券交易委员会（SEC）正寻求更新其过户代理（transfer agent）规则，以跟上包括区块链（blockchain）和代币化（tokenization）在内的新技术的发展。SEC在周二提议对这些规则进行修改，并表示这些规则自1970年代末被提出以来未经过重大更新。",
+          "过户代理是证券的记录保管人，负责维护所有权记录并处理并购、股息分配等公司行为，同时也在清算和结算过程中发挥关键作用。此次规则修改出台之际，过户代理越来越多地在电子市场中运作，并与代币化证券和人工智能等新兴技术相伴而行。",
+          "SEC主席Paul Atkins在声明中表示：“这项提案将精简和现代化委员会的规则，以反映过户代理当前的过程和运作，包括在证券发行和股份转让中使用电子通信和区块链技术。”根据一份情况说明书，规则变更还会“在技术进步的背景下”对某些术语进行“现代化”，并更新关于使用电子系统的规则。",
+          "SEC在长达421页的规则变更中写道：“与代币化证券、分布式账本技术和智能合约互动的过户代理，必须日益管理与区块链数据完整性、代币化证券安全性及分布式账本运营模式相关的风险；采用人工智能或自动化技术的机构则必须确保适当的控制、对系统能力的准确陈述以及对自动化流程的有效监督。”",
+          "SEC称，一些市场参与者正在探索基于区块链的系统来维护证券所有权记录。Injective最近成为SEC注册的过户代理，该公司称，这使其能够以受监管的方式跟踪谁拥有代币化资产以及这些资产如何转手。包括Securitize和tZERO在内的其他公司也已是注册过户代理。",
+          "SEC委员Hester Peirce将在未来几周继续在该机构任职。她对在离任前看到这项规则变更感到高兴。Peirce说：“我很高兴支持这项提案，虽然我将无法在此协助，但我会在委员会最终敲定规则时从外部为委员会加油。”评论意见须在60天内提交。"
+        ],
+        "source_name": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-09-01-sec-seeks-update-1970s-era-transfer-agent-rules-for-blockchain-age-413278",
+        "published_at": "2026-09-01T16:48:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "新加坡考虑承认部分外国发行的稳定币",
+        "source_title": "Singapore weighs recognizing some foreign-issued stablecoins",
+        "event_date": "2026-09-01",
+        "key_points": [
+          "MAS正重新审视2023年将合格稳定币限于新加坡境内发行的决定，拟允许部分联合发行的跨境稳定币进入监管体系。",
+          "MAS提议，若相关风险得到充分缓解，由新加坡与外国发行人联合发行的稳定币可被标记为“MAS监管稳定币”（MAS-regulated stablecoins）。",
+          "MAS还考虑承认有限数量的在可比海外框架下受监管的外国发行稳定币，并正就相关立法修订征求意见至10月16日。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "新加坡金融管理局（Monetary Authority of Singapore，MAS）正考虑允许联合发行的跨境稳定币进入其监管制度，重新审视其此前将稳定币框架限定于国内发行的决定。MAS于周二启动公开咨询，覆盖为落实其稳定币框架而进行的立法修订，并纳入反映2023年以来发展情况的额外政策提议。MAS将接受公众对这些提案的评论，直至10月16日。",
+          "根据其中一项提议，由新加坡发行人与外国发行人联合发行的稳定币，在相关风险得到充分缓解后，可受该框架监管，并标注为“MAS监管稳定币”（MAS-regulated stablecoins）。此项提议是MAS为联合发行的代币提供受监管资格的具体路径。",
+          "MAS还在考虑承认有限数量的外国发行的稳定币，这些稳定币在可比的海外框架下受到监管，MAS称它们可能用于跨境批发交易。上述提案重新审视了MAS在2023年的立场，即合格稳定币必须仅在新加坡发行。2023年，MAS完成了一个针对在新加坡发行并与新加坡元或G10货币挂钩的单币种稳定币的监管框架。",
+          "当时，MAS给出的理由包括：难以与其他司法辖区建立监管等同和合作；在追踪混合稳定币来源上存在技术难题；以及难以判断海外储备是否足以满足赎回请求。",
+          "此次更广泛的咨询旨在通过对《支付服务法》（Payment Services Act，PSA）的修订来实施2023年稳定币框架。PSA是新加坡规范支付服务和运营商的主要法律。拟议的要求包括储备支持的价值稳定、资本、按面值赎回以及发行人信息披露。只有在该框架下获得许可的发行人才可以自称MAS监管稳定币发行人，并把“MAS监管稳定币”标识用于其代币。",
+          "MAS还提议禁止发行人为受监管的稳定币支付利息，并要求其进行压力测试，维持恢复和有序清盘计划。额外的消费者保护措施要求发行人在相应稳定币发行前，保护客户已支付的资金。这些建议属于本次公开咨询中的额外政策提议，与稳定币框架的立法修订一起征求意见。",
+          "对于未纳入专门框架的稳定币，MAS将继续按照现有规则将其视为数字支付代币处理。MAS将接受公众对这些提议的评论，直至10月16日。"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/singapore-weighs-foreign-regulated-stablecoins-mas-framework",
+        "published_at": "2026-09-01T10:55:00+08:00",
+        "region": "Singapore",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "俄罗斯向客户开放央行数字货币12家主要银行与头部零售商迎来推广规则",
+        "source_title": "Russia opens central bank digital currency to millions as 12 major banks and top retailers face rollout rules",
+        "event_date": "2026-09-01",
+        "key_points": [
+          "俄罗斯12家系统重要性银行已准备自9月1日起提供数字卢布接入。",
+          "消费者使用数字卢布属自愿，但受覆盖银行和合格零售商必须提供接入。",
+          "个人每月最多向钱包充值30万卢布，个人支付与转账免费。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "9月1日，俄罗斯开始向已接入的银行客户开放数字卢布（digital ruble），推动这一央行数字货币（central bank digital currency）走出受限的试点阶段。大型银行与首批被覆盖的零售商户当天激活支付基础设施。俄罗斯银行（Bank of Russia）8月31日表示，个人可通过参与银行的移动应用开立数字卢布钱包，钱包位于央行的平台上，商业银行负责提供访问；客户在尝试使用之前，需要先确认自己的银行已经接入。",
+          "俄罗斯银行表示，消费者参与数字卢布仍然自愿。法律要求被覆盖银行和商户提供基础设施，但银行、雇主或其他任何一方都不能自动为个人开立钱包；强制开放与自愿使用并存，正是本次推广规则的核心特征。消费者没有注册截止期限，银行也不能自动把客户切换成数字钱包用户。",
+          "若客户的开户银行尚未连接，仅因法律层面的新阶段已经启动，并不会自动让其在应用中获得数字钱包访问。从银行准备情况看，俄罗斯银行8月21日接受采访时表示，全部12家系统重要性银行（systemically significant banks）已准备自9月1日提供数字卢布账户与交易，这些银行合计覆盖俄罗斯支付市场80%以上的份额。",
+          "数字卢布的强制义务还覆盖在支付市场被认定为重要的另外9家银行。俄罗斯银行说，其中大多数机构已经准备好，但今年新获得指定地位的三家银行可能需要至2026年底才能完成系统接入。法定要求与银行实际运营准备，因此不可能在第一天对所有被覆盖银行完全同步。",
+          "零售商的覆盖条件比单纯1.2亿卢布收入门槛更窄。根据俄罗斯银行指引，9月1日强制要求适用于面向消费者的卖家：上一财年收入超过1.2亿卢布，且截至2026年1月1日已与一家支付服务重要银行（payment-services-significant bank）签署电子支付工具受理协议。这些受覆盖卖家必须接受数字卢布，但每位客户仍可选择不使用。",
+          "个人额度方面，俄罗斯央行8月28日决定，个人每个日历月可从银行账户或电子货币向数字卢布钱包充值，上限为30万卢布。该上限仅针对充值，不限制对钱包内已有资金进行支付或转账。就个人而言，支付和转账仍然免费。",
+          "企业充值不受该上限约束，并在费用上享有豁免期，直至2026年12月31日；之后将按已发布的2027年费率表执行，部分操作仍可能保留零费率。眼下的直接变化是开放访问，而不是把数字卢布变为消费者的强制选项。"
+        ],
+        "source_name": "CryptoSlate",
+        "url": "https://cryptoslate.com/russia-opens-central-bank-digital-currency-to-millions-as-12-major-banks-and-top-retailers-face-rollout-rules/",
+        "published_at": "2026-09-01T17:34:00+08:00",
+        "region": "俄罗斯",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "主要Layer1网络MultiversX将暂停新交易24分钟以解锁10倍提速",
+        "source_title": "A major layer-1 chain will pause new transactions for 24 minutes to unlock a 10x speed boost",
+        "event_date": "2026-09-10",
+        "key_points": [
+          "MultiversX将于9月10日在epoch 2233激活Supernova升级，出块时间从6秒缩短至600毫秒，要求超过5，000个节点迁移软件。",
+          "升级通过并行验证与执行，将片内最终性降至250毫秒以下，跨片结算从约18秒减至约2.4秒。",
+          "切换前主网将暂停接收新的池交易约24分钟；截至9月1日，95.35%节点仍运行v1.11.11.0旧版软件。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "MultiversX已给节点运营商九天时间，为一次旨在把区块链速度提升10倍的升级做准备。Supernova升级定于epoch 2233（9月10日）激活，出块时间从六秒缩短到600毫秒，并将迫使超过5，000个节点迁移到能够处理新规则的软件上。",
+          "升级不止带来更短的块间隔。Supernova重构了MultiversX的共识管线，让验证者可以在执行并行进行的同时对一个区块投票，从而将交易执行移出此前制约区块生产的关键路径。该设计同时要保持确定性最终性，并把片内最终性压低至250毫秒以下、跨片结算从约18秒降至约2.4秒。MultiversX还将epoch长度维持不变，并保持地址、密钥和余额的向后兼容。",
+          "倒计时开始时的背景是，MultiversX的EGLD代币显现新的动能。CryptoSlate数据显示，EGLD上周末自5月以来首次突破4美元，一度报约4.05美元，随后回落至该水平下方。但早期迹象显示验证者仍在为切换做准备：8月31日发布的主网配置候选版本将轮次32157661定为计划激活点，从而使网络在9月1日至9月10日的迁移窗口内进行协调过渡。",
+          "9月1日对MultiversX公共网络数据的检查未见任何已发生的Supernova迁移，其5，171个节点中有95.35%仍运行v1.11.11.0。文章指出，这并不代表网络在九天窗口开始时落后于时间表，而只是确立了此后衡量迁移进展的基线。",
+          "一旦Supernova真正激活，风险便会上升。MultiversX的验证者指引称，与处理相关的变动要求运营者升级，节点才能继续以相同的方式解释交易。激活前，新老二进制文件可以共存；可一旦新规则生效，过时节点可能得出不同的交易结果，并失去与多数链的同步。",
+          "迁移期间还会出现一段临时减速。MultiversX预计，主网将按现有六秒时钟停止接收新的池交易约240轮，相当于约24分钟，同时清空已在处理中的交易。在该窗口内提交的新交易预计会保持排队状态，直至Supernova开始处理它们。",
+          "因此，9月10日前的直接衡量标准是：网络版本构成能否在轮次32157661前明显向Supernova靠拢。若协调按期实现，焦点将转向升级能否在主网兑现其承诺的速度。而如果数量可观的运营者仍停留在旧版本，MultiversX将不得不处理在没有全面同步的网络中引入大幅提速所产生的后果。"
+        ],
+        "source_name": "CryptoSlate",
+        "url": "https://cryptoslate.com/a-major-layer-1-chain-will-pause-new-transactions-for-24-minutes-to-unlock-a-10x-speed-boost/",
+        "published_at": "2026-09-02T06:50:00+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "Neuberger旗下代币化高收益基金成为Loopscale抵押品",
+        "source_title": "Neuberger's Tokenized High-Yield Fund Becomes Loopscale Collateral",
+        "event_date": "2026-09-01",
+        "key_points": [
+          "Securitize旗下代币化高收益信贷基金HINC现已作为Loopscale的抵押品，允许合格投资者借入USDG而不必赎回持仓。",
+          "HINC于8月18日在Avalanche、以太坊、Solana和Sui上线，主要持有高收益公司债，CLO分级部分最高可占投资组合的30%。",
+          "HINC是Securitize第三个在Loopscale上线的产品；Loopscale目前总锁仓9130万美元，活跃贷款5590万美元。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Securitize旗下代币化高收益信贷基金“Neuberger Securitize High Income Tokenized Fund”（代码HINC）如今可作为Loopscale的抵押品，允许合格投资者利用其基金份额借入USDG稳定币，而无需赎回整个持仓。这意味着次级投资级企业信贷进入了链上借贷市场，而该市场的抵押品此前几乎全部是国债、政府货币市场基金和投资级票据。该基金的资产净值随信用利差和评级迁移而波动，Loopscale所承销的是一类可能下跌的标记，且该资产只允许被列入白名单的钱包持有。",
+          "HINC于8月18日在Avalanche、以太坊、Solana和Sui四个网络上推出。其持仓以高收益公司债为主，其余部分投向CLO分级、银行贷款及其他高收益固定收益资产；CLO部分可在投资组合的0%至30%之间变动。Neuberger Berman Investment Advisers担任副顾问，该机构截至6月30日管理着6130亿美元资产。基金最低认购额为10万美元，综合费率为每年0.60%，份额仅面向通过Securitize入驻流程的合格投资者和合格购买人发售。",
+          "Securitize联合创始人兼首席执行官Carlos Domingo说：“国债是将传统资产带入DeFi的自然起点，但不应该是终点。HINC将机会扩展到机构信贷。”Loopscale联合创始人Mary Gooneratne表示：“支持主动管理的高收益策略，表明链上借贷可以扩展到加密原生资产和短久期工具之外。”HINC是Securitize第三个上线该协议的产品：Apollo的代币化信贷基金ACRED自2025年底起已在Loopscale作为抵押品，今年1月新增USDG申购；Securitize自身在纽交所上市的股票SECZ于8月20日也已成为抵押品。",
+          "Loopscale目前总锁仓量9130万美元，活跃贷款5590万美元，30日增长7.1%，按DefiLlama统计在借贷协议中排名第27。在Solana生态中，其规模落后于Kamino Lend（12.5亿美元）和Jupiter Lend（10.7亿美元）。该协议曾于2025年4月（上线两周后）遭遇约580万美元的漏洞利用，在与攻击者达成赏金协议后追回资金。Loopscale市场采用固定利率、固定期限，由借款人设定抵押比例、利率、贷款价值比和期限；清算为部分执行，即只卖出足以令贷款恢复健康的一部分仓位，其余部分继续保留。",
+          "RedStone在Solana、以太坊和Avalanche上为HINC报价时采用“可信单一来源预言机”标准——它将管理人每日发布的净值以签名、带时间戳且链式的形式发布在链上，使协议确认该数值来自管理人且未被更改。Loopscale依据这一数据流为抵押品估值，并触发清算事件。RedStone联合创始人兼首席运营官Marcin Kaźmierczak称：“将更复杂的金融资产引入链上借贷市场，需要可靠的估值基础设施。”可借出的USDG由Paxos Digital Singapore在新加坡金融管理局监管下发行，供应量为32.6亿美元，其中6.107亿美元在Solana上，近一个月下降6.1%。Paxos首席营收官Peter Jonas表示：“稳定币为代币化现实世界资产提供了重要的流动性层。”",
+          "DefiLlama数据显示，不含稳定币的代币化现实世界资产链上总市值约341亿美元，其中约38亿美元（约11%）活跃在DeFi。闲置份额集中于国债产品：贝莱德BUIDL市值27.9亿美元，仅有1770万美元部署在DeFi，利用率0.63%；Franklin Templeton的BENJI和iBENJI的利用率则为零。信贷类抵押品需求已经存在——Centrifuge的Janus Henderson Anemoy AAA CLO基金利用率为97.8%，Maple的syrupUSDT为88.3%，Hastra的PRIME为62.7%。",
+          "Securitize在8月18日提交给Aave的治理文件中公布了HINC的风险数据。以70% ICE BofA美国高收益约束指数与30% J.P. Morgan CLOIE Post-BB指数构成的示意组合为例，在2016年7月至2026年7月期间，该策略年化回报为7.21%，最差月份为2020年3月，下跌18.25%；2022年下跌8.97%，该年内的回撤为13.20%。若利差瞬间走阔200个基点，净值大约下跌7%至9%；走阔400个基点则下跌14%至18%。Securitize写道：“这不是低波动性资产”，并称2020年3月数字“应被视为主导压力情形”。",
+          "该基金目前没有经营历史。投资者面临24小时锁定期和每日赎回申请，但投资组合可能需要数日才能卖出；Securitize坦言：“24小时锁定期并不反映实际流动性。”CLO部分在BB层级的结构性杠杆约为六到八倍。在Aave一侧，该文件请求Aave Horizon将以太坊上的HINC作为仅供应类抵押品，并允许借出USDC、GHO和RLUSD。提交两周后，此事尚未进入Snapshot投票，也没有发布风险评估；仍需要技术评估、LlamaRisk审查、清算人入驻证据、投票以及最终Aave改进提案。",
+          "8月30日一则论坛评论质疑：所提议的清算后备（占借款TVL的3%至5%）能否覆盖四个工作日的压力窗口，并指出预言机提供方命名前后不一致，还追问在仓位被合法冻结、无法清算却继续积累债务时，谁向稳定币供应方作出补偿。在预言机问题上，Securitize的Aave文件将Chainlink净值数据流（以LlamaGuard动态界限包裹）列为以太坊上的主源，并将RedStone列为外部依赖。Loopscale的市场按照不同抵押品分别配置，无需代币持有人投票，这也是Solana版本能够率先上线的原因。",
+          "Securitize援引渣打银行的预测称，到2030年DeFi中部署的资产将达到2.7万亿美元，并据此推演，若代币化资产占该市场的10%，则约合2700亿美元投入链上。公司同时披露，它是HINC的代币化平台、过户代理和投资顾问，对该上市“有直接商业利益”。Loopscale此次上线首先检验的是：借贷市场能否持有仅白名单钱包可触及的抵押品，在T+1赎回窗口内完成清算，并为随信用利差变动而波动的净值提供定价——而这一利差变化任何借款人都无法预见。"
+        ],
+        "source_name": "The Defiant",
+        "url": "https://thedefiant.io/converge/defi/neuberger-tokenized-high-yield-fund-becomes-loopscale-collateral",
+        "published_at": "2026-09-01T14:00:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "Binance传统资产永续合约7月交易量达4450亿美元约为1月水平的15倍",
+        "source_title": "Binance Traditional-Asset Perpetual Volume Jumps 15x to $445 Billion in July",
+        "event_date": "2026-09-02",
+        "key_points": [
+          "Binance向彭博社提供的数据显示，7月传统资产永续合约交易量约4450亿美元，接近1月水平（约300亿美元）的15倍。",
+          "Binance交易所与交易主管Shunyet Jan表示，使用加密货币基础设施交易传统资产的需求快速增长，追踪SanDisk股票的永续合约近期曾在单日交易量上超过比特币永续合约。",
+          "CoinGecko数据显示，2026年上半年六大主要中心化交易所的传统资产交易额达1.45万亿美元，约为2025年全年交易量的10倍；7月Binance在被追踪交易所的股票永续交易量中约占76%。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Binance向彭博社提供的数据显示，该公司7月与传统金融资产挂钩的永续合约（Perpetual Futures）交易量达到约4450亿美元，接近1月水平的15倍。作为对照，1月此类传统资产永续交易量约为300亿美元，六个月间的增幅约为1383%。这一扩张的背景是，Binance正将策略从加密货币衍生品进一步拓宽，通过交易者已经用于比特币和其他数字资产的同一套基础设施，提供挂钩个股、大宗商品和主要交易所交易基金（ETF）的永续合约。",
+          "Binance交易所与交易主管Shunyet Jan表示，使用加密货币基础设施交易传统资产的需求增长迅速。这一趋势已经显著到——据Jan称——追踪SanDisk股票的永续合约近期在Binance上的单日交易量一度高于其比特币永续合约。需要明确的是，Binance提供的这类传统资产永续合约属于衍生品，而非标的证券的代币化所有权。",
+          "在这些合约中，挂钩股票的合约追踪Amazon、Strategy、Coinbase、Circle和Palantir等公司，挂钩ETF的产品提供SPY、QQQ等工具的风险敞口。合约以USDT结算，通常每周7天、每天24小时均可交易，杠杆最高可达10倍。这一设计让交易者能够在常规交易时段之外对美股价格进行投机，同时无须持有相应股票。",
+          "行业数据显示，Binance的增长是更大范围变化的一部分。CoinGecko发现，2026年上半年，六大主要中心化交易所中，基于加密平台的传统资产交易额总计达到1.45万亿美元，约为2025年全年该类交易额的10倍；同时，未平仓合约从2025年初的6000万美元升至2026年6月30日的46.7亿美元。",
+          "Binance在此轮扩张中成为规模最大的交易平台。其被跟踪的传统资产交易额从1月的396亿美元升至6月的2314.9亿美元，在CoinGecko六个交易所样本总量中占到58.9%。Binance另援引的行业数据显示，7月其在被跟踪交易所的股票永续交易量中约占76%。与此同时，Binance开始向美国以外的合格用户提供超过1000只美股和ETF的期权交易权限。",
+          "上述期权服务通过Binance位于阿布扎比的受监管实体Nest Trading Limited运营，由美国注册经纪交易商Alpaca Securities负责执行、清算和托管。期权使Binance的传统市场产品阵容进一步扩大，涵盖范围超出永续合约、代币化股票和直接股票交易。在交易机制上，永续合约没有到期日并通过资金机制使价格锚定参考市场；期权则赋予交易者按预定价格和到期日买卖标的资产的权利。",
+          "Coinbase、Kraken等数字资产公司同样随着监管框架的演变向股票、衍生品或代币化证券延伸。其吸引力在于，加密货币交易平台已经拥有连续交易系统、全球客户网络和可支持加密货币之外产品的抵押品基础设施。",
+          "不过，传统资产永续合约引入了额外的风险。由于标的股票市场并非连续运作，因此会存在这样的时段：加密衍生品仍然可以交易，但其主要参考市场已经关闭。Binance为此引入了定价控制措施，包括一个指数加权移动平均（Exponentially Weighted Moving Average）机制，目的是在这些时段减少剧烈的价格错动。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/binance-traditional-asset-perpetual-volume-jumps-15x-to-445-billion-in-july/",
+        "published_at": "2026-09-02T01:00:00+08:00",
+        "region": "其他",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "稳定币汇款公司Félix完成2亿美元融资a16z领投股权轮",
+        "source_title": "Stablecoin Remittance Company Félix Raises $200 Million as a16z Leads Equity Round",
+        "event_date": "2026-09-02",
+        "key_points": [
+          "稳定币汇款公司Félix获得2亿美元新融资，其中8700万美元股权融资由Andreessen Horowitz（a16z）领投，General Catalyst旗下Customer Value Fund提供1.13亿美元信贷额度。",
+          "Félix为在美拉丁裔移民提供汇款服务，客户可通过WhatsApp完成转账，无需直接接触稳定币；其结算基础设施使用USDC。",
+          "Félix计划从汇款业务扩展至贷款和储蓄服务，并正在开发AI（人工智能）驱动的财务助理。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "基于稳定币（stablecoin）的汇款公司Félix已获得2亿美元新融资，最新一轮资金由Andreessen Horowitz（a16z）领投的8700万美元股权融资，以及General Catalyst旗下Customer Value Fund提供的1.13亿美元信贷额度组成。现有投资者QED Investors、Castle Island Ventures与Switch Ventures，同Contour Venture Partners、Endeavor Catalyst一道参与了本轮股权融资。",
+          "Félix此前于2025年4月融资7500万美元，更早一轮为1550万美元。它瞄准在美国的拉丁裔移民，服务其向拉美家人汇款。与常规加密应用不同，客户无需直接接触稳定币（stablecoin）或区块链钱包，整个消费者体验均通过WhatsApp完成。",
+          "用户通过WhatsApp对话发起转账并提交收款人与支付信息，然后使用银行卡或现金为交易付款。收款人可根据目的地情况，经银行账户、数字钱包或实体现金点收款。区块链（blockchain）基础设施主要在后台运作。Félix在结算基础设施中运用USDC和区块链通道，让以美元计价的资金跨境流动，同时客户汇出美元，收款人通常收取当地货币。",
+          "Andreessen Horowitz表示，稳定币可以降低传统国际汇款中的摩擦，这类汇款的成本来自线下门店代理、中介机构和外汇汇差。美墨汇款走廊尤其重要。a16z估计，2024年流向拉丁美洲和加勒比地区的汇款额约为1610亿美元，其中约80%源自美国。",
+          "Félix目前可办理从美国向墨西哥、危地马拉、洪都拉斯、萨尔瓦多、尼加拉瓜、哥伦比亚、多米尼加共和国、厄瓜多尔和秘鲁共9个拉美国家的汇款。其网站显示，逾30万拉丁裔移民正在使用该服务。部分银行账户转账的服务费由2.99美元起，具体价格视目的地和交付方式而定。",
+          "General Catalyst提供的1.13亿美元信贷额度，其结构与a16z及其他股权方投入的风险资本不同。它并不代表额外的所有权资本，而是为Félix提供融资能力，助其扩展运营并推出新的金融产品。公司计划从汇款业务扩展至为在美拉丁裔移民提供贷款与储蓄服务，同时正在开发一款人工智能（AI）驱动的财务助理，以协助客户使用金融服务。",
+          "初到美国的移民可能较难获得传统金融产品，因为国内征信机构对他们的海外金融记录可能知之甚少。Félix已与定期向国内汇款的客户建立起交易关系，若按照美国监管要求部署这些数据，或可支持更多金融服务。这轮融资还说明，稳定币正越来越多地在消费者并非刻意选择加密货币产品的情况下被采用。对于Félix用户，USDC是基础设施而非最终产品。这种模式对Circle等稳定币发行方可能具有意义：支付公司既能创造区块链交易量，又能让主流客户避开钱包管理、代币转换等加密特有难题。",
+          "Félix扩张之际，稳定币在跨境结算领域与代理银行及传统汇款网络的竞争愈发激烈。该公司接下来的挑战，是将汇款市场立足点转化为与在美拉丁裔消费者更广泛的金融关系。凭借8700万美元新股权和1.13亿美元信贷容量，投资者正以更大规模为这一转型提供资金。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/stablecoin-remittance-company-felix-raises-200-million-as-a16z-leads-equity-round/",
+        "published_at": "2026-09-02T01:00:00+08:00",
+        "region": "美国与拉丁美洲",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "Saylor与PhongLe致信MSCI撤销可能剔除Strategy的“歧视性”规则",
+        "source_title": "Saylor Urges MSCI to Drop 'Discriminatory' Rule That Would Delete Strategy",
+        "event_date": "2026-08-31",
+        "key_points": [
+          "Strategy创始人Michael Saylor与CEO Phong Le周一致信MSCI，要求撤销一项会使Strategy被剔除出全球基准指数的拟议资格测试。",
+          "MSCI的咨询预计该筛查会使三家公司被剔除，另有三家被列入观察名单；Strategy在信中称，其约占全部六家涉险公司总浮动调整市值的87%。",
+          "两人在信中称该提议“歧视性、任意且误导”，是针对数字资产库的借口，也是对MSCI在1月拒绝实施的50%加密货币持仓提议的重新包装。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Strategy创始人Michael Saylor与首席执行官Phong Le周一在一封公开信中，要求指数提供商MSCI撤销一项拟议的资格测试。该测试会把这间比特币库公司从MSCI的全球基准指数中删除。信件称，这一提议“歧视性、任意且误导”，是瞄准数字资产库的借口，也是对MSCI在1月拒绝实施的50%加密货币持仓提议的重新包装。",
+          "此次咨询于8月启动，对象是MSCI界定的“非经营性公司”（non-operating company）。凡是经营性资产不足总资产一半的发行人，都要接受五项指标筛核，分别衡量经营性资产强度、费用开支、现金流、公允价值变动和外部融资依赖；触发其中四项即失去入选资格，而现有成分股还须在连续两次年度审查中不达标，才会被删除。",
+          "MSCI咨询显示，若筛选应用于截至2026年5月的ACWI IMI，将有三家公司被剔除：浮动调整市值239.3亿美元的Strategy、18.1亿美元的英国铀持仓公司Yellow Cake和6.54亿美元的日本Metaplanet。另有以太坊金库公司SharpLink、台湾Center Laboratories及土耳其Lydia Holding列入公开观察名单。Strategy的信仅点名了该群体中三家加密货币公司，并称Strategy约占全部六家涉险公司总浮动调整市值的87%。",
+          "Strategy在8月3日提交的二季度10-Q报告中，将比特币库业务单列为可报告经营分部，并把比特币公允价值变动计入营业费用。基于这一处理，信件称，Strategy不会触发费用和公允价值变动两个警示项。Saylor与Le淡化风险，称该提议对Strategy的业务不会产生有意义的冲击，但会“严重”损害MSCI作为中立指数提供商的声誉。",
+          "据发布这封信的活动页面称，追踪全球可投资市场指数（Global Investable Market Indexes，GIMI）的基金约占Strategy基本股的3.1%。摩根大通分析师2025年11月估计，MSCI的剔除可能引发28亿美元资金流出，若其他指数提供商跟进，规模可能升至116亿美元。",
+          "同年12月，两人也曾发出类似呼吁，当时他们警告MSCI，将加密库排除会损害美国国家安全。周一信函的结尾则要求MSCI将所有与制定该测试相关的文件置于法律保全之下。本次咨询的反馈截止9月30日，结果最迟于10月16日公布，任何调整将在11月的指数评估中生效。"
+        ],
+        "source_name": "Decrypt",
+        "url": "https://decrypt.co/377010/saylor-urges-msci-to-drop-discriminatory-rule-that-would-delete-strategy",
+        "published_at": "2026-09-01T12:28:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "比特币反弹是否说明我们在加密货币领域并未虚度人生",
+        "source_title": "Does the Bitcoin rally mean we haven’t wasted our lives in crypto?",
+        "event_date": "2026-09-01",
+        "key_points": [
+          "比特币刚刚创下多年最佳8月表现，上涨26%，以太坊上涨34%，但短期价格反弹并不代表所有梦想都已成真，托管式ETF并非那种能对抗国家与中心化机构的主权比特币版本。",
+          "BitMEX前首席执行官Stephan Lutz表示，加密技术已“过了不归点”，不会轻易消失；BitMEX因永续合约被每一家合法加密交易所使用而不再具备差异化，经营11年后于9月停止营运。",
+          "Moon Pursuit Capital创始人Utkarsh Ahuja认为稳定币与代币化具有持久影响；Subsquid Labs首席执行官Wanja Oberhof表示DeFi移除了中间商却保留了市场，并承认行业在时间表上过度承诺、在用户体验上交付不足。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "近几个月，加密行业情绪跌至谷底，比马里亚纳海沟中的蜗牛鱼还要低沉：矿工向AI投降，冷钱包遭利用，刚失业的加密货币记者在LinkedIn上寻找新机会。即便经历过国家禁用、交易所爆雷和多年监管压力，士气也罕有如此低落。直到价格上涨——比特币刚刚创下多年最佳8月表现，回报达26%，以太坊上涨34%，特朗普总统也在白宫称赞一个去中心化的离岸永续合约交易场所。加密货币终于再次变得有趣。",
+          "然而，短期价格上涨并不代表所有梦想成真。对那些多年来主张拥有国家与中心化实体控制之外的主权资金的人来说，托管式ETF算不上挑战权威的比特币版本。另一个问题是：许多帮助奠定加密货币基础的企业无法享受这轮涨势。BitMEX就是业内首批比特币期货交易所之一，曾开创永续合约与适合“赌徒”的100倍杠杆，经营11年后将于9月停止营运。",
+          "BitMEX前首席执行官Stephan Lutz告诉《Magazine》，BitMEX是自己成功的受害者：“每一家合法的加密货币交易所都在使用永续合约……每一家合法的加密货币交易所都在使用创始人发明的资金费率机制来撮合多空双方……它不会消失……只是不再是一个差异化因素。”Lutz并不认为加密货币还会轻易消失，因为技术已深深嵌入传统金融，难以解除：“在我看来，我们已经过了不归点。”",
+          "Moon Pursuit Capital创始人Utkarsh Ahuja也认为加密支持者没有虚度时光，并指出行业对支付轨道、结算和代币化的影响。他说，稳定币在融入金融支付基础设施后可能产生“非常、非常持久的影响”，而且“你几乎可以代币化任何东西”。他还谈到加密技术外溢到能源、医疗保健和AI领域，认为这项技术正被广泛用于催生它的行业之外。去中心化金融（DeFi）也对世界产生了有意义的冲击，如今更接近基础设施而非实验。",
+          "Subsquid Labs首席执行官Wanja Oberhof告诉《Magazine》：“DeFi建立了第一个不必相信运营方承诺的金融系统：你可以自己实时核验账本，细至每一笔交易。”他说，结算只需数分钟而非数天，市场全天候运行，借贷协议能透明地清算数十亿美元：“没有银行联盟曾推出过这样的东西。DeFi移除了中间商，却保留了市场。”他也承认，尽管DeFi基础设施已大幅改进，但行业“在时间表上过度承诺，在用户体验上交付不足”，真正的胜利将是技术“消失在人们不会多想的日常产品中”。",
+          "机构正在疯狂采用区块链技术，代币化基金、稳定币和基于区块链的结算不再是仅存于加密会议走廊里的想法。但加密货币与其说在取代金融体系，不如说正被其吸收。监管也让加密资产更合法，但同时也更乏味：欧盟已实施《加密资产市场法规》（MiCA），美国也从将加密视为监管难题转向围绕它构建框架。一路上失去了什么？尽管合法性上升，行业并未兑现许多承诺——Dentacoin没能革新牙科行业，比特币并未阻止所有战争，以太坊也还不是全球金融的默认主场（至少目前不是）。",
+          "Ahuja说：“它是否充分兑现？在我看来还没有。但它是否彻底改变了我们的认知？确实改变了。”观众群体也变了：加密货币不再是少数自由主义密码朋克和挥舞青蛙表情包大军的小众爱好。皮尤研究中心数据显示，约有五分之一的美国成年人（19%）表示自己投资、交易或使用过加密货币。但更广泛的持有并未让加密货币更容易使用，相反，资产和平台激增令市场更难驾驭：用户必须面对多条网络、钱包、交易所、跨链桥和入金通道，这些正是加密货币本该消除的额外摩擦层。",
+          "Ahuja还指出另一重讽刺：一种本应无国界的资产类别，正越来越多地由各国监管制度塑造，难以无缝跨域流动。一位《Magazine》采访的迪拜加密用户每月在一家大型中心化加密货币交易所收到工资，把USDT兑换成当地货币时会有损失，还要支付75阿联酋迪拉姆（约20美元）的固定提现费。这位用户说：“我宁愿收到银行转账。”此外，最基本的承诺——自我托管，可能是行业面临的最大悖论：比特币越有价值，持有自己的私钥就越危险，无论是害怕被人用扳手打死，还是冷钱包被AI代理利用。",
+          "也许正是这种未能兑现加密曾经许诺的未来的困境，让熊市停工与关闭更令人难受。整个行业裁员四起；在2022年可怕熊市中幸存的项目中，有一些今年也在关停，或在资金和用户转向AI时被迫重新定位自己。Lutz不认为BitMEX的结局证明技术失败了，恰恰相反：技术运行得如此之好，以至于人人都在抄袭，行业已从发明基础设施的竞赛，转变为对市场份额的残酷争夺。他说：“现在不同的是你在竞争中的激进程度，那是完全不同的游戏。有些人玩得很好，其他人则不然。”也许，最初建设加密货币的公司和项目，从来都不会是从其普及中最终受益最多的角色。"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/magazine/does-bitcoins-rally-mean-we-havent-wasted-our-lives-in-crypto",
+        "published_at": "2026-09-01T14:30:00+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      }
+    ],
+    "notes": [
+      "所选文章均发布于2026-08-26 14:24至2026-09-02 14:24北京时间窗口内，且均来自候选清单。",
+      "政策风向覆盖美国、新加坡和俄罗斯，确保地区分散并至少包含一篇美国来源。",
+      "已避开重复主题：SEC转让代理规则未选A027，俄罗斯数字卢布未选A011，MSCI争议未选A061等。",
+      "意见领袖栏目优先选取可直接写出人物观点、具备明确署名的候选。"
+    ]
+  },
+  "factcheck": {
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      "item 1 contains relative time wording; replace with exact date",
+      "item 3 contains relative time wording; replace with exact date",
+      "item 4 contains question-style future/unknown wording; ensure the source explicitly raises it",
+      "item 4 contains relative time wording; replace with exact date",
+      "item 5 contains question-style future/unknown wording; ensure the source explicitly raises it",
+      "item 5 contains relative time wording; replace with exact date",
+      "item 9 contains relative time wording; replace with exact date"
+    ]
+  },
+  "outputs": {
+    "docx": "reports/2026/加密货币观察_20260902.docx",
+    "manifest": "reports/2026/_manifests/加密货币观察_20260902.json"
+  }
+}
