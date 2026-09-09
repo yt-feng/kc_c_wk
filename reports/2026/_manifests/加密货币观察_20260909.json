@@ -1,0 +1,283 @@
+{
+  "generated_at": "2026-09-09T14:40:47+08:00",
+  "period": "2026-09-02 14:40 至 2026-09-09 14:40（北京时间，最近7天）",
+  "raw_count": 72,
+  "collection_warnings": [
+    "no candidates for query: Hong Kong SFC HKMA virtual asset stablecoin tokenised investment product regulation",
+    "no candidates for query: Bank of England FCA tokenisation stablecoin consultation digital securities",
+    "no candidates for query: cross chain oracle RWA infrastructure wallet staking rollup interoperability crypto",
+    "no candidates for query: crypto acquisition funding IPO futures CME stablecoin revenue tokenized securities",
+    "no candidates for query: crypto company raises acquires launches futures ETF tokenized fund stablecoin adoption",
+    "no candidates for query: site:blockworks.co (crypto OR bitcoin OR ethereum OR stablecoin OR tokenization OR digital assets)",
+    "no candidates for query: site:info.gov.hk (virtual asset OR crypto OR stablecoin OR tokenisation)"
+  ],
+  "report": {
+    "items": [
+      {
+        "section": "政策风向",
+        "title_cn": "加密游说团体为通过《CLARITY法案》发起针对银行的最后一刻电视广告活动",
+        "source_title": "Crypto lobbies launch a last-minute TV campaign against banks to pass the CLARITY Act",
+        "event_date": "2026-09-15",
+        "key_points": [
+          "加密政治网络在参议院9月15日就《CLARITY法案》进行程序性投票（cloture vote）之前，发起了一项七位数广告活动。",
+          "该法案将建立联邦数字资产市场规则，并在美国证券交易委员会（SEC）与商品期货交易委员会（CFTC）之间划分监管权，但需要60票才能推进。",
+          "围绕Donald Trump加密利益的道德争议正在威胁支持，而不断缩减的国会日程可能将行动推迟至中期选举之后。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "加密行业的政治网络正发起一项投入达七位数的全国广告活动，以在参议院下周关键投票前保住《数字资产市场清晰度法案》（Digital Asset Market Clarity Act，CLARITY Act）。参议院定于9月15日就推进该法案的动议举行结束辩论（cloture）投票，这项程序性障碍需要60票才能通过。该法案将为数字资产市场建立联邦规则，并在美国证券交易委员会（Securities and Exchange Commission，SEC）与商品期货交易委员会（Commodity Futures Trading Commission，CFTC）之间划分监管权。此次投票仅开启辩论，议员们还需迈过额外程序步骤才能最终通过。",
+          "然而，距投票还有一周，参与谈判的参议员们据报道正释放信号：可能凑不够票。在谈判难以取得突破的背景下，加密行业的政治网络正采取行动，让反对CLARITY对议员和银行业付出更高代价。与Fairshake超级政治行动委员会（Super PAC）网络有关联的501(c)(4)非营利组织Cedar Innovation Foundation正在有线电视上投放七位数广告活动，覆盖三个广告位，以凝聚对该法案的支持。",
+          "其中两个广告强调消费者保护与来自加密行业以外的支持，第三个广告则攻击抵制法案部分内容的银行。这条面向银行的广告指责银行业在试图阻止竞争的同时享受一场利润“抢食狂潮”，画面配以猪从食槽进食的图像。银行，尤其是小型银行，数月来一直推动议员们收紧管理稳定币奖励的条款，理由是加密平台可以用类似收益的激励将存款从银行体系吸走。",
+          "这些反对意见使谈判复杂化，尽管加密公司一直敦促国会完成已讨论多年的法案。其他广告尝试将CLARITY的吸引力延伸到行业监管议程之外：其中一条强调主要执法组织的支持，并称AARP支持旨在遏制针对美国老年人加密诈骗的条款。AARP的支持范围比全面支持法案更窄，只涉及一项针对加密ATM欺诈的规定。",
+          "这场广告行动发生前，另一项潜在障碍上周得到缓解。全国警长协会（National Sheriffs‘ Association）在数月间警告法案可能削弱针对非法加密活动的起诉工作，随后撤回对CLARITY的反对并转为中立。其他执法团体已经支持该法案。但厘清行业争议，几乎没有帮助解决眼下威胁法案存续的政治问题：国会应在多大程度上限制现任总统及其家族从数字资产中获利。",
+          "共和党参议员Mike Rounds和Thom Tillis据报道表示，随着民主党与白宫在限制Donald Trump及其家族加密利益的道德规定上仍分歧，法案前景已经恶化。两名民主党助手向Semafor表示，民主党在要求设置涵盖Trump及其家族的道德条款方面进展甚微。Rounds形容前景黯淡；Tillis则称，如果白宫不更愿意弥合分歧，该立法就会失败。",
+          "白宫反驳了这一描述。发言人表示，Trump希望国会通过CLARITY，并称政府已“不知疲倦地”为这项立法工作，同时同意一项被其称为史上最全面的道德条款。这一分歧使参议员们在双方都声称作出让步、但没有明确迹象显示足够多民主党人准备提供结束辩论所需票数的情况下走向投票。",
+          "该法案还面临更基本的政治问题。共和党参议员Roger Marshall表示，他从家乡选民那里几乎没有听到关于这一立法的消息，显示该行业在华盛顿声势浩大的游说，尚未让市场结构成为至少部分参议员眼中的重大选民议题。在国会本会期机会渐少之际，集合60票的难度更加突出。众议院已取消9月晚些时候的预定投票周，意味着即便参议院程序成功，最终行动也可能被推迟至11月中期选举之后；任何参议院改动还需众议院批准，才能送交Trump。",
+          "参议员Cynthia Lummis正试图将这个被压缩的时间表转变成对摇摆议员的压力。她说：“下周，我的同僚们有一个选择”，并将投票描述为在保护美国加密创新与允许中国在数字金融领域抢占先机之间的选择。她还强调旨在在加密公司倒闭时保护客户的条款。当前提案要求受覆盖中介机构隔离客户资产，并在破产时将符合条件的资产作为客户财产处理，以解决FTX和Celsius等事件暴露的问题；这些保护仍取决于资产的持有方式，以及客户与平台之间的合同关系等因素。",
+          "Lummis还警告，今年失败可能让国会直到2030年才再次有实际机会通过市场结构立法，并可能令美国损失多年的投资、就业和税收。这一时间表属于政治预测，而不是法定限制。随着众议院日程已被推迟至中期选举之后，参议院仍难以集结足够票数开始辩论，9月15日的投票正日益成为一场检验：加密领域日益增强的政治影响力，能否转化为该行业过去一年所追求的立法。"
+        ],
+        "source_name": "CryptoSlate",
+        "url": "https://cryptoslate.com/crypto-lobbies-launch-a-last-minute-tv-campaign-against-banks-to-pass-the-clarity-act/",
+        "published_at": "2026-09-09T01:01:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "JackDorsey的Block加入OCC联邦银行牌照申请潮",
+        "source_title": "Jack Dorsey's Block joins rush for federal bank charters from OCC",
+        "event_date": "2026-09-08",
+        "key_points": [
+          "Block周二向OCC提交申请，拟设立无保险国家信托银行Builders Bank & Trust， N.A.。",
+          "若获批，该银行将提供比特币和稳定币托管及其他受托服务。",
+          "Block申请之际，越来越多金融科技与加密货币公司寻求联邦银行牌照，上周Revolut获得有条件批准。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Jack Dorsey创立的支付公司Block， Inc.正谋求成为一家受联邦监管的国家银行。该公司于周二宣布，已向美国货币监理署（Office of the Comptroller of the Currency，OCC）提交申请，计划设立名为Builders Bank & Trust， N.A.的无保险国家信托银行，并由此加入向OCC寻求联邦银行牌照的队伍。",
+          "Block表示，如果申请获批，Builders Bank将提供托管及其他受托服务，服务范围包括比特币和稳定币。这家支付公司还说，联邦银行牌照将使它能够支持这些活动，并为公司目前提供的若干托管及其他业务创建联邦层面的监管框架。",
+          "将出任Builders Bank总裁兼首席执行官的Lee Woolley在声明中称：“依托Block在数字资产领域的经验、我们与Square Financial Services合作的历史，以及团队已积累的深厚银行专业知识，我们相信Builders Bank具备充分条件，去支持Block更广泛的经济赋权愿景。”",
+          "Block提交申请之际，越来越多的金融科技和加密货币公司正在寻求联邦银行牌照。OCC对该行业持友好态度。",
+          "上周，Revolut获得了有条件批准，紧随Coinbase、Paxos、BitGo、Ripple和Circle等公司之后。",
+          "OCC近期还向美国总统Donald Trump家族支持的World Liberty Financial授予了有条件批准，而华盛顿方面正就潜在的利益冲突进行审查。",
+          "自2025年以来，OCC共收到40份新设银行牌照申请，现已批准21份，否决2份。"
+        ],
+        "source_name": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-09-08-jack-dorsey-block-joins-rush-federal-bank-charters-from-occ-413947",
+        "published_at": "2026-09-08T21:07:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "Gemini获新加坡加密服务支付牌照",
+        "source_title": "Gemini receives Singapore payment license for crypto services",
+        "event_date": "2026-09-09",
+        "key_points": [
+          "Gemini已获得新加坡金融管理局（MAS）颁发的主要支付机构（MPI）牌照，其当地实体Gemini Digital Payments Singapore获准提供数字支付代币与跨境汇款服务。",
+          "该牌照使Gemini可不受标准支付机构交易量限制地提供受监管支付服务，但MAS表示主要支付机构因运营规模风险而需接受更全面的监管。",
+          "正式牌照在2024年10月原则批准后颁发；Gemini于2025年4月将新加坡客户从Gemini Trust Company迁移至本地注册实体，以待最终批准。"
+        ],
+        "lead_cn": "加密货币交易所Gemini已获得新加坡金融管理局（MAS）颁发的主要支付机构（MPI）牌照，其新加坡当地实体获准提供数字支付代币和跨境汇款服务，且不受标准支付机构的交易量上限约束。",
+        "body_paragraphs": [
+          "加密货币交易所Gemini已获得新加坡金融管理局（Monetary Authority of Singapore，MAS）颁发的主要支付机构（Major Payment Institution，MPI）牌照，完成近两年前原则批准之后的正式许可进程。MAS的金融机构名录把该牌照记录在Gemini新加坡当地实体Gemini Digital Payments Singapore名下，其授权范围包括数字支付代币服务和跨境汇款。",
+          "与标准支付机构相比，MPI持牌人可提供受监管支付服务，不受标准机构的交易量限制。不过MAS表示，主要支付机构的业务规模会带来更大的风险，因而它们将面临更全面的监管。",
+          "Gemini总裁兼联合创始人Cameron Winklevoss说，交易所自2020年起就一直服务新加坡客户。Gemini首席执行官Tyler Winklevoss说，新加坡是服务零售客户和机构客户的战略性中心。",
+          "Gemini在新加坡提供现货加密货币交易、数字资产托管和场外交易服务。",
+          "这份正式牌照是在MAS于2024年10月对Gemini申请作出原则批准之后颁发的。当时MAS对Gemini的MPI申请发出了原则性批复。",
+          "在等待最终批准期间，Gemini于2025年4月启动客户迁移，把新加坡客户从Gemini Trust Company转到其依据当地法律注册成立的实体。Gemini Trust Company此前在豁免状态下运营。",
+          "Gemini于周三表示，牌照授予了其新加坡当地实体Gemini Digital Payments Singapore。该实体可在不受标准支付机构交易量限制的情况下提供数字支付代币和跨境汇款服务。MAS则指出，主要支付机构因规模风险须接受更全面监管。"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/gemini-singapore-mpi-license-crypto-services",
+        "published_at": "2026-09-08T01:00:00+08:00",
+        "region": "新加坡",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "Cardano的Leios实现6倍扩容突破但ADA面临更棘手的难题",
+        "source_title": "Cardano’s Leios 6x scaling breakthrough comes with a much harder ADA problem",
+        "event_date": "2026-09-08",
+        "key_points": [
+          "Leios测试网展现6倍吞吐量提升，但人工生成的流量并未确立手续费收入。",
+          "随着储备资金奖励下降，Cardano在其模型下可能需要约36至50持续TPS，财库扣除后接近45 TPS。",
+          "开发者目标是2026年底主网就绪，但真实使用量、费用及对委托人和质押池的影响仍未得到证实。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Cardano的Leios扩容升级在首次公开测试网阶段展示出显著的吞吐量增长。根据网络开发者Input Output的数据，Leios在测试中峰值达到每秒26.8交易千字节（TxkB/s），而Cardano现有Ouroboros Praos系统的上限为4.51 TxkB/s。在41天测试期稳定的最后几天，Leios承载了到达链上流量的54%，同一时间段内处理的交易数量达到Cardano主网的18倍。不过，这些流量是为给系统施压而人工生成的，并非来自愿意付费交易的用户。这一区分对ADA持有者正变得越来越重要。",
+          "Cardano的质押奖励由交易费用和剩余ADA储备的释放共同构成。储备的贡献会随时间下降，这意味着网络活动需要承担更多奖励质押池运营者和委托人的成本。Leios的设计初衷就是移除这一吞吐量上限，否则Cardano可能无法产生足够的交易费用来支撑过渡。Leios规范书明确将更大的容量与储备贡献减少情况下网络的长期经济可行性联系在一起。",
+          "Cardano当前的Praos设计在保持可靠区块传播的同时，限制了可通过网络的交易数据量。Leios通过更大的Endorser Blocks（背书区块）增加并行容量，这些区块携带额外交易，同时底层Praos链继续运行。委员会在对交易进行记录前验证这些区块，使Cardano无需替换现有安全模型即可处理更多活动。首次公开测试显示，该设计能够实质性提升这一上限。",
+          "Input Output表示，测试网共运行41天，产生超过12.7万个区块，并宣布了约3万个Endorser Blocks。测试阶段注册了63个质押池，开发人员则陆续修复了在负载下暴露出的内存泄漏、链分叉、崩溃及其他实现问题。Input Output称，这些事件中没有任何一起显示底层Leios协议存在缺陷。但需要注意的是，更多的可用区块空间在有人付费使用之前，并不会带来任何质押收入。",
+          "这是Cardano经济模型设置的另一道独立障碍。伴随Leios规范的成本分析以每月4800万ADA奖励为基线，并模拟至2029年下降43%，即每月剩余2064万ADA需要通过交易费补足。该日期只是一个建模期限，并不代表Cardano储备预期耗尽的时间。按平均每笔交易1500字节、每笔约0.221 ADA手续费计算，要生成上述金额，需要在30天的一个月中持续维持每秒约36笔交易。",
+          "更广泛的Leios规范将相关交易量范围指向约36至50每秒交易数（Transactions Per Second，TPS）。这些数字不能直接与测试网的26.8 TxkB/s结果相提并论，因为两者衡量的对象不同：测试展示的是数据处理能力，而经济模型衡量的是实际必须到达的付费交易数量。在此背景下，质押越来越成为一种押注网络采用率的赌注。",
+          "收入门槛还会随衡量口径变化。Cardano在把奖励分给质押池之前，会将奖励池的20%拨入财库。要在扣除这部分后替换2064万ADA，上述交易量和费用假设需要更接近每秒45笔持续交易。按50 TPS计算，模型每月产生约2870万ADA总费用；按20 TPS则约1150万ADA，距模型目标缺口916万ADA；按10 TPS约产生574万ADA。",
+          "费用水平还会再次改变目标。若平均费用减半，要产生相同收入，交易量大约需要翻倍；提高费用则可能增加每笔交易收入，但也有抑制交易活动的风险。这使得Cardano面对与许多扩容网络相同的经济压力：更便宜、更丰富的区块空间可以支撑采用，但网络最终需要足够的付费使用量，才能为维护其安全的基础设施提供资金。",
+          "Input Output设定了一个更长期的目标：让Cardano从每月约80万笔交易增至超过2700万笔，并在储备资金缩减的同时实现经济自给。Leios是旨在为这一增长提供容量的主要共识升级。如果使用量不及预期，压力就会转移到别处。在质押池运营者扣除既定成本和利润后，较小的奖励池给委托人留下的收益可能变少；固定基础设施支出较高的小型池可能更加难以承受，只能接受较低利润、补贴运营或寻求整合。提高交易费用是另一个杠杆，但其前提是用户仍愿意支付。",
+          "Leios设计包含一道保护机制，避免在需求出现前就承担全部基础设施成本。按照提议的设计，普通的Praos区块可以在低流量情况下继续运行，无需激活额外的Endorser Block工作，从而限制未使用容量的部分成本。目前，该项目正进入公开测试网的Water阶段，开发人员在测试不同配置、重新设计的内存池以及生产加密密钥。Input Output称，目标是在2026年底前让Leios具备主网条件，同时也承认在如此时间表内交付共识升级将异常快速。对于质押池运营者和ADA委托人，更具验证性的证据要等到容量测试结束后才会出现：持续的链上交易、这些交易实际产生的手续费，以及它们能在多大程度上替代不断减少的储备贡献。"
+        ],
+        "source_name": "CryptoSlate",
+        "url": "https://cryptoslate.com/cardanos-leios-6x-scaling-breakthrough-comes-with-a-much-harder-ada-problem/",
+        "published_at": "2026-09-08T12:51:00+08:00",
+        "region": "其他",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "Cronos抹去近两小时交易以逆转1.11亿美元DeFi漏洞利用",
+        "source_title": "Cronos Erased Two Hours of Transactions to Reverse $111 Million DeFi Exploit",
+        "event_date": "-",
+        "key_points": [
+          "Cronos通过回滚区块链逆转了约1.112亿美元与Tectonic漏洞利用相关的资金。",
+          "干预丢弃了1小时54分钟的交易，包括与攻击无关的正常活动。",
+          "约919万美元在验证者暂停网络前已离开网络，据Cronos称至今仍未追回。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "据Cronos周一发布的事后分析报告（post-mortem）称，由Crypto.com支持的区块链网络Cronos删除了近两个小时的交易历史，以逆转约1.112亿美元与借贷协议Tectonic漏洞利用相关的资金。验证者回滚了已完成的交易，以保护约92%仍留在网络上的受影响资金；这一干预打破了区块链交易不可篡改的常规预期。",
+          "攻击发生在8月30日，目标为Tectonic网络。Tectonic是一种允许用户通过存入的抵押品借入加密货币的借贷协议。报告显示，攻击者在流动性很低的去中心化交易所市场上推高TONIC价格，随后凭借被高估的抵押品在九个市场借出约1.204亿美元。",
+          "Cronos验证者于美东时间上午9时32分暂停网络，随后回滚了10961个区块，抹去了1小时54分钟的交易。无论是否与漏洞相关，这一窗口内的每一笔交易都被反转；交易恢复时，实时应用上的未平仓头寸也重新定价。区块生产于8月30日下午6时49分恢复，网络离线了约九小时。",
+          "Cronos开发者写道：“这是一个艰难的决定，是和验证者一起做出的，要权衡用户期望的链上最终性与面临风险的资金。恢复状态意味着丢弃1小时54分钟的已结算交易；若不恢复状态就重启，借出的资产将留在攻击者的控制中。”",
+          "尽管回滚操作保住了大部分资金，约919万美元还是在网络暂停前离开了Cronos。事后报告称，这笔钱至今仍未追回，且不在回滚能够触及的范围内。初步估计曾将受影响资金定为7500万美元，桥接流出金额为600万美元；Cronos的账目则显示借款规模为1.204亿美元，其中约1.112亿美元已被逆转。",
+          "验证者需要多轮协调，才能使用修补后的软件和相同的交易记录恢复运行。Cronos承认在关闭期间沟通不畅，并表示被逆转的交易现在可以通过归档记录检查，而不是公共区块链浏览器。Cronos写道：“我们认识到这一事件对整个Cronos生态系统造成的干扰。随着网络运营恢复，我们的重点仍是完成与受影响平台的对账，并运用这次事件的教训加强生态系统的保障措施。”",
+          "其他网络也曾在攻击后面对是否停机或逆转交易的类似决定。8月，据Maya Protocol称，一名攻击者利用六个软件缺陷盗走约165万美元加密资产后，该协议暂停了网络；Ravencoin上的一个漏洞被利用，也促使团队着手重建其区块链，令大约三天的交易面临被逆转的风险。安全专家警告，人工智能（AI）可能帮助攻击者更快发现漏洞，但Cronos的事后报告没有给出AI参与这次Tectonic攻击的证据。"
+        ],
+        "source_name": "Decrypt",
+        "url": "https://decrypt.co/377686/cronos-erased-two-hours-transactions-defi-exploit",
+        "published_at": "2026-09-08T18:10:00+08:00",
+        "region": "其他",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "Robinhood入股Crypto.com选用OG.com为预测市场提供基础设施与清算服务",
+        "source_title": "Robinhood Takes Equity Stake in Crypto.com, Taps Exchange to Power Prediction Markets",
+        "event_date": "2026-09-08",
+        "key_points": [
+          "Robinhood宣布入股Crypto.com及OG.com，取得两家公司的少数股权，并与OG.com达成多年期合作，后者将成为其预测市场平台的基础设施与清算提供商。",
+          "OG.com称这是按交易量计算其规模最大的企业对企业合作，自9月8日起分阶段向符合条件的美国客户开放。",
+          "消息公布后，Robinhood股价盘前上涨约3.4%至约126美元，Crypto.com原生代币CRO上涨超6%。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Robinhood周二宣布，将取得Crypto.com及OG.com的少数股权，并与OG.com达成一项多年期合作。根据协议，OG.com将成为Robinhood预测市场平台的基础设施与清算提供商，负责在客户下单后处理并结算交易。Robinhood将把零售交易量引导至OG.com旗下受美国商品期货交易委员会（Commodity Futures Trading Commission，CFTC）监管的交易所。公司称，这是OG.com按交易量计算规模最大的企业对企业合作，自9月8日起分阶段向符合条件的美国客户推出。",
+          "OG.com是Crypto.com于2月以独立应用形式推出的预测市场平台，现已拆分为一家独立资本的公司。预测市场让用户交易某种结果是否真的会发生的合约，例如美联储是否降息、选举结果或周日比赛的胜者，而不是通过传统体育博彩下注。Polymarket是最受欢迎的平台之一，此外还有Kalshi，以及由Decrypt母公司Dastan开发的Myriad。",
+          "Robinhood已把这一模式变成自身增长最快的产品线，而本次交易的关键在于由谁负责其底层“管道”。此前，Robinhood的预测市场中心建立在Kalshi的合约之上，之后开始将交易量转移至Rothera——一个与交易公司Susquehanna International Group合资运营的CFTC持牌交易所，并在今年的世界杯期间进行了测试。引入OG.com后，Robinhood的基础设施供应商增至三家，不再依赖单一来源。",
+          "股权交易的方向则相反。Robinhood在Crypto.com和OG.com中的持股，定价与Citadel Securities于7月的投资保持一致。那轮投资是Crypto.com首次接受机构融资，对其估值为200亿美元。OG.com独立拆分的估值为50亿美元。Crypto.com创始人兼首席执行官Kris Marszalek将此次联手称为“游戏规则改变者”，他在声明中表示，希望OG.com成为“全球最具流动性的创新衍生品工具场所”。",
+          "Robinhood副总裁JB Mackenzie称，随着客户对事件合约的需求持续攀升，这笔交易“让Robinhood更有参与感”。Robinhood第二季度的事件合约收入同比增长超过10倍，达到1.56亿美元，使预测市场成为公司增长最快的业务线，而同期加密货币交易收入下降38%。对于一个以股票和加密货币交易起家的应用来说，事件合约如今正在承担更多业务。",
+          "市场对这一消息反应积极。Robinhood股票（交易代码HOOD）周二盘前上涨约3.4%，报约126美元；Crypto.com的原生代币CRO上涨超过6%，至当前的0.06美元，日内高点为0.065美元。一个月前，特朗普媒体集团取消与Crypto.com的另一组交易后，CRO曾跌至三年低点，因此本次上涨是一个明显的反弹。",
+          "监管层面，Crypto.com已在2月获得美国国家信托银行章程的有条件批准，而将OG.com拆分并独立资本化，也是其向受监管金融基础设施靠拢的又一步。本次合作自9月8日起分阶段向符合条件的美国客户启动，两家公司也已指出下一步计划：推出与股权挂钩的永续期货，但需要等待监管批准。"
+        ],
+        "source_name": "Decrypt",
+        "url": "https://decrypt.co/377676/robinhood-equity-crypto-com-prediction-markets",
+        "published_at": "2026-09-08T16:25:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "Circle收购Tazapay扩展USDC跨境支付覆盖",
+        "source_title": "Circle to acquire Tazapay to expand USDC cross-border payments",
+        "event_date": "2026-09-08",
+        "key_points": [
+          "Circle已同意以4亿美元全股票交易收购新加坡跨境支付平台Tazapay，预计在2027年完成交割。",
+          "Tazapay年化支付量超过250亿美元，为超过60家银行和金融科技伙伴提供服务，覆盖100多个市场。",
+          "Circle称，稳定币约占Tazapay交易量的60%，此次收购将扩大其亚太及新兴市场的支付能力。"
+        ],
+        "lead_cn": "Circle已同意收购总部位于新加坡的跨境支付平台Tazapay，以拓展USDC在跨境支付领域的应用。Tazapay年化支付量超过250亿美元，本地支付通道覆盖100多个市场。",
+        "body_paragraphs": [
+          "Circle已同意收购总部位于新加坡的跨境支付平台Tazapay。这笔全股票交易的价值为4亿美元，预计将在2027年完成交割。根据Circle向美国证券交易委员会提交的文件，Circle将以其A类普通股支付交易对价，购买价格会根据Tazapay的债务、交易费用和现金情况作出相应调整。",
+          "Circle在周二（9月8日）的一份公告中表示，交易仍需满足惯例的交割条件，并获得新加坡金融管理局的批准。Tazapay当前的年化支付量超过250亿美元，为超过60家银行和金融科技合作伙伴提供本地支付通道，这些通道覆盖超过100个市场。",
+          "这家公司曾在2025年8月披露，其年化支付量当时已超过100亿美元。Circle此前已通过Circle Ventures投资了Tazapay，并参与了该初创公司2025年8月的B轮融资。根据Tracxn的数据，Tazapay在五轮融资中累计筹集了5790万美元。",
+          "Circle表示，稳定币大约占Tazapay交易总量的60%。Circle指出，这笔收购将增强其把支付路由到亚太和新兴市场、以及从这些市场路由回来的能力，从而扩大USDC在跨境商务中的使用。",
+          "Circle支付业务高级副总裁Irfan Ganchi在一份声明中说：“此次收购将增强Circle在全球发起和终止支付的能力，实现近乎即时、每周7天每天24小时持续运行，这是推动USDC成为跨境商务默认支付轨道的重要一步。”",
+          "Tazapay自2025年以来一直是Circle支付网络（Circle Payments Network）的设计合作伙伴。Circle表示，Tazapay的客户在服务、API、定价和支持方面不会因这笔交易而出现中断。",
+          "另据雅虎财经数据，Circle在纽约证券交易所上市的CRCL股票周二盘前交易中下跌超过2%，截至最后一次观察仍处于下跌状态。"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/circle-tazapay-usdc-cross-border-payments",
+        "published_at": "2026-09-08T12:33:00+08:00",
+        "region": "新加坡/美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "RobinhoodCEOTenev抨击各州越权监管加密与预测市场",
+        "source_title": "Robinhood CEO Tenev Blasts State Overreach on Crypto and Prediction Markets",
+        "event_date": "2026-09-08",
+        "key_points": [
+          "Robinhood首席执行官Vlad Tenev指责多个州为保护州彩票和持牌博彩税收而打压预测市场。",
+          "Tenev呼吁制定持久而明确的联邦规则，以便向美国客户开放代币化股票、质押和24/7交易。",
+          "Robinhood在2026年第二季度录得创纪录收入13亿美元，预测市场贡献1.56亿美元，合约交易量达136亿份，但加密收入下滑38%。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Robinhood首席执行官Vlad Tenev给州监管机构的信息是：不要为了保护自己的博彩收入而阻碍创新。他在近期评论中批评数州在加密及预测市场问题上“越权”，突显联邦数字资产雄心与地方抵制之间的裂痕。2024年大选周期中，预测市场（prediction market）人气爆发，Robinhood、Polymarket和Kalshi等平台允许用户对从总统选战到奥斯卡得主的结果下注，交易量激增。然而多个州大力推动关停这些平台。Tenev认为动机明晰——州政府不愿放弃自家彩票及持牌博彩业务的税收。",
+          "利害远超选举博弈，它们触及美国金融市场的未来形态。Robinhood在2026年第二季度录得创纪录收入13亿美元；基于交易的收入上涨44%至7.76亿美元，部分受预测市场驱动，仅预测市场就贡献1.56亿美元。平台合约交易量达136亿份。加密收入却下滑38%。反差之下，公司正处转型。Tenev想要的并不只是强劲的季度数字。",
+          "Tenev告诉分析师：“我们希望美国行业的地基是持久的，我们不希望每四年八年脚下的地板就被抽走，然后出台新规则。”他认为特朗普政府“很棒”，但只有《清晰法案》这类立法才是通往持久稳定的唯一路径；否则，代币化股票（tokenized stocks）和质押（staking）在美国部分地区依然会被禁或受限。",
+          "州与联邦的紧张关系已急剧升温。康涅狄格州命令Robinhood、Kalshi和Crypto.com停止提供某些事件合约（event contract），称之为无牌体育博彩；内华达州针对Polymarket采取了法院行动；佛罗里达州对Robinhood Crypto展开调查，因其宣称是购买数字资产“最便宜”的方式。当各州发力之际，联邦监管者却释放出开放信号：美国证券交易委员会（SEC）结束了Robinhood加密部门的调查，未采取执法行动；SEC主席Paul Atkins启动了Project Crypto，以更新链上资产规则。摩擦仍看不到消退迹象。",
+          "Robinhood在美国多州无法提供质押，尽管客户需求强劲；代币化股票却能通过Robinhood Wallet在120多个国家自由交易，欧洲人可享受美股碎股的24/7交易与实时结算，而美国人不行。Tenev写道：“如果世界其他地区能围绕美国资产构建所有权的未来，而美国人自己却被抛下，将是怪异的结局。”他以2021年GameStop事件为例，称交易停牌暴露了传统结算系统缺陷，代币化可解决这一缺陷，实现实时终局性、连续交易和更低成本。AMC娱乐CEO要求Robinhood停止发行AMC关联代币，Robinhood拒绝，首席法务官Dan Gallagher回应“派你们的律师来”，Tenev表态全力支持。",
+          "Robinhood的以太坊二层网络Robinhood Chain已处理数十亿美元的去中心化交易所（decentralized exchange）交易量；Robinhood Earn则吸引超过2亿美元存款。这些押注反映出公司相信政策终将赶上。Robinhood还以2亿美元收购了Bitstamp，以获取全球牌照与机构能力；在更严规则生效前取得英国加密注册资格；在欧洲根据MiCA框架提供完整转账和永续合约。这种海外业务进展与国内限制之间的反差令高管们感到沮丧。",
+          "预测市场也面临法律考验。美国最高法院可能很快裁决各州能否将它们作为赌博来监管。Tenev相信这些产品无论如何都能存活，但持久的联邦明确性可以消除不确定性。8月，他在美国商品期货交易委员会（CFTC）的一次采访中说：“更清晰、更长久的加密规则会使投资者相信，规定不会随政府更替而改变。”行业领袖也发出类似声音：Coinbase今年早些时候因特定条款撤回对市场结构立法的支持，拖延了参议院进度；Tenev重申Robinhood支持，在X上写道：“美国是时候在加密政策上发挥领导作用了。”Robinhood的政策页面将2025年《GENIUS法案》列为稳定币领域首个重要联邦步骤，但全面的国会立法依然必要。",
+          "Bernstein在2026年7月末维持对Robinhood的“跑赢大盘”评级及160美元目标价，称代币化、预测市场和公司的区块链基础设施是现货交易外的下一增长阶段。风险仍存：订单流付费面临审视、某些代币被认定为证券可能引发执法、州行动增加复杂性。SEC提案允许经纪商在单一牌照下处理比特币和股票。Tenev的愿景更远：他预见代币化会向散户投资者开放私人市场，如房地产、私募股权和艺术品；现存的合格投资者规则以财富而非知识限制准入，更新这些规则并开辟清晰的代币注册路径可拓宽参与。欧盟、新加坡和阿布扎比已具备先进框架，若政策制定者不行动，美国可能落后。",
+          "截至2026年9月初，Robinhood代币化股票覆盖189种资产，总价值达1.03亿美元。AMC的争端凸显发行者同意与第三方代币化之间的未解答问题；RedStone等观察者认为，注册和披露要求将决定哪些模式能够胜出。没有简单答案。延迟本身也有代价：客户错失功能，创新流向海外，各州希望保护的税收也可能移往他处。Tenev拒绝在自认服务散户投资者的产品上让步，他持续发声，认为监管“地基”必须停止变动。一旦停止，投资者和更广泛的经济都将受益。"
+        ],
+        "source_name": "WebProNews",
+        "url": "https://www.webpronews.com/robinhood-ceo-tenev-blasts-state-overreach-on-crypto-and-prediction-markets/",
+        "published_at": "2026-09-09T09:00:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "PaoloArdoino希望AI代理持有Tether但开发者要为超支负责",
+        "source_title": "Paolo Ardoino wants AI agents to hold Tether, but developers are left on the hook for overspending",
+        "event_date": "2026-09-08",
+        "key_points": [
+          "WDK CLI开启限时钱包会话，不要求每笔支付都重新获得批准。",
+          "SDK策略可限制交易，但开发者须跟踪支出才能落实累计预算。",
+          "独立的MCP Toolkit要求内置写操作须经用户批准。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Tether首席执行官Paolo Ardoino关于人类与机器财务自主的愿景，把实际决定交给开发者：钱包所有者解锁钱包时，AI代理应获得多大的支出权限？Tether于9月3日对WDK CLI（一种使用其Wallet Development Kit构建的本地命令行钱包）的说明为该产品给出了具体答案。Ardoino在Tether于2024年11月11日宣布WDK时阐述了这一更广泛的抱负——可编程货币系统连接人、机器与AI代理，同时保留财务控制权。",
+          "把钱包密钥保留在所有者手中可确立保管；决定自动化系统可以为哪个收款人、金额或操作授权，则是一个独立的设计选择。解锁会开启一个限时会话。在macOS与Linux上，另一个以钱包所有者身份运行的进程如能访问已解锁钱包的本地端点，就能请求交易；CLI守护进程不对每笔支付重新要求批准。默认会话从解锁起持续五分钟，普通活动不会延长它。短计时器本身不构成金额上限，也不需要针对每个收款人作出新决定；账户边界因此与钱包密码同样重要。",
+          "Tether把这种同一用户访问描述为一种可接受的热钱包权衡。预防措施包括使用资金有限的专用钱包、短会话、在专用操作系统账户下隔离。这些是已披露的运行限制，而非已报道的盗窃或漏洞利用事件。CLI文档描述了三个组件：终端命令、持有已解锁钱包的后台守护进程，以及捆绑的模型上下文协议（Model Context Protocol，MCP）服务器。MCP允许AI客户端调用结构化软件工具，两个接口都使用同一个本地钱包。",
+          "CLI、软件开发工具包和可自定义的MCP工具包在交易过程的不同环节提供不同的控制，开发者的集成选择决定了哪些保护适用。捆绑的MCP界面把钱包创建、种子导出、解锁等管理操作排除在其工具菜单之外，降低了代理通过该服务器可请求的事项数量；但拥有独立shell访问权限的AI客户端并不因此被约束。对转账而言，MCP指南称send_token默认执行试运行；推荐顺序是先预览一笔支付，展示网络、代币、收款人、金额与预估费用，取得确认后再执行。守护进程并不要求证明这些前期步骤出现过，一个本来有效的执行请求仍可从已解锁钱包广播。",
+          "另一条路径call_method可以跳过试运行或强制确认，调用所声明的链特定写操作。这让检查点的位置变得关键：客户端可以展示一张慎重的批准画面，而底层钱包仍愿意通过另一条允许路径接受请求。要让该画面定义支出权限，产品必须同时控制其他路径。文档中工具数量的表述还需限定——9月博客把11个工具的引用与一张9个工具的表格混在一起，当前MCP指南则列出11个；额外条目是list_methods和call_method。",
+          "此外，版本也出现不一致。CLI指南描述的是1.0.0-beta.3，而Tether在8月27日的更新日志中记录beta.4，内容为配置覆盖修复，并称公共命令、配置键与存储数据行为均保持不变。因此，指南中的beta.3标签不应被当作最新版本号。除CLI以外，开发者可直接使用WDK的软件开发工具包（Software Development Kit，SDK），其本地交易策略会在受治理钱包或协议操作执行前提供可配置的ALLOW与DENY规则，示例涵盖受批准的收款人和金额条件。",
+          "这些检查能阻止受治理调用，但它们是选择启用的本地控制，有定义范围，不是在区块链上强制的规则。文档说它们不是完整的沙箱：单独保留的原始账户引用和一些内部模块调用仍在其拦截范围之外。SDK也不自动维护收款人列表、获取价格、解码合约调用数据或持久化支出计数器；当限额依赖累计活动时，开发人员要承担持久性与并发性。以每日预算为例，检查单笔金额无法说明代理当天已花费了多少；若产品承诺累计上限，它必须记录以前的支出并一致处理同时请求。所以，累积预算既需要应用级记账，也需要每笔支付检查。",
+          "另一个独立的MCP工具包（MCP Toolkit）记为beta.1。Tether表示，其内置写工具会使用MCP征询来取得明确用户批准，然后才广播。配置选项允许开发者暴露只读工具、选择单独操作或添加自己的操作。这些批准流程应区别于捆绑CLI服务器建议的预览顺序。自定义还意味着开发者必须决定一个新增操作可做些什么。Tether对用途有自己的划分：CLI用于本地操作员工作流，SDK内置在应用中，Toolkit用于定制代理服务器——这为把实验做成处理用户资金的产品提供了多种选择。",
+          "选择带有实际权衡。要求人审批每笔支付，会让人获得对每笔交易的决策权；允许代理在预设预算内运行可实现更多自动化，但需要可靠规则界定什么计入预算并覆盖哪些操作。所以，对用户而言有意义的承诺应当具体：这个助手能花多少、能汇往哪里、什么会终结其权限。钱包密码或批准提示只能回答这一问题的部分，除非周围软件使预设限制真正生效。Ardoino的自我托管（self-custody）策略让开发者在不把钱包所有权交给托管人的情况下仍能构建产品；下一项责任落在产品上：使授予代理的权力与所有者认为自己设定的限制一致。"
+        ],
+        "source_name": "CryptoSlate",
+        "url": "https://cryptoslate.com/paolo-ardoino-wants-ai-agents-to-hold-tether-but-developers-are-left-on-the-hook-for-overspending/",
+        "published_at": "2026-09-08T16:40:00+08:00",
+        "region": "其他",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      }
+    ],
+    "notes": [
+      "本期窗口内无香港加密监管直接相关候选，政策风向以美国为主并引入新加坡牌照动态实现地区分散。",
+      "Robinhood相关新闻较多，已避免同一主题重复选稿。",
+      "所有入选原文均超过最低信息量要求，政策与市场类优先选择监管/牌照/并购等实质进展。"
+    ]
+  },
+  "factcheck": {
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      "item 1 contains question-style future/unknown wording; ensure the source explicitly raises it",
+      "item 1 contains relative time wording; replace with exact date",
+      "item 2 contains relative time wording; replace with exact date",
+      "item 6 contains relative time wording; replace with exact date",
+      "item 8 contains question-style future/unknown wording; ensure the source explicitly raises it",
+      "item 8 contains relative time wording; replace with exact date"
+    ]
+  },
+  "outputs": {
+    "docx": "reports/2026/加密货币观察_20260909.docx",
+    "manifest": "reports/2026/_manifests/加密货币观察_20260909.json"
+  }
+}
