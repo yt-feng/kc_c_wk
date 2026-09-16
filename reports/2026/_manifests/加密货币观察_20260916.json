@@ -1,0 +1,297 @@
+{
+  "generated_at": "2026-09-16T14:44:32+08:00",
+  "period": "2026-09-09 14:44 至 2026-09-16 14:44（北京时间，最近7天）",
+  "raw_count": 73,
+  "collection_warnings": [
+    "no candidates for query: Hong Kong SFC HKMA virtual asset stablecoin tokenised investment product regulation",
+    "no candidates for query: cross chain oracle RWA infrastructure wallet staking rollup interoperability crypto",
+    "no candidates for query: crypto acquisition funding IPO futures CME stablecoin revenue tokenized securities",
+    "no candidates for query: crypto company raises acquires launches futures ETF tokenized fund stablecoin adoption",
+    "no candidates for query: BIS central bank governor stablecoin tokenization says digital assets",
+    "no candidates for query: site:blockworks.co (crypto OR bitcoin OR ethereum OR stablecoin OR tokenization OR digital assets)"
+  ],
+  "report": {
+    "items": [
+      {
+        "section": "政策风向",
+        "title_cn": "美国参议院未能推进《CLARITY法案》加密市场结构立法在2026年止步",
+        "source_title": "The U.S. Senate Failed to Advance the CLARITY Act, Ending Crypto’s Market-Structure Push for 2026",
+        "event_date": "2026-09-15",
+        "key_points": [
+          "美国参议院以49票对50票否决《CLARITY法案》（CLARITY Act）的终结辩论（cloture）动议，距所需60票差11票，该法案在2026年止步。",
+          "表决对象是推进H.R. 3633的动议而非法案本身；失败意味着参议院不开启正式辩论，法案无法进入议事程序。",
+          "争议焦点为可执行的伦理条款；比特币（Bitcoin，BTC）跌至约75，986美元，Coinbase（NASDAQ： COIN）下跌8.65%至174.89美元。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "美国参议院于周二未能推进《CLARITY法案》（CLARITY Act），以49票对50票否决终结辩论（cloture），使这项国会迄今提出的最重要加密市场结构法案距所需的60票少了11票。此次挫败中止了相关努力，而考虑到11月中期选举前日程紧凑，实际上等于让该法案在2026年止步。随着计票结果出炉，比特币（Bitcoin，BTC）与加密相关股票下跌。",
+          "周二表决的对象值得厘清，因为多数报道会将其模糊化：这是针对推进H.R. 3633动议的终结辩论表决，而非法案本身的通过表决。若表决成功，只会让参议院开始正式辩论，之后仍需经过修正案与单独的表决通过程序。表决失败意味着参议院根本不会开启该辩论，法案也无法进入议事程序。根据参议院每日新闻发布厅记录，参议院以49票对50票否决该动议，距所需60票差11票，也差1票才能达到简单多数；参议员Chris Coons未投票。随着终结辩论失败，Polymarket上《CLARITY法案》2026年成为法律的赔率跌至约7%，低于2月的82%。",
+          "法案倒在了此前数月一直令其停滞的同一争议上：伦理。民主党人要求以可执行的方式禁止总统与高级官员在为其制定规则的同时从加密领域获利，而总统特朗普披露2025年超过14亿美元加密收入，使这一要求更为尖锐。参议院共和党人于9月14日公布了最终版630页文本，纳入126处民主党人要求的修改，新增可由州检察长执行的伦理条款，但这些让步未能争取到足够票数。",
+          "参议院银行委员会（Banking Committee）资深民主党人、参议员Elizabeth Warren带头反对，她在CNBC获得的准备好的院会发言稿中称，修订后的伦理条款是“一块软弱无力的遮羞布，丝毫无法阻止他赚取下一笔14亿美元加密利润”。她的核心反对意见在于可执行性：该条款把执行交由特朗普自己的司法部，禁止州检察长与私人当事方采取行动，并设有日落条款，使未来一届政府无法追究违规。",
+          "参议员Elissa Slotkin在解释其反对票时在X上写道，“这项法案中的伦理条款实在过于单薄”，并补充说反洗钱与反恐融资保障措施，以及美国商品期货交易委员会（Commodity Futures Trading Commission，CFTC）自身为实施该法所需的人员配置，仍有待完善。此前表示草案“有所不足”的七名民主党人坚持立场，另有四名共和党人Susan Collins、Josh Hawley、Jerry Moran和Thom Tillis投下反对票。Tillis的反对票出于程序原因，以保留其提出重新审议该表决的动议的能力，他随后确实这样做了，为年内在该法案上留出一条狭窄但可能性不大的重启路径。",
+          "法案支持者将此次失败描述为延迟而非对框架本身的否决。多数党领袖John Thune认为，清晰的联邦规则手册才能把数字资产发展留在美国，他在表决后的一份声明中说，“监管确定性是美国在数字资产领域领导地位的关键”。法案发起人Cynthia Lummis在表决前几分钟在院会发言，主张以立法而非机构行动来解决问题，认为只有成文法才能让该行业免受政府更迭带来的冲击。",
+          "在法案受阻后，美国加密监管默认回到《CLARITY法案》原本要取代的拼凑状态：美国证券交易委员会（Securities and Exchange Commission，SEC）提出的《加密资产监管条例》、CFTC依据现有权限制定规则，以及已经划分管辖权的SEC与CFTC联合解释性指引。这些措施都不具备法律的持久性，且每一届未来政府都可将其修改。",
+          "市场实时解读了这一结果。唯一在美国上市的交易所、也是与该法案关联最深的股票Coinbase（NASDAQ： COIN）下跌8.65%至174.89美元，回吐了前一日因分析师上调评级与最后一刻乐观情绪带来的9%涨幅。据TradingView数据，比特币下跌2.81%至约75，986美元，从接近78，000美元回落。杠杆放大了这一走势：在表决前后一小时内，约2.89亿美元加密头寸被清算，其中约91%为多头押注；据Coinglass，24小时清算总额达7.7182亿美元，涉及超过12万名交易者，比特币占其中最大单一份额，超过9，000万美元。",
+          "这一挫折发生在几乎确定加息的前一天。CME FedWatch显示，9月16日联邦公开市场委员会（Federal Open Market Committee，FOMC）会议加息25个基点的概率为94.5%，高于一周前的40.6%。Cathie Wood的ARK Invest在周一加密股走高之际卖出约700万美元Coinbase，据The Block报道，这属于其超过6，000万美元加密相关卖出的一部分。可行的前路狭窄：众议院已取消9月下旬的投票周，中期选举在前，分析师认为在2029年之前不会再有推动全面加密立法的认真尝试，机构拼凑监管在那之前将一直延续。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/us-senate-fails-advance-clarity-act-cloture-vote/",
+        "published_at": "2026-09-15T20:52:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "美国国会拟让加密更易使用同时多收5亿美元税",
+        "source_title": "Congress wants to make crypto easier to use and still collect $500 million more in taxes",
+        "event_date": "2026-09-16",
+        "key_points": [
+          "美国众议院筹款委员会将于9月16日审议 H.R. 10357，即数字资产税收确定性法案（Digital Asset Tax Certainty Act），该法案将稳定币（stablecoin）减免与扩大交易规则相结合。",
+          "税收联合委员会（Joint Committee on Taxation，JCT）估计，该法案在2027财年至2036财年净增加约5亿美元联邦收入，同时减少符合条件的稳定币支付、费用、贷款和质押信托的税收摩擦。",
+          "逐条审议阶段的修正案可能重塑洗售（wash sale）限制、费用豁免和法案预计收入，然后才进入国会投票。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "众议院筹款委员会定于9月16日审议 H.R. 10357，即数字资产税收确定性法案（Digital Asset Tax Certainty Act）。这将在数月谈判后把数字资产税收的广泛重写提交给议员，谈判围绕加密应在多大程度上像传统金融资产一样被对待。税收联合委员会（Joint Committee on Taxation，JCT）估计，该立法在计入增加和减少政府收入的条款后，将在2027财年至2036财年净增加约5亿美元联邦收入。该一揽子计划包括覆盖稳定币（stablecoin）、交易费用、交易损失、数字资产借贷、质押和过去税务违规的规则。",
+          "这一财政结果反映了法案的核心权衡。议员将移除一些使常规加密活动变得繁琐的税收摩擦，同时将证券式规则扩展至交易者，这可能产生数十亿美元额外收入。加密税务律师 Andrew Gordon 就该立法表示：“这对只想了解税收规则的加密投资者来说是巨大进步。我们都纳税，规则需要明确。”",
+          "稳定币减免及其代价。合格美元稳定币将获得特殊待遇，以防止围绕1美元锚定的小幅波动产生纳税人每次使用代币时必须计算的收益或损失。根据提案，赎回价值通常将决定在锚定价格规定区间内发生的合格交易的基础和收益。交易者、经纪商和自营商将被排除，某些完成超过5000笔计数交易的用户以及功能货币不是美元的纳税人也被排除。",
+          "该措施还将忽略数字资产用于支付不超过10美元的网络或交易费用时的收益或损失，覆盖区块链燃料费（gas fees）以及某些交易或流动性费用等成本。该条款将对2027年12月31日之后的处置生效，并承担该一揽子计划中最高的成本之一。JCT估计，到2036年，小型费用减免将减少联邦收入23.65亿美元。该立法没有为使用比特币或其他加密货币进行的购买设立一般10美元豁免。该排除与交易相关费用挂钩，使大多数购买仍受数字资产作为财产的现有待遇约束。",
+          "议员将通过结束加密投资者长期相对于股票交易者享有的税收优势，从其他地方收回收入。该法案将洗售（wash sale）限制扩展至交易数字资产，合格美元稳定币除外。根据现有规则，投资者通常可以亏损卖出比特币，立即买回，并仍将亏损用于税务目的，因为洗售制度主要覆盖股票和证券。H.R. 10357 将限制该策略，并将覆盖某些经济等价资产，包括包装和代币化版本。JCT估计，该变化将在预算窗口内增加联邦收入17.07亿美元。",
+          "另一项条款将扩大数字资产自营商和交易者使用按市值计价（mark-to-market）会计的机会，前提是其活动符合贸易或业务资格。JCT估计，到2036年，这些变化将增加23.32亿美元收入。两项交易条款预计将产生超过40亿美元收入，帮助吸收立法中其他地方的税收减少。",
+          "该一揽子计划超越交易，将已适用于证券借贷的税收待遇扩展至合格数字资产贷款。这可能消除围绕在贷款协议下临时转移加密是否构成应税销售的不确定性。合格安排如果满足关于返还等价资产和交易经济的要求，通常将避免立即确认收益或损失。投资信托将获得另一项针对性变化。该法案将防止本来合格的信托仅因其受托人质押该工具持有的数字资产而失去税收地位，可能移除寻求赚取质押奖励的投资产品的障碍。",
+          "然而，该提案对个人矿工和质押者更为有限。它将验证收入归类为普通收入，并建立来源规则，同时保留现有时间框架，该框架通常在纳税人获得质押奖励控制权时确认这些奖励。这意味着该一揽子计划未达到一项行业提议，即把新产生的挖矿或质押奖励的税收推迟到资产最终出售时。",
+          "有较早报告问题的纳税人将获得另一条合规途径。财政部将被指示建立数字资产自愿披露计划（Digital Asset Voluntary Disclosure Program），允许合格纳税人纠正过去申报、支付欠税和利息，并可能获得某些处罚减免。",
+          "9月16日的逐条审议是这些妥协能否在立法程序中保留的首次考验。委员会成员可以在投票决定是否推进该措施之前修正该措施，而批准仍将使 H.R. 10357 面临众议院全院投票、参议院审议和总统行动。在逐条审议期间对洗售、费用或稳定币条款的修改，也可能改变 JCT 预计的5亿美元净收入增益，要求议员决定他们愿意提供多少税收减免，而不使更广泛的一揽子计划成为收入损失者。"
+        ],
+        "source_name": "CryptoSlate",
+        "url": "https://cryptoslate.com/congress-wants-to-make-crypto-easier-to-use-and-still-collect-500-million-more-in-taxes/",
+        "published_at": "2026-09-16T01:00:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "英国央行官员稳定币增长可能强化美元主导地位并推升美国国债需求",
+        "source_title": "Stablecoin growth could boost dollar dominance, US Treasury demand: BoE official",
+        "event_date": "2026-09-15",
+        "key_points": [
+          "英国央行金融政策委员会成员 Carolyn Wilkins 表示，以美元计价的稳定币可能通过便利跨境结算、扩大美国境外美元挂钩资产的可及性并增加作为储备持有的美国国债需求，强化美元的全球主导地位。",
+          "Wilkins 引用的数据显示，Tether 的 USDt（USDT）和 Circle 的 USDC（USDC）在 2025 年底持有近 1500 亿美元的美国国库券，并在当年买入约 330 亿美元。",
+          "Wilkins 认为这一关系是双向的：在达到足够规模时，大规模稳定币赎回可能迫使发行方出售国库券，从而可能放大本已承压市场的波动。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "英国央行一名政策制定者表示，数字美元可能扩大对美国货币的获取渠道，同时让稳定币发行方成为更大的政府债务买家。英国央行金融政策委员会成员 Carolyn Wilkins 表示，稳定币的兴起可能强化美元的全球主导地位，并增加对美国国债的需求，这凸显出不断扩大的数字美元市场可能带来远超加密领域的影响。",
+          "在周二于贝尔法斯特女王大学（Queen's University Belfast）发表的演讲中，Wilkins 表示，以美元计价的稳定币可能通过使跨境结算更容易、扩大美国境外美元挂钩资产的可及性，以及增加作为储备持有的美国国债需求，从而强化美元。她的表态出现在英国构建自身数字货币框架之际。",
+          "最大的稳定币发行方已经是美国政府债务的重要买家。根据 Wilkins 引用的数据，Tether 的 USDt（USDT）和 Circle 的 USDC（USDC）在 2025 年底持有近 1500 亿美元的美国国库券，并在当年买入了约 330 亿美元。稳定币发行方已成为美国国债的重要持有者。",
+          "不过，Wilkins 认为这种关系是双向的。她表示，在达到足够规模时，大规模稳定币赎回可能迫使发行方出售国库券，从而可能放大本已承压市场的波动。她的上述评论正值稳定币采用持续增长之际，目前流通中的稳定币已超过 3000 亿美元。",
+          "该市场仍压倒性地与美元挂钩：美元占稳定币价值的 98%，Wilkins 称这赋予了美元“相当程度的先发优势”。相关报道包括美国银行（BofA）、花旗（Citi）和高盛（Goldman Sachs）等 21 家机构计划推出稳定币。",
+          "相比之下，以英镑计价的稳定币获得关注的进展要慢得多，尽管英国监管机构今年已采取多项措施鼓励其发展。英国金融行为监管局（FCA）开始通过一个专门的监管沙盒测试潜在稳定币发行方，并于 6 月敲定了英国稳定币发行规则。",
+          "英国央行也一直在试验数字货币，其中包括近期测试稳定币与模拟数字英镑能否共同用于跨境贸易支付。这一转变发生之际，英国央行对稳定币采取了更为宽松的态度，此前业界批评其拟议规则可能扼杀创新。相关报道中，世界贸易组织（WTO）负责人表示，碎片化的监管限制了稳定币在国际金融中的采用。"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/stablecoins-us-dollar-dominance-treasury-demand-boe",
+        "published_at": "2026-09-15T18:52:00+08:00",
+        "region": "英国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "Zcash持币者压倒性支持更快交易与比特币式减半",
+        "source_title": "Zcash holders overwhelmingly back faster transactions and bitcoin-style halvings",
+        "event_date": "2026-09-16",
+        "key_points": [
+          "约240万ZEC参与针对下一次重大网络升级NU7范围的投票，在快照时符合条件的ZEC约为360万枚；组织方把100万ZEC设为最低投票率门槛。",
+          "99.9%的参与ZEC支持把出块时间从75秒缩短到25秒，98.9%支持保留Zcash的比特币式减半安排。",
+          "96.6%支持等到2031年2月再开始重新发行通过网络可持续性机制（NSM）收集的ZEC，约99.3%支持尽快推出NU7并放弃未在9月30日准备截止日前实现的功能。"
+        ],
+        "lead_cn": "Zcash持币者在一场保护隐私的治理投票中，以压倒性多数支持缩短出块时间并保留比特币式减半安排，该投票针对Zcash下一次重大网络升级NU7的范围。",
+        "body_paragraphs": [
+          "Zcash持币者在一场治理投票中，以近乎一致的多数支持更快的交易，并支持保留该网络比特币式的减半安排。约240万ZEC参与了关于NU7（Zcash下一次重大网络升级）范围的投票，在快照时符合条件的ZEC约为360万枚，即约三分之二的合格代币参与。投票结果按ZEC而非投票人数加权，一个合格ZEC代表一票。组织方将100万ZEC设为最低投票率门槛，达到该门槛才把结果视为持币者的代表性意见。",
+          "投票本身与结果同样特殊。只有存放在Ironwood——Zcash最新的隐私交易池——中的ZEC才能投票。“屏蔽”（shielded）意味着区块链可以在不公开钱包余额或交易细节的情况下，验证这些代币确实存在且被正确花费。这层隐私延续到了投票之中。",
+          "在普通代币投票中，一个投出50万票的钱包，实际上等于向全世界宣布自己控制50万枚代币，以及支持哪一方。Zcash的系统让这种经济权重被计入，却不把持币者的余额或身份与选择一同公开。选票被加密并拆分成16个独立部分后才进行统计，验证者可以加总最终结果，却无法重建哪位持币者投了哪一票，或其控制多少ZEC。换言之，持币者可以用其真实经济权益对Zcash的货币政策和技术路线图投票，同时隐藏这份权益的规模。",
+          "支持缩短出块时间的比例达到参与ZEC的99.9%，方案是把出块时间从75秒缩短到25秒。区块是添加到网络中的成批交易，因此更短的出块时间通常意味着用户能更快看到支付被确认。另有98.9%的投票支持保留Zcash的比特币式减半。矿工是帮助保护网络的计算机，其报酬部分来自新创造的ZEC；减半会在固定间隔把新币奖励削减一半。另一种方案是随着时间更渐进地减少新ZEC数量，而不是按既定的时间点大幅削减。",
+          "持币者还以96.6%的票数支持等到2031年2月，再开始重新发行通过网络可持续性机制（Network Sustainability Mechanism，NSM）收集的ZEC。该计划中的系统会把资金移出流通，包括至少60%的交易费用，并最终通过未来的区块奖励回收这些ZEC。该机制不改变Zcash的最大供应量。这一结果保留了现有的减半安排，同时让这些回收费用先积累数年，再开始回到矿工手中。此外，投票者还支持禁用与已过时的Sprout隐私系统相关的交易。",
+          "在升级节奏上，持币者几乎没有推迟更广泛升级的意愿。约99.3%投票支持尽快推出NU7，并放弃任何未能在9月30日准备截止日前实现的功能，而不是等待每一个已获批准的组件都完成。",
+          "这次参与度较Zcash此前的持币者民调大幅跃升。2月的NU7情绪调查参与量仅相当于流通ZEC的7.25%，并暴露出持币者与Zcash社区咨询小组（Community Advisory Panel，ZCAP）之间的尖锐分歧。最新投票系统于今年夏天推出，用以取代此前的代币持有者投票流程，并为屏蔽余额提供更强的隐私保证。",
+          "25秒出块的提议也契合让私有ZEC支付快得多的更广泛努力。CoinDesk在8月报道，新的Zcash软件在某些测试中把移动设备上的证明生成时间从3秒以上缩短到200毫秒以下；围绕Zakura和Project Tachyon的另外一些工作，目标则是大幅提高私有交易的吞吐量。",
+          "这次投票在围绕NU7范围的数月分歧之后，为开发者提供了更清晰的路线图。不过投票本身并不改变网络，所选功能仍需被实现、测试并纳入最终升级。尽管如此，近240万ZEC在个人余额始终隐藏的情况下对这些决定投了票，使这一加密领域最古老的隐私系统之一，变成了决定该网络下一步构建什么的机制。"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/tech/2026/09/16/zcash-holders-overwhelmingly-back-faster-transactions-and-bitcoin-style-halvings",
+        "published_at": "2026-09-16T01:00:00+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "黑客用25美分比特币在DeFi跨链桥上铸出460亿枚虚假BTC代币",
+        "source_title": "A hacker turned 25 cents of bitcoin into 46 billion fake BTC tokens on a DeFi bridge",
+        "event_date": "2026-09-15",
+        "key_points": [
+          "Symbiosis比特币跨链桥（Bitcoin Bridge）中的两个软件缺陷叠加，让攻击者创建了超过比特币2100万枚上限2000倍的无背书syBTC。",
+          "攻击始于一笔330聪的存款，总价值约25美分；攻击者在BNB Chain、Ethereum和Rootstock上处理了12笔虚假存款，约四分钟内创建约461亿枚syBTC。",
+          "Symbiosis将初步损失估为9.97 BTC（约77万美元），称将用攻击期间被转移出的部分比特币以及单独的补偿安排覆盖被盗资金，其原生Bitcoin Bridge在比特币侧软件重写并完成独立审计前保持离线。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Symbiosis是一个跨链应用，允许用户在不同区块链之间交换那些原本可能未获支持的代币。一份于周二早些时候发布的事后报告（post-mortem）显示，该协议比特币跨链桥（Bitcoin Bridge）中的两个软件缺陷叠加，让攻击者得以创建数量惊人的syBTC。syBTC是一种旨在代表系统所持比特币的代币。",
+          "报道称，这一切的起点是一笔330聪（satoshi，比特币最小单位）的存款，总价值约为25美分。按照CoinDesk的标题表述，一名黑客用25美分的比特币，在这座DeFi跨链桥上换出了460亿枚虚假BTC代币。该报道由Shaurya Malwa撰写，Sheldon Reback编辑。",
+          "该桥在判断资金由谁发送时，查看了比特币交易中错误的部分。据Symbiosis的说法，这使攻击者得以说服系统，将其同时视为经批准的存款人和该桥的管理员。这一被抬高的权限，让攻击者能够把该桥的最低费用推低至零以下。",
+          "第二个缺陷随后从存款金额中减去这一负费用，这反而增加了存款，而不是使其减少。这意味着，该笔存款可以突然被视为价值几乎等同于攻击者所提供的任意数字。Symbiosis的初步估算显示，流动性提供者与受影响用户的损失为9.97 BTC，约合77万美元。",
+          "CoinDesk查阅的区块链数据显示，攻击者在BNB Chain、Ethereum和Rootstock上处理了12笔虚假存款，整个过程大约耗时四分钟，最终创建了约461亿枚syBTC，超过比特币2100万枚上限的2000倍。Symbiosis表示，攻击发生前syBTC的供应量仅为13.91枚，其中11.26枚syBTC位于与WBTC、cbBTC、BTCB和RBTC配对的流动性池中。",
+          "报告称，代币创建数量与实际损失之间的差异源于该流程的一个特性：铸造没有背书的桥接代币，并不会产生赎回它们所需的真实资产，攻击者只能从另一侧实际存在的、与比特币挂钩的流动性中提取价值。根据DefiLlama的数据，Symbiosis目前持有的总锁仓量（Total Value Locked，TVL）约为800万美元，而在过去30个完整日中，它处理了约1.46亿美元的跨链桥交易量。",
+          "Symbiosis表示，计划用攻击期间被转移出的部分比特币，以及针对受影响流动性提供者（liquidity providers）的单独补偿安排，来覆盖被盗资金。该协议的原生Bitcoin Bridge仍处于离线状态，等待比特币侧软件被重写并完成独立审计。Symbiosis还委托对该系统进行了一次更广泛的审计。",
+          "这份事后报告将人工智能（artificial intelligence，AI）列为不断变化的安全环境的一部分，称强大的模型正在让软件漏洞的发现成本变得更低。报告并未说明是否有证据显示攻击者使用了AI。文末相关阅读提及：Bitcoin firms ask AI labs for same tools attackers already have。"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/tech/2026/09/15/a-hacker-turned-25-cents-of-bitcoin-into-46-billion-fake-btc-tokens-on-a-defi-bridge",
+        "published_at": "2026-09-15T14:43:00+08:00",
+        "region": "其他",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "Solana借贷协议Kamino任命Yieldstreet联合创始人MichaelWeisz为CEO设立纽约总部",
+        "source_title": "Solana lender Kamino taps Yieldstreet co-founder as CEO in Wall Street expansion",
+        "event_date": "2026-09-15",
+        "key_points": [
+          "Kamino 是 Solana 上最大的借贷协议之一，拥有 14 亿美元资产，正在纽约设立总部，并任命 Yieldstreet 联合创始人 Michael Weisz 为首席执行官。",
+          "Kamino 计划扩展到代币化资产，其与 Figure Technologies 和 Hastra 共同开发的 PRIME 市场使用 Figure 基于区块链的房屋净值贷款作为抵押，推出约三个月后存款超过 6 亿美元。",
+          "Kamino 称四年累计处理超过 6500 亿美元交易量，并计划在纽约物色约 20000 平方英尺办公空间，招聘首席财务官和法务负责人。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Kamino 是 Solana 上最大的借贷协议之一，拥有 14 亿美元资产。该公司正在纽约设立总部，以将其链上信贷业务更接近华尔街，并扩展到代币化资产。周二，Kamino 任命 Yieldstreet 联合创始人 Michael Weisz 为首席执行官（CEO），以领导这一推进。Kamino 的代币 KMNO 报 0.02480 美元。",
+          "Kamino 表示，它正在纽约物色约 20000 平方英尺的办公空间，并计划招聘一名首席财务官（CFO）和一名法务负责人。Weisz 曾联合创办另类投资平台 Yieldstreet，该平台现名 Willow Wealth，与 Goldman Sachs、Carlyle、KKR 和 Ares 等公司一道部署了超过 60 亿美元。",
+          "Weisz 表示：“身处纽约让 Kamino 处于资产管理机构、分销平台和机构资本的交叉点，这些将定义链上金融的下一阶段。”",
+          "代币化（tokenization）——将股票、债券和基金等传统资产放上区块链轨道的过程——已成为华尔街对加密技术最大的押注之一。Citi 预测，随着银行和资产管理机构探索更快的结算、全天候市场以及将资产用作抵押的新方式，代币化证券市场到 2030 年可能达到 5.5 万亿美元。",
+          "Kamino 让用户借出加密资产或以其为抵押借款。它正在将该模式扩展到代币化现实世界资产，提供市场让投资者在这些资产上链后进行融资或将其用作抵押。其 PRIME 市场与 Figure Technologies 和 Hastra 共同开发，使用 Figure 基于区块链的房屋净值贷款作为抵押。Kamino 称，该市场在推出约三个月后存款已超过 6 亿美元。",
+          "Kamino 补充说，纳斯达克上市的 Solana 财库公司 Forward Industries（FWDI）和数字资产管理公司 Galaxy（GLXY）也使用 Kamino 的基础设施进行代币化股权和美国国债头寸。Galaxy 股价报 22.27 美元，处于市场收盘状态。",
+          "纽约总部让 Kamino 更接近其希望引入平台的资产管理机构和金融公司。Weisz 表示：“最难的部分很少是创造资产。而是建设能够满足分销和资产管理机构所在之处的基础设施。”",
+          "Kamino 表示，它在四年内累计处理了超过 6500 亿美元的交易量。此次扩张之际，代币化已不再只是把资产放上区块链。围绕这些资产的借贷和抵押市场正在发展，为 Kamino 等去中心化金融（DeFi）平台与传统金融公司合作开辟了另一条途径。"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/business/2026/09/15/solana-lender-kamino-taps-yieldstreet-co-founder-as-ceo-in-wall-street-expansion",
+        "published_at": "2026-09-15T19:02:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "42笔下41胜、全部押注KPMG客户预测市场再遇内幕交易风波",
+        "source_title": "41 Wins in 42 Bets, All on KPMG Clients: Prediction Markets Face Another Insider-Trading Scare",
+        "event_date": "2026-09-15",
+        "key_points": [
+          "区块链分析公司Bubblemaps识别出一组19个相互关联的Polymarket账户，它们在涉及KPMG审计客户的财报押注中42笔赢下41笔，覆盖18家KPMG客户并合计获利约22，000美元。",
+          "该分析与异常胜率均不能证明存在内幕交易，控制钱包的交易者身份尚未确定；联邦当局正另行调查一名涉嫌利用机密信息押注季度盈利预期的KPMG雇员，但该雇员与新识别的账户群之间尚未建立关联。",
+          "Bitquery的另一项重建识别出关联账户交易的21个KPMG客户市场，19胜2负，产生约21，519美元利润，44个仓位中有43个在相关公司提交业绩前开立。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "区块链分析公司Bubblemaps识别出一组19个相互关联的Polymarket账户，它们在涉及KPMG审计客户的财报押注中，42笔赢下41笔。这些账户覆盖18家KPMG客户，包括富国银行（Wells Fargo）、家得宝（Home Depot）、DoorDash与通用磨坊（General Mills），合计获利约22，000美元。押注时间从2025年11月延续至2026年，成功率约为98%。《华尔街日报》（The Wall Street Journal）于9月11日报道了上述发现。",
+          "不过，该分析本身与这一异常胜率均不能证明存在内幕交易，控制这些钱包的交易者身份也尚未确定。这些发现之所以格外敏感，是因为联邦当局正另行调查一名KPMG雇员，该雇员涉嫌利用机密信息押注企业是否会超出季度盈利预期。目前该雇员与新识别的账户群之间尚未建立任何关联。",
+          "Bubblemaps通过资金流识别出这些账户之间的联系。原文称，这为预测市场行业再添一桩潜在的内幕信息事件，而该行业在过去五个月内已经面临两起重大美国刑事案件。",
+          "成功交易集中在一家会计师事务所的客户周围，正是这一点引来审视。在最初报道之后发布的另一项Bitquery重建得出了略有不同的数字，原因是它按预测市场仓位而非单笔押注来归组交易。该重建识别出关联账户交易的21个KPMG客户市场，其中19个赢家、两个输家，产生约21，519美元利润。",
+          "Bitquery发现，44个仓位中有43个在相关公司提交业绩之前开立。它估算，这些交易者支付的价格在21个KPMG客户市场中隐含约14次预期获胜，而实际获胜为19次。",
+          "在其他领域的表现则不那么异常。在涉及其他会计师事务所客户的财报市场上，Bitquery发现这些账户在15个市场中赢下11个，与其入场价格所隐含的概率大致一致。",
+          "KPMG表示，对使用非公开客户信息进行交易采取零容忍态度，并已加强其监控能力。",
+          "这一审视发生在检方今年早些时候提起标志性Polymarket案件之后。4月23日，美国司法部指控美国陆军士兵Gannon Ken Van Dyke涉嫌利用有关抓捕Nicolás Maduro行动的机密信息，在Polymarket上开出13笔押注。检方称他承担约33，034美元风险，并产生约409，881美元利润。",
+          "5月27日，检方指控谷歌（Google）软件工程师Michele Spagnuolo犯有商品欺诈、电信欺诈与洗钱罪。政府指称，他在相关Polymarket合约上承担约275万美元风险并赚取约120万美元之前，访问了谷歌的机密数据。",
+          "两名被告在经证明有罪之前均被推定无罪。原文称，与KPMG相关的活动是自4月以来围绕Polymarket的下一桩重大内幕信息争议，但与前述两案不同，针对这19个钱包集群尚未宣布任何指控。原文还称，这些案件正在检验传统市场诚信法律如何适用于预测市场；Polymarket本身禁止在违反信任或信赖义务的情况下使用机密信息进行交易。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/41-wins-in-42-bets-all-on-kpmg-clients-prediction-markets-face-another-insider-trading-scare/",
+        "published_at": "2026-09-15T09:26:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "渣打银行首次覆盖Arbitrum的ARB代币GeoffKendrick给出2030年底10美元目标价",
+        "source_title": "Standard Chartered Sets $10 Arbitrum Target on Robinhood and Tokenization Growth",
+        "event_date": "2026-09-15",
+        "key_points": [
+          "渣打银行（Standard Chartered）周二首次覆盖 Arbitrum 的 ARB 代币，给出2030年底10美元目标价；Geoff Kendrick 在题为“Arbitrum – The blockchain for TradFi”的报告中称，Arbitrum 的业务是向传统金融（TradFi）公司授权技术，并分享这些公司赚取的收入。",
+          "报告预测 ARB 在2026年底为0.50美元、2027年底为1.50美元、2028年底为3.50美元、2029年底为6.50美元、2030年底为10.00美元；所有五个数字均为新预测，该行此前没有预测。",
+          "ARB 周二交易价为0.137美元，24小时上涨1%，7天下降21%，市值为9.16亿美元，30天上涨87%；渣打银行以该代币目前并未获得的收入来定价 ARB，Arbitrum 的费用收入归属于由代币持有者控制的去中心化自治组织（DAO）财库，报告称该代币“目前没有直接获取此类价值的方式”。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "渣打银行（Standard Chartered）周二首次覆盖 Arbitrum 的 ARB 代币，给出2030年底10美元目标价。渣打银行全球数字资产研究主管 Geoff Kendrick 在题为“Arbitrum – The blockchain for TradFi”的报告中称，Arbitrum 的业务是向传统金融（TradFi）公司授权技术，并分享这些公司赚取的收入。报告预测 ARB 在2026年底为0.50美元、2027年底为1.50美元、2028年底为3.50美元、2029年底为6.50美元、2030年底为10.00美元。所有五个数字均为新预测，该行此前没有预测。在同一展望下，渣打银行预测比特币达到500，000美元、以太币达到40，000美元，从今年底的100，000美元和4，000美元起步。",
+          "ARB 周二交易价为0.137美元，24小时上涨1%，7天下降21%，市值为9.16亿美元，据 CoinGecko。该代币30天上涨87%。渣打银行以 ARB 目前并未获得的收入来定价该代币。Arbitrum 的费用收入归属于由代币持有者控制的去中心化自治组织（DAO）财库，报告指出这一点，并称该代币“目前没有直接获取此类价值的方式”。",
+          "据该报告，Arbitrum 从四条线获得收入：Arbitrum One 交易费用，毛利率约为97%；财库管理（treasury management）回报；Timeboost 快速通道拍卖；以及 Arbitrum 扩展计划（Arbitrum Expansion Program，AEP）费用，当另一条链使用 Arbitrum 的技术栈在其他地方结算交易时收取。AEP 费用为被许可方净协议收入（net protocol revenue）的10%，其中8%给 Arbitrum DAO，2%给开发者。Robinhood Chain 于7月1日上线，是最突出的此类安排，The Defiant 在该链启动时报道了条款。该收入线现在大于 Arbitrum 自己的链。",
+          "Arbitrum One 在24小时内收取17，909美元链上费用，30天收取454，175美元，DefiLlama 数据显示。Robinhood Chain 在同一24小时收取448，616美元，30天收取3731万美元。DefiLlama 将链费用与收入之间的差额记为以太坊数据成本加上AEP份额；在 Robinhood Chain 上，该差额在9月前14天为324万美元，对应3231万美元费用。在财库管理方面，报告称 Arbitrum 将约1亿美元的非ARB持仓部署到去中心化金融（DeFi）——约一半在以太币（ETH）及衍生品，四分之一在现实世界资产（real-world assets，RWA），四分之一在稳定币（stablecoins）——并每月赚取200，000至250，000美元利息。",
+          "渣打银行将 Arbitrum 的9月收入定为约500万美元，是 Robinhood Chain 上线前水平的五倍多，并高于2025年10月创下的月度纪录440万美元，当时ARB均价为0.35美元。该数字背后的算术假设 Robinhood Chain 当月产生6000万美元毛费用，即每天200万美元。9月低于该水平。该链在9月前14天收取3231万美元费用，日均231万美元，但过去七天日均908，450美元，9月14日为448，616美元，DefiLlama 序列显示。保持近期速率到月底将使9月约为4700万美元。费用在9月4日达到604万美元峰值，此后下降93%。",
+          "The Defiant 报道截至9月10日下降83%；下降又持续了四个交易日，同时去中心化交易所（decentralized exchange，DEX）成交量在过去24小时保持在18.4亿美元。产生峰值的上涨来自一个迷因币（memecoin）启动平台和一个交易机器人，此前该链Gas费在11天内上涨82倍。渣打银行的报告引用日费用收入“最近触及800万美元”和9月均值280万美元，两者来自 Token Terminal，其追踪该链的基准与 DefiLlama 不同。",
+          "ARB 是治理代币（governance token），没有销毁，也没有回购。费用“作为‘再投资收益（reinvested earnings）’的一种形式持有”，报告称，并将该设置与 Aave 和 Chainlink 比较，还补充说“随着生态系统成熟，代币回购计划应变得更可能”。ARB 的最大供应量（maximum supply）为100亿枚，92.3%已归属，最后一批将于2027年3月到期。流通供应量（circulating supply）为66.78亿枚，CoinGecko 数据显示。收入与代币索取权之间的差距是 DAO 今年大部分时间辩论的主题，包括一项4500万美元 Arbitrum Foundation 资金请求，代表们质疑其支出超过 DAO 收入。",
+          "渣打银行以市值对比年化三个月生态系统费用来估值 Arbitrum，这是它应用于一层网络（layer 1s）的指标。ARB 的倍数为1.3。据报告，以太坊、Solana 和 Avalanche 的等效平均值最高高出25倍，而这三条链的费用占生态系统活动比例与 Arbitrum 相似。该行将差距归因于投资者因一层网络是一层网络而奖励它们，并预计差距会缩小。它识别的唯一功能差异是 Arbitrum 结算到以太坊，而不是提供自己的安全。Arbitrum 在 DefiLlama 上按总锁仓价值（total value locked，TVL）在二层网络（layer 2s）中排名第二，为13.9亿美元，计入 Robinhood Chain 的9.36亿美元后为23.3亿美元。Base 持有55.9亿美元。",
+          "预测基于三个预测：代币化资产（包括稳定币和现实世界资产）从约3400亿美元增长到2028年底4万亿美元；这些资产部署在 DeFi 中的份额从3.5%上升到2030年的30%；代币化股票到2028年底达到7500亿美元，增长250倍。渣打银行列出的风险包括代币化速度放缓、其他链竞争以及 ARB 缺乏直接价值累积。它还提到未通过的 Clarity Act、待定的美国证券交易委员会（SEC）指引和美国存托信托与清算公司（Depository Trust & Clearing Corporation）自己的代币化工作，作为难以选择赢家的原因。该行今年已为多个 DeFi 代币发布2030年目标，包括 UNI 100美元，Kendrick 后来表示可能太低，因为 Robinhood Chain 活动，加上 LINK 200美元和 AAVE 3，500美元。"
+        ],
+        "source_name": "The Defiant",
+        "url": "https://thedefiant.io/news/markets/standard-chartered-sets-10-arbitrum-target-on-robinhood-and-tokenization-growth",
+        "published_at": "2026-09-15T13:27:00+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "0x称Uniswapv4hooks是个错误HaydenAdams回称“技能问题”",
+        "source_title": "0x Says Uniswap v4 Hooks Were A Mistake, Hayden Adams Says \"Skill Issue\"",
+        "event_date": "2026-09-15",
+        "key_points": [
+          "0x于9月14日发布题为“Uniswap v4 hooks were a mistake”的研究，称其分析的大多数v4 hooks被设计成报出一个价格、却按另一个价格结算。",
+          "截至9月11日，0x在六条链上分析了84，163个hooks，将19.4%列为安全、54.2%列为恶意、26.4%列为可能恶意；经由恶意v4资金池路由的交易，执行时比报出的数量少了多达50%。",
+          "Hayden Adams称这是“技能问题”，并与Paradigm的Dan Robinson一道表示问题在聚合器的路由；Uniswap的Niko Kampouris称该标题是点击诱饵。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "《The Defiant》报道，去中心化交易所聚合器（DEX aggregator）0x于9月14日发布题为“Uniswap v4 hooks were a mistake”的研究，认为其分析的大多数v4 hooks被设计成报出一个价格、却按另一个价格结算。Uniswap创始人Hayden Adams在9月15日早些时候回复称，这是“技能问题（skill issue）”。0x表示，hook设计本身把这一成本推给了路由器，以及构建在其上的钱包和应用。Uniswap和Paradigm则表示，聚合器应当审查自己把交易路由到哪些hooks，而Uniswap自己的路由器已经这样做了。",
+          "0x使用静态分析、动态分析以及对已结算交易的观察，在六条链上分析了84，163个hooks。截至9月11日，它将其中的19.4%归类为安全、54.2%归类为恶意、26.4%归类为可能恶意。文章称，经由恶意v4资金池路由的交易在执行时比向用户报出的数量少了多达50%。0x表示，其今年已路由8，192万笔交易和426.7亿美元交易量，约70%的交易触及Uniswap流动性。",
+          "0x点名了两个仍在运行的hooks：一个在Base上把ETH与NVDAc配对，在6，516次成交中的3，946次收费，比例60.6%，收费时费用中位数为18%，共收取143，037美元；另一个在BNB Chain上把USDT与WBNB配对，在4，879次成交中的1，619次收费，费率最高达12.8%，共收取18，592美元。0x将这些模式描述为多种多样——“有的是掷骰子，有的检查EVM环境以侦测报价”——但结果相同。文章称，一个hook不需要界面，也不需要自己的用户；它只需要在聚合流动性的系统看来像是最好的报价。",
+          "0x智能合约工程师Duncan Townsend写道，公司“投入了大量工作让hooks在0x API中正确运作，但它们从根本上在hook作者与聚合器之间设定了糟糕的预期”。针对路由器应在报价前模拟交易的建议，Townsend表示模拟不起作用：“hooks常常侦测模拟并隐藏其行为。”",
+          "Adams没有对这些数字提出异议。他说路由器不应把订单发送给不良hooks，并让开发者使用Uniswap的应用程序接口（API）；他说该API避开恶意hooks，在不加收费用的情况下路由到所有Uniswap流动性，并且现在会聚合外部流动性。他写道：“v4 hooks释放了大量创新”，并称0x的文章是浪费时间。在另一条回复中，他将其比作说“以太坊很糟糕，因为你可以写出恶意智能合约”。",
+          "Adams还表示，Uniswap Labs于9月10日发布的StablePair hook现在是以太坊上交易量最高的资金池，并为流动性提供者带来更高回报；在以太坊上，只有Uniswap Labs可以针对该hook创建资金池。数小时后，他扩大了论点：“任何足够有用的新技术都会遇到骗局。电话、短信、电子邮件、网站、社交媒体等等——都充斥着骗局内容，没有过滤系统是完美的。没有人会主张这是smtp和https这类核心底层协议的错。”Uniswap的Niko Kampouris称该标题是点击诱饵，并说交易者应“直接使用uniswap api，那里所有hooks都经过审查”。",
+          "Paradigm普通合伙人兼研究主管Dan Robinson表示，这篇文章“应该被命名为‘0x routing made a mistake’”，并链接到Uniswap的hook路由允许列表（allowlist）。他写道：“如果你是聚合器，你不能随便路由到任意hooks。”在随后的回复中，他说创建hook没有审批流程，任何聚合器都会选择把交易路由到哪些hooks。他将其比作“有人说‘ERC-20是个错误，因为我买了一个ERC-20代币，结果它一文不值’”。Uniswap的允许列表文档称，只有hook使用delta标志、部署地址以0x91开头，或针对主要代币对时，才需要提交；其他所有hook都自动获准。文档还说，可升级hooks和要求自定义数据输入的hooks不会获准。",
+          "Townsend说，0x已经使用了那份列表。他写道：“那份列表上至少有一个恶意hook，还有许多好hook需要以比它们被加入列表更快的速度被路由。”他发布了一个Blockscout链接，指向他所描述的、被Uniswap界面列入白名单的一个可升级hook，以及一笔他说由Uniswap界面路由经过恶意hook的交易。",
+          "Monad联合创始人Keone Hon表示，0x所记录的行为最早出现在专有AMM中，如今已转移到v4 hooks。他写道，恶意做市方在极紧和极宽的报价之间交替：紧的报价赢得路由，宽的报价负责执行。他说滑点限制会阻止其中一些交易，但“许多用户把滑点设置得太宽松。这些用户被残酷征税”。Hon说解决办法是完全链上订单路由，这需要一条足够快的EVM在执行时运行路由逻辑。在随后的回复中，他补充说，欺骗窗口存在“是因为聚合器在交易签名前就选择了路由”。",
+          "据DefiLlama，Uniswap v4持有10.6亿美元的总锁定价值（TVL），30天内上涨39.9%。该协议在同一时期处理的DEX交易量为381.2亿美元，其中Robinhood Chain以159.4亿美元领先，以太坊为125.6亿美元。据CoinGecko，UNI在9月15日交易价格为6.35美元，当日上涨1.5%，一周下跌9%。Uniswap v4的hook架构于2025年2月上线。"
+        ],
+        "source_name": "The Defiant",
+        "url": "https://thedefiant.io/news/defi/0x-says-uniswap-v4-hooks-were-a-mistake-hayden-adams-says-skill-issue",
+        "published_at": "2026-09-15T19:56:00+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      }
+    ],
+    "notes": [
+      "统计窗口：2026-09-09 14:44 至 2026-09-16 14:44（北京时间）。",
+      "CLARITY Act在参议院49-50未过关是本周最大事件，候选池中有A004/A005/A011/A013/A016/A018/A019/A021/A022/A025/A026/A028/A029/A033/A038/A046/A049/A050/A056/A057/A061等二十余篇同题稿，仅保留信息最完整的A019一篇，避免重复主题。",
+      "A005、A016、A018、A022、A043、A050、A055、A067等以价格波动或价格预测为主线，A020、A053、A017与加密主题无关，均已排除。",
+      "A038（Lummis）、A026（Warren）、A025（Garlinghouse回应）虽人物观点突出，但与已选CLARITY政策稿主题重复，未重复选用；意见领袖改用非CLARITY主题的渣打Arbitrum报告与0x/Uniswap v4之争。",
+      "多个候选为同一事件的不同媒体版本（如A006/A034同一钱包改版、A023/A036/A037同一Robinhood起诉、A035/A042/A048同一MEV抢跑、A047/A059/A060/A065同一渣打报告），各主题仅取一篇。",
+      "A008为Chainwire新闻稿、A041为项目宣传稿，事实密度与独立性不足，未选入。",
+      "地域分布：美国（A019、A002）、英国（A032）、跨链与隐私网络（A000、A058）、Solana生态（A031）、预测市场与华尔街机构（A069、A060）。"
+    ]
+  },
+  "factcheck": {
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      "政策风向 3 篇均来自同一地区：美国，建议加入美国或香港以外的正式监管动向",
+      "item 1 contains generic attribution wording; verify the source explicitly supports it",
+      "item 2 contains question-style future/unknown wording; ensure the source explicitly raises it",
+      "item 3 contains question-style future/unknown wording; ensure the source explicitly raises it",
+      "item 3 contains relative time wording; replace with exact date",
+      "item 4 contains relative time wording; replace with exact date",
+      "item 7 contains question-style future/unknown wording; ensure the source explicitly raises it",
+      "item 7 contains relative time wording; replace with exact date",
+      "item 8 contains relative time wording; replace with exact date",
+      "item 9 contains relative time wording; replace with exact date"
+    ]
+  },
+  "outputs": {
+    "docx": "reports/2026/加密货币观察_20260916.docx",
+    "manifest": "reports/2026/_manifests/加密货币观察_20260916.json"
+  }
+}
