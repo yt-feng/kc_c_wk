@@ -1,0 +1,281 @@
+{
+  "generated_at": "2026-09-23T14:38:43+08:00",
+  "period": "2026-09-16 14:38 至 2026-09-23 14:38（北京时间，最近7天）",
+  "raw_count": 76,
+  "collection_warnings": [
+    "no candidates for query: cross chain oracle RWA infrastructure wallet staking rollup interoperability crypto",
+    "no candidates for query: crypto acquisition funding IPO futures CME stablecoin revenue tokenized securities",
+    "no candidates for query: site:blockworks.co (crypto OR bitcoin OR ethereum OR stablecoin OR tokenization OR digital assets)"
+  ],
+  "report": {
+    "items": [
+      {
+        "section": "政策风向",
+        "title_cn": "白宫加密市场结构立法不能等焦点转向监管机构",
+        "source_title": "Crypto market structure can't wait for shot at post-election Clarity Act surge: White House",
+        "event_date": "2026-09-22",
+        "key_points": [
+          "白宫加密顾问 Patrick Witt 与财政部负责金融机构的助理部长 Luke Pettit 在 CoinDesk 于华盛顿举办的政策与监管活动上表示，国会“跛脚鸭”会期不足以让《数字资产市场清晰法案》获得足够希望，当前重点已转向美国市场监管机构的加密工作。",
+          "参议院上周未能推进 Clarity Act；Pettit 称该法案在国会“水非常冷”，但他“不认为它已死”；Witt 说选举结果会激励某些人或降低其他人的动机，并称现在没有时间可以浪费。",
+          "财政部与银行监管机构正在制定 GENIUS 法案规则并面临近期截止期限，Pettit 称有望按期完成；Witt 称企业正在宣传“GENIUS-compliant stablecoins”，但在最终规则缺位的情况下这种状态尚不存在。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "白宫加密顾问 Patrick Witt 与财政部负责金融机构的助理部长 Luke Pettit 于 2026 年 9 月 22 日在 CoinDesk 于华盛顿举办的政策与监管活动上发言。两人一致认为，国会所谓的“跛脚鸭”会期不足以让《数字资产市场清晰法案》（Digital Asset Market Clarity Act，Clarity Act）获得足够希望，从而转移人们对新重点的关注：美国市场监管机构的加密工作。",
+          "所谓“跛脚鸭”会期，指联邦议员的工作被夹在选举与新一届国会到来之间的年底数周。Pettit 与 Witt 均暗示，这一会期的前景可能取决于 11 月中期国会选举的结果。Pettit 在华盛顿的活动中说：“我不认为它已死，但我确实认为，有一种感觉是焦点已转向政府。”他说这番话的一周前，参议院未能推进 Clarity Act；该法案旨在建立美国加密市场监管，是数字资产行业的首要政策优先事项。",
+          "Pettit 说，在国会，这项立法的“水非常冷”。Witt 指出，国会选举将决定共和党多数是否会在美国众议院、参议院或两院易手，并“会激励某些人或降低其他人的动机”。许多政治观察人士假设，如果民主党在年底获得更大权力，他们不会想达成任何 Clarity Act 协议。",
+          "Witt 说：“现在没有时间可以浪费。”他让本届国会通过 Clarity Act 的首要任务被美国参议院政治所挫败。他指出，自上周以来，美国证券交易委员会（Securities and Exchange Commission，SEC）和商品期货交易委员会（Commodity Futures Trading Commission，CFTC）出现了一连串加密进展。Witt 说：“不会为了该法案在跛脚鸭会期通过而按住它们。”",
+          "Witt 承认，在没有政府所希望看到的立法作为支撑的情况下，监管机构的规则和豁免可能会在法律上遇到“挑战”。但他说：“我们将用我们拥有的权力做我们能做的事，这些权力很多。”这位加密顾问仍对立法失利感到难以释怀。Witt 问：“我们真的需要把这件事拖上一年，只为了得到那样一个纯粹政治性的结果吗？”他说：“我知道我们接近选举，但仍然，我只是认为这是一次重大失望。”",
+          "与此同时，去年将《引导与建立美国稳定币国家创新法案》（Guiding and Establishing National Innovation for U.S. Stablecoins，GENIUS）转化为法律的加密立法成功，仍是财政部和银行监管机构正在执行的持续焦点。Pettit 曾作为参议院工作人员参与创建 GENIUS 法案，他说银行机构和财政部正在制定 GENIUS 规则，并面临该法律中的近期截止期限。Pettit 说：“我们非常清楚我们面前的不同截止期限。”“我认为我们完全有望完成所有这些截止期限。”",
+          "Witt 指出，企业正在宣传其“GENIUS-compliant stablecoins”，但在最终规则缺位的情况下，这种状态尚不存在。这位白宫顾问说：“但人们朝着冰球将要到达的位置滑行，并试图建立自己的政策、程序和结构，以便符合 GENIUS，这是非常健康的。”",
+          "Witt 说，GENIUS 落地后将产生一个双头稳定币体系，即合规代币与不合规代币之间；市场将不得不决定其偏好。Witt 说：“我会认为它可能会奖励那些按照监管管辖范围运营的人。”他补充说，随着美国监管的到来，资产代币化会火热起来，市场将扩张——正如上周在 SEC 开始的那样。"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/policy/2026/09/22/crypto-market-structure-can-t-wait-for-shot-at-post-election-clarity-act-surge-white-house",
+        "published_at": "2026-09-22T21:31:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "欧洲央行与欧盟各国央行寻求修改MiCA稳定币银行存款最低要求",
+        "source_title": "ECB, EU cenbanks seek changes in MiCA’s minimum bank deposit for stablecoins",
+        "event_date": "2026-09-22",
+        "key_points": [
+          "欧洲央行（European Central Bank，ECB）与欧盟各国央行希望以新的流动性要求取代 MiCA 针对稳定币储备的强制性银行存款门槛。",
+          "欧洲中央银行体系（European System of Central Banks，ESCB）呼吁取消至少 30% 储备、或重要稳定币至少 60% 储备须为银行存款的规则，并支持在一个和五个工作日内到期的储备资产设置最低流动性门槛。",
+          "ESCB 警告稳定币挤兑可能迫使发行方迅速提取存款，给银行带来流动性问题，并提到 2023 年硅谷银行倒闭引发 Circle 的 USDC 稳定币挤兑。"
+        ],
+        "lead_cn": "欧洲中央银行体系在回应欧盟委员会对 MiCA 的审查时，建议以流动性门槛取代稳定币储备的银行存款要求，并指出稳定币挤兑可能给银行带来流动性问题。",
+        "body_paragraphs": [
+          "欧洲央行（European Central Bank，ECB）与欧盟各国央行希望以新的流动性要求取代针对稳定币储备的强制性银行存款门槛，理由是大型稳定币存款可能给银行带来流动性风险。欧洲中央银行体系（European System of Central Banks，ESCB）呼吁取消要求至少30%的储备、或重要稳定币至少60%的储备以银行存款形式持有的规则。该提议出现在 ESCB 周二发布的、对欧盟委员会审查加密资产市场监管（Markets in Crypto-Assets Regulation，MiCA）的回应中。",
+          "ESCB 支持对在一个和五个工作日内到期的储备资产设置最低流动性门槛，以取代现有的银行存款规则。它另外指出，隔夜逆回购协议（overnight reverse repurchase agreements，repos）和短期主权债券是发行方可以用来实现流动性的替代工具。该新提议呼应了稳定币行业此前提出的担忧，包括 Tether CEO Paolo Ardoino，他至少从 2024 年起就警告 MiCA 的银行存款要求可能给银行和稳定币发行方带来系统性风险。",
+          "ESCB 表示，现有要求“在发行方与信贷机构之间建立了直接联系”，如果稳定币挤兑迫使发行方迅速提取存款，可能使银行面临流动性问题。各国央行引用了欧洲银行管理局（European Banking Authority）2024 年发布的规则草案，该草案要求重要稳定币至少将 40% 的储备持有在一个工作日内到期的资产中，60% 持有在五个工作日内到期的资产中。对于非重要代币，门槛分别为 20% 和 30%。",
+          "除稳定币储备之外，ESCB 还警告在执行 MiCA 方面存在“重大挑战”，称不合规的加密公司仍能接触欧盟客户。Tether 在 2024 年提出了类似的银行风险担忧。在 2024 年 10 月接受 Cointelegraph 采访时，Tether CEO Ardoino 用一个假设的稳定币说明风险：该稳定币持有 100 亿欧元储备，其中 60 亿欧元必须存放在银行存款中。他说，如果一家银行将其中 90% 的资金贷出，就只剩 6 亿欧元可用；如果发行方突然需要数十亿欧元来满足赎回，可能造成流动性紧缩。",
+          "近两年后，ESCB 现在指出类似风险，称稳定币挤兑可能迫使发行方迅速提取存款，并给银行带来流动性问题，尤其是当稳定币储备占其融资的显著份额时。各国央行周二还表示，风险也可能反向流动，并提到 2023 年 3 月硅谷银行（Silicon Valley Bank）的倒闭；在 Circle 披露其 33 亿美元储备存放在该银行后，硅谷银行倒闭引发了对 Circle 的 USDC 稳定币的挤兑。",
+          "在 ECB 宣布之后，Tether 的 Ardoino 在 X 上发帖称：“欧洲的央行希望布鲁塞尔删除 MiCA 中关于稳定币储备的规则。该规则迫使大型发行方将其中 60% 的资金存放在商业银行。Tether 因同一条款拒绝了欧盟牌照。”"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/escb-new-stablecoin-liquidity-rules-bank-risks",
+        "published_at": "2026-09-22T16:38:00+08:00",
+        "region": "欧盟",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "俄罗斯称受监管加密货币市场或在2026年底前开始运行",
+        "source_title": "Russia Says Regulated Crypto Market Could Be Operating Before End of 2026",
+        "event_date": "2026-09-21",
+        "key_points": [
+          "俄罗斯央行第一副行长 Vladimir Chistyukhin 于9月21日表示，该行业可能在年底前在法律框架内开始运作，监管机构正努力完成一揽子27项实施细则，其中7项主要法规和20项二级措施组成的一揽子方案中，已有6项初始措施提交俄罗斯司法部，央行打算在10月底前通过其余二级法规。",
+          "国家杜马7月通过的法律为俄罗斯加密货币流通建立正式框架，并于2026年9月1日生效，取代此前碎片化的做法，建立由俄罗斯央行监管的市场；新体系将设立受监管中介机构，加密货币交易所获授权买卖加密货币，新设立的数字托管机构记录投资者所有权权利。",
+          "9月18日，俄罗斯央行提出新的审慎比率，将银行对加密货币和外国数字工具的总敞口限制在1%，计算包括直接的加密货币持有和收益取决于加密货币价格的衍生品，银行预计从2027年1月开始报告其加密货币交易额和新的风险比率。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "俄罗斯央行一位高级官员表示，俄罗斯可能在2026年底前让新的受监管加密货币（cryptocurrency）市场投入运行，当局正从通过该国具有里程碑意义的加密法律，转向构建合法国内交易所需的基础设施。俄罗斯央行第一副行长 Vladimir Chistyukhin 于9月21日表示，该行业可能在年底前在法律框架内开始运作，监管机构正努力完成一揽子27项实施细则。该一揽子方案由7项主要法规和20项二级措施组成。7项初始措施中已有6项提交俄罗斯司法部，央行打算在10月底前通过其余二级法规。",
+          "这一实施进程源于国家杜马（State Duma）7月通过的法律，该法律为俄罗斯加密货币流通建立了正式框架。该法律于2026年9月1日生效，取代了此前碎片化的做法，转而建立由俄罗斯央行监管的市场。新体系将设立专门针对数字资产的受监管中介机构。加密货币交易所将被授权买卖加密货币，而新设立的数字托管机构（digital depositories）将记录投资者的所有权权利，并提供类似传统证券托管的基础设施。",
+          "数字托管机构将要求最低资本在5000万至2.5亿卢布之间，具体取决于其业务活动，包括是否与公共区块链交互或提供交易后结算服务。这些资本必须由流动性充足、信用质量高的资产构成。俄罗斯央行将维护这些运营商的官方注册名录。",
+          "央行还在制定一份“白名单（white list）”，用以确定哪些加密货币可以通过有组织的交易场所公开发行，其规则考虑的因素包括市值和日均交易量。该框架不会完全局限于富裕或专业投资者。普通非合格投资者（non-qualified investors）在通过知识测试后，将被允许购买流动性最强的获批加密货币，但通过每个中介机构每年的上限为30万卢布。合格投资者（qualified investors）也必须通过测试，但可以不受同样的金额限制交易加密货币。",
+          "俄罗斯同时在限制其传统金融体系对加密货币的敞口深度。9月18日，俄罗斯央行提出新的审慎比率（prudential ratios），将银行对加密货币和外国数字工具的总敞口限制在1%。该计算将包括直接的加密货币持有以及收益取决于加密货币价格的衍生品。银行预计从2027年1月开始报告其加密货币交易额和新的风险比率。",
+          "这种受控的开放，标志着俄罗斯央行对加密货币历来限制性态度的显著转变。它为国内投资创造了一条合法路径，同时将交易、托管和机构敞口保持在一个受到密切监管的范围内。不过，这一变化并未使加密货币在俄罗斯成为普通货币。加密货币在国内仍被禁止作为商品和服务的支付手段。该框架主要将其视为一种投资资产，同时对其在国际结算中的使用保持单独的规则。",
+          "市场参与者还面临更长的过渡期。现有企业最终必须遵守新的许可制度，交易所、经纪商、托管机构和其他服务提供商预计需在2027年7月1日前获得必要批准。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/russia-says-regulated-crypto-market-could-be-operating-before-end-of-2026/",
+        "published_at": "2026-09-23T01:00:00+08:00",
+        "region": "俄罗斯",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "Solana开始测试一项可将最终性从12.8秒缩短至150毫秒的升级",
+        "source_title": "Solana starts testing upgrade that could cut finality from 12.8 seconds to 150 milliseconds",
+        "event_date": "2026-09-23",
+        "key_points": [
+          "Solana 的 Alpenglow 升级已进入公共测试网，开发者将测试把交易最终性从约13秒降至0.15秒；文章标题称从12.8秒降至150毫秒。",
+          "Alpenglow 以 Votor 投票协议取代 TowerBFT 共识系统，验证者直接互发投票，可在一到两轮后确定区块，用户无需更换钱包或改变发送资金方式。",
+          "参与测试的验证者需要 Agave 4.3；Firedancer 和 Frankendancer 尚不支持 Alpenglow 测试；9月28日是 Anza 日程中在主网开启 Agave 4.3 所含功能的暂定日期，并非已确认的 Alpenglow 上线日期。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "一项旨在让 Solana 更快的计划升级已进入测试网（testnet），开发者将尝试把一笔支付变得不可撤销所需的时间从约13秒缩短至0.15秒。这一时刻被称为最终性（finality）。该升级名为 Alpenglow，现已在 Solana 的公共测试网上推出。文章标题称，该升级可将最终性从12.8秒缩短至150毫秒。文章称，交易所会等待最终性后再给存款入账。",
+          "跨链桥（bridges）会等待最终性后再在另一条区块链上释放资金，商家则需要最终性来确认一笔支付无法被撤回。公共测试网是区块链的一个副本，使用没有货币价值的代币。开发者可以测试迁移、发现问题并重启网络，而不会让用户资金面临风险。",
+          "文章称，Solana 目前使用名为 TowerBFT 的系统来达成共识（consensus），即验证者（validators）就哪些交易应进入永久记录达成一致的过程。验证者在区块链上记录投票，并在32个时隙（slots）内积累足够投票后，区块才成为最终区块。Alpenglow 用名为 Votor 的投票协议取代 TowerBFT。",
+          "验证者直接互相发送投票，并可在一到两轮后确定一个区块，从而移除冗长的链上投票链。应用程序仍像今天一样执行交易，用户无需更换钱包，也无需改变发送资金的方式。文章还称，Alpenglow 已在专门为该升级创建的一个较小网络上运行超过四个月。",
+          "将其迁移到 Solana 已有的测试网，是为了检验已经在运行这条区块链的更广泛计算机和服务群体能否一起切换。参与测试的验证者需要 Agave 4.3。Agave 是运行 Solana 的主要软件，由 Anza 维护，Anza 是负责开发该网络的公司之一。Anza 在9月21日向所有主网（mainnet）验证者推荐 Agave 4.3。",
+          "此前，Anza 先将 Agave 4.3 推广给负责保护网络所用 SOL 的10%的运营者，随后推广给负责25%的运营者。Firedancer 和 Frankendancer 是由 Jump Crypto 构建的两种替代验证者程序，它们尚不支持 Alpenglow 测试。这些替代方案旨在减少 Solana 对单一软件的依赖，这样 Agave 出现故障时不会同时影响所有验证者。",
+          "它们缺席测试意味着第一次 Alpenglow 迁移将完全通过 Agave 运行。9月28日出现在 Anza 的日程中，是主网络上开启 Agave 4.3 所含功能的暂定日期。它不是已确认的 Alpenglow 上线日期，而 Anza 的追踪器在周三早些时候仍将测试网切换本身列为待处理。"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/tech/2026/09/23/solana-starts-testing-upgrade-that-could-cut-finality-from-12-8-seconds-to-150-milliseconds",
+        "published_at": "2026-09-23T01:00:00+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "XRPL修复主网前关键漏洞但客户端应用仍面临风险",
+        "source_title": "XRPL fixes critical pre-mainnet flaw, but client apps remain at risk",
+        "event_date": "2026-09-29",
+        "key_points": [
+          "XRPL验证者将修复后的BatchV1_1置于条件激活路径，若支持率保持在80%以上，将于9月29日激活。",
+          "重写关闭了一个关键授权漏洞，并启用更安全的多交易批次，具有四种执行模式。",
+          "过时的节点和客户端可能在激活后失败，而外部成功仍可能掩盖失败的内部交易。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "XRP Ledger（XRPL）验证者已将BatchV1_1置于条件激活路径。若支持率保持在80%以上，该修正案将于9月29日14：06：41 UTC激活。据xrpldashboard显示，9月22日，35个受信任验证者中有30个支持该修正案，高于其显示的28票门槛。多数支持首次于9月15日在账本上出现。根据XRPL的修正案规则，支持率必须保持在80%以上两周。若支持率跌至80%或以下，多数期即结束，因此激活日期仍是条件性的。",
+          "9月29日将是首次生产环境测试，检验XRPL的验证者流程、参考实现和客户端生态系统是否将一个危险的主网前漏洞转化为可用的原子交易基础设施。原Batch修正案从未在XRP Ledger主网上激活。2月，研究人员在该修正案仍处于投票阶段时发现了一个关键授权漏洞，验证者被建议投反对票。XRPL Labs的官方漏洞披露称，没有资金面临风险。",
+          "该漏洞位于检查授权批次的账户的循环中。如果代码遇到一个新创建账户的签名者，且其密钥与该账户匹配，它会立即返回成功，而不是继续检查剩余的签名者。攻击者可以将该有效签名者放在首位，然后添加一个声称授权受害账户的伪造条目。如果该修正案已经上线，未受检查的受害交易可能在没有受害账户密钥的情况下执行。",
+          "XRPL的回应分两个阶段。3.1.1版本将原Batch和fixBatchInnerSigs修正案标记为不支持，阻止其激活。BatchV1_1后来以重写的授权路径和额外防御取代了它们。XRPL Foundation的最终XLS-56规范现在要求多账户批次包含精确、完整的BatchSigners集合，这些签名者的授权是内部交易通常需要的，但授权外部交易的账户的正常签名除外。缺失、多余、重复或顺序错误的条目会导致拒绝。每个BatchSigner签署的也不只是一组松散绑定的内部交易。该载荷将签名绑定到外部账户、其序列号或ticket、所选批次模式、每个内部交易的有序哈希以及BatchSigner账户。多签名条目还绑定每个嵌套签名者账户。这防止有效签名被提升到不同的外部交易或重新分配给另一个参与者。",
+          "合并后的参考实现围绕该设计增加了执行检查，包括签名者顺序和唯一性检查、交易数量界限、拒绝直接提交的内部交易，以及针对账本重放的保护。这些更改共同解决了已披露的过早成功漏洞，以及格式错误或重放的批次数据可能跨越授权边界的相关方式。",
+          "一个Batch包含2到8个内部交易。每个内部交易不携带签名或费用，并被标记为不能独立提交。外部Batch从四种模式中精确选择一种：ALLORNOTHING：每个内部交易都必须成功，否则其状态更改都不提交。ONLYONE：第一个成功的内部交易是唯一被应用的交易。UNTILFAILURE：交易按顺序应用，直到一个失败。INDEPENDENT：每个内部交易都被尝试，无论其他交易的结果如何。BatchV1_1可以支持原子全有或全无流程，但并非每个批次都按这种狭义是原子的。开发者也可以将其用于有序回退或独立捆绑。",
+          "激活将风险转移到实现。最直接的集成陷阱是，外部Batch即使在一个或多个内部交易失败时也可以返回tesSUCCESS。客户端必须检查每个内部交易的元数据和结果代码，以确定发生了什么。这一区别在ALLORNOTHING模式之外很重要，因为部分执行或独立执行是有意为之。BatchV1_1支持随xrpld 3.3.0于8月6日发布。一旦修正案激活，不理解新规则的服务器将变成修正案受阻。在升级之前，它不能再可靠地验证账本或参与共识。",
+          "针对xrpl.js提交的一个问题记录称，5.0.0版本使用较旧的载荷构建Batch签名，遗漏了外部账户、序列和参与者绑定。启用BatchV1_1的节点以temBAD_SIGNATURE拒绝了这些签名。xrpl.js的发布历史记录显示，5.1.0版本添加了兼容支持。组件就绪表列出：xrpld的BatchV1_1支持随3.3.0发布，不兼容的服务器在激活后可能变成修正案受阻；xrpl.js的5.1.0版本添加了修订后的签名格式，5.0.0版本可能产生被BatchV1_1节点拒绝的签名；钱包必须展示每个内部操作和所选模式，用户可能在不理解完整效果的情况下批准一个捆绑；浏览器和索引器必须保留外部和内部交易之间的关系，否则界面可能错误报告或碎片化批次的结果。",
+          "XRPL修复后的BatchV1_1修正案在验证者拒绝早前的签名者循环设计后，接近一次条件激活测试。钱包和索引器相关行反映了详细XLS-56规则中的集成指导。协议可以拒绝格式错误的签名，但它不能强制钱包清晰地解释复杂捆绑，也不能强制浏览器在上下文中呈现每个内部结果。该规范还将抢跑标记为仍在调查中的领域。更强的授权可以防止一方伪造另一账户的批准，但它不能消除将多个面向市场的操作打包成一个有序提交所创造的所有风险。",
+          "如果多数支持保持，激活将表明XRPL的验证者流程可以阻止一个危险修正案，将运营者引导到被禁用的版本，然后让修复后的替代方案通过同一治理机制。它还将开始一次真实世界测试，检验服务器、签名库、钱包和数据基础设施是否就新的交易格式及其结果达成一致。它不会证明应用程序已经采用BatchV1_1，不会证明用户想要该功能，也不会证明网络交易需求会增加。修正案投票和软件发布确立了协议可用性，但它们不提供额外XRP购买的证据。有用的信号将在激活后出现：过时的节点是否受阻，签名失败是否聚集在旧客户端版本周围，钱包是否能清晰呈现多账户批次，以及浏览器是否报告内部结果而不将外部成功误认为完整执行。XRPL的验证者通过了第一项测试，阻止了原Batch漏洞到达主网。9月29日的条件激活将检验生态系统是否从这次险情中学到足够多，以安全运行替代方案。"
+        ],
+        "source_name": "CryptoSlate",
+        "url": "https://cryptoslate.com/xrpl-fixes-critical-pre-mainnet-flaw-but-client-apps-remain-at-risk/",
+        "published_at": "2026-09-23T01:00:00+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "Circle为Binance分销支付数百万美元利润率崩塌",
+        "source_title": "Circle pays millions for Binance distribution while its margins collapse",
+        "event_date": "2026-09-22",
+        "key_points": [
+          "Circle 与 Binance 签署五年期 USDC 协议，Binance 向这家稳定币发行方投资 1 亿美元。",
+          "Binance 客户 USDC 余额接近五倍增长至 71.3 亿美元，收窄了 Tether 在该交易所的领先优势。",
+          "激励条款未披露，Circle 在向 Binance 支付分销费用后能保留多少利润仍不明确。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Circle 与 Binance 于 9 月 22 日宣布一项新的五年商业协议，同时 Binance 向这家稳定币发行方投资 1 亿美元，延长了这段已使全球最大加密交易所成为美元币（USD Coin，USDC）最重要分销渠道之一的关系。协议聚焦扩大 USDC 可及性，尤其是在新兴市场，并取代 2024 年 11 月与 2025 年 8 月签署的安排。Binance 以每股 80.84 美元买入 123.7 万股 Circle A 类股，较 Circle 9 月 17 日收盘价折价 5%，并同意两年内不得出售、质押或对冲这些股份；商业协议有效期至 2031 年 9 月，任一方可在特定情形下提前终止。",
+          "Binance 客户在 2024 年 10 月 1 日持有约 15 亿美元 USDC，不久后的 11 月，Circle 签署了与 Binance 的最初协议。Binance 最新 9 月 1 日的准备金证明（Proof-of-Reserves）快照显示客户 USDC 余额约 71 亿美元，增长约 376%，接近五倍。USDC 自身增长远没有这么快：Circle 报告 2024 年 11 月 29 日流通中的 USDC 为 397 亿美元，DeFiLlama 目前给出的流通量约为 744 亿美元，增幅约 87%。Binance 客户余额因此从合作启动时不足全球 USDC 供应量的 4%，升至今天的接近 10%。",
+          "USDC 在 Binance 上的扩张也大幅超过泰达币（Tether，USDT）在该平台的增长。2024 年 10 月 1 日的准备金快照中，Binance 客户持有 214 亿美元 USDT，而 USDC 为 15 亿美元，相当于每 1 美元 USDC 对应约 14.30 美元 USDT；到今年 9 月 1 日，客户 USDT 余额升至 323 亿美元，USDC 约 71 亿美元，比例收窄至约 4.5 比 1。USDT 客户余额期间增长约 51%，USDC 约 376%，USDT 仍在该交易所占主导。Circle 的监管文件显示，USDC 占 Binance 上所持稳定币的比例从 2024 年 7 月 1 日的 5%，升至 2025 年 1 月 1 日的 10% 与 2025 年 7 月 1 日的 22%。",
+          "Circle 首席执行官 Jeremy Allaire 表示，最新协议旨在进一步推动这一分销。他在 X 上写道：“作为全球最大、使用最广泛的稳定币与链上金融钱包，这一合作将加速全球及新兴市场对 USDC 的偏好与采用。互联网金融体系正在各地扩张，这一合作将帮助把这一新金融体系的使用扩展至全球数亿人和企业。”",
+          "这一分销代价高昂。根据 2024 年 11 月的协议，Circle 向 Binance 支付 6025 万美元预付费用，并同意按平台上及 Binance 金库中持有的 USDC 支付月度激励。这些支付额相当于某一固定费率的年化中双位数到高双位数百分比，该固定费率每季度重置，并较三个月期担保隔夜融资利率（three-month SOFR，SOFR）折价。Binance 还同意，在特定例外情形下将 30 亿美元 USDC 保留在其金库，而金库激励支付要求至少保留 15 亿美元。",
+          "Circle 在 2025 年 8 月围绕通过其模块化智能合约钱包（Modular Smart Contract Wallet）基础设施持有的 USDC 再次扩大这一关系，激励相当于与三个月期 SOFR 挂钩的固定费率的高双位数百分比。新的五年合约整合并取代上述两项安排，Circle 继续就钱包中持有的 USDC 向 Binance 支付月度激励，新费率与任何最低余额承诺均未披露。",
+          "Clear Street 分析师 Owen Lau 与 Nikhil Vijay 在给 CryptoSlate 的报告中表示，该协议提高了 Circle 对其在 Coinbase 之外最大分销渠道之一的可见度，但净经济效益仍不清晰。按 3.5% 的准备金回报率，额外 10 亿美元 USDC 将产生约 3500 万美元年度毛准备金收入；若 Binance 获得如早前条款中的高双位数分成，Clear Street 估计 Circle 可能仅保留约 400 万至 700 万美元。",
+          "这一问题对 Circle 的利润率日益重要。公司第二季度产生约 6.68 亿美元准备金收入，同时报告约 4.1 亿美元分销与交易成本，相当于准备金收入的约 61%。随着新老合作中的活动扩张，非 Coinbase 分销成本也有所上升，而 Binance 已是其中重要部分。Circle 表示，随着关系扩大，2025 年与 Binance 直接相关的分销成本增加了 1.521 亿美元。",
+          "最新协议还使 Binance 成为其被付费分销稳定币的公司的投资者。1 亿美元投资让 Binance 获得 Circle 股权，同时保留与余额挂钩的激励结构。Clear Street 将这一安排与 Circle 和 Coinbase 的分销商—股东关系相比较，不过 Binance 约 0.5% 的持股要小得多。",
+          "Binance 首席执行官 Richard Teng 将这笔投资描述为对该稳定币的长期承诺，并写道：“这个行业的信任来自监管、透明度与交付。今天，基于对这三点，Binance 向 Circle 承诺 1 亿美元，并将我们的合作延长五年。这一合作旨在让任何拥有手机的人都能获得稳定、可靠的数字美元。”Clear Street 表示，将在第三季度业绩公布时关注披露的 Binance USDC 持有量与 Circle 的非 Coinbase 分销费用；随着 Binance 客户目前持有超过 70 亿美元 USDC，这些披露可能显示 Circle 为保住一个不到两年内从不足全球 USDC 流通量 4% 增至接近 10% 的渠道支付了多少。"
+        ],
+        "source_name": "CryptoSlate",
+        "url": "https://cryptoslate.com/circle-pays-millions-for-binance-distribution-while-its-margins-collapse/",
+        "published_at": "2026-09-23T01:00:00+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "比特币ETF单日吸收约11500BTC创近两年最大买入日",
+        "source_title": "Bitcoin ETFs just absorbed 11,500 BTC in their biggest buying day in nearly two years",
+        "event_date": "2026-09-21",
+        "key_points": [
+          "美国现货比特币ETF在9月21日净流入9.99亿美元，为2026年最大单日流入，也是自2025年10月6日约12亿美元以来最大单日总额。",
+          "按比特币计，ETF吸收约11，530 BTC，为2024年11月11日约12，560 BTC以来最大单日净吸收。",
+          "BlackRock的IBIT流入3.814亿美元居首，ARK 21Shares的ARKB为2.891亿美元，Fidelity的FBTC为2.388亿美元。"
+        ],
+        "lead_cn": "美国现货比特币ETF在9月21日录得9.99亿美元净流入，为2026年最大单日流入；按比特币计吸收约11，530 BTC，为近两年最大单日净吸收，发行方以BlackRock、ARK和Fidelity为主。",
+        "body_paragraphs": [
+          "美国现货比特币（Bitcoin，BTC）交易所交易基金（exchange-traded fund，ETF）在9月21日录得9.99亿美元净流入（net inflow）。CryptoSlate 援引 SoSoValue 数据称，这是2026年最大单日流入，也是自2025年10月6日约12亿美元以来的最大单日总额。原文称，这批资金流入之际，BTC 突破86，000美元，并短暂高于87，000美元，后者为1月以来最高水平。资金规模以美元计接近10亿美元，原文将其描述为2026年最强流入日。",
+          "按 BTC 计量，这些 ETF 吸收约11，530枚 BTC，为2024年11月11日约12，560枚以来的最大单日净吸收。原文称，这是近两年来最大单日净吸收。原文配图显示，美国比特币 ETF 流量以 BTC 计量，来源为 Axel Adler Jr.。",
+          "发行方层面，BlackRock 的 iShares 比特币信托（iShares Bitcoin Trust，IBIT）以3.814亿美元居首，ARK 21Shares 比特币交易所交易基金（ARK 21Shares Bitcoin ETF，ARKB）为2.891亿美元，Fidelity 的 Wise Origin 比特币基金（Fidelity Wise Origin Bitcoin Fund，FBTC）为2.388亿美元。Bloomberg Intelligence ETF 分析师 Eric Balchunas 表示，这三只产品合计超过9.09亿美元，而六只最大产品均有贡献。",
+          "Bloomberg Intelligence ETF 分析师 Eric Balchunas 表示，对 IBIT 而言，3.814亿美元流入是其第四大单日流入。他指出，近期创设（creation）的不均匀模式是一个建设性信号，并认为不规则流入日比由单一大型模型或机构驱动的配置更能反映分散的投资者活动。",
+          "与此同时，创设规模与二级市场活动形成对比。Bloomberg Intelligence ETF 分析师 James Seyffart 表示，美国现货比特币 ETF 在最新交易日成交约45亿美元，略低于周五约46亿美元。原文称，相对普通的成交额与 BTC 的剧烈价格波动以及所报告的流入规模形成反差。原文配图显示，美国比特币 ETF 成交量数据来自 Bloomberg Intelligence。",
+          "Balchunas 表示，约10亿美元流入中的很大一部分可能反映周五的交易和创设活动，因为基金流量报告存在滞后。",
+          "文章页面显示，BTC 过去24小时上涨1.44%，24小时成交量387.2亿美元，市值1.74万亿美元，市值排名第一，流通量2009万枚，完全稀释估值1.82万亿美元，价格为86，487.96美元。"
+        ],
+        "source_name": "CryptoSlate",
+        "url": "https://cryptoslate.com/bitcoin-etfs-just-absorbed-11500-btc-in-their-biggest-buying-day-in-nearly-two-years/",
+        "published_at": "2026-09-22T17:00:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "RobinhoodCEO押注加密合约将在预测市场超越体育",
+        "source_title": "Morning Minute: Robinhood CEO Bets Crypto Will Beat Sports at Prediction Markets",
+        "event_date": "-",
+        "key_points": [
+          "Robinhood CEO Vlad Tenev 在 Mad Money 对 Jim Cramer 表示，加密合约已在 Robinhood 预测市场业务中占据不成比例份额，并称几年内“体育将实际占少数”。",
+          "Robinhood 第二季度事件合约收入同比增长超过十倍至 1.56 亿美元，为增长最快业务线；8 月合约交易 47 亿次，约为去年同期 15 倍，同期加密交易收入下降。",
+          "体育合约是法律争议类别：第九巡回法院上月裁定内华达州可监管 Kalshi 体育合约，与第三巡回法院分歧，新泽西州已请求最高法院解决；加密合约不带有这场争斗。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Robinhood CEO Vlad Tenev 在 Mad Money 节目中告诉 Jim Cramer，加密合约已经在 Robinhood 的预测市场（prediction markets）业务中占据不成比例的份额。Tenev 表示，几年之内，“体育将实际占少数”。他把体育称为引入流动性和用户的切口，并表示该行业正在远远超出体育范畴扩张。上述内容出自 Decrypt 的 Morning Minute newsletter，该 newsletter 由 Tyler Warner 撰写，其分析与观点仅代表他本人，不一定反映 Decrypt 的立场。",
+          "Robinhood 的事件合约（event contracts）收入在第二季度同比增长超过十倍，达到 1.56 亿美元，成为该公司增长最快的业务线。8 月，合约交易次数为 47 亿次，约为去年同期交易量的 15 倍。在同一时间段内，Robinhood 的加密交易收入下降。",
+          "该业务现在建立在三条腿之上。Robinhood 最初运行在 Kalshi 之上，随后加入 Rothera——其与 Susquehanna 合资、拥有 CFTC 牌照的合资企业。本月，Robinhood 持有了 Crypto.com 及其预测市场分拆公司 OG.com 的少数股权，增加第三个合作伙伴来清算和结算交易。",
+          "体育合约是法律上受争议的类别。第九巡回法院（Ninth Circuit）上个月裁定，内华达州可以监管 Kalshi 的体育合约，这与第三巡回法院（Third Circuit）产生分歧，新泽西州已请求最高法院解决此事。各州主张体育合约是改头换面的赌博。加密合约不带有这场争斗。Morning Minute 作者 Tyler Warner 写道，将业务组合转向加密，使 Robinhood 增长最快的业务建立在更坚实的法律基础上。",
+          "Tenev 还举了一个能说明问题的例子。他说，对 Clarity Act 有看法的用户可以交易它，因为 Robinhood 在该法案上有市场。该法案上周未能通过终止辩论（cloture）投票，而预测市场在参议院之前就作出了判断：在投票前，Polymarket 的赔率从 35% 降至 11%。",
+          "Tyler Warner 在 newsletter 中写道，另一个没有被谈论的因素是加密再次令人兴奋。熊市只是一路磨跌，随后今年夏天没有波动性。没有波动性意味着没有有趣的东西可赌。这种情况在早期牛市中会改变。用户可以预测比特币（BTC）年底价格目标，可以预测山寨币多快达到历史新高（ATH），甚至可以通过对价格走势的方向性押注来对冲选举。总体而言，兴奋回到了加密领域，这意味着更多市场活动，以及多种多样的活动。"
+        ],
+        "source_name": "Decrypt",
+        "url": "https://decrypt.co/378918/morning-minute-robinhood-ceo-bets-crypto-will-beat-sports-at-prediction-markets",
+        "published_at": "2026-09-22T13:15:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "WilliamBlairCoinbase与Circle股票有望受益于加密市场复苏预期趋于稳定",
+        "source_title": "Coinbase, Circle shares positioned for crypto recovery as estimates stabilize: William Blair",
+        "event_date": "2026-09-22",
+        "key_points": [
+          "William Blair分析师表示，Coinbase与Circle将受益于更广泛的加密市场复苏；监管规则制定、代币化资产活动增长和多元化支撑COIN进入2027年，两家公司预期似乎接近谷底。",
+          "由Andrew W. Jeffrey领导的分析师将2026年EBITDA预期下调11%至8.10亿美元，但2027年与2028年预期大致不变，认为预期可能正接近谷底。",
+          "分析师重申对COIN与CRCL的“跑赢大盘”评级；CRCL自比特币7月1日低点以来上涨52%，其下一阶段上涨可能由USDC增长驱动。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "William Blair分析师表示，Coinbase与Circle将受益于更广泛的加密市场复苏。监管规则制定、代币化资产活动增长以及业务多元化，支撑Coinbase（COIN）进入2027年；与此同时，两家公司的预期似乎正接近谷底。分析师预计，Coinbase的衍生品与预测市场业务将日益贡献收入，而Circle（CRCL）的下一阶段上涨，可能取决于USDC市值增长。",
+          "由Andrew W. Jeffrey领导的分析师表示，尽管现货交易量低迷，Coinbase股价自7月14日以来已上涨31%，仍为投资者提供了具吸引力的入场点。他们预计，在参议院未能推进Clarity Act之后，一系列监管规则制定将改善市场情绪，并可能支撑Coinbase进入2027年，其中包括美国证券交易委员会（Securities and Exchange Commission，SEC）近期关于代币化股票交易的豁免。分析师将2026年EBITDA（Earnings Before Interest， Taxes， Depreciation and Amortization，EBITDA）预期下调11%至8.10亿美元，但2027年与2028年预期大致不变，他们认为预期可能正接近谷底。",
+          "分析师预计，加密市场活动将继续复苏。他们提到比特币上涨、加密资产作为贷款抵押品的使用增加，以及代币化现实世界资产（real-world assets，RWA）的扩张；后者的市值已从2025年底的260亿美元上升至390亿美元。这些被分析师视为市场活动持续复苏的支撑因素。",
+          "Coinbase的新业务也变得越来越重要。分析师在给客户的报告中写道：“Everything Exchange（我们讨厌这个说法）标志着多元化。不管你怎么称呼它，Coinbase今年已显著多元化其产品，尤其是增加了机构与零售衍生品以及预测市场。”零售衍生品在第一季度产生了约2亿美元的年化收入，预测市场在第二季度达到1亿美元；两者合计约占2026年预估收入的6%，但增长迅速，并提供与现货交易相关性较低的收入来源。",
+          "分析师还认为，对Coinbase定价与竞争地位的担忧被夸大。他们指出，Coinbase近期下调高级交易者费用，主要针对英国等市场，而不是表明其美国核心业务走弱。William Blair重申对COIN股票的“跑赢大盘”评级。",
+          "在另一份报告中，William Blair分析师表示，比特币仍是Circle（CRCL）估值的关键近期驱动因素，CRCL股价自比特币7月1日低点以来已上涨52%。他们预计，USDC市值将跟随比特币走高，可能有所滞后；CRCL的下一阶段上涨很可能由USDC增长驱动。William Blair重申对CRCL股票的“跑赢大盘”评级。",
+          "分析师认为，潜在的竞争对手稳定币对USDC地位构成的风险很小。他们坚持认为，Circle的长期价值在于构建全球稳定币支付与交易网络，而不是依赖储备收入。参议院未能推进Clarity Act，使稳定币监管现状基本保持不变，SEC与商品期货交易委员会（Commodity Futures Trading Commission，CFTC）可能通过规则制定来填补剩余空白。分析师表示，稳定币奖励不再直接受到这项停滞立法威胁，而SEC的代币化股票豁免以及Hyperliquid上加密抵押品使用增加，提供了市场发展的额外迹象。"
+        ],
+        "source_name": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-09-22-coinbase-circle-shares-positioned-crypto-recovery-estimates-stabilize-william-blair-416083",
+        "published_at": "2026-09-22T22:43:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      }
+    ],
+    "notes": [
+      "政策风向覆盖美国、欧盟、俄罗斯三地，满足至少一篇美国且地区分散的要求。",
+      "A008与A050同属MiCA稳定币准备金争议，为避免重复主题，政策选A050、舍弃A008。",
+      "A019、A075与A049为同一ETF流入事件，选篇幅更长、数据更全的A049。",
+      "A027、A029、A051、A060为同一CME新增BCH/UNI期货事件，因市场动态名额有限且已有更优商业动态，本轮未选。",
+      "A010、A012、A014、A036为Pepeto预售软文，A074为预测市场返佣导购页，均已排除。",
+      "A059与A040均为Bernstein预测市场预测，且与A064主题重叠，未选入意见领袖。"
+    ]
+  },
+  "factcheck": {
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      "item 1 contains question-style future/unknown wording; ensure the source explicitly raises it",
+      "item 1 contains relative time wording; replace with exact date",
+      "item 3 contains relative time wording; replace with exact date",
+      "item 4 contains question-style future/unknown wording; ensure the source explicitly raises it",
+      "item 5 contains relative time wording; replace with exact date",
+      "item 6 contains relative time wording; replace with exact date",
+      "item 7 contains relative time wording; replace with exact date",
+      "item 8 contains relative time wording; replace with exact date",
+      "item 9 contains generic attribution wording; verify the source explicitly supports it",
+      "item 9 contains relative time wording; replace with exact date"
+    ]
+  },
+  "outputs": {
+    "docx": "reports/2026/加密货币观察_20260923.docx",
+    "manifest": "reports/2026/_manifests/加密货币观察_20260923.json"
+  }
+}
