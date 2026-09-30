@@ -1,0 +1,286 @@
+{
+  "generated_at": "2026-09-30T15:27:03+08:00",
+  "period": "2026-09-23 15:27 至 2026-09-30 15:27（北京时间，最近7天）",
+  "raw_count": 69,
+  "collection_warnings": [
+    "no candidates for query: cross chain oracle RWA infrastructure wallet staking rollup interoperability crypto",
+    "no candidates for query: crypto acquisition funding IPO futures CME stablecoin revenue tokenized securities",
+    "no candidates for query: investor analyst CIO says DeFi stablecoin bitcoin crypto market structure",
+    "no candidates for query: site:blockworks.co (crypto OR bitcoin OR ethereum OR stablecoin OR tokenization OR digital assets)"
+  ],
+  "report": {
+    "items": [
+      {
+        "section": "政策风向",
+        "title_cn": "美联储提案拟设两日稳定币赎回上限但760亿美元仍卡在交易所环节",
+        "source_title": "Fed guarantees 2-day stablecoin payouts, but $76B remains blocked",
+        "event_date": "2026-09-29",
+        "key_points": [
+          "Andersen Institute快照显示，7月28日，12种由储备支持的美元稳定币（stablecoin）中有760亿美元存放在交易所，这是一个下限估计。",
+          "美联储（Federal Reserve）提议对受董事会监管的发行方设定一般的两个营业日（business day）赎回上限，并附有入驻要求和已声明的例外。",
+          "交易所客户提款遵循场所条款，而Circle的直接USDC赎回需要合格的Circle Mint账户。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "美联储的稳定币提案将对其监管的发行方设定一般的两个营业日赎回期限。对于在中心化交易所（centralized exchange）持有稳定币的客户来说，第一步是让该场所释放或兑换余额。该提案于9月29日刊登在《联邦公报》（Federal Register），此前董事会于9月24日宣布。提案要求受董事会监管的支付稳定币（payment stablecoin）发行方披露其赎回程序。",
+          "根据拟议的第247.12条，发行方在收到请求后的正常赎回期限不得超过两个营业日。发行方必须说明客户如何赎回，并接受至少一个代币的赎回请求，但须经过筛选和入驻程序。董事会可为安全、金融稳定或公共利益延长该期限。提案还包括针对必要客户检查或发行方无法控制情形所导致延迟的有限安全港。相关要求仍处于公开征求意见阶段。",
+          "Andersen Institute for Finance and Economics的研究人员在7月28日的一份快照中，在中心化交易所定位到760亿美元的稳定币，覆盖12种由储备支持的美元稳定币。研究人员称该交易所数字是下限，因为部分交易所钱包无法被识别。中心化交易所持有至少760亿美元的储备支持稳定币，而发行方赎回遵循单独的资格规则。",
+          "如果交易所向发行方提出符合条件的赎回请求，该发行方的义务可能对交易所产生影响。交易所客户卖出、兑换或提取余额的指令，是与该场所之间的另一笔交易，该客户面对的这一环节由场所条款管辖。当前条款显示了这一区别为何重要。",
+          "Circle表示，对于欧洲经济区以外的持有者，根据其条款，直接赎回USDC仅适用于在Circle Mint拥有良好账户的合格持有者；没有该账户的持有者无法直接向Circle赎回，直到其符合资格并完成注册，因为该公司将Mint描述为面向机构分销商的服务。",
+          "Coinbase的美国协议称，客户拥有USDC钱包余额，但Coinbase没有义务将USDC回购为美元。它可以选择这样做，该协议将客户引向Circle，根据Circle的单独条款进行直接赎回。Coinbase还保留暂停发送或交易的权利，而Circle Mint资格以及特定交易所提款的时间取决于客户的具体情况和场所。",
+          "Andersen快照本身对于试图将美联储提案适用于全部760亿美元的人也存在范围问题。它包含交易所持有的615亿美元USDT和101亿美元USDC，以及其他币种，而美联储文本针对的是受董事会监管的发行方。Tether当前条款要求直接赎回须由经过验证的客户进行，并设有10万美元最低限额。该场所总额合并了不同的发行方政策和监管类别，需要逐发行方分析，才能与提案范围进行比较。",
+          "Andersen研究人员还追踪了2023年3月USDC压力事件期间的场所余额。以3月9日作为该事件冲击前基线，他们发现交易所持有USDC供应量的15.2%，但在随后供应量下降中占40%。这些数据将已识别交易所钱包中的代币余额与总供应量进行比较，而单个客户的赎回路径不在这些钱包余额测量范围内。",
+          "在3月10日至13日，USDC供应量下降27亿美元，而已识别交易所余额增加6亿美元。3月13日之后，供应量再下降81亿美元，交易所余额下降49亿美元。在第一阶段，代币移动到交易所可能与整体供应量萎缩并存，而更大的交易所余额下降出现在之后。将整个事件视为立即的交易所外流会错过这一反转。",
+          "2023年USDC事件对未来冲击下USDT或其他币种可能如何表现提供的指引有限。钱包位置数据也留下了单个交易所请求的顺序未知。拟议规则将界定董事会职权范围内发行方的赎回义务，并附带例外和资格检查。Andersen的7月快照确认了交易所持有余额的规模。当前的场所余额和客户退出时间需要新的、单独的证据。"
+        ],
+        "source_name": "CryptoSlate",
+        "url": "https://cryptoslate.com/fed-guarantees-2-day-stablecoin-payouts-but-76b-remains-blocked/",
+        "published_at": "2026-09-29T19:30:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "70亿美元加密ETF管道热潮撞上IRS",
+        "source_title": "A $7 billion crypto ETF plumbing boom just ran into the IRS",
+        "event_date": "2026-09-29",
+        "key_points": [
+          "美国财政部与IRS将数字资产列为基金经理可能将税收条款用到超出本意的领域之一，可能带来额外规则或执法。",
+          "争议涉及受监管投资公司（RIC）的90%收入测试，以及ETF利用实物赎回移除升值数字资产、从而将未确认收益排除在测试之外的做法。",
+          "贝莱德IBIT和ETHA在2026年上半年通过实物赎回合计分配约72.2亿美元加密资产；两只产品作为授予人信托，不适用RIC收入测试。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "美国国税局（Internal Revenue Service，IRS）正在审查一项与加密相关的交易所交易基金（exchange-traded fund，ETF）税收策略，华盛顿正加大打击旨在避免应税收益的结构。财政部与IRS将数字资产列为基金经理可能将税收条款用到超出本意用途的领域之一，从而可能带来额外规则或执法。财政部长Scott Bessent在X上表示，两家机构“认真打击旨在逃税或利用联邦税法的交易”，并将该通知视为更广泛打击税收驱动投资策略的一部分。",
+          "这一举动给加密ETF市场带来新的税收问题。过去一年，该市场采用了传统基金长期使用的实物申赎机制。去年，美国证券交易委员会（Securities and Exchange Commission，SEC）批准现货加密交易所交易产品（exchange-traded products，ETP）的实物创建和赎回，称该变化可降低成本并减少价格滑点。财政部没有挑战传统的ETF赎回，而是关注利用这些交易实现税收结果的结构，监管者称这些结果可能与基金的基础经济状况关系不大。",
+          "争议核心是监管受监管投资公司（regulated investment companies，RIC）的规则，该类别包括美国ETF行业的大部分。为保留优惠税收待遇，RIC通常必须使至少90%的年度总收入来自合格来源，包括股息、利息以及涉及股票、证券和某些货币的收益。财政部称，一些ETF主张它们可以将来自这些类别以外资产的收益完全排除在计算之外。",
+          "通知具体指向直接或通过授予人信托（grantor trust）持有大宗商品或数字资产的基金。基金可以不卖出已升值头寸，而是用它来满足授权参与者（authorized participant）的实物赎回。根据第852(b)(6)条（Section 852(b)(6)），ETF通常可以在合格赎回中分配已升值财产而不确认内含收益。一些基金因此主张，在确定是否通过RIC收入测试时，也应排除未确认收益。财政部称，该策略可能让ETF无论实际经济收入如何，都能限制受90%门槛约束的收入，显示对该解释的怀疑。",
+          "这并非禁令。政府已就该做法请求信息，并正在考虑可能采取什么行动。其处理方式与同一监管行动中的另一策略形成对比。收入裁定（Revenue Ruling）2026-20拒绝某些预安排交易：投资者将已升值证券投入ETF，随后通过赎回迅速移除这些资产，使投资者在最初不确认内含收益的情况下得到不同投资组合。Bessent对这些第351条（Section 351）转换更为明确，称这些交易“在现行法律下不成立”。IRS称，这些安排可被重新定性为应税交换，使它们在政府打击中处于比随附通知中数字资产策略更深入的阶段。",
+          "加密实物基础设施已达数十亿美元规模。贝莱德（BlackRock）的iShares Bitcoin Trust ETF（IBIT）在2026年前六个月通过实物赎回分配了约54.9亿美元比特币，据其最新季度文件。约38.5亿美元发生在第二季度。其iShares Ethereum Trust ETF（ETHA）到6月又实物分配了17.2亿美元以太坊，使两只贝莱德产品六个月合计约72.2亿美元。IBIT同期还通过实物创建收到约93.6亿美元比特币，反映自SEC放弃仅现金模式以来，基金与授权参与者之间的直接加密转移扩张之快。",
+          "这些交易并不证明贝莱德在使用财政部指出的策略。IBIT和ETHA在联邦所得税目的下被视为授予人信托，这意味着收益和损失传递至股东，而不是适用IRS通知核心的RIC收入测试。然而，它们的活动显示了如今基金在实物转移加密资产时可利用的基础设施规模。",
+          "财政部的担忧适用于另一类别：直接或通过授予人信托等工具获得数字资产敞口，然后利用赎回来移除已升值头寸的RIC，否则这些收益可能使90%测试复杂化。随着资产管理公司将加密敞口嵌入多资产、收入和主动管理ETF策略，而不是仅依赖独立的比特币或ETH产品，这一区别可能变得更加重要。",
+          "基金经理可能在新规则到来前面临审查。财政部为自己留下若干选项。通知（Notice）2026-62称，监管者可以法规、收入裁定或其他指引回应，并可能将某些安排指定为利益交易或上市交易，这些分类可带来更高报告要求。新指引也不一定只适用于未来交易。两家机构称，任何行动可以是前瞻性的，或在其法律授权允许时，追溯适用于指引发布前完成的交易。IRS另外警告，它可以在审查中根据现行法律挑战滥用投资基金策略，而不必等待新规则。这意味着使用加密相关RIC结构的管理者可能必须在财政部决定是否正式确立新标准前评估其敞口。",
+          "税收待遇取决于通过赎回篮子移除已升值数字资产的基金，可能面临压力去记录这些交易的经济目的、重新考虑篮子如何构建，或限制依赖将这些收益排除在RIC收入计算之外的结构。对于设计下一代加密相关ETF的发起人，这种不确定性可能成为产品约束。在现有解释下看起来税收高效的结构，现在可能需要不同的组合机制、额外法律意见或更大的安全边际才能推向市场。"
+        ],
+        "source_name": "CryptoSlate",
+        "url": "https://cryptoslate.com/a-7-billion-crypto-etf-plumbing-boom-just-ran-into-the-irs/",
+        "published_at": "2026-09-29T16:52:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "欧洲央行开放数字欧元创新平台第二轮新增人工智能代理与公共服务",
+        "source_title": "ECB opens second wave of digital euro innovation platform, adds AI agents and public services",
+        "event_date": "-",
+        "key_points": [
+          "欧洲央行邀请商户、支付服务提供商（payment service providers，PSP）、金融科技公司（fintechs）、技术供应商和公共机构，加入数字欧元（digital euro）创新平台的第二轮。",
+          "申请于11月9日截止，相关工作持续到2027年上半年；实验工作流在2027年1月至6月，探索工作流工作坊在2027年上半年于法兰克福举行。",
+          "实验工作流覆盖电子收据、多付款方或多收款方交易、条件支付一致性和PSP增值功能；探索工作流关注人工智能（Artificial Intelligence，AI）在支付中的应用，包括AI代理（AI agents）交易、微支付（micropayments）、设计隐私（privacy by design）和用户控制，以及数字欧元在交通、公用事业账单、智慧城市、金融普惠和韧性情景中的公共用途。"
+        ],
+        "lead_cn": "欧洲央行正在邀请商户、支付服务提供商、金融科技公司、技术供应商和公共机构加入数字欧元创新平台第二轮，申请截止日期为11月9日，工作持续到2027年上半年。",
+        "body_paragraphs": [
+          "欧洲央行正在邀请商户、支付服务提供商（payment service providers，PSP）、金融科技公司（fintechs）、技术供应商和公共机构，加入其数字欧元（digital euro）创新平台的第二轮。申请截止日期是11月9日。相关工作会持续到2027年上半年。这一轮是数字欧元创新平台的第二轮。",
+          "第一轮的目标是证明条件支付（conditional payments）可以在数字欧元的核心基础设施上运行。第一轮已经提出要证明这一点。最新一轮的目标是在这一基础上构建实际服务。最新一轮还会进一步展望人工智能（Artificial Intelligence，AI）驱动的支付和公共部门用途。",
+          "实验工作流（experimentation workstream）从2027年1月持续到6月。实验工作流要求参与者开发概念验证（proof of concept，PoC）。概念验证需要覆盖四个领域。第一个领域是电子收据（electronic receipts）集成到支付应用。第二个领域是涉及多个付款方或多个收款方的交易。第三个领域是条件支付在不同提供商之间表现一致。第四个领域是支付服务提供商可以通过其应用提供的增值功能。每位参与者需要提交一份概念验证和一份成果报告。欧洲央行可能会公布关键发现。",
+          "探索工作流（exploration workstream）由工作坊组成。工作坊在欧洲央行法兰克福举行，时间是2027年上半年。探索工作流的一个主题是人工智能在支付中的应用。这一主题包括AI代理（AI agents）彼此进行交易。这一主题还包括微支付（micropayments）。这一主题还包括这些工具如何与设计隐私（privacy by design）和用户控制相契合。",
+          "探索工作流的另一个主题是数字欧元的公共用途。公共用途涵盖交通。公共用途涵盖公用事业账单。公共用途涵盖智慧城市（smart city）倡议。公共用途涵盖金融普惠（financial inclusion）。公共用途涵盖韧性情景（resilience scenarios）。",
+          "欧洲央行数字欧元创新平台的第二轮申请于11月9日截止。实验工作流在2027年1月至6月要求参与者开发概念验证。探索工作流在2027年上半年于法兰克福举行工作坊。探索工作流关注人工智能在支付中的应用和数字欧元的公共用途。",
+          "欧洲央行邀请的参与方包括商户。参与方还包括支付服务提供商。参与方还包括金融科技公司。参与方还包括技术供应商。参与方还包括公共机构。申请于11月9日截止。工作持续到2027年上半年。"
+        ],
+        "source_name": "Ledger Insights - blockchain for enterprise",
+        "url": "https://www.ledgerinsights.com/ecb-opens-second-wave-of-digital-euro-innovation-platform-adds-ai-agents-and-public-services/",
+        "published_at": "2026-09-29T13:20:00+08:00",
+        "region": "欧洲",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "以太坊将Glamsterdam升级安排在10月6日于Sepolia激活",
+        "source_title": "Ethereum schedules Glamsterdam upgrade on Sepolia for Oct. 6",
+        "event_date": "2026-10-06",
+        "key_points": [
+          "以太坊开发者将 Glamsterdam 安排在 10 月 6 日于 Sepolia 测试网激活，Sepolia 节点运营者必须在激活前更新执行层与共识层客户端。",
+          "Glamsterdam 将带来内嵌式提议者-构建者分离、区块级访问列表，并改变燃料定价以更好反映在以太坊上创建和访问数据的成本。",
+          "原文称开发者尚未设定 Hoodi 或主网的推出日期，Hegotá 的目标年份为 2027 年，Vitalik Buterin 称其可能是该网络最后一个“正常”分叉。"
+        ],
+        "lead_cn": "以太坊开发者已将 Glamsterdam 安排在 10 月 6 日于 Sepolia 测试网激活；以太坊基金会周一表示，Sepolia 节点运营者必须在激活前同时更新执行层客户端与共识层客户端。",
+        "body_paragraphs": [
+          "以太坊开发者已将以太坊网络的下一次重大升级 Glamsterdam 安排在 10 月 6 日于 Sepolia 测试网（testnet）上激活。以太坊基金会（Ethereum Foundation）周一表示，Sepolia 节点运营者必须在激活前同时更新其执行层（execution-layer）客户端与共识层（consensus-layer）客户端。原文将 Glamsterdam 称为该网络的下一次重大升级，并把这则报道列为最新消息（Latest News）。",
+          "在 Glamsterdam 的多项改动中，一项是内嵌式提议者-构建者分离（enshrined proposer-builder separation）。按照原文的表述，这一改动将把专业区块构建者（block builders）与验证者（validators）之间的交接移入以太坊协议（protocol）之内，从而减少对外部中间件（middleware）的依赖。原文称，这是 Glamsterdam 带来的变化之一，并把减少对外部中间件依赖作为该改动的效果加以说明。",
+          "Glamsterdam 还将引入区块级访问列表（block-level access lists）。原文说明，这类列表会记录每个区块中使用的账户和存储位置。除上述两项改动外，该升级还将改变燃料定价（gas pricing），以更好地反映在以太坊上创建和访问数据的成本。原文把提议者-构建者分离、区块级访问列表与燃料定价改动并列为 Glamsterdam 的内容。",
+          "对于开发者与合约作者而言，原文提到了一项可能的变化：以太坊基金会表示，依赖固定 gas 津贴（fixed gas stipends）或硬编码 gas 上限（hardcoded gas limits）的合约可能需要改动。这一说明来自以太坊基金会，原文未给出更多关于具体合约的细节。",
+          "在推出安排方面，原文称开发者尚未设定 Glamsterdam 在以验证者为重点的测试网 Hoodi 上的日期，也未设定其在主网（mainnet）上的日期。原文提到，Glamsterdam 的主网日期仍未确定。就原文给出的信息而言，激活时间只涉及 Sepolia 测试网的 10 月 6 日这一项安排。",
+          "在 Glamsterdam 之后，开发者目标是在 2027 年推出 Hegotá。原文将 Hegotá 描述为预计在 Glamsterdam 之后进行的升级。以太坊联合创始人 Vitalik Buterin 周日表示，Hegotá 可能是该网络最后一个“正常”分叉（fork），此后开发将转向递归 STARKs（recursive STARKs）、自动化形式化验证（automated formal verification）、优化的共识（optimized consensus）和抗量子密码学（quantum-safe cryptography）。",
+          "该报道由 Yohan Yun 撰写，Sam Bourgi 审阅，来源为 Cointelegraph，发布时间为 9 月 29 日。原文在报道中标注了 Hard Fork、Soft Fork、Validator、Developers、Technology、Ethereum 等主题标签，并列出相关报道“Ethereum Institutional signals support for Ethlabs’ motion to reduce Ethereum block times”。原文同时表示，Cointelegraph 的新闻文章依照其编辑政策制作。",
+          "以太坊基金会周一就 Sepolia 节点运营者的客户端更新要求作出说明，这是原文对 Glamsterdam 激活准备工作给出的直接要求。原文同时给出 Glamsterdam 的技术改动清单与尚未设定的后续推出日期，并把 Hegotá 的目标年份记为 2027 年。上述内容均来自 Cointelegraph 这篇报道及其摘要，报道发布时间为 2026 年 9 月 29 日，原文标题为“Ethereum schedules Glamsterdam upgrade on Sepolia for Oct. 6”。"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/ethereum-glamsterdam-upgrade-sepolia",
+        "published_at": "2026-09-29T11:46:00+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "Kakaopay联手Dinari、Ondo探索韩国股票代币化",
+        "source_title": "Kakaopay partners with Dinari, Ondo to explore tokenized Korean stocks",
+        "event_date": "2026-09-29",
+        "key_points": [
+          "Kakaopay Securities 与 Dinari 和 Ondo Finance 分别达成协议，探索将韩国上市股票上链并分销给国际市场投资者，涵盖标的韩国股票的采购、代币化基础设施及其在韩国境外的潜在分销。",
+          "与 Dinari 的合作将使用 dShares 模型开展概念验证，该模型旨在保留适用的股东权利；Dinari 目前通过 dShares 提供 724 只代币化美国股票和 ETF。",
+          "Dinari CEO Gabe Otte 对 Cointelegraph 表示，尚未为概念验证选定任何具体的韩国上市公司，也没有为商业可用设定公开时间表，拟议模式将使用韩国本地上市股票作为标的资产。"
+        ],
+        "lead_cn": "Kakaopay Securities 与 Dinari、Ondo Finance 分别签署协议，探索将韩国上市股票代币化并对其在韩国境外进行潜在分销。",
+        "body_paragraphs": [
+          "Kakaopay Securities 正在与 Dinari 和 Ondo Finance 合作，探索将韩国上市股票代币化，并扩大其在国际市场投资者中的可得性。Kakaopay 周二宣布分别与 Dinari 和 Ondo 达成协议，涵盖标的韩国股票的采购、代币化基础设施以及这些股票在韩国境外的潜在分销。",
+          "在 Dinari 合作下，双方将使用 Dinari 的 dShares 模型开展概念验证。该模型旨在保留适用的股东权利，包括股息和投票权。Dinari 通过 dShares 提供 724 只代币化美国股票和 ETF，与 Kakaopay 的合作探索将该模式扩展到韩国上市股票。",
+          "Dinari CEO Gabe Otte 对 Cointelegraph 表示，尚未为概念验证选定任何具体的韩国上市公司，也没有为商业可用设定公开时间表。他说，拟议模式将使用在韩国本地上市的股票作为标的资产，而不是仅仅追踪其价格的代币。",
+          "Kakaopay 与 Ondo 的协议初期将聚焦建立采购和托管韩国上市股票的框架，这些股票之后可能被代币化。Kakaopay 将运营一个外国投资者综合账户（omnibus account）来持有和管理标的股票。Ondo 与 Kakaopay 还将研究代币发行与赎回。",
+          "两家公司表示，是否或何时将代币化韩国股票商业化，将取决于韩国和海外市场的法律与监管要求。相关协议出台之际，韩国正准备实施针对代币化证券的新监管框架。",
+          "韩国国民议会于 1 月批准修正案，承认分布式账本为有效的证券登记册，并允许代币证券的发行和流通。6 月，金融服务委员会将代币证券基础设施的发展与韩国资本市场的更广泛改革联系起来。该框架定于 2027 年 2 月生效，而韩国证券存托院正在开发基础设施，将其现有证券账户系统与基于区块链的数据连接。",
+          "当被问及韩国对代币化股票的兴趣时，Otte 告诉 Cointelegraph：“我们看到韩国出现了有意义的机构兴趣，特别是在将代币化作为连接韩国资本市场与全球投资者的基础设施方面……机会不仅仅是创建韩国股票的代币化版本，而是建立基础设施，最终扩大这些股票在国际上的分销方式，同时保留标的证券的权利和保护。”",
+          "根据 RWA.xyz 的数据，代币化股票在 2026 年激增，截至 9 月下旬的分布式价值（distributed value）约为 32 亿美元。然而，该市场仍然高度集中于美国股票和交易所交易基金的代币化版本，包括 Strategy、Circle、Nvidia 和特斯拉的股票，以及主要的美国股票 ETF。"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/kakaopay-securities-dinari-ondo-tokenized-korean-stocks-push",
+        "published_at": "2026-09-29T20:50:00+08:00",
+        "region": "韩国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "Blockchain.com瞄准5亿美元IPO估值最高60亿美元",
+        "source_title": "Blockchain.com targets $500 million IPO at up to $6 billion valuation",
+        "event_date": "2026-09-29",
+        "key_points": [
+          "据 Bloomberg 周一报道，援引知情人士消息，Blockchain.com 计划在年底前上市，寻求筹集约 5 亿美元，估值 40 亿至 60 亿美元。",
+          "Blockchain.com 今年早些时候已向美国证券交易委员会（SEC）保密提交拟议首次公开募股（IPO）申请，保密提交使公司能够启动 SEC 审查程序。",
+          "原文称，2026 年上半年加密货币市场低迷，可能使一些公司搁置 IPO 计划，等待资产价格回升；资产价格回升已在过去几个月出现。"
+        ],
+        "lead_cn": "据 Bloomberg 周一报道，援引知情人士消息，Blockchain.com 计划在年底前上市，寻求筹集约 5 亿美元，估值 40 亿至 60 亿美元。",
+        "body_paragraphs": [
+          "据 Bloomberg 周一报道，援引知情人士消息，Blockchain.com 计划在年底前上市。这家总部位于伦敦的加密货币金融服务公司正寻求筹集约 5 亿美元，估值在 40 亿至 60 亿美元之间，并正与潜在投资者进行讨论。原文称，Blockchain.com 提供交易所、钱包、交易和借贷服务。",
+          "报道还指出，Blockchain.com 今年早些时候已向美国证券交易委员会（SEC）保密提交了拟议首次公开募股（IPO）申请。原文称，保密提交使该公司能够在公开披露与上市相关的财务细节之前，启动美国证券交易委员会的审查程序。该保密提交是向美国证券交易委员会提交的，该公司是一家加密货币金融服务公司。",
+          "原文称，此次潜在上市发生在加密货币首次公开募股相对安静的一年之后。今年对加密货币首次公开募股来说是安静的一年。此前 2025 年曾有几宗引人注目的上市，例如稳定币发行商 Circle（CRCL）、加密货币交易所 Gemini Space Station（GEMI）以及 CoinDesk 母公司 Bullish（BLSH）。报道指出，在这些上市之后，2026 年的加密货币首次公开募股活动转淡。",
+          "原文指出，2026 年上半年加密货币市场低迷，可能使一些公司搁置首次公开募股计划，等待资产价格回升。报道称，资产价格回升已在过去几个月出现。该报道引述知情人士称，Blockchain.com 的目标是在年底前上市，寻求筹集约 5 亿美元，估值 40 亿至 60 亿美元。",
+          "报道称，Blockchain.com 未回应 CoinDesk 的置评请求。该报道由 Jamie Crawley 撰写，Omkar Godbole 编辑。原文于 2026 年 9 月 29 日发布，并于同日更新。该报道来自 CoinDesk。",
+          "报道称，Blockchain.com 的目标是上市，估值 40 亿至 60 亿美元，筹集约 5 亿美元。原文称，该公司正与潜在投资者讨论。Blockchain.com 总部位于伦敦，提供交易所、钱包、交易和借贷服务。",
+          "原文称，Blockchain.com 今年早些时候已向美国证券交易委员会保密提交拟议首次公开募股申请。保密提交使该公司能够在公开披露与上市相关的财务细节之前，启动美国证券交易委员会的审查程序。报道称，2025 年曾有几宗引人注目的加密货币首次公开募股，例如 Circle、Gemini Space Station 和 Bullish。"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/business/2026/09/29/blockchain-com-targets-usd500-million-ipo-at-up-to-usd6-billion-valuation",
+        "published_at": "2026-09-29T11:13:00+08:00",
+        "region": "英国（伦敦）",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "预测市场单周成交额首破200亿美元Kalshi占约77%",
+        "source_title": "Prediction Markets Shatter Records With $20 Billion Week",
+        "event_date": "2026-09-29",
+        "key_points": [
+          "据Artemis数据，预测市场单周累计成交额达到204亿美元，为单周成交额首次突破200亿美元，超过2026年6月和7月FIFA世界杯期间创下的前高。",
+          "Kalshi在204亿美元中录得约158亿美元，占全部追踪成交额约77%；Polymarket为36亿美元，Cryptopolitan指出二者差距为全年最宽。",
+          "美式橄榄球赛季与11月3日中期选举的早期布局共同推动活动；据Cryptopolitan分析，串关式组合合约按每份1美元赔付值计入成交额，使头条数字并不直接反映交易者投入的资金。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "据Artemis数据，预测市场（prediction markets）单周累计成交额达到204亿美元，为单周成交额首次突破200亿美元，超过2026年6月和7月FIFA世界杯期间创下的前高。此前一周的成交额为198亿美元，这意味着连续两周高于世界杯期间的峰值。上述数据由Artemis统计。",
+          "Artemis数据显示，这一纪录出现之际，美式橄榄球赛季以及针对11月3日中期选举的早期布局共同推动了活动，而美国联邦储备委员会（Federal Reserve，Fed）9月的利率决定则为此前一周的成交额作出了贡献。9月，美国职业橄榄球大联盟（National Football League，NFL）和大学橄榄球赛季开始，使周末体育类流量与短期加密货币市场以及中期选举的早期布局叠加在一起。",
+          "在204亿美元的单周总成交额中，Kalshi录得约158亿美元，占全部追踪成交额的约77%。Polymarket以36亿美元位居第二，差距明显。其后是Nadex的4.819亿美元和Rothera的2.723亿美元，Predict.fun与Opinion的成交额则均超过1.2亿美元。以上数据均来自Artemis。",
+          "周末两天，预测市场每日总成交额均达到40亿美元，其中Kalshi每天处理约30亿美元。Polymarket在同一两天分别录得7.704亿美元和6.624亿美元。Cryptopolitan指出，Kalshi与Polymarket之间的差距目前是全年最宽的。",
+          "美式橄榄球通过串关式组合合约（parlay-style combo contracts）推动了大部分周末流量。在这种合约中，交易者将多个结果打包成一笔下注；只有当所有选择全部命中时合约才会赔付，因此赔率较高，每份合约的成本往往只有几美分。据Cryptopolitan的分析，Kalshi按每份合约1美元的赔付值计入，而不是按交易者实际支付的价格计入。",
+          "举例而言，若一笔20美元的下注买在定价5美分的远距离串关上，可买入400份合约，在成交额中显示为400美元。当成千上万笔此类下注在一个繁忙的橄榄球周末成交时，美元数字的攀升速度会远快于实际承担风险的资金。这种计入方式意味着，头条成交额并不直接反映交易者投入的资金。",
+          "这一成交额纪录反映的是多项催化剂在罕见地重叠，而不是某一类事件本身的强劲。NFL和大学橄榄球赛季于9月开始，使周末体育类流量与短期加密货币市场（short-duration crypto markets）以及针对11月3日中期选举的早期布局叠加。在短期加密货币市场中，用户预测比特币（Bitcoin）或以太币（Ether）是否会在数小时内收于某一设定价格之上，这些市场随着价格变动而反复换手。",
+          "交易者还开始为11月3日中期选举提前布局，届时美国国会两院的控制权将取决于选举结果。选举类合约曾推动2024年的上一轮大规模成交额周期，而中期选举目前距离投票还有五周。NFL常规赛将持续至明年1月初。",
+          "在成交额创下纪录的同时，Kalshi仍面临州层面的监管挑战。9月25日，美国第六巡回上诉法院裁定，俄亥俄州和田纳西州可以根据其赌博法监管Kalshi的体育类合约，此前第三巡回和第九巡回法院已有类似裁定。Polymarket同时运营一个美国交易所和一个基于Polygon的国际平台，而Kalshi持有针对美国用户的美国商品期货交易委员会（Commodity Futures Trading Commission，CFTC）监管指定资格。NFL常规赛将持续至2027年1月初，9月的月度成交额已突破7月创下的前高。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/prediction-markets-shatter-record-with-20-billion/",
+        "published_at": "2026-09-29T14:31:00+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "民主党人扼杀了《清晰法案》",
+        "source_title": "Democrats killed the Clarity Act",
+        "event_date": "2026-09-29",
+        "key_points": [
+          "上周没有一位参议院民主党人投票支持推进《清晰法案》（Clarity Act），该法案本应为数字资产（digital assets）建立规则（rules of the road），帮助降低普通美国人的交易成本。",
+          "Scott 称共和党人与民主党人花了超过一年谈判这项立法，最终提案包含民主党人要求的 120 多项修改，但民主党人仍说不。",
+          "至少有 12 位参议院民主党人声称想达成协议，但投票时无一人支持推进；Scott 随后呼吁 SEC 和 CFTC 为数字资产制定明确的规则。"
+        ],
+        "lead_cn": "美国参议员 Tim Scott（南卡罗来纳州共和党人）在 CoinDesk 意见栏目撰文，批评民主党人阻止《清晰法案》推进。",
+        "body_paragraphs": [
+          "美国参议员 Tim Scott（南卡罗来纳州共和党人）在 CoinDesk 意见栏目撰文指出，选民已经受够了，但民主党人拒绝倾听。尽管民主党人谈论成本与可负担性，上周没有一位参议院民主党人投票支持推进《清晰法案》（Clarity Act）。该立法本应为数字资产（digital assets）建立规则（rules of the road），帮助降低普通美国人的交易成本。不幸的是，因为民主党人，法案未能向前推进。",
+          "Scott 说，政策是个人化的。在就此类立法投票时，他会问自己：“这会帮助像我母亲那样独自抚养我的单亲妈妈吗？”这些正是民主党人长期声称要照顾的美国人。然而，到了华盛顿，他们一次又一次投票把辛苦工作的家庭的钱从口袋里拿走。美国人想保留更多自己的钱，但民主党人投票提高加班费、小费和社保的税收。如果民主党人得逞，美国人每月将多交数百美元税款。民主党人刚刚又浪费了一个把钱放进美国人口袋的机会。",
+          "数字资产（digital assets）展现出真正的希望。它们可以降低成本、更快转移资金，并帮助小企业成长。但我们需要明确的护栏，防止客户和投资者被利用。Scott 说，他和共和党同僚以及民主党人花了超过一年谈判这项立法。最终提案包含了民主党人要求的 120 多项修改，但他们仍然说不。扩展的道德条款；涉及总统 Trump 的道德条款；涵盖民选官员及其配偶的道德规则；州总检察长在执法中发挥有意义的作用；为执法部门提供更多反洗钱工具——每一项都做到了。每次共和党人满足民主党人的要求，他们就移动球门柱。再多的善意谈判也无法满足拿国家金融未来玩政治的民主党人。",
+          "至少有 12 位参议院民主党人声称他们想要达成协议。但口头服务不同于交付结果。当投票到来时，没有一位参议院民主党人投票推动法案前进。Scott 说，《清晰法案》的核心是保护普通美国人、保护他们辛苦赚来的钱、给企业家公平机会，并让犯罪分子和外国对手更难滥用我们的金融体系。",
+          "在进入参议院之前，Scott 经营过一家小企业，他每天都从就业创造者那里听到对确定性的需求。在金融服务领域工作的企业家也有实际问题：适用什么规则？哪个机构负责？答案会影响他们的业务运营和如何服务客户。民主党人也知道这一点。这正是上周投票如此令人沮丧的原因。",
+          "距离选举日不到 40 天，民主党人把他们认为对政治有利的东西置于好的公共政策之上。他们宁愿刺激总统 Trump、阻止他取得一项重大两党立法成就，也不愿为美国人民做正确的事。在民主党人搞垮《清晰法案》后，Scott 呼吁 SEC（美国证券交易委员会）和 CFTC（美国商品期货交易委员会）在国会继续工作的同时，为数字资产制定明确的规则。SEC 和 CFTC 关注客户打交道的公司以及这些公司遵循的规则。确定性很重要。",
+          "Scott 说，他不断回到交易另一侧的人。为孩子储蓄的母亲知道赚钱有多不容易。存钱的工人知道熬过一周有多不容易。企业主知道有人在等着领工资。这就是他从南卡罗来纳带来的视角。自从他长大以来，技术已经改变，但降低成本、减少不确定性的需要没有改变。",
+          "他的故事始于一位辛勤工作、想给孩子未来的单亲妈妈。他没有忘记她的牺牲，也没有忘记家里每一美元意味着什么。民主党人应该注意，记住他们所代表的人民，为他们做最好的事，而不是为他们的政治算计、顾问和特殊利益做最好的事。这次选举，选民可以在一个为所有人推进经济机会的政党与另一个宁愿继续从你口袋里拿钱的政党之间做出选择。民主党人再次站在了从美国人口袋里拿钱的一边。"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/opinion/2026/09/29/democrats-killed-the-clarity-act",
+        "published_at": "2026-09-29T15:08:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "分析师预计10年期美国国债收益率触及6%比特币多头不应恐慌",
+        "source_title": "Analysts see 10-year Treasury yield hitting 6%. Bitcoin bulls shouldn't panic",
+        "event_date": "2026-09-29",
+        "key_points": [
+          "比特币可能因财政担忧推动收益率上升而受益，因为投资者可能寻求政府债务替代品；但如果美联储重新收紧导致收益率上升，比特币可能受损。",
+          "一些分析师预计10年期美国国债收益率将达到6%，主要受联邦赤字、债务增长和资本竞争担忧驱动。",
+          "自2023年底以来，10年期收益率已升至5.23%，而比特币同期大约翻倍至86，000美元，显示收益率上升本身并不决定加密货币表现。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "10年期美国国债收益率（10-year Treasury yield）影响美国经济各领域的借贷成本，目前已上升数月；一些分析师现在认为它将升至6%，这一水平上次出现是在2000年。这听起来可能对比特币（bitcoin，BTC）不利，但未必如此。对bitcoin以及黄金（gold）这类没有现金流或内置收益的资产而言，影响取决于收益率上升的驱动因素。",
+          "如果投资者要求更高收益率是因为担心创纪录赤字，而非经济繁荣或联邦储备（Federal Reserve，Fed）加息，那便是对美国（U.S.）政府财政的不信任投票。这是比特币等替代资产的看涨理由；CoinDesk近期一项分析显示，比特币长期与收益率基本不相关。",
+          "10x Research创始人Markus Thielen在周二给客户的报告中表示：“当收益率因美联储收紧而上升时，比特币受损。当收益率因财政和期限溢价（term premium）担忧而上升时，情况反转。”他预测未来几个月10年期收益率将升至6%。原文称，2022年以来的市场行为支持Thielen的看法。",
+          "2022年，10年期收益率上涨一倍多，至3.88%，因联邦储备快速加息，包括多次50个基点和75个基点（basis points）的加息以抗击通胀。比特币当年下跌64%。原文称，美联储收紧和收益率上升加剧了加密骗局和爆雷带来的痛苦。此后情况有所不同。",
+          "自2023年底以来，10年期收益率已上升135个基点（basis points）至5.23%，为2007年以来最高。同期，比特币大约翻倍至86，000美元，即使它已从10月超过126，000美元的纪录回落。Thielen等人将近期收益率上升的很大一部分归因于财政担忧和更高的期限溢价（term premium）。用直白的话说，鉴于通胀和政府借贷的不确定性，投资者希望长期锁定资金能获得更多报酬。",
+          "总部位于芝加哥的Strategic Analytics就黄金提出了类似观点，并指出自2022年以来，黄金追踪财政风险比追踪联邦储备的政策路径更紧密。该公司近期在LinkedIn帖子中表示：“自2022年以来，黄金越来越追踪财政风险感知——期限溢价、赤字、债务可持续性——而非美联储的政策路径。黄金并非无视实际收益率（real yields）。它在定价财政可持续性和货币贬值，这已成为边际驱动因素。”",
+          "对6%的预测主要基于债务担忧和强劲的名义GDP（nominal GDP）增长，即未经通胀调整的增长。Thielen表示：“关键点是，收益率仍远低于名义GDP增长（5.24%对6.56%），也远低于自2020年以来联邦债务约8.5%的年增长，因此债券持有人尚未因名义经济和债务存量扩张的速度获得补偿。”",
+          "Niles Investment Management创始人Dan Niles在CNBC露面时，将6%称为10年期收益率可能的上行水平。他指出，赤字约占GDP的6%，以及超大规模云服务商（hyperscalers）现在直接与财政部在债务市场筹集资金竞争。原文称，政府持续出售债券，为庞大且持续的赤字提供资金，而大型AI科技公司在同一市场筹集巨额资金；对同一资本池的竞争可能推高收益率，并使所有人的借贷更加昂贵。对比特币多头的警告是，如果收益率因美联储再次开始快速加息而攀升，2022年的剧本将适用。"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/markets/2026/09/29/analysts-see-10-year-treasury-yield-hitting-6-bitcoin-bulls-shouldn-t-panic",
+        "published_at": "2026-09-29T10:06:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      }
+    ],
+    "notes": [
+      "统计窗口：2026-09-23 15:27 至 2026-09-30 15:27（北京时间），所选原文均落在窗口内。",
+      "栏目分布：政策风向3篇、行业前沿2篇、市场动态2篇、意见领袖2篇。",
+      "政策风向覆盖美国与欧洲，包含美联储稳定币赎回提案、IRS对加密ETF税收结构的审查、欧洲央行数字欧元创新平台征询。",
+      "行业前沿选取以太坊Glamsterdam升级与韩国股票代币化RWA进展，避免与政策稿重复。",
+      "市场动态选取IPO与预测市场交易量记录；意见领袖选取参议员Tim Scott评论与分析师美债收益率观点。",
+      "未选重复主题：Bitwise NEAR ETF（A010/A030/A047）、Robinhood永续合约（A005/A018）、Balancer清算（A019/A020）、Sentora/Aave（A003/A040）等均只保留同主题中最合适的一篇或整体不选。",
+      "未选短稿或信息密度不足稿：A000、A001、A005、A011、A013、A019、A020、A037、A040、A067等未达优先字数或主题重复。"
+    ]
+  },
+  "factcheck": {
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      "政策风向 3 篇均来自同一地区：美国，建议加入美国或香港以外的正式监管动向",
+      "item 2 contains relative time wording; replace with exact date",
+      "item 6 contains relative time wording; replace with exact date",
+      "item 7 contains question-style future/unknown wording; ensure the source explicitly raises it",
+      "item 7 contains relative time wording; replace with exact date",
+      "item 8 contains relative time wording; replace with exact date"
+    ]
+  },
+  "outputs": {
+    "docx": "reports/2026/加密货币观察_20260930.docx",
+    "manifest": "reports/2026/_manifests/加密货币观察_20260930.json"
+  }
+}
