@@ -1,0 +1,282 @@
+{
+  "generated_at": "2026-10-14T14:41:55+08:00",
+  "period": "2026-10-07 14:41 至 2026-10-14 14:41（北京时间，最近7天）",
+  "raw_count": 66,
+  "collection_warnings": [
+    "no candidates for query: Hong Kong SFC HKMA virtual asset stablecoin tokenised investment product regulation",
+    "no candidates for query: cross chain oracle RWA infrastructure wallet staking rollup interoperability crypto",
+    "no candidates for query: crypto acquisition funding IPO futures CME stablecoin revenue tokenized securities",
+    "no candidates for query: crypto company raises acquires launches futures ETF tokenized fund stablecoin adoption",
+    "no candidates for query: investor analyst CIO says DeFi stablecoin bitcoin crypto market structure",
+    "no candidates for query: site:blockworks.co (crypto OR bitcoin OR ethereum OR stablecoin OR tokenization OR digital assets)"
+  ],
+  "report": {
+    "items": [
+      {
+        "section": "政策风向",
+        "title_cn": "英国法院裁决提高政府保留约38亿英镑被扣押比特币的可能性",
+        "source_title": "UK court ruling boosts government’s chances of keeping $5 billion in seized bitcoin",
+        "event_date": "2026-10-13",
+        "key_points": [
+          "伦敦法院裁定，因基础欺诈完全发生在中国，中国法律而非英国法律管辖中国受害者的财产主张。",
+          "该裁决涉及伦敦大都会警察局在调查Zhimin Qian时扣押的61，000枚比特币（Bitcoin，BTC）。",
+          "裁决未最终决定比特币归属，但缩小了受害者追索路径，并提高了英国财政部最终保留被扣押比特币的可能性。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "伦敦一家法院的裁决增强了英国政府保留大部分被扣押比特币的可能性，这些比特币价值38亿英镑（约50亿美元）。裁决认定，数千名中国欺诈受害者不能依据英国法律来主张这些代币。该裁决涉及伦敦大都会警察局（Metropolitan Police）在调查Zhimin Qian时扣押的61，000枚比特币（Bitcoin，BTC）。",
+          "Zhimin Qian通过其公司Tianjin Lantian Gerui Electronic Technology运营一个大规模庞氏骗局（Ponzi scheme），在2014年至2017年间诈骗了超过128，000名投资者。她将窃取的数十亿资金转换为比特币，并于2017年逃往英国。她已对诈骗中国数千人的指控认罪。",
+          "受害者此前主张应适用英国法律，因为英国法律可能允许他们对这笔数十亿英镑的加密货币财富主张财产权。这笔财富是Zhimin Qian通过庞氏骗局所得并转换为比特币的，该主张针对的是被扣押的61，000枚比特币。",
+          "然而，在周一的判决中，伦敦高等法院的Mark Turner法官站在英国当局一边，裁定由于基础欺诈完全发生在中国，中国法律而非英国法律必须管辖受害者的财产主张。法官认为，相关损害、资金交付和虚假陈述都发生在中国。",
+          "伦敦高等法院的Mark Turner法官在裁决中表示：“相关损害发生在中国。申请人是在中国交出他们的钱。被指控的虚假陈述是在中国作出的。”“由此诱导订立的合同关系是在中国签订的。被指控不当行为的直接经济后果同样是在中国承受的。”该裁决并未最终决定谁保留这些比特币，但它缩小了受害者追回比特币的途径，并提高了英国财政部最终保留被扣押比特币的可能性。",
+          "据《金融时报》（Financial Times，FT）报道，受害者律师正在上诉。英国皇家检察署（Crown Prosecution Service，CPS）表示，将进一步举行听证会，以确定是否有任何受害者能够确立对这些比特币的权益。",
+          "在大西洋彼岸，被扣押的比特币已经作为国家资产负债表的一部分被制度化。美国于2025年3月建立了战略比特币储备（Strategic Bitcoin Reserve），其中包括在执法行动中扣押的BTC和其他代币。没有任何一枚代币是用纳税人的钱购买的。根据Arkham Intelligence的数据，与美国政府相关的地址持有价值258亿美元的加密货币。"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/policy/2026/10/13/u-k-court-ruling-boosts-government-s-chances-of-keeping-gbp3-8-billion-seized-bitcoin",
+        "published_at": "2026-10-13T10:45:00+08:00",
+        "region": "英国、美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "在CLARITY法案停滞之际SEC与CFTC规则制定能否填补空白",
+        "source_title": "Can SEC and CFTC Rulemaking Fill the Gap While the CLARITY Act Stalls?",
+        "event_date": "2026-10-13",
+        "key_points": [
+          "参议院9月15日就CLARITY Act举行终结辩论投票（cloture vote）后两天内，SEC授予某些代币化股票链上交易的五年期豁免；9月17日，CFTC为被动软件提供商发布不采取行动救济（no-action relief），并将一项加密市场规则制定送交白宫审查。",
+          "文章称，未来18个月或更长时间，美国数字资产政策很可能主要在机构案卷中写就；机构规则长期分量低于国会通过的法律，这一落差塑造后续一切。",
+          "文章称，四项程序承载大部分分量：Regulation Crypto Assets、创新豁免下的首批交易场所、一旦通过白宫审查的CFTC规则制定，以及SEC预期中的托管提案。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "参议院9月15日就CLARITY Act举行终结辩论投票（cloture vote）后两天内，SEC授予某些代币化股票链上交易的五年期豁免。9月17日，CFTC为被动软件提供商发布不采取行动救济（no-action relief），并将一项加密市场规则制定送交白宫审查。文章称，未来18个月或更长时间，美国数字资产政策很可能主要在机构案卷中写就。",
+          "文章称，重心已经转移，这种速度表明两家机构都为这一结果做好了准备。SEC主席Paul Atkins表示，其机构将在法定权限内“无论有无立法”都会行动；CFTC主席Michael Selig则称CFTC“已锁定目标并准备好发布”其规则。文章指出，准备与持久性是两回事：机构规则长期分量低于国会通过的法律，这一落差塑造了后续一切。",
+          "Binance全球政策负责人Steven McWhirter表示：“短期内，注意力不可避免地将转向SEC与CFTC，那里已有重大数字资产规则制定在进行。行业如今有责任建设性参与，帮助确保这些规则可行、技术中立，并能支持日益全球化和7×24小时的市场。”",
+          "文章称，这些标准转化为对任何提案的实际检验：规则是否假定交易在下午4点停止？是否偏向某一种技术栈？是否把客户群当作只位于单一司法管辖区？第一个正式提出这些问题的机会很快到来：SEC拟议的Regulation Crypto Assets评论期于10月20日结束。",
+          "文章称，SEC的工具箱在旧制度最薄弱之处最强：界定代币销售何时构成证券发行、何时不再是。基础工作始于3月17日，当时SEC与CFTC发布联合解释性指引，将数字商品和收藏品以及工具和稳定币一般置于证券定义之外；该指引还确认，代币化证券仍是证券。",
+          "8月18日提出的Regulation Crypto Assets在这一框架上构建，包括四年内500万美元的初创企业豁免，以及任何12个月期间最高7500万美元的融资豁免，并就涵盖的投资合同何时不再存在设定安全港（safe harbor）。文章称，一项涵盖加密资产的托管现代化提案预计接下来提出。",
+          "创新豁免（Innovation Exemption）按设计更窄。文章称，在实际操作中，这意味着交易场所必须在交易第三方股票代币化版本前向发行人发出书面通知并给予其反对机会；交易量上限为标普500和罗素1000成分股上一个月日均股票成交量的0.25%，其他合格股票为2.5%。文章称，如此紧的上限使该豁免成为受控试验场，显示SEC在过渡中内建谨慎。",
+          "CLARITY Act的核心承诺是为CFTC提供新的现货市场权限，而任何规则制定都无法提供这一点。文章称，没有该法案，该机构对现货加密交易的触及范围仍主要局限于欺诈和操纵案件，以及建立在这些市场之上的衍生品。在这些限制内，该机构正在建设：工作人员函件26-25（Staff Letter 26-25）允许符合条件的被动软件提供商将用户连接到注册衍生品市场，而无需注册为介绍经纪商（introducing brokers），前提是它们不托管资产也不对订单行使自由裁量权。",
+          "更大的项目是一项列为RIN 3038-AF80的规则制定。文章称其文本尚未公开，但Davis Wright Tremaine将其解读为针对加密资产的新交易所类别以及杠杆、保证金交易；白宫审查可能需要长达90天，该律所预计最终有约束力的规则不会早于2027年末出台。文章还称，工作人员救济有用但也脆弱：委员会可自行决定修改或撤回不采取行动立场，这使其对发布软件可行，但作为长期融资基础要弱得多。",
+          "文章称，没有成文法而写就的规则赢得更快，也更容易失去。JPMorgan分析师在9月16日的报告中指出（由The Block报道），机构规则不如立法持久，因为未来政府可以改变它们，法院也可以推翻它们。在最高法院2024年6月28日Loper Bright裁决终结谢弗龙遵从（Chevron deference）之后，这种风险敞口加大：机构对含糊法条的解读在联邦法院不再获得推定遵从，使宽泛的加密规则面临挑战。",
+          "不过，Davis Wright Tremaine认为，依据《行政程序法》（Administrative Procedure Act）经过通知和评论后通过的规则很难被撤销，尤其当企业已围绕这些规则建立产品之后。文章称，规则越容易受到挑战或推翻，其行政记录就越重要；评论文件如今位于持久性问题的中心，并提高了行业参与每一个开放案卷的利害关系。",
+          "文章称，四项程序如今承载大部分分量：Regulation Crypto Assets、创新豁免下的首批交易场所、一旦通过白宫审查的CFTC规则制定，以及SEC预期中的托管提案；它们能确定什么、又给未来国会留下什么，将在很大程度上取决于谁参与塑造。文章称，市场结构辩论如今通过评论文件进行。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/sec-cftc-rulemaking-clarity-act-stalls/",
+        "published_at": "2026-10-13T08:42:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "韩国为法院扣押并出售比特币偿还未偿债务扫清道路11月新规",
+        "source_title": "South Korea clears way for courts to seize and sell Bitcoin for unpaid debts under new November rules",
+        "event_date": "2026-10-12",
+        "key_points": [
+          "韩国已敲定新规则，允许法院冻结、扣押并出售比特币和其他加密货币，以追回未偿债务。",
+          "法院可以在通知债务人之前下令转移直接持有的加密货币，可能防止资产被转移到债权人无法触及之处。",
+          "规则于11月1日生效，但当债务人控制私钥时，获取自我托管资产可能仍然困难。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "韩国最高法院于10月12日颁布第3280号规则（Rule 3280），为法院冻结、转移和清算数字资产以追回未偿债务建立标准化程序。该规则于11月1日生效，涵盖存放在交易所和私人钱包中的加密货币。韩国已建立相关程序，使法院能够扣押并出售债务人的加密货币，以满足民事索赔。这些规定出台之际，加密货币持有正越来越多地出现在韩国的债务追偿程序中。",
+          "其中一项条款允许法院官员在债务人收到扣押令的正式通知之前，先行占有直接持有的加密货币，这可能限制债务人将资产转移至债权人无法触及之处的能力。这些变化促使当局为那些无需依赖传统金融中介即可快速转移的资产建立一致程序。",
+          "根据该框架，寻求从交易所持有的加密货币中获得偿还的债权人，可以取得法院命令，扣押债务人收取这些资产的权利。一旦扣押令送达，交易所或其他托管人必须阻止将所涉资产转移给债务人，债务人也禁止处置该债权或接收该加密货币。债权人还可以请求法院强制托管人在收到命令后一周内披露目标持仓信息。所需信息包括托管人是否承认债务人的债权、所持加密货币的类型和数量，以及其他债权人是否对该资产拥有现有债权或优先权。当债权人通过规定的法院程序提出请求时，该披露义务适用，使其能够识别可用于偿还的资产以及潜在的竞争性债权。",
+          "对于债务人直接持有的加密货币，法院可以禁止转账，并命令将资产交付给执行官员。规则允许该转移在扣押令正式送达债务人之前进行。如果执行官员先行收到加密货币，扣押在收到时即生效。然而，当债务人控制着授权转移所需的私钥时，对自我托管资产的执行可能仍然困难。",
+          "一旦债权人扣押了加密货币，他们可以寻求额外的法院命令以收回其价值。法官可以授权按法院确定的估值将资产转移给债权人，或指示执行官员通过虚拟资产服务提供商安排出售。对于交易所持有的加密货币，规则还允许通过现有托管人出售、转移到执行官员控制的账户，或转换为更容易清算的资产。",
+          "出售必须使用交易日的现行市场价格或其他适当估值，为价格在执行程序中可能剧烈波动的资产引入了明确的流程。债务人保留对授权资产转移或出售的决定提出上诉的能力，这些决定只有在最终生效后才执行。规则还建立了在强制执行被撤回或取消时恢复资产的程序。",
+          "最高法院表示，这些修正案旨在提高法律确定性和一致性，因为法院处理越来越多的与加密货币相关的执行案件。11月1日的实施还将涵盖已经在法院审理中的程序，现有的扣押和保全命令仍然有效。处理这些案件的交易所和其他托管人，将需要在规则生效后适用新的披露、转移和出售程序。"
+        ],
+        "source_name": "CryptoSlate",
+        "url": "https://cryptoslate.com/south-korea-clears-way-for-courts-to-seize-and-sell-bitcoin-for-unpaid-debts-under-new-november-rules/",
+        "published_at": "2026-10-13T17:40:00+08:00",
+        "region": "韩国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "Solana将Alpenglow升级定于10月21日目标150毫秒最终性",
+        "source_title": "Solana sets Oct. 21 for Alpenglow upgrade targeting 150-millisecond finality",
+        "event_date": "2026-10-21",
+        "key_points": [
+          "Solana 已将 Alpenglow 升级定于 10 月 21 日，目标是让交易最终性（finality）在大约 150 毫秒内完成，但实际表现取决于网络状况。",
+          "Alpenglow 将替换 TowerBFT，并把验证者投票移出链上，这可能大幅降低 Solana 报告的交易计数，即使用户活动没有下降。",
+          "验证者必须使用基于 Agave 4.3.0 构建的软件，而 Firedancer 和 Frankendancer 的运营者需要临时切换软件。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Solana 已将 Alpenglow 升级定于 10 月 21 日，该升级的目标是让交易在大约 150 毫秒内变得不可逆转，方式是改变运行网络的计算设备就支付达成一致的方式。Solana 基金会公布的最新时间表，为替换 TowerBFT 设定了日期。TowerBFT 是 Solana 自 2020 年上线以来一直使用的投票系统。150 毫秒这一数字仍是一个目标，实际表现取决于网络状况。",
+          "这一点之所以重要，是因为一笔 Solana 支付如今已经可以几乎立即显示成功。但 Alpenglow 的目标是提供一种更强的保证，即这笔支付几乎同样迅速地无法被撤销。等待这一保证才接受付款的商户，或者在另一条区块链上释放资金之前等待这一保证的跨链桥，都可以更早采取行动。",
+          "截至文章发布时，验证者（validator）——也就是检查交易并帮助维护 Solana 安全的计算机——是以记录在区块链上的交易形式提交投票的。Alpenglow 将让它们直接交换投票，并把足够多的批准合并成一份证书，在一到两轮投票之后最终确认一个区块。",
+          "但这在激活当天可能产生一个奇特的结果。Solana 的交易计数可能大幅下降，因为验证者投票从区块中消失，即便人们仍按此前速度进行交易和支付。即使用户活动保持不变，标题上的交易数量也可能发生剧烈变化，而这并不反映用户活动的下降。",
+          "验证者还必须为这次切换做好准备：运营者需要基于 Agave 4.3.0 构建的软件。Firedancer 和 Frankendancer 是用于运行验证者的替代程序，它们不会支持最初的迁移，因此其运营者需要临时切换。",
+          "移除投票交易也改变了验证者支付的费用。验证者目前每个时段（epoch）大约 1 SOL 的投票费用将会消失，取而代之的是 0.8 SOL 的固定准入费。时段是 Solana 为验证者分配网络职责的一段时期。这一收费结构的变化，与投票交易不再出现在区块中有关。",
+          "这次迁移计划在时段 1064 进行，预计于 10 月 21 日 15：00 UTC 左右开始。Solana 将在最初的 5，000 个插槽（slot）——也就是分配用于区块生产的短暂窗口——继续使用旧的投票系统，并在大约 18 分钟之后切换到 Alpenglow。相关阅读：Solana 的 150 毫秒结算升级进入第二个公共测试网。"
+        ],
+        "source_name": "coindesk",
+        "url": "https://www.coindesk.com/tech/2026/10/14/solana-sets-oct-21-for-alpenglow-upgrade-targeting-150-millisecond-finality",
+        "published_at": "2026-10-14T05:28:00+08:00",
+        "region": "其他",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "DRW与Marex完成参照代币化S&PiBoxx指数的场外互换",
+        "source_title": "DRW and Marex complete OTC swap referencing tokenized S&P iBoxx Index",
+        "event_date": "2026-10-13",
+        "key_points": [
+          "交易公司 DRW 与 Marex 完成一笔交易，S&P Dow Jones Indices 与 Kaiko 将其形容为在区块链基础设施上、参照完全代币化指数的首笔场外（OTC，Over-the-Counter）衍生品。",
+          "该交易是一笔总收益互换，在 Canton Network 上 Derivnex 的平台执行，参照 S&P 的 iBoxx USD Liquid Investment Grade Index，Kaiko 代币化该基准并提供官方指数值以支持持续估值。",
+          "据 S&P DJI 的说法，这笔交易说明区块链基础设施可以如何把基准数据、授权与衍生品管理连接起来，并有可能简化传统上碎片化的机构交易工作流。"
+        ],
+        "lead_cn": "S&P Dow Jones Indices 表示，这笔交易显示区块链轨道如何能把基准数据、授权与衍生品管理连接在同一工作流中。",
+        "body_paragraphs": [
+          "交易公司 DRW 与 Marex 已经完成一笔交易，S&P Dow Jones Indices 与 Kaiko 将其形容为在区块链基础设施上、参照完全代币化（tokenization）指数的首笔场外（OTC，Over-the-Counter）衍生品。按照 S&P Dow Jones Indices 与 Kaiko 的说法，这是一笔以完全代币化指数为参照、在区块链基础设施上完成的场外衍生品交易。",
+          "该交易是一笔总收益互换（total return swap），在 Canton Network 上 Derivnex 的平台执行。这笔互换所参照的，是 S&P 的 iBoxx USD Liquid Investment Grade Index。这笔交易被界定为参照完全代币化指数的首笔场外衍生品，执行场所是 Derivnex 在 Canton Network 上的平台。",
+          "Kaiko 对该基准进行了代币化，并提供官方指数值，以支持这项交易的持续估值。这笔互换在存续期间的估值，依托于 Kaiko 提供的官方指数值。",
+          "根据 S&P DJI 的说法，这笔交易说明区块链基础设施可以如何把基准数据、授权与衍生品管理连接起来，并有可能简化传统上碎片化的机构交易工作流。按 S&P DJI 的表述，区块链基础设施在基准数据、授权与衍生品管理之间建立起连接，并可能简化此前碎片化的机构交易流程。",
+          "S&P DJI 首席产品运营官 Cameron Drinkwater 表示：“将旗舰指数与经由 Kaiko 实现的受控数字分发相结合，把我们的信用业务延伸至链上金融，并建立在 iBoxx 基准二十余年的流动性、透明度与可交易性之上，同时保留可信的严谨性与治理。”",
+          "Canton 为 Derivnex 提供共享基础设施，使交易对手方能够协调交易工作流，同时保持机密性。Derivnex 首席执行官 George Harrington 表示，该平台为交易对手方提供了一个从确认（affirmation）到完整生命周期的交易的共同数字表示。",
+          "去年 12 月，存托信托与清算公司（DTCC）允许参与方把 DTC 持有的美国国债转换为区块链代币，作为使用 ComposerX 与 Canton Network 的 2026 年试点的一部分。此外，Canton 已处理每日超过 3500 亿美元的美国国债回购交易量。",
+          "这笔交易发生之际，传统金融数据提供商正在向代币化市场扩展。S&P Global 最近领投了对 Kaiko 的战略投资，使这家加密数据提供商的 B 轮融资规模扩大至 1.1 亿美元。"
+        ],
+        "source_name": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-10-13-drw-marex-first-otc-swap-tokenized-sp-iboxx-index-canton-network-418440",
+        "published_at": "2026-10-13T15:46:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "Metaplanet推出3.8亿美元股份回购计划股价较峰值下跌近90%",
+        "source_title": "Metaplanet unveils $380 million share buyback after stock crashes nearly 90% from peak",
+        "event_date": "2026-10-13",
+        "key_points": [
+          "Metaplanet公布一项3.8亿美元的股份回购计划，并配套3.29亿美元的可转换债券发行，以重组其财务结构。",
+          "该融资将在不出售比特币的情况下减少比特币抵押贷款，同时回购可能改善投资者的每股比特币敞口。",
+          "公司首席执行官Simon Gerovich的5500万股出借安排可能带来抛压，抵消回购带来的需求。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Metaplanet公布一项规模3.8亿美元的股份回购计划，并配套3.29亿美元的可转换债券发行，以重组其财务结构。公司计划筹集3.29亿美元，用于为比特币抵押贷款再融资并为股份回购提供资金，此前其股价已较峰值下跌90%。相关安排于10月13日宣布。该融资将在不出售比特币（Bitcoin，BTC）的情况下减少比特币抵押贷款，而回购可能改善投资者的每股比特币敞口。此外，公司首席执行官Simon Gerovich的5500万股出借安排可能带来抛压，抵消回购带来的需求。",
+          "Metaplanet计划发行520亿日元（约3.29亿美元）的无担保、零息欧洲日元可转换债券（Euro-yen convertible bonds），2031年到期。该发行预计于10月29日完成，主要面向欧洲和亚洲的投资者，债券计划在新加坡交易所上市。这笔融资将使Metaplanet得以用无需定期支付利息的借款，替换其部分带息、以比特币作为抵押的债务。公司预计这一重组将释放被质押的比特币、降低融资成本并提升财务灵活性，同时无需出售其加密货币持仓。",
+          "Metaplanet的再融资正值其对比特币抵押借款的依赖超过公司内部风险限额。截至9月30日，该公司在一项以其比特币持仓作为担保的8亿美元信贷额度下，约有6.495亿美元尚未偿还。这一数额相当于其比特币储备净资产价值的17.7%，远高于管理层将这一比率保持在10%以下的指引。Metaplanet在9月底持有44，000枚BTC。公司承认，比特币价格进一步下跌可能因降低其加密货币持仓价值而推高借款比率。",
+          "为应对这一敞口，公司计划将约236亿日元（约1.49亿美元）的新债募集资金用于在11月偿还部分未偿贷款。该还款将把上述信贷额度下的借款降至约5.005亿美元。基于9月报告的资产价值，在假设比特币价值及其他条件不变的情况下，这将使借款比率降至约13.6%。不过，这仍将使Metaplanet高于其偏好的杠杆门槛，意味着公司仍暴露于比特币价格进一步下跌的风险。",
+          "Metaplanet承认，用可转换债券替换现有比特币抵押贷款不会立即降低其负债总额，尽管此举会降低利息支出以及对质押担保品的依赖。新债券虽然于2031年到期，但投资者可在三年后要求偿还，这可能迫使公司比既定到期时间更早进行再融资。此外，若投资者将债券转换为股权，这些债券也可能稀释现有股东权益。Metaplanet打算将转换价格设定在发行时对应于市值对净资产价值比率（market-to-net-asset-value ratio，mNAV）为1的股价之上，但公司尚未确定最终的转换条款。",
+          "除债务重组外，Metaplanet还计划将最多283亿日元（约1.79亿美元）的募集资金用于股份回购，作为新授权的600亿日元（约3.8亿美元）回购计划的一部分。公司同时终止了此前于2025年10月设立的750亿日元（约4.75亿美元）回购授权，在该授权下公司未回购任何股份。新计划允许Metaplanet在2026年10月14日至2027年10月13日期间回购最多2亿股普通股，约占其已发行股份的14.7%。",
+          "公司计划于10月14日通过东京证券交易所（Tokyo Stock Exchange）的ToSTNeT-3场外拍卖交易系统启动该计划，目标为最多9，690万股、金额约253亿日元（约1.6亿美元）。若完全执行，这一计划交易可能使公司已发行股份数量减少约7.1%，但最终规模将取决于可供出售的股份数量。",
+          "此次重启回购之际，Metaplanet股价长期下跌，比特币的疲弱表现拖累了投资者对加密货币储备公司的情绪。Metaplanet股价今年下跌约36%，10月13日收于261日元。该股较2025年6月1，930日元的峰值已下跌近90%。作为对比，全球最大的公开上市企业比特币持有者Strategy今年上涨约1%，尽管加密货币市场存在波动。这一表现差异凸显出Metaplanet在推进比特币积累策略的同时维持投资者对其股票需求所面临的挑战。其估值下滑也使其在不稀释现有股东的情况下通过普通股筹集资金的能力变得更复杂。",
+          "根据其修订后的资本配置政策，当Metaplanet的mNAV低于1时，公司通常避免发行普通股。该指标将公司的企业价值与其比特币持仓的净资产价值进行比较。在该门槛以下发行股份可能降低现有股东的每股比特币敞口。回购可通过减少已发行股份改善这一指标，但收益将取决于执行价格以及任何后续的股权发行。",
+          "不过，回购计划存在一个潜在的对冲因素。Metaplanet首席执行官Simon Gerovich已同意通过其全资拥有的Gerovich Family Holdings Limited出借最多5，500万股个人持有的股份，以支持与可转换债券相关的对冲活动。该安排的年出借费率为0.75%，将允许投资者借入并可能卖出Metaplanet股份以对冲其敞口，从而可能在公司回购自身股票的同时制造抛压，尽管最终被借入或卖出的股份数量仍不确定。"
+        ],
+        "source_name": "CryptoSlate",
+        "url": "https://cryptoslate.com/metaplanet-unveils-380-million-share-buyback-after-stock-crashes-nearly-90-from-peak/",
+        "published_at": "2026-10-14T01:00:00+08:00",
+        "region": "日本",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "渣打银行将在迪拜托管Ripple的RLUSD稳定币并让客户在不转移代币的情况下交易",
+        "source_title": "Standard Chartered Will Hold Ripple's Stablecoin in Dubai—And Let Clients Trade With It Without Moving It",
+        "event_date": "-",
+        "key_points": [
+          "渣打银行迪拜国际金融中心（DIFC）分行现为 XRP Ledger 上发行的 Ripple USD（RLUSD）提供机构托管，该分行受迪拜金融服务管理局（DFSA）监管。",
+          "渣打银行参与与 LMAX Group 的计划整合，拟通过抵押品镜像（collateral mirroring）让 RLUSD 成为约定 LMAX 产品上的合格抵押品，代币留在银行而 LMAX 获得价值镜像记录。",
+          "RLUSD 市值约 24.5 亿美元，不到约 3060 亿美元稳定币市场的 1%；与 LMAX 相关的部分尚未上线，仍待最终文件、测试和监管批准，银行未给出客户使用 RLUSD 作为保证金的日期。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "渣打银行周一宣布，其迪拜国际金融中心（Dubai International Financial Centre，DIFC）分行现在为在 XRP Ledger（XRP Ledger，XRPL）上发行的 Ripple USD（Ripple USD，RLUSD）提供机构托管，使合格客户可以使用该银行的数字资产托管基础设施。该服务通过渣打银行 DIFC 分行提供，该分行受迪拜金融服务管理局（Dubai Financial Services Authority，DFSA）监管。这家英国银行表示，它将为迪拜的机构客户持有 Ripple 的美元挂钩稳定币，并希望让他们使用这些代币交易，而不必将代币交给交易所。",
+          "托管是金融中不起眼的管道：受监管机构将你的资产保存在其金库中，并在出问题时负责。机构对托管中的资产负有法律责任，并会回应客户，但同时会获得许可，在资产处于托管期间监督、冻结和控制这些资金。",
+          "RLUSD 是一种稳定币（stablecoin），一种旨在始终价值 1 美元的加密代币，因为它由美元、美国政府债券和现金等价物支持。Ripple 于 2024 年 12 月在以太坊和 XRP Ledger 上推出 RLUSD；XRP Ledger 是一条与 Ripple 密切相关的公共区块链，而渣打银行的服务覆盖 XRP Ledger 版本。",
+          "渣打银行还加入与 LMAX Group 的计划整合。LMAX Group 是一家总部位于伦敦的货币和加密市场。该整合旨在使 RLUSD 成为约定 LMAX 产品上的合格抵押品。抵押品，或称保证金，是交易者存放在交易场所、作为对潜在损失的安全保证金的钱。",
+          "在渣打银行所称的抵押品镜像（collateral mirroring）下，RLUSD 将留在该银行，而 LMAX 收到其价值的镜像记录，该记录计入客户的交易。这些代币从不前往交易所。在镜像机制下，若交易所发生爆雷，交易者的抵押品仍留在渣打银行。渣打银行是金融稳定委员会（Financial Stability Board，FSB）认为太大不能倒的 29 家银行之一，并受更严格资本规则约束。",
+          "渣打银行证券服务部门数字资产负责人 Waqar Chaudry 表示：“机构客户想参与数字资产市场，而不在资产保障方式上妥协。”渣打银行自 2024 年起在迪拜提供加密托管。在 7 月，该行表示其成为首家全球系统重要性银行（global systemically important bank），让机构直接铸造和赎回 Circle 的 USDC。",
+          "RLUSD 于 2025 年 6 月获得迪拜监管机构的批准。RLUSD 市值已增长到约 24.5 亿美元，仍不到约 3060 亿美元稳定币市场的 1%。与 LMAX 相关的部分尚未上线。银行表示，它仍受最终文件、测试和监管批准约束，并未给出客户何时能将 RLUSD 作为保证金提交的日期。"
+        ],
+        "source_name": "Decrypt",
+        "url": "https://decrypt.co/380776/standard-chartered-hold-ripple-rlusd-stablecoin-dubai",
+        "published_at": "2026-10-12T22:16:00+08:00",
+        "region": "迪拜",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "Bitwise的Hougan称三季度图表指向“加密之春”",
+        "source_title": "Bitwise’s Hougan says Q3 charts point to ‘crypto spring’",
+        "event_date": "2026-10-14",
+        "key_points": [
+          "Bitwise首席投资官（chief investment officer，CIO）Matt Hougan称，第三季度可能是“加密历史上最好的季度之一”，价格大幅反弹与链上市场增长指向“加密之春”（crypto spring）的开始。",
+          "Bitwise季度市场回顾显示，其大型加密货币指数（large-cap crypto index）季度上涨46.4%，美国现货比特币交易所交易基金（ETF）流入60亿美元，使年初至今净流量回到正值区间。",
+          "Bitwise数据还显示，代币化股票（tokenized equities）价值上涨65.5%至近32亿美元，去中心化永续期货（decentralized perpetual futures）未平仓合约（open interest）达到接近260亿美元的新纪录；同期Riot Platforms、Hut 8和Galaxy Digital股价下跌。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Bitwise首席投资官（chief investment officer，CIO）Matt Hougan表示，第三季度可能是“加密历史上最好的季度之一”，并认为加密货币价格大幅反弹与链上市场增长，指向“加密之春”（crypto spring）的开始。Bitwise在周四发布的季度市场回顾中报告，其大型加密货币指数（large-cap crypto index）季度上涨46.4%，美国现货比特币交易所交易基金（ETF）流入60亿美元，使年初至今净流量回到正值区间。",
+          "增长不仅限于加密货币价格。Bitwise报告称，代币化股票（tokenized equities）价值上涨65.5%至近32亿美元，去中心化永续期货（decentralized perpetual futures）未平仓合约（open interest）达到接近260亿美元的新纪录，其中越来越大的份额与股票、大宗商品、外汇和Pre-IPO股票相关。Hougan写道：“一页又一页又一页，全都一样：图表最近的部分正在急剧向上。”",
+          "他补充说：“如果你在寻找加密之春的开始，这正是你想看到的。”文章提到，加密货币分析师一直在争论市场低迷是否终于结束。CryptoQuant在9月表示，技术与链上指标确认了新的比特币牛市；Bitget首席分析师Ryan Lee对Cointelegraph表示，还需要更多指标来确认周期底部。Hougan指出，ETF流量与链上活动是潜在复苏的额外迹象。",
+          "在大型市值资产中，Bitwise数据显示，比特币（BTC）第三季度上涨42.3%，以太坊（ETH）和Solana（SOL）分别上涨69.1%和59.2%。该公司大型加密货币指数的全部10个成分资产都录得两位数季度涨幅，其中Chainlink（LINK）表现最高，上涨97.6%。Hougan说：“三个月前，加密货币处于绝望深处。价格、链上活动、ETF流量——一切都在下降。”",
+          "不过，反弹并未延伸到行业每个角落。根据Bitwise，比特币矿企Riot Platforms和Hut 8的股价第三季度分别下跌26.4%和25.4%，Galaxy Digital下跌16.8%。当季持有比特币的上市公司数量下降近6%至173家，尽管其合计持有量增长0.5%；持有以太坊的上市公司数量从40家降至35家，即使其合计持有量增加。",
+          "与此同时，尽管季度涨幅强劲，Bitwise的大型加密货币指数截至9月全年仍下跌6.2%。展望未来，Bitwise表示，预计美国证券交易委员会（SEC）的创新豁免（innovation exemption）将吸引数十亿美元更多的代币化资产（tokenized assets）进入区块链。该公司称：“我们认为第四季度将使代币化从试点走向生产。我们预计该豁免将把数十亿美元更多的代币化资产拉到以太坊、Solana、NEAR等区块链上。”",
+          "与此同时，Bitwise预计，在不断增长的永续期货市场今年迄今交易额超过6万亿美元后，该市场将加速。文章称，Hyperliquid和Lighter等场所今年迄今交易额超过6万亿美元，较去年同期增长42%。Bitwise表示：“随着本季度预计获得监管支持，我们预计随着美国投资者开始到来，不断增长的永续合约市场（perp market）将加速。”"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/markets/bitwises-hougan-says-q3-charts-point-to-crypto-spring",
+        "published_at": "2026-10-13T01:01:00+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "币安VIP与机构业务负责人CatherineChen对冲基金正积极探索加密场所套利机会",
+        "source_title": "Binance VIP head says hedge funds are actively exploring arbitrage opportunities on crypto venues",
+        "event_date": "2026-10-13",
+        "key_points": [
+          "币安（Binance）VIP与机构业务负责人Catherine Chen表示，更多传统对冲基金正寻求在加密平台交易或追求套利机会。",
+          "她把这类机会更具相关性的实际原因归结为深度改善，以及24/7交易与周末价格发现。",
+          "她引用的数据显示，现金股票类资产管理规模从约8亿至9亿美元增至14亿美元，传统金融永续合约交易量升至每30天约4000亿美元。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "币安（Binance）VIP与机构业务负责人Catherine Chen表示，更多传统对冲基金正寻求在加密平台交易或追求套利机会。她在Token2049期间接受The Block采访时作出上述表述，并称传统对冲基金正更积极地询问在加密平台交易的事宜，其动因是套利机会与全天候流动性。",
+          "她称，此前只是感到好奇的基金，如今因加密场所上与传统金融（Traditional Finance，TradFi）工具相关的套利而“积极”表现出更大兴趣，这类工具包括现金股票（cash equities）与永续合约（perpetual futures）。Catherine Chen把这类机会变得更具相关性的实际原因归结为深度改善，以及24/7交易与周末价格发现。",
+          "她还提到，当同样的工具在二线、三线或去中心化金融（Decentralized Finance，DeFi）场所提供时，流动性往往不足以满足对冲基金的需要。尽管如此，这位币安高管形容当前的参与仍处于早期阶段，并表示她不预期资金流会一夜之间激增。她说：“很多时候，一旦我们开始看到这些线索，这就是我会真正关注未来12到18个月动向的时候。我认为那相当令人兴奋。”",
+          "Catherine Chen表示，市场另一端也在发生同类变化：她的加密原生客户正在纳入更多与TradFi产品相关的工具，以构建混合投资组合（hybrid portfolios）。她说：“尽管他们在TradFi中可能不太活跃，但他们仍觉得这是可以跨越的事情，并开始变得更加活跃。”",
+          "她在采访中引用的交易量数据显示，TradFi工具在币安上的增长迅速，但相对于成熟的传统市场仍然有限。据Catherine Chen所述，现金股票类资产管理规模（Assets Under Management，AUM）从大约8亿至9亿美元增至14亿美元；TradFi永续合约交易量从今年年初上线时每月约200亿至300亿美元，升至每30天约4000亿美元。",
+          "Catherine Chen指出，代币化（tokenization）与跨资产交易（cross-asset trading）仍处于早期阶段，交易者与机构之间尚无单一标准。她提出，监管清晰度将比任何单个场所的产品组合更能决定传统交易与加密原生交易最终如何融合。她补充说：“一旦监管者拿出一个黄金框架，事情就会各就各位。”"
+        ],
+        "source_name": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-10-13-binance-vip-head-hedge-funds-exploring-arbitrage-418389",
+        "published_at": "2026-10-13T14:42:00+08:00",
+        "region": "其他",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      }
+    ],
+    "notes": [
+      "统计窗口：2026-10-07 14:41 至 2026-10-14 14:41（北京时间），全部候选发布时间均在窗口内。",
+      "政策风向覆盖美（A061 SEC/CFTC规则制定）、英（A059 伦敦高等法院裁定）、韩（A033 大法院扣押加密资产新规）三地，满足“至少一篇美国、地区分散”的要求。",
+      "主动排除重复主题：A031与A059同为英国法院就钱志敏案61,000枚BTC的裁定，取信息更全的A059；A058/A055与A006同属财库公司融资回购主题，取篇幅最完整的A006；A000与A065同为渣打相关，取机构托管进展的A065；Ledger/Trezor供应链安全系列（A008/A009/A015/A027/A034/A039）题材高度重合且未选入。",
+      "排除项：A007为SEO式“十大流动性池”榜单、A025为科普型指南、A063为作者页、A044为预测市场行情页、A017/A018为Chainwire新闻稿、A056正文为付费墙截断，A011/A013/A020/A046与加密关联弱或非本刊选题范围，均不予采用。",
+      "意见领袖两篇均含明确人物表态（Hougan“认为”、Catherine Chen“指出”），可直接写出引述句。",
+      "所有入选原文 article_char_count 均不低于3,700字符（除A065为3,828），满足事实密度要求；所有来源均为英文，无中文来源与搜索引擎包装页。"
+    ]
+  },
+  "factcheck": {
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      "item 2 contains question-style future/unknown wording; ensure the source explicitly raises it",
+      "item 5 contains relative time wording; replace with exact date",
+      "item 6 contains relative time wording; replace with exact date",
+      "item 8 contains relative time wording; replace with exact date",
+      "item 9 contains relative time wording; replace with exact date"
+    ]
+  },
+  "outputs": {
+    "docx": "reports/2026/加密货币观察_20261014.docx",
+    "manifest": "reports/2026/_manifests/加密货币观察_20261014.json"
+  }
+}
