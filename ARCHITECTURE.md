@@ -79,8 +79,8 @@
 
 `.github/workflows/weekly-crypto-observer.yml`：
 
-- 每周三北京时间 09:43、11:53、13:07、14:23 错峰尝试，降低 GitHub 定时任务延迟或漏触发造成的影响。
-- 每次定时运行先同步 `main`，校验当天 DOCX 的 Word 文件结构和 manifest 的 fact check；已有有效产物时直接跳过。
+- 每周三北京时间 07:17、09:43、11:53、13:07、14:23 错峰尝试，16:43 再恢复尝试，降低 GitHub 定时任务延迟或漏触发造成的影响。
+- 每次运行先同步 `main`，校验当天 DOCX 的 Word 文件结构和 manifest 的 fact check；已有有效产物时直接跳过生成并重试导入，手动 `force=true` 可重新生成。
 - 并发队列确保同一时间只运行一个生成任务，避免多个延迟触发并行覆盖同一天的报告。
 - 提交步骤只暂存当期文件，随后从远端 `main` 再次验证；artifact 上传失败不会阻断报告提交。
 - 支持手动 `workflow_dispatch`。
