@@ -1,0 +1,284 @@
+{
+  "generated_at": "2026-11-04T18:03:09+08:00",
+  "period": "2026-10-28 18:03 至 2026-11-04 18:03（北京时间，最近7天）",
+  "raw_count": 137,
+  "collection_warnings": [
+    "collection stages: discovered=1030, deduplicated=926, body_attempted=170, verified=137; sources={'publisher:CoinDesk': 21, 'publisher:Cointelegraph': 23, 'publisher:Decrypt': 20, 'publisher:CryptoSlate': 10, 'publisher:The Defiant': 50, 'publisher:Ledger Insights': 1, 'publisher:FinanceFeeds': 19, 'Bing News': 28, 'GDELT': 0, 'Google News': 858}",
+    "no candidates for query: Ethereum Solana Chainlink protocol upgrade mainnet tokenization blockchain infrastructure",
+    "no candidates for query: crypto acquisition funding IPO futures CME stablecoin revenue tokenized securities",
+    "no candidates for query: investor analyst CIO says DeFi stablecoin bitcoin crypto market structure"
+  ],
+  "report": {
+    "items": [
+      {
+        "section": "政策风向",
+        "title_cn": "CFTC批准股票永续期货在美国交易所交易",
+        "source_title": "CFTC clears stock perpetual futures for trading on US exchanges",
+        "event_date": "2026-11-03",
+        "key_points": [
+          "CFTC表示，与个股挂钩的永续期货合约可以首次在受监管的美国交易所开始交易，这些合约根据CFTC Regulation 40.3被视为获得批准。",
+          "CFTC主席Michael Selig表示，这将让美国交易者在美国监管保障下获得永续期货，而不是“被迫转向离岸、且往往不受监管的场所”。",
+          "Capital Markets Alliance（成员包括Cboe、Citadel Securities和Healthy Markets）在周二下午提起诉讼，寻求推翻该批准。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "美国监管机构正在为股票永续期货打开大门。据美国商品期货交易委员会（Commodity Futures Trading Commission，CFTC）表示，与个股挂钩的永续期货合约可以首次在受监管的美国交易所开始交易，从而将一种在加密货币市场得到普及的衍生品产品延伸至传统股票市场。这一进展伴随着持续的法律争议。",
+          "CFTC主席Michael Selig在周二的一份声明中表示，这些合约根据CFTC Regulation 40.3被视为获得批准。他说，这些合约可以在同时注册于CFTC与美国证券交易委员会（Securities and Exchange Commission，SEC）的交易所提供，用于交易证券期货产品。",
+          "Selig表示，将这些产品引入受监管的美国市场，将使美国交易者能够在美国监管保障下获得永续期货，而不是“被迫转向离岸、且往往不受监管的场所”。永续期货允许交易者对某一资产的价格建立头寸，而无需持有标的资产，也不面临到期日。加密交易所BitMEX在2016年帮助普及了这类工具，它们通常被称为perps。",
+          "这一公告紧随9月的一波监管申请。当时Coinbase、Kalshi以及Kraken母公司Payward通过其Bitnomial交易所寻求批准，以提供与个股挂钩的永续期货。OG.com在几天后加入这一行列，提议可以提供在一周工作日全天候交易的合约。",
+          "这些申请之前，CFTC在5月批准了Kalshi的比特币永续期货合约，还有一项单独的监管救济允许Coinbase提供对在关联外国交易所上市的某些加密货币永续期货的访问。Selig没有指明哪些交易所将提供这些合约，也没有提供交易开始的时间表。",
+          "这一公告还出现在特朗普总统表示CFTC正努力将Hyperliquid以“完全合规和合法的方式”引入美国近三个月之后。Hyperliquid是一家去中心化加密交易所，以永续期货交易最为知名。特朗普在8月19日的一场白宫活动中发表上述言论。当时CFTC和Hyperliquid均未宣布将该平台引入美国市场的正式计划。",
+          "然而，CFTC对永续期货的处理方式面临法律反对。6月，CME Group旗下的芝加哥商业交易所起诉该监管机构，针对其批准加密货币永续期货一事。CME认为，这些合约应作为掉期（swaps）而非期货受到监管，并称该机构超出了其权限。这一区别很重要，因为掉期受制于不同的监管要求，可能包括更严格的报告、保证金和注册规则，而期货可以在现有的期货交易所框架下交易。",
+          "CFTC在9月提出动议，要求驳回该诉讼，理由是CME缺乏诉讼资格，因为CME没有证明自身遭受财务损害，而且CME自己也可以上市类似合约。",
+          "与此同时，Capital Markets Alliance——一个包括Cboe、Citadel Securities和Healthy Markets的联盟——在周二下午提起诉讼，寻求推翻CFTC的这一批准。该组织认为，这些合约属于SEC管辖范围内的证券型掉期（security-based swaps），并称CFTC违反了《行政程序法》（Administrative Procedure Act），未能充分解释其决定，也未考虑对投资者的潜在影响。该诉讼还寻求在案件进行期间阻止这些批准生效。"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/cftc-equity-perpetual-futures-trading-us-exchanges",
+        "published_at": "2026-11-04T04:24:55+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "香港金管局推进Ensemble项目试点阶段以代币化央行货币实现24/7银行间结算",
+        "source_title": "HKMA advances Project Ensemble pilot phase to 24/7 settlement in tokenised Central Bank Money",
+        "event_date": "2026-11-02",
+        "key_points": [
+          "香港金融管理局（HKMA）宣布，Ensemble 项目的试点阶段 Ensemble TX 进入新阶段，支持以代币化央行货币（CeBM）进行代币化存款交易的银行间结算，并以24/7方式运作。",
+          "Ensemble TX 的参与银行增至12家（Annex A），行业先驱增至20家（Annex B），原文称这标志着更广泛的行业参与。",
+          "HKMA 表示将继续与证券及期货事务监察委员会（SFC）紧密合作，为代币化金融生态及相关市场基础设施的发展营造支持性且协调的环境。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "香港金融管理局（HKMA）于2026年11月2日宣布，Ensemble 项目的试点阶段 Ensemble TX 进入新阶段，以支持以代币化央行货币（CeBM）进行代币化存款交易的银行间结算，并按24/7方式运作。原文将这一进展表述为进入新的篇章。",
+          "Ensemble TX 的参与机构数目有所增加：参与银行（Annex A）增至12家，行业先驱（Annex B）增至20家，原文称这标志着更广泛的行业参与。",
+          "新能力让参与银行与行业先驱可运用代币化 CeBM，在常规营业时间之外及时结算代币化交易，以配合日益全球化、全天候运行的数码金融市场需要。",
+          "Ensemble TX 于2025年11月推出，最初借助港元实时全额结算系统（RTGS）进行代币化存款交易的银行间结算，在受控试点环境下实现涉及代币化存款与数字资产的真实价值交易，其中包括行业先驱运用参与银行提供的代币化存款，进行企业财资管理及代币化货币市场基金交易。",
+          "HKMA 表示，随着新能力推出，Ensemble 项目将进一步促进交易规模扩大，并探索更多具影响力的代币化用例，以带来实质效益并支持可持续代币化市场的发展。",
+          "HKMA 表示，展望未来，将继续与证券及期货事务监察委员会（SFC）紧密合作，为代币化金融生态及相关市场基础设施的发展营造支持性且协调的环境。",
+          "HKMA 总裁 Eddie Yue 表示，仅两年间，Ensemble 项目已从实验与试点阶段过渡到聚焦推动代币化应用在香港商业化的新阶段。他表示，基础设施“swift yet incremental”的升级，体现金管局促进香港代币化生态发展的决心。",
+          "Eddie Yue 还表示，随着市场持续演变，全球银行推出代币化存款正出现一种趋势；预期代币化存款与数字资产的商业化将获得动力，并期待市场在未来数年涌现创新想法，进一步加快香港代币化生态的增长。",
+          "SFC 行政总裁 Julia Leung 表示，以代币化 CeBM 引入24/7银行间结算，是香港迈向更具规模代币化市场的重要一步。她表示，代币化存款现可支持全天候交易，包括企业财资管理及代币化基金在持牌平台上的二级交易，从而激发市场流动性并支持投资者风险管理。她并表示，SFC 将继续与 HKMA 及市场参与者合作，把 Ensemble TX 的新能力转化为实际应用，并进一步推进香港的数字资产进程。",
+          "原文附注列出的行业先驱包括 Ant International、BlackRock、China Asset Management (Hong Kong) Limited；参与银行包括 Bank of China (Hong Kong) Limited、China Construction Bank (Asia) Corporation Limited、Industrial and Commercial Bank of China (Asia) Limited、Standard Chartered Bank (Hong Kong) Limited、The Hongkong and Shanghai Banking Corporation Limited。"
+        ],
+        "source_name": "Hong Kong Monetary Authority",
+        "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261102-5/",
+        "published_at": "2026-11-02T00:01:00+08:00",
+        "region": "香港",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "英格兰银行就中央对手方代币化抵押品规则启动咨询",
+        "source_title": "Bank of England Opens Crucial Consultation on Tokenized Collateral Rules for CCPs",
+        "event_date": "2026-10-29",
+        "key_points": [
+          "英格兰银行（Bank of England，BoE）就中央对手方（central counterparties，CCPs）如何在现行监管框架下接受代币化抵押品（tokenized collateral）启动咨询，并表示现行规则并不阻止CCPs这样做。",
+          "此次咨询提出一份监管声明（Supervisory Statement），以明确BoE将如何评估涉及代币化抵押品的申请，同时维持现有风险管理与金融稳定标准。",
+          "回应截止日期为2027年2月12日，BoE邀请CCPs、清算成员、市场参与者、基础设施提供商、科技公司及其他探索中央清算中代币化抵押品的利益相关者提交意见。"
+        ],
+        "lead_cn": "英格兰银行（BoE）已就中央对手方（CCPs）如何在现行监管框架下接受代币化抵押品启动咨询，并表示现行规则并不阻止它们这样做；回应截止日期为2027年2月12日。",
+        "body_paragraphs": [
+          "英格兰银行（Bank of England，BoE）已就中央对手方（central counterparties，CCPs）如何在现行监管框架下接受代币化抵押品（tokenized collateral）启动咨询。BoE表示，现行规则并不阻止CCPs这样做。此次咨询提出一份监管声明（Supervisory Statement），以明确BoE将如何评估涉及代币化抵押品的申请，同时维持现有风险管理与金融稳定标准。市场基础设施提供商已在开发这一领域的解决方案。",
+          "Depository Trust & Clearing Corporation（DTCC）推出了一个数字抵押品管理平台，该平台建立在其DTCC AppChain之上，由LF Decentralized Trust的Besu区块链提供支持，并使用智能合约自动化抵押品操作。DTCC表示，将专注于标准化代币化抵押品的使用、扩大买方访问，并与各司法辖区监管机构接触。",
+          "BoE表示，代币化可以帮助机构更快、更高效地调动和管理抵押品，包括跨司法辖区。这可能帮助清算成员更有效地应对保证金追缴，并使CCPs能够改进抵押品管理。不过，代币化抵押品必须继续满足现有的中央清算标准。这些资产必须仍能在需要时进行估值、转让和变现，包括在压力市场条件下。",
+          "BoE提出的方法遵循“相同风险、相同监管结果”的原则，允许不同的代币化抵押品安排通过不同方法满足所需标准。负责金融稳定的副行长Sarah Breeden表示，此次咨询推进了BoE的第二目标，即支持金融市场基础设施创新，同时维护金融稳定。她称这项工作属于“当局与行业之间的一项重大议程”的一部分，旨在使代币化在金融市场中得到负责任的采用。",
+          "该举措也是英国数字批发金融市场更广泛战略的一部分，该战略旨在支持创新，同时保持金融市场基础设施的韧性。此次咨询也是BoE与金融行为监管局（Financial Conduct Authority，FCA）、英国财政部（HM Treasury）及行业参与者更广泛工作的一部分，以支持代币化的负责任采用并发展英国数字批发金融市场。",
+          "美国监管机构也在处理代币化问题。商品期货交易委员会（Commodity Futures Trading Commission，CFTC）主席Michael Selig呼吁监管机构让市场为“大规模代币化”（mass tokenization）做好准备。在2月，CFTC还扩大了其合格抵押品框架，将由国家信托银行发行的某些支付稳定币纳入其中。",
+          "BoE邀请CCPs、清算成员、市场参与者、基础设施提供商、科技公司以及其他探索中央清算中代币化抵押品的利益相关者提交回应。回应截止日期为2027年2月12日。与此同时，市场基础设施提供商正在这些监管努力推进的同时扩大其代币化服务。",
+          "10月28日，DTCC子公司Depository Trust Company（DTC）推出DTCC Tokenization Service，允许符合条件的用户创建由DTC托管的证券的代币化表示。20家DTC参与者已签署协议访问该服务，该服务连接Canton Network和DTCC的私有Besu网络。DTCC希望该服务支持抵押品使用并改善流动性获取。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/bank-of-england-consult-tokenized-collateral-ccps/",
+        "published_at": "2026-10-29T14:25:00+08:00",
+        "region": "英国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "XRP账本fixCleanup3_4_0修正案定于11月4日激活验证者支持期曾中断并重置",
+        "source_title": "XRP Ledger’s fixCleanup3_4_0 Amendment Set for…",
+        "event_date": "2026-11-04",
+        "key_points": [
+          "fixCleanup3_4_0修正案（fixCleanup3_4_0 amendment）准备于2026年11月4日完成两周验证者（validator）批准期，并定于14：46：22 UTC具备激活资格；XRPLWin修正案追踪器显示，35个受信任验证者中有33个支持，约94.3%。",
+          "10月21日支持验证者数量一度降至35个中的26个，低于29个门槛，按治理规则，整个14天批准期因此被重置，激活窗口从10月23日移至11月4日。",
+          "该更新修正涉及已发行代币、自动化做市商、托管交易和拟议借贷基础设施；它不引入新的加密货币，也不改变XRP的最大供应量；LendingProtocol与SingleAssetVault修正案尚未获得所需验证者批准。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "XRP账本（XRP Ledger）即将进行一次协议升级：其修复清理3_4_0修正案（fixCleanup3_4_0 amendment）准备于2026年11月4日完成所需的两周验证者（validator）批准期。该修正案定于14：46：22 UTC具备激活资格，此前其治理倒计时于10月21日重启。根据XRPLWin的修正案追踪器，35个受信任验证者中有33个支持该提案，约合94.3%的批准率。XRP账本要求协议修正案激活前，必须连续14天维持超过80%的验证者支持。尽管批准期预计在14：46 UTC结束，实际变更将在随后的标记账本（flag ledger）生效；标记账本是该网络定期的修正案投票检查点。",
+          "该更新引入的修正涉及已发行代币（issued tokens）、自动化做市商（Automated Market Makers，AMM）、托管交易（escrow transactions）以及拟议中的借贷基础设施（proposed lending infrastructure）等对象。文章明确指出，该更新不引入新的加密货币，也不改变XRP的最大供应量。",
+          "该修正案最初预计在10月23日激活，因为它在当月早些时候获得了足够的验证者支持。然而在10月21日，支持验证者数量一度降至35个中的26个，低于所需的29个门槛。该下降发生在大约两小时的时段内，随后支持在14：46 UTC恢复。按照XRP账本的治理规则，所需多数的任何中断都会自动重置整个14天批准期。因此，该修正案的激活窗口从10月23日移至11月4日。该机制旨在防止在没有受信任验证者持续同意的情况下激活协议变更。支持随后增强，在修订后的激活日期前达到33个验证者。",
+          "该修正案在9月发布的XRP账本服务器软件3.4.0版本中引入。其修正处理若干技术问题，包括影响该网络已发行代币的权限漏洞。在特定条件下，仅被授权销毁已发行代币的账户，可能在没有单独发行权限的情况下创建额外代币。该更新封堵了该漏洞，加强了涉及稳定币发行方（stablecoin issuers）和其他管理代币化资产（tokenised assets）组织的控制。目前没有公开确认的该漏洞被利用案例。重要的是，该问题不影响原生XRP加密货币的供应。",
+          "除代币发行权限外，fixCleanup3_4_0还引入对自动化做市商操作和代币恢复程序的修正。它处理涉及多用途代币（Multi-Purpose Tokens）的计算，包括四舍五入可能干扰从流动性池恢复资产的情形。该修正案还修正特定账户储备条件下的托管处理。其他修复涉及拟议的单一资产金库（Single Asset Vaults）和XRP账本即将推出的借贷功能。其中一项修正防止借贷交易在合同截止日期之前被错误归类为逾期或违约。",
+          "不过，这些变化并不意味着XRP账本的借贷协议将在11月4日投入运行。单独的LendingProtocol和SingleAssetVault修正案尚未获得所需的验证者批准。近期治理数据显示，19个验证者支持LendingProtocol，21个支持SingleAssetVault，均低于29票门槛。这些提案必须各自连续两周维持足够支持，之后才能激活。",
+          "对在XRP账本上构建的金融机构和开发者而言，该清理修正案代表基础设施维护升级，而非新金融产品的推出。该判断来自文章原文表述。其意义在于加强现有交易规则，并为未来功能准备组件。一旦激活，该修正案的规则将在全网适用，运行不兼容软件的服务器运营者需要升级。最终确认将来自XRP账本已验证的交易历史，而非仅来自预计的激活时间戳。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/xrp-ledgers-fixcleanup3_4_0-amendment-set-for-november-4-activation-after-two-week-validator-reset/",
+        "published_at": "2026-11-04T14:46:53+08:00",
+        "region": "未注明",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "AaveV4携手Sentora上线首批外部策展借贷市场",
+        "source_title": "Aave V4 Opens First Externally Curated Lending Markets With Sentora",
+        "event_date": "-",
+        "key_points": [
+          "Aave V4 已上线首批外部策展借贷市场，首个外部策展人为机构级 DeFi 平台 Sentora，市场部署在以太坊。",
+          "三个新市场分别支持以 USDe、PRIME、mWIN、PST 为抵押借入 RLUSD 或 OUSD，以及以 kBTC 为抵押借入 RLUSD、PYUSD 或 OUSD。",
+          "Sentora 管理抵押品要求、利率曲线、清算设置与预言机等参数；Aave DAO 保留底层智能合约与核心管理权限，增加风险的变更需经 48 小时时间锁。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Aave V4 已上线首批外部策展（externally curated）借贷市场，允许独立风险管理者在 Aave 基础设施之上运营专用借贷市场。首批市场由机构级 DeFi 平台 Sentora 管理，并已在以太坊上线。Aave 官方公告称，用户可在三个新市场中，以选定的收益型（yield-bearing）与蓝筹（blue-chip）抵押品借入 RLUSD、PYUSD 和 OUSD。",
+          "传统 Aave 市场通常依赖通过 Aave 治理及其相关服务提供商管理的风险参数。Aave V4 引入不同模式：其 Hub-and-Spoke（枢纽-辐条）架构将流动性与单个借贷市场分离，使不同 Spoke 可使用共享流动性 Hub，同时维持各自的抵押品规则与风险设置。Sentora 是首个在该框架下运营市场的外部策展人。公司为其运营的市场管理抵押品要求、利率曲线、清算设置与预言机（Oracle），从而在仍使用 Aave 核心智能合约基础设施的同时，让外部组织对借贷市场配置拥有更多控制权。",
+          "初始部署包含三个市场。RLUSD Yield 市场允许用户以 USDe、PRIME、mWIN 和 PST 为抵押品借入 Ripple 的 RLUSD。OUSD Yield 市场使用相同抵押品集合，但允许借入 Origin 的 OUSD。第三个 Bluechip 市场允许以 kBTC 为抵押品借入 RLUSD、PayPal 的 PYUSD 或 OUSD。该结构让每个市场拥有自身风险画像，而不是把所有抵押品类型放入同一借贷池。Sentora 的原始治理提案将该部署描述为一个专用以太坊流动性 Hub，并连接面向不同抵押品类别的独立 Spoke。",
+          "Aave V4 的核心思路是将流动性与风险管理分离。此前借贷架构中，每个市场往往需要自己的隔离流动性池，这种碎片化可能降低资本效率。在 V4 下，流动性提供者（Liquidity Provider，LP）将资产存入 Hub，各个 Spoke 可在遵守自身抵押品与借款规则的前提下从该 Hub 提取流动性。这意味着多个借贷市场可共享流动性，而不必共享相同风险假设。Sentora 解释称，该架构允许每个 Spoke 维持独立的抵押资产、价格源（price feeds）与风险参数，同时从共同流动性来源提取资金。",
+          "外部策展并不只是给 Aave 增加另一个前端。根据 Aave 治理提案，Sentora 可管理抵押品选择、利率曲线、风险参数与预言机配置，这使其角色更接近专业信贷或风险管理者，而非被动市场运营者。Sentora 表示，其已在链上策略中配置超过 20 亿美元，并在更广泛的机构级 DeFi 平台内使用超过 1，000 个风险模型。",
+          "该系统并未赋予外部策展人无限权限。Aave DAO 保留底层智能合约与核心管理权限的所有权。增加风险的变更需经过 48 小时时间锁（timelock）。新增抵押资产与新增 Hub 部署也仍受治理监督。Sentora 可以更快做出降低风险的调整，但增加敞口的操作面临额外控制。Aave DAO 还可通过治理撤销 Sentora 的运营权限。这形成了分层结构：策展人管理日常风险，而 Aave DAO 保留对协议基础设施的最终控制权。",
+          "首批 Sentora 部署高度聚焦稳定币（stablecoin）借贷。RLUSD、PYUSD 和 OUSD 是初始市场中唯一可借入的资产。这一点值得注意，因为 Aave 最大的借贷市场历史上以 USDC、USDT 和其他广泛采用的稳定币为中心。Sentora Hub 有意排除 USDC 和 USDT，以避免与 Aave 现有流动性池直接竞争。相反，新市场为较新或更专门化的稳定币提供发展自身借贷流动性的场所。RLUSD 与 PYUSD 尤其一直在扩大其在 DeFi 中的存在，因为发行方寻求支付与转账之外的额外用途。",
+          "Bluechip 市场引入了另一项显著特征：比特币支持的抵押品。用户可用 kBTC 作为抵押品借入 RLUSD、PYUSD 或 OUSD。比特币支持的借贷仍是 DeFi 中最大的潜在市场之一，因为 BTC 持有者往往希望获得流动性而不卖出其底层比特币敞口。历史上，这需要比特币的封装或托管代表形式。新的 Sentora 市场通过 kBTC 延续该模式，同时将风险分离到专用借贷 Spoke。",
+          "外部策展已成为其他 DeFi 借贷平台中的常见模式。Morpho 等协议推广了由独立策展人围绕特定抵押品与风险假设构建借贷金库的结构。Aave 的举措将类似概念带入大得多的借贷生态。不同之处在于，V4 将外部策展与共享流动性基础设施结合。Hub-and-Spoke 架构无需迫使每个策展人运营完全独立的借贷池，而可让多个风险隔离市场更高效地获取流动性。",
+          "新结构也改变风险监测方式。Sentora 指出，Aave V4 风险存在于三个层级：Hub、Spoke 与单个抵押资产。流动性提供者因此不仅需理解所供应资产，还需理解哪些 Spoke 可访问该流动性及限制。V4 通过 add caps（添加上限）与 draw caps（提取上限）应对：前者限制资产可向 Hub 贡献的流动性，后者限制某个 Spoke 可借入的流动性。这些控制旨在防止一个市场消耗过多流动性，或让整个 Hub 暴露于单一抵押品风险。本月早些时候，Aave V4 已在 Base 上线 Equities Hub，允许 Apple、Amazon、Alphabet、Meta、Microsoft、Nvidia 和 Tesla 的代币化股票（tokenized shares）用于 USDC 借贷市场。"
+        ],
+        "source_name": "Co",
+        "url": "https://cryptodaily.co.uk/2026/10/aave-v4-opens-first-externally-curated-lending-markets-with-sentora",
+        "published_at": "2026-10-29T15:00:00+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "Kalshi以400亿美元估值完成10亿美元融资拓展加密与股票永续期货",
+        "source_title": "Kalshi raises $1B at $40B valuation as it expands into crypto and stock perpetual futures",
+        "event_date": "2026-10-29",
+        "key_points": [
+          "Kalshi完成10亿美元融资，公司估值达到400亿美元；据Reuters报道，该融资轮由Sequoia Capital与Wellington Management联合领投，Tiger Global Management和Dragoneer Investment Group参投。",
+          "Kalshi估值较5月的220亿美元上升近82%；公司计划将资金用于开发杠杆事件合约、与个股挂钩的永续期货以及交易AI算力价格的市场。",
+          "Kalshi于5月获得商品期货交易委员会（CFTC）批准后进入永续期货市场，最初提供加密货币永续期货，随后扩展至股指以及黄金、白银等贵金属。"
+        ],
+        "lead_cn": "预测市场运营商Kalshi完成10亿美元融资，估值达400亿美元，并推进拓展加密货币衍生品、股票永续期货等市场的计划。",
+        "body_paragraphs": [
+          "预测市场运营商Kalshi完成10亿美元融资，公司估值达到400亿美元。据Reuters报道，该融资轮于周四宣布，由Sequoia Capital与Wellington Management联合领投，Tiger Global Management和Dragoneer Investment Group参投。此次融资之际，Kalshi正加速推进拓展加密货币衍生品、股票永续期货（perpetual futures）及其他金融市场的计划。",
+          "Kalshi的估值较5月的220亿美元上升近82%。今年5月，公司完成了另一笔10亿美元融资，由Coatue Management领投。最新投资之际，Kalshi寻求将业务从主要以体育和政治事件合约（event contracts）闻名的平台，转变为更广泛的金融交易所，与CME Group和Intercontinental Exchange等成熟运营商竞争。",
+          "公司计划将资金用于开发新的交易产品，包括杠杆事件合约、与个股挂钩的永续期货，以及交易AI算力（AI computing capacity）价格的市场。Kalshi同时扩展机构业务，寻求吸引对冲基金、资产管理公司和专业交易公司。公司9月表示，其与约500家机构实体合作，这些机构占剔除做市商后交易量的25%。",
+          "Kalshi于5月获得商品期货交易委员会（Commodity Futures Trading Commission，CFTC）批准后进入永续期货市场，成为美国首批推出这一热门加密衍生品产品的联邦监管交易所之一。平台最初提供加密货币永续期货，随后扩展至股指以及黄金、白银等贵金属。与传统期货合约不同，永续期货没有到期日，允许交易者维持敞口，而无需定期将头寸滚入新合约。这些产品也可提供杠杆，放大潜在收益与损失。",
+          "Kalshi现在计划将衍生品产品扩展至个股，此举将使公司更直接地与传统期货交易所和加密原生交易平台竞争。公司还在探索与算力挂钩的市场，可能让投资者和企业交易AI基础设施价格的敞口。这一扩张反映Kalshi建立多资产交易平台、而非仅专注于预测事件结果的雄心。",
+          "Kalshi的最新融资之前经历一段快速增长，受围绕重大体育赛事和选举的交易活动增加推动。2026年FIFA世界杯、NFL赛季和即将到来的美国中期选举，促使其事件合约需求上升。平台对组合合约（combination contracts）的兴趣也在增长，这类合约允许用户在一笔交易中对多个结果建仓。",
+          "Kalshi的估值从2025年10月的50亿美元升至一年后的400亿美元，八倍增长。据公司称，5月宣布的上一笔10亿美元融资之前，机构交易量在六个月内增长800%。据Reuters援引Dune Analytics数据，随着该行业竞争加剧，Kalshi在预测市场份额上已超越竞争对手Polymarket。首席执行官Tarek Mansour也讨论过将Kalshi上市的可能性，但他在6月表示，首次公开募股（initial public offering，IPO）不会在2027年前进行。",
+          "Kalshi的扩张之际，围绕体育相关预测合约应作为金融衍生品还是赌博产品监管的法律审查日益增加。本周早些时候，犹他州总检察长对Kalshi和两名高管提起刑事指控，指控公司非法推广在线赌博。该争议是州当局与受联邦监管的预测市场运营商之间更广泛冲突的一部分。",
+          "美国两家上诉法院在8月和9月裁定，州有权监管体育相关事件合约，而另一家上诉法院此前支持Kalshi关于联邦监管优先的论点。相互冲突的裁决提高了最高法院复审的可能性。Kalshi坚持其产品在CFTC监管框架下运作，不应被视为传统体育博彩。尽管存在法律不确定性，公司仍在推进开发杠杆交易产品并扩大机构参与的计划。"
+        ],
+        "source_name": "Crypto Briefing",
+        "url": "https://cryptobriefing.com/kalshi-expansion-derivatives/",
+        "published_at": "2026-10-29T16:39:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "Amazon、Tesla、SpaceX加入56家公司反对OKXICE股票代币化",
+        "source_title": "Amazon, Tesla and SpaceX Join 56 Firms Blocking OKXICE…",
+        "event_date": "-",
+        "key_points": [
+          "11月2日更新公开通知显示，56家公司已提交发行人反对（issuer objections），高于10月30日披露的50家；Amazon、Tesla、SpaceX、Netflix、SoFi Technologies和Lam Research等加入。",
+          "最初62家潜在交易公司中49家反对，约占79%；截至11月2日仅13家没有公开披露反对，但无反对不构成背书、参与同意或代币化授权。",
+          "OKXICE于10月4日向美国证券交易委员会（Securities and Exchange Commission，SEC）提交原始计划，拟通过许可制自动做市商（automated market-maker，AMM）池提供美国股票代币化连续交易，并以稳定币（stablecoins）结算。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Amazon、Tesla和SpaceX加入越来越多公司的行列，反对其股票的代币化（tokenized）版本在OKXICE交易。OKXICE是由加密货币交易所OKX与纽约证券交易所（New York Stock Exchange，NYSE）母公司洲际交易所（Intercontinental Exchange，ICE）支持的拟议区块链股票场所。日期为11月2日的更新公开通知识别出56家已提交发行人反对（issuer objections）的公司，高于10月30日披露的50家。Netflix、SoFi Technologies和Lam Research是另外三家新增公司。",
+          "在最初被选为潜在交易对象的62家公司中，目前有49家提出反对，约占初始名单的79%。另有7家反对者未被纳入最初选择。最新拒绝发生在由Nvidia、Costco和Nike领导的早前一波反对之后，进一步缩小了该场所在启动前的潜在股票选择。",
+          "截至11月2日，最初选择中只有13家公司没有公开披露的反对。它们包括Apple、Strategy、Robinhood、Coinbase、Circle、Palantir、Super Micro Computer、ServiceNow、GE Vernova、Boeing、Home Depot、Securitize和BitGo。然而，没有反对并不证明这些公司已背书OKXICE、同意参与或授权平台代币化其股票。Securitize和BitGo此前表示不打算反对，但其他剩余发行人的意图尚未公开确认。",
+          "这些反对给该合资企业带来挑战，该合资企业于10月4日向美国证券交易委员会（Securities and Exchange Commission，SEC）提交原始计划。OKXICE打算通过许可制自动做市商（automated market-maker，AMM）池提供美国股票代币化的连续交易，交易使用稳定币（stablecoins）结算。其拟议基础设施在OKX的X Layer区块链上使用Uniswap v4技术，使合格参与者能够在常规证券交易所时间之外交易代币化股票。",
+          "SEC于9月17日推出五年期创新豁免（Innovation Exemption），允许合格的代币化证券市场（Tokenized Securities Venues）通过许可流动性池（permissioned liquidity pools）促进代币化国家市场体系（National Market System，NMS）股票交易。该豁免对某些交易所注册要求提供临时、有条件救济，同时施加旨在保护投资者的限制。",
+          "当场所提议交易由非关联第三方（unaffiliated third party）代币化的股票时，必须向基础发行人（underlying issuer）提供书面通知。发行人从收到通知起有30个日历日提交正式反对。及时反对阻止场所在豁免下提供该代币化证券；它不禁止公司股票的常规交易，也不阻止发行人通过另一安排寻求代币化。",
+          "对于10月4日收到通知的发行人，反对截止日约为11月3日，但个别截止日取决于每家公司实际收到通知的时间。交易场所还有最多五个工作日公布新收到的反对，因此公开名单可能在11月3日后继续扩大。SEC框架还要求代币化股票保留同等股东权利（shareholder rights），包括适用的投票权和股息权利；当基础股票在主交易所（primary exchange）停牌时交易必须停止，合格证券（eligible securities）数量和交易量仍受限制。",
+          "OKXICE的通知未披露个别反对背后的原因。因此，公司的决定不应被解释为集体拒绝区块链证券。尽管如此，第三方代币化引入关于价格发现（price discovery）、股东权利、托管（custody）和流动性碎片化（liquidity fragmentation）的问题。与传统交易所通过订单簿（order book）匹配买卖双方不同，OKXICE提议使用自动流动性池（automated liquidity pools）。这些池中的价格可能不同于基础股票，尤其是在常规市场时间之外，参考价格和套利机会可能有限。",
+          "早前反对者JPMorgan Chase表示，它仍对代币化感兴趣，同时评估其股票将如何被代表和交易。OKXICE联合主席、前纽约州州长Andrew Cuomo在10月30日新闻发布会上承认，一些公司倾向于先观察平台运营，再决定是否参与。",
+          "OKXICE尚未宣布确认的启动日期，也未披露交易开始时将有多少代币化证券可用。该企业还必须与区块链股票的其他方法竞争。例如，Nasdaq已向Kraken母公司Payward投资1亿美元，双方开发代币化股票基础设施，将发行人更直接置于框架内。ICE另行开发一个与NYSE关联的代币化证券平台，区别于其与OKX的合资企业。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/amazon-tesla-and-spacex-join-56-firms-blocking-okxice-stock-tokens/",
+        "published_at": "2026-11-04T04:02:12+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "华尔街终结比特币狂飙10xResearch的MarkusThielen",
+        "source_title": "Wall Street killed Bitcoin’s wild rallies: 10x’s Markus Thielen",
+        "event_date": "2026-11-03",
+        "key_points": [
+          "10x Research创始人Markus Thielen在Cointelegraph的“Trade Secrets”节目中说，华尔街交易员和获利了结的巨鲸正在重塑市场；机构交易员在上涨后卖出看涨期权（call options），使比特币早年那种剧烈价格暴涨不再常见。",
+          "Thielen估计，在他分析的600亿美元现货比特币交易所交易基金（exchange-traded fund，ETF）净流入中，做市商（market makers）占比最高可达一半；这些公司持有ETF份额用于对冲期权交易，不一定代表押注比特币价格上涨。",
+          "Thielen仍预计比特币年底达到90，000美元，并称以太坊必须为持有者做更多；他说太多以太坊活动价值流向第二层网络（layer-2 networks），且他看空以太币（Ether）已超过一年。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "10x Research创始人Markus Thielen在Cointelegraph的“Trade Secrets”节目中说，比特币连续两位数上涨的日子已经结束，华尔街交易员和获利了结的巨鲸正在重塑市场。他说，机构交易员在上涨后卖出看涨期权（call options），使比特币早年那种剧烈价格暴涨不再常见。Thielen说，他预计比特币会因消息快速上涨，然后在下一重大宏观事件前横盘一段时间。",
+          "Thielen也是《Crypto Titans》一书的作者。他说，写这本书让他注意到，每个周期都有不同的人在向投资者推销加密货币。“每个周期实际上都有不同的推广者，不同的推广者带来不同的投资者，”他说。这一次，推广者来自华尔街，那里的投资者依据经济数据和美联储（Federal Reserve，Fed）决策进行交易。",
+          "关于谁在真正买入比特币，Thielen估计，在他分析的600亿美元现货比特币交易所交易基金（exchange-traded fund，ETF）净流入中，做市商（market makers）占比最高可达一半。这些公司持有ETF份额，用于对冲其期权交易，因此这些头寸不一定代表押注比特币价格上涨。“所以最终这并不是直接买入，”他说。他的估计基于对Form 13F文件的审查，这些文件披露投资经理的某些证券持仓。",
+          "Thielen说，流入ETF的第一波资金还包括通过机构和公司载体买入的散户投资者。一些人支付了相对底层加密资产价值的大幅溢价。尽管他估计做市商占净流入很大一部分，他仍表示：“我仍然认为机构可能会来。我仍然认为一些主权财富基金会来。”",
+          "Thielen仍预计比特币到年底达到90，000美元。他说，比特币可能先跌至70，000美元中高段。比特币已经在该区间交易，在Binance发生63亿美元黑客事件后，周五跌至约76，100美元。据Coinglass数据，比特币10月收盘下跌7.3%。Thielen将最近几个月的价格复苏与2023年初相比较，当时比特币从约20，000美元涨至30，000美元。他说，围绕今年反弹的怀疑并不陌生，投资者在寻找下一次价格下跌和入场点。“我想每个人多少都错过了。所以每个人都想再次买入。”",
+          "比特币重回90，000美元可能部分取决于美联储进一步加息多少。美联储9月将基准利率上调25个基点，至3.75%–4%的目标区间。上周三，美联储在意见分歧的投票中维持利率不变，两名官员投票支持再加息25个基点。美联储声明说，通胀仍然高企，保留了进一步加息的可能性。Thielen预计12月前还会加息一次，随后对进一步加息采取更谨慎的做法，这可能帮助比特币在年底前上涨。",
+          "Thielen预计比特币将跑赢以太币（Ether），他说以太坊活动产生的太多价值流向第二层网络（layer-2 networks）。“我更把它看作一种有价值的公用事业，但没有人愿意为它付费。”让这些网络使用更便宜一直是以太坊开发中有意为之的一部分。但更便宜的交易可能使ETH的投资理由变得模糊。以太坊会销毁用户支付的基础费用，当销毁量超过新发行给验证者的ETH时，供应量会缩小。费用降低可能意味着被销毁的ETH减少；当发行量超过销毁量时，ETH供应量会增长。",
+          "Thielen说，他对以太币看空已超过一年，并将以太坊比作高速公路。“每个人都希望高速公路空着，这样你可以开得快，道路需要非常非常干净、修好，一切都要好，但没有人愿意为此付费，”他说。他特别提到Hyperliquid，作为交易活动可以为代币购买提供资金的例子。这个去中心化永续合约交易所（decentralized perpetuals exchange）的援助基金将交易费用转换为HYPE，然后销毁。对以太坊，他希望网络使用与持有者财务收益之间有更强联系。"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/magazine/wall-street-killed-bitcoins-wild-rallies-markus-thielen",
+        "published_at": "2026-11-04T00:47:01+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "1inch律师中期选举推进之际联邦机构将主导美国加密监管",
+        "source_title": "1inch lawyer sees agencies driving US crypto regulation as midterms unfold",
+        "event_date": "2026-11-04",
+        "key_points": [
+          "1inch 副总法律顾问 Maylea Ma 表示，未来几年美国数字资产监管的“real movement”将来自美国证券交易委员会、美国商品期货交易委员会和财政部，而不是国会。",
+          "Maylea Ma 表示，机构层面的接触并不能提供行业原本希望通过立法获得的稳定性，长期目标仍然是一部不会因政府更迭而被推翻的法案。",
+          "D3 联合创始人 Michael Ho 表示，市场结构法案停滞使美国加密政策继续依赖未来政府可以撤销的机构指引，这让严肃资本处于等待状态。"
+        ],
+        "lead_cn": "加密行业高管预计，无论中期选举结果如何，美国监管机构都将主导加密政策制定。",
+        "body_paragraphs": [
+          "美国中期选举投票正在进行、国会控制权悬而未决之际，1inch 副总法律顾问 Maylea Ma 表示，她预计联邦机构将推动下一阶段的加密货币监管。",
+          "文章称，此次选举可能重塑停滞的 CLARITY Act 的前进路径，但 Maylea Ma 表示，未来几年美国数字资产监管的“real movement”将来自美国证券交易委员会（Securities and Exchange Commission，SEC）、美国商品期货交易委员会（Commodity Futures Trading Commission，CFTC）和财政部，而不是国会。",
+          "Maylea Ma 表示，这些机构正越来越多地与加密项目接触。但文章指出，机构层面的接触并不能提供行业原本希望通过立法获得的稳定性。Maylea Ma 说：“长期目标当然仍然是一部不会因为政府更迭就被推翻的法案。”",
+          "文章称，这种不确定性对机构投资者同样重要。D3（Doma Protocol 背后的团队）联合创始人 Michael Ho 表示：“随着市场结构法案停滞，美国加密政策继续依赖未来政府可以撤销的机构指引，这让严肃资本处于等待状态。”Michael Ho 还说：“无论结果如何，写入法律的清晰规则才是把机构资本带入代币化现实世界资产（tokenized real-world assets）的东西。”",
+          "文章回顾，8月，SEC 提出了一项加密融资框架，其中包括对某些代币发行的豁免，以及免于被视为投资合同的安全港。",
+          "9月，SEC 还更新了员工指引，覆盖代币回购、加密网络和质押收据代币。",
+          "与此同时，文章称，CFTC 于9月17日向白宫提交了一份加密市场监管计划供其审查，这距离参议院未能推进 CLARITY Act 过去两天。"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/1inch-lawyer-sees-agencies-driving-us-crypto-regulation-as-midterms-unfold",
+        "published_at": "2026-11-04T08:45:16+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      }
+    ],
+    "notes": [
+      "统计窗口2026-10-28 18:03至2026-11-04 18:03（北京时间）内共覆盖9篇，栏目配额按政策3、前沿2、市场2、意见2完成。",
+      "美国中期选举结果（A002、A023、A062等）是窗口内最大政治事件，但原文自身即称“现在判断对加密意味着什么为时过早”，确定性弱于A040、A119、A134三篇具体监管动作，故本期未占政策栏名额，仅在选题讨论中作为背景保留。",
+      "Binance 63亿美元被盗相关稿件（A003、A010、A016、A018、A029、A035、A038、A045、A052等）主题高度同质，本期整体不选，避免同一事件堆叠挤占四个栏目的多样性。",
+      "The Defiant多篇（A007、A017、A021、A022、A028、A067等）正文被“Loading this article…”付费墙遮挡、正文可见字数仅千字左右，信息密度不足以支撑完整中文编译，未选。",
+      "已排除个股行情与点位预测类（A011、A012、A013、A124等）、交易所导流/聚合快讯页（A111等KuCoin快讯）、推广软文（A110）及纯工具说明页。",
+      "ETF资金流（A001、A004、A075、A118）与Liquid储备恢复（A015、A066）、Solana验证者Linux漏洞（A112）、Aztec升级（A061）为备选，因与已选条目主题或栏目定位重叠度较高而未采用。"
+    ]
+  },
+  "factcheck": {
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      "item 6 contains relative time wording; replace with exact date",
+      "item 8 contains relative time wording; replace with exact date"
+    ]
+  },
+  "outputs": {
+    "docx": "reports/2026/加密货币观察_20261104.docx",
+    "manifest": "reports/2026/_manifests/加密货币观察_20261104.json"
+  }
+}
