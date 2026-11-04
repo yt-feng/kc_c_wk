@@ -13,10 +13,13 @@ on:
   schedule:
     # GitHub may delay or drop scheduled events. Staggered Wednesday attempts
     # improve the chance that one run finishes before 16:00 Beijing time.
+    # Include an earlier attempt and a late recovery attempt after source outages.
+    - cron: "17 23 * * 2"  # Wednesday 07:17 Asia/Shanghai
     - cron: "43 1 * * 3"  # 09:43 Asia/Shanghai
     - cron: "53 3 * * 3"  # 11:53 Asia/Shanghai
     - cron: "7 5 * * 3"    # 13:07 Asia/Shanghai
     - cron: "23 6 * * 3"   # 14:23 Asia/Shanghai
+    - cron: "43 8 * * 3"   # 16:43 Asia/Shanghai recovery
   workflow_dispatch:
     inputs:
       days:
@@ -27,6 +30,11 @@ on:
         description: "1 to fail on fact-check errors, 0 to write draft"
         required: false
         default: "1"
+      force:
+        description: "Regenerate even if today's validated report already exists"
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -58,6 +66,8 @@ jobs:
       - name: Check whether today's report already exists
         id: report_guard
         shell: bash
+        env:
+          FORCE_REGENERATE: ${{ github.event.inputs.force || 'false' }}
         run: |
           set -euo pipefail
           git pull --ff-only origin main
@@ -76,7 +86,7 @@ jobs:
              jq -e '.factcheck.ok == true' "$manifest_path" >/dev/null; then
             report_is_valid=true
           fi
-          if [ "$GITHUB_EVENT_NAME" = "schedule" ] && [ "$report_is_valid" = "true" ]; then
+          if [ "$report_is_valid" = "true" ] && [ "$FORCE_REGENERATE" != "true" ]; then
             echo "should_generate=false" >> "$GITHUB_OUTPUT"
             echo "Today's validated report and manifest already exist on main; skipping this retry."
           else

@@ -24,6 +24,17 @@ EXCLUDED_DOMAINS = (
 )
 USER_AGENT = "Mozilla/5.0 CryptoObserverBot/1.0 (+https://github.com/yt-feng/kc_c_wk)"
 
+# Publisher feeds keep discovery working when search feeds return wrapper URLs.
+DIRECT_FEEDS = {
+    "CoinDesk": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+    "Cointelegraph": "https://cointelegraph.com/rss",
+    "Decrypt": "https://decrypt.co/feed",
+    "CryptoSlate": "https://cryptoslate.com/feed/",
+    "The Defiant": "https://thedefiant.io/feed",
+    "Ledger Insights": "https://www.ledgerinsights.com/feed/",
+    "FinanceFeeds": "https://financefeeds.com/feed/",
+}
+
 # High-quality discovery targets. These are used only for finding candidates; final output must use the original publisher URL.
 TRACKED_SITES = {
     "CoinDesk": "site:coindesk.com (crypto OR bitcoin OR ethereum OR stablecoin OR tokenization OR digital assets)",

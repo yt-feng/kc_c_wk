@@ -28,6 +28,8 @@ crypto_observer/config.py
 - Bing News RSS
 - GDELT DOC API
 
+同时直接读取英文出版商的 RSS/Atom 订阅源，减少搜索发现渠道失效或包装链接无法解析时的漏采。仅保留最近 7 天、可验证原站链接和正文的英文文章；采集日志和 manifest 会记录发现、去重、正文校验的数量。
+
 采集与事实核验层都会过滤中文域名、中文路径和明显中文标题/摘要。
 
 ## 输出
@@ -43,9 +45,9 @@ Word 报告包含目录、五个栏目正文、信息来源、发布时间和自
 
 ## 自动运行时间
 
-GitHub Actions 采用每周三多次错峰触发，目标是在北京时间 16:00 前产出。当前尝试时间为北京时间 **09:43、11:53、13:07、14:23**；workflow 内对应 UTC 周三 01:43、03:53、05:07、06:23。
+GitHub Actions 采用每周三多次错峰触发，目标是在北京时间 16:00 前产出。当前尝试时间为北京时间 **07:17、09:43、11:53、13:07、14:23**，另有 **16:43** 恢复尝试；07:17 对应 UTC 周二 23:17，其余为 UTC 周三。
 
-GitHub 的定时事件可能延迟或偶发丢失，因此不能只依赖一个 cron。每次定时运行会先同步 `main`，检查当天 DOCX 是否为有效 Word 文件、manifest 是否通过 fact check；第一趟成功生成并提交后，后续重试会直接跳过。workflow 还使用并发队列将这些尝试串行化，避免同一天的报告被并行重复生成。提交后会从远端 `main` 再次读取并验证当期文件；artifact 上传只包含当期产物，且不会阻断报告提交。
+GitHub 的定时事件可能延迟或偶发丢失，因此不能只依赖一个 cron。每次运行会先同步 `main`，检查当天 DOCX 是否为有效 Word 文件、manifest 是否通过 fact check；第一趟成功生成并提交后，后续尝试会直接跳过生成，并继续尝试 GateX 导入。需要重生成时可手动设置 `force=true`。workflow 还使用并发队列将这些尝试串行化，避免同一天的报告被并行重复生成。提交后会从远端 `main` 再次读取并验证当期文件；artifact 上传只包含当期产物，且不会阻断报告提交。
 
 ## Secret 配置
 
@@ -62,7 +64,7 @@ DEEPSEEK_MODEL=deepseek-v4-flash
 DEEPSEEK_BASE_URL=https://api.deepseek.com
 ```
 
-周刊 workflow 的最后一步会把当期 DOCX 送入 GateX 的私有会员审核队列。仓库 Actions 还需配置 Secret `GATEX_GENERATION_CALLBACK_SECRET`；可选 Variable `GATEX_CALLBACK_BASE`，未设置时使用 `https://gatex.fund`。上传失败会让本次 workflow 失败，避免报告只生成但未进入审核。
+周刊 workflow 的最后一步会把当期 DOCX 送入 GateX 的私有会员审核队列。仓库 Actions 还需配置 Secret `GATEX_GENERATION_CALLBACK_SECRET`；可选 Variable `GATEX_CALLBACK_BASE`，未设置时使用 `https://gatex.fund`。上传失败会记录 warning 和步骤摘要，已生成并提交的报告仍会保留；需查看导入步骤日志确认审核队列已收件。
 
 没有 `DEEPSEEK_API_KEY` 时，脚本会使用保守的标题/摘要 fallback 生成草稿；在默认严格模式下，如果栏目数量、美国政策条目或日期等硬性要求不满足，workflow 不会把该期 DOCX 提交到 `main`，但会尝试把当期文件作为 Actions artifact 保留供排查。
 
