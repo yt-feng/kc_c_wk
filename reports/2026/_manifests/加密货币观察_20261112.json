@@ -1,0 +1,292 @@
+{
+  "generated_at": "2026-11-12T00:35:46+08:00",
+  "period": "2026-11-05 00:35 至 2026-11-12 00:35（北京时间，最近7天）",
+  "raw_count": 109,
+  "collection_warnings": [
+    "collection stages: discovered=1029, deduplicated=868, body_attempted=179, verified=109; sources={'publisher:CoinDesk': 21, 'publisher:Cointelegraph': 23, 'publisher:Decrypt': 21, 'publisher:CryptoSlate': 10, 'publisher:The Defiant': 42, 'publisher:Ledger Insights': 1, 'publisher:FinanceFeeds': 19, 'Bing News': 67, 'GDELT': 2, 'Google News': 823}",
+    "no candidates for query: Bank of England FCA tokenisation stablecoin consultation digital securities",
+    "no candidates for query: cross chain oracle RWA infrastructure wallet staking rollup interoperability crypto",
+    "no candidates for query: crypto acquisition funding IPO futures CME stablecoin revenue tokenized securities",
+    "no candidates for query: crypto company raises acquires launches futures ETF tokenized fund stablecoin adoption",
+    "no candidates for query: investor analyst CIO says DeFi stablecoin bitcoin crypto market structure",
+    "no candidates for query: site:blockworks.co (crypto OR bitcoin OR ethereum OR stablecoin OR tokenization OR digital assets)"
+  ],
+  "report": {
+    "items": [
+      {
+        "section": "政策风向",
+        "title_cn": "Coinbase获全国性信托执照OCC严格条件同步适用",
+        "source_title": "Coinbase wins national trust charter, and strict OCC mandates apply",
+        "event_date": "2026-11-06",
+        "key_points": [
+          "美国货币监理署（Office of the Comptroller of the Currency，OCC）的申请登记册将 11 月 6 日记为 Coinbase National Trust Company 的生效日期，11 月 6 日的最终有条件批准函授权该行于 11 月 9 日开业。",
+          "最终批准允许以受托人身份提供加密货币托管，同时将该行限定为信托公司业务及相关活动，重大偏离须事先取得 OCC 不反对。",
+          "OCC 批准将 Coinbase 纽约信托公司的账户逐步转移至这家全国性信托银行；最终函与 Coinbase 11 月 9 日公告均未识别已完成的客户迁移或逐客户时间表。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "美国货币监理署（Office of the Comptroller of the Currency，OCC）的申请登记册将 11 月 6 日记为 Coinbase National Trust Company 的生效日期。日期为 11 月 6 日的最终有条件批准函称，该行已满足开业前要求，并授权其于 11 月 9 日开业，这使这家新实体获得在联邦受托监管下提供加密货币托管服务的许可。OCC 还批准了一项安排，将账户从 Coinbase 的纽约信托公司逐步转移。",
+          "Coinbase 于 11 月 9 日宣布获得最终批准，并表示该执照将为其托管业务带来一致的联邦框架。这一进展此前经历了 4 月 2 日的初步决定。CryptoSlate 曾在 4 月 3 日报道 Coinbase 的初步有条件执照批准，时间早于 11 月的最终批准与生效状态记录。",
+          "OCC 的登记记录显示，Coinbase National Trust Company 的编号为 2025-Charter-343449，在 4 月 2 日出现“Approved”条目之后，于 2026 年 11 月 6 日被列为“Consummated/Effective”。最终有条件批准函称该行已满足全部开业前要求，并授权其于 2026 年 11 月 9 日开业。",
+          "最终批准允许以受托人身份提供加密货币托管，这使 Coinbase National Trust Company 的托管服务受到受托义务与行为标准的约束。联邦批准允许以受托身份进行加密货币托管，同时保留信托公司限制、资本缓冲以及 OCC 对重大变更的监督。",
+          "最终批准函将该行的业务限定为其业务计划中的信托公司业务及相关活动，并要求在出现重大偏离前取得 OCC 的不反对。信函特别列出产品与服务的重大变更，以及为托管账户客户提供任何交易服务。在最初三个运营年度内，重大偏离需要提前 60 天通知并取得 OCC 书面不反对。",
+          "在同一期间，该行必须维持至少 6000 万美元的一级资本、规定的流动性资产缓冲，以及覆盖 180 天运营费用的独立储备。4 月的决定将该机构描述为未保险机构，最终批准保留了有限的信托公司范围。",
+          "最终批准函还披露，Coinbase Custody Trust Company 与这家新的全国性银行于 2026 年 9 月 1 日签署了一份转让协议，约定托管服务权利与责任随时间逐步从纽约信托公司转移至全国性信托公司。OCC 依据《条例 W》（Regulation W）的一项豁免，批准了对这些账户与资产的收购和承接，该豁免涉及银行与关联方之间某些交易限制。",
+          "这一安排使计划中的过渡获得监管授权。最终批准函描述了启动迁移的意向，而 Coinbase 11 月 9 日的公告未提供已完成的转移数字或逐客户时间表。4 月的计划设想在全国性银行三年的初始运营期内迁移 Coinbase Custody Trust Company 的全部托管业务，11 月的条件取代了 4 月施加的条件。",
+          "相关说明同时标明，这些日期是法律里程碑，而非经过核实的运营启动；三年的迁移期限来自 4 月的计划。最终批准函与 11 月 9 日的公告均未识别已完成的客户迁移或逐客户的迁移时间表。"
+        ],
+        "source_name": "CryptoSlate",
+        "url": "https://cryptoslate.com/coinbase-wins-national-trust-charter-and-strict-occ-mandates-apply/",
+        "published_at": "2026-11-11T16:30:33+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "DriveWealth获MiCA授权加密服务将后续分阶段推出",
+        "source_title": "DriveWealth Secures MiCA Authorisation, but Crypto Services…",
+        "event_date": "-",
+        "key_points": [
+          "DriveWealth称，UAB DriveWealth Europe已获立陶宛银行（Bank of Lithuania）依据《加密资产市场监管条例》（Markets in Crypto-Assets，MiCA）授权为加密资产服务提供商；该附属公司已持有同一监管机构颁发的《金融工具市场指令II》（Markets in Financial Instruments Directive II，MiFID II）投资公司牌照。",
+          "公司称，加密服务将在新年上线，并将分阶段向合作伙伴推出。",
+          "公告未提供具体上线日期、支持的加密资产、详细的托管安排或各阶段确切的服务组合。"
+        ],
+        "lead_cn": "DriveWealth称，其欧洲附属公司已获立陶宛银行依据MiCA授权；加密资产服务将在新年分阶段推出，但公告未披露具体上线日期、支持的加密资产与托管安排等细节。",
+        "body_paragraphs": [
+          "DriveWealth表示，UAB DriveWealth Europe已获立陶宛银行（Bank of Lithuania）依据《加密资产市场监管条例》（Markets in Crypto-Assets，MiCA）授权为加密资产服务提供商（crypto-asset service provider）。该附属公司已持有同一监管机构颁发的《金融工具市场指令II》（Markets in Financial Instruments Directive II，MiFID II）投资公司牌照。公司称，加密服务将于新年上线，并将分阶段向合作伙伴推出。",
+          "DriveWealth向银行、金融科技公司、数字钱包及其他希望在自有客户渠道中提供投资产品的公司提供经纪基础设施。公司称，MiCA授权让合作伙伴可通过一次整合和一个欧洲监管合作伙伴，在美国股票、交易所交易基金（exchange-traded funds，ETF）、共同基金、固定收益和期权之外增加加密资产。原文称，独立搭建加密产品的公司必须处理牌照、托管、合规、技术和运营控制；如果以既有经纪关系的一部分来提供受监管服务，则可减轻这一负担，对数字钱包或银行而言或可缩短客户需求与新产品上线之间的距离。",
+          "但单次整合并不意味着所有资产在运营层面完全相同。原文指出，证券与加密资产具有不同的市场结构、结算特征和风险特征。合作伙伴仍需对如何向客户呈现产品负责，并需了解DriveWealth处理哪些环节、哪些仍由面向客户的公司承担。原文称，合同、披露、投诉流程和数据责任与API同样重要。",
+          "DriveWealth称，它仍在建设支持加密资产服务的基础设施，并将分阶段提供该服务。公告未提供具体上线日期、支持的加密资产、详细的托管安排，也未给出各阶段确切的服务组合。原文称，考虑整合的公司需要在确定该服务如何契合自身产品计划之前获得这些细节。",
+          "原文强调，监管授权与运营就绪之间的区别尤为重要。授权确立的是，在受其许可与义务约束的前提下，提供商可以开展特定的受监管活动；这并不意味着每项产品都立即可用，也不意味着每个合作伙伴无需进一步分析即可在每个市场提供该服务。原文称，公司必须确认授权范围、相关的护照安排（passporting arrangements），以及适用于其分销模式的任何本地要求。",
+          "DriveWealth自身的声明称，该附属公司依据MiCA获得授权，服务将在稍后推出。原文写道，“across the EU”这一表述传递了公司的雄心，但实际可用性将取决于服务范围以及在成员国之间运营的监管流程。原文称，银行和金融科技公司需要核实被允许的活动，而不要从公告的宽泛措辞中加以推定。",
+          "该授权发布之前，DriveWealth已宣布与Ripple合作。公司称，这一合作将把RLUSD稳定币结算、跨境支付和数字资产托管引入其基础设施，并自欧洲开始。DriveWealth将这两项进展视为稳定币资金、全天候市场和代币化证券的基础工作，并随监管演变而推进。",
+          "原文指出，这些能力相互关联但彼此不同：稳定币结算可能影响资金在参与方之间的流动方式；托管涉及资产的保障与管理；代币化证券则使所有权与转让权利如何映射到既有证券框架成为问题。一家公司可以朝这些功能建设，而不必一次性全部推出。客户需要了解哪些组件可用、哪些依赖合作伙伴，以及结算或托管流程中断时会发生什么。",
+          "对经纪商和银行而言，潜在价值在于更统一的投资体验：客户可能希望在一处持有传统证券和数字资产，而提供商希望避免搭建多个互不相连的系统。但原文同时指出，整合会带来新的运营依赖：提供商必须说明资产如何得到保障、交易如何对账，以及客户支持如何跨不同基础设施处理问题。",
+          "MiCA为加密资产服务提供商建立了统一的欧盟框架，提升了获得并维持授权的重要性。原文称，随着在国家制度下运营的公司的过渡期结束，基础设施提供商与消费者平台正竞相提供受监管的接入。DriveWealth的定位之所以独特，是因为它把该授权带入一个已在服务金融机构的经纪即服务（brokerage-as-a-service）网络。原文称，公司的模式可能吸引那些缺乏资源或意愿自建加密服务的公司，也可能吸引希望延伸既有客户关系、又不想管理数字资产堆栈每个环节的机构。",
+          "但外包受监管职能并不意味着监督不必要。原文称，合作伙伴需要对治理、资产保障、韧性、事件报告，以及在关系变化时退出或转移服务的能力进行尽职调查。因此，原文认为，DriveWealth接下来的信息对潜在合作伙伴而言比授权这一消息本身更重要：产品范围、托管设计、支持的资产、各国可用性、定价和运营责任，将决定这一方案能否从监管许可转为可部署的服务。",
+          "原文还指出，合作伙伴需要考虑加密服务如何契合自身的客户旅程：银行可能倾向于只开放部分资产，或对加密用户适用不同的开户与交易限额。如果基础设施足够模块化以支持这些选择，单一提供商模式或可简化产品发布；否则，合作伙伴可能仍需在核心整合之外设置独立的控制、披露和服务提供商。",
+          "原文的结论是：DriveWealth的MiCA授权为其欧洲附属公司在既有MiFID II证券业务之外提供了加密服务的监管基础；公司称产品将分阶段推出，因此合作伙伴仍需了解范围、托管、时间安排和各国可用性的细节。原文称，战略承诺是覆盖传统与数字资产的单一基础设施关系；商业考验则在于该运营模式是否让责任与风险清晰。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/drivewealth-secures-mica-authorisation-but-crypto-services-will-follow-later/",
+        "published_at": "2026-11-12T00:05:25+08:00",
+        "region": "立陶宛／欧盟",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "FSB呼吁土耳其收紧加密监管并制定稳定币规则",
+        "source_title": "FSB urgest Turkey to tighten crypto oversight, set stablecoin rules",
+        "event_date": "2026-11-11",
+        "key_points": [
+          "FSB在周三发布的同行评审报告中呼吁土耳其收紧加密市场监管，并为稳定币制定专门规则。",
+          "报告称土耳其通过为加密服务提供商引入注册与许可要求取得进展；FSB建议土耳其在正式框架下监测加密相关金融稳定风险、加强监管与执法、改善与外国监管机构的合作和信息共享。",
+          "土耳其资本市场委员会于2025年3月对加密交易所与托管机构引入许可与运营要求，包括最低资本门槛；土耳其还要求隔离托管资产并禁止境内加密支付。"
+        ],
+        "lead_cn": "金融稳定委员会（Financial Stability Board，FSB）在周三发布的同行评审（peer review）报告中，呼吁土耳其收紧对加密市场的监管，并为稳定币（stablecoin）制定专门规则。报告称，土耳其当局通过为加密服务提供商引入注册与许可要求，已经取得进展。",
+        "body_paragraphs": [
+          "这份同行评审报告属于FSB例行的国别评审计划。报告评估了土耳其在落实FSB于2023年发布的加密资产与稳定币全球建议方面的进展。该报告发布在2025年一项范围更广的评审之后；那项2025年评审发现，各司法辖区在如何落实上述建议方面存在差距。",
+          "在政策建议方面，FSB建议土耳其开始在正式框架下监测与加密相关的金融稳定风险。FSB还建议土耳其加强监管与执法，并改善与外国监管机构的合作与信息共享。",
+          "在土耳其已采取的措施中，土耳其资本市场委员会（Capital Markets Board）于2025年3月对加密交易所与托管机构引入了许可与运营要求，其中包括最低资本门槛。",
+          "FSB表示，土耳其还引入了保障措施，包括要求对托管的资产进行隔离，以及禁止境内的加密支付。报告称，这些保障措施有助于限制与加密相关的风险向银行和支付系统蔓延。",
+          "土耳其当局还启动了一个集中化平台，用于监测加密活动。FSB的2025年评审发现，土耳其已完成加密资产相关规则的制定，但缺乏专门的稳定币框架。",
+          "在稳定币方面，2025年6月，土耳其财政部（Finance Ministry）提出了引入额外交易检查以及对稳定币转账设置限制的计划，以打击洗钱。相关报道的标题为：土耳其通过资金来源与用途检查收紧加密规则。"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/fsb-turkey-crypto-oversight-stablecoin-regulation",
+        "published_at": "2026-11-11T20:44:10+08:00",
+        "region": "土耳其",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "OKX与ICE合资平台OKXICE将于11月23日上线代币化证券交易场所预计逾70项资产可供交易",
+        "source_title": "OKX and ICE Set November 23 Launch for Tokenized Securities…",
+        "event_date": "2026-11-23",
+        "key_points": [
+          "OKXICE将于11月23日上线其代币化证券交易场所，预计可有超过70项资产可供交易，首批名单包括来自Coinbase、Circle、Robinhood、Strategy、BitGo、Securitize和Better.com的证券，以及59只Direxion交易所交易基金。",
+          "在OKXICE最初锁定的62家公司中，已有56家根据SEC框架提交异议，名单包括Apple、Amazon、Alphabet、Microsoft、Nvidia、Meta和Tesla。",
+          "符合条件的美国OKX客户可通过基于Uniswap v4、部署在X Layer上的许可型自动做市商池全天候交易；每枚代币由一股标的美国股票一对一支撑，并附带分红、投票等权利。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "加密交易所OKX与纽约证券交易所母公司洲际交易所（Intercontinental Exchange，ICE）的合资平台OKXICE表示，将于11月23日上线其代币化证券交易场所，预计可有超过70项资产可供交易。该平台称，首批上线名单包括来自Coinbase、Circle、Robinhood、Strategy、BitGo、Securitize和Better.com的证券，以及59只Direxion交易所交易基金（Exchange-Traded Fund，ETF）。在OKXICE最初锁定的62家公司中，已有56家根据美国证券交易委员会（SEC）框架提交异议。",
+          "按照OKXICE的说明，符合条件的美国OKX客户将能够全天候交易代币化证券，交易通过建立在Uniswap v4之上、部署在OKX的以太坊二层网络X Layer上的许可型自动做市商（Automated Market Maker，AMM）池进行。Securitize提供代币化基础设施。智能合约将交易与流动性提供限制在已完成所需开户和身份核查的获批钱包范围内。",
+          "每一枚代币代表一项证券权益，由一股标的美国股票一对一支撑，并附带适用的经济权利与股东权利，包括分红、投票以及参与公司行动。客户将把代币存放在自己的合格钱包中，而不是存入该交易场所。该模式依据SEC于9月17日发布的五年期创新豁免运作；这一临时框架允许符合条件的代币化证券交易场所（Tokenized Securities Venue）在不注册为全国性证券交易所的情况下运营，但须满足有关投资者权利、透明度、交易限制和发行方异议的条件。",
+          "SEC的豁免要求交易场所在无关联第三方将其股票代币化之前通知发行方，并给予该公司提出异议的机会；一旦提出异议，该版本的股票便无法在该场所提供。OKXICE披露初始名单后，反对迅速扩大：截至10月中旬已有9家公司提出异议，包括Broadcom、Verizon、CoreWeave和UnitedHealth；随后数量增至22家，并进一步加速。到11月初，最初入选的62家公司中已有56家提出异议，名单包括Apple、Amazon、Alphabet、Microsoft、Nvidia、Meta和Tesla，这使得原始名单中未提出异议的部分高度集中于已与加密或数字资产基础设施相关的公司。",
+          "Applied Optoelectronics公开提及了对流动性、波动性和股票定价可能受到的影响存在不确定性，以及投资者可能将代币化解读为公司背书的担忧。",
+          "Nasdaq支持代币化，但对创新豁免所建立的结构提出质疑。其首席法律与监管官John Zecca认为，代币化股票应保留全国市场系统（National Market System）的保护与市场结构，而不是通过独立的豁免场所交易。Nasdaq警告称，将交易移出该体系可能使流动性、价格发现和市场数据碎片化；它还表示，打算对通过在该豁免下运营的场所将其自身股票代币化提出异议。与此同时，Nasdaq正通过常规受监管基础设施推进代币化。",
+          "Kraken母公司Payward近期将其xStocks产品扩展至约200只英国和欧洲证券，所用结构不需要发行方同意，但根据SEC的豁免也不能向美国投资者提供。",
+          "OKXICE并不会是首个在创新豁免下执行交易的场所：TSV LLC于11月4日通过Tradecraft协议，使用Canton Strategic Holdings的股票，支持了首笔代币化美国上市股票的交易。OKXICE的名单面向零售、支持24小时交易并包括ETF；目前已有超过70项资产得到确认，但并非所有资产都预计在上市首日立即可用。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/okx-and-ice-set-november-23-launch-for-tokenized-securities-trading-venue/",
+        "published_at": "2026-11-11T23:20:47+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "Chainlink与穆迪完成试点通过CCIP跨多条区块链分发信用评级",
+        "source_title": "Moody’s Taps Chainlink to Send Credit Ratings Across Multiple Blockchains",
+        "event_date": "2026-11-10",
+        "key_points": [
+          "Chainlink与Moody’s Ratings完成一项试点，使用Chainlink的跨链互操作协议（Cross-Chain Interoperability Protocol，CCIP），通过Moody’s的代币整合引擎（Token Integration Engine，TIE）把穆迪评级同时分发到许可链与无许可链网络。",
+          "两家公司称，试点在保留穆迪现有发布与治理流程的同时，证明评级可通过单一互操作层跨链传输；其目标是让可信的信用情报随代币化资产流动。",
+          "该试点完全在测试网上运行，使用的是代表性测试数据，没有实际的评级行动被发布到链上，也不涉及实时传播，属于概念验证，不是已上线产品。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Chainlink与Moody’s Ratings已完成一项试点，展示如何一次性把信用评级分发到多条区块链。该试点于周二公布，使用Chainlink的跨链互操作协议（Cross-Chain Interoperability Protocol，CCIP），将穆迪的评级同时分发到许可链（permissioned blockchain）与无许可链（permissionless blockchain）网络。原文称，其目标是让可信的信用情报随代币化资产流动，无论这些资产位于何处。",
+          "该测试通过Moody’s Ratings的代币整合引擎（Token Integration Engine，TIE）运行。TIE是这家拥有125年历史的评级巨头为在区块链环境中传播信用评估及相关数据而建立的系统。两家公司表示，该试点在保留穆迪现有发布与治理流程的同时，证明评级可以通过单一互操作层跨链传输。",
+          "原文对试点的逻辑给出的说明是：随着越来越多的债券、基金和其他资产以区块链代币形式发行，交易这些资产的投资者会期望其所依赖的信用情报在资产所在之处可用，而不是止步于任何单一网络的边界。",
+          "穆迪在这一领域已有实际经验。原文称，在2017年1月至2026年10月期间，穆迪已对70多个数字发行进行评级或评估，其中包括数字债券和代币化基金。这一努力延续了穆迪稳步推进上链的做法：今年早些时候，该公司先在机构级Canton Network上推出TIE，随后将其扩展到Solana，使其评级在一条主要公共区块链上可机器读取。",
+          "Chainlink方面则将CCIP定位为机构代币化的连接组织。原文称，Chainlink最近推出了CCIP的升级版本，并报告称，随着银行和资产管理公司试验在网络之间转移资产，已有数百亿美元规模的跨链价值受到保护。",
+          "Chainlink Labs首席商务官Johann Eid表示：“随着更多金融资产上链，信用情报必须随它们一起移动，跨越各条链，并贯穿每一次评级变化。”他把该试点称为机构资本大规模采用代币化所需的基础性组成部分。",
+          "Moody’s全球数字经济主管Fabian Astic表示：“代币化金融的未来不太可能只存在于单一区块链、平台或市场基础设施之上。”他并称，投资者将越来越期望无论底层技术如何都能获得评级。",
+          "两家公司强调，该试点完全在测试网上运行，使用的是代表性测试数据，没有实际的评级行动被发布到链上，也不涉及实时传播。原文称，它展示的是技术能力，而不是已上线的产品；不过两家公司表示，该模式的设计可在适当治理下容纳未来的评级更新。就目前而言，它是一个概念验证。"
+        ],
+        "source_name": "Decrypt",
+        "url": "https://decrypt.co/382888/moodys-chainlink-credit-ratings-across-multiple-blockchains",
+        "published_at": "2026-11-10T22:01:02+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "全球银行承诺向稳定币项目Faro投入2.7亿美元目标2027年推出",
+        "source_title": "Global banks commit $270M to stablecoin venture targeting 2027 launch",
+        "event_date": "2026-11-10",
+        "key_points": [
+          "由高盛、花旗和BBVA支持的Project Faro获得约2.7亿美元承诺资金，计划在2027年上半年推出美元稳定币。",
+          "该财团由21家金融机构组成，资金拟覆盖新公司五年运营；据彭博社报道，公司计划发行锚定所有七国集团（G7）货币的稳定币，欧元稳定币预计在美元稳定币之后推出。",
+          "Faro成员与Open USD、Qivalis等竞争性稳定币项目存在重叠；截至11月10日，USDT和USDC约占约2900亿美元稳定币市场的85%。"
+        ],
+        "lead_cn": "由21家金融机构组成的财团已承诺向Project Faro投入约2.7亿美元。该项目由大型银行支持，目标是在2027年上半年推出美元稳定币。",
+        "body_paragraphs": [
+          "一个由21家金融机构组成的财团已承诺向名为Project Faro的稳定币计划投入约2.7亿美元。该项目由大型银行支持，目标是作为稳定币发行方运营，并在2027年上半年推出美元稳定币。Project Faro获得高盛（Goldman Sachs）、花旗（Citigroup）和BBVA的支持。",
+          "据彭博社（Bloomberg）报道，这笔资金拟覆盖新公司五年的运营。该公司计划发行锚定所有七国集团（G7）国家货币的稳定币，其中欧元支持的稳定币预计将在美元稳定币推出之后跟进。该集团最初于9月宣布这项计划。彭博社称，已确认的细节有限，知情人士表示，该公司预计将在美国注册成立。",
+          "该集团成员包括花旗（Citigroup）、高盛（Goldman Sachs）、桑坦德银行（Banco Santander）、德意志银行（Deutsche Bank）和BBVA。",
+          "类似计划也在推进。由Stripe牵头的Open USD以Visa为创始合作伙伴之一。Qivalis是一个欧洲银行财团，寻求挑战美元挂钩稳定币的主导地位。",
+          "Faro成员与竞争性财团存在重叠。BBVA是同时参与Open USD和Qivalis的Faro成员之一。荷兰贷款机构Rabobank也是Faro成员，并于5月加入Qivalis；当时该欧元财团新增25家银行，成员总数达到37家。法国巴黎银行（BNP Paribas）是最初在2025年10月探索后来成为Faro项目的10家银行之一，随后加入了Qivalis。",
+          "Qivalis在监管方面取得进展，于2026年10月获得荷兰中央银行（Dutch central bank）授权成为电子货币机构（electronic money institution）。该财团正准备推出一款完全受监管、以欧元计价的稳定币，计划将其用于支付、跨境结算和代币化资产交易。",
+          "Faro进入的是一个由两家加密原生发行方主导的市场。根据DefiLlama数据，截至11月10日，Tether的USDT和Circle的USDC约占约2900亿美元稳定币市场的85%。具体来看，USDT市值（market capitalization）约为1763亿美元，USDC约为704亿美元。",
+          "Faro的参与机构已拥有银行客户、支付网络以及与企业和金融机构的关系，这些关系可帮助分销新稳定币。该财团可不必建立全新客户群，而利用这些现有关系将稳定币介绍给新受众，包括零售用户。由Open Standard财团开发的Open USD正采取类似做法，围绕共享稳定币基础设施汇聚支付提供商、银行、金融科技公司和商户。"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/banks-270m-project-faro-stablecoin-2027",
+        "published_at": "2026-11-11T07:08:28+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "Polymarket美国交易量增长266%仍面临州与联邦监管审查",
+        "source_title": "Polymarket US trading volume jumps 266% despite regulatory battles",
+        "event_date": "2026-11-10",
+        "key_points": [
+          "TickerTracker数据显示，Polymarket美国交易所月度交易量从6月的40.4亿美元升至10月的147.7亿美元，增长约266%。",
+          "10月组合合约交易量为86亿美元，占58.2%；体育合约为45.7亿美元，占31%。",
+          "Polymarket对CNBC称年化收入超过18亿美元；公司仍面临CFTC调查报道、参议员审查呼吁和纽约州总检察长诉讼等监管审查。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Polymarket美国交易所的交易量在6月至10月间增长约266%。据分析平台TickerTracker数据，月度交易量从6月的40.4亿美元升至10月的147.7亿美元；TickerTracker按合约全额赔付价值计算交易。Polymarket周二对CNBC表示，其年化收入已超过18亿美元，高于6月的逾10亿美元。",
+          "从合约类别看，据TickerTracker数据，组合合约（combo contracts）在10月贡献86亿美元，占当月交易量的58.2%；组合合约将多项预测打包为一笔投注。体育合约是下一大类别，交易量为45.7亿美元，占31%。",
+          "Polymarket美国业务自公司5月扩大准入以来快速增长。各州质疑，受联邦监管的预测市场能否在没有州博彩牌照的情况下提供体育合约。Polymarket于2025年末开始允许美国交易者进入这一独立交易所；三年前，其与商品期货交易委员会（Commodity Futures Trading Commission，CFTC）达成和解，并因此在国际平台屏蔽美国交易。",
+          "交易量增长还发生在国际足联世界杯（FIFA World Cup）带动的体育相关交易激增之后。该赛事于6月11日至7月19日举行。据TickerTracker数据，足球合约在6月产生18.1亿美元交易量，从5月的8540万美元上升。",
+          "围绕美国中期选举，政治市场活动也有所增加。Polymarket美国交易所的选举相关合约在11月前10天产生1.082亿美元交易量，而9月全月为1660万美元。尽管有所增加，政治市场在平台11月交易量中仅占2.2%。",
+          "与此同时，Polymarket正推进一笔10亿美元融资轮，据报道其投后估值为210亿美元。投资机构1789 Capital据报领投该轮融资，预计出资约3亿美元；Donald Trump Jr.是1789 Capital的合伙人。",
+          "尽管交易量数据上升，Polymarket仍在多个方面面临监管审查。据报道，CFTC今年早些时候调查Polymarket；美国参议员John Curtis和Adam Schiff分别在6月呼吁该监管机构审查有关该公司付费让社交媒体网红推广虚构交易的指控。",
+          "针对上述指控，Polymarket对Cointelegraph表示，公司“正在对活跃推广内容进行全面审计，以确保其符合我们的标准以及适用的监管和法律披露要求”。",
+          "Polymarket也是面临美国多州法律挑战的预测市场运营商之一。纽约州总检察长Letitia James在9月起诉该公司，指其体育相关事件合约违反州博彩法。该诉讼是美国多州针对预测市场平台（包括Kalshi）行动的一部分，争议在于这些合约属于联邦商品监管还是州博彩法。",
+          "CFTC已为其监管预测市场的权力辩护，并针对10个州试图对平台执行州博彩法采取法律行动。该管辖权争议最终可能诉至美国最高法院。9月，新泽西州官员请求法院审理其针对Kalshi的案件，寻求一项可明确哪个机构对体育相关预测市场拥有管辖权的裁决。"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/polymarket-us-trading-volume-jumps-regulatory-battles",
+        "published_at": "2026-11-10T17:07:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "Hoskinson称无法像CEO那样运营Cardano谁为增长负责",
+        "source_title": "Hoskinson says he cannot run Cardano like a CEO. Who is accountable for its growth?",
+        "event_date": "-",
+        "key_points": [
+          "Charles Hoskinson在11月7日AMA约28分钟处表示，他不控制Cardano的金库（treasury）或共识（consensus），也不能代表所有ADA持有人谈判，因此无法充当该生态系统的首席执行官（CEO）。",
+          "Cardano金库支出由委托代表（Delegated representatives，DReps）批准，宪法委员会（Constitutional Committee）检查合宪性，获资助的接收方按提案条款交付，指定管理员监督资金使用并确保交付。",
+          "Intersect在11月6日更新中报告，AdaStat的10月维护里程碑于11月2日签核；11月6日开发报告称Leios最新工作仍属开发工作，而非主网（mainnet）发布。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Charles Hoskinson在11月7日AMA进行到约28分钟时表示，他不控制Cardano的金库（treasury）或共识（consensus），也不能代表所有ADA持有人进行谈判。他提出自己无法充当该生态系统的首席执行官（CEO），这使持有人面对一个实际问题：谁为旨在增长Cardano的工作负责？",
+          "答案取决于具体决策。委托代表（Delegated representatives，DReps）批准金库支出，宪法委员会（Constitutional Committee）检查合宪性，获资助的接收方按提案条款交付。被指定的管理员必须监督资金使用并确保实现交付物。Cardano的金库指引明确将批准支出与报告支付和结果分开。",
+          "这些角色回答不同的问题。DReps决定是否支持资助。宪法委员会的授权限于合宪性；它必须透明运作并公布每项决定。任何人都可以提出Cardano金库提款提案，但需要DReps和宪法委员会批准，必须符合《宪法》（Constitution），并须保持在适用的净变化上限（Net Change Limit）之内；该上限是一个时期内可离开金库的ADA数量上限。",
+          "《宪法》的金库标准要求提案说明目的、交付期、成本、退款情形，并披露潜在接收方在过去24个月内是否获得过金库ADA。资助请求还必须分配ADA用于定期独立审计（audit）和监督指标，并指定负责监督支出和确保交付的管理员。在管理员于资金拨付前持有已提取资金时，资金必须留在社区可审计的独立账户中，并遵守《宪法》对委托的限制。",
+          "两个交付记录可用于查看。AdaStat是一家Cardano区块浏览器（explorer）。Intersect在11月6日更新中报告，AdaStat的10月维护里程碑已于11月2日签核；根据该报告，AdaStat报告了浏览器安全、错误处理、恢复和可用性工作。11月3日的共识报告将Leios实施和原型工作映射到获资助的Initiative 4，并将维护映射到Initiative 17；11月6日的开发报告称主开发分支上的最新Leios变更仍属开发工作，而非主网发布。",
+          "该章程描述的是义务，而非对所有项目已验证的合规。AdaStat的验收归属于Intersect。Leios在11月6日的报告中仍属开发工作。两个例子都不衡量生态系统范围内的采用情况。Cardano的问责指引增加了实际基准：公开里程碑报告、公布支出、交付拟议工作，并在适用时退回未使用资金；这些期望帮助持有人判断绩效。要求资助审计，与证明某项审计已经发生不同；退款条件也取决于获批条款。",
+          "Hoskinson仍是Input Output Group的CEO和创始人，依据是该公司的领导层页面。他的AMA将构建应用视为把人们带入Cardano的途径。随后，在广播进行到约2分19秒时，他区分了以个人身份对受众讲话和以Cardano的CEO身份讲话。交付责任也在不同组织间分散。",
+          "IO在11月5日宣布，共识工程将转移到Serokell公司，开发者体验将转移到AlwaysTrue，工程师随其工作一同转移。这些调动遵循各自的日程，持续到2027年初，并通过Intersect进行公开协调。持有人也保留治理回应方式：他们可以注册为DReps，将投票权委托给某个DRep，或更改该投票委托。这使他们能够对资助决策和投票记录采取行动。"
+        ],
+        "source_name": "CryptoSlate",
+        "url": "https://cryptoslate.com/hoskinson-says-he-cannot-run-cardano-like-a-ceo-who-is-accountable-for-its-growth/",
+        "published_at": "2026-11-11T23:10:14+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "VitalikButerin告别「超声货币」称ETH的价值在于稳定性",
+        "source_title": "Vitalik Buterin Moves On From ‘Ultrasound Money,’ Says ETH’s Value Is Stability",
+        "event_date": "2026-11-08",
+        "key_points": [
+          "以太坊联合创始人 Vitalik Buterin 表示，人们不应再把 ETH 当作销毁手续费的代币来估值，而应把它当作价值储存手段；他还称手续费销毁「从来不是真正的价格下限」。",
+          "Ethlabs 创始成员 Binji Pande 对 Decrypt 表示，他同意 Buterin 的看法，并称 ETH 是比 Bitcoin 更「面向未来的价值储存手段」，理由是 AI 与量子威胁。",
+          "报道称，这标志着以太坊社区叙事的一次明显转变：2021 年该网络开始销毁每笔交易手续费的一部分时，ETH 曾被冠以「超声货币」的称号。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "以太坊联合创始人 Vitalik Buterin 希望人们停止将 ETH 视为销毁手续费的代币，而开始把它当作价值储存手段。他主张，手续费销毁「从来」没有看上去那么强。Ethlabs 创始成员 Binji Pande 对 Decrypt 表示，他同意这一看法，并称 ETH 是比 Bitcoin 更「面向未来的价值储存手段（store of value）」。",
+          "报道称，这标志着以太坊社区叙事的一次明显转变。2021 年，当该网络开始销毁每笔交易手续费的一部分时，ETH 被冠以「超声货币（ultrasound money）」的称号。当时的论点是：随着更多人使用以太坊，流通中的代币会减少，而代币越少价格就越高。Buterin 现在则称，这并不像人们想象的那样重要。",
+          "Buterin 周日发推称：「如果手续费销毁持续低于盈亏平衡的10%，我们不应感到难过；ETH 的价值来自别处。」他所说的价值是稳定性，而这种稳定性来自以太坊的去中心化、抗审查以及强大的安全性。他进一步解释为何「ETH 作为价值储存」比「ETH 作为销毁手续费的代币」更值得关注，并列出三个主要原因，其中第一条是：ETH 作为销毁手续费的代币，从来不像看起来那么强。",
+          "支持手续费销毁结构的人曾认为，手续费为 ETH 提供了价格下限，就像一家公司的股票可能由收入和利润支撑。2021 年至 2023 年，以太坊每年销毁数百万枚 ETH，但 Buterin 称这「从来不是真正的下限」。他说，这些销毁大部分来自加密内部的用途，例如借贷和「愚蠢的 NFT 购买」。他还说：「如果我们决定，我们真的想要为了证明当前约 2700 亿美元市值而优化 ETH 的手续费销毁，那么以太坊本质上将作为一家世界规模的大公司在运作。」这样做会让以太坊失去其主要卖点之一：去中心化。",
+          "基础设施提供商 Enso 的联合创始人兼首席执行官 Connor Howe 告诉 Decrypt，以太坊的 layer-2 扩张让手续费销毁的论点变得更糟。Howe 表示，很大一部分活动已经转移到 layer-2 上，用户结算交易时支付的费用「几乎为零」。他补充说，要优化一个销毁手续费的代币，你还会希望优化更高的 gas 价格，而没有人希望这样。",
+          "Pande 对 Decrypt 说：「我同意 Vitalik，我也相信 ETH 最适合被定位为面向未来的价值储存。」他指出，该网络抗审查、拥有「良好的分配」、可被广泛获取，并且「处于代币化、稳定币和 DeFi 等未来增长领域的中心」。",
+          "价值储存（store of value）是一种随时间保持价值的资产，这意味着投资者可以把资金投入其中，而不必担心它会消失。历史上，黄金一直被视为终极的价值储存手段，而 Bitcoin 支持者则把它宣传为「数字黄金」。Pande 则认为，与以太坊相比两者都不够。他说，黄金长期承担价值储存角色，但如今世界更加全球化，我们需要更高的可携带性，这是黄金无法提供的；「超过一定程度后，储存黄金也没有用，你会遇到物理限制。」",
+          "谈到 Bitcoin 作为价值储存，Pande 表达了他的担忧：随着 AI 和量子威胁逼近，它并非「面向未来」。以太坊一直在为这些威胁做准备：1 月，以太坊基金会成立了专门的后量子团队。相比之下，比特币社区在如何应对量子威胁上似乎更为分裂。Ethlabs 联合创始人 Julian Ma 对 Decrypt 说：「安全性比任何其他地方都更深地植根于以太坊文化中。」他还表示，AI 被用于网络攻击并可能破解密码学，这强化了 ETH 作为可编程价值储存资产的地位。",
+          "Pande 补充说，较新的资产无法在价值储存上与 ETH 竞争，因为无法验证它们是否被公平分配。他说，以太坊基金会持有不到 0.2% 的 ETH，而该代币已交易了 11 年。他说：「在 2026 年试图分发或挖出一种新资产作为价值储存，就像试图在一群食人鱼的海里藏一袋肉。它可以而且 WILL 被中心化。」不过，Howe 说以太坊基金会「需要开始真正倾听并审视在其网络上构建的应用」，并称 Buterin 最近的推文「说得对」，但「说出来花了太长时间」。"
+        ],
+        "source_name": "Decrypt",
+        "url": "https://decrypt.co/382837/vitalik-buterin-moves-on-from-ultrasound-money-says-eths-value-is-stability",
+        "published_at": "2026-11-10T01:14:10+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      }
+    ],
+    "notes": [
+      "统计窗口按北京时间2026-11-05 00:35至2026-11-12 00:35核对，所有入选文章published_at均落在窗口内。",
+      "政策风向覆盖美国（OCC国家信托银行牌照）、欧盟（立陶宛MiCA授权）、土耳其（FSB同行评审）三地，满足“至少一篇美国、地区分散”。",
+      "已排除纯价格/行情类稿件（如A000、A013、A033、A034、A038、A054、A056、A060、A065、A072、A078、A091）以及价格预测软文（A022、A023、A024）。",
+      "已排除非加密或主题偏离稿件：A002（OpenAI控制室）、A009（欧洲创始人信任调查）、A018（农业无人机新闻稿）、A083（AI漏洞披露研究）、A088（财报电话会全文转录）。",
+      "已排除低信息量或包装页：A063（ESMA活动页）、A064（英国央行日程）、A106（CFTC函件目录索引）、A097（Kalshi与Polymarket对比导流页）、A014（“今日加密要闻”汇总），以及The Defiant多条仅数百字符的短讯（A054、A056、A060、A065、A072、A078、A085）。",
+      "已避免同一事件重复占用多栏：OKX-ICE场馆只选A005（不选A001）；银行稳定币Project Faro只选A046（不选A052）；比特币ETF持仓只作备选未入选（A004、A030、A014内容重叠）；Initia二次被攻只作备选（A016、A042主题重复）。",
+      "备选说明：若政策栏目需增加司法维度，可用A021（纽约法院驳回Novig禁制令，认定体育事件合约非互换）替换；若意见领袖需更偏机构视角，可用A050（Ava Labs高管称NYSE合作标志“通用型公链时代”结束）替换A006。"
+    ]
+  },
+  "factcheck": {
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      "item 2 contains question-style future/unknown wording; ensure the source explicitly raises it",
+      "item 5 contains relative time wording; replace with exact date",
+      "item 7 contains question-style future/unknown wording; ensure the source explicitly raises it",
+      "item 7 contains relative time wording; replace with exact date",
+      "item 9 contains relative time wording; replace with exact date"
+    ]
+  },
+  "outputs": {
+    "docx": "reports/2026/加密货币观察_20261112.docx",
+    "manifest": "reports/2026/_manifests/加密货币观察_20261112.json"
+  }
+}
