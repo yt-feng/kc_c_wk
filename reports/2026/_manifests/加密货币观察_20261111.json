@@ -1,0 +1,285 @@
+{
+  "generated_at": "2026-11-11T10:47:58+08:00",
+  "period": "2026-11-04 10:47 至 2026-11-11 10:47（北京时间，最近7天）",
+  "raw_count": 117,
+  "collection_warnings": [
+    "collection stages: discovered=1074, deduplicated=887, body_attempted=202, verified=117; sources={'publisher:CoinDesk': 20, 'publisher:Cointelegraph': 26, 'publisher:Decrypt': 22, 'publisher:CryptoSlate': 10, 'publisher:The Defiant': 47, 'publisher:Ledger Insights': 1, 'publisher:FinanceFeeds': 20, 'Bing News': 98, 'GDELT': 0, 'Google News': 830}",
+    "no candidates for query: MiCA ESMA CASP stablecoin crypto regulation guidance",
+    "no candidates for query: cross chain oracle RWA infrastructure wallet staking rollup interoperability crypto",
+    "no candidates for query: crypto acquisition funding IPO futures CME stablecoin revenue tokenized securities",
+    "no candidates for query: crypto company raises acquires launches futures ETF tokenized fund stablecoin adoption",
+    "no candidates for query: site:blockworks.co (crypto OR bitcoin OR ethereum OR stablecoin OR tokenization OR digital assets)"
+  ],
+  "report": {
+    "items": [
+      {
+        "section": "政策风向",
+        "title_cn": "民主党人据报在CLARITYAct失败后寻求扩大SEC对加密的监管",
+        "source_title": "Democrats reportedly seek greater SEC control over crypto after CLARITY Act collapse",
+        "event_date": "2026-11-04",
+        "key_points": [
+          "据记者Eleanor Terrett在11月4日的发文，众议院民主党人正在讨论一项更广泛的加密市场结构法案，内容包括更大的美国证券交易委员会（SEC）角色、更小的美国商品期货交易委员会（CFTC）角色以及更多政府伦理限制；法案文本尚未公布。",
+          "Waters的第31号修正案是2025年7月的九页文本，要求24小时内提款、隔离且破产隔离的客户资产、月度储备证明、客户订单优先等；众议院规则委员会于2025年7月14日以8比4投票反对使其有资格进入院会审议。",
+          "参议院9月15日对推进CLARITY Act的cloture投票为49票赞成、50票反对，未达到60票；原文列出的待处理事项包括SEC与CFTC权限划分等。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "据CryptoSlate报道，记者Eleanor Terrett在11月4日的发文中称，众议院民主党人正在讨论一项更广泛的加密市场结构法案，部分建立在众议员Maxine Waters早前的投资者权利提案之上。该文称，这些提案包括更大的美国证券交易委员会（SEC）角色、更小的美国商品期货交易委员会（CFTC）角色以及更多政府伦理限制。与民主党工作人员交谈的行业消息人士构成了该说法的依据，而法案文本尚未公布。",
+          "Waters的2025年修正案显示了民主党框架可能包含的客户规则。该修正案为第31号修正案，是2025年7月的一份九页文本，将对交易所、经纪商、托管机构及其他面向零售的数字资产公司施加义务。提款和转账应在24小时内完成，但经记录的善意欺诈案件除外。该修正案还要求符合条件的公司加入证券投资者保护公司（SIPC），或设立同等客户资产保护安排，将客户资产存放在隔离、破产隔离账户中，并在再抵押、出借或质押前取得肯定且可撤销的同意。",
+          "在储备证明方面，Waters文本要求提供可通过密码学验证的储备证明，并包括持牌会计师的月度证明。客户订单在最佳执行实践下应优先于自营订单，关联自营交易商或做市商不得在同一平台与客户交易。人工支持应在五分钟内全天候可联系，客户和监管机构应在48小时内获悉特定安全漏洞。",
+          "该文本增加了一页费用披露、下一工作日结算，以及显示持有某资产处于亏损状态的客户比例的指标。其保险措辞涵盖通过债券、保险或受保信托对受覆盖实体监管违规造成的损失，这比补偿所有市场损失的承诺更窄。众议院规则委员会于2025年7月14日以8比4投票反对使该修正案有资格进入院会审议，该修正案在委员会中终止。",
+          "在9月的CLARITY Act文本方面，国会研究服务局9月15日的分析描述了客户财产保护、对混同的限制以及数字资产客户的破产待遇。分析还列出交易所、经纪商和交易商的CFTC注册、涵盖加密市场操纵、利益冲突和客户保护的核心原则，以及《银行保密法》义务。SEC在投资合同发行中保留角色，包括对合格代币发行者最高2亿美元并附披露的豁免。",
+          "参议员Cynthia Lummis、John Boozman和Tim Scott表示，他们9月14日的修订版包含民主党人要求的126项实质性修订。其中包括借鉴Tillis-Gallego方法的伦理条款，并由州总检察长执行，以及当银行存款外流规模较大时财政部限制稳定币激励的权力。该数字是提案人的统计，与民主党对该文本的认可不同。伦理文本要求某些拥有大量金融利益的受覆盖官员剥离或使用盲信托，双方在其范围和可执行性上仍有分歧。",
+          "Waters文本设定了统一的24小时期限和每年12次的证明安排，对质押和出借的肯定同意、客户优先订单顺序和关联交易禁令，以及补偿机制。9月文本描述的是原则，民主党继任文本可将原则转化为可执行权利，并配有时限、报告标准和处罚。关于扩大SEC角色，CFTC监管衍生品，并对现货商品市场拥有反欺诈和反操纵权，但全面现货交易所监管需要新立法，9月草案试图提供这一点。",
+          "民主党文本可能增加SEC对中介机构、发行者或客户标准的监督，或重划在机构之间划分活动的定义。交易所将面临额外的注册、披露、订单处理和托管义务；托管机构将面临更高的隔离和验证标准；较小平台将面临更高的固定合规成本。2026年3月SEC和CFTC的解释将比特币（BTC）视为数字商品，交易所监管和代币分类是不同法律事项。在交易所持有BTC的客户会受到提款期限、储备验证和破产处理影响，而自我托管持有者的风险不同。",
+          "上市公司会计监督委员会（PCAOB）投资者倡导工作人员警告称，普通储备证明报告不同于全面审计，可能遗漏负债、所有权权利和借入资产。SIPC表示，非证券加密资产即使在一家SIPC成员经纪商处也不在其保护范围内，因此同等机制需要就合格实体、限额和资金另行规定条款。Waters文本还设定一年生效期，SEC和CFTC联合规则最长18个月，小实体可能额外一年。",
+          "在成为法律的路径上，推进动议的cloture需要60票，投票结果为49票赞成、50票反对，四名共和党人投反对票。该投票关乎推进该法案，任何通过投票都尚待重启。任何继任法案都需要两院文本一致，并由总统签署或推翻否决。原文列出的待处理事项包括SEC与CFTC权限划分、新交易所义务成本、去中心化金融（DeFi）和开发者待遇，以及银行对稳定币激励和伦理执行的担忧。机构可在现有法律内行动，例如SEC的8月Regulation Crypto Assets提案、9月17日Innovation Exemption和10月1日托管提案，其意见截止12月7日。补偿机制和所有现货市场管辖权需要立法。"
+        ],
+        "source_name": "CryptoSlate",
+        "url": "https://cryptoslate.com/democrats-reportedly-seek-greater-sec-control-over-crypto-after-clarity-act-collapse/",
+        "published_at": "2026-11-05T11:10:00+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "加密货币信托公司能否在美国衍生品结算领域与银行竞争",
+        "source_title": "Can crypto trust firms compete with banks in US derivatives settlements?",
+        "event_date": "2026-11-05",
+        "key_points": [
+          "美国商品期货交易委员会（Commodity Futures Trading Commission，CFTC）于11月5日发布不采取行动救济，允许衍生品清算机构在满足与传统结算银行相同评估与监控要求的前提下，使用信托公司进行每日结算；根据该机构规则，这一职能此前仅限于银行。",
+          "根据监管文件，全球最大衍生品市场运营商之一芝商所（CME Group）在2026年上半年通过其清算系统平均每个工作日转移87亿美元，高于2025年的每日67亿美元；这些数字代表清算公司之间为结算盈亏而转移的资金，而非结算银行赚取的费用。",
+          "该救济以不采取行动函而非正式修订规则的形式发布。Buchanan Ingersoll & Rooney股东Jordan Yeagley对Cointelegraph表示，委员会领导层的变动可能撤回该CFTC函件，为避免这一潜在风险，需要委员会采取更正式的行动，例如修订规则。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "加密货币公司正进一步深入传统上由银行主导的金融服务领域，寻求在美国衍生品结算中占据一席之地，该市场每日有数十亿美元资金易手。这一推进之际，监管机构扩大了信托公司可提供的服务范围；与此同时，传统银行团体正就加密公司向类银行业务扩张所适用的部分监管框架提出挑战。",
+          "美国商品期货交易委员会（Commodity Futures Trading Commission，CFTC）11月5日的一项决定体现了这一转变：允许衍生品清算机构使用信托公司与其清算会员进行每日结算，而根据该机构规则，这一职能此前仅限于银行。这项救济可能为受监管的加密托管机构创造新的业务机会，但其可撤销的性质以及美国政治格局的变化，令这一监管开放的持久性存疑。",
+          "衍生品结算业务的规模可以说明这一机会的量级。根据监管文件，全球最大衍生品市场运营商之一芝商所（CME Group）在2026年上半年通过其清算系统平均每个工作日转移87亿美元，高于2025年的每日67亿美元。这些数字代表清算公司之间为结算盈亏而转移的资金，而非结算银行赚取的费用；它们仍显示出信托公司可能日益参与提供的基础设施所支撑的资金流动规模。",
+          "CFTC清算与风险部（Division of Clearing and Risk）在衍生品清算机构Nodal Clear于10月29日提出请求后，于11月5日发布不采取行动救济（no-action relief），允许清算机构在满足与传统结算银行相同评估与监控要求的前提下，使用信托公司进行每日结算。该决定针对的是联邦商品法与CFTC第39.14条规则之间的不一致：前者允许客户资金存放于银行或信托公司，后者仅将结算银行定义为银行。",
+          "Nodal Clear于2025年与Coinbase合作，将USDC整合进美国期货交易。据Cointelegraph了解，Coinbase Custody Trust此前已被预期在该安排下提供每日结算服务。其他加密公司也在扩展机构金融服务：11月4日，BitGo推出全球市场（Global Markets）部门，整合衍生品交易、融资、抵押品管理与结算能力；Coinbase的全国信托银行牌照于11月6日生效，使Coinbase National Trust Company（与Coinbase Custody Trust为不同实体）可提供受联邦监管的数字资产托管服务。",
+          "过去数月，Circle、Ripple、Crypto.com以及Stripe旗下的Bridge等多家主要加密公司亦获得美国全国信托银行批准。这些牌照由货币监理署（Office of the Comptroller of the Currency，OCC）授予，反映该行业向受联邦监管的金融服务扩张。专业信托公司的扩张已引发传统银行团体的反对：10月，美国独立社区银行家协会（Independent Community Bankers of America）起诉OCC，主张其全国信托银行牌照规则可能允许加密公司在不满足对传统银行施加的全部要求的情况下从事某些类银行业务。该诉讼反映了在专业金融机构扩张至银行同样提供的服务时，应如何对其进行监管的更广泛分歧。",
+          "The Digital Chamber首席执行官Cody Carbone对Cointelegraph表示，CFTC的救济并未使信托公司处于比传统银行更好或更差的位置。Carbone称，信托公司与银行本就为其各自牌照所允许的服务展开竞争；他补充说，该决定为清算机构提供了更多选择，同时并未阻止银行保留其业务。“信托公司牌照不是监管捷径，”他说。",
+          "尽管存在潜在机会，CFTC的决定仍留下关于信托公司能在多大程度上稳固地在衍生品结算中建立长期角色的问题。该机构发布的是不采取行动函，而非正式修订其规则。该函指出，若满足特定条件，CFTC工作人员将不会建议对使用信托公司进行每日结算的清算机构采取执法行动。与通常需要公开通知与评论程序的正式规则修订不同，工作人员的不采取行动救济不改变底层规则，并且可以被撤回。“委员会领导层的变动可能撤回该CFTC函件。为避免这一潜在风险，需要委员会采取更正式的行动，例如修订规则，”Buchanan Ingersoll & Rooney股东Jordan Yeagley对Cointelegraph表示。",
+          "这种不确定性出现在该机构政治上重要的时刻。尽管法定结构规定设有五名委员，CFTC主席Michael Selig仍是该监管机构唯一的委员。Selig自2025年12月起领导该机构，四个委员席位处于空缺，同时该监管机构正扩大其在数字资产市场方面的工作。",
+          "政治环境也在11月3日美国中期选举后发生变化，民主党赢得了国会两院的控制权。将于1月就职的新一届国会将拥有更大权力审视CFTC的监管议程。参议院在确认填补该机构空缺委员席位的提名人选方面也扮演角色，而众议院和参议院农业委员会负责监督该监管机构。参议员Sherrod Brown在11月3日赢得俄亥俄州参议院选举，尽管加密支持的政治行动委员会投入了超过6000万美元的反对支出；他可能在参议院农业委员会担任重要角色。"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/crypto-trust-firms-compete-banks-us-derivatives-settlements",
+        "published_at": "2026-11-11T05:34:40+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "政策风向",
+        "title_cn": "希腊通过加密税法净收益超500欧元征税10%质押与DeFi收入税15%",
+        "source_title": "Greece Passes Crypto Tax Law With 10% Gains Levy, 15% on Staking and DeFi",
+        "event_date": "-",
+        "key_points": [
+          "希腊议会通过法案，对年度净加密收益超过500欧元（557美元）的个人征收10%资本利得税，规则定于2027年1月1日生效。",
+          "质押、加密借贷和DeFi流动性收入被归类为利息收入，按15%征税。",
+          "议会科学服务部门审查指出，法案中“有偿”处置的宽泛措辞可能使代币对代币互换成为应税事项，尽管政府表示无意征税。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "希腊议会周四通过一项法案，对加密货币利润征收10%的资本利得税。这标志着从10月讨论的提案转向立法者批准的立法。此次通过之前，该提案于10月进行了公开咨询。草案提出的10%税率已经低于希腊官员6月讨论的15%税率。",
+          "该措施还对质押（staking）、加密借贷和去中心化金融（Decentralized Finance，DeFi）收入征收15%的税。立法中的加密条款位于财政部（Finance Ministry）一项更广泛的一揽子计划之内，该计划涉及债务偿还、金融监管和政府会计，新的加密所得税规则定于2027年1月1日生效。",
+          "根据规定，年度净加密收益在500欧元（557美元）或以下的个人投资者免税。一旦超过该门槛，10%的税适用于全部收益，而不仅仅是超过500欧元的部分。例如，净收益为600欧元（669美元）的投资者，按新税率需缴纳60欧元（67美元）的税，而不是10欧元（11美元）。",
+          "规则通常通过从加密资产被处置时收到的价值中减去购置成本来计算收益。将比特币卖出换取欧元是一个应税事件，但用加密资产购买商品或服务也可算作处置。投资者需要交易记录，以确定他们为资产支付了什么，以及这些资产在出售或花费时值多少。",
+          "来自质押（staking）、借贷和为DeFi协议提供流动性的收益处理方式不同。根据财政部（Finance Ministry），希腊将把这些回报归类为利息收入，并按15%征税。符合条件的超过500欧元（557美元）的加密损失可以结转五年，并抵扣未来的加密收益。该法案还为投资者提供了一个12个月的窗口期，可以自愿申报此前未报告的加密收入，免于滞纳金或利息，前提是他们满足条件并在申报后60天内缴纳税款。",
+          "加密互换仍是一个税务问题。希腊表示，将一种加密货币兑换成另一种本身不应触发资本利得税。但立法者批准的措辞可能没有政府意图的那样明确地排除这一点。议会科学服务部门（Scientific Service）的审查指出，该法案的宽泛语言涵盖“有偿”（for consideration）进行的处置。审查称，该短语可能包括代币对代币交易，尽管随附的解释说明此类互换不应产生应税收益。",
+          "审查人员建议明确豁免，并建议为涉及稳定币（stablecoin）和电子货币代币的交换制定更清晰的规则。这些细节对于在不兑现为法定货币的情况下在资产之间轮换的交易者很重要。希腊还在准备实施该税所需的行政规则。一位财政部（Finance Ministry）高级官员告诉路透社（Reuters），有关交易透明度和税务审计的指导意见将在未来几周发布。政府尚未估算该税将带来多少收入。官员们表示，市场难以衡量，因为许多希腊加密投资者使用海外交易平台。"
+        ],
+        "source_name": "Decrypt",
+        "url": "https://decrypt.co/382756/greece-passes-crypto-tax-law-staking-defi",
+        "published_at": "2026-11-07T04:36:03+08:00",
+        "region": "希腊",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "比特币开发者合并3项新BIP交易费用可能骤降",
+        "source_title": "Bitcoin devs merge 3 new BIPs, and transaction fees could plummet",
+        "event_date": "2026-11-04",
+        "key_points": [
+          "BIP458于11月2日、BIP459于11月3日、BIP460于11月4日合并进比特币提案仓库；集成草案未指定激活参数。",
+          "在假设的全聚合情形下，费用对建模的联合支付下降约14.2%，对建模的整合下降27.3%。",
+          "钱包需要支持拟议的新输出类型；全聚合需要协调签名并谨慎处理秘密 nonce（secret nonces）。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "11月2日至4日，比特币提案仓库新增三项草案规范：BIP458于11月2日合并，BIP459于11月3日合并，BIP460于11月4日合并。CryptoSlate 报道称，这些提案可能降低由多个用户共同组装的支付费用，也可能降低把许多输入整合为一个输出的费用。其机制会合并附加在交易输入上的签名；输入即被花费的币。",
+          "半聚合（half-aggregation）把独立生成的签名合并起来，不需要交互式签名会话：n 个 64 字节签名变为 32(n+1) 字节。全聚合（full aggregation）需要协调签名，但会为一组内所有被聚合的签名生成一个 64 字节签名。以十个签名计算，640 字节分别缩减为 352 字节或 64 字节；在编码开销之前，签名负载分别减少 45% 和 90%。",
+          "文章强调，整个交易的费用降幅会小得多。比特币费用通常以每虚拟字节（virtual byte，vB）表示；在比特币的权重规则下，虚拟大小是交易权重除以四后向上取整。假设示例把所有输入放入一个符合条件的聚合组，使用默认签名设置、34 字节输出脚本，且没有可选的额外见证数据，即附件（annex）。交易开销、见证编码和该组的标记字节都被计入。",
+          "在一个十输入、十输出的联合交易示例中，交易大小从 1，016 vB 降至半聚合的 944 vB 或全聚合的 872 vB，费用约降低 7.1% 或 14.2%。按示例性的每 vB 10 satoshis 计算，节省为 720 或 1，440 satoshis。该示例把全部输入放入一个符合条件的聚合组，使用默认签名设置、34 字节输出脚本，且没有附件（annex）。",
+          "第二个示例把 100 个输入整合为一个输出，整合受益更多。其大小从 5，804 vB 降至半聚合的 5，012 vB 或全聚合的 4，220 vB，费用约降低 13.6% 或 27.3%。文章指出，输入与输出的组合会改变费用收益；在这些假设下，签名占比较高的整合获得更大的百分比费用收益。",
+          "BIP460 未指定软分叉（soft fork）激活参数，其拟议的见证（witness）版本目前为 v2，需要与其他提案协调。钱包需要支持拟议的新输出类型，因为现有 Taproot 输出不会自动获得聚合，聚合仅限于直接基于签名或密钥路径（key-path）的花费。执行脚本的脚本路径（script-path）花费不能加入聚合组，符合条件的输入可以选择退出。",
+          "拟议集成保留见证栈框架，每个聚合组增加一个标记字节，并允许输入使用普通 BIP341 签名选择退出；选择退出的花费不能加入聚合。全聚合需要一种有状态的两轮签名协议（stateful two-round signing protocol），重复使用秘密 nonce（secret nonces）可能暴露签名密钥，这使得硬件和 air-gapped 支持要求很高。半聚合避免该联合签名会话，但协作式交易构建仍需要达成一致。",
+          "文章给出的示例不是当前网络平均值，也不是可获得的折扣。签名字节属于见证数据，因此签名负载的减少不等于总交易费用的百分比减少。上述费用节省是在费率不变时按 (v0-v)/v0 计算并四舍五入到 0.1%；示例中的所有输入均在一个聚合组内，使用默认签名哈希（sighashes）、无附件（annex）、34 字节输出脚本。"
+        ],
+        "source_name": "CryptoSlate",
+        "url": "https://cryptoslate.com/bitcoin-devs-merge-3-new-bips-and-transaction-fees-could-plummet/",
+        "published_at": "2026-11-11T07:50:19+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "行业前沿",
+        "title_cn": "Chainlink与Moody'sRatings试点跨链分发信用评级",
+        "source_title": "Moody’s Taps Chainlink to Send Credit Ratings Across Multiple Blockchains",
+        "event_date": "2026-11-10",
+        "key_points": [
+          "Chainlink 与 Moody's Ratings 已完成一项试点，使用 Chainlink 的跨链互操作协议（Cross-Chain Interoperability Protocol，CCIP），在许可链与非许可链网络上同时分发 Moody's 的评级，测试通过 Moody's Ratings 代币集成引擎（Token Integration Engine，TIE）运行。",
+          "该试点在测试网上运行、使用代表性测试数据，没有在链上发布任何实际的评级行动，也不涉及实时分发；两家公司表示试点保留了 Moody's 现有的发布与治理流程。",
+          "2017 年 1 月至 2026 年 10 月间，Moody's 已对 70 多个数字发行进行评级或评估，包括数字债券和代币化基金。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Chainlink 与 Moody's Ratings 已完成一项试点，展示信用评级如何同时跨多条区块链分发。该测试于周二公布。两家公司表示，其目标是让可信的信用情报随代币化资产所到之处而流动。",
+          "测试使用 Chainlink 的跨链互操作协议（Cross-Chain Interoperability Protocol，CCIP），在许可链与非许可链网络上同时分发 Moody's 的评级。评级分发通过 Moody's Ratings 代币集成引擎（Token Integration Engine，TIE）进行，这是这家拥有 125 年历史的评级巨头为在区块链环境中传播信用评估及相关数据而构建的系统。两家公司表示，试点保留了 Moody's 现有的发布与治理流程，同时证明评级可以通过单一互操作层跨链传输。",
+          "两家公司给出的逻辑很直接：随着越来越多的债券、基金和其他资产以区块链代币形式发行，交易这些资产的投资者会期望其所依赖的信用信息在资产所在的任何地方都可获取，而不是止步于某一网络的边界。Moody's 在此拥有实际经验，2017 年 1 月至 2026 年 10 月间，其对 70 多个数字发行进行了评级或评估，包括数字债券和代币化基金。",
+          "Chainlink Labs 首席商务官 Johann Eid 表示：“随着更多金融资产上链，信用信息必须随之移动，跨越各条链并贯穿每一次评级变更。”他称该试点是机构资本所需的基础性组成部分，以便大规模采用代币化。Moody's 数字经济全球主管 Fabian Astic 则认为，“代币化金融的未来不太可能只存在于单一区块链、平台或市场基础设施之上”，投资者将日益期望无论底层技术如何都能获得评级。",
+          "这一由 Chainlink 与 Moody's Ratings 完成的试点，建立在 Moody's 稳步推进上链的基础上：今年早些时候，该公司在机构级 Canton Network 上推出 TIE，随后将其扩展至 Solana，使其评级在一条主要公共区块链上可机器读取。",
+          "Chainlink 则将 CCIP 定位为机构代币化的连接组织，最近推出了升级版本，并报告在银行与资产管理机构试验跨网络转移资产之际，已保障数百亿美元的跨链价值。在该试点中，CCIP 是评级跨链传输的通道。",
+          "不过，该试点完全在测试网上运行，使用的是代表性测试数据，没有在链上发布任何实际的评级行动，也不涉及实时分发。它展示的是技术能力，而不是已经推出的产品。两家公司表示，该模式的设计目标是在适当的治理下容纳未来的评级更新。就目前而言，它是一个概念验证。"
+        ],
+        "source_name": "Decrypt",
+        "url": "https://decrypt.co/382888/moodys-chainlink-credit-ratings-across-multiple-blockchains",
+        "published_at": "2026-11-10T22:01:02+08:00",
+        "region": "国际",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "21家金融机构向ProjectFaro承诺约2.7亿美元拟2027年上半年发行美元稳定币",
+        "source_title": "Global banks commit $270M to stablecoin venture targeting 2027 launch",
+        "event_date": "2026-11-10",
+        "key_points": [
+          "由21家金融机构组成的财团已承诺投入约2.7亿美元资金，用于名为Project Faro的稳定币计划；该计划目标是作为稳定币发行方，并在2027年上半年推出一款美元稳定币。",
+          "据Bloomberg报道，这笔资金将覆盖新公司五年的运营；该公司计划发行锚定所有七国集团（G7）国家货币的稳定币，以欧元支持的代币预计在美元稳定币之后推出。知情人士称，公司预计在美国注册成立。",
+          "BBVA等Faro成员也参与了Open USD、Qivalis等竞争计划；Rabobank和BNP Paribas后来加入了Qivalis。据DefiLlama数据，截至11月10日，USDT与USDC约占约2900亿美元稳定币市场的85%。"
+        ],
+        "lead_cn": "由21家金融机构组成的财团已承诺投入约2.7亿美元资金，用于一项名为Project Faro的稳定币计划，目标是于2027年上半年推出一款美元稳定币。",
+        "body_paragraphs": [
+          "由21家金融机构组成的财团已承诺投入约2.7亿美元资金，用于一项名为Project Faro的稳定币（stablecoin）计划。该计划获得大型银行支持，目标是作为稳定币发行方，并于2027年上半年推出一款美元稳定币。",
+          "据Bloomberg报道，这笔资金将用于覆盖新公司五年的运营。该公司计划发行锚定所有七国集团（G7）国家货币的稳定币，其中一款以欧元支持的代币预计将在美元稳定币推出之后跟进。该集团最初于9月宣布这项计划。",
+          "关于该计划的已确认细节有限。据Bloomberg报道，知情人士表示，这家新公司预计将在美国注册成立。该集团成员包括Citigroup、Goldman Sachs、Banco Santander、Deutsche Bank和BBVA等银行。类似计划也在推进，包括由Stripe主导的Open USD，Visa是其创始合作伙伴之一；以及Qivalis，这是一个寻求挑战美元锚定稳定币主导地位的欧洲银行财团。",
+          "BBVA是同时参与相互竞争的稳定币计划的Faro成员之一，其参与的项目包括Open USD和Qivalis。荷兰贷款机构Rabobank也是Faro成员，并于5月加入Qivalis，当时该欧元财团新增25家银行，成员总数达到37家。BNP Paribas是最早于2025年10月探索后来成为Faro的项目的10家银行之一，其后也加入了Qivalis。",
+          "Qivalis在监管方面取得了进展，于2026年10月获得荷兰央行授权，成为电子货币机构（electronic money institution）。该财团正准备推出一款完全受监管、以欧元计价的稳定币，并计划将其用于支付、跨境结算和代币化资产（tokenized assets）交易。",
+          "尽管机构兴趣不断上升，但Faro进入的是一个由两家加密原生发行方主导的市场。据DefiLlama数据，截至11月10日，Tether的USDT和Circle的USDC约占约2900亿美元稳定币市场的85%。其中USDT市值约1763亿美元，USDC约704亿美元。",
+          "Faro的参与机构已拥有现成的银行客户、支付网络，以及与企业和金融机构的关系。这些关系可能帮助分销新的稳定币，并向包括零售用户在内的新受众介绍该稳定币。",
+          "由Open Standard财团开发的Open USD正采取类似方式，将支付提供商、银行、金融科技公司和商户聚集在共享的稳定币基础设施周围。"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/banks-270m-project-faro-stablecoin-2027",
+        "published_at": "2026-11-11T07:08:28+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "市场动态",
+        "title_cn": "Polymarket美国10月名义交易量约147.7亿美元年化收入运行率超18亿美元",
+        "source_title": "Polymarket Revenue Tops $1.8 Billion as US Trading Activity…",
+        "event_date": "2026-11-10",
+        "key_points": [
+          "Polymarket美国交易所10月名义交易量约147.7亿美元，较6月40.4亿美元增长约266%；公司11月10日称年化收入运行率超过18亿美元，6月超过10亿美元。",
+          "10月组合合约86亿美元占58.2%，体育合约45.7亿美元占31%；增长集中在也处于监管争议中心的产品。",
+          "纽约州9月起诉Polymarket US，指其无州博彩牌照经营赌博业务；Polymarket在联邦法院质疑纽约权限，CFTC大体支持其管辖权立场，并称10月已对10个州启动程序。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Polymarket的美国交易所10月处理约147.7亿美元名义交易量，较6月的40.4亿美元增长约266%。公司11月10日表示，其年化收入运行率已超过18亿美元，而6月超过10亿美元。该数字代表按当前速度计算的收入，并非完整财年已赚取的18亿美元。原文称，体育和组合合约推动快速增长，同时公司面临州博彩法是否适用于联邦监管预测市场的日益重要争议。",
+          "10月，组合合约占Polymarket美国交易量的86亿美元，即58.2%；体育合约另增45.7亿美元，占31%。组合合约是把多个结果打包为单一头寸的合约。原文称，增长集中在这些产品上，而它们也处于行业监管争议的中心，这使最快增长的产品与招致最强州级法律挑战的合约直接相关。",
+          "名义交易量需要口径说明。TickerTracker按每份合约的全部潜在赔付计算名义交易量，而非仅按购买合约支付的现金计算。按此口径，10月交易量达147.7亿美元，较9月增长约70%，为6月水平的3.5倍以上。其他市场数据表明，实际支付用于购买合约的美元显著低于标题名义数字；在把预测市场交易量与常规证券、衍生品或体育博彩流水比较时，这一区别很重要。",
+          "即使按上述调整，增长方向仍明确。6月FIFA世界杯期间，足球相关合约产生约18.1亿美元名义交易量，5月为8540万美元；随后NFL交易和组合产品推动活动在当年晚些时候走高。美国中期选举前后政治活动也增加：11月前10天选举合约约1.082亿美元，9月全月为1660万美元，但政治在11月期间仅占Polymarket美国交易量约2.2%。",
+          "原文在“体育增长为何增加Polymarket监管暴露”小节下列出：纽约州9月起诉Polymarket US，指控该公司在没有州博彩牌照的情况下提供事件合约（包括体育市场），从而经营无牌赌博业务。该州寻求禁令、没收涉嫌非法所得、赔偿和民事罚款。",
+          "Polymarket回应称，其在联邦法院质疑纽约州的权限，理由是其美国交易所依据联邦商品法运营，且美国商品期货交易委员会（Commodity Futures Trading Commission，CFTC）对联邦监管衍生品交易所上市的合约拥有专属管辖权。CFTC大体支持这一管辖权立场。10月，该监管机构表示已对10个州启动程序，寻求阻止这些州通过州博彩法限制CFTC注册的预测市场。",
+          "该争议正走向潜在的最高法院考验。新泽西州已请求法院复审一项涉及Kalshi的上诉裁决，并决定联邦商品法是否阻止各州将体育博彩法适用于联邦监管交易所提供的事件合约。原文的投资者要点称，有利于联邦优先的裁决可能移除全国体育合约分销的主要障碍；保留更广泛州权的裁决则可能迫使预测市场运营商在地理上限制产品，或面对多重许可制度。",
+          "联邦监管并非完全对Polymarket有利。原文称，CFTC捍卫联邦管辖权并不意味着Polymarket免受联邦审查。据FinanceFeeds审阅的报告，该监管机构正另行审查Polymarket是否遵守2022年和解协议，该协议涉及美国访问其国际平台。调查人员还在审查较新的美国业务的历史地理控制、广告活动以及客户准入的某些方面。该调查尚未确立任何违规。",
+          "与此同时，Polymarket正在加强其受监管的美国基础设施。原文称，一家关联公司最近获得全国期货协会（National Futures Association，NFA）批准，成为期货佣金商（futures commission merchant，FCM），但须经CFTC最终注册。这最终可能允许该集团直接中介订单并持有客户资金。",
+          "Polymarket正推进约10亿美元融资，据报道，投后估值为210亿美元，1789 Capital预计出资约3亿美元。该轮尚未宣布完成，最终规模和投资者参与仍可能变化。拟议估值延续2026年早些时候的快速上升，投资者关注点在于近期交易激增能否在重大体育和政治事件之外持续。FinanceFeeds此前报道，拟议融资估值210亿美元，高于早前一轮后约150亿美元。原文投资者要点称，下一估值考验不只是交易量上升，还包括收入转化、重大事件外客户留存，以及联邦与州管辖权争议解决后体育合约是否仍广泛可用。"
+        ],
+        "source_name": "FinanceFeeds",
+        "url": "https://financefeeds.com/polymarket-revenue-tops-1-8-billion-as-us-trading-activity-more-than-triples/",
+        "published_at": "2026-11-11T04:44:13+08:00",
+        "region": "美国",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "代币化不止是把资产搬上链JanusHenderson策略师PatrikBjorklund解析JQQQ",
+        "source_title": "Tokenization Is More Than Moving Assets Onchain: Janus Strategist Patrik",
+        "event_date": "2026-11-05",
+        "key_points": [
+          "管理资产规模（AUM）约5000亿美元的Janus Henderson宣布推出一只旨在跟踪纳斯达克100指数（Nasdaq-100 Index）的区块链原生（blockchain-native）基金；该基金由其与代币化基础设施提供商Centrifuge共同开发，在获得纳斯达克授权后独家在Stellar区块链上推出。",
+          "Janus Henderson创新策略师Patrik Bjorklund表示，美国国债和私人信贷已经表明代币化可以适用于类现金和收益型资产，纳斯达克100指数不同，因为这是把一种成熟的主流股票敞口带上链。",
+          "文章提到，加密交易所OKX与纽约证券交易所母公司洲际交易所（ICE）的合资项目OKXICE最初确定了63个股票代码、代表62家公司，截至11月3日有49家最初被选公司选择退出，约占初始名单的79%；Bjorklund称挑战在于监管清晰度、互操作性，以及让尚未上链的投资者更容易获得这些产品。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "管理资产规模（AUM）约5000亿美元的Janus Henderson，成为最新一家加深对基于区块链的金融进行押注的大型传统资产管理公司。该公司宣布推出一只旨在跟踪纳斯达克100指数（Nasdaq-100 Index）的区块链原生（blockchain-native）基金。文章称，这标志着持续增长的代币化（tokenization）市场的又一重要进展，该市场规模在2026年9月突破340亿美元。",
+          "文章指出，迄今为止，代币化主要聚焦于把熟悉的金融工具，尤其是美国国债和私人信贷，带上区块链网络；而将全球最受认可之一的股票基准引入链上，代表着不同的一步。Janus Henderson创新策略师Patrik Bjorklund解释了原因：国债和私人信贷已经表明，代币化可以适用于类现金和收益型资产，两者对传统与去中心化市场参与者而言实用场景都在增多；纳斯达克100指数不同，因为现在是把一种成熟的主流股票敞口带上链，而JQQQ带来的是通过链上基金结构实现的、经授权的、由发行方发起的纳斯达克100指数敞口。",
+          "文章介绍，JQQQ由Janus Henderson与代币化基础设施提供商Centrifuge共同开发，是首只通过发行方发起的投资策略提供纳斯达克100指数敞口的区块链原生基金。该基金在获得纳斯达克授权后寻求跟踪纳斯达克100指数，并独家在Stellar区块链上推出。Bjorklund表示：“我们希望按照我们认为金融基础设施将走向的方向来建设，而不是仅仅创造某个现有产品的数字化表示。”",
+          "该基金本身的结构是Anemoy Capital SPC的一个独立投资组合。Anemoy Asset Management担任其投资管理人，Janus Henderson Investors US LLC则担任次级投资管理人。文章强调，这一区分很重要，因为此次推出并不意味着Janus Henderson是该基金唯一的法律发行方或投资管理人。对Janus Henderson而言，其想法并非简单地把现有投资产品以数字形式提供，而是从一开始就围绕区块链基础设施的能力来构建一只基金。",
+          "Bjorklund表示，差异在于投资者可以如何访问和持有该产品，以及它与其他应用连接的潜力。“区块链原生意味着合格投资者可以用稳定币（stablecoin）申购和赎回，并在链上持有该基金，”他说，“随着生态发展，它有可能与钱包和去中心化金融（DeFi）应用连接。”文章指出，代表某一资产的代币并不会自动使该资产在去中心化金融市场中变得有用，其底层结构、所有权权利、可转让性以及与其他平台的兼容性都很重要；而将此类持仓整合进借贷市场、抵押安排和可编程投资组合的可能性，可能进一步扩展其用途。",
+          "文章称，随着对代币化股票的兴趣上升，一个更复杂的辩论被推到前台：当投资者购买与某只公开交易股票挂钩的代币时，他究竟拥有什么。Bjorklund解释说：“我认为这场辩论是有用的，因为它凸显出并非所有代币化产品都一样。第三方创建一个跟踪某只股票的代币，与一个经过授权、由发行方发起、具有明确所有权和投资者保护的投资产品之间，存在重要区别。”文章称，随着一些全球最大的公开上市公司反对通过第三方平台将其股份代币化的计划，这场辩论变得尤为相关。",
+          "文章举出的显著例子，是加密交易所OKX与纽约证券交易所母公司洲际交易所（ICE）拟议中的代币化股票交易合资项目。该合资项目OKXICE最初确定了63个股票代码，代表其打算提供区块链交易的62家公司。但该提议遭到被选公司的相当大阻力：截至11月3日，共有56家公司对该计划表示反对；更重要的是，最初62家公司中有49家选择退出，约占初始名单的79%。另有七家不在最初名单内的公司也提出反对。名单包括微软、Alphabet、亚马逊、英伟达、特斯拉、摩根大通、高盛、可口可乐、沃尔玛和Netflix。",
+          "尽管势头强劲，文章指出区块链原生投资产品仍远未成为传统基金的常规替代品。Bjorklund说：“我认为归根结底是三件事：监管清晰度、互操作性，以及让尚未上链的投资者更容易获得这些产品。当链上基金能够通过第三方钱包和平台常规获得、拥有其中一只感觉就像拥有一只传统投资产品一样简单直接时，我们就会知道我们取得了真正的进展。”",
+          "Bjorklund认为，关于代币化最大的误解之一是，其目的只是把现有资产放到区块链上。“更有意思的问题是，一旦资产在链上，随着链上资产成为更广泛的可编程金融生态的一部分，可以用它做什么，”他说。文章称，Janus Henderson的纳斯达克100指数基金本身并不证明传统指数投资即将完全转向链上，也未解决代币化股票面临的监管和基础设施挑战，但它确实让人一窥老牌资产管理公司正如何对待这一机会。文章最后称，代币化的成功或许不以有多少传统资产被带上链来衡量，而可能取决于这些资产到达链上后是否更易获得、更具互操作性且更有用。"
+        ],
+        "source_name": "CoinGape",
+        "url": "https://coingape.com/block-of-fame/opinion/tokenization-is-more-than-moving-assets-onchain-janus-strategist-patrik/",
+        "published_at": "2026-11-04T23:59:00+08:00",
+        "region": "全球",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      },
+      {
+        "section": "意见领袖",
+        "title_cn": "MarkMoss比特币“史上最佳买入机会”已经到来",
+        "source_title": "Bitcoin’s ‘best buying opportunity ever’ has arrived: Mark Moss",
+        "event_date": "2026-11-10",
+        "key_points": [
+          "Bitcoin Opportunity Fund 联合创始人 Mark Moss 称，华尔街对比特币（Bitcoin）的接纳创造了“史上最佳买入机会”。",
+          "Moss 预计，随着银行和交易所交易基金（exchange-traded funds，ETF）扩大 Bitcoin 的可及性，比特币将在2027年创下历史新高。",
+          "Moss 表示，他会继续持有自己的比特币，只用投资组合的一小部分通过比特币储备公司（Bitcoin treasury company）股票追求更高回报。"
+        ],
+        "lead_cn": "",
+        "body_paragraphs": [
+          "Bitcoin Opportunity Fund 联合创始人 Mark Moss 在 Cointelegraph 的 Trade Secrets 节目中说，华尔街对比特币（Bitcoin）的接纳创造了“史上最佳买入机会”。他回忆自己首次买入 Bitcoin 是在2015年，价格约为300美元，当时正处于从1000美元跌至200美元后的回升阶段。他称当时“风险太大了”，而今天“你拥有来自美国政府和华尔街的共识”。但他也表示，大多数人仍认为它是骗局。",
+          "Moss 是 Bitcoin Opportunity Fund 的咨询合伙人，并于2025年被英国上市的 Satsuma Technology 任命为首席 Bitcoin 策略师。他把当前阶段描述为 Bitcoin 正在跨越早期采用者与主流投资者之间的“鸿沟”。他说，怀疑情绪会带来买入机会。银行和交易所交易基金（exchange-traded funds，ETF）已经让 Bitcoin 更容易购买，财务顾问也可能帮助说服此前一直回避的客户考虑投资。",
+          "原文小标题称“Moss 称触底，但 Bitcoin 继续下跌”。民主党在中期选举中控制美国国会后，Bitcoin 曾短暂升破80000美元，随后随着科技股抛售回吐涨幅。到周五，它跌至74762美元，为8月以来最低水平，并在撰写时仍处于低迷状态。尽管出现抛售，Moss 仍以63亿美元 Binance 黑客事件后的反应为依据，认为卖家正在耗尽。",
+          "文章称，Binance 被入侵后，Bitcoin 跌至76320美元，周五滑落至74762美元，抹去选举后涨幅。周日稍晚，在 Nvidia 董事会宣布将调查有关首席执行官 Jensen Huang 被外国情报行动针对的报道后，Bitcoin 进一步跌至约73500美元，为8月以来最低水平。报道称，在 Nvidia 首席执行官相关丑闻的报道后，Bitcoin 又找到了一个底部。",
+          "美国现货 Bitcoin ETF 的资金流在选举周急剧摆动。原文称，这些基金周三流入约7500万美元，周四流出4.3亿美元。不过，Moss 认为历史站在持有者一边。他说，根据回溯至2014年的数据，Bitcoin 在此前美国中期选举后的12个月里平均上涨约53%；他的样本包含三个已完成的选举周期。他预计 Bitcoin 将在2027年创下历史新高（all-time high）。",
+          "Moss 认为，值得拥有的比特币储备公司（Bitcoin treasury company）是 Strategy（MSTR），但他相信自行持有 Bitcoin 仍然更优。Strategy 从2020年开始购买 Bitcoin，并将这些购买转变为其业务核心。它通过股票和债务销售为购买提供资金，让投资者可以通过一家上市公司押注 Bitcoin。截至11月2日，Strategy 持有849327枚 BTC，超过 Bitcoin 最大供应量的4%。Moss 说：“我不认为未来十年还有另一家上市公司会跑赢 Strategy。”",
+          "文章称，当价格上涨时，杠杆（leverage）可以帮助 Bitcoin 储备公司的股票跑赢其持有的加密货币。但即便 Strategy 跑赢，Moss 也不会把自己的 Bitcoin 持仓换成它的股票。在买入第一个 Bitcoin 之前，Moss 靠购买止赎房产、翻修并出售为生。他随后进入房地产开发，之后建立并出售了一家医疗设备企业。他说，自己把收益投入南加州房地产；2008年市场崩盘时，他失去了一切。Moss 说：“正确的回报不值得错误的冒险。”",
+          "即便对 Strategy 有上述展望，Moss 仍表示他会保留自己的 Bitcoin，并且只用投资组合的一小部分，通过比特币储备公司股票追求更高回报。在 Moss 的模型中，当 Bitcoin 与股票、债券、黄金和房地产竞争相当一部分投资者财富时，它可能在某些情况下达到100万美元。该模型估算这些资产的价值，预测随着全球货币供应（global money supply）扩张这一资金池可能如何增长，并根据 Bitcoin 所捕获的份额计算其价格。",
+          "Moss 表示，财务顾问可能通过一个又一个客户的组合把资金带入，鼓励客户将几个百分点从股票或债券转向 Bitcoin。该情景取决于足够多的客户这样做，使这些小额配置相加。该模型还假设 Bitcoin 保持安全（secure）和去中心化（decentralized）。当被问及什么可能破坏该情景时，Moss 指向一项会损害上述任一特征的失败。他说，到2030年100万美元是可能的，不过持有者可能不得不等到2032年。"
+        ],
+        "source_name": "Cointelegraph",
+        "url": "https://cointelegraph.com/magazine/bitcoins-best-buying-opportunity-ever-has-arrived-mark-moss",
+        "published_at": "2026-11-10T21:30:00+08:00",
+        "region": "其他",
+        "fact_check": "逐句对照原文核验，已删除未支撑内容。"
+      }
+    ],
+    "notes": [
+      "统计窗口内选稿；政策风向覆盖美国两篇、欧洲一篇，满足至少一篇美国且地区分散。",
+      "行业前沿选择协议升级与跨链/预言机方向，市场动态选择融资与预测市场收入，避免重复主题。"
+    ]
+  },
+  "factcheck": {
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      "item 2 contains question-style future/unknown wording; ensure the source explicitly raises it",
+      "item 5 contains relative time wording; replace with exact date",
+      "item 7 contains question-style future/unknown wording; ensure the source explicitly raises it",
+      "item 7 contains relative time wording; replace with exact date",
+      "item 9 contains relative time wording; replace with exact date"
+    ]
+  },
+  "outputs": {
+    "docx": "reports/2026/加密货币观察_20261111.docx",
+    "manifest": "reports/2026/_manifests/加密货币观察_20261111.json"
+  }
+}
